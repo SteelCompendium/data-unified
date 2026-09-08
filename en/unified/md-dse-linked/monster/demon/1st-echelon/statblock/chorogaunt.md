@@ -38,6 +38,8 @@ features:
           tier1: 4 psychic damage; I < 1 [slowed](../../../../condition/slowed.md) (save ends)
           tier2: 7 psychic damage; I < 2 [slowed](../../../../condition/slowed.md) (save ends)
           tier3: 10 psychic damage; I < 3 [slowed](../../../../condition/slowed.md) (save ends)
+        - effect: One ally within 10 squares of the chorogaunt [shifts](../../../../movement/shifting.md) up to their speed.
+          name: Effect
       feature_type: ability
       icon: ❇️
       keywords:
@@ -49,7 +51,8 @@ features:
       usage: Main action
     - distance: 10 burst
       effects:
-        - effect: '**Effect:** The chorogaunt slides each target up to 3 squares, ignoring [stability](../../../../rule/character/stability.md).'
+        - effect: The chorogaunt slides each target up to 3 squares, ignoring [stability](../../../../rule/character/stability.md).
+          name: Effect
       feature_type: ability
       icon: ❇️
       keywords:
@@ -61,15 +64,15 @@ features:
     - cost: 3 Malice
       distance: Self
       effects:
-        - effect: |-
-            **Trigger:** The chorogaunt is targeted by a strike.
-            **Effect:** Any damage from the strike is halved, and the chorogaunt's abilities deal an extra 3 damage until the end of their next turn.
+        - effect: Any damage from the strike is halved, and the chorogaunt's abilities deal an extra 3 damage until the end of their next turn.
+          name: Effect
       feature_type: ability
       icon: ❗️
       keywords:
         - Magic
       name: I Thrive on Pain
       target: Self
+      trigger: The chorogaunt is targeted by a strike.
       type: feature
       usage: Triggered action
     - effects:
@@ -93,7 +96,8 @@ features:
     - cost: Villain Action 1
       distance: Ranged 10
       effects:
-        - effect: '**Effect:** Each target must choose between taking 5 psychic damage, or being [frightened](../../../../condition/frightened.md) (save ends).'
+        - effect: Each target must choose between taking 5 psychic damage, or being [frightened](../../../../condition/frightened.md) (save ends).
+          name: Effect
       feature_type: ability
       icon: ☠️
       keywords:
@@ -105,7 +109,8 @@ features:
     - cost: Villain Action 2
       distance: Ranged 10
       effects:
-        - effect: '**Effect:** The chorogaunt kills the target, and each other ally in the encounter deals an extra 3 damage with strikes until the end of the round. The Director gains [Malice](../../../../rule/monster/malice.md) equal to the number of heroes in the encounter.'
+        - effect: The chorogaunt kills the target, and each other ally in the encounter deals an extra 3 damage with strikes until the end of the round. The Director gains [Malice](../../../../rule/monster/malice.md) equal to the number of heroes in the encounter.
+          name: Effect
       feature_type: ability
       icon: ☠️
       keywords:
@@ -118,7 +123,8 @@ features:
     - cost: Villain Action 3
       distance: Self
       effects:
-        - effect: '**Effect:** The chorogaunt [shifts](../../../../movement/shifting.md) up to their speed, uses Agonizing Harmony, [shifts](../../../../movement/shifting.md) up to their speed, and then uses Agonizing Harmony again.'
+        - effect: The chorogaunt [shifts](../../../../movement/shifting.md) up to their speed, uses Agonizing Harmony, [shifts](../../../../movement/shifting.md) up to their speed, and then uses Agonizing Harmony again.
+          name: Effect
       feature_type: ability
       icon: ☠️
       keywords:

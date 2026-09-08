@@ -2,10 +2,19 @@
 features:
     - body: The olothec takes an additional main action on their turn. They can use this feature even if they are [dazed](../../condition/dazed.md).
       cost: 4 Malice
+      effects:
+        - effect: The olothec takes an additional main action on their turn. They can use this feature even if they are [dazed](../../condition/dazed.md).
       icon: ☠️
       name: Solo Action
     - cost: 4 Malice
       distance: Melee 3
+      effects:
+        - roll: Power Roll + 4
+          tier1: 11 psychic damage; A < 2 [grabbed](../../condition/grabbed.md)
+          tier2: 17 psychic damage; A < 3 [grabbed](../../condition/grabbed.md)
+          tier3: 20 psychic damage; A < 4 [grabbed](../../condition/grabbed.md)
+        - effect: The olothec can [pull](../../movement/forced-movement.md) a target [grabbed](../../condition/grabbed.md) this way [adjacent](../../rule/combat/adjacent.md) to them. While [grabbed](../../condition/grabbed.md) this way, a target can't make [saving throws](../../rule/general/saving-throw.md) to end any other effects, and the olothec has a double edge on strikes against them.
+          name: Effect
       icon: "\U0001F5E1"
       keywords:
         - Melee
@@ -25,6 +34,8 @@ features:
       usage: Main action
     - body: The olothec broadcasts their memory of the universe in its primordial state—a sweeping cacophony of transcendental irrationality and unceasing change. Until the end of the encounter, any creature who starts their turn within 3 squares of the olothec and has R < 3 is [dazed](../../condition/dazed.md) and [slowed](../../condition/slowed.md) until the end of their next turn).
       cost: 6 Malice
+      effects:
+        - effect: The olothec broadcasts their memory of the universe in its primordial state—a sweeping cacophony of transcendental irrationality and unceasing change. Until the end of the encounter, any creature who starts their turn within 3 squares of the olothec and has R < 3 is [dazed](../../condition/dazed.md) and [slowed](../../condition/slowed.md) until the end of their next turn).
       icon: ❇️
       name: Memory of Chaos
 flavor: At the start of an olothec's turn, you can spend Malice to activate one of the following features.

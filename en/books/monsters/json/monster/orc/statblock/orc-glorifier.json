@@ -11,6 +11,10 @@
           "tier1": "1 sonic damage",
           "tier2": "2 sonic damage; P \u003c 1 [slowed](scc.v1:mcdm.heroes.v1/condition/slowed) (save ends)",
           "tier3": "3 sonic damage; P \u003c 2 [slowed](scc.v1:mcdm.heroes.v1/condition/slowed) (save ends)"
+        },
+        {
+          "effect": "Allies gain an edge on melee [strikes](scc.v1:mcdm.heroes.v1/rule.combat/strike) against the target until the glorifier and each other glorifier in their [squad](scc.v1:mcdm.monsters.v1/rule.monster/squad) are killed.",
+          "name": "Effect"
         }
       ],
       "feature_type": "ability",

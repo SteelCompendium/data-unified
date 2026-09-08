@@ -38,6 +38,8 @@ features:
           tier1: 1 damage
           tier2: 2 damage; the tiro can [shift](scc.v1:mcdm.heroes.v1/movement/shifting) 1 square
           tier3: 3 damage; the tiro [shifts](scc.v1:mcdm.heroes.v1/movement/shifting) up to 2 squares
+        - effect: The target can't [shift](scc.v1:mcdm.heroes.v1/movement/shifting) until the start of the tiro's next turn.
+          name: Effect
       feature_type: ability
       icon: "\U0001F5E1"
       keywords:

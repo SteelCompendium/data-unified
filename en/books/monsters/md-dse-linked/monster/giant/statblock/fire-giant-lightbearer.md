@@ -56,6 +56,8 @@ features:
           tier1: 15 fire damage
           tier2: 21 fire damage
           tier3: 26 fire damage
+        - effect: The blaze ricochets, targeting one additional target within 4 squares of an original target and taking a bane against that target, or targeting two additional targets within 2 squares of an original target and having a double bane against those targets. The lightbearer makes one power roll against all targets.
+          name: Effect
       feature_type: ability
       icon: "\U0001F3F9"
       keywords:
@@ -68,7 +70,8 @@ features:
       usage: Main action
     - distance: Ranged 5
       effects:
-        - effect: '**Effect:** The lightbearer can target themself with this ability. Each target takes 1d6 fire damage and [teleports](../../../movement/teleport.md) in a plume of smoke to swap places with the other target.'
+        - effect: The lightbearer can target themself with this ability. Each target takes 1d6 fire damage and [teleports](../../../movement/teleport.md) in a plume of smoke to swap places with the other target.
+          name: Effect
       feature_type: ability
       icon: "\U0001F3F9"
       keywords:
@@ -80,14 +83,14 @@ features:
       usage: Maneuver
     - distance: Self
       effects:
-        - effect: |-
-            **Trigger:** The lightbearer takes damage.
-            **Effect:** The lightbearer emits a beacon of light until the start of their next turn. Each fire giant who has line of effect to the lightbearer has a double edge on abilities.
+        - effect: The lightbearer emits a beacon of light until the start of their next turn. Each fire giant who has line of effect to the lightbearer has a double edge on abilities.
+          name: Effect
       feature_type: ability
       icon: ❗️
       keywords: []
       name: Emergency Beacon
       target: Self
+      trigger: The lightbearer takes damage.
       type: feature
       usage: Triggered action
     - effects:

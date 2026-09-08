@@ -1,6 +1,11 @@
 ---
 features:
-    - icon: "\U0001F300"
+    - effects:
+        - effect: As a maneuver, a creature [adjacent](../../rule/combat/adjacent.md) to an arrow launcher can make an **Agility test**.
+          tier1: The creature accidentally activates the **Arrow Storm** ability.
+          tier2: The arrow launcher is deactivated but the creature is [slowed](../../condition/slowed.md) (EoT).
+          tier3: The arrow launcher is deactivated and can't be used.
+      icon: "\U0001F300"
       intro: As a maneuver, a creature [adjacent](../../rule/combat/adjacent.md) to an arrow launcher can make an **Agility test**.
       name: Deactivate
       power_roll:
@@ -9,6 +14,13 @@ features:
             low: The creature accidentally activates the **Arrow Storm** ability.
             mid: The arrow launcher is deactivated but the creature is [slowed](../../condition/slowed.md) (EoT).
     - distance: 5 cube within 20
+      effects:
+        - roll: Power Roll + 2
+          tier1: 5 damage
+          tier2: 8 damage
+          tier3: 11 damage
+        - effect: This ability can't be used again until the arrow launcher is reloaded.
+          name: Effect
       icon: "\U0001F533"
       keywords:
         - '- Area'
@@ -27,6 +39,9 @@ features:
       target: Each creature and object in the area
       usage: Main action (Adjacent creature)
     - distance: '-'
+      effects:
+        - effect: The arrow launcher is reloaded, allowing **Arrow Storm** to be used again. This action can be used only once per round.
+          name: Effect
       icon: ⭐️
       name: Reload
       sections:
@@ -35,6 +50,9 @@ features:
       target: '-'
       usage: Main action (Adjacent creature)
     - distance: '-'
+      effects:
+        - effect: The next use of **Arrow Storm** gains an edge and has a +10 bonus to ranged distance. This action can be used only once per round.
+          name: Effect
       icon: ⭐️
       name: Spot
       sections:
@@ -43,6 +61,9 @@ features:
       target: '-'
       usage: Main action (Adjacent creature)
     - distance: '-'
+      effects:
+        - effect: The arrow launcher and the creature using this action move together up to 3 squares.
+          name: Effect
       icon: ⭐️
       name: Move
       sections:
@@ -54,9 +75,19 @@ features:
         **Flaming Arrows (+1 EV) Arrow Storm** deals fire damage, and can ignite flammable objects in its area.
 
         **Screamers (+3 EV)** The arrows make a high-pitched screaming noise as they are fired and descend onto their targets. The **Screamers** ability replaces **Arrow Storm**.
+      effects:
+        - effect: '**Flaming Arrows (+1 EV) Arrow Storm** deals fire damage, and can ignite flammable objects in its area.'
+        - effect: '**Screamers (+3 EV)** The arrows make a high-pitched screaming noise as they are fired and descend onto their targets. The **Screamers** ability replaces **Arrow Storm**.'
       icon: ⭐️
       name: Upgrades
     - distance: 5 cube within 20
+      effects:
+        - roll: Power Roll + 2
+          tier1: 5 damage; R < 0 [dazed](../../condition/dazed.md) ([save](../../rule/general/saving-throw.md) ends)
+          tier2: 8 damage; R < 1 [dazed](../../condition/dazed.md) ([save](../../rule/general/saving-throw.md) ends)
+          tier3: 11 damage; R < 2 [frightened](../../condition/frightened.md) ([save](../../rule/general/saving-throw.md) ends)
+        - effect: This ability can't be used again until the arrow launcher is reloaded.
+          name: Effect
       icon: "\U0001F533"
       keywords:
         - Area

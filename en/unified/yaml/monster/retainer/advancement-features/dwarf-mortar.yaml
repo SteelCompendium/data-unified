@@ -1,6 +1,13 @@
 features:
     - cost: Encounter
       distance: Special; see below
+      effects:
+        - effect: The mortar fires a shell straight upward, which hovers 3 squares up in the air and sheds light below it in a 3 cube. Enemies illuminated by this light can't [hide](scc.v1:mcdm.heroes.v1/feature.common.maneuvers/hide) or turn invisible and can't benefit from concealment or cover. At the start of the mortar's next turn, the shell explodes to deal damage to enemies in the area.
+          name: Effect
+          roll: Power Roll + highest characteristic
+          tier1: 5 fire damage
+          tier2: 8 fire damage
+          tier3: 11 fire damage
       icon: "\U0001F533"
       keywords:
         - Area
@@ -21,6 +28,11 @@ features:
       usage: Main action
     - cost: Encounter
       distance: 3 cube within 15
+      effects:
+        - roll: Power Roll + highest characteristic
+          tier1: 8 damage; I < WEAK [dazed](scc.v1:mcdm.heroes.v1/condition/dazed) ([save](scc.v1:mcdm.heroes.v1/rule.general/saving-throw) ends
+          tier2: 12 damage; I < AVERAGE [dazed](scc.v1:mcdm.heroes.v1/condition/dazed) ([save](scc.v1:mcdm.heroes.v1/rule.general/saving-throw) ends)
+          tier3: 16 damage; I < STRONG [dazed](scc.v1:mcdm.heroes.v1/condition/dazed) ([save](scc.v1:mcdm.heroes.v1/rule.general/saving-throw) ends) and [prone](scc.v1:mcdm.heroes.v1/condition/prone)
       icon: "\U0001F533"
       keywords:
         - Area
@@ -38,6 +50,13 @@ features:
       usage: Main action
     - cost: Encounter
       distance: 10 x 1 line within 1
+      effects:
+        - roll: Power Roll + highest characteristic
+          tier1: 6 damage; P < WEAK [frightened](scc.v1:mcdm.heroes.v1/condition/frightened)
+          tier2: 9 damage; P < AVERAGE [frightened](scc.v1:mcdm.heroes.v1/condition/frightened)
+          tier3: 13 damage; P < STRONG [frightened](scc.v1:mcdm.heroes.v1/condition/frightened)
+        - effect: Until the start of the mortar's next turn, [strikes](scc.v1:mcdm.heroes.v1/rule.combat/strike) made against the mortar or any ally [adjacent](scc.v1:mcdm.heroes.v1/rule.combat/adjacent) to them take a bane.
+          name: Effect
       icon: "\U0001F533"
       keywords:
         - Area

@@ -39,6 +39,8 @@ features:
           tier1: 10 damage
           tier2: 15 damage
           tier3: 18 fire damage; R < 3 [dazed](scc.v1:mcdm.heroes.v1/condition/dazed) (save ends)
+        - effect: The magistrate [shifts](scc.v1:mcdm.heroes.v1/movement/shifting) up to 3 squares before or after using this ability, or between each strike.
+          name: Effect
       feature_type: ability
       icon: "\U0001F5E1"
       keywords:
@@ -55,6 +57,8 @@ features:
           tier1: 11 damage
           tier2: 17 damage
           tier3: 21 damage
+        - effect: This ability has a double [edge](scc.v1:mcdm.heroes.v1/rule.dice/edge) if the magistrate was hidden from the target, and deals an extra 5 damage if the target is [dazed](scc.v1:mcdm.heroes.v1/condition/dazed).
+          name: Effect
       feature_type: ability
       icon: "\U0001F5E1"
       keywords:
@@ -67,7 +71,8 @@ features:
       usage: Main action
     - distance: Self
       effects:
-        - effect: '**Effect:** The magistrate turns invisible until the start of their next turn, and can attempt to hide as a [free maneuver](scc.v1:mcdm.heroes.v1/rule.combat/free-maneuver) before the end of the current turn.'
+        - effect: The magistrate turns invisible until the start of their next turn, and can attempt to hide as a [free maneuver](scc.v1:mcdm.heroes.v1/rule.combat/free-maneuver) before the end of the current turn.
+          name: Effect
       feature_type: ability
       icon: "\U0001F464"
       keywords: []
@@ -78,7 +83,8 @@ features:
     - cost: 2 Malice
       distance: Ranged 5
       effects:
-        - roll: ""
+        - effect: The target makes a Presence test.
+          name: Effect
           tier1: The magistrate chooses a new target for the strike.
           tier2: The magistrate halves the triggering damage.
           tier3: The target takes a [bane](scc.v1:mcdm.heroes.v1/rule.dice/bane) on the strike.
@@ -89,6 +95,7 @@ features:
         - Ranged
       name: Devilish Charm
       target: The triggering creature
+      trigger: A creature targets the magistrate with a strike.
       type: feature
       usage: Triggered action
     - effects:

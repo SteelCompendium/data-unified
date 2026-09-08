@@ -38,6 +38,8 @@ features:
           tier1: 11 damage; I < 2 [bleeding](scc.v1:mcdm.heroes.v1/condition/bleeding) (save ends)
           tier2: 16 damage; I < 3 [bleeding](scc.v1:mcdm.heroes.v1/condition/bleeding) (save ends)
           tier3: 19 damage; I < 4 [bleeding](scc.v1:mcdm.heroes.v1/condition/bleeding) (save ends)
+        - cost: 2 Malice
+          effect: The [potency](scc.v1:mcdm.heroes.v1/rule.character/potency) increases by 1.
       feature_type: ability
       icon: "\U0001F5E1"
       keywords:
@@ -65,15 +67,15 @@ features:
       usage: Maneuver
     - distance: Ranged 10
       effects:
-        - effect: |-
-            **Trigger:** An enemy within distance uses an ability that emits light, including abilities that deal fire or lightning damage.
-            **Effect:** The target has a double bane on the ability.
+        - effect: The target has a double bane on the ability.
+          name: Effect
       feature_type: ability
       icon: ❗️
       keywords:
         - Ranged
       name: Put It Out!
       target: The triggering enemy
+      trigger: An enemy within distance uses an ability that emits light, including abilities that deal fire or lightning damage.
       type: feature
       usage: Triggered action
     - effects:
@@ -91,7 +93,8 @@ features:
     - cost: Villain Action 1
       distance: Ranged 5
       effects:
-        - effect: '**Effect:** The eclipse calls forth one brush stalker into an unoccupied space within distance. Each ally within distance can then [shift](scc.v1:mcdm.heroes.v1/movement/shifting) up to their speed and make a [free strike](scc.v1:mcdm.heroes.v1/feature.common.main-actions/free-strike).'
+        - effect: The eclipse calls forth one brush stalker into an unoccupied space within distance. Each ally within distance can then [shift](scc.v1:mcdm.heroes.v1/movement/shifting) up to their speed and make a [free strike](scc.v1:mcdm.heroes.v1/feature.common.main-actions/free-strike).
+          name: Effect
       feature_type: ability
       icon: ☠️
       keywords:
@@ -103,7 +106,8 @@ features:
     - cost: Villain Action 2
       distance: 3 burst
       effects:
-        - effect: '**Effect:** Each target loses all their [surges](scc.v1:mcdm.heroes.v1/rule.resource/surge). Additionally, until the end of the round, allies ignore edges and double edges on any targets'' abilities, and ignore any nondamaging effects of any target''s damage-dealing abilities.'
+        - effect: Each target loses all their [surges](scc.v1:mcdm.heroes.v1/rule.resource/surge). Additionally, until the end of the round, allies ignore edges and double edges on any targets' abilities, and ignore any nondamaging effects of any target's damage-dealing abilities.
+          name: Effect
       feature_type: ability
       icon: ☠️
       keywords:
@@ -120,6 +124,8 @@ features:
           tier1: 7 corruption damage; R < 2 the target has speed 0 (save ends)
           tier2: 12 corruption damage; R < 3 the target has speed 0 (save ends)
           tier3: 15 corruption damage; R < 4 the target has speed 0 (save ends)
+        - effect: The area is shrouded in darkness that creates concealment until the end of the encounter. Any enemy who starts their turn in the area takes 5 corruption damage.
+          name: Effect
       feature_type: ability
       icon: ☠️
       keywords:

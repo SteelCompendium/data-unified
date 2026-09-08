@@ -36,6 +36,10 @@ features:
           tier1: 8 damage; [slide](../../../movement/forced-movement.md) 1
           tier2: 12 damage; [slide](../../../movement/forced-movement.md) 3
           tier3: 15 damage; [slide](../../../movement/forced-movement.md) 5
+        - effect: A target [restrained](../../../condition/restrained.md) by a dwarf can be force moved by this ability. This forced movement doesn't end the [restrained](../../../condition/restrained.md) condition unless the Director determines otherwise.
+          name: Effect
+        - cost: 3 Malice
+          effect: A target force moved [adjacent](../../../rule/combat/adjacent.md) to an ally of the marauder lord is [restrained](../../../condition/restrained.md) until the end of their next turn.
       feature_type: ability
       icon: ⚔️
       keywords:
@@ -50,9 +54,10 @@ features:
       usage: Main action
     - distance: Ranged 10
       effects:
-        - effect: |-
-            **Effect:** The target vertical [slides](../../../movement/forced-movement.md) up to 5 squares. A target [restrained](../../../condition/restrained.md) by a dwarf can be force moved by this ability. This forced movement doesn't end the [restrained](../../../condition/restrained.md) condition unless the Director determines otherwise.
-            **5 [Malice](../../../rule/monster/malice.md):** This ability takes the Area keyword and loses the Ranged keyword, its distance becomes a 10 burst, and it targets each [restrained](../../../condition/restrained.md) creature in the area.
+        - effect: The target vertical [slides](../../../movement/forced-movement.md) up to 5 squares. A target [restrained](../../../condition/restrained.md) by a dwarf can be force moved by this ability. This forced movement doesn't end the [restrained](../../../condition/restrained.md) condition unless the Director determines otherwise.
+          name: Effect
+        - cost: 5 Malice
+          effect: This ability takes the Area keyword and loses the Ranged keyword, its distance becomes a 10 burst, and it targets each [restrained](../../../condition/restrained.md) creature in the area.
       feature_type: ability
       icon: "\U0001F3F9"
       keywords:
@@ -64,9 +69,8 @@ features:
       usage: Maneuver
     - distance: Ranged 10
       effects:
-        - effect: |-
-            **Trigger:** A creature makes a melee strike against the target.
-            **Effect:** The target halves any damage from the strike and the triggering creature takes 4 damage.
+        - effect: The target halves any damage from the strike and the triggering creature takes 4 damage.
+          name: Effect
       feature_type: ability
       icon: ❗️
       keywords:
@@ -74,6 +78,7 @@ features:
         - Ranged
       name: Your Weapon Is Useless
       target: Self or one ally
+      trigger: A creature makes a melee strike against the target.
       type: feature
       usage: Triggered action
     - effects:
@@ -85,7 +90,8 @@ features:
     - cost: Villain Action 1
       distance: 5 cube within 10
       effects:
-        - effect: '**Effect:** The marauder lord uses Levitating Axes against each target, making one power roll against all targets.'
+        - effect: The marauder lord uses Levitating Axes against each target, making one power roll against all targets.
+          name: Effect
       feature_type: ability
       icon: ☠️
       keywords:
@@ -100,7 +106,8 @@ features:
     - cost: Villain Action 2
       distance: 5 burst
       effects:
-        - effect: '**Effect:** Each target shifts up to their speed. The marauder lord then uses Levitating Axes.'
+        - effect: Each target shifts up to their speed. The marauder lord then uses Levitating Axes.
+          name: Effect
       feature_type: ability
       icon: ☠️
       keywords:
@@ -112,7 +119,8 @@ features:
     - cost: Villain Action 3
       distance: Ranged 10
       effects:
-        - effect: '**Effect:** The marauder lord creates three size 2 metal objects in unoccupied spaces within distance. Whenever the marauder lord uses Magnetomancy, they can additionally target one of these objects.'
+        - effect: The marauder lord creates three size 2 metal objects in unoccupied spaces within distance. Whenever the marauder lord uses Magnetomancy, they can additionally target one of these objects.
+          name: Effect
       feature_type: ability
       icon: ☠️
       keywords:

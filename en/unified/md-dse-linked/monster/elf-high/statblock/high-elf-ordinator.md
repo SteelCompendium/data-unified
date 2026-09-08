@@ -38,6 +38,8 @@ features:
           tier1: 9 lightning damage; R < 1 [dazed](../../../condition/dazed.md) (save ends)
           tier2: 14 lightning damage; R < 2 [dazed](../../../condition/dazed.md) (save ends)
           tier3: 17 lightning damage; R < 3 [dazed](../../../condition/dazed.md) (save ends)
+        - effect: Until the start of the ordinator's next turn, each ally high elf in the encounter gains an edge on ability rolls against the target.
+          name: Effect
       feature_type: ability
       icon: "\U0001F3F9"
       keywords:
@@ -50,7 +52,8 @@ features:
       usage: Main action
     - distance: 10 burst
       effects:
-        - effect: '**Effect:** Each target can move up to their speed or make a [free strike](../../../feature/common/main-actions/free-strike.md). Elemental mote targets can, instead, use their Spark of Life trait.'
+        - effect: Each target can move up to their speed or make a [free strike](../../../feature/common/main-actions/free-strike.md). Elemental mote targets can, instead, use their Spark of Life trait.
+          name: Effect
       feature_type: ability
       icon: ❇️
       keywords:
@@ -63,9 +66,10 @@ features:
     - cost: 2 Malice
       distance: Ranged 10
       effects:
-        - effect: |-
-            **Effect:** The ordinator summons four elemental motes or four soot crows into unoccupied space within distance.
-            **3 [Malice](../../../rule/monster/malice.md):** The ordinator instead summons one ceramic horse or one winded brambleguard into an unoccupied space within distance.
+        - effect: The ordinator summons four elemental motes or four soot crows into unoccupied space within distance.
+          name: Effect
+        - cost: 3 Malice
+          effect: The ordinator instead summons one ceramic horse or one winded brambleguard into an unoccupied space within distance.
       feature_type: ability
       icon: "\U0001F3F9"
       keywords:
@@ -76,15 +80,15 @@ features:
       usage: Maneuver
     - distance: Ranged 10
       effects:
-        - effect: |-
-            **Trigger:** An enemy within distance uses an ability against the ordinator or any ally within distance.
-            **Effect:** The ordinator uses Lightning Rod against the target after the ability is resolved.
+        - effect: The ordinator uses Lightning Rod against the target after the ability is resolved.
+          name: Effect
       feature_type: ability
       icon: ❗️
       keywords:
         - Ranged
       name: Enough!
       target: The triggering enemy
+      trigger: An enemy within distance uses an ability against the ordinator or any ally within distance.
       type: feature
       usage: Triggered action
     - effects:
@@ -96,7 +100,8 @@ features:
     - cost: Villain Action 1
       distance: 10 burst
       effects:
-        - effect: '**Effect:** Each target glows briefly, and can end one effect on themself then move up to their speed.'
+        - effect: Each target glows briefly, and can end one effect on themself then move up to their speed.
+          name: Effect
       feature_type: ability
       icon: ☠️
       keywords:
@@ -109,10 +114,13 @@ features:
     - cost: Villain Action 2
       distance: 5 cube within 10
       effects:
-        - roll: ""
+        - effect: Each target makes a **Presence test**.
+          name: Effect
           tier1: 12 corruption damage; pull 5 toward the center of the cube
           tier2: 9 corruption damage; pull 3 toward the center of the cube
           tier3: Pull 1 toward the center of the cube
+        - effect: The area turns dark and distorted, and is difficult terrain for enemies.
+          name: Effect
       feature_type: ability
       icon: ☠️
       keywords:
@@ -126,7 +134,8 @@ features:
     - cost: Villain Action 3
       distance: 10 burst
       effects:
-        - effect: '**Effect:** Each target''s free strike now has the Magic keyword and can target two creatures or objects. Additionally, each target glows with magic.'
+        - effect: Each target's free strike now has the Magic keyword and can target two creatures or objects. Additionally, each target glows with magic.
+          name: Effect
       feature_type: ability
       icon: ☠️
       keywords:

@@ -1,15 +1,30 @@
 ---
 features:
     - body: Each square of lava must be individually destroyed.
+      effects:
+        - effect: Each square of lava must be individually destroyed.
       icon: "\U0001F300"
       name: Deactivate
     - body: A creature or object enters the lava or starts their turn there, or starts their turn [adjacent](../../rule/combat/adjacent.md) to the lava.
+      effects:
+        - effect: A creature or object enters the lava or starts their turn there, or starts their turn [adjacent](../../rule/combat/adjacent.md) to the lava.
+        - effect: The **Liquid Hot Magma** ability.
+          name: Effect
       icon: ❕
       name: Activate
       sections:
         - label: Effect
           text: The **Liquid Hot Magma** ability.
     - distance: Melee 1
+      effects:
+        - effect: A creature or object enters the lava or starts their turn there, or starts their turn [adjacent](../../rule/combat/adjacent.md) to the lava.
+          name: Trigger
+          roll: Power Roll + 2
+          tier1: 5 fire damage; M < 1 the target is burning ([save](../../rule/general/saving-throw.md) ends)
+          tier2: 9 fire damage; M < 2 the target is burning ([save](../../rule/general/saving-throw.md) ends)
+          tier3: 12 fire damage; M < 3 the target is burning ([save](../../rule/general/saving-throw.md) ends)
+        - effect: If the target is [adjacent](../../rule/combat/adjacent.md) to lava but not in it, this ability takes a bane. A burning creature takes 1d6 fire damage at the start of each of their turns. A burning object takes 1d6 fire damage at the end of each round.
+          name: Effect
       icon: ❗️
       keywords:
         - Melee
@@ -29,6 +44,8 @@ features:
       target: The triggering creature or object
       usage: Free triggered action
     - body: '**Magma Flow (+4 EV)** The lava is flowing! At the start of each round, add one square of lava [adjacent](../../rule/combat/adjacent.md) to an existing square of lava.'
+      effects:
+        - effect: '**Magma Flow (+4 EV)** The lava is flowing! At the start of each round, add one square of lava [adjacent](../../rule/combat/adjacent.md) to an existing square of lava.'
       icon: ⭐️
       name: Upgrade
 file_basename: lava
@@ -57,15 +74,30 @@ type: dynamic-terrain
 ```ds-fb
 features:
     - body: Each square of lava must be individually destroyed.
+      effects:
+        - effect: Each square of lava must be individually destroyed.
       icon: "\U0001F300"
       name: Deactivate
     - body: A creature or object enters the lava or starts their turn there, or starts their turn [adjacent](../../rule/combat/adjacent.md) to the lava.
+      effects:
+        - effect: A creature or object enters the lava or starts their turn there, or starts their turn [adjacent](../../rule/combat/adjacent.md) to the lava.
+        - effect: The **Liquid Hot Magma** ability.
+          name: Effect
       icon: ❕
       name: Activate
       sections:
         - label: Effect
           text: The **Liquid Hot Magma** ability.
     - distance: Melee 1
+      effects:
+        - effect: A creature or object enters the lava or starts their turn there, or starts their turn [adjacent](../../rule/combat/adjacent.md) to the lava.
+          name: Trigger
+          roll: Power Roll + 2
+          tier1: 5 fire damage; M < 1 the target is burning ([save](../../rule/general/saving-throw.md) ends)
+          tier2: 9 fire damage; M < 2 the target is burning ([save](../../rule/general/saving-throw.md) ends)
+          tier3: 12 fire damage; M < 3 the target is burning ([save](../../rule/general/saving-throw.md) ends)
+        - effect: If the target is [adjacent](../../rule/combat/adjacent.md) to lava but not in it, this ability takes a bane. A burning creature takes 1d6 fire damage at the start of each of their turns. A burning object takes 1d6 fire damage at the end of each round.
+          name: Effect
       icon: ❗️
       keywords:
         - Melee
@@ -85,6 +117,8 @@ features:
       target: The triggering creature or object
       usage: Free triggered action
     - body: '**Magma Flow (+4 EV)** The lava is flowing! At the start of each round, add one square of lava [adjacent](../../rule/combat/adjacent.md) to an existing square of lava.'
+      effects:
+        - effect: '**Magma Flow (+4 EV)** The lava is flowing! At the start of each round, add one square of lava [adjacent](../../rule/combat/adjacent.md) to an existing square of lava.'
       icon: ⭐️
       name: Upgrade
 flavor: A patch of blisteringly hot molten rock wells up from the ground, threatening anyone who gets close to it.

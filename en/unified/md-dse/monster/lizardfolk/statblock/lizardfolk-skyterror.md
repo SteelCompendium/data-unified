@@ -38,6 +38,8 @@ features:
           tier1: 5 damage
           tier2: 7 damage
           tier3: 9 damage; [prone](scc.v1:mcdm.heroes.v1/condition/prone)
+        - effect: If the skyterror is [flying](scc.v1:mcdm.heroes.v1/movement/fly), they [shift](scc.v1:mcdm.heroes.v1/movement/shifting) up to 4 squares.
+          name: Effect
       feature_type: ability
       icon: "\U0001F5E1"
       keywords:
@@ -54,6 +56,8 @@ features:
           tier1: 3 damage; M < 0 [weakened](scc.v1:mcdm.heroes.v1/condition/weakened) (save ends)
           tier2: 5 damage; M < 1 [weakened](scc.v1:mcdm.heroes.v1/condition/weakened) (save ends)
           tier3: 7 damage; M < 2 [weakened](scc.v1:mcdm.heroes.v1/condition/weakened) (save ends)
+        - effect: Any creature who ends their turn [adjacent](scc.v1:mcdm.heroes.v1/rule.combat/adjacent) to a target [weakened](scc.v1:mcdm.heroes.v1/condition/weakened) this way is [weakened](scc.v1:mcdm.heroes.v1/condition/weakened) until the end of their next turn.
+          name: Effect
       feature_type: ability
       icon: "\U0001F3F9"
       keywords:

@@ -2,14 +2,27 @@
 features:
     - body: A dwarf can destroy one [adjacent](../../rule/combat/adjacent.md) object or square of wall for each 3 [Malice](../../rule/monster/malice.md) spent. Each enemy [adjacent](../../rule/combat/adjacent.md) to the destroyed object or square takes the object's Stamina in damage (3 for wood, 6 for stone, or 9 for metal).
       cost: 3 Malice
+      effects:
+        - effect: A dwarf can destroy one [adjacent](../../rule/combat/adjacent.md) object or square of wall for each 3 [Malice](../../rule/monster/malice.md) spent. Each enemy [adjacent](../../rule/combat/adjacent.md) to the destroyed object or square takes the object's Stamina in damage (3 for wood, 6 for stone, or 9 for metal).
       icon: "\U0001F464"
       name: Breaching Charge
     - body: Each dwarf acting this turn can automatically climb at full speed while moving. At any point during this movement, they can make a [free strike](../../feature/common/main-actions/free-strike.md).
       cost: 5 Malice
+      effects:
+        - effect: Each dwarf acting this turn can automatically climb at full speed while moving. At any point during this movement, they can make a [free strike](../../feature/common/main-actions/free-strike.md).
       icon: ⭐️
       name: Rappelling Barrage
     - cost: 7 Malice
       distance: 10 x 1 line within 10
+      effects:
+        - effect: Each target makes an **Agility test**.
+          name: Effect
+          tier1: 8 damage; [restrained](../../condition/restrained.md) (EoT)
+          tier2: 6 damage; [slowed](../../condition/slowed.md) (EoT)
+          tier3: No effect.
+        - effect: The snaring line remains until the end of the encounter. Any enemy who moves into the area for the first time in a round or starts their turn there must make the test.
+        - effect: This ability can't be used by a [minion](../../rule/organization/minion.md).
+          name: Special
       icon: "\U0001F533"
       keywords:
         - Area
@@ -45,14 +58,27 @@ type: featureblock
 features:
     - body: A dwarf can destroy one [adjacent](../../rule/combat/adjacent.md) object or square of wall for each 3 [Malice](../../rule/monster/malice.md) spent. Each enemy [adjacent](../../rule/combat/adjacent.md) to the destroyed object or square takes the object's Stamina in damage (3 for wood, 6 for stone, or 9 for metal).
       cost: 3 Malice
+      effects:
+        - effect: A dwarf can destroy one [adjacent](../../rule/combat/adjacent.md) object or square of wall for each 3 [Malice](../../rule/monster/malice.md) spent. Each enemy [adjacent](../../rule/combat/adjacent.md) to the destroyed object or square takes the object's Stamina in damage (3 for wood, 6 for stone, or 9 for metal).
       icon: "\U0001F464"
       name: Breaching Charge
     - body: Each dwarf acting this turn can automatically climb at full speed while moving. At any point during this movement, they can make a [free strike](../../feature/common/main-actions/free-strike.md).
       cost: 5 Malice
+      effects:
+        - effect: Each dwarf acting this turn can automatically climb at full speed while moving. At any point during this movement, they can make a [free strike](../../feature/common/main-actions/free-strike.md).
       icon: ⭐️
       name: Rappelling Barrage
     - cost: 7 Malice
       distance: 10 x 1 line within 10
+      effects:
+        - effect: Each target makes an **Agility test**.
+          name: Effect
+          tier1: 8 damage; [restrained](../../condition/restrained.md) (EoT)
+          tier2: 6 damage; [slowed](../../condition/slowed.md) (EoT)
+          tier3: No effect.
+        - effect: The snaring line remains until the end of the encounter. Any enemy who moves into the area for the first time in a round or starts their turn there must make the test.
+        - effect: This ability can't be used by a [minion](../../rule/organization/minion.md).
+          name: Special
       icon: "\U0001F533"
       keywords:
         - Area

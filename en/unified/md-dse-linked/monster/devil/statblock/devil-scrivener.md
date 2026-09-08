@@ -41,6 +41,8 @@ features:
           tier1: 3 corruption damage
           tier2: 5 corruption damage; [slowed](../../../condition/slowed.md) (EoT)
           tier3: 6 corruption damage; [slowed](../../../condition/slowed.md) (EoT)
+        - effect: The scrivener can [shift](../../../movement/shifting.md) 1 square.
+          name: Effect
       feature_type: ability
       icon: "\U0001F5E1"
       keywords:

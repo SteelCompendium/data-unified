@@ -39,6 +39,8 @@ features:
           tier1: 7 damage; M < 2 [grabbed](scc.v1:mcdm.heroes.v1/condition/grabbed)
           tier2: 10 damage; M < 3 [grabbed](scc.v1:mcdm.heroes.v1/condition/grabbed)
           tier3: 11 damage; M < 4 [grabbed](scc.v1:mcdm.heroes.v1/condition/grabbed)
+        - effect: A creature [grabbed](scc.v1:mcdm.heroes.v1/condition/grabbed) this way is [suffocating](scc.v1:mcdm.heroes.v1/rule.health/suffocating). The koptourok can have up to two creatures [grabbed](scc.v1:mcdm.heroes.v1/condition/grabbed) at once.
+          name: Effect
       feature_type: ability
       icon: "\U0001F5E1"
       keywords:
@@ -56,6 +58,8 @@ features:
           tier1: '[Pull](scc.v1:mcdm.heroes.v1/movement/forced-movement) 3; M < 2 5 corruption damage'
           tier2: '[Pull](scc.v1:mcdm.heroes.v1/movement/forced-movement) 5; M < 3 5 corruption damage'
           tier3: '[Pull](scc.v1:mcdm.heroes.v1/movement/forced-movement) 7; M < 4 5 corruption damage'
+        - effect: This ability gains an [edge](scc.v1:mcdm.heroes.v1/rule.dice/edge) against any target [grabbed](scc.v1:mcdm.heroes.v1/condition/grabbed) by the koptourok. If one or more targets are pulled [adjacent](scc.v1:mcdm.heroes.v1/rule.combat/adjacent) to the koptourok, the koptourok can [fly](scc.v1:mcdm.heroes.v1/movement/fly) until the end of the encounter.
+          name: Effect
       feature_type: ability
       icon: ❇️
       keywords:

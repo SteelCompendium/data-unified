@@ -41,6 +41,8 @@ features:
           tier1: 1 damage
           tier2: 2 damage
           tier3: 3 damage
+        - effect: If this ability is used as part of a charge, the raider can make a ranged [free strike](../../../feature/common/main-actions/free-strike.md) before using the ability.
+          name: Effect
       feature_type: ability
       icon: "\U0001F5E1"
       keywords:

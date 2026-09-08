@@ -37,6 +37,8 @@ features:
           tier1: 10 damage
           tier2: 15 damage
           tier3: 18 damage
+        - cost: 3 Malice
+          effect: Two allies within distance can use a [signature ability](../../../../rule/combat/signature-ability.md) against the same target.
       feature_type: ability
       icon: "\U0001F3F9"
       keywords:
@@ -54,6 +56,8 @@ features:
           tier1: 11 damage; M < 1 [weakened](../../../../condition/weakened.md) (save ends)
           tier2: 16 damage; M < 2 [weakened](../../../../condition/weakened.md) (save ends)
           tier3: 21 damage; M < 3 [weakened](../../../../condition/weakened.md) (save ends)
+        - effect: One ally [adjacent](../../../../rule/combat/adjacent.md) to the target regains 7 [Stamina](../../../../rule/health/stamina.md).
+          name: Effect
       feature_type: ability
       icon: "\U0001F3F9"
       keywords:
@@ -66,15 +70,15 @@ features:
       usage: Main action
     - distance: Ranged 10
       effects:
-        - effect: |-
-            **Trigger:** An enemy within distance willingly moves.
-            **Effect:** At any point during the movement, the tactician and one ally within distance can each make a [free strike](../../../../feature/common/main-actions/free-strike.md) against the target.
+        - effect: At any point during the movement, the tactician and one ally within distance can each make a [free strike](../../../../feature/common/main-actions/free-strike.md) against the target.
+          name: Effect
       feature_type: ability
       icon: ❗️
       keywords:
         - Ranged
       name: Take the Opening
       target: The triggering enemy
+      trigger: An enemy within distance willingly moves.
       type: feature
       usage: Triggered action
     - effects:

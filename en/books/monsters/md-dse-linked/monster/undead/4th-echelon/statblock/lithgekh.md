@@ -41,6 +41,8 @@ features:
           tier1: 9 corruption damage; I < 3 [frightened](../../../../condition/frightened.md) (save ends)
           tier2: 12 corruption damage; I < 4 [frightened](../../../../condition/frightened.md) (save ends)
           tier3: 14 corruption damage; I < 5 [frightened](../../../../condition/frightened.md) (save ends)
+        - effect: A creature [frightened](../../../../condition/frightened.md) this way takes a [bane](../../../../rule/dice/bane.md) on any ability that targets [undead](../../../../rule/keyword/undead.md).
+          name: Effect
       feature_type: ability
       icon: "\U0001F3F9"
       keywords:
@@ -54,9 +56,8 @@ features:
     - cost: 1 Malice
       distance: Ranged 20
       effects:
-        - effect: |-
-            **Trigger:** A creature within distance uses a magic ability.
-            **Effect:** Any damage dealt by or [Stamina](../../../../rule/health/stamina.md) regained from the ability is halved. The lithgekh regains [Stamina](../../../../rule/health/stamina.md) equal to the remaining damage dealt or [Stamina](../../../../rule/health/stamina.md) gained.
+        - effect: Any damage dealt by or [Stamina](../../../../rule/health/stamina.md) regained from the ability is halved. The lithgekh regains [Stamina](../../../../rule/health/stamina.md) equal to the remaining damage dealt or [Stamina](../../../../rule/health/stamina.md) gained.
+          name: Effect
       feature_type: ability
       icon: ❗️
       keywords:
@@ -64,6 +65,7 @@ features:
         - Ranged
       name: Mystic Battery
       target: The triggering creature
+      trigger: A creature within distance uses a magic ability.
       type: feature
       usage: Free triggered action
     - effects:

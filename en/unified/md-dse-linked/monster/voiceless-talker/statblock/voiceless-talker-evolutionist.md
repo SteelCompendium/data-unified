@@ -52,7 +52,8 @@ features:
       usage: Main action
     - distance: Ranged 5
       effects:
-        - effect: '**Effect:** The evolutionist [teleports](../../../movement/teleport.md) to swap places with the target.'
+        - effect: The evolutionist [teleports](../../../movement/teleport.md) to swap places with the target.
+          name: Effect
       feature_type: ability
       icon: "\U0001F3F9"
       keywords:
@@ -64,15 +65,15 @@ features:
       usage: Maneuver
     - distance: Self
       effects:
-        - effect: |-
-            **Trigger:** The evolutionist takes damage that has a damage type.
-            **Effect:** Until the start of their next turn, the evolutionist has damage immunity 5 to the triggering damage type.
+        - effect: Until the start of their next turn, the evolutionist has damage immunity 5 to the triggering damage type.
+          name: Effect
       feature_type: ability
       icon: ❗️
       keywords:
         - Psionic
       name: Adaptability
       target: Self
+      trigger: The evolutionist takes damage that has a damage type.
       type: feature
       usage: Triggered Action
     - effects:
@@ -90,7 +91,8 @@ features:
     - cost: Villain Action 1
       distance: 5 burst
       effects:
-        - roll: ""
+        - effect: Each target makes an Intuition test.
+          name: Effect
           tier1: The target uses a [signature ability](../../../rule/combat/signature-ability.md) against the nearest enemy within distance.
           tier2: The target makes a [free strike](../../../feature/common/main-actions/free-strike.md) against the nearest enemy within distance.
           tier3: '[Frightened](../../../condition/frightened.md) (save ends)'
@@ -106,7 +108,8 @@ features:
     - cost: Villain Action 2
       distance: Ranged 5
       effects:
-        - effect: '**Effect:** The evolutionist [teleports](../../../movement/teleport.md) eight [minions](../../../rule/organization/minion.md) of level 4 or lower into unoccupied spaces within distance. All eight [minions](../../../rule/organization/minion.md) can be of any monster type but must share the same name.'
+        - effect: The evolutionist [teleports](../../../movement/teleport.md) eight [minions](../../../rule/organization/minion.md) of level 4 or lower into unoccupied spaces within distance. All eight [minions](../../../rule/organization/minion.md) can be of any monster type but must share the same name.
+          name: Effect
       feature_type: ability
       icon: ☠️
       keywords:
@@ -123,6 +126,8 @@ features:
           tier1: 7 lightning damage
           tier2: 12 lightning damage
           tier3: 15 lightning damage
+        - effect: Until the end of the encounter, the evolutionist is surrounded by a psionic electrical storm that is a 5 aura. The area is [difficult terrain](../../../movement/difficult-terrain.md) for enemies, and any enemy who enters the area for the first time in a round or starts their turn there takes 8 lightning damage.
+          name: Effect
       feature_type: ability
       icon: ☠️
       keywords:

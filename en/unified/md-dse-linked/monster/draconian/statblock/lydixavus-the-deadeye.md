@@ -69,7 +69,8 @@ features:
       usage: Main action
     - distance: Self
       effects:
-        - effect: '**Effect:** Lydixavus [flies](../../../movement/fly.md) up to their speed, leaving a size 1S ice mine in the space they took off from. The ice mine explodes when an enemy enters its space, using the power roll for the Ice Lob ability, and targeting the triggering creature and each creature and object [adjacent](../../../rule/combat/adjacent.md) to the ice mine.'
+        - effect: Lydixavus [flies](../../../movement/fly.md) up to their speed, leaving a size 1S ice mine in the space they took off from. The ice mine explodes when an enemy enters its space, using the power roll for the Ice Lob ability, and targeting the triggering creature and each creature and object [adjacent](../../../rule/combat/adjacent.md) to the ice mine.
+          name: Effect
       feature_type: ability
       icon: "\U0001F464"
       keywords: []
@@ -79,14 +80,14 @@ features:
       usage: Maneuver
     - distance: Self
       effects:
-        - effect: |-
-            **Trigger:** Lydixavus obtains a tier 1 outcome on their [signature ability](../../../rule/combat/signature-ability.md).
-            **Effect:** Lydixavus uses their [signature ability](../../../rule/combat/signature-ability.md) again, targeting a creature within 5 squares of the original target.
+        - effect: Lydixavus uses their [signature ability](../../../rule/combat/signature-ability.md) again, targeting a creature within 5 squares of the original target.
+          name: Effect
       feature_type: ability
       icon: ❗️
       keywords: []
       name: Wasn't Aiming For You
       target: Self
+      trigger: Lydixavus obtains a tier 1 outcome on their [signature ability](../../../rule/combat/signature-ability.md).
       type: feature
       usage: Triggered action
     - effects:

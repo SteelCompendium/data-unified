@@ -8,6 +8,8 @@ features:
           tier1: 4 damage
           tier2: 7 damage
           tier3: 10 damage
+        - effect: The arrowswift can take a bane on this ability to gain a +5 bonus to ranged distance.
+          name: Effect
       feature_type: ability
       icon: "\U0001F3F9"
       keywords:

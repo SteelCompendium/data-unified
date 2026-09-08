@@ -5,7 +5,12 @@
     {
       "effects": [
         {
-          "effect": "**[End Effect](scc.v1:mcdm.monsters.v1/rule.monster/end-effect):** At the end of each of their turns, the cryptic can take 5 damage to end one effect on them that can be ended by a saving throw. This damage can't be reduced in any way.\n**Solo Turns:** The cryptic can take two turns each round. They can't take turns consecutively."
+          "effect": "At the end of each of their turns, the cryptic can take 5 damage to end one effect on them that can be ended by a saving throw. This damage can't be reduced in any way.",
+          "name": "End Effect"
+        },
+        {
+          "effect": "The cryptic can take two turns each round. They can't take turns consecutively.",
+          "name": "Solo Turns"
         }
       ],
       "feature_type": "trait",
@@ -44,6 +49,10 @@
           "tier1": "8 damage; A \u003c 1 [slide](scc.v1:mcdm.heroes.v1/movement/forced-movement) 2",
           "tier2": "12 damage; A \u003c 2 [slide](scc.v1:mcdm.heroes.v1/movement/forced-movement) 2, [prone](scc.v1:mcdm.heroes.v1/condition/prone)",
           "tier3": "15 damage; A \u003c 3 [slide](scc.v1:mcdm.heroes.v1/movement/forced-movement) 3, [prone](scc.v1:mcdm.heroes.v1/condition/prone) and can't stand (EoT)"
+        },
+        {
+          "effect": "If a target made [prone](scc.v1:mcdm.heroes.v1/condition/prone) this way is already [prone](scc.v1:mcdm.heroes.v1/condition/prone), they are instead [restrained](scc.v1:mcdm.heroes.v1/condition/restrained) (EoT).",
+          "name": "Effect"
         }
       ],
       "feature_type": "ability",
@@ -66,6 +75,10 @@
           "tier1": "4 damage; M \u003c 1 [push](scc.v1:mcdm.heroes.v1/movement/forced-movement) 2",
           "tier2": "7 damage; M \u003c 2 [prone](scc.v1:mcdm.heroes.v1/condition/prone)",
           "tier3": "10 damage; M \u003c 3 [prone](scc.v1:mcdm.heroes.v1/condition/prone)"
+        },
+        {
+          "effect": "The cryptic reforms their body and appears in an unoccupied space in the area.",
+          "name": "Effect"
         }
       ],
       "feature_type": "ability",
@@ -82,7 +95,12 @@
       "distance": "Ranged 5",
       "effects": [
         {
-          "effect": "**Effect:** The cryptic [slides](scc.v1:mcdm.heroes.v1/movement/forced-movement) the target up to 3 squares.\n**2 [Malice](scc.v1:mcdm.monsters.v1/rule.monster/malice):** The ability targets one additional target."
+          "effect": "The cryptic [slides](scc.v1:mcdm.heroes.v1/movement/forced-movement) the target up to 3 squares.",
+          "name": "Effect"
+        },
+        {
+          "cost": "2 Malice",
+          "effect": "The ability targets one additional target."
         }
       ],
       "feature_type": "ability",
@@ -100,7 +118,8 @@
       "distance": "Self",
       "effects": [
         {
-          "effect": "**Trigger:** The cryptic takes damage.\n**Effect:** The cryptic halves the damage, ignores any nondamaging effects associated with it, and [shifts](scc.v1:mcdm.heroes.v1/movement/shifting) up to 3 squares."
+          "effect": "The cryptic halves the damage, ignores any nondamaging effects associated with it, and [shifts](scc.v1:mcdm.heroes.v1/movement/shifting) up to 3 squares.",
+          "name": "Effect"
         }
       ],
       "feature_type": "ability",
@@ -108,6 +127,7 @@
       "keywords": null,
       "name": "Dissipate",
       "target": "Self",
+      "trigger": "The cryptic takes damage.",
       "type": "feature",
       "usage": "Triggered action"
     },
@@ -116,6 +136,8 @@
       "distance": "2 burst",
       "effects": [
         {
+          "effect": "Before using the Dig maneuver, the cryptic moves up to their speed. They then create the burst when they breach the surface.",
+          "name": "Effect",
           "roll": "Power Roll + 3",
           "tier1": "4 damage; [push](scc.v1:mcdm.heroes.v1/movement/forced-movement) 2",
           "tier2": "7 damage; [push](scc.v1:mcdm.heroes.v1/movement/forced-movement) 3, [prone](scc.v1:mcdm.heroes.v1/condition/prone)",
@@ -129,6 +151,7 @@
       ],
       "name": "Shatterstone",
       "target": "Each enemy in the area",
+      "trigger": "The cryptic uses the Dig maneuver to resurface.",
       "type": "feature",
       "usage": "Triggered action"
     },
@@ -137,7 +160,12 @@
       "distance": "10 burst",
       "effects": [
         {
-          "roll": "",
+          "effect": "A target must be on the ground.",
+          "name": "Special"
+        },
+        {
+          "effect": "Each target makes a **Might test**.",
+          "name": "Effect",
           "tier1": "[Prone](scc.v1:mcdm.heroes.v1/condition/prone) and can't stand (EoT)",
           "tier2": "[Prone](scc.v1:mcdm.heroes.v1/condition/prone)",
           "tier3": "No effect"
@@ -158,7 +186,12 @@
       "distance": "5 burst",
       "effects": [
         {
-          "roll": "",
+          "effect": "A target must be on the ground.",
+          "name": "Special"
+        },
+        {
+          "effect": "The area drops 2 squares and is [difficult terrain](scc.v1:mcdm.heroes.v1/movement/difficult-terrain). Each target enemy falls, while each target ally drops safely. Additionally, each target enemy makes an **Agility test**.",
+          "name": "Effect",
           "tier1": "9 damage; [prone](scc.v1:mcdm.heroes.v1/condition/prone)",
           "tier2": "5 damage",
           "tier3": "The target moves to the nearest unoccupied space outside the area."
@@ -179,6 +212,15 @@
       "distance": "Ranged 10",
       "effects": [
         {
+          "effect": "The cryptic makes an initial power roll that calls down stone pillars from the ceiling.",
+          "name": "Effect",
+          "roll": "Power Roll + 3",
+          "tier1": "5 damage; [prone](scc.v1:mcdm.heroes.v1/condition/prone); M \u003c 1 [restrained](scc.v1:mcdm.heroes.v1/condition/restrained) (save ends)",
+          "tier2": "9 damage; [prone](scc.v1:mcdm.heroes.v1/condition/prone); M \u003c 2 [restrained](scc.v1:mcdm.heroes.v1/condition/restrained) (save ends)",
+          "tier3": "12 damage; [prone](scc.v1:mcdm.heroes.v1/condition/prone); M \u003c 3 [restrained](scc.v1:mcdm.heroes.v1/condition/restrained) (save ends)"
+        },
+        {
+          "effect": "The cryptic then makes a second power roll that raises stone pillars from the floor (**📏 Ranged 10** | **🎯 Two creatures or objects on the ground**)",
           "roll": "Power Roll + 3",
           "tier1": "2 damage; vertical [slide](scc.v1:mcdm.heroes.v1/movement/forced-movement) 2",
           "tier2": "3 damage; vertical [slide](scc.v1:mcdm.heroes.v1/movement/forced-movement) 4",

@@ -39,6 +39,8 @@ features:
           tier1: 7 damage
           tier2: 10 damage
           tier3: 13 damage; R < 2 [weakened](scc.v1:mcdm.heroes.v1/condition/weakened) (save ends)
+        - cost: 2 Malice
+          effect: A creature [weakened](scc.v1:mcdm.heroes.v1/condition/weakened) this way is also [bleeding](scc.v1:mcdm.heroes.v1/condition/bleeding).
       feature_type: ability
       icon: "\U0001F5E1"
       keywords:
@@ -63,6 +65,7 @@ features:
         - Ranged
       name: Shared Sickness
       target: The triggering creature
+      trigger: A creature deals damage to any ally of the armiger who the armiger has [line of effect](scc.v1:mcdm.heroes.v1/rule.combat/line-of-effect) to.
       type: feature
       usage: Triggered action
     - effects:

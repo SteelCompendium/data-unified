@@ -21,7 +21,8 @@ features:
       usage: Main action
     - distance: Self
       effects:
-        - effect: '**Effect:** The firerunner moves up to their speed and creates an 8 wall of fire along the path of their movement. Creatures can enter and pass through the wall. Any enemy who enters the wall for the first time in a round or starts their turn there takes 5 fire damage.'
+        - effect: The firerunner moves up to their speed and creates an 8 wall of fire along the path of their movement. Creatures can enter and pass through the wall. Any enemy who enters the wall for the first time in a round or starts their turn there takes 5 fire damage.
+          name: Effect
       feature_type: ability
       icon: "\U0001F464"
       keywords:

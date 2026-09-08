@@ -5,7 +5,10 @@
     {
       "effects": [
         {
-          "effect": "The detective can command up to two squads of minions with a maximum of 4 minions per squad. They can only have one squad of [signature minions](scc.v1:mcdm.summoner.v1/feature.summoner.level-1/minions) active at any time.\nAt the start of each of the detective's turns, up to three **razors** appear in unoccupied spaces within 5 squares of the detective. On each of the detective's turns, they direct the squad of razors to move and use a main action."
+          "effect": "The detective can command up to two squads of minions with a maximum of 4 minions per squad. They can only have one squad of [signature minions](scc.v1:mcdm.summoner.v1/feature.summoner.level-1/minions) active at any time."
+        },
+        {
+          "effect": "At the start of each of the detective's turns, up to three **razors** appear in unoccupied spaces within 5 squares of the detective. On each of the detective's turns, they direct the squad of razors to move and use a main action."
         }
       ],
       "feature_type": "trait",
@@ -22,6 +25,10 @@
           "tier1": "1 damage",
           "tier2": "3 damage",
           "tier3": "5 damage; R \u003c STRONG [slowed](scc.v1:mcdm.heroes.v1/condition/slowed) (save ends)"
+        },
+        {
+          "effect": "The target takes an additional 1 damage for each demon [adjacent](scc.v1:mcdm.heroes.v1/rule.combat/adjacent) to them.",
+          "name": "Effect"
         }
       ],
       "feature_type": "ability",

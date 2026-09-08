@@ -2,6 +2,9 @@
 features:
     - cost: Encounter
       distance: Ranged 3
+      effects:
+        - effect: The target can spend 1 [Recovery](scc.v1:mcdm.heroes.v1/rule.health/recoveries), and has their speed doubled until the end of their next turn.
+          name: Effect
       icon: "\U0001F3F9"
       keywords:
         - Ranged
@@ -14,6 +17,11 @@ features:
       usage: Main action
     - cost: Encounter
       distance: Ranged 3
+      effects:
+        - roll: Power Roll + highest characteristic
+          tier1: 8 psychic damage; R < WEAK [frightened](scc.v1:mcdm.heroes.v1/condition/frightened) ([save](scc.v1:mcdm.heroes.v1/rule.general/saving-throw) ends)
+          tier2: 13 psychic damage; R < AVERAGE [frightened](scc.v1:mcdm.heroes.v1/condition/frightened) ([save](scc.v1:mcdm.heroes.v1/rule.general/saving-throw) ends)
+          tier3: 17 psychic damage; R < STRONG [frightened](scc.v1:mcdm.heroes.v1/condition/frightened) ([save](scc.v1:mcdm.heroes.v1/rule.general/saving-throw) ends)
       icon: "\U0001F3F9"
       keywords:
         - Psionic
@@ -31,6 +39,13 @@ features:
       usage: Main action
     - cost: Encounter
       distance: 2 burst
+      effects:
+        - roll: Power Roll + highest characteristic
+          tier1: 11 psychic damage
+          tier2: 16 psychic damage
+          tier3: 21 psychic damage
+        - effect: If the mind healer is [dazed](scc.v1:mcdm.heroes.v1/condition/dazed), [frightened](scc.v1:mcdm.heroes.v1/condition/frightened), or [taunted](scc.v1:mcdm.heroes.v1/condition/taunted), they can end one of those conditions and impose the same condition on one enemy in the area. Additionally, they can do the same for their mentor if the mentor is in the area and is [dazed](scc.v1:mcdm.heroes.v1/condition/dazed), [frightened](scc.v1:mcdm.heroes.v1/condition/frightened), or [taunted](scc.v1:mcdm.heroes.v1/condition/taunted).
+          name: Effect
       icon: ❇️
       keywords:
         - Area

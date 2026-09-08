@@ -42,6 +42,8 @@ features:
           tier1: 4 corruption or fire damage
           tier2: 6 corruption or fire damage
           tier3: 8 corruption or fire damage
+        - cost: 2 Malice
+          effect: Each target who has P < 2 is [weakened](../../../condition/weakened.md) (save ends). Any enemy who starts their turn within 3 squares of a target [weakened](../../../condition/weakened.md) this way and who has P < 2 is [weakened](../../../condition/weakened.md) (save ends).
       feature_type: ability
       icon: "\U0001F3F9"
       keywords:
@@ -55,7 +57,8 @@ features:
     - cost: 1 Malice
       distance: Ranged 10
       effects:
-        - effect: '**Effect:** Each target can [teleport](../../../movement/teleport.md) up to 5 squares. Each creature [adjacent](../../../rule/combat/adjacent.md) to a target at their destination takes 3 fire damage.'
+        - effect: Each target can [teleport](../../../movement/teleport.md) up to 5 squares. Each creature [adjacent](../../../rule/combat/adjacent.md) to a target at their destination takes 3 fire damage.
+          name: Effect
       feature_type: ability
       icon: "\U0001F3F9"
       keywords:

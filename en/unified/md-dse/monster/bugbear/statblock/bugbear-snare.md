@@ -40,6 +40,8 @@ features:
           tier1: 3 damage
           tier2: 6 damage
           tier3: 7 damage; A < 3 [slowed](scc.v1:mcdm.heroes.v1/condition/slowed) (save ends)
+        - effect: If the snare started their turn hidden from the target, the target is automatically [grabbed](scc.v1:mcdm.heroes.v1/condition/grabbed). A target [grabbed](scc.v1:mcdm.heroes.v1/condition/grabbed) this way or already [grabbed](scc.v1:mcdm.heroes.v1/condition/grabbed) by the snare can be vertical [pushed](scc.v1:mcdm.heroes.v1/movement/forced-movement) up to 4 squares.
+          name: Effect
       feature_type: ability
       icon: "\U0001F5E1"
       keywords:

@@ -39,6 +39,8 @@ features:
           tier1: 8 damage
           tier2: 13 damage; R < 1 [prone](scc.v1:mcdm.heroes.v1/condition/prone) and can't stand (save ends)
           tier3: 16 damage; R < 2 [prone](scc.v1:mcdm.heroes.v1/condition/prone) and can't stand (save ends)
+        - effect: If a target made [prone](scc.v1:mcdm.heroes.v1/condition/prone) this way is already [prone](scc.v1:mcdm.heroes.v1/condition/prone), they are instead [restrained](scc.v1:mcdm.heroes.v1/condition/restrained) (save ends). If the target was also unable to stand, that effect ends when they are no longer [restrained](scc.v1:mcdm.heroes.v1/condition/restrained) this way.
+          name: Effect
       feature_type: ability
       icon: "\U0001F3F9"
       keywords:
@@ -51,9 +53,10 @@ features:
       usage: Main action
     - distance: Ranged 5
       effects:
-        - effect: |-
-            **Effect:** The target gains 15 temporary Stamina that lasts until the start of the field's next turn.
-            **3 [Malice](scc.v1:mcdm.monsters.v1/rule.monster/malice):** Until the end of the encounter, the ground within 1 square of the target is overgrown with underbrush and vines. Whenever any enemy makes a strike against the target while within line of effect of that area, the enemy is [pulled](scc.v1:mcdm.heroes.v1/movement/forced-movement) 5 squares toward the area after the strike is resolved. Any enemy who enters the area for the first time in a round or starts their turn there is knocked [prone](scc.v1:mcdm.heroes.v1/condition/prone).
+        - effect: The target gains 15 temporary Stamina that lasts until the start of the field's next turn.
+          name: Effect
+        - cost: 3 Malice
+          effect: Until the end of the encounter, the ground within 1 square of the target is overgrown with underbrush and vines. Whenever any enemy makes a strike against the target while within line of effect of that area, the enemy is [pulled](scc.v1:mcdm.heroes.v1/movement/forced-movement) 5 squares toward the area after the strike is resolved. Any enemy who enters the area for the first time in a round or starts their turn there is knocked [prone](scc.v1:mcdm.heroes.v1/condition/prone).
       feature_type: ability
       icon: "\U0001F3F9"
       keywords:
@@ -66,9 +69,8 @@ features:
     - cost: 1 Malice
       distance: Melee 3
       effects:
-        - effect: |-
-            **Trigger:** A creature or object within distance deals damage to the field.
-            **Effect:** The target takes 6 damage, and if they have A < 2, they are [bleeding](scc.v1:mcdm.heroes.v1/condition/bleeding) (save ends).
+        - effect: The target takes 6 damage, and if they have A < 2, they are [bleeding](scc.v1:mcdm.heroes.v1/condition/bleeding) (save ends).
+          name: Effect
       feature_type: ability
       icon: ❗️
       keywords:
@@ -76,6 +78,7 @@ features:
         - Melee
       name: Rose Thorn Lash
       target: The triggering creature or object
+      trigger: A creature or object within distance deals damage to the field.
       type: feature
       usage: Triggered action
     - effects:

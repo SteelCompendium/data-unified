@@ -11,6 +11,10 @@
           "tier1": "6 damage",
           "tier2": "9 damage",
           "tier3": "12 damage"
+        },
+        {
+          "effect": "The animal [shifts](scc.v1:mcdm.heroes.v1/movement/shifting) up to 2 squares between strikes.",
+          "name": "Effect"
         }
       ],
       "feature_type": "ability",
@@ -29,7 +33,8 @@
       "distance": "Self",
       "effects": [
         {
-          "effect": "**Effect:** The animal moves up to their speed."
+          "effect": "The animal moves up to their speed.",
+          "name": "Effect"
         }
       ],
       "feature_type": "ability",

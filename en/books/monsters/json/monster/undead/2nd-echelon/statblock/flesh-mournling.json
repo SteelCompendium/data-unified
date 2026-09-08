@@ -11,6 +11,14 @@
           "tier1": "5 damage",
           "tier2": "7 damage",
           "tier3": "9 damage"
+        },
+        {
+          "effect": "The target can't [shift](scc.v1:mcdm.heroes.v1/movement/shifting) until the end of their next turn.",
+          "name": "Effect"
+        },
+        {
+          "cost": "1 Malice",
+          "effect": "This ability targets one additional target."
         }
       ],
       "feature_type": "ability",
@@ -33,6 +41,10 @@
           "tier1": "2 psychic damage",
           "tier2": "3 psychic damage; I \u003c 2 [frightened](scc.v1:mcdm.heroes.v1/condition/frightened) (save ends)",
           "tier3": "4 psychic damage; I \u003c 3 [frightened](scc.v1:mcdm.heroes.v1/condition/frightened) (save ends)"
+        },
+        {
+          "effect": "A target who is still [frightened](scc.v1:mcdm.heroes.v1/condition/frightened) this way at the end of the encounter can't take a respite activity during their next respite.",
+          "name": "Effect"
         }
       ],
       "feature_type": "ability",

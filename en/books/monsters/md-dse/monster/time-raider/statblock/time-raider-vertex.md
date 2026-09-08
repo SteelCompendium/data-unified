@@ -40,6 +40,8 @@ features:
           tier1: 5 damage, 2 psychic damage
           tier2: 7 damage, 3 psychic damage
           tier3: 9 damage, 4 psychic damage
+        - effect: Any power roll made against the target gains an edge until the start of the vertex's next turn.
+          name: Effect
       feature_type: ability
       icon: "\U0001F5E1"
       keywords:
@@ -53,7 +55,8 @@ features:
     - cost: 5 Malice
       distance: 2 cube within 10
       effects:
-        - effect: '**Effect:** A portal fills the area, connecting to a location the vertex has experienced on any plane of existence, in person or otherwise. Any creature who enters the portal for the first time in a round or starts their turn there is instantly [teleported](scc.v1:mcdm.heroes.v1/movement/teleport) to any unoccupied space in the portal at the chosen location. The portal lasts until the vertex uses this ability again, dismisses the portal (no action required), or is transported by the portal.'
+        - effect: A portal fills the area, connecting to a location the vertex has experienced on any plane of existence, in person or otherwise. Any creature who enters the portal for the first time in a round or starts their turn there is instantly [teleported](scc.v1:mcdm.heroes.v1/movement/teleport) to any unoccupied space in the portal at the chosen location. The portal lasts until the vertex uses this ability again, dismisses the portal (no action required), or is transported by the portal.
+          name: Effect
       feature_type: ability
       icon: "\U0001F533"
       keywords:
@@ -66,7 +69,8 @@ features:
       usage: Main action
     - distance: 4 burst
       effects:
-        - effect: '**Effect:** Each target [shifts](scc.v1:mcdm.heroes.v1/movement/shifting) up to half their speed.'
+        - effect: Each target [shifts](scc.v1:mcdm.heroes.v1/movement/shifting) up to half their speed.
+          name: Effect
       feature_type: ability
       icon: ❇️
       keywords:

@@ -40,6 +40,10 @@ features:
           tier1: 11 damage
           tier2: 19 damage; the strike spreads 1 square
           tier3: 22 damage; the strike spreads 2 squares
+        - effect: The strike's spread is the distance it expands from a target to nearby enemies. Each enemy within that distance takes 3 damage.
+          name: Effect
+        - cost: 2 Malice
+          effect: Each enemy within the strike spread takes an extra 3 damage.
       feature_type: ability
       icon: "\U0001F3F9"
       keywords:
@@ -68,7 +72,8 @@ features:
       usage: Main action
     - distance: Ranged 10
       effects:
-        - effect: '**Effect:** Until the start of the artillerist''s next turn, the next psionic ability used against the target automatically treats its initial power roll as a 17. The creature using the ability can still roll to determine if they score a critical hit.'
+        - effect: Until the start of the artillerist's next turn, the next psionic ability used against the target automatically treats its initial power roll as a 17. The creature using the ability can still roll to determine if they score a critical hit.
+          name: Effect
       feature_type: ability
       icon: "\U0001F3F9"
       keywords:
@@ -80,14 +85,14 @@ features:
     - cost: 1 Malice
       distance: Self
       effects:
-        - effect: |-
-            **Trigger:** The artillerist takes damage.
-            **Effect:** The artillerist can [teleport](../../../movement/teleport.md) up to 5 squares and ignores any effects associated with the damage.
+        - effect: The artillerist can [teleport](../../../movement/teleport.md) up to 5 squares and ignores any effects associated with the damage.
+          name: Effect
       feature_type: ability
       icon: ❗️
       keywords: []
       name: Tactical Reposition
       target: Self
+      trigger: The artillerist takes damage.
       type: feature
       usage: Triggered Action
     - effects:

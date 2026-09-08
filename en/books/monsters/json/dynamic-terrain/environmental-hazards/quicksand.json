@@ -2,11 +2,25 @@
   "features": [
     {
       "body": "-",
+      "effects": [
+        {
+          "effect": "-"
+        }
+      ],
       "icon": "🌀",
       "name": "Deactivate"
     },
     {
       "body": "A creature or object enters the quicksand or starts their turn there.",
+      "effects": [
+        {
+          "effect": "A creature or object enters the quicksand or starts their turn there."
+        },
+        {
+          "effect": "The **Grasping Depths** ability.",
+          "name": "Effect"
+        }
+      ],
       "icon": "❕",
       "name": "Activate",
       "sections": [
@@ -18,6 +32,20 @@
     },
     {
       "distance": "Melee 0",
+      "effects": [
+        {
+          "effect": "A creature or object enters the quicksand or starts their turn there.",
+          "name": "Trigger",
+          "roll": "Power Roll + 2",
+          "tier1": "M \u003c 0 [slowed](scc.v1:mcdm.heroes.v1/condition/slowed) ([save](scc.v1:mcdm.heroes.v1/rule.general/saving-throw) ends)",
+          "tier2": "M \u003c 1 [restrained](scc.v1:mcdm.heroes.v1/condition/restrained) ([save](scc.v1:mcdm.heroes.v1/rule.general/saving-throw) ends)",
+          "tier3": "M \u003c 2 [restrained](scc.v1:mcdm.heroes.v1/condition/restrained) ([save](scc.v1:mcdm.heroes.v1/rule.general/saving-throw) ends)"
+        },
+        {
+          "effect": "This ability takes a bane if a triggering creature [shifted](scc.v1:mcdm.heroes.v1/movement/shifting) into the quicksand. A character who starts their turn [restrained](scc.v1:mcdm.heroes.v1/condition/restrained) this way is [suffocating](scc.v1:mcdm.heroes.v1/rule.health/suffocating).",
+          "name": "Effect"
+        }
+      ],
       "icon": "❗️",
       "keywords": [
         "Melee",
@@ -47,6 +75,11 @@
     },
     {
       "body": "The quicksand is hidden until triggered or detected.",
+      "effects": [
+        {
+          "effect": "The quicksand is hidden until triggered or detected."
+        }
+      ],
       "icon": "⭐️",
       "name": "Hidden"
     }

@@ -47,6 +47,8 @@ features:
           tier1: 3 poison [damage](../../../../../rule/damage/damage.md); pull R
           tier2: 4 poison [damage](../../../../../rule/damage/damage.md); pull R + 1
           tier3: 6 poison [damage](../../../../../rule/damage/damage.md); pull R + 2
+        - effect: A target pulled [adjacent](../../../../../rule/combat/adjacent.md) to the mummy is M < STRONG [weakened](../../../../../condition/weakened.md) (EoT).
+          name: Effect
       feature_type: ability
       icon: "\U0001F3F9"
       keywords:

@@ -1,6 +1,11 @@
 ---
 features:
     - distance: Ranged 5
+      effects:
+        - effect: The retainer's mentor makes a strike against a creature within distance.
+          name: Trigger
+        - effect: The retainer makes a ranged [free strike](scc.v1:mcdm.heroes.v1/feature.common.main-actions/free-strike) against the target.
+          name: Effect
       icon: ❗️
       keywords:
         - Ranged
@@ -16,6 +21,11 @@ features:
       usage: Triggered action
     - cost: Encounter
       distance: 10 x 1 line within 1
+      effects:
+        - roll: Power Roll + highest characteristic
+          tier1: 7 damage; M < WEAK [prone](scc.v1:mcdm.heroes.v1/condition/prone)
+          tier2: 11 damage; M < AVERAGE [prone](scc.v1:mcdm.heroes.v1/condition/prone)
+          tier3: 16 damage; M < STRONG [prone](scc.v1:mcdm.heroes.v1/condition/prone)
       icon: "\U0001F533"
       keywords:
         - Area
@@ -32,6 +42,13 @@ features:
       usage: Main action
     - cost: Encounter
       distance: Ranged 5
+      effects:
+        - roll: Power Roll + highest characteristic
+          tier1: 9 damage
+          tier2: 14 damage
+          tier3: 19 damage
+        - effect: The retainer can target a second creature or object within 5 squares of the original target and that has line of effect to the original target. The retainer doesn't need line of effect to the second target but must be aware of their location.
+          name: Effect
       icon: "\U0001F3F9"
       keywords:
         - Ranged
@@ -63,6 +80,11 @@ type: featureblock
 ```ds-fb
 features:
     - distance: Ranged 5
+      effects:
+        - effect: The retainer's mentor makes a strike against a creature within distance.
+          name: Trigger
+        - effect: The retainer makes a ranged [free strike](scc.v1:mcdm.heroes.v1/feature.common.main-actions/free-strike) against the target.
+          name: Effect
       icon: ❗️
       keywords:
         - Ranged
@@ -78,6 +100,11 @@ features:
       usage: Triggered action
     - cost: Encounter
       distance: 10 x 1 line within 1
+      effects:
+        - roll: Power Roll + highest characteristic
+          tier1: 7 damage; M < WEAK [prone](scc.v1:mcdm.heroes.v1/condition/prone)
+          tier2: 11 damage; M < AVERAGE [prone](scc.v1:mcdm.heroes.v1/condition/prone)
+          tier3: 16 damage; M < STRONG [prone](scc.v1:mcdm.heroes.v1/condition/prone)
       icon: "\U0001F533"
       keywords:
         - Area
@@ -94,6 +121,13 @@ features:
       usage: Main action
     - cost: Encounter
       distance: Ranged 5
+      effects:
+        - roll: Power Roll + highest characteristic
+          tier1: 9 damage
+          tier2: 14 damage
+          tier3: 19 damage
+        - effect: The retainer can target a second creature or object within 5 squares of the original target and that has line of effect to the original target. The retainer doesn't need line of effect to the second target but must be aware of their location.
+          name: Effect
       icon: "\U0001F3F9"
       keywords:
         - Ranged

@@ -11,6 +11,10 @@
           "tier1": "1 poison damage; [slide](scc.v1:mcdm.heroes.v1/movement/forced-movement) 1",
           "tier2": "2 poison damage; [slide](scc.v1:mcdm.heroes.v1/movement/forced-movement) 2",
           "tier3": "3 poison damage; [slide](scc.v1:mcdm.heroes.v1/movement/forced-movement) 3"
+        },
+        {
+          "cost": "1+ Malice",
+          "effect": "For each [Malice](scc.v1:mcdm.monsters.v1/rule.monster/malice) spent, one target can be [force moved](scc.v1:mcdm.heroes.v1/movement/forced-movement) 1 additional square."
         }
       ],
       "feature_type": "ability",
@@ -29,7 +33,8 @@
       "distance": "3 cube within 10",
       "effects": [
         {
-          "effect": "**Effect:** The area is filled with a green haze that lasts until the start of the stinker's next turn or until the stinker is reduced to 0 [Stamina](scc.v1:mcdm.heroes.v1/rule.health/stamina), and which can't be dispersed by wind. The area is [difficult terrain](scc.v1:mcdm.heroes.v1/movement/difficult-terrain) for non-goblins, and each non-goblin who moves in the area takes 2 poison damage for each square moved."
+          "effect": "The area is filled with a green haze that lasts until the start of the stinker's next turn or until the stinker is reduced to 0 [Stamina](scc.v1:mcdm.heroes.v1/rule.health/stamina), and which can't be dispersed by wind. The area is [difficult terrain](scc.v1:mcdm.heroes.v1/movement/difficult-terrain) for non-goblins, and each non-goblin who moves in the area takes 2 poison damage for each square moved.",
+          "name": "Effect"
         }
       ],
       "feature_type": "ability",

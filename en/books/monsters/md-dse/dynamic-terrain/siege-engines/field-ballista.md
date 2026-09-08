@@ -1,6 +1,11 @@
 ---
 features:
-    - icon: "\U0001F300"
+    - effects:
+        - effect: As a maneuver, a creature [adjacent](scc.v1:mcdm.heroes.v1/rule.combat/adjacent) to a field ballista can make an **Agility test**.
+          tier1: The creature accidentally activates the **Release Bolt** ability.
+          tier2: The field ballista is deactivated but the creature is [slowed](scc.v1:mcdm.heroes.v1/condition/slowed) (EoT).
+          tier3: The field ballista is deactivated and can't be used.
+      icon: "\U0001F300"
       intro: As a maneuver, a creature [adjacent](scc.v1:mcdm.heroes.v1/rule.combat/adjacent) to a field ballista can make an **Agility test**.
       name: Deactivate
       power_roll:
@@ -9,6 +14,13 @@ features:
             low: The creature accidentally activates the **Release Bolt** ability.
             mid: The field ballista is deactivated but the creature is [slowed](scc.v1:mcdm.heroes.v1/condition/slowed) (EoT).
     - distance: Ranged 20
+      effects:
+        - roll: Power Roll + 2
+          tier1: 5 damage
+          tier2: 8 damage; M < 1 push 1
+          tier3: 11 damage; M < 2 push 2
+        - effect: This ability can't be used again until the field ballista is reloaded.
+          name: Effect
       icon: "\U0001F3F9"
       keywords:
         - Ranged
@@ -27,6 +39,9 @@ features:
       target: One creature or object
       usage: Main action (Adjacent creature)
     - distance: '-'
+      effects:
+        - effect: The field ballista is reloaded, allowing **Release Bolt** to be used again. This action can be used only once per round.
+          name: Effect
       icon: ⭐️
       name: Reload
       sections:
@@ -35,6 +50,9 @@ features:
       target: '-'
       usage: Main action (Adjacent creature)
     - distance: '-'
+      effects:
+        - effect: The next use of **Release Bolt** gains an edge and has a +10 bonus to ranged distance. This action can be used only once per round.
+          name: Effect
       icon: ⭐️
       name: Spot
       sections:
@@ -43,6 +61,9 @@ features:
       target: '-'
       usage: Main action (Adjacent creature)
     - distance: '-'
+      effects:
+        - effect: The field ballista and the creature using this action move together up to 3 squares.
+          name: Effect
       icon: ⭐️
       name: Move
       sections:
@@ -54,9 +75,19 @@ features:
         **Penetrating Bolt (+2 EV)** The field ballista targets the nearest two additional creatures or objects in a straight line beyond the initial target.
 
         **Chain Bolt (+2 EV)** The field ballista's bolts are set with heavy chains that wrap around targets. The **Chain Bolt** ability replaces **Release Bolt**, and the field ballista gains the **Crank the Chain** ability.
+      effects:
+        - effect: '**Penetrating Bolt (+2 EV)** The field ballista targets the nearest two additional creatures or objects in a straight line beyond the initial target.'
+        - effect: '**Chain Bolt (+2 EV)** The field ballista''s bolts are set with heavy chains that wrap around targets. The **Chain Bolt** ability replaces **Release Bolt**, and the field ballista gains the **Crank the Chain** ability.'
       icon: ⭐️
       name: Upgrades
     - distance: Ranged 20
+      effects:
+        - roll: Power Roll + 2
+          tier1: 4 damage
+          tier2: 7 damage; M < 1 [slowed](scc.v1:mcdm.heroes.v1/condition/slowed) ([save](scc.v1:mcdm.heroes.v1/rule.general/saving-throw) ends)
+          tier3: 10 damage; M < 2 [slowed](scc.v1:mcdm.heroes.v1/condition/slowed) ([save](scc.v1:mcdm.heroes.v1/rule.general/saving-throw) ends)
+        - effect: This ability can't be used again until the field ballista is reloaded.
+          name: Effect
       icon: "\U0001F3F9"
       keywords:
         - Ranged
@@ -75,6 +106,15 @@ features:
       target: One creature or object
       usage: Main action (Adjacent creature)
     - distance: Ranged 20
+      effects:
+        - effect: The target must be [slowed](scc.v1:mcdm.heroes.v1/condition/slowed) by the field ballista.
+          name: Special
+          roll: Power Roll + 2
+          tier1: Pull 1
+          tier2: Pull 3
+          tier3: Pull 5
+        - effect: This [forced movement](scc.v1:mcdm.heroes.v1/movement/forced-movement) triggers [opportunity attacks](scc.v1:mcdm.heroes.v1/rule.combat/opportunity-attack).
+          name: Effect
       icon: "\U0001F3F9"
       keywords:
         - Ranged
@@ -117,7 +157,12 @@ type: dynamic-terrain
 
 ```ds-fb
 features:
-    - icon: "\U0001F300"
+    - effects:
+        - effect: As a maneuver, a creature [adjacent](scc.v1:mcdm.heroes.v1/rule.combat/adjacent) to a field ballista can make an **Agility test**.
+          tier1: The creature accidentally activates the **Release Bolt** ability.
+          tier2: The field ballista is deactivated but the creature is [slowed](scc.v1:mcdm.heroes.v1/condition/slowed) (EoT).
+          tier3: The field ballista is deactivated and can't be used.
+      icon: "\U0001F300"
       intro: As a maneuver, a creature [adjacent](scc.v1:mcdm.heroes.v1/rule.combat/adjacent) to a field ballista can make an **Agility test**.
       name: Deactivate
       power_roll:
@@ -126,6 +171,13 @@ features:
             low: The creature accidentally activates the **Release Bolt** ability.
             mid: The field ballista is deactivated but the creature is [slowed](scc.v1:mcdm.heroes.v1/condition/slowed) (EoT).
     - distance: Ranged 20
+      effects:
+        - roll: Power Roll + 2
+          tier1: 5 damage
+          tier2: 8 damage; M < 1 push 1
+          tier3: 11 damage; M < 2 push 2
+        - effect: This ability can't be used again until the field ballista is reloaded.
+          name: Effect
       icon: "\U0001F3F9"
       keywords:
         - Ranged
@@ -144,6 +196,9 @@ features:
       target: One creature or object
       usage: Main action (Adjacent creature)
     - distance: '-'
+      effects:
+        - effect: The field ballista is reloaded, allowing **Release Bolt** to be used again. This action can be used only once per round.
+          name: Effect
       icon: ⭐️
       name: Reload
       sections:
@@ -152,6 +207,9 @@ features:
       target: '-'
       usage: Main action (Adjacent creature)
     - distance: '-'
+      effects:
+        - effect: The next use of **Release Bolt** gains an edge and has a +10 bonus to ranged distance. This action can be used only once per round.
+          name: Effect
       icon: ⭐️
       name: Spot
       sections:
@@ -160,6 +218,9 @@ features:
       target: '-'
       usage: Main action (Adjacent creature)
     - distance: '-'
+      effects:
+        - effect: The field ballista and the creature using this action move together up to 3 squares.
+          name: Effect
       icon: ⭐️
       name: Move
       sections:
@@ -171,9 +232,19 @@ features:
         **Penetrating Bolt (+2 EV)** The field ballista targets the nearest two additional creatures or objects in a straight line beyond the initial target.
 
         **Chain Bolt (+2 EV)** The field ballista's bolts are set with heavy chains that wrap around targets. The **Chain Bolt** ability replaces **Release Bolt**, and the field ballista gains the **Crank the Chain** ability.
+      effects:
+        - effect: '**Penetrating Bolt (+2 EV)** The field ballista targets the nearest two additional creatures or objects in a straight line beyond the initial target.'
+        - effect: '**Chain Bolt (+2 EV)** The field ballista''s bolts are set with heavy chains that wrap around targets. The **Chain Bolt** ability replaces **Release Bolt**, and the field ballista gains the **Crank the Chain** ability.'
       icon: ⭐️
       name: Upgrades
     - distance: Ranged 20
+      effects:
+        - roll: Power Roll + 2
+          tier1: 4 damage
+          tier2: 7 damage; M < 1 [slowed](scc.v1:mcdm.heroes.v1/condition/slowed) ([save](scc.v1:mcdm.heroes.v1/rule.general/saving-throw) ends)
+          tier3: 10 damage; M < 2 [slowed](scc.v1:mcdm.heroes.v1/condition/slowed) ([save](scc.v1:mcdm.heroes.v1/rule.general/saving-throw) ends)
+        - effect: This ability can't be used again until the field ballista is reloaded.
+          name: Effect
       icon: "\U0001F3F9"
       keywords:
         - Ranged
@@ -192,6 +263,15 @@ features:
       target: One creature or object
       usage: Main action (Adjacent creature)
     - distance: Ranged 20
+      effects:
+        - effect: The target must be [slowed](scc.v1:mcdm.heroes.v1/condition/slowed) by the field ballista.
+          name: Special
+          roll: Power Roll + 2
+          tier1: Pull 1
+          tier2: Pull 3
+          tier3: Pull 5
+        - effect: This [forced movement](scc.v1:mcdm.heroes.v1/movement/forced-movement) triggers [opportunity attacks](scc.v1:mcdm.heroes.v1/rule.combat/opportunity-attack).
+          name: Effect
       icon: "\U0001F3F9"
       keywords:
         - Ranged

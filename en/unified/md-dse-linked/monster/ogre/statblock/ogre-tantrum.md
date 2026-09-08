@@ -34,10 +34,13 @@ features:
     - ability_type: Signature Ability
       distance: Ranged 8
       effects:
-        - roll: Power Roll + 4
+        - effect: The tantrum unearths a rock or a hunk of terrain and tosses it. If a size 1L, 1M, or 1S creature or object [adjacent](../../../rule/combat/adjacent.md) to the tantrum has A < 3 the tantrum can [grab](../../../condition/grabbed.md) them to use as the projectile for this ability.
+          name: Effect
+          roll: Power Roll + 4
           tier1: 4 damage
           tier2: 7 damage; [push](../../../movement/forced-movement.md) 2
           tier3: 8 damage; [push](../../../movement/forced-movement.md) 4
+        - effect: A creature or object used as a projectile is vertically [pushed](../../../movement/forced-movement.md) 8 (or 13 with a captain), ignoring stability.
       feature_type: ability
       icon: "\U0001F3F9"
       keywords:

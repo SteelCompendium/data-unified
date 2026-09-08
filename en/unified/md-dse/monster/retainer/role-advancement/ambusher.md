@@ -2,6 +2,13 @@
 features:
     - cost: Encounter
       distance: Melee 1
+      effects:
+        - roll: Power Roll + highest characteristic
+          tier1: 5 damage; M < WEAK [bleeding](scc.v1:mcdm.heroes.v1/condition/bleeding) ([save](scc.v1:mcdm.heroes.v1/rule.general/saving-throw) ends)
+          tier2: 9 damage; M < AVERAGE [bleeding](scc.v1:mcdm.heroes.v1/condition/bleeding) ([save](scc.v1:mcdm.heroes.v1/rule.general/saving-throw) ends)
+          tier3: 12 damage; M < STRONG [bleeding](scc.v1:mcdm.heroes.v1/condition/bleeding) ([save](scc.v1:mcdm.heroes.v1/rule.general/saving-throw) ends)
+        - effect: If the target is [grabbed](scc.v1:mcdm.heroes.v1/condition/grabbed) or the retainer had an edge on the power roll, the retainer gains 2 [surges](scc.v1:mcdm.heroes.v1/rule.resource/surge).
+          name: Effect
       icon: "\U0001F5E1"
       keywords:
         - Melee
@@ -22,6 +29,13 @@ features:
       usage: Main action
     - cost: Encounter
       distance: Melee 1 or ranged 5
+      effects:
+        - roll: Power Roll + highest characteristic
+          tier1: 7 damage; M < WEAK [slowed](scc.v1:mcdm.heroes.v1/condition/slowed) (EoT)
+          tier2: 10 damage; M < AVERAGE [slowed](scc.v1:mcdm.heroes.v1/condition/slowed) ([save](scc.v1:mcdm.heroes.v1/rule.general/saving-throw) ends)
+          tier3: 15 damage; M < STRONG [slowed](scc.v1:mcdm.heroes.v1/condition/slowed) and the target can't used triggered actions ([save](scc.v1:mcdm.heroes.v1/rule.general/saving-throw) ends)
+        - effect: The retainer and their mentor can each move up to their speed.
+          name: Effect
       icon: ⚔️
       keywords:
         - Melee
@@ -43,6 +57,13 @@ features:
       usage: Main Action
     - cost: Encounter
       distance: Melee 1 or ranged 5
+      effects:
+        - roll: Power Roll + highest characteristic
+          tier1: 11 damage; a size 1 or smaller target who has M < WEAK is [grabbed](scc.v1:mcdm.heroes.v1/condition/grabbed)
+          tier2: 16 damage; a size 1 or smaller target who has M < AVERAGE is [grabbed](scc.v1:mcdm.heroes.v1/condition/grabbed)
+          tier3: 21 damage; a size 1 or smaller target who has M < STRONG is [grabbed](scc.v1:mcdm.heroes.v1/condition/grabbed)
+        - effect: The retainer gains 2 [surges](scc.v1:mcdm.heroes.v1/rule.resource/surge) when any creature makes a strike against a target [grabbed](scc.v1:mcdm.heroes.v1/condition/grabbed) this way.
+          name: Effect
       icon: ⚔️
       keywords:
         - Melee
@@ -76,6 +97,13 @@ type: featureblock
 features:
     - cost: Encounter
       distance: Melee 1
+      effects:
+        - roll: Power Roll + highest characteristic
+          tier1: 5 damage; M < WEAK [bleeding](scc.v1:mcdm.heroes.v1/condition/bleeding) ([save](scc.v1:mcdm.heroes.v1/rule.general/saving-throw) ends)
+          tier2: 9 damage; M < AVERAGE [bleeding](scc.v1:mcdm.heroes.v1/condition/bleeding) ([save](scc.v1:mcdm.heroes.v1/rule.general/saving-throw) ends)
+          tier3: 12 damage; M < STRONG [bleeding](scc.v1:mcdm.heroes.v1/condition/bleeding) ([save](scc.v1:mcdm.heroes.v1/rule.general/saving-throw) ends)
+        - effect: If the target is [grabbed](scc.v1:mcdm.heroes.v1/condition/grabbed) or the retainer had an edge on the power roll, the retainer gains 2 [surges](scc.v1:mcdm.heroes.v1/rule.resource/surge).
+          name: Effect
       icon: "\U0001F5E1"
       keywords:
         - Melee
@@ -96,6 +124,13 @@ features:
       usage: Main action
     - cost: Encounter
       distance: Melee 1 or ranged 5
+      effects:
+        - roll: Power Roll + highest characteristic
+          tier1: 7 damage; M < WEAK [slowed](scc.v1:mcdm.heroes.v1/condition/slowed) (EoT)
+          tier2: 10 damage; M < AVERAGE [slowed](scc.v1:mcdm.heroes.v1/condition/slowed) ([save](scc.v1:mcdm.heroes.v1/rule.general/saving-throw) ends)
+          tier3: 15 damage; M < STRONG [slowed](scc.v1:mcdm.heroes.v1/condition/slowed) and the target can't used triggered actions ([save](scc.v1:mcdm.heroes.v1/rule.general/saving-throw) ends)
+        - effect: The retainer and their mentor can each move up to their speed.
+          name: Effect
       icon: ⚔️
       keywords:
         - Melee
@@ -117,6 +152,13 @@ features:
       usage: Main Action
     - cost: Encounter
       distance: Melee 1 or ranged 5
+      effects:
+        - roll: Power Roll + highest characteristic
+          tier1: 11 damage; a size 1 or smaller target who has M < WEAK is [grabbed](scc.v1:mcdm.heroes.v1/condition/grabbed)
+          tier2: 16 damage; a size 1 or smaller target who has M < AVERAGE is [grabbed](scc.v1:mcdm.heroes.v1/condition/grabbed)
+          tier3: 21 damage; a size 1 or smaller target who has M < STRONG is [grabbed](scc.v1:mcdm.heroes.v1/condition/grabbed)
+        - effect: The retainer gains 2 [surges](scc.v1:mcdm.heroes.v1/rule.resource/surge) when any creature makes a strike against a target [grabbed](scc.v1:mcdm.heroes.v1/condition/grabbed) this way.
+          name: Effect
       icon: ⚔️
       keywords:
         - Melee

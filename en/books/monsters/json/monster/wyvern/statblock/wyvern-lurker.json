@@ -11,6 +11,10 @@
           "tier1": "9 damage",
           "tier2": "14 damage; M \u003c 2 [bleeding](scc.v1:mcdm.heroes.v1/condition/bleeding) (save ends)",
           "tier3": "17 damage; M \u003c 3 [bleeding](scc.v1:mcdm.heroes.v1/condition/bleeding) (save ends)"
+        },
+        {
+          "cost": "1 Malice",
+          "effect": "One target hidden from the lurker takes an extra 6 acid damage."
         }
       ],
       "feature_type": "ability",
@@ -34,6 +38,10 @@
           "tier1": "10 acid damage; M \u003c 1 [weakened](scc.v1:mcdm.heroes.v1/condition/weakened) (save ends)",
           "tier2": "16 acid damage; M \u003c 2 [weakened](scc.v1:mcdm.heroes.v1/condition/weakened) (save ends)",
           "tier3": "20 acid damage; M \u003c 3 [weakened](scc.v1:mcdm.heroes.v1/condition/weakened) (save ends)"
+        },
+        {
+          "effect": "A target [weakened](scc.v1:mcdm.heroes.v1/condition/weakened) this way takes 1d4 acid damage at the start of each of their turns.",
+          "name": "Effect"
         }
       ],
       "feature_type": "ability",
@@ -52,7 +60,8 @@
       "distance": "Self",
       "effects": [
         {
-          "effect": "**Effect:** The lurker [flies](scc.v1:mcdm.heroes.v1/movement/fly) up to their speed, then can attempt to hide. Each enemy the lurker moves [adjacent](scc.v1:mcdm.heroes.v1/rule.combat/adjacent) to during this movement can choose to take 3 sonic damage or fall [prone](scc.v1:mcdm.heroes.v1/condition/prone)."
+          "effect": "The lurker [flies](scc.v1:mcdm.heroes.v1/movement/fly) up to their speed, then can attempt to hide. Each enemy the lurker moves [adjacent](scc.v1:mcdm.heroes.v1/rule.combat/adjacent) to during this movement can choose to take 3 sonic damage or fall [prone](scc.v1:mcdm.heroes.v1/condition/prone).",
+          "name": "Effect"
         }
       ],
       "feature_type": "ability",
@@ -67,7 +76,8 @@
       "distance": "Ranged 5",
       "effects": [
         {
-          "effect": "**Trigger:** A creature within distance deals damage to the lurker with a ranged ability.\n**Effect:** The lurker [flies](scc.v1:mcdm.heroes.v1/movement/fly) [adjacent](scc.v1:mcdm.heroes.v1/rule.combat/adjacent) to the target and can make a [free strike](scc.v1:mcdm.heroes.v1/feature.common.main-actions/free-strike) against them."
+          "effect": "The lurker [flies](scc.v1:mcdm.heroes.v1/movement/fly) [adjacent](scc.v1:mcdm.heroes.v1/rule.combat/adjacent) to the target and can make a [free strike](scc.v1:mcdm.heroes.v1/feature.common.main-actions/free-strike) against them.",
+          "name": "Effect"
         }
       ],
       "feature_type": "ability",
@@ -77,6 +87,7 @@
       ],
       "name": "Retaliatory Dive",
       "target": "The triggering creature",
+      "trigger": "A creature within distance deals damage to the lurker with a ranged ability.",
       "type": "feature",
       "usage": "Triggered action"
     },

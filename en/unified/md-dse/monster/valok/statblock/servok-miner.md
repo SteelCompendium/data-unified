@@ -40,6 +40,8 @@ features:
           tier1: 13 damage; M < 2 [restrained](scc.v1:mcdm.heroes.v1/condition/restrained) (save ends) and [prone](scc.v1:mcdm.heroes.v1/condition/prone)
           tier2: 18 damage; M < 3 [restrained](scc.v1:mcdm.heroes.v1/condition/restrained) (save ends) and [prone](scc.v1:mcdm.heroes.v1/condition/prone)
           tier3: 22 damage; [prone](scc.v1:mcdm.heroes.v1/condition/prone); M < 4 [restrained](scc.v1:mcdm.heroes.v1/condition/restrained) (save ends)
+        - effect: In suitably soft ground, a target [restrained](scc.v1:mcdm.heroes.v1/condition/restrained) this way is etrenched in a 1-square-deep hole.
+          name: Effect
       feature_type: ability
       icon: "\U0001F5E1"
       keywords:
@@ -53,10 +55,12 @@ features:
     - cost: 3 Malice
       distance: 4 cube within 1
       effects:
-        - roll: ""
+        - effect: Each target makes an **Agility test**.
+          name: Effect
           tier1: 14 damage; [slide](scc.v1:mcdm.heroes.v1/movement/forced-movement) 4; the miner's allies have concealment from the target (save ends)
           tier2: 11 damage; [slide](scc.v1:mcdm.heroes.v1/movement/forced-movement) 2
           tier3: 7 damage
+        - effect: The area is [difficult terrain](scc.v1:mcdm.heroes.v1/movement/difficult-terrain).
       feature_type: ability
       icon: "\U0001F533"
       keywords:
@@ -68,7 +72,8 @@ features:
     - cost: 5 Malice
       distance: 20 x 1 line within 1
       effects:
-        - roll: ""
+        - effect: A 5-square-deep fissure opens along the ground in the area. Each ally in the area can [shift](scc.v1:mcdm.heroes.v1/movement/shifting) into the nearest unoccupied space outside the fissure. Each target makes an **Agility test**.
+          name: Effect
           tier1: 14 damage; the target falls into the fissure, and is [prone](scc.v1:mcdm.heroes.v1/condition/prone) and can't stand (EoT)
           tier2: 11 damage; the target is [prone](scc.v1:mcdm.heroes.v1/condition/prone) and hanging onto the edge of the fissure
           tier3: 7 damage; the target can [shift](scc.v1:mcdm.heroes.v1/movement/shifting) into the nearest unoccupied space outside the fissure
@@ -83,15 +88,15 @@ features:
     - cost: 2 Malice
       distance: Self
       effects:
-        - effect: |-
-            **Trigger:** The miner is targeted by a strike.
-            **Effect:** Until the end of the round, dust and dirt billow in a 2 burst around the miner's initial space. While the miner is in the area, they ignore the nondamaging effects of any strike made against them, including the triggering strike.
+        - effect: Until the end of the round, dust and dirt billow in a 2 burst around the miner's initial space. While the miner is in the area, they ignore the nondamaging effects of any strike made against them, including the triggering strike.
+          name: Effect
       feature_type: ability
       icon: ❗️
       keywords:
         - Area
       name: Miner Inconvenience
       target: Self
+      trigger: The miner is targeted by a strike.
       type: feature
       usage: Triggered Action
     - effects:

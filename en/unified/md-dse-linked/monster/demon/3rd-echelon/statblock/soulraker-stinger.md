@@ -42,6 +42,8 @@ features:
           tier1: 4 poison damage
           tier2: 7 poison damage
           tier3: 8 poison damage
+        - effect: All soulraker demons have [concealment](../../../../rule/combat/concealment.md) from the target until the start of the stinger's next turn.
+          name: Effect
       feature_type: ability
       icon: "\U0001F3F9"
       keywords:

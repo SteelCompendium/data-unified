@@ -11,6 +11,10 @@
           "tier1": "6 damage",
           "tier2": "9 damage",
           "tier3": "12 damage; M \u003c 2 [grabbed](scc.v1:mcdm.heroes.v1/condition/grabbed) and the target takes a bane on the Escape Grab maneuver"
+        },
+        {
+          "effect": "A target who is already [grabbed](scc.v1:mcdm.heroes.v1/condition/grabbed) takes an extra 2 damage.",
+          "name": "Effect"
         }
       ],
       "feature_type": "ability",
@@ -30,7 +34,8 @@
       "distance": "Melee 1",
       "effects": [
         {
-          "effect": "**Effect:** The brawler [pushes](scc.v1:mcdm.heroes.v1/movement/forced-movement) the target up to 5 squares."
+          "effect": "The brawler [pushes](scc.v1:mcdm.heroes.v1/movement/forced-movement) the target up to 5 squares.",
+          "name": "Effect"
         }
       ],
       "feature_type": "ability",

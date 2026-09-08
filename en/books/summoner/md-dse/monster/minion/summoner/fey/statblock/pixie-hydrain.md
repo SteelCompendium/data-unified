@@ -44,6 +44,8 @@ features:
           tier1: 5 acid damage; M < WEAK [weakened](scc.v1:mcdm.heroes.v1/condition/weakened) ([EoT](scc.v1:mcdm.heroes.v1/rule.combat/end-of-turn))
           tier2: 7 acid damage; M < AVERAGE [weakened](scc.v1:mcdm.heroes.v1/condition/weakened) ([EoT](scc.v1:mcdm.heroes.v1/rule.combat/end-of-turn))
           tier3: 9 acid damage; M < STRONG [weakened](scc.v1:mcdm.heroes.v1/condition/weakened) (save ends)
+        - effect: After the hydrain's squad uses this ability, you or one ally within distance can spend a [Recovery](scc.v1:mcdm.heroes.v1/rule.health/recoveries) or end a [condition](scc.v1:mcdm.heroes.v1/rule.combat/condition).
+          name: Effect
       feature_type: ability
       icon: "\U0001F3F9"
       keywords:

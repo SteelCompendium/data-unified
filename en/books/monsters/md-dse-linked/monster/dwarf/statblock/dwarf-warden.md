@@ -37,6 +37,8 @@ features:
           tier1: 7 damage; [push](../../../movement/forced-movement.md) 1
           tier2: 10 damage; [push](../../../movement/forced-movement.md) 3
           tier3: 13 damage; [push](../../../movement/forced-movement.md) 5; M < 2 [restrained](../../../condition/restrained.md) (save ends)
+        - effect: A target [restrained](../../../condition/restrained.md) by a dwarf can be force moved by this ability. This forced movement doesn't end the [restrained](../../../condition/restrained.md) condition unless the Director determines otherwise.
+          name: Effect
       feature_type: ability
       icon: "\U0001F5E1"
       keywords:
@@ -54,6 +56,8 @@ features:
           tier1: 5 damage; [push](../../../movement/forced-movement.md) 2; A < 0 [slowed](../../../condition/slowed.md) (save ends)
           tier2: 8 damage; [push](../../../movement/forced-movement.md) 2; A < 1 [slowed](../../../condition/slowed.md) (save ends)
           tier3: 11 damage; [push](../../../movement/forced-movement.md) 2; A < 2 [slowed](../../../condition/slowed.md) (save ends)
+        - effect: A target [restrained](../../../condition/restrained.md) by a dwarf can be force moved by this ability. This forced movement doesn't end the [restrained](../../../condition/restrained.md) condition unless the Director determines otherwise.
+          name: Effect
       feature_type: ability
       icon: "\U0001F533"
       keywords:

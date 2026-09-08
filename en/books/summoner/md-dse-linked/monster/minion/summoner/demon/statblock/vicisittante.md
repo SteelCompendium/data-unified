@@ -45,6 +45,8 @@ features:
           tier1: 7 psychic [damage](../../../../../rule/damage/damage.md); P < WEAK [weakened](../../../../../condition/weakened.md) (save ends)
           tier2: 11 psychic [damage](../../../../../rule/damage/damage.md); P < AVERAGE [weakened](../../../../../condition/weakened.md) (save ends)
           tier3: 16 psychic [damage](../../../../../rule/damage/damage.md); P < STRONG [weakened](../../../../../condition/weakened.md) (save ends)
+        - effect: A target [weakened](../../../../../condition/weakened.md) by this ability is always considered [flanked](../../../../../rule/combat/flanking.md) by the vicisittante regardless of position until the [condition](../../../../../rule/combat/condition.md) ends.
+          name: Effect
       feature_type: ability
       icon: "\U0001F3F9"
       keywords:

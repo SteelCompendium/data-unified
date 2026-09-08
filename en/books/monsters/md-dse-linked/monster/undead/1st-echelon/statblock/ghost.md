@@ -39,6 +39,8 @@ features:
           tier1: 7 cold damage; P < 1 [slowed](../../../../condition/slowed.md) (save ends)
           tier2: 10 cold damage; P < 2 [slowed](../../../../condition/slowed.md) (save ends)
           tier3: 13 cold damage; P < 3 [slowed](../../../../condition/slowed.md) (save ends)
+        - effect: The next strike made against the target gains an edge.
+          name: Effect
       feature_type: ability
       icon: "\U0001F3F9"
       keywords:
@@ -51,9 +53,10 @@ features:
       usage: Main action
     - distance: Ranged 8
       effects:
-        - effect: |-
-            **Effect:** The target [shifts](../../../../movement/shifting.md) up to their speed.
-            **2 [Malice](../../../../rule/monster/malice.md):** The ghost chooses one additional target.
+        - effect: The target [shifts](../../../../movement/shifting.md) up to their speed.
+          name: Effect
+        - cost: 2 Malice
+          effect: The ghost chooses one additional target.
       feature_type: ability
       icon: "\U0001F3F9"
       keywords:
@@ -65,9 +68,8 @@ features:
     - cost: 1 Malice
       distance: Melee 1
       effects:
-        - effect: |-
-            **Trigger:** A creature within distance targets the ghost with a strike.
-            **Effect:** The ghost halves the damage from the strike and the target takes 2 sonic damage.
+        - effect: The ghost halves the damage from the strike and the target takes 2 sonic damage.
+          name: Effect
       feature_type: ability
       icon: ❗️
       keywords:
@@ -75,6 +77,7 @@ features:
         - Melee
       name: Shriek
       target: The triggering creature
+      trigger: A creature within distance targets the ghost with a strike.
       type: feature
       usage: Triggered action
     - effects:
@@ -86,7 +89,8 @@ features:
     - cost: Villain Action 1
       distance: 5 burst
       effects:
-        - effect: '**Effect:** Each target rises 1 square into the air and is vertically [pulled](../../../../movement/forced-movement.md) up to 5 squares toward the nearest enemy within 3 squares of the target.'
+        - effect: Each target rises 1 square into the air and is vertically [pulled](../../../../movement/forced-movement.md) up to 5 squares toward the nearest enemy within 3 squares of the target.
+          name: Effect
       feature_type: ability
       icon: ☠️
       keywords:
@@ -103,6 +107,8 @@ features:
           tier1: P < 1 the target is levitated (EoT)
           tier2: P < 2 the target is levitated (EoT)
           tier3: P < 3 the target is levitated until the end of the encounter
+        - effect: A levitated target floats 1 square off the ground when first affected, then rises 1 square at the end of each of their turns. If a levitated target can't already [fly](../../../../movement/fly.md), they can [fly](../../../../movement/fly.md) but are [slowed](../../../../condition/slowed.md) and [weakened](../../../../condition/weakened.md) while flying this way.
+          name: Effect
       feature_type: ability
       icon: ☠️
       keywords:
@@ -119,6 +125,8 @@ features:
           tier1: 3 sonic damage
           tier2: 5 sonic damage
           tier3: 8 sonic damage
+        - effect: A target who has P < 2 is reduced to 1 [Stamina](../../../../rule/health/stamina.md) if they are [winded](../../../../rule/health/winded.md) after taking this damage.
+          name: Effect
       feature_type: ability
       icon: ☠️
       keywords:

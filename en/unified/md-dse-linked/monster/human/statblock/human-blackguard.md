@@ -39,6 +39,10 @@ features:
           tier1: 3 damage; M < 1 [slowed](../../../condition/slowed.md) (save ends)
           tier2: 6 damage; M < 2 [slowed](../../../condition/slowed.md) (save ends)
           tier3: 8 damage; M < 3 [slowed](../../../condition/slowed.md) (save ends)
+        - effect: One ally within 10 squares can make a [free strike](../../../feature/common/main-actions/free-strike.md).
+          name: Effect
+        - cost: 1 Malice
+          effect: One ally within 10 squares can use their [signature ability](../../../rule/combat/signature-ability.md) instead.
       feature_type: ability
       icon: ❇️
       keywords:
@@ -50,7 +54,8 @@ features:
       usage: Main action
     - distance: Ranged 10
       effects:
-        - effect: '**Effect:** The target is marked until the start of the blackguard''s next turn. The blackguard and each of their allies gain an edge on abilities used against targets marked by the blackguard.'
+        - effect: The target is marked until the start of the blackguard's next turn. The blackguard and each of their allies gain an edge on abilities used against targets marked by the blackguard.
+          name: Effect
       feature_type: ability
       icon: "\U0001F3F9"
       keywords:
@@ -73,21 +78,22 @@ features:
       type: feature
     - distance: Melee 1
       effects:
-        - effect: |-
-            **Trigger:** A creature makes a strike against the blackguard or an ally [adjacent](../../../rule/combat/adjacent.md) to them.
-            **Effect:** The damage is halved.
+        - effect: The damage is halved.
+          name: Effect
       feature_type: ability
       icon: ❗️
       keywords:
         - Melee
       name: Parry!
       target: Self or one ally
+      trigger: A creature makes a strike against the blackguard or an ally [adjacent](../../../rule/combat/adjacent.md) to them.
       type: feature
       usage: Triggered action
     - cost: Villain Action 1
       distance: Self
       effects:
-        - effect: '**Effect:** The blackguard [shifts](../../../movement/shifting.md) up to their speed. During or after this movement, they can use their Zweihander Swing twice.'
+        - effect: The blackguard [shifts](../../../movement/shifting.md) up to their speed. During or after this movement, they can use their Zweihander Swing twice.
+          name: Effect
       feature_type: ability
       icon: ☠️
       keywords: []
@@ -98,7 +104,8 @@ features:
     - cost: Villain Action 2
       distance: 5 burst
       effects:
-        - effect: '**Effect:** The blackguard [slides](../../../movement/forced-movement.md) each target up to 5 squares.'
+        - effect: The blackguard [slides](../../../movement/forced-movement.md) each target up to 5 squares.
+          name: Effect
       feature_type: ability
       icon: ☠️
       keywords:
@@ -111,7 +118,8 @@ features:
     - cost: Villain Action 3
       distance: 3 cube within 5
       effects:
-        - effect: '**Effect:** The blackguard uses their Zweihander Swing against each target. Each ally within 5 squares of the area can then make a [free strike](../../../feature/common/main-actions/free-strike.md) against a target (one target per ally).'
+        - effect: The blackguard uses their Zweihander Swing against each target. Each ally within 5 squares of the area can then make a [free strike](../../../feature/common/main-actions/free-strike.md) against a target (one target per ally).
+          name: Effect
       feature_type: ability
       icon: ☠️
       keywords:

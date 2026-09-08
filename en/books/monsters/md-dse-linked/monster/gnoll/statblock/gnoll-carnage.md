@@ -36,6 +36,8 @@ features:
           tier1: 8 damage; A < 1 [bleeding](../../../condition/bleeding.md) (save ends)
           tier2: 11 damage; A < 2 [bleeding](../../../condition/bleeding.md) (save ends)
           tier3: 14 damage; A < 3 [bleeding](../../../condition/bleeding.md) and [dazed](../../../condition/dazed.md) (save ends)
+        - effect: An ally targeted by this ability ignores the damage and can make a [free strike](../../../feature/common/main-actions/free-strike.md).
+          name: Effect
       feature_type: ability
       icon: "\U0001F5E1"
       keywords:
@@ -49,7 +51,8 @@ features:
     - cost: 4 Malice
       distance: 5 burst
       effects:
-        - effect: '**Effect:** Each target deals an extra 3 damage with their next strike until the start of the carnage''s next turn. If any target hasn''t used their own Cackletongue maneuver on this turn, they can use it immediately at no cost.'
+        - effect: Each target deals an extra 3 damage with their next strike until the start of the carnage's next turn. If any target hasn't used their own Cackletongue maneuver on this turn, they can use it immediately at no cost.
+          name: Effect
       feature_type: ability
       icon: ❇️
       keywords:
@@ -79,7 +82,8 @@ features:
     - cost: Villain Action 1
       distance: Ranged 10
       effects:
-        - effect: '**Effect:** The carnage summons four abyssal hyenas into unoccupied spaces within distance.'
+        - effect: The carnage summons four abyssal hyenas into unoccupied spaces within distance.
+          name: Effect
       feature_type: ability
       icon: ☠️
       keywords:
@@ -92,7 +96,8 @@ features:
     - cost: Villain Action 2
       distance: 10 burst
       effects:
-        - effect: '**Effect:** Each target moves up to their speed and can make a [free strike](../../../feature/common/main-actions/free-strike.md). Any creature damaged by one of these [free strikes](../../../feature/common/main-actions/free-strike.md) who has M < 2 is knocked [prone](../../../condition/prone.md).'
+        - effect: Each target moves up to their speed and can make a [free strike](../../../feature/common/main-actions/free-strike.md). Any creature damaged by one of these [free strikes](../../../feature/common/main-actions/free-strike.md) who has M < 2 is knocked [prone](../../../condition/prone.md).
+          name: Effect
       feature_type: ability
       icon: ☠️
       keywords:
@@ -104,10 +109,13 @@ features:
     - cost: Villain Action 3
       distance: 5 burst
       effects:
-        - roll: ""
+        - effect: The carnage's eyes and all exposed blood within distance glow bright red. Each target makes a **Presence test**.
+          name: Effect
           tier1: The target can't regain [Stamina](../../../rule/health/stamina.md) until the end of the encounter.
           tier2: The target can't regain [Stamina](../../../rule/health/stamina.md) (save ends).
           tier3: No effect
+        - effect: Until the end of the encounter, all gnolls have a double edge on power rolls that target a [winded](../../../rule/health/winded.md) enemy.
+          name: Effect
       feature_type: ability
       icon: ☠️
       keywords:

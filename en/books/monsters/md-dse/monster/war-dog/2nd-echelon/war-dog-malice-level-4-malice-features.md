@@ -2,10 +2,18 @@
 features:
     - body: The war dog activates a [Malice](scc.v1:mcdm.monsters.v1/rule.monster/malice) feature available to war dogs of level 3 or lower.
       cost: 3-7 Malice
+      effects:
+        - effect: The war dog activates a [Malice](scc.v1:mcdm.monsters.v1/rule.monster/malice) feature available to war dogs of level 3 or lower.
       icon: ⭐️
       name: Prior Malice Features
     - cost: 5 Malice
       distance: Ranged 10
+      effects:
+        - effect: Each target who has a loyalty collar [shifts](scc.v1:mcdm.heroes.v1/movement/shifting) up to their speed, then is reduced to 0 [Stamina](scc.v1:mcdm.heroes.v1/rule.health/stamina). After each target's Loyalty Collar trait is resolved, each enemy [adjacent](scc.v1:mcdm.heroes.v1/rule.combat/adjacent) to either target makes a Presence test.
+          name: Effect
+          tier1: '[Push](scc.v1:mcdm.heroes.v1/movement/forced-movement) 4; the enemy is [frightened](scc.v1:mcdm.heroes.v1/condition/frightened) of the nearest non-[minion](scc.v1:mcdm.monsters.v1/rule.organization/minion) war dog (save ends)'
+          tier2: '[Push](scc.v1:mcdm.heroes.v1/movement/forced-movement) 2; the enemy is [frightened](scc.v1:mcdm.heroes.v1/condition/frightened) of the nearest non-[minion](scc.v1:mcdm.monsters.v1/rule.organization/minion) war dog (EoT)'
+          tier3: '[Push](scc.v1:mcdm.heroes.v1/movement/forced-movement) 2'
       icon: "\U0001F3F9"
       keywords:
         - Magic
@@ -38,10 +46,18 @@ type: featureblock
 features:
     - body: The war dog activates a [Malice](scc.v1:mcdm.monsters.v1/rule.monster/malice) feature available to war dogs of level 3 or lower.
       cost: 3-7 Malice
+      effects:
+        - effect: The war dog activates a [Malice](scc.v1:mcdm.monsters.v1/rule.monster/malice) feature available to war dogs of level 3 or lower.
       icon: ⭐️
       name: Prior Malice Features
     - cost: 5 Malice
       distance: Ranged 10
+      effects:
+        - effect: Each target who has a loyalty collar [shifts](scc.v1:mcdm.heroes.v1/movement/shifting) up to their speed, then is reduced to 0 [Stamina](scc.v1:mcdm.heroes.v1/rule.health/stamina). After each target's Loyalty Collar trait is resolved, each enemy [adjacent](scc.v1:mcdm.heroes.v1/rule.combat/adjacent) to either target makes a Presence test.
+          name: Effect
+          tier1: '[Push](scc.v1:mcdm.heroes.v1/movement/forced-movement) 4; the enemy is [frightened](scc.v1:mcdm.heroes.v1/condition/frightened) of the nearest non-[minion](scc.v1:mcdm.monsters.v1/rule.organization/minion) war dog (save ends)'
+          tier2: '[Push](scc.v1:mcdm.heroes.v1/movement/forced-movement) 2; the enemy is [frightened](scc.v1:mcdm.heroes.v1/condition/frightened) of the nearest non-[minion](scc.v1:mcdm.monsters.v1/rule.organization/minion) war dog (EoT)'
+          tier3: '[Push](scc.v1:mcdm.heroes.v1/movement/forced-movement) 2'
       icon: "\U0001F3F9"
       keywords:
         - Magic

@@ -11,6 +11,10 @@
           "tier1": "2 corruption damage",
           "tier2": "4 corruption damage; [push](scc.v1:mcdm.heroes.v1/movement/forced-movement) 1",
           "tier3": "6 corruption damage; [push](scc.v1:mcdm.heroes.v1/movement/forced-movement) 2"
+        },
+        {
+          "effect": "The lancer deals an extra 2 damage if they have high ground against the target.",
+          "name": "Effect"
         }
       ],
       "feature_type": "ability",

@@ -38,6 +38,8 @@ features:
           tier1: 1 damage
           tier2: 2 damage
           tier3: 3 damage
+        - effect: Until the start of the veles's next turn, the target can't make opportunity attacks against any kobold.
+          name: Effect
       feature_type: ability
       icon: ⚔️
       keywords:

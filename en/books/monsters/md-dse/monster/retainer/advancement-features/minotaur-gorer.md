@@ -1,6 +1,11 @@
 ---
 features:
     - distance: Melee 1
+      effects:
+        - effect: The gorer damages a creature within distance using Gore.
+          name: Trigger
+        - effect: The target is pushed up to 3 squares. If the target has [stability](scc.v1:mcdm.heroes.v1/rule.character/stability) 0, they are also knocked [prone](scc.v1:mcdm.heroes.v1/condition/prone).
+          name: Effect
       icon: ❗️
       keywords:
         - Melee
@@ -15,6 +20,9 @@ features:
       usage: Free triggered action
     - cost: Encounter
       distance: Self
+      effects:
+        - effect: The gorer gains 3 [surges](scc.v1:mcdm.heroes.v1/rule.resource/surge), and until the start of the gorer's next turn, [strikes](scc.v1:mcdm.heroes.v1/rule.combat/strike) made against them and their mentor take a bane.
+          name: Effect
       icon: "\U0001F464"
       level: 7
       name: Triumphant Bay
@@ -25,6 +33,11 @@ features:
       usage: Maneuver
     - cost: Encounter
       distance: 1 burst
+      effects:
+        - roll: Power Roll + highest characteristic
+          tier1: 11 damage; M < WEAK [bleeding](scc.v1:mcdm.heroes.v1/condition/bleeding) ([save](scc.v1:mcdm.heroes.v1/rule.general/saving-throw) ends)
+          tier2: 16 damage; M < AVERAGE [bleeding](scc.v1:mcdm.heroes.v1/condition/bleeding) ([save](scc.v1:mcdm.heroes.v1/rule.general/saving-throw) ends)
+          tier3: 21 damage; M < STRONG [prone](scc.v1:mcdm.heroes.v1/condition/prone) and can't stand ([save](scc.v1:mcdm.heroes.v1/rule.general/saving-throw) ends).
       icon: ❇️
       keywords:
         - Area
@@ -52,6 +65,11 @@ type: featureblock
 ```ds-fb
 features:
     - distance: Melee 1
+      effects:
+        - effect: The gorer damages a creature within distance using Gore.
+          name: Trigger
+        - effect: The target is pushed up to 3 squares. If the target has [stability](scc.v1:mcdm.heroes.v1/rule.character/stability) 0, they are also knocked [prone](scc.v1:mcdm.heroes.v1/condition/prone).
+          name: Effect
       icon: ❗️
       keywords:
         - Melee
@@ -66,6 +84,9 @@ features:
       usage: Free triggered action
     - cost: Encounter
       distance: Self
+      effects:
+        - effect: The gorer gains 3 [surges](scc.v1:mcdm.heroes.v1/rule.resource/surge), and until the start of the gorer's next turn, [strikes](scc.v1:mcdm.heroes.v1/rule.combat/strike) made against them and their mentor take a bane.
+          name: Effect
       icon: "\U0001F464"
       level: 7
       name: Triumphant Bay
@@ -76,6 +97,11 @@ features:
       usage: Maneuver
     - cost: Encounter
       distance: 1 burst
+      effects:
+        - roll: Power Roll + highest characteristic
+          tier1: 11 damage; M < WEAK [bleeding](scc.v1:mcdm.heroes.v1/condition/bleeding) ([save](scc.v1:mcdm.heroes.v1/rule.general/saving-throw) ends)
+          tier2: 16 damage; M < AVERAGE [bleeding](scc.v1:mcdm.heroes.v1/condition/bleeding) ([save](scc.v1:mcdm.heroes.v1/rule.general/saving-throw) ends)
+          tier3: 21 damage; M < STRONG [prone](scc.v1:mcdm.heroes.v1/condition/prone) and can't stand ([save](scc.v1:mcdm.heroes.v1/rule.general/saving-throw) ends).
       icon: ❇️
       keywords:
         - Area

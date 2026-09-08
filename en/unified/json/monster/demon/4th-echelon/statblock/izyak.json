@@ -11,6 +11,14 @@
           "tier1": "9 psychic damage; R \u003c 3 [restrained](scc.v1:mcdm.heroes.v1/condition/restrained) (save ends)",
           "tier2": "12 psychic damage; R \u003c 4 [restrained](scc.v1:mcdm.heroes.v1/condition/restrained) (save ends)",
           "tier3": "14 psychic damage; R \u003c 5 [restrained](scc.v1:mcdm.heroes.v1/condition/restrained) (save ends)"
+        },
+        {
+          "effect": "The izyak can slide any target [restrained](scc.v1:mcdm.heroes.v1/condition/restrained) this way up to 3 squares.",
+          "name": "Effect"
+        },
+        {
+          "cost": "3 Malice",
+          "effect": "The izyak can vertical slide any target [restrained](scc.v1:mcdm.heroes.v1/condition/restrained) this way up to 6 squares instead. A target left in midair doesn't fall until the restrained condition ends."
         }
       ],
       "feature_type": "ability",
@@ -34,6 +42,14 @@
           "tier1": "4 psychic damage; I \u003c 3 [dazed](scc.v1:mcdm.heroes.v1/condition/dazed) (save ends)",
           "tier2": "7 psychic damage; I \u003c 4 [dazed](scc.v1:mcdm.heroes.v1/condition/dazed) (save ends)",
           "tier3": "9 psychic damage; I \u003c 5 [dazed](scc.v1:mcdm.heroes.v1/condition/dazed) (save ends)"
+        },
+        {
+          "effect": "Any target [dazed](scc.v1:mcdm.heroes.v1/condition/dazed) this way must use a move action to move their speed toward the izyak on their next turn.",
+          "name": "Effect"
+        },
+        {
+          "cost": "2 Malice",
+          "effect": "The area increases to a 6 cube."
         }
       ],
       "feature_type": "ability",

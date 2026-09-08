@@ -37,6 +37,8 @@ features:
           tier1: 4 fire damage
           tier2: 5 fire damage
           tier3: 7 fire damage; I < 2 the target is burning (save ends)
+        - effect: A burning creature takes 1d6 fire damage at the start of each of their turns. A burning object takes 1d6 fire damage at the end of each round.
+          name: Effect
       feature_type: ability
       icon: "\U0001F3F9"
       keywords:
@@ -50,7 +52,8 @@ features:
     - cost: 3 Malice
       distance: Ranged 5
       effects:
-        - effect: '**Effect:** Two abyssal hyenas claw up from the ground in unoccupied spaces within distance.'
+        - effect: Two abyssal hyenas claw up from the ground in unoccupied spaces within distance.
+          name: Effect
       feature_type: ability
       icon: "\U0001F3F9"
       keywords:
@@ -62,7 +65,8 @@ features:
     - cost: 4 Malice
       distance: 2 burst
       effects:
-        - effect: '**Effect:** One abyssal hyena target turns into a gnoll marauder, keeping their current [Stamina](scc.v1:mcdm.heroes.v1/rule.health/stamina). If any target hasn''t used their own Cackletongue maneuver on this turn, they can use it immediately at no cost.'
+        - effect: One abyssal hyena target turns into a gnoll marauder, keeping their current [Stamina](scc.v1:mcdm.heroes.v1/rule.health/stamina). If any target hasn't used their own Cackletongue maneuver on this turn, they can use it immediately at no cost.
+          name: Effect
       feature_type: ability
       icon: ❇️
       keywords:

@@ -41,6 +41,8 @@ features:
           tier1: 3 corruption damage
           tier2: 6 corruption damage; P < 3 [weakened](../../../../condition/weakened.md)
           tier3: 7 corruption damage; P < 4 [weakened](../../../../condition/weakened.md)
+        - effect: This [weakened](../../../../condition/weakened.md) condition ends if an affected target ends their turn with no spirit within 5 squares of them.
+          name: Effect
       feature_type: ability
       icon: "\U0001F5E1"
       keywords:

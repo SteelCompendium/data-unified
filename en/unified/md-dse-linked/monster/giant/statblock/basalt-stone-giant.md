@@ -38,6 +38,8 @@ features:
           tier1: 12 damage; M < 2 [slowed](../../../condition/slowed.md) (save ends)
           tier2: 17 damage; M < 3 [slowed](../../../condition/slowed.md) (save ends)
           tier3: 21 damage; M < 4 [slowed](../../../condition/slowed.md) (save ends)
+        - effect: If a target was already [slowed](../../../condition/slowed.md), that condition continues but their speed is 0 until the end of their next turn.
+          name: Effect
       feature_type: ability
       icon: "\U0001F5E1"
       keywords:
@@ -56,6 +58,8 @@ features:
           tier1: 10 damage; A < 2 [restrained](../../../condition/restrained.md) (save ends)
           tier2: 16 damage; A < 3 [restrained](../../../condition/restrained.md) (save ends)
           tier3: 20 damage; [prone](../../../condition/prone.md); A < 4 [restrained](../../../condition/restrained.md) (save ends)
+        - effect: The knife lands in the target's square, and has 30 [Stamina](../../../rule/health/stamina.md) and damage immunity 5. Whenever the knife takes damage, it deals 4 sonic damage to each enemy within 3 squares. The knife lasts until the end of the encounter, and can't be picked up or manipulated.
+          name: Effect
       feature_type: ability
       icon: ⚔️
       keywords:
@@ -69,7 +73,8 @@ features:
       usage: Main action
     - distance: Self
       effects:
-        - effect: '**Effect:** The basalt stone giant moves up to their speed. Each square that they leave during this move is [difficult terrain](../../../movement/difficult-terrain.md) for enemies. Giants ignore this [difficult terrain](../../../movement/difficult-terrain.md).'
+        - effect: The basalt stone giant moves up to their speed. Each square that they leave during this move is [difficult terrain](../../../movement/difficult-terrain.md) for enemies. Giants ignore this [difficult terrain](../../../movement/difficult-terrain.md).
+          name: Effect
       feature_type: ability
       icon: "\U0001F464"
       keywords: []
@@ -79,9 +84,8 @@ features:
       usage: Maneuver
     - distance: 2 burst
       effects:
-        - effect: |-
-            **Trigger:** The basalt stone giant takes damage.
-            **Effect:** The target is [pushed](../../../movement/forced-movement.md) up to 3 squares, or if they have A < 3, they are [pushed](../../../movement/forced-movement.md) up to 6 squares and knocked [prone](../../../condition/prone.md).
+        - effect: The target is [pushed](../../../movement/forced-movement.md) up to 3 squares, or if they have A < 3, they are [pushed](../../../movement/forced-movement.md) up to 6 squares and knocked [prone](../../../condition/prone.md).
+          name: Effect
       feature_type: ability
       icon: ❗️
       keywords:
@@ -89,6 +93,7 @@ features:
         - Magic
       name: Resonate Rune
       target: Each enemy in the area
+      trigger: The basalt stone giant takes damage.
       type: feature
       usage: Triggered action
     - effects:

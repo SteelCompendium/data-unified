@@ -37,6 +37,8 @@ features:
           tier1: 4 psychic damage; I < 0 the target makes a [free strike](scc.v1:mcdm.heroes.v1/feature.common.main-actions/free-strike) against a creature of the cackler's choice
           tier2: 5 psychic damage; I < 1 the target makes a [free strike](scc.v1:mcdm.heroes.v1/feature.common.main-actions/free-strike) against a creature of the cackler's choice
           tier3: 7 psychic damage; I < 2 the target uses a signature ability against a creature of the cackler's choice
+        - effect: An ally targeted by this ability ignores the damage and can make a [free strike](scc.v1:mcdm.heroes.v1/feature.common.main-actions/free-strike).
+          name: Effect
       feature_type: ability
       icon: "\U0001F3F9"
       keywords:
@@ -50,7 +52,8 @@ features:
     - cost: 4 Malice
       distance: 2 burst
       effects:
-        - roll: ""
+        - effect: Each enemy target makes an **Intuition test**. If any target hasn't used their own Cackletongue maneuver on this turn, they can use it immediately at no cost.
+          name: Effect
           tier1: '[Frightened](scc.v1:mcdm.heroes.v1/condition/frightened) (save ends)'
           tier2: '[Frightened](scc.v1:mcdm.heroes.v1/condition/frightened) (EoT)'
           tier3: No effect

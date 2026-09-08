@@ -39,6 +39,10 @@ features:
           tier1: 10 damage
           tier2: 15 damage
           tier3: 18 damage
+        - effect: The next ability used against the target has a double edge.
+          name: Effect
+        - cost: 5 Malice
+          effect: Each non-[minion](../../../rule/organization/minion.md) ally within 3 squares of the target can make a [free strike](../../../feature/common/main-actions/free-strike.md) against them.
       feature_type: ability
       icon: "\U0001F3F9"
       keywords:
@@ -56,6 +60,8 @@ features:
           tier1: 5 damage; I < 1 [bleeding](../../../condition/bleeding.md) (save ends)
           tier2: 10 damage; I < 2 [bleeding](../../../condition/bleeding.md) (save ends)
           tier3: 12 damage; I < 3 [bleeding](../../../condition/bleeding.md) (save ends)
+        - effect: Each target is [pushed](../../../movement/forced-movement.md) up to 4 squares.
+          name: Effect
       feature_type: ability
       icon: "\U0001F533"
       keywords:

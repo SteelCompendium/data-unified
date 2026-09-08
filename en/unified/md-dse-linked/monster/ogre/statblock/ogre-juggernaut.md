@@ -37,6 +37,8 @@ features:
           tier1: 7 damage
           tier2: 10 damage; A < 1 vertical [push](../../../movement/forced-movement.md) 2
           tier3: 13 damage; A < 2 vertical [slide](../../../movement/forced-movement.md) 3
+        - cost: 1 Malice
+          effect: Each target who has M < 1 is [bleeding](../../../condition/bleeding.md) (save ends).
       feature_type: ability
       icon: "\U0001F5E1"
       keywords:
@@ -50,7 +52,9 @@ features:
       usage: Main action
     - distance: 3 burst
       effects:
-        - roll: Power Roll + 2
+        - effect: The juggernaut jumps up to 6 squares before using this ability.
+          name: Effect
+          roll: Power Roll + 2
           tier1: 4 damage
           tier2: 6 damage; [push](../../../movement/forced-movement.md) 2; M < 1 [prone](../../../condition/prone.md)
           tier3: 9 damage; [push](../../../movement/forced-movement.md) 4; M < 2 [prone](../../../condition/prone.md)
@@ -70,6 +74,8 @@ features:
           tier1: I < 0 [frightened](../../../condition/frightened.md) (save ends)
           tier2: I < 1 [frightened](../../../condition/frightened.md) (save ends)
           tier3: I < 2 [frightened](../../../condition/frightened.md) (save ends)
+        - effect: While a target is [frightened](../../../condition/frightened.md) this way, any ogre gains an edge on strikes against them.
+          name: Effect
       feature_type: ability
       icon: ❇️
       keywords:
@@ -81,14 +87,14 @@ features:
     - cost: 1 Malice
       distance: Self
       effects:
-        - effect: |-
-            **Trigger:** The juggernaut takes damage.
-            **Effect:** The juggernaut moves up to their speed and can make a [free strike](../../../feature/common/main-actions/free-strike.md).
+        - effect: The juggernaut moves up to their speed and can make a [free strike](../../../feature/common/main-actions/free-strike.md).
+          name: Effect
       feature_type: ability
       icon: ❗️
       keywords: []
       name: Hrraaaaaagh!
       target: Self
+      trigger: The juggernaut takes damage.
       type: feature
       usage: Free triggered action
     - effects:

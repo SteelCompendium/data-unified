@@ -37,6 +37,8 @@ features:
           tier1: 12 psychic damage
           tier2: 17 psychic damage
           tier3: 21 psychic damage
+        - cost: 3 Malice
+          effect: Each target [shifts](scc.v1:mcdm.heroes.v1/movement/shifting) up to their speed and can make a [free strike](scc.v1:mcdm.heroes.v1/feature.common.main-actions/free-strike) against one enemy of the talent's choice. The target can't be moved in a way that would harm them.
       feature_type: ability
       icon: "\U0001F3F9"
       keywords:
@@ -68,15 +70,15 @@ features:
     - cost: 2 Malice
       distance: Self
       effects:
-        - effect: |-
-            **Trigger:** A creature deals damage to the talent.
-            **Effect:** The talent halves the damage and [shifts](scc.v1:mcdm.heroes.v1/movement/shifting) up to 2 squares. The triggering creature takes psychic damage equal to half the damage dealt.
+        - effect: The talent halves the damage and [shifts](scc.v1:mcdm.heroes.v1/movement/shifting) up to 2 squares. The triggering creature takes psychic damage equal to half the damage dealt.
+          name: Effect
       feature_type: ability
       icon: ❗️
       keywords:
         - Psionic
       name: Mind Requital
       target: Self
+      trigger: A creature deals damage to the talent.
       type: feature
       usage: Triggered action
     - effects:

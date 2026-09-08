@@ -48,6 +48,8 @@ features:
           tier1: 7 fire [damage](scc.v1:mcdm.heroes.v1/rule.damage/damage); I < WEAK [dazed](scc.v1:mcdm.heroes.v1/condition/dazed) (EoT)
           tier2: 11 fire [damage](scc.v1:mcdm.heroes.v1/rule.damage/damage); I < AVERAGE [dazed](scc.v1:mcdm.heroes.v1/condition/dazed) (EoT)
           tier3: 16 fire [damage](scc.v1:mcdm.heroes.v1/rule.damage/damage); I < STRONG [dazed](scc.v1:mcdm.heroes.v1/condition/dazed) (save ends)
+        - effect: A target [dazed](scc.v1:mcdm.heroes.v1/condition/dazed) by this ability has their [stability](scc.v1:mcdm.heroes.v1/rule.character/stability) reduced to 0 until the [condition](scc.v1:mcdm.heroes.v1/rule.combat/condition) ends.
+          name: Effect
       feature_type: ability
       icon: "\U0001F3F9"
       keywords:

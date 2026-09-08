@@ -11,6 +11,10 @@
           "tier1": "3 damage",
           "tier2": "5 damage",
           "tier3": "7 damage; the grilp [shifts](scc.v1:mcdm.heroes.v1/movement/shifting) up to 2 squares"
+        },
+        {
+          "effect": "The grilp moves up to their speed and can attempt to hide.",
+          "name": "Effect"
         }
       ],
       "feature_type": "ability",

@@ -8,6 +8,8 @@ features:
           tier1: 3 damage; A < 2 [prone](scc.v1:mcdm.heroes.v1/condition/prone)
           tier2: 5 damage; A < 3 [prone](scc.v1:mcdm.heroes.v1/condition/prone)
           tier3: 6 damage; [prone](scc.v1:mcdm.heroes.v1/condition/prone)
+        - effect: If a target made [prone](scc.v1:mcdm.heroes.v1/condition/prone) this way is already [prone](scc.v1:mcdm.heroes.v1/condition/prone), they are [grabbed](scc.v1:mcdm.heroes.v1/condition/grabbed) instead.
+          name: Effect
       feature_type: ability
       icon: "\U0001F5E1"
       keywords:

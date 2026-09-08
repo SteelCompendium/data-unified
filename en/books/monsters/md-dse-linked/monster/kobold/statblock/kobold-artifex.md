@@ -37,6 +37,8 @@ features:
           tier1: 3 damage; pull 1
           tier2: 4 damage; pull 2
           tier3: 5 damage; pull 3
+        - effect: If this [forced movement](../../../movement/forced-movement.md) triggers a trap that uses a power roll, that roll has a double edge.
+          name: Effect
       feature_type: ability
       icon: "\U0001F3F9"
       keywords:
@@ -49,9 +51,10 @@ features:
       usage: Main action
     - distance: Ranged 10
       effects:
-        - effect: |-
-            **Effect:** The trap or terrain object instantly triggers.
-            **3 [Malice](../../../rule/monster/malice.md):** The artifex places a new trap in the encounter and can instantly trigger it. The artifex prefers working with angry beehives, flammable oil, snare traps, and spike traps (see Dynamic Terrain).
+        - effect: The trap or terrain object instantly triggers.
+          name: Effect
+        - cost: 3 Malice
+          effect: The artifex places a new trap in the encounter and can instantly trigger it. The artifex prefers working with angry beehives, flammable oil, snare traps, and spike traps (see Dynamic Terrain).
       feature_type: ability
       icon: ⭐️
       keywords:

@@ -37,6 +37,10 @@ features:
           tier1: 7 damage
           tier2: 10 damage; A < 2 [grabbed](../../../condition/grabbed.md)
           tier3: 11 damage; A < 3 [grabbed](../../../condition/grabbed.md)
+        - effect: The hulking brain can have up to four size 1 creatures [grabbed](../../../condition/grabbed.md).
+          name: Special
+        - cost: 2 Malice
+          effect: The [potency](../../../rule/character/potency.md) increases by 1.
       feature_type: ability
       icon: "\U0001F5E1"
       keywords:
@@ -49,7 +53,9 @@ features:
       usage: Main action
     - distance: Melee 1
       effects:
-        - roll: Power Roll + 3
+        - effect: A target must be [grabbed](../../../condition/grabbed.md) by the hulking brain, and is no longer [grabbed](../../../condition/grabbed.md) after the power roll is resolved.
+          name: Effect
+          roll: Power Roll + 3
           tier1: 7 damage; M < 1 3 damage
           tier2: 10 damage; M < 2 3 damage
           tier3: 13 damage; M < 3 6 damage
@@ -64,7 +70,8 @@ features:
       usage: Main action
     - distance: Self
       effects:
-        - effect: '**Effect:** The hulking brain [shifts](../../../movement/shifting.md) up to 4 squares, ignoring difficu terrain.'
+        - effect: The hulking brain [shifts](../../../movement/shifting.md) up to 4 squares, ignoring difficu terrain.
+          name: Effect
       feature_type: ability
       icon: "\U0001F464"
       keywords: []
@@ -75,15 +82,16 @@ features:
     - cost: 1 Malice
       distance: Self
       effects:
-        - effect: |-
-            **Trigger:** An ally voiceless talker within 5 squares takes damage from an enemy ability.
-            **Effect:** The hulking brain [shifts](../../../movement/shifting.md) [adjacent](../../../rule/combat/adjacent.md) to the ally and becomes the new target of the ability.
-            **2 Malice:** The enemy is knocked [prone](../../../condition/prone.md).
+        - effect: The hulking brain [shifts](../../../movement/shifting.md) [adjacent](../../../rule/combat/adjacent.md) to the ally and becomes the new target of the ability.
+          name: Effect
+        - cost: 2 Malice
+          effect: The enemy is knocked [prone](../../../condition/prone.md).
       feature_type: ability
       icon: ❗️
       keywords: []
       name: Brawny Buffe
       target: Self
+      trigger: An ally voiceless talker within 5 squares takes damage from an enemy ability.
       type: feature
       usage: Free triggered action
     - effects:

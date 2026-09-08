@@ -38,6 +38,8 @@ features:
           tier1: 5 damage
           tier2: 7 damage; I < 1 [restrained](../../../condition/restrained.md) (save ends)
           tier3: 9 damage; I < 2 [restrained](../../../condition/restrained.md) (save ends)
+        - effect: While [restrained](../../../condition/restrained.md) this way, a target can't search for hidden creatures.
+          name: Effect
       feature_type: ability
       icon: "\U0001F3F9"
       keywords:
@@ -55,6 +57,8 @@ features:
           tier1: 2 damage
           tier2: 4 damage; P < 1 [weakened](../../../condition/weakened.md) (save ends)
           tier3: 6 damage; P < 1 [bleeding](../../../condition/bleeding.md) (save ends); the target has a double bane on strikes (save ends)
+        - effect: While [bleeding](../../../condition/bleeding.md) or [weakened](../../../condition/weakened.md) this way, a target is covered in lichen.
+          name: Effect
       feature_type: ability
       icon: "\U0001F3F9"
       keywords:
@@ -67,15 +71,15 @@ features:
       usage: Maneuver
     - distance: Ranged 5
       effects:
-        - effect: |-
-            **Trigger:** A creature uses a triggered action targeting the green seer or an ally within distance.
-            **Effect:** The green seer makes a [free strike](../../../feature/common/main-actions/free-strike.md) against the target after the target's triggered action is resolved.
+        - effect: The green seer makes a [free strike](../../../feature/common/main-actions/free-strike.md) against the target after the target's triggered action is resolved.
+          name: Effect
       feature_type: ability
       icon: ❗️
       keywords:
         - Ranged
       name: Foreseen Punishment
       target: The triggering creature
+      trigger: A creature uses a triggered action targeting the green seer or an ally within distance.
       type: feature
       usage: Free triggered action
     - effects:

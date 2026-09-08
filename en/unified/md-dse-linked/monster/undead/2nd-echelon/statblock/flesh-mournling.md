@@ -39,6 +39,10 @@ features:
           tier1: 5 damage
           tier2: 7 damage
           tier3: 9 damage
+        - effect: The target can't [shift](../../../../movement/shifting.md) until the end of their next turn.
+          name: Effect
+        - cost: 1 Malice
+          effect: This ability targets one additional target.
       feature_type: ability
       icon: "\U0001F5E1"
       keywords:
@@ -55,6 +59,8 @@ features:
           tier1: 2 psychic damage
           tier2: 3 psychic damage; I < 2 [frightened](../../../../condition/frightened.md) (save ends)
           tier3: 4 psychic damage; I < 3 [frightened](../../../../condition/frightened.md) (save ends)
+        - effect: A target who is still [frightened](../../../../condition/frightened.md) this way at the end of the encounter can't take a respite activity during their next respite.
+          name: Effect
       feature_type: ability
       icon: ❇️
       keywords:

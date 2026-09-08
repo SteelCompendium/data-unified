@@ -11,6 +11,10 @@
           "tier1": "7 poison damage",
           "tier2": "11 poison damage",
           "tier3": "14 poison damage; M \u003c 2 [weakened](scc.v1:mcdm.heroes.v1/condition/weakened) (save ends)"
+        },
+        {
+          "cost": "2 Malice",
+          "effect": "For any tier outcome, if the target has M \u003c 3, they are [weakened](scc.v1:mcdm.heroes.v1/condition/weakened) (save ends)."
         }
       ],
       "feature_type": "ability",
@@ -52,7 +56,8 @@
       "distance": "Self",
       "effects": [
         {
-          "effect": "**Effect:** The spider [shifts](scc.v1:mcdm.heroes.v1/movement/shifting) up to their speed and uses Leg Blade against each creature who comes [adjacent](scc.v1:mcdm.heroes.v1/rule.combat/adjacent) to them during the shift. The spider makes one power roll against all targets."
+          "effect": "The spider [shifts](scc.v1:mcdm.heroes.v1/movement/shifting) up to their speed and uses Leg Blade against each creature who comes [adjacent](scc.v1:mcdm.heroes.v1/rule.combat/adjacent) to them during the shift. The spider makes one power roll against all targets.",
+          "name": "Effect"
         }
       ],
       "feature_type": "ability",
@@ -71,6 +76,10 @@
           "tier1": "A \u003c 0 [restrained](scc.v1:mcdm.heroes.v1/condition/restrained) (save ends)",
           "tier2": "A \u003c 1 [restrained](scc.v1:mcdm.heroes.v1/condition/restrained) (save ends)",
           "tier3": "A \u003c 2 [restrained](scc.v1:mcdm.heroes.v1/condition/restrained) (save ends)"
+        },
+        {
+          "effect": "The area is [difficult terrain](scc.v1:mcdm.heroes.v1/movement/difficult-terrain) for enemies.",
+          "name": "Effect"
         }
       ],
       "feature_type": "ability",
@@ -88,7 +97,8 @@
       "distance": "Self",
       "effects": [
         {
-          "effect": "**Trigger:** The spider or any ally riding the spider takes damage.\n**Effect:** The damage is halved, and the spider [shifts](scc.v1:mcdm.heroes.v1/movement/shifting) up to 2 squares after the triggering effect resolves."
+          "effect": "The damage is halved, and the spider [shifts](scc.v1:mcdm.heroes.v1/movement/shifting) up to 2 squares after the triggering effect resolves.",
+          "name": "Effect"
         }
       ],
       "feature_type": "ability",
@@ -96,6 +106,7 @@
       "keywords": null,
       "name": "Skitter",
       "target": "Self",
+      "trigger": "The spider or any ally riding the spider takes damage.",
       "type": "feature",
       "usage": "Triggered action"
     },

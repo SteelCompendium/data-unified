@@ -2,9 +2,16 @@
 features:
     - body: The war dog activates a [Malice](../../../rule/monster/malice.md) feature available to war dogs of level 6 or lower.
       cost: 3-7 Malice
+      effects:
+        - effect: The war dog activates a [Malice](../../../rule/monster/malice.md) feature available to war dogs of level 6 or lower.
       icon: ⭐️
       name: Prior Malice Features
     - cost: 7 Malice
+      effects:
+        - effect: A bank of choking chemicals sweeps across the area of the encounter map. Each enemy in the encounter makes a Might test.
+          tier1: 8 poison damage; [dazed](../../../condition/dazed.md) (EoT)
+          tier2: 7 poison damage; [weakened](../../../condition/weakened.md) (EoT)
+          tier3: 4 poison damage
       icon: "\U0001F300"
       intro: A bank of choking chemicals sweeps across the area of the encounter map. Each enemy in the encounter makes a Might test.
       name: Alchemical Cloud
@@ -30,9 +37,16 @@ type: featureblock
 features:
     - body: The war dog activates a [Malice](../../../rule/monster/malice.md) feature available to war dogs of level 6 or lower.
       cost: 3-7 Malice
+      effects:
+        - effect: The war dog activates a [Malice](../../../rule/monster/malice.md) feature available to war dogs of level 6 or lower.
       icon: ⭐️
       name: Prior Malice Features
     - cost: 7 Malice
+      effects:
+        - effect: A bank of choking chemicals sweeps across the area of the encounter map. Each enemy in the encounter makes a Might test.
+          tier1: 8 poison damage; [dazed](../../../condition/dazed.md) (EoT)
+          tier2: 7 poison damage; [weakened](../../../condition/weakened.md) (EoT)
+          tier3: 4 poison damage
       icon: "\U0001F300"
       intro: A bank of choking chemicals sweeps across the area of the encounter map. Each enemy in the encounter makes a Might test.
       name: Alchemical Cloud

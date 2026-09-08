@@ -39,6 +39,8 @@ features:
           tier1: 7 damage; pull 2
           tier2: 10 damage; pull 3
           tier3: 13 damage; pull 4
+        - effect: Each target must be on the ground, and each square a target is pulled through is difficult terrain for enemies.
+          name: Effect
       feature_type: ability
       icon: "\U0001F3F9"
       keywords:
@@ -51,7 +53,9 @@ features:
       usage: Main Action
     - distance: 3 burst
       effects:
-        - roll: Power Roll + 2
+        - effect: 'The channeler chooses one of the following damage types: acid, cold, corruption, fire, or poison.'
+          name: Effect
+          roll: Power Roll + 2
           tier1: 2 damage; M < 0 [bleeding](scc.v1:mcdm.heroes.v1/condition/bleeding) (save ends)
           tier2: 3 damage; M < 1 [bleeding](scc.v1:mcdm.heroes.v1/condition/bleeding) (save ends)
           tier3: 4 damage; M < 2 [bleeding](scc.v1:mcdm.heroes.v1/condition/bleeding) (save ends)
@@ -71,6 +75,8 @@ features:
           tier1: 5 corruption damage; P < 0 [slowed](scc.v1:mcdm.heroes.v1/condition/slowed) (save ends)
           tier2: 8 corruption damage; P < 1 the target is shapechanged (save ends)
           tier3: 11 corruption damage; P < 2 the target is shapechanged (save ends)
+        - effect: A shapechanged creature is [slowed](scc.v1:mcdm.heroes.v1/condition/slowed) and has fire weakness 10 as their limbs stretch and their skin becomes paper thin.
+          name: Effect
       feature_type: ability
       icon: "\U0001F3F9"
       keywords:
@@ -83,9 +89,10 @@ features:
       usage: Main Action
     - distance: Melee 1
       effects:
-        - effect: |-
-            **Special:** The target must be [grabbed](scc.v1:mcdm.heroes.v1/condition/grabbed) by the channeler.
-            **Effect:** The target is vertical [pushed](scc.v1:mcdm.heroes.v1/movement/forced-movement) up to 3 squares. An ally doesn't take damage from being [force moved](scc.v1:mcdm.heroes.v1/movement/forced-movement) this way.
+        - effect: The target must be [grabbed](scc.v1:mcdm.heroes.v1/condition/grabbed) by the channeler.
+          name: Special
+        - effect: The target is vertical [pushed](scc.v1:mcdm.heroes.v1/movement/forced-movement) up to 3 squares. An ally doesn't take damage from being [force moved](scc.v1:mcdm.heroes.v1/movement/forced-movement) this way.
+          name: Effect
       feature_type: ability
       icon: "\U0001F5E1"
       keywords:
@@ -97,22 +104,21 @@ features:
       usage: Maneuver
     - distance: Melee 1
       effects:
-        - effect: |-
-            **Trigger:** A size 1 creature or object is [force moved](scc.v1:mcdm.heroes.v1/movement/forced-movement) within distance, or a size 1 ally willingly moves within distance.
-            **Effect:** The target is [grabbed](scc.v1:mcdm.heroes.v1/condition/grabbed) by the channeler.
+        - effect: The target is [grabbed](scc.v1:mcdm.heroes.v1/condition/grabbed) by the channeler.
+          name: Effect
       feature_type: ability
       icon: ❗️
       keywords:
         - Melee
       name: Catcher
       target: The triggering creature or object
+      trigger: A size 1 creature or object is [force moved](scc.v1:mcdm.heroes.v1/movement/forced-movement) within distance, or a size 1 ally willingly moves within distance.
       type: feature
       usage: Free triggered action
     - distance: Ranged 5
       effects:
-        - effect: |-
-            **Trigger:** An ally within distance takes damage.
-            **Effect:** The target is wrapped in shadow and halves the damage. The target can't be targeted by strikes until the start of their next turn.
+        - effect: The target is wrapped in shadow and halves the damage. The target can't be targeted by strikes until the start of their next turn.
+          name: Effect
       feature_type: ability
       icon: ❗️
       keywords:
@@ -120,6 +126,7 @@ features:
         - Ranged
       name: Shadow Veil
       target: The triggering ally
+      trigger: An ally within distance takes damage.
       type: feature
       usage: Triggered action
 free_strike: 5

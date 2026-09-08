@@ -38,6 +38,8 @@ features:
           tier1: 6 lightning damage
           tier2: 10 lightning damage
           tier3: 13 lightning damage
+        - effect: Each target loses all their [surges](../../../rule/resource/surge.md).
+          name: Effect
       feature_type: ability
       icon: "\U0001F533"
       keywords:

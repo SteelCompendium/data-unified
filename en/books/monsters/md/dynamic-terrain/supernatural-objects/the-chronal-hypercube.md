@@ -1,6 +1,11 @@
 ---
 features:
-    - icon: "\U0001F300"
+    - effects:
+        - effect: A creature who has the [Psionics](scc.v1:mcdm.heroes.v1/skill.lore/psionics) skill can deactivate and take control of the chronal hypercube by making a **Reason test** while within 10 squares of the hypercube.
+          tier1: The creature takes 1d6 psychic damage.
+          tier2: The creature fails to deactivate the hypercube.
+          tier3: The hypercube [teleports](scc.v1:mcdm.heroes.v1/movement/teleport) [adjacent](scc.v1:mcdm.heroes.v1/rule.combat/adjacent) to the creature at the start of the next round and becomes an ally to the creature and their allies.
+      icon: "\U0001F300"
       intro: A creature who has the [Psionics](scc.v1:mcdm.heroes.v1/skill.lore/psionics) skill can deactivate and take control of the chronal hypercube by making a **Reason test** while within 10 squares of the hypercube.
       name: Deactivate
       power_roll:
@@ -9,9 +14,13 @@ features:
             low: The creature takes 1d6 psychic damage.
             mid: The creature fails to deactivate the hypercube.
     - body: At the start of each round while the hypercube is present, roll a d10. On a 7 or higher, the hypercube [teleports](scc.v1:mcdm.heroes.v1/movement/teleport) to a square of one ally's choice within 10 squares and is hidden. While the hypercube is hidden, [Psionics](scc.v1:mcdm.heroes.v1/skill.lore/psionics) is the only skill that can be applied to a test made to find it.
+      effects:
+        - effect: At the start of each round while the hypercube is present, roll a d10. On a 7 or higher, the hypercube [teleports](scc.v1:mcdm.heroes.v1/movement/teleport) to a square of one ally's choice within 10 squares and is hidden. While the hypercube is hidden, [Psionics](scc.v1:mcdm.heroes.v1/skill.lore/psionics) is the only skill that can be applied to a test made to find it.
       icon: ⭐️
       name: Dimensional Flicker
     - body: Any ally within 10 squares of the hypercube can [teleport](scc.v1:mcdm.heroes.v1/movement/teleport) when they move. An ally who [teleports](scc.v1:mcdm.heroes.v1/movement/teleport) gains an edge on the next power roll they make.
+      effects:
+        - effect: Any ally within 10 squares of the hypercube can [teleport](scc.v1:mcdm.heroes.v1/movement/teleport) when they move. An ally who [teleports](scc.v1:mcdm.heroes.v1/movement/teleport) gains an edge on the next power roll they make.
       icon: ⭐️
       name: Chronal Superhighway
 flavor: This unnatural object twists space around it in a reflection of its own unnatural form.

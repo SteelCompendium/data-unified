@@ -11,6 +11,10 @@
           "tier1": "3 damage; [push](scc.v1:mcdm.heroes.v1/movement/forced-movement) 1",
           "tier2": "5 damage; [push](scc.v1:mcdm.heroes.v1/movement/forced-movement) 3",
           "tier3": "6 damage; [push](scc.v1:mcdm.heroes.v1/movement/forced-movement) 5; A \u003c 3 [slowed](scc.v1:mcdm.heroes.v1/condition/slowed) (save ends)"
+        },
+        {
+          "effect": "The doomthief can't willingly move on the same turn they use this ability.",
+          "name": "Effect"
         }
       ],
       "feature_type": "ability",
@@ -40,7 +44,8 @@
       "distance": "Self",
       "effects": [
         {
-          "effect": "**Effect:** The doomthief has damage immunity 4 and the size of the aura from their Doom Magnet trait increases by 3, both until the start of their next turn."
+          "effect": "The doomthief has damage immunity 4 and the size of the aura from their Doom Magnet trait increases by 3, both until the start of their next turn.",
+          "name": "Effect"
         }
       ],
       "feature_type": "ability",

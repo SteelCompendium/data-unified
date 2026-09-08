@@ -39,6 +39,8 @@ features:
           tier1: 4 damage
           tier2: 7 damage
           tier3: 8 damage; I < 3 the target is [frightened](scc.v1:mcdm.heroes.v1/condition/frightened) of all shriketroops (EoT)
+        - effect: The target must move their speed in a straight line away from the shriketroop.
+          name: Effect
       feature_type: ability
       icon: "\U0001F3F9"
       keywords:

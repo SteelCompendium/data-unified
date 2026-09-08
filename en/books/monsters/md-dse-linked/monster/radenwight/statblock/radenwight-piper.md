@@ -38,6 +38,8 @@ features:
           tier1: 5 sonic damage; [push](../../../movement/forced-movement.md) 1
           tier2: 7 sonic damage; [push](../../../movement/forced-movement.md) 3
           tier3: 9 sonic damage; [push](../../../movement/forced-movement.md) 4
+        - effect: The piper or one ally within distance regains [Stamina](../../../rule/health/stamina.md) equal to the damage dealt.
+          name: Effect
       feature_type: ability
       icon: ⚔️
       keywords:
@@ -51,9 +53,10 @@ features:
       usage: Main action
     - distance: 3 burst
       effects:
-        - effect: |-
-            **Effect:** Each target who has used their Ready Rodent ability this round regains the use of their triggered action.
-            **2 [Malice](../../../rule/monster/malice.md):** The area increases to a 6 burst.
+        - effect: Each target who has used their Ready Rodent ability this round regains the use of their triggered action.
+          name: Effect
+        - cost: 2 Malice
+          effect: The area increases to a 6 burst.
       feature_type: ability
       icon: ❇️
       keywords:
@@ -65,9 +68,8 @@ features:
       usage: Maneuver
     - distance: Melee 1
       effects:
-        - effect: |-
-            **Trigger:** An ally deals damage to the target.
-            **Effect:** The piper makes a [free strike](../../../feature/common/main-actions/free-strike.md) against the target.
+        - effect: The piper makes a [free strike](../../../feature/common/main-actions/free-strike.md) against the target.
+          name: Effect
       feature_type: ability
       icon: ❗️
       keywords:
@@ -75,6 +77,7 @@ features:
         - Weapon
       name: Ready Rodent
       target: One creature
+      trigger: An ally deals damage to the target.
       type: feature
       usage: Triggered action
     - effects:

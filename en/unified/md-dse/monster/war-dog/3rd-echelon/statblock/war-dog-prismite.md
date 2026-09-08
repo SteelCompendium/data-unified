@@ -50,7 +50,8 @@ features:
       usage: Main action
     - distance: 4 cube within 10
       effects:
-        - effect: '**Effect:** Until the start of the prismite''s next turn, each target has cover and gains a +2 bonus to stability.'
+        - effect: Until the start of the prismite's next turn, each target has cover and gains a +2 bonus to stability.
+          name: Effect
       feature_type: ability
       icon: "\U0001F533"
       keywords:
@@ -64,9 +65,8 @@ features:
     - cost: 1 Malice
       distance: Ranged 10
       effects:
-        - effect: |-
-            **Trigger:** An enemy within distance uses a melee ability against an ally.
-            **Effect:** The target is [pulled](scc.v1:mcdm.heroes.v1/movement/forced-movement) up to 5 squares toward the prismite and any damage from the triggering ability is halved.
+        - effect: The target is [pulled](scc.v1:mcdm.heroes.v1/movement/forced-movement) up to 5 squares toward the prismite and any damage from the triggering ability is halved.
+          name: Effect
       feature_type: ability
       icon: ❗️
       keywords:
@@ -74,6 +74,7 @@ features:
         - Ranged
       name: Tractor Beam
       target: The triggering enemy
+      trigger: An enemy within distance uses a melee ability against an ally.
       type: feature
       usage: Triggered action
     - effects:

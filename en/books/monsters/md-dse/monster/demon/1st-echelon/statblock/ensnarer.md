@@ -40,6 +40,8 @@ features:
           tier1: 2 damage; pull 1
           tier2: 4 damage; pull 2
           tier3: 5 damage; pull 3
+        - effect: If the target is pulled [adjacent](scc.v1:mcdm.heroes.v1/rule.combat/adjacent) to the ensnarer, the ensnarer can make a [free strike](scc.v1:mcdm.heroes.v1/feature.common.main-actions/free-strike) against them.
+          name: Effect
       feature_type: ability
       icon: "\U0001F5E1"
       keywords:

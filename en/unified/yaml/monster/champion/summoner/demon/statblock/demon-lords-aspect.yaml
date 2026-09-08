@@ -9,6 +9,8 @@ features:
           tier1: 9 corruption [damage](scc.v1:mcdm.heroes.v1/rule.damage/damage); [pull](scc.v1:mcdm.heroes.v1/movement/forced-movement) 2
           tier2: 12 corruption [damage](scc.v1:mcdm.heroes.v1/rule.damage/damage); [pull](scc.v1:mcdm.heroes.v1/movement/forced-movement) 4
           tier3: 14 corruption [damage](scc.v1:mcdm.heroes.v1/rule.damage/damage); [pull](scc.v1:mcdm.heroes.v1/movement/forced-movement) 5
+        - effect: A target [pulled](scc.v1:mcdm.heroes.v1/movement/forced-movement) [adjacent](scc.v1:mcdm.heroes.v1/rule.combat/adjacent) to the Aspect is [grabbed](scc.v1:mcdm.heroes.v1/condition/grabbed).
+          name: Effect
       feature_type: ability
       icon: "\U0001F3F9"
       keywords:
@@ -33,14 +35,14 @@ features:
       type: feature
     - distance: Self
       effects:
-        - effect: |-
-            **Trigger:** The Aspect takes [damage](scc.v1:mcdm.heroes.v1/rule.damage/damage) from an enemy.
-            **Effect:** The Aspect has a double [edge](scc.v1:mcdm.heroes.v1/rule.dice/edge) on their next [power roll](scc.v1:mcdm.heroes.v1/rule.dice/power-roll). They can choose to give this benefit to an ally within your Summoner's Range instead.
+        - effect: The Aspect has a double [edge](scc.v1:mcdm.heroes.v1/rule.dice/edge) on their next [power roll](scc.v1:mcdm.heroes.v1/rule.dice/power-roll). They can choose to give this benefit to an ally within your Summoner's Range instead.
+          name: Effect
       feature_type: ability
       icon: ❗️
       keywords: []
       name: I Like Your Taste
       target: Self
+      trigger: The Aspect takes [damage](scc.v1:mcdm.heroes.v1/rule.damage/damage) from an enemy.
       type: feature
       usage: Free triggered action
     - effects:

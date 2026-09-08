@@ -41,6 +41,8 @@ features:
           tier1: 7 damage; M < 2 [bleeding](../../../../condition/bleeding.md) (save ends)
           tier2: 10 corruption damage; M < 3 5 corruption damage and [bleeding](../../../../condition/bleeding.md) (save ends)
           tier3: 11 corruption damage; M < 4 7 corruption damage and [bleeding](../../../../condition/bleeding.md) (save ends)
+        - effect: The vampire regains [Stamina](../../../../rule/health/stamina.md) equal to any corruption damage dealt.
+          name: Effect
       feature_type: ability
       icon: "\U0001F5E1"
       keywords:
@@ -58,6 +60,8 @@ features:
           tier1: 7 damage; A < 2 [slowed](../../../../condition/slowed.md) (save ends)
           tier2: 10 damage; A < 3 [slowed](../../../../condition/slowed.md) (save ends)
           tier3: 11 damage; A < 4 [slowed](../../../../condition/slowed.md) (save ends)
+        - effect: If the target is [bleeding](../../../../condition/bleeding.md), the vampire [shifts](../../../../movement/shifting.md) up to their speed before using this ability.
+          name: Effect
       feature_type: ability
       icon: "\U0001F5E1"
       keywords:
@@ -71,9 +75,8 @@ features:
     - cost: 2 Malice
       distance: Ranged 5
       effects:
-        - effect: |-
-            **Trigger:** A creature makes a [strike](../../../../rule/combat/strike.md) against the vampire.
-            **Effect:** The target becomes the new target of the [strike](../../../../rule/combat/strike.md).
+        - effect: The target becomes the new target of the [strike](../../../../rule/combat/strike.md).
+          name: Effect
       feature_type: ability
       icon: ❗️
       keywords:
@@ -81,6 +84,7 @@ features:
         - Ranged
       name: Reactive Charm
       target: One enemy
+      trigger: A creature makes a [strike](../../../../rule/combat/strike.md) against the vampire.
       type: feature
       usage: Triggered action
     - effects:

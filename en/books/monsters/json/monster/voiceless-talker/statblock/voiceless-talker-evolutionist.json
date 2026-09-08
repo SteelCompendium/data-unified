@@ -30,7 +30,8 @@
       "distance": "Ranged 5",
       "effects": [
         {
-          "effect": "**Effect:** The evolutionist [teleports](scc.v1:mcdm.heroes.v1/movement/teleport) to swap places with the target."
+          "effect": "The evolutionist [teleports](scc.v1:mcdm.heroes.v1/movement/teleport) to swap places with the target.",
+          "name": "Effect"
         }
       ],
       "feature_type": "ability",
@@ -48,7 +49,8 @@
       "distance": "Self",
       "effects": [
         {
-          "effect": "**Trigger:** The evolutionist takes damage that has a damage type.\n**Effect:** Until the start of their next turn, the evolutionist has damage immunity 5 to the triggering damage type."
+          "effect": "Until the start of their next turn, the evolutionist has damage immunity 5 to the triggering damage type.",
+          "name": "Effect"
         }
       ],
       "feature_type": "ability",
@@ -58,6 +60,7 @@
       ],
       "name": "Adaptability",
       "target": "Self",
+      "trigger": "The evolutionist takes damage that has a damage type.",
       "type": "feature",
       "usage": "Triggered Action"
     },
@@ -88,7 +91,8 @@
       "distance": "5 burst",
       "effects": [
         {
-          "roll": "",
+          "effect": "Each target makes an Intuition test.",
+          "name": "Effect",
           "tier1": "The target uses a [signature ability](scc.v1:mcdm.heroes.v1/rule.combat/signature-ability) against the nearest enemy within distance.",
           "tier2": "The target makes a [free strike](scc.v1:mcdm.heroes.v1/feature.common.main-actions/free-strike) against the nearest enemy within distance.",
           "tier3": "[Frightened](scc.v1:mcdm.heroes.v1/condition/frightened) (save ends)"
@@ -110,7 +114,8 @@
       "distance": "Ranged 5",
       "effects": [
         {
-          "effect": "**Effect:** The evolutionist [teleports](scc.v1:mcdm.heroes.v1/movement/teleport) eight [minions](scc.v1:mcdm.monsters.v1/rule.organization/minion) of level 4 or lower into unoccupied spaces within distance. All eight [minions](scc.v1:mcdm.monsters.v1/rule.organization/minion) can be of any monster type but must share the same name."
+          "effect": "The evolutionist [teleports](scc.v1:mcdm.heroes.v1/movement/teleport) eight [minions](scc.v1:mcdm.monsters.v1/rule.organization/minion) of level 4 or lower into unoccupied spaces within distance. All eight [minions](scc.v1:mcdm.monsters.v1/rule.organization/minion) can be of any monster type but must share the same name.",
+          "name": "Effect"
         }
       ],
       "feature_type": "ability",
@@ -133,6 +138,10 @@
           "tier1": "7 lightning damage",
           "tier2": "12 lightning damage",
           "tier3": "15 lightning damage"
+        },
+        {
+          "effect": "Until the end of the encounter, the evolutionist is surrounded by a psionic electrical storm that is a 5 aura. The area is [difficult terrain](scc.v1:mcdm.heroes.v1/movement/difficult-terrain) for enemies, and any enemy who enters the area for the first time in a round or starts their turn there takes 8 lightning damage.",
+          "name": "Effect"
         }
       ],
       "feature_type": "ability",

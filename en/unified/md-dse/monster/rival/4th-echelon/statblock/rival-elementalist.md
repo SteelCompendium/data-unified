@@ -37,6 +37,8 @@ features:
           tier1: 15 damage; [slide](scc.v1:mcdm.heroes.v1/movement/forced-movement) 3; M < 3 5 acid damage
           tier2: 20 damage; [slide](scc.v1:mcdm.heroes.v1/movement/forced-movement) 4; M < 4 7 acid damage
           tier3: 24 damage; [slide](scc.v1:mcdm.heroes.v1/movement/forced-movement) 5; M < 5 9 acid damage
+        - effect: One ally within distance ends all [conditions](scc.v1:mcdm.heroes.v1/rule.combat/condition) on themself.
+          name: Effect
       feature_type: ability
       icon: "\U0001F3F9"
       keywords:
@@ -51,7 +53,8 @@ features:
     - cost: 5 Malice
       distance: 3 cube within 10
       effects:
-        - effect: '**Effect:** The area becomes overgrown with caustic vines until the end of the encounter. While in the area, any enemy has acid [weakness](scc.v1:mcdm.heroes.v1/rule.damage/damage-weakness) 5 and is [slowed](scc.v1:mcdm.heroes.v1/condition/slowed). Any enemy who ends their turn in the area and has M < 4 is [restrained](scc.v1:mcdm.heroes.v1/condition/restrained) (save ends).'
+        - effect: The area becomes overgrown with caustic vines until the end of the encounter. While in the area, any enemy has acid [weakness](scc.v1:mcdm.heroes.v1/rule.damage/damage-weakness) 5 and is [slowed](scc.v1:mcdm.heroes.v1/condition/slowed). Any enemy who ends their turn in the area and has M < 4 is [restrained](scc.v1:mcdm.heroes.v1/condition/restrained) (save ends).
+          name: Effect
       feature_type: ability
       icon: "\U0001F533"
       keywords:
@@ -65,9 +68,8 @@ features:
       usage: Main action
     - distance: Self
       effects:
-        - effect: |-
-            **Trigger:** The elementalist takes damage.
-            **Effect:** The elementalist can [teleport](scc.v1:mcdm.heroes.v1/movement/teleport) up to 5 squares. Each creature [adjacent](scc.v1:mcdm.heroes.v1/rule.combat/adjacent) to the space they leave or appear in takes 5 corruption damage.
+        - effect: The elementalist can [teleport](scc.v1:mcdm.heroes.v1/movement/teleport) up to 5 squares. Each creature [adjacent](scc.v1:mcdm.heroes.v1/rule.combat/adjacent) to the space they leave or appear in takes 5 corruption damage.
+          name: Effect
       feature_type: ability
       icon: ❗️
       keywords:
@@ -75,6 +77,7 @@ features:
         - Void
       name: Breach of Nihility
       target: Self
+      trigger: The elementalist takes damage.
       type: feature
       usage: Triggered action
     - effects:

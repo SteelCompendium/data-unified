@@ -2,13 +2,22 @@
 features:
     - body: One wyvern in the encounter can make a [free strike](scc.v1:mcdm.heroes.v1/feature.common.main-actions/free-strike) against each enemy [adjacent](scc.v1:mcdm.heroes.v1/rule.combat/adjacent) to them.
       cost: 3 Malice
+      effects:
+        - effect: One wyvern in the encounter can make a [free strike](scc.v1:mcdm.heroes.v1/feature.common.main-actions/free-strike) against each enemy [adjacent](scc.v1:mcdm.heroes.v1/rule.combat/adjacent) to them.
       icon: "\U0001F5E1"
       name: Simmering Anger
     - body: Until the end of the round, each wyvern in the encounter has a double edge on strikes and can use their [signature ability](scc.v1:mcdm.heroes.v1/rule.combat/signature-ability) instead of a [free strike](scc.v1:mcdm.heroes.v1/feature.common.main-actions/free-strike) when making opportunity attacks.
       cost: 5 Malice
+      effects:
+        - effect: Until the end of the round, each wyvern in the encounter has a double edge on strikes and can use their [signature ability](scc.v1:mcdm.heroes.v1/rule.combat/signature-ability) instead of a [free strike](scc.v1:mcdm.heroes.v1/feature.common.main-actions/free-strike) when making opportunity attacks.
       icon: ⭐️
       name: Boiling Fury
     - cost: 7 Malice
+      effects:
+        - effect: Every wyvern's anger fills the encounter map with a thick miasma of hatred. Each enemy in the encounter makes an **Intuition test**.
+          tier1: The target is [taunted](scc.v1:mcdm.heroes.v1/condition/taunted) by the nearest creature or object (save ends). While the target is [taunted](scc.v1:mcdm.heroes.v1/condition/taunted) this way, power rolls against them have a double edge.
+          tier2: The target is [taunted](scc.v1:mcdm.heroes.v1/condition/taunted) by the nearest creature or object (save ends).
+          tier3: No effect.
       icon: "\U0001F300"
       intro: Every wyvern's anger fills the encounter map with a thick miasma of hatred. Each enemy in the encounter makes an **Intuition test**.
       name: Overflowing Rage

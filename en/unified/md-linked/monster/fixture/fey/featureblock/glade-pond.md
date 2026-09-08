@@ -1,9 +1,13 @@
 ---
 features:
     - body: You and each non-minion ally that enters one or more squares within 3 squares of the pond or starts their [turn](../../../../rule/combat/turn.md) there has their [speed](../../../../rule/character/speed.md) increased by 2 until the end of their [turn](../../../../rule/combat/turn.md).
+      effects:
+        - effect: You and each non-minion ally that enters one or more squares within 3 squares of the pond or starts their [turn](../../../../rule/combat/turn.md) there has their [speed](../../../../rule/character/speed.md) increased by 2 until the end of their [turn](../../../../rule/combat/turn.md).
       icon: ⭐️
       name: Bubbling Boost
     - body: Each of your fey [minions](../../../../feature/summoner/level-1/minions.md) that ends their [turn](../../../../rule/combat/turn.md) within 3 squares of the pond is hidden until the start of their next [turn](../../../../rule/combat/turn.md).
+      effects:
+        - effect: Each of your fey [minions](../../../../feature/summoner/level-1/minions.md) that ends their [turn](../../../../rule/combat/turn.md) within 3 squares of the pond is hidden until the start of their next [turn](../../../../rule/combat/turn.md).
       icon: ⭐️
       name: Overgrowth
 name: Glade Pond

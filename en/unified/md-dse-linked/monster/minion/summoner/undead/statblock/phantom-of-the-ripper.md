@@ -44,6 +44,8 @@ features:
           tier1: 8 [damage](../../../../../rule/damage/damage.md); A < WEAK [slowed](../../../../../condition/slowed.md) (save ends)
           tier2: 13 [damage](../../../../../rule/damage/damage.md); A < AVERAGE [slowed](../../../../../condition/slowed.md) (save ends)
           tier3: 17 [damage](../../../../../rule/damage/damage.md); A < STRONG [slowed](../../../../../condition/slowed.md) (save ends)
+        - effect: The phantom deals an additional 3 [damage](../../../../../rule/damage/damage.md) if they have an [edge](../../../../../rule/dice/edge.md).
+          name: Effect
       feature_type: ability
       icon: "\U0001F3F9"
       keywords:

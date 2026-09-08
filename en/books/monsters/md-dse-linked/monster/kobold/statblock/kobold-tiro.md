@@ -38,6 +38,8 @@ features:
           tier1: 1 damage
           tier2: 2 damage; the tiro can [shift](../../../movement/shifting.md) 1 square
           tier3: 3 damage; the tiro [shifts](../../../movement/shifting.md) up to 2 squares
+        - effect: The target can't [shift](../../../movement/shifting.md) until the start of the tiro's next turn.
+          name: Effect
       feature_type: ability
       icon: "\U0001F5E1"
       keywords:

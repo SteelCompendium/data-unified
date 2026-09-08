@@ -38,6 +38,8 @@ features:
           tier1: 7 damage; [push](scc.v1:mcdm.heroes.v1/movement/forced-movement) 1
           tier2: 11 damage; [push](scc.v1:mcdm.heroes.v1/movement/forced-movement) 2
           tier3: 14 damage; [push](scc.v1:mcdm.heroes.v1/movement/forced-movement) 3
+        - effect: The minotaur [shifts](scc.v1:mcdm.heroes.v1/movement/shifting) up to 3 squares.
+          name: Effect
       feature_type: ability
       icon: "\U0001F5E1"
       keywords:
@@ -52,7 +54,8 @@ features:
     - cost: 3 Malice
       distance: Self
       effects:
-        - effect: '**Effect:** Until the end of their next turn, the minotaur has damage immunity 2 and deals an extra 5 damage with strikes. On their next turn, the minotaur can use one additional maneuver.'
+        - effect: Until the end of their next turn, the minotaur has damage immunity 2 and deals an extra 5 damage with strikes. On their next turn, the minotaur can use one additional maneuver.
+          name: Effect
       feature_type: ability
       icon: "\U0001F464"
       keywords: []
@@ -67,6 +70,8 @@ features:
           tier1: 5 damage; I < 0 [dazed](scc.v1:mcdm.heroes.v1/condition/dazed) (save ends)
           tier2: 8 damage; I < 1 [dazed](scc.v1:mcdm.heroes.v1/condition/dazed) (save ends)
           tier3: 9 damage; I < 2 [dazed](scc.v1:mcdm.heroes.v1/condition/dazed) (save ends)
+        - effect: If this ability is used as part of the Charge main action, its [potency](scc.v1:mcdm.heroes.v1/rule.character/potency) increases by 1.
+          name: Effect
       feature_type: ability
       icon: "\U0001F5E1"
       keywords:
@@ -80,15 +85,15 @@ features:
       usage: Maneuver
     - distance: Ranged 8
       effects:
-        - effect: |-
-            **Trigger:** A creature within distance deals damage to the minotaur.
-            **Effect:** The minotaur uses the Charge main action and either Flail and Blade or Goring Horns against the target.
+        - effect: The minotaur uses the Charge main action and either Flail and Blade or Goring Horns against the target.
+          name: Effect
       feature_type: ability
       icon: ❗️
       keywords:
         - Ranged
       name: Retaliatory Strike
       target: The triggering creature
+      trigger: A creature within distance deals damage to the minotaur.
       type: feature
       usage: Triggered action
     - effects:

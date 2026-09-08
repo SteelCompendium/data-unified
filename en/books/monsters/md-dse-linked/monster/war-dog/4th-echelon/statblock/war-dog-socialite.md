@@ -41,6 +41,8 @@ features:
           tier1: The target makes a [free strike](../../../../feature/common/main-actions/free-strike.md) (tier 1 result) against themself
           tier2: The target makes a [free strike](../../../../feature/common/main-actions/free-strike.md) (tier 2 result) against themself
           tier3: The target makes a [free strike](../../../../feature/common/main-actions/free-strike.md) (tier 3 result) against themself
+        - effect: The target takes an extra 5 damage for each [surge](../../../../rule/resource/surge.md) they have.
+          name: Effect
       feature_type: ability
       icon: "\U0001F3F9"
       keywords:

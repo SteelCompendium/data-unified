@@ -1,6 +1,11 @@
 ---
 features:
     - cost: 3 Malice
+      effects:
+        - effect: One ogre acting this turn jumps and lands on their rear, causing a 3 burst shockwave. Each size 1 creature in the area makes a **Might test** or **Agility test**.
+          tier1: 5 damage; vertical [push](../../movement/forced-movement.md) 3
+          tier2: 4 damage; vertical [push](../../movement/forced-movement.md) 2
+          tier3: '[Push](../../movement/forced-movement.md) 1'
       icon: ❇️
       intro: One ogre acting this turn jumps and lands on their rear, causing a 3 burst shockwave. Each size 1 creature in the area makes a **Might test** or **Agility test**.
       name: Shockwave
@@ -11,10 +16,14 @@ features:
             mid: 4 damage; vertical [push](../../movement/forced-movement.md) 2
     - body: Each ogre in the encounter [shifts](../../movement/shifting.md) up to their speed and can make a [free strike](../../feature/common/main-actions/free-strike.md). If they can, they gang up on the same target rather than picking different targets.
       cost: 5 Malice
+      effects:
+        - effect: Each ogre in the encounter [shifts](../../movement/shifting.md) up to their speed and can make a [free strike](../../feature/common/main-actions/free-strike.md). If they can, they gang up on the same target rather than picking different targets.
       icon: "\U0001F300"
       name: Bully
     - body: Until the end of the round, each ogre has damage immunity 5 and deals an extra 5 damage with abilities, and heroic abilities that target any ogre have their Heroic Resource cost reduced by 1 (to a minimum of 1).
       cost: 7 Malice
+      effects:
+        - effect: Until the end of the round, each ogre has damage immunity 5 and deals an extra 5 damage with abilities, and heroic abilities that target any ogre have their Heroic Resource cost reduced by 1 (to a minimum of 1).
       icon: ⭐️
       name: Rampage
 file_basename: ogre-malice
@@ -32,6 +41,11 @@ type: featureblock
 ```ds-fb
 features:
     - cost: 3 Malice
+      effects:
+        - effect: One ogre acting this turn jumps and lands on their rear, causing a 3 burst shockwave. Each size 1 creature in the area makes a **Might test** or **Agility test**.
+          tier1: 5 damage; vertical [push](../../movement/forced-movement.md) 3
+          tier2: 4 damage; vertical [push](../../movement/forced-movement.md) 2
+          tier3: '[Push](../../movement/forced-movement.md) 1'
       icon: ❇️
       intro: One ogre acting this turn jumps and lands on their rear, causing a 3 burst shockwave. Each size 1 creature in the area makes a **Might test** or **Agility test**.
       name: Shockwave
@@ -42,10 +56,14 @@ features:
             mid: 4 damage; vertical [push](../../movement/forced-movement.md) 2
     - body: Each ogre in the encounter [shifts](../../movement/shifting.md) up to their speed and can make a [free strike](../../feature/common/main-actions/free-strike.md). If they can, they gang up on the same target rather than picking different targets.
       cost: 5 Malice
+      effects:
+        - effect: Each ogre in the encounter [shifts](../../movement/shifting.md) up to their speed and can make a [free strike](../../feature/common/main-actions/free-strike.md). If they can, they gang up on the same target rather than picking different targets.
       icon: "\U0001F300"
       name: Bully
     - body: Until the end of the round, each ogre has damage immunity 5 and deals an extra 5 damage with abilities, and heroic abilities that target any ogre have their Heroic Resource cost reduced by 1 (to a minimum of 1).
       cost: 7 Malice
+      effects:
+        - effect: Until the end of the round, each ogre has damage immunity 5 and deals an extra 5 damage with abilities, and heroic abilities that target any ogre have their Heroic Resource cost reduced by 1 (to a minimum of 1).
       icon: ⭐️
       name: Rampage
 flavor: At the start of any ogre's turn, you can spend Malice to activate one of the following features.

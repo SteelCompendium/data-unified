@@ -2,10 +2,18 @@
 features:
     - body: The war dog activates a [Malice](../../../rule/monster/malice.md) feature available to war dogs of level 3 or lower.
       cost: 3-7 Malice
+      effects:
+        - effect: The war dog activates a [Malice](../../../rule/monster/malice.md) feature available to war dogs of level 3 or lower.
       icon: ⭐️
       name: Prior Malice Features
     - cost: 5 Malice
       distance: Ranged 10
+      effects:
+        - effect: Each target who has a loyalty collar [shifts](../../../movement/shifting.md) up to their speed, then is reduced to 0 [Stamina](../../../rule/health/stamina.md). After each target's Loyalty Collar trait is resolved, each enemy [adjacent](../../../rule/combat/adjacent.md) to either target makes a Presence test.
+          name: Effect
+          tier1: '[Push](../../../movement/forced-movement.md) 4; the enemy is [frightened](../../../condition/frightened.md) of the nearest non-[minion](../../../rule/organization/minion.md) war dog (save ends)'
+          tier2: '[Push](../../../movement/forced-movement.md) 2; the enemy is [frightened](../../../condition/frightened.md) of the nearest non-[minion](../../../rule/organization/minion.md) war dog (EoT)'
+          tier3: '[Push](../../../movement/forced-movement.md) 2'
       icon: "\U0001F3F9"
       keywords:
         - Magic
@@ -38,10 +46,18 @@ type: featureblock
 features:
     - body: The war dog activates a [Malice](../../../rule/monster/malice.md) feature available to war dogs of level 3 or lower.
       cost: 3-7 Malice
+      effects:
+        - effect: The war dog activates a [Malice](../../../rule/monster/malice.md) feature available to war dogs of level 3 or lower.
       icon: ⭐️
       name: Prior Malice Features
     - cost: 5 Malice
       distance: Ranged 10
+      effects:
+        - effect: Each target who has a loyalty collar [shifts](../../../movement/shifting.md) up to their speed, then is reduced to 0 [Stamina](../../../rule/health/stamina.md). After each target's Loyalty Collar trait is resolved, each enemy [adjacent](../../../rule/combat/adjacent.md) to either target makes a Presence test.
+          name: Effect
+          tier1: '[Push](../../../movement/forced-movement.md) 4; the enemy is [frightened](../../../condition/frightened.md) of the nearest non-[minion](../../../rule/organization/minion.md) war dog (save ends)'
+          tier2: '[Push](../../../movement/forced-movement.md) 2; the enemy is [frightened](../../../condition/frightened.md) of the nearest non-[minion](../../../rule/organization/minion.md) war dog (EoT)'
+          tier3: '[Push](../../../movement/forced-movement.md) 2'
       icon: "\U0001F3F9"
       keywords:
         - Magic

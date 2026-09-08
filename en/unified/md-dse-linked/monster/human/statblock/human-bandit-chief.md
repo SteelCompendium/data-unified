@@ -39,6 +39,10 @@ features:
           tier1: 8 damage; [pull](../../../movement/forced-movement.md) 1
           tier2: 12 damage; [pull](../../../movement/forced-movement.md) 2
           tier3: 15 damage; [pull](../../../movement/forced-movement.md) 3
+        - effect: Any target who is [adjacent](../../../rule/combat/adjacent.md) to the bandit chief after the power roll is resolved takes 3 corruption damage.
+          name: Effect
+        - cost: 2 Malice
+          effect: This ability targets one additional target.
       feature_type: ability
       icon: "\U0001F5E1"
       keywords:
@@ -56,6 +60,8 @@ features:
           tier1: '[Push](../../../movement/forced-movement.md) 1; M < 1 [prone](../../../condition/prone.md)'
           tier2: '[Push](../../../movement/forced-movement.md) 2; M < 2 [prone](../../../condition/prone.md)'
           tier3: '[Push](../../../movement/forced-movement.md) 4; M < 3 [prone](../../../condition/prone.md)'
+        - cost: 2 Malice
+          effect: The ability takes the Area keyword, loses the Melee keyword, and is a 1 burst that targets each enemy in the area.
       feature_type: ability
       icon: "\U0001F5E1"
       keywords:
@@ -66,15 +72,15 @@ features:
       usage: Maneuver
     - distance: Self
       effects:
-        - effect: |-
-            **Trigger:** The bandit chief makes a power roll.
-            **Effect:** The bandit chief takes 5 corruption damage and increases the outcome of the power roll by one tier. This damage can't be reduced in any way.
+        - effect: The bandit chief takes 5 corruption damage and increases the outcome of the power roll by one tier. This damage can't be reduced in any way.
+          name: Effect
       feature_type: ability
       icon: ❗️
       keywords:
         - Magic
       name: Bloodstones
       target: Self
+      trigger: The bandit chief makes a power roll.
       type: feature
       usage: Triggered action
     - effects:
@@ -92,7 +98,8 @@ features:
     - cost: Villain Action 1
       distance: 10 burst
       effects:
-        - effect: '**Effect:** Each target makes a ranged [free strike](../../../feature/common/main-actions/free-strike.md).'
+        - effect: Each target makes a ranged [free strike](../../../feature/common/main-actions/free-strike.md).
+          name: Effect
       feature_type: ability
       icon: ☠️
       keywords:
@@ -104,7 +111,8 @@ features:
     - cost: Villain Action 2
       distance: 10 burst
       effects:
-        - effect: '**Effect:** Each target [shifts](../../../movement/shifting.md) up to their speed. Additionally, until the end of the encounter, while the bandit chief or any ally is [adjacent](../../../rule/combat/adjacent.md) to a target, they have damage immunity 2.'
+        - effect: Each target [shifts](../../../movement/shifting.md) up to their speed. Additionally, until the end of the encounter, while the bandit chief or any ally is [adjacent](../../../rule/combat/adjacent.md) to a target, they have damage immunity 2.
+          name: Effect
       feature_type: ability
       icon: ☠️
       keywords:
@@ -116,7 +124,8 @@ features:
     - cost: Villain Action 3
       distance: Self
       effects:
-        - effect: '**Effect:** The bandit chief [shifts](../../../movement/shifting.md) up to 10 squares regardless of their speed. During or after this movement, they can use their Whip and Magic Longsword against up to four targets. Additionally, one ally [adjacent](../../../rule/combat/adjacent.md) to each target can make a [free strike](../../../feature/common/main-actions/free-strike.md) against that target.'
+        - effect: The bandit chief [shifts](../../../movement/shifting.md) up to 10 squares regardless of their speed. During or after this movement, they can use their Whip and Magic Longsword against up to four targets. Additionally, one ally [adjacent](../../../rule/combat/adjacent.md) to each target can make a [free strike](../../../feature/common/main-actions/free-strike.md) against that target.
+          name: Effect
       feature_type: ability
       icon: ☠️
       keywords: []

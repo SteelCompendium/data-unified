@@ -1,6 +1,11 @@
 ---
 features:
-    - icon: "\U0001F300"
+    - effects:
+        - effect: As a maneuver, a creature [adjacent](scc.v1:mcdm.heroes.v1/rule.combat/adjacent) to a boiling oil cauldron can make an **Agility test**.
+          tier1: The creature accidentally activates the **Boiling Oil** ability.
+          tier2: The boiling oil cauldron is deactivated but the creature is [slowed](scc.v1:mcdm.heroes.v1/condition/slowed) (EoT).
+          tier3: The boiling oil cauldron is deactivated and can't be used.
+      icon: "\U0001F300"
       intro: As a maneuver, a creature [adjacent](scc.v1:mcdm.heroes.v1/rule.combat/adjacent) to a boiling oil cauldron can make an **Agility test**.
       name: Deactivate
       power_roll:
@@ -9,6 +14,13 @@ features:
             low: The creature accidentally activates the **Boiling Oil** ability.
             mid: The boiling oil cauldron is deactivated but the creature is [slowed](scc.v1:mcdm.heroes.v1/condition/slowed) (EoT).
     - distance: 3 cube within 1
+      effects:
+        - roll: Power Roll + 2
+          tier1: 5 fire damage; M < 1 burning ([save](scc.v1:mcdm.heroes.v1/rule.general/saving-throw) ends)
+          tier2: 9 fire damage; M < 2 burning ([save](scc.v1:mcdm.heroes.v1/rule.general/saving-throw) ends)
+          tier3: 12 fire damage; M < 3 burning ([save](scc.v1:mcdm.heroes.v1/rule.general/saving-throw) ends)
+        - effect: If the boiling oil is poured down on targets from above, it has [high ground](scc.v1:mcdm.heroes.v1/movement/high-ground) and gains an edge on the power roll. A burning creature takes 1d6 fire damage at the start of each of their turns. A burning object takes 1d6 fire damage at the end of each round. This ability can't be used again until the boiling oil cauldron is reloaded.
+          name: Effect
       icon: "\U0001F533"
       keywords:
         - Area
@@ -26,6 +38,9 @@ features:
       target: Each creature and object in the area
       usage: Main action (Adjacent creature)
     - distance: '-'
+      effects:
+        - effect: The boiling oil cauldron is reloaded, allowing **Boiling Oil** to be used again. This action can be used only once per round.
+          name: Effect
       icon: ⭐️
       name: Reload
       sections:

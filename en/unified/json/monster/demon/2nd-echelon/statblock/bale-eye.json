@@ -11,6 +11,14 @@
           "tier1": "6 psychic damage",
           "tier2": "8 psychic damage",
           "tier3": "9 psychic damage"
+        },
+        {
+          "effect": "The target has corruption [weakness](scc.v1:mcdm.heroes.v1/rule.damage/damage-weakness) 5 (EoT).",
+          "name": "Effect"
+        },
+        {
+          "cost": "2 Malice",
+          "effect": "If the target has I \u003c 2, they have corruption [weakness](scc.v1:mcdm.heroes.v1/rule.damage/damage-weakness) 5 (save ends)."
         }
       ],
       "feature_type": "ability",
@@ -30,10 +38,16 @@
       "distance": "4 cube within 5",
       "effects": [
         {
+          "effect": "The bale eye must create the cube beneath themself.",
+          "name": "Special",
           "roll": "Power Roll + 3",
           "tier1": "3 psychic damage; A \u003c 1 the target is warped (save ends)",
           "tier2": "5 psychic damage; A \u003c 2 the target is warped (save ends)",
           "tier3": "6 psychic damage; A \u003c 3 the target is warped (save ends)"
+        },
+        {
+          "effect": "While warped, a creature has a double [bane](scc.v1:mcdm.heroes.v1/rule.dice/bane) on power rolls using any characteristic higher than 0, and has a double [edge](scc.v1:mcdm.heroes.v1/rule.dice/edge) on power rolls using any characteristic lower than 0.",
+          "name": "Effect"
         }
       ],
       "feature_type": "ability",

@@ -44,6 +44,8 @@ features:
           tier1: 9 corruption [damage](../../../../../rule/damage/damage.md); M < WEAK [bleeding](../../../../../condition/bleeding.md) ([save ends](../../../../../rule/general/saving-throw.md))
           tier2: 12 corruption [damage](../../../../../rule/damage/damage.md); M < AVERAGE [bleeding](../../../../../condition/bleeding.md) ([save ends](../../../../../rule/general/saving-throw.md))
           tier3: 14 corruption [damage](../../../../../rule/damage/damage.md); M < STRONG [bleeding](../../../../../condition/bleeding.md) ([save ends](../../../../../rule/general/saving-throw.md))
+        - effect: If the target is a creature that isn't a leader or a solo and they are still [bleeding](../../../../../condition/bleeding.md) at the end of the encounter, they instantly die.
+          name: Effect
       feature_type: ability
       icon: "\U0001F3F9"
       keywords:
@@ -68,15 +70,15 @@ features:
       type: feature
     - distance: 1 burst
       effects:
-        - effect: |-
-            **Trigger:** The Avatar takes [damage](../../../../../rule/damage/damage.md).
-            **Effect:** M < AVERAGE [weakened](../../../../../condition/weakened.md) ([EoT](../../../../../rule/combat/end-of-turn.md)).
+        - effect: M < AVERAGE [weakened](../../../../../condition/weakened.md) ([EoT](../../../../../rule/combat/end-of-turn.md)).
+          name: Effect
       feature_type: ability
       icon: ❗️
       keywords:
         - Area
       name: Dust and Rot
       target: Each enemy in the burst
+      trigger: The Avatar takes [damage](../../../../../rule/damage/damage.md).
       type: feature
       usage: Free triggered action
     - effects:

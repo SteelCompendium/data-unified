@@ -2,14 +2,20 @@
 features:
     - body: Up to 3 kobolds make a [free strike](../../feature/common/main-actions/free-strike.md), swaps positions with an [adjacent](../../rule/combat/adjacent.md) kobold, and then that kobold makes a [free strike](../../feature/common/main-actions/free-strike.md).
       cost: 3 Malice
+      effects:
+        - effect: Up to 3 kobolds make a [free strike](../../feature/common/main-actions/free-strike.md), swaps positions with an [adjacent](../../rule/combat/adjacent.md) kobold, and then that kobold makes a [free strike](../../feature/common/main-actions/free-strike.md).
       icon: ⭐️
       name: Maniple Tactics
     - body: Two kobolds take their turns in a row.
       cost: 5 Malice
+      effects:
+        - effect: Two kobolds take their turns in a row.
       icon: "\U0001F300"
       name: Set the Initiative
     - body: Until the end of the round, all kobolds with Shield? Shield! impose an additional bane on incoming strikes and abilities.
       cost: 7 Malice
+      effects:
+        - effect: Until the end of the round, all kobolds with Shield? Shield! impose an additional bane on incoming strikes and abilities.
       icon: ⭐️
       name: Shield Wall
 flavor: At the start of any kobolds's turn, you can spend Malice to activate one of the following features.

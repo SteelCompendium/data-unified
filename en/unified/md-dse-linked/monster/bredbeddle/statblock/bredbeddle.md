@@ -30,17 +30,17 @@ agility: 0
 ev: "60"
 features:
     - effects:
-        - effect: |-
-            **[End Effect](../../../rule/monster/end-effect.md):** At the end of each of their turns, the bredbeddle can take 5 damage to end one effect on them that can be ended by a [saving throw](../../../rule/general/saving-throw.md). This damage can't be reduced in any way.
-            **Solo Turns:** The bredbeddle can take two turns each round. They can't take turns consecutively.
+        - effect: At the end of each of their turns, the bredbeddle can take 5 damage to end one effect on them that can be ended by a [saving throw](../../../rule/general/saving-throw.md). This damage can't be reduced in any way.
+          name: End Effect
+        - effect: The bredbeddle can take two turns each round. They can't take turns consecutively.
+          name: Solo Turns
       feature_type: trait
       icon: ☠️
       name: Solo Monster
       type: feature
     - effects:
-        - effect: |-
-            While headless, the bredbeddle can move into a space containing a severed head and attach it to their neck as a main action. Doing so physically transforms the bredbeddle, who takes on the appearance, size, weight, and stability of the head's original owner. If the bredbeddle takes the form of a creature of size 1L or smaller, the distance of their melee and burst area abilities decreases by 1. These effects last until the bredbeddle is killed or beheaded, or until the head falls off after 24 hours. A head that falls off this way can no longer be attached to this bredbeddle.
-            A creature must succeed on a **hard Might test** made as a maneuver to rip a head off the bredbeddle. If they fail, the bredbeddle can make a [free strike](../../../feature/common/main-actions/free-strike.md) against them.
+        - effect: While headless, the bredbeddle can move into a space containing a severed head and attach it to their neck as a main action. Doing so physically transforms the bredbeddle, who takes on the appearance, size, weight, and stability of the head's original owner. If the bredbeddle takes the form of a creature of size 1L or smaller, the distance of their melee and burst area abilities decreases by 1. These effects last until the bredbeddle is killed or beheaded, or until the head falls off after 24 hours. A head that falls off this way can no longer be attached to this bredbeddle.
+        - effect: A creature must succeed on a **hard Might test** made as a maneuver to rip a head off the bredbeddle. If they fail, the bredbeddle can make a [free strike](../../../feature/common/main-actions/free-strike.md) against them.
       feature_type: trait
       icon: ⭐️
       name: Heady or Not
@@ -58,6 +58,8 @@ features:
           tier1: 2 damage; A < 1 [bleeding](../../../condition/bleeding.md) (save ends)
           tier2: 4 damage; A < 2 [bleeding](../../../condition/bleeding.md) (save ends)
           tier3: 5 damage; A < 3 [bleeding](../../../condition/bleeding.md) (save ends); M < 2 [dazed](../../../condition/dazed.md) (save ends)
+        - cost: 3 Malice
+          effect: The bredbeddle [shifts](../../../movement/shifting.md) up to 2 squares, and can target additional enemies who come within distance of this ability during the shift.
       feature_type: ability
       icon: ❇️
       keywords:
@@ -74,6 +76,8 @@ features:
           tier1: 9 damage; [bleeding](../../../condition/bleeding.md) (save ends); or if the target has M < 1 they are beheaded
           tier2: 13 damage; [bleeding](../../../condition/bleeding.md) (save ends); or if the target has M < 2 they are beheaded
           tier3: 16 damage; [bleeding](../../../condition/bleeding.md) (save ends); or if the target has M < 3 they are beheaded
+        - effect: A beheaded target has their head fall into an unoccupied square adjacent to the bredbeddle, but they remain alive. While beheaded this way, the target is [bleeding](../../../condition/bleeding.md) and has line of effect only to adjacent squares. The beheaded target can survive without their head for 24 hours, and can reattach their head as a maneuver by entering its square. A target who remains beheaded for 24 hours dies.
+          name: Effect
       feature_type: ability
       icon: "\U0001F5E1"
       keywords:
@@ -87,7 +91,8 @@ features:
       usage: Main action
     - distance: Self
       effects:
-        - effect: '**Effect:** While the bredbeddle is headless, they [shift](../../../movement/shifting.md) up to their speed. Each time a creature comes adjacent to the bredbeddle during the shift, the bredbeddle can [push](../../../movement/forced-movement.md) that creature 1 square. Each square the bredbeddle exits during the shift is difficult terrain.'
+        - effect: While the bredbeddle is headless, they [shift](../../../movement/shifting.md) up to their speed. Each time a creature comes adjacent to the bredbeddle during the shift, the bredbeddle can [push](../../../movement/forced-movement.md) that creature 1 square. Each square the bredbeddle exits during the shift is difficult terrain.
+          name: Effect
       feature_type: ability
       icon: "\U0001F464"
       keywords: []
@@ -98,7 +103,9 @@ features:
     - cost: 5 Malice
       distance: Ranged 20
       effects:
-        - roll: Power Roll + 3
+        - effect: The bredbeddle must have a head in their possession (attached to them or not), which they throw at the target. If the head was attached, the bredbeddle is left headless.
+          name: Effect
+          roll: Power Roll + 3
           tier1: 9 damage; M < 1 [dazed](../../../condition/dazed.md) (save ends)
           tier2: 13 damage; [prone](../../../condition/prone.md); M < 2 [dazed](../../../condition/dazed.md) (save ends)
           tier3: 16 damage; [prone](../../../condition/prone.md); M < 3 [dazed](../../../condition/dazed.md) (save ends)
@@ -115,15 +122,15 @@ features:
     - cost: 2 Malice
       distance: Self
       effects:
-        - effect: |-
-            **Trigger:** A creature targets the bredbeddle with a ranged strike.
-            **Effect:** The bredbeddle uses the same ability against the triggering creature after the triggering strike is resolved, using that creature's bonus to any power rolls they make.
+        - effect: The bredbeddle uses the same ability against the triggering creature after the triggering strike is resolved, using that creature's bonus to any power rolls they make.
+          name: Effect
       feature_type: ability
       icon: ❗️
       keywords:
         - Magic
       name: Envious Imitation
       target: Self
+      trigger: A creature targets the bredbeddle with a ranged strike.
       type: feature
       usage: Triggered action
     - cost: Villain Action 1
@@ -133,6 +140,8 @@ features:
           tier1: P < 1 the target turns green (save ends)
           tier2: P < 2 the target turns green (save ends)
           tier3: P < 3 the target turns green until the end of the encounter
+        - effect: Green shadows crawl out from under the bredbeddle's feet and turn each target green. The bredbeddle has a double [edge](../../../rule/dice/edge.md) on power rolls against any target turned green this way.
+          name: Effect
       feature_type: ability
       icon: ☠️
       keywords:
@@ -145,7 +154,8 @@ features:
     - cost: Villain Action 2
       distance: Ranged 5
       effects:
-        - roll: ""
+        - effect: The bredbeddle points at the target and issues them a challenge. If the target refuses, they turn green until the end of the encounter (see Turn Green). If the target accepts the challenge, the bredbeddle shifts adjacent to the target, who makes a **Might test** with no additional modifiers.
+          name: Effect
           tier1: The target is beheaded (see Lop).
           tier2: The target makes the test again.
           tier3: The target can choose to deal 40 damage to the bredbeddle or remove the bredbeddle's head.

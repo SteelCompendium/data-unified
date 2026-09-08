@@ -2,6 +2,13 @@
 features:
     - cost: Encounter
       distance: Special; see below
+      effects:
+        - effect: The mortar fires a shell straight upward, which hovers 3 squares up in the air and sheds light below it in a 3 cube. Enemies illuminated by this light can't [hide](../../../feature/common/maneuvers/hide.md) or turn invisible and can't benefit from concealment or cover. At the start of the mortar's next turn, the shell explodes to deal damage to enemies in the area.
+          name: Effect
+          roll: Power Roll + highest characteristic
+          tier1: 5 fire damage
+          tier2: 8 fire damage
+          tier3: 11 fire damage
       icon: "\U0001F533"
       keywords:
         - Area
@@ -22,6 +29,11 @@ features:
       usage: Main action
     - cost: Encounter
       distance: 3 cube within 15
+      effects:
+        - roll: Power Roll + highest characteristic
+          tier1: 8 damage; I < WEAK [dazed](../../../condition/dazed.md) ([save](../../../rule/general/saving-throw.md) ends
+          tier2: 12 damage; I < AVERAGE [dazed](../../../condition/dazed.md) ([save](../../../rule/general/saving-throw.md) ends)
+          tier3: 16 damage; I < STRONG [dazed](../../../condition/dazed.md) ([save](../../../rule/general/saving-throw.md) ends) and [prone](../../../condition/prone.md)
       icon: "\U0001F533"
       keywords:
         - Area
@@ -39,6 +51,13 @@ features:
       usage: Main action
     - cost: Encounter
       distance: 10 x 1 line within 1
+      effects:
+        - roll: Power Roll + highest characteristic
+          tier1: 6 damage; P < WEAK [frightened](../../../condition/frightened.md)
+          tier2: 9 damage; P < AVERAGE [frightened](../../../condition/frightened.md)
+          tier3: 13 damage; P < STRONG [frightened](../../../condition/frightened.md)
+        - effect: Until the start of the mortar's next turn, [strikes](../../../rule/combat/strike.md) made against the mortar or any ally [adjacent](../../../rule/combat/adjacent.md) to them take a bane.
+          name: Effect
       icon: "\U0001F533"
       keywords:
         - Area
@@ -70,6 +89,13 @@ type: featureblock
 features:
     - cost: Encounter
       distance: Special; see below
+      effects:
+        - effect: The mortar fires a shell straight upward, which hovers 3 squares up in the air and sheds light below it in a 3 cube. Enemies illuminated by this light can't [hide](../../../feature/common/maneuvers/hide.md) or turn invisible and can't benefit from concealment or cover. At the start of the mortar's next turn, the shell explodes to deal damage to enemies in the area.
+          name: Effect
+          roll: Power Roll + highest characteristic
+          tier1: 5 fire damage
+          tier2: 8 fire damage
+          tier3: 11 fire damage
       icon: "\U0001F533"
       keywords:
         - Area
@@ -90,6 +116,11 @@ features:
       usage: Main action
     - cost: Encounter
       distance: 3 cube within 15
+      effects:
+        - roll: Power Roll + highest characteristic
+          tier1: 8 damage; I < WEAK [dazed](../../../condition/dazed.md) ([save](../../../rule/general/saving-throw.md) ends
+          tier2: 12 damage; I < AVERAGE [dazed](../../../condition/dazed.md) ([save](../../../rule/general/saving-throw.md) ends)
+          tier3: 16 damage; I < STRONG [dazed](../../../condition/dazed.md) ([save](../../../rule/general/saving-throw.md) ends) and [prone](../../../condition/prone.md)
       icon: "\U0001F533"
       keywords:
         - Area
@@ -107,6 +138,13 @@ features:
       usage: Main action
     - cost: Encounter
       distance: 10 x 1 line within 1
+      effects:
+        - roll: Power Roll + highest characteristic
+          tier1: 6 damage; P < WEAK [frightened](../../../condition/frightened.md)
+          tier2: 9 damage; P < AVERAGE [frightened](../../../condition/frightened.md)
+          tier3: 13 damage; P < STRONG [frightened](../../../condition/frightened.md)
+        - effect: Until the start of the mortar's next turn, [strikes](../../../rule/combat/strike.md) made against the mortar or any ally [adjacent](../../../rule/combat/adjacent.md) to them take a bane.
+          name: Effect
       icon: "\U0001F533"
       keywords:
         - Area

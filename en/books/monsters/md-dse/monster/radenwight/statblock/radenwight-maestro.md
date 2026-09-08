@@ -37,6 +37,8 @@ features:
           tier1: 3 sonic damage; [slide](scc.v1:mcdm.heroes.v1/movement/forced-movement) 1, the maestro can [shift](scc.v1:mcdm.heroes.v1/movement/shifting) 1 square
           tier2: 6 sonic damage; [slide](scc.v1:mcdm.heroes.v1/movement/forced-movement) 3, the maestro [shifts](scc.v1:mcdm.heroes.v1/movement/shifting) up to 3 squares
           tier3: 8 sonic damage; [slide](scc.v1:mcdm.heroes.v1/movement/forced-movement) 5, the maestro [shifts](scc.v1:mcdm.heroes.v1/movement/shifting) up to 5 squares
+        - effect: Each ally within distance can use Ready Rodent as a free triggered action once before the end of the round.
+          name: Effect
       feature_type: ability
       icon: ❇️
       keywords:
@@ -52,6 +54,8 @@ features:
           tier1: P < 1 [slowed](scc.v1:mcdm.heroes.v1/condition/slowed) (save ends)
           tier2: P < 2 [slowed](scc.v1:mcdm.heroes.v1/condition/slowed) (save ends)
           tier3: P < 3 [slowed](scc.v1:mcdm.heroes.v1/condition/slowed) (save ends)
+        - cost: 3 Malice
+          effect: Each ally within 3 squares of any target has a +2 bonus to speed until the end of their next turn.
       feature_type: ability
       icon: "\U0001F3F9"
       keywords:
@@ -65,9 +69,8 @@ features:
     - cost: 2 Malice
       distance: Ranged 5
       effects:
-        - effect: |-
-            **Trigger:** A creature within distance deals damage to an ally or takes damage from an ally.
-            **Effect:** The maestro makes a [free strike](scc.v1:mcdm.heroes.v1/feature.common.main-actions/free-strike) against the target.
+        - effect: The maestro makes a [free strike](scc.v1:mcdm.heroes.v1/feature.common.main-actions/free-strike) against the target.
+          name: Effect
       feature_type: ability
       icon: ❗️
       keywords:
@@ -75,6 +78,7 @@ features:
         - Ranged
       name: Ever-Ready Rodent
       target: The triggering creature
+      trigger: A creature within distance deals damage to an ally or takes damage from an ally.
       type: feature
       usage: Free triggered action
     - effects:
@@ -86,7 +90,8 @@ features:
     - cost: Villain Action 1
       distance: 10 burst
       effects:
-        - effect: '**Effect:** Each target can [shift](scc.v1:mcdm.heroes.v1/movement/shifting) up to their speed or take the Defend action.'
+        - effect: Each target can [shift](scc.v1:mcdm.heroes.v1/movement/shifting) up to their speed or take the Defend action.
+          name: Effect
       feature_type: ability
       icon: ☠️
       keywords:
@@ -98,7 +103,8 @@ features:
     - cost: Villain Action 2
       distance: Ranged 15
       effects:
-        - effect: '**Effect:** Until the end of their next turn, the target halves any damage they take, gains a +4 damage bonus to [strikes](scc.v1:mcdm.heroes.v1/rule.combat/strike), and has their speed doubled.'
+        - effect: Until the end of their next turn, the target halves any damage they take, gains a +4 damage bonus to [strikes](scc.v1:mcdm.heroes.v1/rule.combat/strike), and has their speed doubled.
+          name: Effect
       feature_type: ability
       icon: ☠️
       keywords:
@@ -110,7 +116,8 @@ features:
     - cost: Villain Action 3
       distance: 10 burst
       effects:
-        - effect: '**Effect:** Each target stands, makes a [free strike](scc.v1:mcdm.heroes.v1/feature.common.main-actions/free-strike), then falls dead again. Any ally of the targets can use Ready Rodent as a free triggered action once in conjunction with these free strikes.'
+        - effect: Each target stands, makes a [free strike](scc.v1:mcdm.heroes.v1/feature.common.main-actions/free-strike), then falls dead again. Any ally of the targets can use Ready Rodent as a free triggered action once in conjunction with these free strikes.
+          name: Effect
       feature_type: ability
       icon: ☠️
       keywords:

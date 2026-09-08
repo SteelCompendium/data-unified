@@ -2,13 +2,22 @@
 features:
     - body: For each 3 [Malice](scc.v1:mcdm.monsters.v1/rule.monster/malice) spent, one minotaur acting this turn gains a +4 bonus to speed and ignores [difficult terrain](scc.v1:mcdm.heroes.v1/movement/difficult-terrain) until the start of their next turn.
       cost: 3 Malice
+      effects:
+        - effect: For each 3 [Malice](scc.v1:mcdm.monsters.v1/rule.monster/malice) spent, one minotaur acting this turn gains a +4 bonus to speed and ignores [difficult terrain](scc.v1:mcdm.heroes.v1/movement/difficult-terrain) until the start of their next turn.
       icon: "\U0001F464"
       name: Bull Rush
     - body: One minotaur acting this turn halves any damage they take, and can use the Knockback maneuver as a free triggered action whenever an enemy comes [adjacent](scc.v1:mcdm.heroes.v1/rule.combat/adjacent) to them, all until the start of their next turn.
       cost: 5 Malice
+      effects:
+        - effect: One minotaur acting this turn halves any damage they take, and can use the Knockback maneuver as a free triggered action whenever an enemy comes [adjacent](scc.v1:mcdm.heroes.v1/rule.combat/adjacent) to them, all until the start of their next turn.
       icon: "\U0001F464"
       name: Cut the... Nonsense!
     - cost: 7 Malice
+      effects:
+        - effect: All minotaurs in the encounter fill the area around them with psychic impressions of feeling lost and isolated. Each enemy within 5 squares of a minotaur is [teleported](scc.v1:mcdm.heroes.v1/movement/teleport) up to 5 squares and makes an **Intuition test**.
+          tier1: The target has line of effect only within 3 squares and is [frightened](scc.v1:mcdm.heroes.v1/condition/frightened) of all minotaurs (save ends).
+          tier2: The target has line of effect only within 3 squares (EoT).
+          tier3: No effect.
       icon: ❇️
       intro: All minotaurs in the encounter fill the area around them with psychic impressions of feeling lost and isolated. Each enemy within 5 squares of a minotaur is [teleported](scc.v1:mcdm.heroes.v1/movement/teleport) up to 5 squares and makes an **Intuition test**.
       name: Bullseye

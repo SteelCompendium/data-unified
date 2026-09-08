@@ -38,6 +38,8 @@ features:
           tier1: 3 damage
           tier2: 6 damage; P < 3 [bleeding](scc.v1:mcdm.heroes.v1/condition/bleeding) (save ends)
           tier3: 8 damage; P < 4 the target loses 1 Recovery and is [bleeding](scc.v1:mcdm.heroes.v1/condition/bleeding) (save ends)
+        - effect: Any ally within 2 squares of the iron priest gains an edge on their next strike. If any target lost a Recovery, any affected ally has a double edge instead.
+          name: Effect
       feature_type: ability
       icon: "\U0001F533"
       keywords:
@@ -50,11 +52,9 @@ features:
     - cost: 2+ Malice
       distance: 4 aura
       effects:
-        - effect: |-
-            **Effect:** For every 2 [Malice](scc.v1:mcdm.monsters.v1/rule.monster/malice) spent, each target gains one of the following effects until the start of the iron priest's next turn.
-            - The target has damage immunity 2.
-            - The target's strikes deal an extra 3 holy damage.
-            - The target has a +3 bonus to speed.
+        - effect: For every 2 [Malice](scc.v1:mcdm.monsters.v1/rule.monster/malice) spent, each target gains one of the following effects until the start of the iron priest's next turn.
+          name: Effect
+        - effect: '- The target has damage immunity 2. - The target''s strikes deal an extra 3 holy damage. - The target has a +3 bonus to speed.'
       feature_type: ability
       icon: ❇️
       keywords:

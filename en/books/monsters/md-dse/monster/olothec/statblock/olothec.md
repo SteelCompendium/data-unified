@@ -33,9 +33,9 @@ agility: -1
 ev: "96"
 features:
     - effects:
-        - effect: |-
-            [**End Effect:**](scc.v1:mcdm.monsters.v1/rule.monster/end-effect) At the end of each of their turns, the olothec can take 10 damage to end one effect on them that can be ended by a [saving throw](scc.v1:mcdm.heroes.v1/rule.general/saving-throw). This damage can't be reduced in any way.
-            **Solo Turns:** The olothec can take two turns each round. They can't take turns consecutively.
+        - effect: '[**End Effect:**](scc.v1:mcdm.monsters.v1/rule.monster/end-effect) At the end of each of their turns, the olothec can take 10 damage to end one effect on them that can be ended by a [saving throw](scc.v1:mcdm.heroes.v1/rule.general/saving-throw). This damage can''t be reduced in any way.'
+        - effect: The olothec can take two turns each round. They can't take turns consecutively.
+          name: Solo Turns
       feature_type: trait
       icon: ☠️
       name: Solo Monster
@@ -53,6 +53,8 @@ features:
           tier1: 11 damage; M < 2 [weakened](scc.v1:mcdm.heroes.v1/condition/weakened) or the target is slimed (save ends)
           tier2: 17 damage; M < 3 [weakened](scc.v1:mcdm.heroes.v1/condition/weakened) or the target is slimed (save ends)
           tier3: 20 damage; M < 4 [weakened](scc.v1:mcdm.heroes.v1/condition/weakened) and the target is slimed (save ends)
+        - effect: A slimed target takes 4 psychic damage whenever they make a power roll.
+          name: Effect
       feature_type: ability
       icon: "\U0001F5E1"
       keywords:
@@ -69,6 +71,10 @@ features:
           tier1: 6 acid damage; A < 2 [push](scc.v1:mcdm.heroes.v1/movement/forced-movement) special
           tier2: 10 acid damage; A < 3 [push](scc.v1:mcdm.heroes.v1/movement/forced-movement) special
           tier3: 13 acid damage; A < 4 [push](scc.v1:mcdm.heroes.v1/movement/forced-movement) special and [prone](scc.v1:mcdm.heroes.v1/condition/prone)
+        - effect: Each creature [pushed](scc.v1:mcdm.heroes.v1/movement/forced-movement) this way is pushed to an unoccupied space in the area as far as possible from the olothec.
+          name: Effect
+        - cost: 1 Malice
+          effect: The area is [difficult terrain](scc.v1:mcdm.heroes.v1/movement/difficult-terrain). Any creature who enters the area or moves within it for the first time on a turn and has A < 3 is knocked [prone](scc.v1:mcdm.heroes.v1/condition/prone).
       feature_type: ability
       icon: "\U0001F533"
       keywords:
@@ -85,6 +91,14 @@ features:
           tier1: 13 psychic damage; I < 2 the target is transformed (save ends)
           tier2: 20 psychic damage; I < 3 the target is transformed (save ends)
           tier3: 23 psychic damage; I < 4 the target is transformed (save ends)
+        - effect: Each time a target is transformed, the Director chooses one of the following transformations. When a target ends the transformed effect, all transformations on them end.
+          name: Effect
+        - effect: The target's head becomes a ball of slime. They can't communicate and have line of effect only within 3 squares.
+          name: Head
+        - effect: The target's legs become pillars of ooze. They are [slowed](scc.v1:mcdm.heroes.v1/condition/slowed) while on land and can automatically swim at full speed while moving.
+          name: Legs
+        - effect: The target's arms become gelatinous. They can't benefit from edges or double edges and can't gain or use [surges](scc.v1:mcdm.heroes.v1/rule.resource/surge).
+          name: Torso
       feature_type: ability
       icon: "\U0001F3F9"
       keywords:
@@ -97,7 +111,8 @@ features:
       usage: Main action
     - distance: Self
       effects:
-        - effect: '**Effect:** The olothec [teleports](scc.v1:mcdm.heroes.v1/movement/teleport) to an unoccupied space within 10 squares. Alternatively, they swap places with a creature or object within 5 squares of them.'
+        - effect: The olothec [teleports](scc.v1:mcdm.heroes.v1/movement/teleport) to an unoccupied space within 10 squares. Alternatively, they swap places with a creature or object within 5 squares of them.
+          name: Effect
       feature_type: ability
       icon: "\U0001F464"
       keywords:
@@ -108,9 +123,8 @@ features:
       usage: Maneuver
     - distance: Ranged 5
       effects:
-        - effect: |-
-            **Trigger:** An enemy within distance deals damage to the olothec.
-            **Effect:** The target takes 8 psychic damage and has psychic weakness 3 until the end of the olothec's next turn.
+        - effect: The target takes 8 psychic damage and has psychic weakness 3 until the end of the olothec's next turn.
+          name: Effect
       feature_type: ability
       icon: ❗️
       keywords:
@@ -118,6 +132,7 @@ features:
         - Ranged
       name: Liquify
       target: Each enemy
+      trigger: An enemy within distance deals damage to the olothec.
       type: feature
       usage: Triggered action
     - effects:
@@ -139,6 +154,8 @@ features:
           tier1: 10 psychic damage; P < 2 [frightened](scc.v1:mcdm.heroes.v1/condition/frightened) (save ends)
           tier2: 14 psychic damage; P < 3 [frightened](scc.v1:mcdm.heroes.v1/condition/frightened) (save ends)
           tier3: 17 psychic damage; P < 4 [frightened](scc.v1:mcdm.heroes.v1/condition/frightened) (save ends)
+        - effect: While [frightened](scc.v1:mcdm.heroes.v1/condition/frightened) this way, a target can't make [saving throws](scc.v1:mcdm.heroes.v1/rule.general/saving-throw) to end any other effects.
+          name: Effect
       feature_type: ability
       icon: ☠️
       keywords:
@@ -152,7 +169,8 @@ features:
     - cost: Villain Action 2
       distance: 10 burst
       effects:
-        - effect: '**Effect:** The olothec [slides](scc.v1:mcdm.heroes.v1/movement/forced-movement) each target up to 5 squares. Each target takes 12 psychic damage, and if they have M < 3 they are [weakened](scc.v1:mcdm.heroes.v1/condition/weakened) and slimed (save ends). A slimed target takes 4 psychic damage whenever they make a power roll. Additionally, until the start of their next turn, the olothec has damage immunity 4.'
+        - effect: The olothec [slides](scc.v1:mcdm.heroes.v1/movement/forced-movement) each target up to 5 squares. Each target takes 12 psychic damage, and if they have M < 3 they are [weakened](scc.v1:mcdm.heroes.v1/condition/weakened) and slimed (save ends). A slimed target takes 4 psychic damage whenever they make a power roll. Additionally, until the start of their next turn, the olothec has damage immunity 4.
+          name: Effect
       feature_type: ability
       icon: ☠️
       keywords:
@@ -169,6 +187,8 @@ features:
           tier1: 7 psychic damage; R < 2 the target is devolved (save ends)
           tier2: 13 psychic damage; R < 3 the target is devolved (save ends)
           tier3: 16 psychic damage; R < 3 the target is devolved (save ends)
+        - effect: A devolved creature has a −1 score for all their characteristics other than Reason.
+          name: Effect
       feature_type: ability
       icon: ☠️
       keywords:

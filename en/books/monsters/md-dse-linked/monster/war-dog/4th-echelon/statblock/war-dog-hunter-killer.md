@@ -39,6 +39,8 @@ features:
           tier1: 5 damage; [push](../../../../movement/forced-movement.md) 2
           tier2: 8 damage; [push](../../../../movement/forced-movement.md) 3
           tier3: 10 damage; [push](../../../../movement/forced-movement.md) 4
+        - effect: Each enemy [adjacent](../../../../rule/combat/adjacent.md) to the target before the [forced movement](../../../../movement/forced-movement.md) takes 5 fire damage.
+          name: Effect
       feature_type: ability
       icon: "\U0001F3F9"
       keywords:

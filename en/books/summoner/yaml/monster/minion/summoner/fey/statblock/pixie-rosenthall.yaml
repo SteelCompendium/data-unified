@@ -9,6 +9,8 @@ features:
           tier1: 3 [damage](scc.v1:mcdm.heroes.v1/rule.damage/damage); pull 2; A < WEAK [bleeding](scc.v1:mcdm.heroes.v1/condition/bleeding) (EoT)
           tier2: 6 [damage](scc.v1:mcdm.heroes.v1/rule.damage/damage); pull 3; A < AVERAGE [bleeding](scc.v1:mcdm.heroes.v1/condition/bleeding) (EoT)
           tier3: 8 [damage](scc.v1:mcdm.heroes.v1/rule.damage/damage); pull 4; A < STRONG [bleeding](scc.v1:mcdm.heroes.v1/condition/bleeding) (EoT)
+        - effect: A target can't [shift](scc.v1:mcdm.heroes.v1/movement/shifting) while [bleeding](scc.v1:mcdm.heroes.v1/condition/bleeding) from this ability.
+          name: Effect
       feature_type: ability
       icon: "\U0001F3F9"
       keywords:

@@ -2,10 +2,21 @@
 features:
     - body: Until the end of the round, whenever a high elf uses a magic ability, they can use it as if they were occupying the square of another high elf on the encounter map to whom they have line of effect.
       cost: 3 Malice
+      effects:
+        - effect: Until the end of the round, whenever a high elf uses a magic ability, they can use it as if they were occupying the square of another high elf on the encounter map to whom they have line of effect.
       icon: "\U0001F300"
       name: Chaincast
     - cost: 5 Malice
       distance: 5 x 1 line within 1
+      effects:
+        - effect: 'The high elf chooses a damage type and condition from one of the following combinations: cold damage and [slowed](../../condition/slowed.md), poison damage and [weakened](../../condition/weakened.md), or corruption damage and [frightened](../../condition/frightened.md).'
+          name: Effect
+          roll: Power Roll + 2
+          tier1: 5 damage; R < 1 chosen condition (save ends)
+          tier2: 9 damage; R < 2 chosen condition (save ends)
+          tier3: 12 damage; R < 3 chosen condition (save ends)
+        - effect: This ability can't be used by a [minion](../../rule/organization/minion.md).
+          name: Special
       icon: "\U0001F533"
       keywords:
         - Area
@@ -26,6 +37,8 @@ features:
       usage: Main action
     - body: Until the end of the round, each high elf in the encounter gains a +4 bonus to speed, and whenever a high elf uses an ability against an enemy, each high elf [adjacent](../../rule/combat/adjacent.md) to that enemy can make a [free strike](../../feature/common/main-actions/free-strike.md) against them.
       cost: 7 Malice
+      effects:
+        - effect: Until the end of the round, each high elf in the encounter gains a +4 bonus to speed, and whenever a high elf uses an ability against an enemy, each high elf [adjacent](../../rule/combat/adjacent.md) to that enemy can make a [free strike](../../feature/common/main-actions/free-strike.md) against them.
       icon: "\U0001F300"
       name: In Defiance of Time
 file_basename: high-elf-malice
@@ -44,10 +57,21 @@ type: featureblock
 features:
     - body: Until the end of the round, whenever a high elf uses a magic ability, they can use it as if they were occupying the square of another high elf on the encounter map to whom they have line of effect.
       cost: 3 Malice
+      effects:
+        - effect: Until the end of the round, whenever a high elf uses a magic ability, they can use it as if they were occupying the square of another high elf on the encounter map to whom they have line of effect.
       icon: "\U0001F300"
       name: Chaincast
     - cost: 5 Malice
       distance: 5 x 1 line within 1
+      effects:
+        - effect: 'The high elf chooses a damage type and condition from one of the following combinations: cold damage and [slowed](../../condition/slowed.md), poison damage and [weakened](../../condition/weakened.md), or corruption damage and [frightened](../../condition/frightened.md).'
+          name: Effect
+          roll: Power Roll + 2
+          tier1: 5 damage; R < 1 chosen condition (save ends)
+          tier2: 9 damage; R < 2 chosen condition (save ends)
+          tier3: 12 damage; R < 3 chosen condition (save ends)
+        - effect: This ability can't be used by a [minion](../../rule/organization/minion.md).
+          name: Special
       icon: "\U0001F533"
       keywords:
         - Area
@@ -68,6 +92,8 @@ features:
       usage: Main action
     - body: Until the end of the round, each high elf in the encounter gains a +4 bonus to speed, and whenever a high elf uses an ability against an enemy, each high elf [adjacent](../../rule/combat/adjacent.md) to that enemy can make a [free strike](../../feature/common/main-actions/free-strike.md) against them.
       cost: 7 Malice
+      effects:
+        - effect: Until the end of the round, each high elf in the encounter gains a +4 bonus to speed, and whenever a high elf uses an ability against an enemy, each high elf [adjacent](../../rule/combat/adjacent.md) to that enemy can make a [free strike](../../feature/common/main-actions/free-strike.md) against them.
       icon: "\U0001F300"
       name: In Defiance of Time
 flavor: At the start of any high elf's turn, you can spend Malice to activate one of the following features.

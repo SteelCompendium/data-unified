@@ -1,14 +1,27 @@
 features:
     - body: The column of blades must be completely destroyed.
+      effects:
+        - effect: The column of blades must be completely destroyed.
       icon: "\U0001F300"
       name: Deactivate
     - body: A creature or object moves [adjacent](scc.v1:mcdm.heroes.v1/rule.combat/adjacent) to the column of blades.
+      effects:
+        - effect: A creature or object moves [adjacent](scc.v1:mcdm.heroes.v1/rule.combat/adjacent) to the column of blades.
+        - effect: The **Spinning Blades** ability.
+          name: Effect
       icon: ❕
       name: Activate
       sections:
         - label: Effect
           text: The **Spinning Blades** ability.
     - distance: Melee 1
+      effects:
+        - effect: A creature or object moves within distance of the column.
+          name: Trigger
+          roll: Power Roll + 2
+          tier1: 4 damage
+          tier2: 6 damage; M < 2 [bleeding](scc.v1:mcdm.heroes.v1/condition/bleeding) ([save](scc.v1:mcdm.heroes.v1/rule.general/saving-throw) ends)
+          tier3: 9 damage; M < 3 [bleeding](scc.v1:mcdm.heroes.v1/condition/bleeding) ([save](scc.v1:mcdm.heroes.v1/rule.general/saving-throw) ends)
       icon: ❗️
       keywords:
         - Melee
@@ -34,9 +47,20 @@ features:
         **Concealed (+1 EV)** The blades are concealed inside the column, which remains motionless until triggered.
 
         **Spiked Flails (+4 EV)** Instead of blades, the column is affixed with heavy spiked balls attached by long chains. The **Whirling Flails** ability replaces **Spinning Blades**.
+      effects:
+        - effect: '**Stone Column (+1 EV)** The column is made of stone and has 8 [Stamina](scc.v1:mcdm.heroes.v1/rule.health/stamina).'
+        - effect: '**Metal Column (+1 EV)** The column is made of metal and has 11 [Stamina](scc.v1:mcdm.heroes.v1/rule.health/stamina).'
+        - effect: '**Concealed (+1 EV)** The blades are concealed inside the column, which remains motionless until triggered.'
+        - effect: '**Spiked Flails (+4 EV)** Instead of blades, the column is affixed with heavy spiked balls attached by long chains. The **Whirling Flails** ability replaces **Spinning Blades**.'
       icon: ⭐️
       name: Upgrades
     - distance: Melee 2
+      effects:
+        - effect: A creature or object moves within distance of the column.
+          name: Trigger
+          tier1: 5 damage
+          tier2: 8 damage; M < 2 [dazed](scc.v1:mcdm.heroes.v1/condition/dazed) ([save](scc.v1:mcdm.heroes.v1/rule.general/saving-throw) ends)
+          tier3: 11 damage; M < 3 [dazed](scc.v1:mcdm.heroes.v1/condition/dazed) ([save](scc.v1:mcdm.heroes.v1/rule.general/saving-throw) ends)
       icon: ❗️
       keywords:
         - Melee
@@ -53,7 +77,13 @@ features:
           text: A creature or object moves within distance of the column.
       target: The triggering creature or object
       usage: Free triggered action
-    - icon: ⭐️
+    - effects:
+        - effect: Allies who [shift](scc.v1:mcdm.heroes.v1/movement/shifting) don't trigger the column. A creature observing an ally [shift](scc.v1:mcdm.heroes.v1/movement/shifting) this way can make an **Intuition test** to [shift](scc.v1:mcdm.heroes.v1/movement/shifting) in imitation of their movements.
+          roll: Power Roll + 2
+          tier1: The creature triggers the column and the column's ability gains an edge.
+          tier2: The creature triggers the column.
+          tier3: The creature doesn't trigger the column.
+      icon: ⭐️
       intro: Allies who [shift](scc.v1:mcdm.heroes.v1/movement/shifting) don't trigger the column. A creature observing an ally [shift](scc.v1:mcdm.heroes.v1/movement/shifting) this way can make an **Intuition test** to [shift](scc.v1:mcdm.heroes.v1/movement/shifting) in imitation of their movements.
       name: Allied Awareness
       power_roll:

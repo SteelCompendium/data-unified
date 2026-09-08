@@ -11,6 +11,10 @@
           "tier1": "3 corruption damage",
           "tier2": "6 corruption damage; P \u003c 3 [bleeding](scc.v1:mcdm.heroes.v1/condition/bleeding) (save ends)",
           "tier3": "8 corruption damage; [grabbed](scc.v1:mcdm.heroes.v1/condition/grabbed); P \u003c 4 [bleeding](scc.v1:mcdm.heroes.v1/condition/bleeding) (save ends)"
+        },
+        {
+          "effect": "A target [grabbed](scc.v1:mcdm.heroes.v1/condition/grabbed) this way or already [grabbed](scc.v1:mcdm.heroes.v1/condition/grabbed) by the knightmare can be vertical [pushed](scc.v1:mcdm.heroes.v1/movement/forced-movement) up to 5 squares.",
+          "name": "Effect"
         }
       ],
       "feature_type": "ability",

@@ -31,9 +31,10 @@ agility: 1
 ev: "108"
 features:
     - effects:
-        - effect: |-
-            **[End Effect](../../../rule/monster/end-effect.md):** At the end of each of their turns, the kingfissure worm can take 10 damage to end one effect on them that can be ended by a [saving throw](../../../rule/general/saving-throw.md). This damage can't be reduced in any way.
-            **Solo Turns:** The kingfissure worm can take two turns each round. They can't take turns consecutively.
+        - effect: At the end of each of their turns, the kingfissure worm can take 10 damage to end one effect on them that can be ended by a [saving throw](../../../rule/general/saving-throw.md). This damage can't be reduced in any way.
+          name: End Effect
+        - effect: The kingfissure worm can take two turns each round. They can't take turns consecutively.
+          name: Solo Turns
       feature_type: trait
       icon: ☠️
       name: Solo Monster
@@ -51,6 +52,8 @@ features:
           tier1: 13 damage; M < 3 [grabbed](../../../condition/grabbed.md)
           tier2: 18 damage; M < 4 [grabbed](../../../condition/grabbed.md)
           tier3: 22 damage; M < 5 [grabbed](../../../condition/grabbed.md) and the target takes a bane on the Escape Grab maneuver
+        - effect: The kingfissure worm must have one or more tongues to use this ability. As a maneuver, the kingfissure worm can [pull](../../../movement/forced-movement.md) up to two creatures [grabbed](../../../condition/grabbed.md) this way [adjacent](../../../rule/combat/adjacent.md) to them.
+          name: Effect
       feature_type: ability
       icon: "\U0001F5E1"
       keywords:
@@ -67,6 +70,8 @@ features:
           tier1: 15 damage; [push](../../../movement/forced-movement.md) 3
           tier2: 20 damage; [push](../../../movement/forced-movement.md) 5, [prone](../../../condition/prone.md)
           tier3: 25 damage; the target is swallowed (see Swallowed)
+        - cost: 2 Malice
+          effect: When the kingfissure worm uses the Charge main action, they ignore [difficult terrain](../../../movement/difficult-terrain.md) and automatically destroy mundane size 3 and smaller objects in the path of their charge. The first time the kingfissure worm moves through a creature's space during this charge, that creature takes 8 damage and is [pushed](../../../movement/forced-movement.md) up to 3 squares.
       feature_type: ability
       icon: "\U0001F5E1"
       keywords:
@@ -81,7 +86,8 @@ features:
     - cost: 2 Malice
       distance: Melee 1
       effects:
-        - effect: '**Effect:** The target is swallowed (see Swallowed).'
+        - effect: The target is swallowed (see Swallowed).
+          name: Effect
       feature_type: ability
       icon: "\U0001F5E1"
       keywords:
@@ -92,7 +98,8 @@ features:
       usage: Main action
     - distance: Melee 5 or ranged 10
       effects:
-        - effect: '**Effect:** The kingfissure worm can use this maneuver only while they have a creature or object [grabbed](../../../condition/grabbed.md). The worm slams the [grabbed](../../../condition/grabbed.md) creature or object against the target, dealing 13 damage to both. If this ability is used at range, it deals an extra 5 damage and the [grabbed](../../../condition/grabbed.md) creature or object is released.'
+        - effect: The kingfissure worm can use this maneuver only while they have a creature or object [grabbed](../../../condition/grabbed.md). The worm slams the [grabbed](../../../condition/grabbed.md) creature or object against the target, dealing 13 damage to both. If this ability is used at range, it deals an extra 5 damage and the [grabbed](../../../condition/grabbed.md) creature or object is released.
+          name: Effect
       feature_type: ability
       icon: ⚔️
       keywords:
@@ -106,14 +113,14 @@ features:
       usage: Maneuver
     - distance: Self
       effects:
-        - effect: |-
-            **Trigger:** A tongue takes damage that doesn't reduce it to 0 [Stamina](../../../rule/health/stamina.md).
-            **Effect:** The kingfissure worm deals 5 damage to the creature or object the tongue had [grabbed](../../../condition/grabbed.md), releases that creature or object, then pulls the damaged tongue back into their mouth.
+        - effect: The kingfissure worm deals 5 damage to the creature or object the tongue had [grabbed](../../../condition/grabbed.md), releases that creature or object, then pulls the damaged tongue back into their mouth.
+          name: Effect
       feature_type: ability
       icon: ❗️
       keywords: []
       name: Tearing Recoil
       target: Special
+      trigger: A tongue takes damage that doesn't reduce it to 0 [Stamina](../../../rule/health/stamina.md).
       type: feature
       usage: Triggered action
     - effects:
@@ -143,7 +150,10 @@ features:
     - cost: Villain Action 1
       distance: 20 x 4 line within 1
       effects:
-        - roll: ""
+        - effect: Each target must be on the ground.
+          name: Special
+        - effect: The area becomes a 10-square-deep fissure in the earth. Each target makes an **Agility test**.
+          name: Effect
           tier1: 10 damage; the target falls into the fissure, lands [prone](../../../condition/prone.md), and can't stand (EoT)
           tier2: 10 damage; the target is knocked [prone](../../../condition/prone.md) and left hanging at the edge of the area
           tier3: The target [shifts](../../../movement/shifting.md) to the nearest unoccupied space outside the area.
@@ -159,7 +169,8 @@ features:
     - cost: Villain Action 2
       distance: Self
       effects:
-        - effect: '**Effect:** The kingfissure worm can use this villain action only while burrowing. The worm burrows up to half their speed, then breaches the surface and moves 5 squares straight up before dropping back to the ground. Each creature or object whose space the worm moves through during this movement takes 10 damage, and if they have A < 4 they are knocked [prone](../../../condition/prone.md). Any creature who is made [winded](../../../rule/health/winded.md) by this damage is swallowed (see Swallowed).'
+        - effect: The kingfissure worm can use this villain action only while burrowing. The worm burrows up to half their speed, then breaches the surface and moves 5 squares straight up before dropping back to the ground. Each creature or object whose space the worm moves through during this movement takes 10 damage, and if they have A < 4 they are knocked [prone](../../../condition/prone.md). Any creature who is made [winded](../../../rule/health/winded.md) by this damage is swallowed (see Swallowed).
+          name: Effect
       feature_type: ability
       icon: ☠️
       keywords:
@@ -175,6 +186,8 @@ features:
           tier1: 8 acid damage; P < 3 [weakened](../../../condition/weakened.md) (save ends)
           tier2: 13 acid damage; P < 4 [weakened](../../../condition/weakened.md) (save ends)
           tier3: 17 acid damage; P < 5 [weakened](../../../condition/weakened.md) (save ends)
+        - effect: Each creature swallowed by the worm is regurgitated and automatically subject to the tier 3 outcome, then lands [prone](../../../condition/prone.md) in an unoccupied space within 5 squares of the kingfissure worm.
+          name: Effect
       feature_type: ability
       icon: ☠️
       keywords:

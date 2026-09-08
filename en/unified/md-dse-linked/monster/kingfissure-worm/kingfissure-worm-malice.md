@@ -2,6 +2,11 @@
 features:
     - cost: 3 Malice
       distance: Self
+      effects:
+        - effect: A creature deals damage to the kingfissure worm or one of their tongues.
+          name: Trigger
+        - effect: Each creature within 5 squares of the kingfissure worm takes 5 damage, and if they have A < 4 they are knocked [prone](../../condition/prone.md). The kingfissure worm can use this ability only once per round.
+          name: Effect
       icon: ❗️
       name: Aftershock
       sections:
@@ -13,14 +18,25 @@ features:
       usage: Free triggered action
     - body: The kingfissure worm takes an additional main action on their turn. They can use this feature even if they are [dazed](../../condition/dazed.md).
       cost: 5 Malice
+      effects:
+        - effect: The kingfissure worm takes an additional main action on their turn. They can use this feature even if they are [dazed](../../condition/dazed.md).
       icon: ☠️
       name: Solo Action
     - body: The kingfissure worm loses 35 [Stamina](../../rule/health/stamina.md) and regrows one tongue, to a maximum of three tongues. The worm is then [dazed](../../condition/dazed.md) until the end of their turn.
       cost: 5 Malice
+      effects:
+        - effect: The kingfissure worm loses 35 [Stamina](../../rule/health/stamina.md) and regrows one tongue, to a maximum of three tongues. The worm is then [dazed](../../condition/dazed.md) until the end of their turn.
       icon: "\U0001F464"
       name: Spontaneous Regeneration
     - cost: 7 Malice
       distance: 5 burst
+      effects:
+        - roll: Power Roll + 5
+          tier1: 8 damage; M < 3 [slide](../../movement/forced-movement.md) 5
+          tier2: 13 damage; M < 4 [slide](../../movement/forced-movement.md) 5
+          tier3: 17 damage; M < 5 [slide](../../movement/forced-movement.md) 5
+        - effect: Until the end of the next round, each target takes a −3 penalty to stability, treats all terrain as [difficult terrain](../../movement/difficult-terrain.md), and takes 10 damage whenever they are knocked [prone](../../condition/prone.md).
+          name: Effect
       icon: ❇️
       keywords:
         - Area
@@ -53,6 +69,11 @@ type: featureblock
 features:
     - cost: 3 Malice
       distance: Self
+      effects:
+        - effect: A creature deals damage to the kingfissure worm or one of their tongues.
+          name: Trigger
+        - effect: Each creature within 5 squares of the kingfissure worm takes 5 damage, and if they have A < 4 they are knocked [prone](../../condition/prone.md). The kingfissure worm can use this ability only once per round.
+          name: Effect
       icon: ❗️
       name: Aftershock
       sections:
@@ -64,14 +85,25 @@ features:
       usage: Free triggered action
     - body: The kingfissure worm takes an additional main action on their turn. They can use this feature even if they are [dazed](../../condition/dazed.md).
       cost: 5 Malice
+      effects:
+        - effect: The kingfissure worm takes an additional main action on their turn. They can use this feature even if they are [dazed](../../condition/dazed.md).
       icon: ☠️
       name: Solo Action
     - body: The kingfissure worm loses 35 [Stamina](../../rule/health/stamina.md) and regrows one tongue, to a maximum of three tongues. The worm is then [dazed](../../condition/dazed.md) until the end of their turn.
       cost: 5 Malice
+      effects:
+        - effect: The kingfissure worm loses 35 [Stamina](../../rule/health/stamina.md) and regrows one tongue, to a maximum of three tongues. The worm is then [dazed](../../condition/dazed.md) until the end of their turn.
       icon: "\U0001F464"
       name: Spontaneous Regeneration
     - cost: 7 Malice
       distance: 5 burst
+      effects:
+        - roll: Power Roll + 5
+          tier1: 8 damage; M < 3 [slide](../../movement/forced-movement.md) 5
+          tier2: 13 damage; M < 4 [slide](../../movement/forced-movement.md) 5
+          tier3: 17 damage; M < 5 [slide](../../movement/forced-movement.md) 5
+        - effect: Until the end of the next round, each target takes a −3 penalty to stability, treats all terrain as [difficult terrain](../../movement/difficult-terrain.md), and takes 10 damage whenever they are knocked [prone](../../condition/prone.md).
+          name: Effect
       icon: ❇️
       keywords:
         - Area

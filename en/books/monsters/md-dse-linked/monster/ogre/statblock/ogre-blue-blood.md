@@ -38,6 +38,8 @@ features:
           tier1: 4 damage
           tier2: 7 damage; M < 3 [prone](../../../condition/prone.md)
           tier3: 8 damage; [prone](../../../condition/prone.md)
+        - effect: A target who is already [prone](../../../condition/prone.md) takes an extra 4 damage.
+          name: Effect
       feature_type: ability
       icon: "\U0001F5E1"
       keywords:

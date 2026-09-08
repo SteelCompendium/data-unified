@@ -40,6 +40,10 @@ features:
           tier1: 8 acid damage; pull 1
           tier2: 10 acid damage; pull 2
           tier3: 14 acid damage; pull 3
+        - effect: This ability can pull targets [restrained](scc.v1:mcdm.heroes.v1/condition/restrained) by Petrifying Eye Beams, and ignores stability if it does so.
+          name: Effect
+        - cost: 3 Malice
+          effect: The tonguesnapper targets two additional creatures or objects.
       feature_type: ability
       icon: "\U0001F5E1"
       keywords:
@@ -52,10 +56,14 @@ features:
       usage: Main action
     - distance: 5 x 2 line within 1
       effects:
-        - roll: Power Roll + 2
+        - effect: The area extends from both the tonguesnapper’s eyes, and this ability targets the first creature without cover on either side of the area.
+          name: Special
+          roll: Power Roll + 2
           tier1: A < 0 [restrained](scc.v1:mcdm.heroes.v1/condition/restrained) (save ends)
           tier2: A < 1 [restrained](scc.v1:mcdm.heroes.v1/condition/restrained) (save ends)
           tier3: '[Slowed](scc.v1:mcdm.heroes.v1/condition/slowed) (save ends); or if A < 2 [restrained](scc.v1:mcdm.heroes.v1/condition/restrained) (save ends)'
+        - effect: If a target is already [slowed](scc.v1:mcdm.heroes.v1/condition/slowed), the potency increases by 1 for that target. A target [restrained](scc.v1:mcdm.heroes.v1/condition/restrained) this way magically begins to turn to stone, and a target who ends two consecutive turns [restrained](scc.v1:mcdm.heroes.v1/condition/restrained) this way is petrified. A target [restrained](scc.v1:mcdm.heroes.v1/condition/restrained) this way or a creature adjacent to them can use a main action to cut encroaching stone from the target’s body, dealing 8 damage to the target that can’t be reduced in any way and ending this effect.
+          name: Effect
       feature_type: ability
       icon: "\U0001F533"
       keywords:
@@ -72,6 +80,8 @@ features:
           tier1: 8 corruption damage; R < 0 [dazed](scc.v1:mcdm.heroes.v1/condition/dazed) (save ends)
           tier2: 10 corruption damage; R < 1 [dazed](scc.v1:mcdm.heroes.v1/condition/dazed) (save ends)
           tier3: 14 corruption damage; R < 2 [dazed](scc.v1:mcdm.heroes.v1/condition/dazed) and [slowed](scc.v1:mcdm.heroes.v1/condition/slowed) (save ends)
+        - effect: A creature [dazed](scc.v1:mcdm.heroes.v1/condition/dazed) this way can’t benefit from [edges](scc.v1:mcdm.heroes.v1/rule.dice/edge) or double [edges](scc.v1:mcdm.heroes.v1/rule.dice/edge) and can’t gain or use [surges](scc.v1:mcdm.heroes.v1/rule.resource/surge).
+          name: Effect
       feature_type: ability
       icon: ⚔️
       keywords:
@@ -85,15 +95,15 @@ features:
       usage: Main action
     - distance: 2 burst
       effects:
-        - effect: |-
-            **Trigger:** The tonguesnapper takes damage from a melee ability.
-            **Effect:** Each target takes 4 acid damage. Any target who has M < 2 is also [slowed](scc.v1:mcdm.heroes.v1/condition/slowed) (save ends).
+        - effect: Each target takes 4 acid damage. Any target who has M < 2 is also [slowed](scc.v1:mcdm.heroes.v1/condition/slowed) (save ends).
+          name: Effect
       feature_type: ability
       icon: ❗️
       keywords:
         - Area
       name: Neurotoxin Splash
       target: Each enemy in the area
+      trigger: The tonguesnapper takes damage from a melee ability.
       type: feature
       usage: Triggered action
     - effects:

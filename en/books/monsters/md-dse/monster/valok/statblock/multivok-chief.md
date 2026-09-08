@@ -56,6 +56,8 @@ features:
           tier1: 15 damage; A < 2 [slowed](scc.v1:mcdm.heroes.v1/condition/slowed) (save ends)
           tier2: 21 damage; A < 3 [slowed](scc.v1:mcdm.heroes.v1/condition/slowed) (save ends)
           tier3: 26 damage; A < 4 [slowed](scc.v1:mcdm.heroes.v1/condition/slowed) (save ends)
+        - effect: This damage can't be reduced in any way. While a target is [slowed](scc.v1:mcdm.heroes.v1/condition/slowed) this way, any strike against them has a double edge.
+          name: Effect
       feature_type: ability
       icon: "\U0001F3F9"
       keywords:
@@ -68,7 +70,8 @@ features:
       usage: Main action
     - distance: Ranged 5
       effects:
-        - effect: '**Effect:** The target [shifts](scc.v1:mcdm.heroes.v1/movement/shifting) up to their speed and can use a main action.'
+        - effect: The target [shifts](scc.v1:mcdm.heroes.v1/movement/shifting) up to their speed and can use a main action.
+          name: Effect
       feature_type: ability
       icon: "\U0001F3F9"
       keywords:
@@ -79,15 +82,15 @@ features:
       usage: Maneuver
     - distance: Ranged 10
       effects:
-        - effect: |-
-            **Trigger:** The chief or an ally within distance is subject to an effect that can be ended by a [saving throw](scc.v1:mcdm.heroes.v1/rule.general/saving-throw) or that ends at the end of their turn.
-            **Effect:** The target gains 15 temporary [Stamina](scc.v1:mcdm.heroes.v1/rule.health/stamina). Each time this triggered action is used, the amount of temporary [Stamina](scc.v1:mcdm.heroes.v1/rule.health/stamina) received decreases by 3 (to a minimum of 0).
+        - effect: The target gains 15 temporary [Stamina](scc.v1:mcdm.heroes.v1/rule.health/stamina). Each time this triggered action is used, the amount of temporary [Stamina](scc.v1:mcdm.heroes.v1/rule.health/stamina) received decreases by 3 (to a minimum of 0).
+          name: Effect
       feature_type: ability
       icon: ❗️
       keywords:
         - Ranged
       name: Quick Shield
       target: The triggering creature
+      trigger: The chief or an ally within distance is subject to an effect that can be ended by a [saving throw](scc.v1:mcdm.heroes.v1/rule.general/saving-throw) or that ends at the end of their turn.
       type: feature
       usage: Triggered Action
     - effects:

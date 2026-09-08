@@ -9,6 +9,8 @@ features:
           tier1: 8 [damage](scc.v1:mcdm.heroes.v1/rule.damage/damage); A < WEAK [slowed](scc.v1:mcdm.heroes.v1/condition/slowed) (save ends)
           tier2: 13 [damage](scc.v1:mcdm.heroes.v1/rule.damage/damage); A < AVERAGE [slowed](scc.v1:mcdm.heroes.v1/condition/slowed) (save ends)
           tier3: 17 [damage](scc.v1:mcdm.heroes.v1/rule.damage/damage); A < STRONG [slowed](scc.v1:mcdm.heroes.v1/condition/slowed) (save ends)
+        - effect: The phantom deals an additional 3 [damage](scc.v1:mcdm.heroes.v1/rule.damage/damage) if they have an [edge](scc.v1:mcdm.heroes.v1/rule.dice/edge).
+          name: Effect
       feature_type: ability
       icon: "\U0001F3F9"
       keywords:

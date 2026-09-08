@@ -39,6 +39,10 @@ features:
           tier1: 3 damage; M < 2 [push](../../../../movement/forced-movement.md) (see effect)
           tier2: 6 damage; M < 3 [push](../../../../movement/forced-movement.md)
           tier3: 8 damage; M < 4 [push](../../../../movement/forced-movement.md), [prone](../../../../condition/prone.md)
+        - effect: This ability ignores stability. The geomancer declares a direction for the area, and any creature [pushed](../../../../movement/forced-movement.md) by this ability is pushed to the last space in the area in the chosen direction.
+          name: Effect
+        - cost: 2 Malice
+          effect: The ground beneath the area becomes a 2-square-deep trench after the power roll is resolved.
       feature_type: ability
       icon: "\U0001F533"
       keywords:
@@ -51,7 +55,8 @@ features:
       usage: Main action
     - distance: 5 wall within 10
       effects:
-        - effect: '**Effect:** The geomancer raises a wall of stone set with viewing gaps. Creatures have line of effect through the wall while [adjacent](../../../../rule/combat/adjacent.md) to it.'
+        - effect: The geomancer raises a wall of stone set with viewing gaps. Creatures have line of effect through the wall while [adjacent](../../../../rule/combat/adjacent.md) to it.
+          name: Effect
       feature_type: ability
       icon: "\U0001F533"
       keywords:

@@ -39,6 +39,8 @@ features:
           tier1: 2 damage
           tier2: 4 damage; [push](../../../../movement/forced-movement.md) 1
           tier3: 6 damage; [push](../../../../movement/forced-movement.md) 3
+        - effect: Any target within 2 squares of the sweeper takes an extra 3 damage.
+          name: Effect
       feature_type: ability
       icon: ⚔️
       keywords:

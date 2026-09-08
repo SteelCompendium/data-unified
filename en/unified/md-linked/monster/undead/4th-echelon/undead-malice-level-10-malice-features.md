@@ -2,9 +2,20 @@
 features:
     - body: The [undead](../../../rule/keyword/undead.md) activates a [Malice](../../../rule/monster/malice.md) feature available to [undead](../../../rule/keyword/undead.md) of level 9 or lower.
       cost: 2-7+ Malice
+      effects:
+        - effect: The [undead](../../../rule/keyword/undead.md) activates a [Malice](../../../rule/monster/malice.md) feature available to [undead](../../../rule/keyword/undead.md) of level 9 or lower.
       icon: ⭐️
       name: Prior Malice Features
     - cost: 7 Malice
+      effects:
+        - effect: The [undead](../../../rule/keyword/undead.md) attempts to rend the vitality of their foes. Each enemy within 5 squares of the [undead](../../../rule/keyword/undead.md) makes a **Might test**.
+          tier1: 10 corruption damage; the target loses 2 [Recoveries](../../../rule/health/recoveries.md)
+          tier2: 8 corruption damage; the target loses 1 [Recovery](../../../rule/health/recoveries.md)
+          tier3: 5 corruption damage
+        - effect: A target who has fewer [Recoveries](../../../rule/health/recoveries.md) than they would lose is also [weakened](../../../condition/weakened.md) (save ends).
+          name: Effect
+        - effect: This ability can't be used by a [minion](../../../rule/organization/minion.md).
+          name: Special
       icon: ❇️
       intro: The [undead](../../../rule/keyword/undead.md) attempts to rend the vitality of their foes. Each enemy within 5 squares of the [undead](../../../rule/keyword/undead.md) makes a **Might test**.
       name: Death Tax

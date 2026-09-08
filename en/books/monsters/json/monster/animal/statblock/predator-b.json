@@ -50,7 +50,8 @@
       "distance": "Melee 1",
       "effects": [
         {
-          "effect": "**Trigger:** A creature or object within distance deals damage to the predator.\n**Effect:** The target is [pushed](scc.v1:mcdm.heroes.v1/movement/forced-movement) up to 5 squares."
+          "effect": "The target is [pushed](scc.v1:mcdm.heroes.v1/movement/forced-movement) up to 5 squares.",
+          "name": "Effect"
         }
       ],
       "feature_type": "ability",
@@ -60,6 +61,7 @@
       ],
       "name": "Swat",
       "target": "The triggering creature or object",
+      "trigger": "A creature or object within distance deals damage to the predator.",
       "type": "feature",
       "usage": "Triggered action"
     },

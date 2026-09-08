@@ -1,6 +1,11 @@
 ---
 features:
-    - icon: "\U0001F300"
+    - effects:
+        - effect: As a maneuver, a creature [adjacent](scc.v1:mcdm.heroes.v1/rule.combat/adjacent) to a ram can make an **Agility test**.
+          tier1: The creature triggers the ram and is affected as if in its space.
+          tier2: The ram is deactivated but the creature is [slowed](scc.v1:mcdm.heroes.v1/condition/slowed) (EoT).
+          tier3: The ram is deactivated and doesn't trigger.
+      icon: "\U0001F300"
       intro: As a maneuver, a creature [adjacent](scc.v1:mcdm.heroes.v1/rule.combat/adjacent) to a ram can make an **Agility test**.
       name: Deactivate
       power_roll:
@@ -9,12 +14,27 @@ features:
             low: The creature triggers the ram and is affected as if in its space.
             mid: The ram is deactivated but the creature is [slowed](scc.v1:mcdm.heroes.v1/condition/slowed) (EoT).
     - body: A [pressure plate](scc.v1:mcdm.monsters.v1/dynamic-terrain.mechanisms/pressure-plate), [switch](scc.v1:mcdm.monsters.v1/dynamic-terrain.mechanisms/switch), or other linked trigger is activated.
+      effects:
+        - effect: A [pressure plate](scc.v1:mcdm.monsters.v1/dynamic-terrain.mechanisms/pressure-plate), [switch](scc.v1:mcdm.monsters.v1/dynamic-terrain.mechanisms/switch), or other linked trigger is activated.
+        - effect: The **Ram** ability.
+          name: Effect
       icon: ❕
       name: Activate
       sections:
         - label: Effect
           text: The **Ram** ability.
     - distance: Special
+      effects:
+        - effect: A [pressure plate](scc.v1:mcdm.monsters.v1/dynamic-terrain.mechanisms/pressure-plate), [switch](scc.v1:mcdm.monsters.v1/dynamic-terrain.mechanisms/switch), or other linked trigger is activated.
+          name: Trigger
+        - effect: The area of this ability is the path the ram moves through from its starting position.
+          name: Special
+          roll: Power Roll + 2
+          tier1: 3 damage; slide 1, ignoring [stability](scc.v1:mcdm.heroes.v1/rule.character/stability)
+          tier2: 6 damage; push 3
+          tier3: 9 damage; push 5
+        - effect: A target slid by the ram ends up on one side of it or the other (choose randomly). The ram must be manually reset.
+          name: Effect
       icon: ❗️
       keywords:
         - Area
@@ -45,9 +65,17 @@ features:
         **Rapid Repeating (+3 EV)** The ram automatically resets at the start of each turn.
 
         **Multiple Rams (+3 EV per additional ram)** Multiple rams can be used to represent a larger mechanism, such as a stack of tumbling logs.
+      effects:
+        - effect: '**Stone (+1 EV)** The ram is made of stone, has 6 [Stamina](scc.v1:mcdm.heroes.v1/rule.health/stamina) per square, and deals an extra 1d3 damage.'
+        - effect: '**Metal (+2 EV)** The ram is made of metal, has 9 [Stamina](scc.v1:mcdm.heroes.v1/rule.health/stamina) per square, and deals an extra 1d6 damage.'
+        - effect: '**Repeating (+1 EV)** The ram automatically resets at the start of each round.'
+        - effect: '**Rapid Repeating (+3 EV)** The ram automatically resets at the start of each turn.'
+        - effect: '**Multiple Rams (+3 EV per additional ram)** Multiple rams can be used to represent a larger mechanism, such as a stack of tumbling logs.'
       icon: ⭐️
       name: Upgrades
     - body: The ram is hidden until triggered or detected.
+      effects:
+        - effect: The ram is hidden until triggered or detected.
       icon: ⭐️
       name: Hidden
 file_basename: ram
@@ -77,7 +105,12 @@ type: dynamic-terrain
 
 ```ds-fb
 features:
-    - icon: "\U0001F300"
+    - effects:
+        - effect: As a maneuver, a creature [adjacent](scc.v1:mcdm.heroes.v1/rule.combat/adjacent) to a ram can make an **Agility test**.
+          tier1: The creature triggers the ram and is affected as if in its space.
+          tier2: The ram is deactivated but the creature is [slowed](scc.v1:mcdm.heroes.v1/condition/slowed) (EoT).
+          tier3: The ram is deactivated and doesn't trigger.
+      icon: "\U0001F300"
       intro: As a maneuver, a creature [adjacent](scc.v1:mcdm.heroes.v1/rule.combat/adjacent) to a ram can make an **Agility test**.
       name: Deactivate
       power_roll:
@@ -86,12 +119,27 @@ features:
             low: The creature triggers the ram and is affected as if in its space.
             mid: The ram is deactivated but the creature is [slowed](scc.v1:mcdm.heroes.v1/condition/slowed) (EoT).
     - body: A [pressure plate](scc.v1:mcdm.monsters.v1/dynamic-terrain.mechanisms/pressure-plate), [switch](scc.v1:mcdm.monsters.v1/dynamic-terrain.mechanisms/switch), or other linked trigger is activated.
+      effects:
+        - effect: A [pressure plate](scc.v1:mcdm.monsters.v1/dynamic-terrain.mechanisms/pressure-plate), [switch](scc.v1:mcdm.monsters.v1/dynamic-terrain.mechanisms/switch), or other linked trigger is activated.
+        - effect: The **Ram** ability.
+          name: Effect
       icon: ❕
       name: Activate
       sections:
         - label: Effect
           text: The **Ram** ability.
     - distance: Special
+      effects:
+        - effect: A [pressure plate](scc.v1:mcdm.monsters.v1/dynamic-terrain.mechanisms/pressure-plate), [switch](scc.v1:mcdm.monsters.v1/dynamic-terrain.mechanisms/switch), or other linked trigger is activated.
+          name: Trigger
+        - effect: The area of this ability is the path the ram moves through from its starting position.
+          name: Special
+          roll: Power Roll + 2
+          tier1: 3 damage; slide 1, ignoring [stability](scc.v1:mcdm.heroes.v1/rule.character/stability)
+          tier2: 6 damage; push 3
+          tier3: 9 damage; push 5
+        - effect: A target slid by the ram ends up on one side of it or the other (choose randomly). The ram must be manually reset.
+          name: Effect
       icon: ❗️
       keywords:
         - Area
@@ -122,9 +170,17 @@ features:
         **Rapid Repeating (+3 EV)** The ram automatically resets at the start of each turn.
 
         **Multiple Rams (+3 EV per additional ram)** Multiple rams can be used to represent a larger mechanism, such as a stack of tumbling logs.
+      effects:
+        - effect: '**Stone (+1 EV)** The ram is made of stone, has 6 [Stamina](scc.v1:mcdm.heroes.v1/rule.health/stamina) per square, and deals an extra 1d3 damage.'
+        - effect: '**Metal (+2 EV)** The ram is made of metal, has 9 [Stamina](scc.v1:mcdm.heroes.v1/rule.health/stamina) per square, and deals an extra 1d6 damage.'
+        - effect: '**Repeating (+1 EV)** The ram automatically resets at the start of each round.'
+        - effect: '**Rapid Repeating (+3 EV)** The ram automatically resets at the start of each turn.'
+        - effect: '**Multiple Rams (+3 EV per additional ram)** Multiple rams can be used to represent a larger mechanism, such as a stack of tumbling logs.'
       icon: ⭐️
       name: Upgrades
     - body: The ram is hidden until triggered or detected.
+      effects:
+        - effect: The ram is hidden until triggered or detected.
       icon: ⭐️
       name: Hidden
 flavor: A heavy wooden ram drops down or swings into the fray, crushing all in its path.

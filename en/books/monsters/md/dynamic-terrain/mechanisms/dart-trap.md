@@ -1,6 +1,11 @@
 ---
 features:
-    - icon: "\U0001F300"
+    - effects:
+        - effect: As a maneuver, a creature [adjacent](scc.v1:mcdm.heroes.v1/rule.combat/adjacent) to a dart trap can make an **Agility test**.
+          tier1: The creature triggers the trap and is targeted by it.
+          tier2: The trap is deactivated but the creature is [slowed](scc.v1:mcdm.heroes.v1/condition/slowed) (EoT).
+          tier3: The trap is deactivated and doesn’t trigger.
+      icon: "\U0001F300"
       intro: As a maneuver, a creature [adjacent](scc.v1:mcdm.heroes.v1/rule.combat/adjacent) to a dart trap can make an **Agility test**.
       name: Deactivate
       power_roll:
@@ -9,12 +14,23 @@ features:
             low: The creature triggers the trap and is targeted by it.
             mid: The trap is deactivated but the creature is [slowed](scc.v1:mcdm.heroes.v1/condition/slowed) (EoT).
     - body: A [pressure plate](scc.v1:mcdm.monsters.v1/dynamic-terrain.mechanisms/pressure-plate), [switch](scc.v1:mcdm.monsters.v1/dynamic-terrain.mechanisms/switch), or other linked trigger is activated.
+      effects:
+        - effect: A [pressure plate](scc.v1:mcdm.monsters.v1/dynamic-terrain.mechanisms/pressure-plate), [switch](scc.v1:mcdm.monsters.v1/dynamic-terrain.mechanisms/switch), or other linked trigger is activated.
+        - effect: The **Dart** ability.
+          name: Effect
       icon: ❕
       name: Activate
       sections:
         - label: Effect
           text: The **Dart** ability.
     - distance: Ranged 5
+      effects:
+        - effect: A [pressure plate](scc.v1:mcdm.monsters.v1/dynamic-terrain.mechanisms/pressure-plate), [switch](scc.v1:mcdm.monsters.v1/dynamic-terrain.mechanisms/switch), or other linked trigger is activated.
+          name: Trigger
+          roll: Power Roll + 2
+          tier1: 2 damage
+          tier2: 4 damage
+          tier3: 5 damage
       icon: ❗️
       keywords:
         - Ranged
@@ -38,9 +54,15 @@ features:
         **Large Darts (+1 EV)** Larger, heavier darts impart kinetic force to the trap's attack. A target of the **Dart** ability is pushed 1 square on a tier 1 outcome, 2 squares on a tier 2 outcome, or 3 squares on a tier 3 outcome.
 
         **Gatling Darts (+4 EV)** The dart trap is equipped with multiple barrels to launch darts at a high rate of fire. The **Dart** ability loses the Ranged and Strike and takes the Area keyword, its area becomes a 5 x 1 line within 1, and it deals an extra 1d6 damage.
+      effects:
+        - effect: '**Poison Darts (+2 EV)** The darts are tipped with poison. Any creature who takes damage from a dart also takes 1d6 poison damage at the start of each of their turns ([save](scc.v1:mcdm.heroes.v1/rule.general/saving-throw) ends).'
+        - effect: '**Large Darts (+1 EV)** Larger, heavier darts impart kinetic force to the trap''s attack. A target of the **Dart** ability is pushed 1 square on a tier 1 outcome, 2 squares on a tier 2 outcome, or 3 squares on a tier 3 outcome.'
+        - effect: '**Gatling Darts (+4 EV)** The dart trap is equipped with multiple barrels to launch darts at a high rate of fire. The **Dart** ability loses the Ranged and Strike and takes the Area keyword, its area becomes a 5 x 1 line within 1, and it deals an extra 1d6 damage.'
       icon: ⭐️
       name: Upgrades
     - body: The dart trap is hidden until triggered or detected.
+      effects:
+        - effect: The dart trap is hidden until triggered or detected.
       icon: ⭐️
       name: Hidden
 flavor: A concealed dart thrower hurls missiles at short range.

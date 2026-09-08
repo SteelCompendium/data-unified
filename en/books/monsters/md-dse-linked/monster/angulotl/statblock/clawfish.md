@@ -42,6 +42,8 @@ features:
           tier1: 2 damage
           tier2: 4 damage
           tier3: 5 damage; [grabbed](../../../condition/grabbed.md)
+        - effect: Any target [grabbed](../../../condition/grabbed.md) this way takes 2 lightning damage at the start of each of their turns.
+          name: Effect
       feature_type: ability
       icon: "\U0001F5E1"
       keywords:

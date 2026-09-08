@@ -45,6 +45,8 @@ features:
           tier1: 4 damage; P < WEAK twisted (save ends)
           tier2: 6 damage; P < AVERAGE twisted (save ends)
           tier3: 8 damage; P < STRONG twisted (save ends)
+        - effect: A twisted target can't take advantage of [edges](scc.v1:mcdm.heroes.v1/rule.dice/edge) or [search for hidden creatures](scc.v1:mcdm.heroes.v1/feature.common.maneuvers/search-for-hidden-creatures) until the condition ends.
+          name: Effect
       feature_type: ability
       icon: "\U0001F3F9"
       keywords:

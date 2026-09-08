@@ -1,6 +1,11 @@
 ---
 features:
-    - icon: "\U0001F300"
+    - effects:
+        - effect: As a maneuver, a creature [adjacent](../../rule/combat/adjacent.md) to a pressure plate can make an **Agility test**.
+          tier1: The creature triggers the pressure plate.
+          tier2: The pressure plate is deactivated but the creature is [slowed](../../condition/slowed.md) (EoT).
+          tier3: The pressure plate is deactivated and doesn't trigger.
+      icon: "\U0001F300"
       intro: As a maneuver, a creature [adjacent](../../rule/combat/adjacent.md) to a pressure plate can make an **Agility test**.
       name: Deactivate
       power_roll:
@@ -9,15 +14,23 @@ features:
             low: The creature triggers the pressure plate.
             mid: The pressure plate is deactivated but the creature is [slowed](../../condition/slowed.md) (EoT).
     - body: The pressure plate is calibrated to be triggered by creatures or objects of a particular size. The pressure plate triggers when a creature or object of the appropriate size enters its area.
+      effects:
+        - effect: The pressure plate is calibrated to be triggered by creatures or objects of a particular size. The pressure plate triggers when a creature or object of the appropriate size enters its area.
+        - effect: The linked mechanism is activated. A pressure plate automatically resets and can be triggered repeatedly.
+          name: Effect
       icon: ❕
       name: Activate
       sections:
         - label: Effect
           text: The linked mechanism is activated. A pressure plate automatically resets and can be triggered repeatedly.
     - body: '**Tripwire (−1 EV)** The pressure plate is a tripwire, which can trigger once and must be manually reset. A concealed tripwire can be discovered with an **easy Intuition test**.'
+      effects:
+        - effect: '**Tripwire (−1 EV)** The pressure plate is a tripwire, which can trigger once and must be manually reset. A concealed tripwire can be discovered with an **easy Intuition test**.'
       icon: ⭐️
       name: Upgrade
     - body: The pressure plate is hidden until triggered or detected.
+      effects:
+        - effect: The pressure plate is hidden until triggered or detected.
       icon: ⭐️
       name: Hidden
 file_basename: pressure-plate
@@ -47,7 +60,12 @@ type: dynamic-terrain
 
 ```ds-fb
 features:
-    - icon: "\U0001F300"
+    - effects:
+        - effect: As a maneuver, a creature [adjacent](../../rule/combat/adjacent.md) to a pressure plate can make an **Agility test**.
+          tier1: The creature triggers the pressure plate.
+          tier2: The pressure plate is deactivated but the creature is [slowed](../../condition/slowed.md) (EoT).
+          tier3: The pressure plate is deactivated and doesn't trigger.
+      icon: "\U0001F300"
       intro: As a maneuver, a creature [adjacent](../../rule/combat/adjacent.md) to a pressure plate can make an **Agility test**.
       name: Deactivate
       power_roll:
@@ -56,15 +74,23 @@ features:
             low: The creature triggers the pressure plate.
             mid: The pressure plate is deactivated but the creature is [slowed](../../condition/slowed.md) (EoT).
     - body: The pressure plate is calibrated to be triggered by creatures or objects of a particular size. The pressure plate triggers when a creature or object of the appropriate size enters its area.
+      effects:
+        - effect: The pressure plate is calibrated to be triggered by creatures or objects of a particular size. The pressure plate triggers when a creature or object of the appropriate size enters its area.
+        - effect: The linked mechanism is activated. A pressure plate automatically resets and can be triggered repeatedly.
+          name: Effect
       icon: ❕
       name: Activate
       sections:
         - label: Effect
           text: The linked mechanism is activated. A pressure plate automatically resets and can be triggered repeatedly.
     - body: '**Tripwire (−1 EV)** The pressure plate is a tripwire, which can trigger once and must be manually reset. A concealed tripwire can be discovered with an **easy Intuition test**.'
+      effects:
+        - effect: '**Tripwire (−1 EV)** The pressure plate is a tripwire, which can trigger once and must be manually reset. A concealed tripwire can be discovered with an **easy Intuition test**.'
       icon: ⭐️
       name: Upgrade
     - body: The pressure plate is hidden until triggered or detected.
+      effects:
+        - effect: The pressure plate is hidden until triggered or detected.
       icon: ⭐️
       name: Hidden
 flavor: This mechanism acts as a trigger for another linked mechanism, and is skillfully hidden from view in the floor.

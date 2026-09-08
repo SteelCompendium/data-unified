@@ -11,6 +11,14 @@
           "tier1": "3 damage; M \u003c 2 [push](scc.v1:mcdm.heroes.v1/movement/forced-movement) (see effect)",
           "tier2": "6 damage; M \u003c 3 [push](scc.v1:mcdm.heroes.v1/movement/forced-movement)",
           "tier3": "8 damage; M \u003c 4 [push](scc.v1:mcdm.heroes.v1/movement/forced-movement), [prone](scc.v1:mcdm.heroes.v1/condition/prone)"
+        },
+        {
+          "effect": "This ability ignores stability. The geomancer declares a direction for the area, and any creature [pushed](scc.v1:mcdm.heroes.v1/movement/forced-movement) by this ability is pushed to the last space in the area in the chosen direction.",
+          "name": "Effect"
+        },
+        {
+          "cost": "2 Malice",
+          "effect": "The ground beneath the area becomes a 2-square-deep trench after the power roll is resolved."
         }
       ],
       "feature_type": "ability",
@@ -29,7 +37,8 @@
       "distance": "5 wall within 10",
       "effects": [
         {
-          "effect": "**Effect:** The geomancer raises a wall of stone set with viewing gaps. Creatures have line of effect through the wall while [adjacent](scc.v1:mcdm.heroes.v1/rule.combat/adjacent) to it."
+          "effect": "The geomancer raises a wall of stone set with viewing gaps. Creatures have line of effect through the wall while [adjacent](scc.v1:mcdm.heroes.v1/rule.combat/adjacent) to it.",
+          "name": "Effect"
         }
       ],
       "feature_type": "ability",

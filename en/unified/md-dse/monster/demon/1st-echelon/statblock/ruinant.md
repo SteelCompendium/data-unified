@@ -52,7 +52,9 @@ features:
     - cost: 3 Malice
       distance: Ranged 10
       effects:
-        - roll: Power Roll + 2
+        - effect: Each target must be at less than full [Stamina](scc.v1:mcdm.heroes.v1/rule.health/stamina).
+          name: Special
+          roll: Power Roll + 2
           tier1: 1 corruption damage
           tier2: 2 corruption damage
           tier3: 3 corruption damage

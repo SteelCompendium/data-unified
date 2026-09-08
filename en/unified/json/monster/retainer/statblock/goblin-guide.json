@@ -11,6 +11,10 @@
           "tier1": "3 damage",
           "tier2": "5 damage",
           "tier3": "7 damage"
+        },
+        {
+          "effect": "The target can't make opportunity attacks until the end of the guide's turn.",
+          "name": "Effect"
         }
       ],
       "feature_type": "ability",

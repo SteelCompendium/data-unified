@@ -38,6 +38,10 @@ features:
           tier1: 5 damage
           tier2: 7 damage
           tier3: 9 damage; the target is marked (save ends)
+        - effect: Allies gain an edge on abilities against a target marked by any wode elf.
+          name: Effect
+        - cost: 3 Malice
+          effect: The sentry targets two additional creatures or objects.
       feature_type: ability
       icon: "\U0001F3F9"
       keywords:
@@ -51,7 +55,8 @@ features:
     - cost: 2 Malice
       distance: 5 burst
       effects:
-        - effect: '**Effect:** Each target takes 3 damage.'
+        - effect: Each target takes 3 damage.
+          name: Effect
       feature_type: ability
       icon: ❇️
       keywords:

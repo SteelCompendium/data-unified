@@ -2,9 +2,16 @@
 features:
     - body: The dragon thickens the fog of their Gloaming Wyrmscale Aura [trait](scc.v1:mcdm.monsters.v1/rule.monster/monster-trait) and the horrors within it. Each creature in the area takes a [bane](scc.v1:mcdm.heroes.v1/rule.dice/bane) on strikes made against the dragon until the start of the dragon's next turn.
       cost: 3 Malice
+      effects:
+        - effect: The dragon thickens the fog of their Gloaming Wyrmscale Aura [trait](scc.v1:mcdm.monsters.v1/rule.monster/monster-trait) and the horrors within it. Each creature in the area takes a [bane](scc.v1:mcdm.heroes.v1/rule.dice/bane) on strikes made against the dragon until the start of the dragon's next turn.
       icon: ⭐️
       name: Dread and Terror
     - cost: 5 Malice
+      effects:
+        - effect: The dragon manifests four 2 cubes of nightmarish apparitions anywhere on the encounter map. Each creature in the area when it appears makes an **Intuition test**.
+          tier1: 14 damage; [dazed](scc.v1:mcdm.heroes.v1/condition/dazed) (save ends)
+          tier2: 11 damage; [dazed](scc.v1:mcdm.heroes.v1/condition/dazed) (EoT)
+          tier3: 6 damage
       icon: "\U0001F533"
       intro: The dragon manifests four 2 cubes of nightmarish apparitions anywhere on the encounter map. Each creature in the area when it appears makes an **Intuition test**.
       name: Doleful Visions
@@ -15,10 +22,14 @@ features:
             mid: 11 damage; [dazed](scc.v1:mcdm.heroes.v1/condition/dazed) (EoT)
     - body: The dragon takes an additional main action on their turn. They can use this feature even if they are [dazed](scc.v1:mcdm.heroes.v1/condition/dazed).
       cost: 5 Malice
+      effects:
+        - effect: The dragon takes an additional main action on their turn. They can use this feature even if they are [dazed](scc.v1:mcdm.heroes.v1/condition/dazed).
       icon: ☠️
       name: Solo Action
     - body: The dragon summons macabre, disquieting phantasms in a 10 cube within 1 square that lasts until the end of the encounter. Any enemy who enters the area for the first time in a round or starts their turn there takes 6 psychic damage, or 8 psychic damage if they are dragonsealed by the gloom dragon. Additionally, the enemy's Intuition score is treated as 1 lower for the purpose of resisting [potencies](scc.v1:mcdm.heroes.v1/rule.character/potency) until the end of the encounter.
       cost: 7 Malice
+      effects:
+        - effect: The dragon summons macabre, disquieting phantasms in a 10 cube within 1 square that lasts until the end of the encounter. Any enemy who enters the area for the first time in a round or starts their turn there takes 6 psychic damage, or 8 psychic damage if they are dragonsealed by the gloom dragon. Additionally, the enemy's Intuition score is treated as 1 lower for the purpose of resisting [potencies](scc.v1:mcdm.heroes.v1/rule.character/potency) until the end of the encounter.
       icon: "\U0001F533"
       name: Phantasmagoria!
 flavor: At the start of a gloom dragon's turn, you can spend Malice to activate one of the following features.

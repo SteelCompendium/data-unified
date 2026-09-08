@@ -37,6 +37,8 @@ features:
           tier1: 5 damage
           tier2: 7 damage
           tier3: 9 damage
+        - effect: The wodenelg's rider can make a [free strike](scc.v1:mcdm.heroes.v1/feature.common.main-actions/free-strike) at any point during the charge.
+          name: Effect
       feature_type: ability
       icon: "\U0001F5E1"
       keywords:
@@ -57,7 +59,8 @@ features:
     - cost: 3 Malice
       distance: Self
       effects:
-        - effect: '**Effect:** The wodenelg and their rider become invisible until the start of the wodenelg''s next turn.'
+        - effect: The wodenelg and their rider become invisible until the start of the wodenelg's next turn.
+          name: Effect
       feature_type: ability
       icon: "\U0001F464"
       keywords: []

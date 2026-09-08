@@ -11,6 +11,10 @@
           "tier1": "8 damage; [pull](scc.v1:mcdm.heroes.v1/movement/forced-movement) 1",
           "tier2": "12 damage; [pull](scc.v1:mcdm.heroes.v1/movement/forced-movement) 2",
           "tier3": "15 damage; [pull](scc.v1:mcdm.heroes.v1/movement/forced-movement) 3"
+        },
+        {
+          "effect": "A target [pulled](scc.v1:mcdm.heroes.v1/movement/forced-movement) [adjacent](scc.v1:mcdm.heroes.v1/rule.combat/adjacent) to the sunderer is automatically [grabbed](scc.v1:mcdm.heroes.v1/condition/grabbed).",
+          "name": "Effect"
         }
       ],
       "feature_type": "ability",
@@ -35,6 +39,10 @@
           "tier1": "I \u003c 0 [frightened](scc.v1:mcdm.heroes.v1/condition/frightened) (save ends)",
           "tier2": "I \u003c 1 [frightened](scc.v1:mcdm.heroes.v1/condition/frightened) (save ends)",
           "tier3": "I \u003c 2 [frightened](scc.v1:mcdm.heroes.v1/condition/frightened) (save ends)"
+        },
+        {
+          "effect": "Until the end of their next turn, the minotaur has damage immunity 2 and deals an extra 5 damage with strikes.",
+          "name": "Effect"
         }
       ],
       "feature_type": "ability",
@@ -52,10 +60,16 @@
       "distance": "Melee 2",
       "effects": [
         {
+          "effect": "The target must be [grabbed](scc.v1:mcdm.heroes.v1/condition/grabbed) by the sunderer.",
+          "name": "Special",
           "roll": "Power Roll + 2",
           "tier1": "5 damage; M \u003c 0 [bleeding](scc.v1:mcdm.heroes.v1/condition/bleeding) (save ends)",
           "tier2": "8 damage; M \u003c 1 [bleeding](scc.v1:mcdm.heroes.v1/condition/bleeding) (save ends)",
           "tier3": "9 damage; M \u003c 2 [bleeding](scc.v1:mcdm.heroes.v1/condition/bleeding) (save ends)"
+        },
+        {
+          "effect": "While [bleeding](scc.v1:mcdm.heroes.v1/condition/bleeding) this way, the target takes 1d6 damage at the start of each of their turns.",
+          "name": "Effect"
         }
       ],
       "feature_type": "ability",
@@ -75,7 +89,8 @@
       "distance": "Ranged 6",
       "effects": [
         {
-          "effect": "**Trigger:** A creature within distance deals damage to the sunderer.\n**Effect:** The sunderer uses the Charge main action and Spiked Maul against the target."
+          "effect": "The sunderer uses the Charge main action and Spiked Maul against the target.",
+          "name": "Effect"
         }
       ],
       "feature_type": "ability",
@@ -85,6 +100,7 @@
       ],
       "name": "Retaliatory Strike",
       "target": "The triggering creature",
+      "trigger": "A creature within distance deals damage to the sunderer.",
       "type": "feature",
       "usage": "Triggered action"
     },

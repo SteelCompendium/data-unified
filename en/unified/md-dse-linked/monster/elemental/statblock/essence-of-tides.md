@@ -39,6 +39,8 @@ features:
           tier1: 7 damage; [slide](../../../movement/forced-movement.md) 1
           tier2: 11 damage; [slide](../../../movement/forced-movement.md) 2
           tier3: 14 damage; [slide](../../../movement/forced-movement.md) 3
+        - effect: If a target has P < 2, their stability is reduced to 0 and they move 2 additional squares whenever they are force moved (save ends).
+          name: Effect
       feature_type: ability
       icon: "\U0001F5E1"
       keywords:
@@ -51,9 +53,10 @@ features:
       usage: Main action
     - distance: Ranged 5
       effects:
-        - effect: |-
-            **Effect:** Until the start of the essence's next turn, the target has cold immunity 5.
-            **3 [Malice](../../../rule/monster/malice.md):** Until the end of the encounter, the ground within 1 square of the target is a pool of water that is [difficult terrain](../../../movement/difficult-terrain.md). This water extends out behind the target as they move, creating a stream that lasts until the end of the encounter. Any enemy who ends their turn in the stream and has M < 2 is [slowed](../../../condition/slowed.md) (save ends).
+        - effect: Until the start of the essence's next turn, the target has cold immunity 5.
+          name: Effect
+        - cost: 3 Malice
+          effect: Until the end of the encounter, the ground within 1 square of the target is a pool of water that is [difficult terrain](../../../movement/difficult-terrain.md). This water extends out behind the target as they move, creating a stream that lasts until the end of the encounter. Any enemy who ends their turn in the stream and has M < 2 is [slowed](../../../condition/slowed.md) (save ends).
       feature_type: ability
       icon: "\U0001F3F9"
       keywords:
@@ -66,15 +69,15 @@ features:
     - cost: 1 Malice
       distance: Melee 1
       effects:
-        - effect: |-
-            **Trigger:** An ally deals rolled damage to the target.
-            **Effect:** The essence makes a [free strike](../../../feature/common/main-actions/free-strike.md) against the target.
+        - effect: The essence makes a [free strike](../../../feature/common/main-actions/free-strike.md) against the target.
+          name: Effect
       feature_type: ability
       icon: ❗️
       keywords:
         - Melee
       name: Sea-Salted Wounds
       target: One enemy
+      trigger: An ally deals rolled damage to the target.
       type: feature
       usage: Triggered action
     - effects:

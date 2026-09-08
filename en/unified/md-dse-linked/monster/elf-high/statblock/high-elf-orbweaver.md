@@ -53,6 +53,8 @@ features:
           tier1: 5 damage; R < 0 [slowed](../../../condition/slowed.md) (save ends)
           tier2: 8 damage; R < 1 [slowed](../../../condition/slowed.md) (save ends)
           tier3: 11 damage; R < 2 [restrained](../../../condition/restrained.md) (save ends)
+        - effect: Each enemy within 3 squares of a target suffers the same [potency](../../../rule/character/potency.md) effect as the target unless they are already [adjacent](../../../rule/combat/adjacent.md) to them, or if they immediately [shift](../../../movement/shifting.md) into an unoccupied space [adjacent](../../../rule/combat/adjacent.md) to the target (no action required).
+          name: Effect
       feature_type: ability
       icon: "\U0001F3F9"
       keywords:

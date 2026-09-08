@@ -51,9 +51,8 @@ features:
       usage: Main action
     - distance: Melee 1
       effects:
-        - effect: |-
-            **Trigger:** An ally deals damage to the target.
-            **Effect:** The sidekick makes a [free strike](scc.v1:mcdm.heroes.v1/feature.common.main-actions/free-strike) against the target.
+        - effect: The sidekick makes a [free strike](scc.v1:mcdm.heroes.v1/feature.common.main-actions/free-strike) against the target.
+          name: Effect
       feature_type: ability
       icon: ❗️
       keywords:
@@ -61,6 +60,7 @@ features:
         - Weapon
       name: Ready Rodent
       target: One creature
+      trigger: An ally deals damage to the target.
       type: feature
       usage: Triggered action
 free_strike: 2

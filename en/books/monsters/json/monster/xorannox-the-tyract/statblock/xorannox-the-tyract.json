@@ -5,7 +5,12 @@
     {
       "effects": [
         {
-          "effect": "**[End Effect](scc.v1:mcdm.monsters.v1/rule.monster/end-effect):** At the end of each of his turns, Xorannox can take 10 damage to end one effect on him that can be ended by a [saving throw](scc.v1:mcdm.heroes.v1/rule.general/saving-throw). This damage can't be reduced in any way.\n**Solo Turns:** Xorannox can take two turns each round. He can't take turns consecutively."
+          "effect": "At the end of each of his turns, Xorannox can take 10 damage to end one effect on him that can be ended by a [saving throw](scc.v1:mcdm.heroes.v1/rule.general/saving-throw). This damage can't be reduced in any way.",
+          "name": "End Effect"
+        },
+        {
+          "effect": "Xorannox can take two turns each round. He can't take turns consecutively.",
+          "name": "Solo Turns"
         }
       ],
       "feature_type": "trait",
@@ -55,6 +60,10 @@
           "tier1": "Vertical [push](scc.v1:mcdm.heroes.v1/movement/forced-movement) 3",
           "tier2": "Vertical [push](scc.v1:mcdm.heroes.v1/movement/forced-movement) 5",
           "tier3": "Vertical [push](scc.v1:mcdm.heroes.v1/movement/forced-movement) 7"
+        },
+        {
+          "effect": "Xorannox [shifts](scc.v1:mcdm.heroes.v1/movement/shifting) up to his speed before or after using this ability.",
+          "name": "Effect"
         }
       ],
       "feature_type": "ability",
@@ -72,7 +81,8 @@
       "distance": "Self",
       "effects": [
         {
-          "effect": "**Effect:** Xorannox commands all his eyestalks to move up to their speed."
+          "effect": "Xorannox commands all his eyestalks to move up to their speed.",
+          "name": "Effect"
         }
       ],
       "feature_type": "ability",
@@ -88,7 +98,8 @@
       "distance": "5 x 2 line within 1",
       "effects": [
         {
-          "effect": "**Effect:** Xorannox ends all ongoing supernatural effects and suppresses supernatural effects from treasures in the area. New supernatural effects can't be activated in the area until the end of Xorannox's next turn."
+          "effect": "Xorannox ends all ongoing supernatural effects and suppresses supernatural effects from treasures in the area. New supernatural effects can't be activated in the area until the end of Xorannox's next turn.",
+          "name": "Effect"
         }
       ],
       "feature_type": "ability",
@@ -105,7 +116,8 @@
       "distance": "Ranged 10",
       "effects": [
         {
-          "effect": "**Trigger:** A creature within distance deals damage to Xorannox.\n**Effect:** If the target has I \u003c 3 they are [frightened](scc.v1:mcdm.heroes.v1/condition/frightened) (save ends)"
+          "effect": "If the target has I \u003c 3 they are [frightened](scc.v1:mcdm.heroes.v1/condition/frightened) (save ends)",
+          "name": "Effect"
         }
       ],
       "feature_type": "ability",
@@ -116,6 +128,7 @@
       ],
       "name": "Cower!",
       "target": "The triggering creature",
+      "trigger": "A creature within distance deals damage to Xorannox.",
       "type": "feature",
       "usage": "Triggered action"
     },
@@ -169,7 +182,8 @@
       "distance": "Self",
       "effects": [
         {
-          "effect": "**Effect:** Xorannox recreates any destroyed eyestalks, which return in unoccupied spaces on the encounter map with full [Stamina](scc.v1:mcdm.heroes.v1/rule.health/stamina)."
+          "effect": "Xorannox recreates any destroyed eyestalks, which return in unoccupied spaces on the encounter map with full [Stamina](scc.v1:mcdm.heroes.v1/rule.health/stamina).",
+          "name": "Effect"
         }
       ],
       "feature_type": "ability",
@@ -185,7 +199,8 @@
       "distance": "2 burst",
       "effects": [
         {
-          "effect": "**Effect:** Xorannox directs each of his eyestalks to use a [signature ability](scc.v1:mcdm.heroes.v1/rule.combat/signature-ability) against any target."
+          "effect": "Xorannox directs each of his eyestalks to use a [signature ability](scc.v1:mcdm.heroes.v1/rule.combat/signature-ability) against any target.",
+          "name": "Effect"
         }
       ],
       "feature_type": "ability",

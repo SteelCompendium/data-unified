@@ -56,6 +56,8 @@ features:
           tier1: 15 damage; M < 2 [weakened](../../../condition/weakened.md) (save ends)
           tier2: 21 damage; M < 3 [weakened](../../../condition/weakened.md) (save ends)
           tier3: 26 damage; [prone](../../../condition/prone.md); M < 4 [weakened](../../../condition/weakened.md) (save ends)
+        - effect: The bodyguard has a double edge on this ability if it was previously used against the same target in this encounter.
+          name: Effect
       feature_type: ability
       icon: "\U0001F5E1"
       keywords:
@@ -68,9 +70,10 @@ features:
       usage: Main action
     - distance: 10 burst
       effects:
-        - effect: |-
-            **Special:** This ability targets only metal-clad enemies and metal objects of size 3 or smaller.
-            **Effect:** Each target is [pulled](../../../movement/forced-movement.md) up to 8 squares, or if they have M < 3, they are [pulled](../../../movement/forced-movement.md) up to 15 squares. The bodyguard can make a [free strike](../../../feature/common/main-actions/free-strike.md) against each target who ends this [forced movement](../../../movement/forced-movement.md) [adjacent](../../../rule/combat/adjacent.md) to them.
+        - effect: This ability targets only metal-clad enemies and metal objects of size 3 or smaller.
+          name: Special
+        - effect: Each target is [pulled](../../../movement/forced-movement.md) up to 8 squares, or if they have M < 3, they are [pulled](../../../movement/forced-movement.md) up to 15 squares. The bodyguard can make a [free strike](../../../feature/common/main-actions/free-strike.md) against each target who ends this [forced movement](../../../movement/forced-movement.md) [adjacent](../../../rule/combat/adjacent.md) to them.
+          name: Effect
       feature_type: ability
       icon: ❇️
       keywords:
@@ -81,15 +84,15 @@ features:
       usage: Maneuver
     - distance: Melee 2
       effects:
-        - effect: |-
-            **Trigger:** One ally within distance is targeted by an enemy's ability. The bodyguard can use this ability after seeing the outcome of the power roll.
-            **Effect:** The bodyguard becomes the triggering ability's target instead.
+        - effect: The bodyguard becomes the triggering ability's target instead.
+          name: Effect
       feature_type: ability
       icon: ❗️
       keywords:
         - Melee
       name: Valiar Cloak
       target: Self
+      trigger: One ally within distance is targeted by an enemy's ability. The bodyguard can use this ability after seeing the outcome of the power roll.
       type: feature
       usage: Triggered Action
     - effects:

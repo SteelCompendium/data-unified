@@ -1,6 +1,11 @@
 ---
 features:
-    - icon: "\U0001F300"
+    - effects:
+        - effect: As a maneuver, a creature [adjacent](scc.v1:mcdm.heroes.v1/rule.combat/adjacent) to a bear trap can make an **Agility test**.
+          tier1: The creature triggers the trap and is affected as if in its space.
+          tier2: The trap is deactivated but the creature is [slowed](scc.v1:mcdm.heroes.v1/condition/slowed) (EoT).
+          tier3: The trap is deactivated and doesn't trigger.
+      icon: "\U0001F300"
       intro: As a maneuver, a creature [adjacent](scc.v1:mcdm.heroes.v1/rule.combat/adjacent) to a bear trap can make an **Agility test**.
       name: Deactivate
       power_roll:
@@ -9,12 +14,25 @@ features:
             low: The creature triggers the trap and is affected as if in its space.
             mid: The trap is deactivated but the creature is [slowed](scc.v1:mcdm.heroes.v1/condition/slowed) (EoT).
     - body: The bear trap is calibrated to be triggered by creatures or objects of a particular size or larger. The trap triggers when a creature or object of the appropriate size enters its space.
+      effects:
+        - effect: The bear trap is calibrated to be triggered by creatures or objects of a particular size or larger. The trap triggers when a creature or object of the appropriate size enters its space.
+        - effect: A triggering creature or object ends their movement and is targeted by the **Bear Trap** ability.
+          name: Effect
       icon: ❕
       name: Activate
       sections:
         - label: Effect
           text: A triggering creature or object ends their movement and is targeted by the **Bear Trap** ability.
     - distance: Melee 0
+      effects:
+        - effect: A creature or object of the appropriate size enters the trap's space.
+          name: Trigger
+          roll: Power Roll + 2
+          tier1: 1 The target [shifts](scc.v1:mcdm.heroes.v1/movement/shifting) 1 square away from the trap.
+          tier2: 3 damage; A < 1 [slowed](scc.v1:mcdm.heroes.v1/condition/slowed) ([save](scc.v1:mcdm.heroes.v1/rule.general/saving-throw) ends)
+          tier3: 5 damage; A < 2 [slowed](scc.v1:mcdm.heroes.v1/condition/slowed) ([save](scc.v1:mcdm.heroes.v1/rule.general/saving-throw) ends)
+        - effect: The bear trap must be manually reset.
+          name: Effect
       icon: ❗️
       keywords:
         - Melee
@@ -35,9 +53,13 @@ features:
       target: The triggering creature or object
       usage: Free triggered action
     - body: '**Chain (+1 EV)** The bear trap is attached to the ground by a steel chain. A target who would be made [slowed](scc.v1:mcdm.heroes.v1/condition/slowed) by the trap is [restrained](scc.v1:mcdm.heroes.v1/condition/restrained) instead.'
+      effects:
+        - effect: '**Chain (+1 EV)** The bear trap is attached to the ground by a steel chain. A target who would be made [slowed](scc.v1:mcdm.heroes.v1/condition/slowed) by the trap is [restrained](scc.v1:mcdm.heroes.v1/condition/restrained) instead.'
       icon: ⭐️
       name: Upgrade
     - body: The bear trap is hidden until triggered or detected.
+      effects:
+        - effect: The bear trap is hidden until triggered or detected.
       icon: ⭐️
       name: Hidden
 flavor: A set of spring-loaded steel jaws stands ready to snap shut when stepped on.

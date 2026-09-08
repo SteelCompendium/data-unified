@@ -53,7 +53,8 @@ features:
       usage: Main action
     - distance: Self
       effects:
-        - effect: '**Effect:** While [adjacent](../../../rule/combat/adjacent.md) to their mentor, the unquiet spirit enters the mentor''s space. A spirit who enters their mentor''s space this way moves with the mentor, can''t be sensed, and can''t affect or be affected by other creatures or objects. They can''t take main actions, maneuvers, or move actions, except to use this ability to leave their mentor''s space and appear in an [adjacent](../../../rule/combat/adjacent.md) space.'
+        - effect: While [adjacent](../../../rule/combat/adjacent.md) to their mentor, the unquiet spirit enters the mentor's space. A spirit who enters their mentor's space this way moves with the mentor, can't be sensed, and can't affect or be affected by other creatures or objects. They can't take main actions, maneuvers, or move actions, except to use this ability to leave their mentor's space and appear in an [adjacent](../../../rule/combat/adjacent.md) space.
+          name: Effect
       feature_type: ability
       icon: "\U0001F464"
       keywords: []

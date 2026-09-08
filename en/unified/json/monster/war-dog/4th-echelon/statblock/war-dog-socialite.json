@@ -11,6 +11,10 @@
           "tier1": "The target makes a [free strike](scc.v1:mcdm.heroes.v1/feature.common.main-actions/free-strike) (tier 1 result) against themself",
           "tier2": "The target makes a [free strike](scc.v1:mcdm.heroes.v1/feature.common.main-actions/free-strike) (tier 2 result) against themself",
           "tier3": "The target makes a [free strike](scc.v1:mcdm.heroes.v1/feature.common.main-actions/free-strike) (tier 3 result) against themself"
+        },
+        {
+          "effect": "The target takes an extra 5 damage for each [surge](scc.v1:mcdm.heroes.v1/rule.resource/surge) they have.",
+          "name": "Effect"
         }
       ],
       "feature_type": "ability",

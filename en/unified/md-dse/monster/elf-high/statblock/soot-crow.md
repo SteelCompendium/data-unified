@@ -39,6 +39,8 @@ features:
           tier1: 1 damage
           tier2: 2 damage
           tier3: 3 damage; [taunted](scc.v1:mcdm.heroes.v1/condition/taunted) (EoT)
+        - effect: Until the end of their turn, the soot crow ignores opportunity attacks from the target.
+          name: Effect
       feature_type: ability
       icon: "\U0001F5E1"
       keywords:

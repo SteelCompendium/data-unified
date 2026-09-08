@@ -39,6 +39,8 @@ features:
           tier1: 5 damage; [push](scc.v1:mcdm.heroes.v1/movement/forced-movement) 2
           tier2: 8 damage; [push](scc.v1:mcdm.heroes.v1/movement/forced-movement) 3
           tier3: 10 damage; [push](scc.v1:mcdm.heroes.v1/movement/forced-movement) 4
+        - effect: Each enemy [adjacent](scc.v1:mcdm.heroes.v1/rule.combat/adjacent) to the target before the [forced movement](scc.v1:mcdm.heroes.v1/movement/forced-movement) takes 5 fire damage.
+          name: Effect
       feature_type: ability
       icon: "\U0001F3F9"
       keywords:

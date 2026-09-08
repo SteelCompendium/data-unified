@@ -39,6 +39,8 @@ features:
           tier1: 2 damage; [pull](../../../movement/forced-movement.md) 1, or the tonguer can [shift](../../../movement/shifting.md) 1 square toward the target
           tier2: 4 damage; [pull](../../../movement/forced-movement.md) 2, or the tonguer [shifts](../../../movement/shifting.md) up to 2 squares toward the target
           tier3: 5 damage; [pull](../../../movement/forced-movement.md) 3, or the tonguer [shifts](../../../movement/shifting.md) up to 3 squares toward the target
+        - effect: If the [forced movement](../../../movement/forced-movement.md) or the [shift](../../../movement/shifting.md) leaves the target [adjacent](../../../rule/combat/adjacent.md) to the tonguer, the target is also [grabbed](../../../condition/grabbed.md).
+          name: Effect
       feature_type: ability
       icon: "\U0001F5E1"
       keywords:

@@ -9,6 +9,8 @@ features:
           tier1: 8 poison [damage](scc.v1:mcdm.heroes.v1/rule.damage/damage); M < WEAK [restrained](scc.v1:mcdm.heroes.v1/condition/restrained) (save ends)
           tier2: 12 poison [damage](scc.v1:mcdm.heroes.v1/rule.damage/damage); M < AVERAGE [restrained](scc.v1:mcdm.heroes.v1/condition/restrained) (save ends)
           tier3: 17 poison [damage](scc.v1:mcdm.heroes.v1/rule.damage/damage); M < STRONG [restrained](scc.v1:mcdm.heroes.v1/condition/restrained) (save ends)
+        - effect: A target [restrained](scc.v1:mcdm.heroes.v1/condition/restrained) by this ability is trapped in a poison-fueled haze and considers each creature within 1 square of them to be an enemy until the [condition](scc.v1:mcdm.heroes.v1/rule.combat/condition) ends.
+          name: Effect
       feature_type: ability
       icon: "\U0001F3F9"
       keywords:

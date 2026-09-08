@@ -38,6 +38,8 @@ features:
           tier1: 7 damage
           tier2: 10 damage
           tier3: 13 damage; R < 1 [bleeding](../../../condition/bleeding.md) (save ends); I < 1 [frightened](../../../condition/frightened.md) (save ends); P < 1 [restrained](../../../condition/restrained.md) (save ends)
+        - cost: 5 Malice
+          effect: The ability takes the Area keyword and loses the Strike keyword, its distance becomes a 3 cube within 10, and it targets each enemy in the area.
       feature_type: ability
       icon: "\U0001F3F9"
       keywords:
@@ -50,7 +52,8 @@ features:
       usage: Main action
     - distance: Melee 1
       effects:
-        - effect: '**Effect:** The target has a +5 bonus to speed and automatically obtains a tier 3 outcome on power rolls. They can still roll to determine if they score a critical hit. At the end of their next turn, the target immediately dies.'
+        - effect: The target has a +5 bonus to speed and automatically obtains a tier 3 outcome on power rolls. They can still roll to determine if they score a critical hit. At the end of their next turn, the target immediately dies.
+          name: Effect
       feature_type: ability
       icon: "\U0001F5E1"
       keywords:

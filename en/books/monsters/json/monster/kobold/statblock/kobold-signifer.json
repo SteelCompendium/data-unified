@@ -11,6 +11,14 @@
           "tier1": "3 damage",
           "tier2": "4 damage",
           "tier3": "5 damage"
+        },
+        {
+          "effect": "One ally within 10 squares of the signifer can [shift](scc.v1:mcdm.heroes.v1/movement/shifting) up to their speed if they end that shift [adjacent](scc.v1:mcdm.heroes.v1/rule.combat/adjacent) to an ally.",
+          "name": "Effect"
+        },
+        {
+          "cost": "2+ Malice",
+          "effect": "One additional ally can [shift](scc.v1:mcdm.heroes.v1/movement/shifting) for each 2 [Malice](scc.v1:mcdm.monsters.v1/rule.monster/malice) spent."
         }
       ],
       "feature_type": "ability",
@@ -30,7 +38,8 @@
       "distance": "5 burst",
       "effects": [
         {
-          "effect": "**Effect:** Each target regains 5 [Stamina](scc.v1:mcdm.heroes.v1/rule.health/stamina)."
+          "effect": "Each target regains 5 [Stamina](scc.v1:mcdm.heroes.v1/rule.health/stamina).",
+          "name": "Effect"
         }
       ],
       "feature_type": "ability",

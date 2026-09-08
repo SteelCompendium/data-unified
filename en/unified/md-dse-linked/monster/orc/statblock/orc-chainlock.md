@@ -37,6 +37,8 @@ features:
           tier1: 5 damage; [pull](../../../movement/forced-movement.md) 1; M < 0 the target is hooked (save ends)
           tier2: 7 damage; [pull](../../../movement/forced-movement.md) 2; M < 1 the target is hooked (save ends)
           tier3: 9 damage; [pull](../../../movement/forced-movement.md) 3; M < 2 the target is hooked (save ends)
+        - effect: A hooked target can't move more than 3 squares away from the chainlock's position when this ability is used.
+          name: Effect
       feature_type: ability
       icon: "\U0001F5E1"
       keywords:

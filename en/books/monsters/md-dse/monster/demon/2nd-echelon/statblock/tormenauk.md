@@ -39,6 +39,8 @@ features:
           tier1: 7 damage
           tier2: 9 damage
           tier3: 11 damage; [grabbed](scc.v1:mcdm.heroes.v1/condition/grabbed), and the target takes a [bane](scc.v1:mcdm.heroes.v1/rule.dice/bane) on the [Escape Grab](scc.v1:mcdm.heroes.v1/feature.common.maneuvers/escape-grab) maneuver
+        - effect: Any target [grabbed](scc.v1:mcdm.heroes.v1/condition/grabbed) this way takes 4 psychic damage at the start of each of the tormenauk's turns.
+          name: Effect
       feature_type: ability
       icon: "\U0001F5E1"
       keywords:
@@ -56,6 +58,8 @@ features:
           tier1: 4 psychic damage; I < 1 [dazed](scc.v1:mcdm.heroes.v1/condition/dazed) (save ends)
           tier2: 6 psychic damage; I < 2 [dazed](scc.v1:mcdm.heroes.v1/condition/dazed) (save ends)
           tier3: 8 psychic damage; I < 3 [dazed](scc.v1:mcdm.heroes.v1/condition/dazed) (save ends)
+        - effect: The [potency](scc.v1:mcdm.heroes.v1/rule.character/potency) increases by 1 if the target is [grabbed](scc.v1:mcdm.heroes.v1/condition/grabbed) by the tormenauk.
+          name: Effect
       feature_type: ability
       icon: ❇️
       keywords:

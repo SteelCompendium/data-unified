@@ -40,6 +40,8 @@ features:
           tier1: 6 damage
           tier2: 11 damage
           tier3: 14 damage
+        - effect: The mercenary regains [Stamina](../../../rule/health/stamina.md) equal to half the damage dealt.
+          name: Effect
       feature_type: ability
       icon: "\U0001F5E1"
       keywords:

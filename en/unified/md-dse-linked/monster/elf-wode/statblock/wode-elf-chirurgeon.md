@@ -39,6 +39,10 @@ features:
           tier1: 6 damage; [push](../../../movement/forced-movement.md) 1
           tier2: 9 damage; [push](../../../movement/forced-movement.md) 3
           tier3: 12 damage; [push](../../../movement/forced-movement.md) 5
+        - effect: The chirurgeon can make a ranged [free strike](../../../feature/common/main-actions/free-strike.md) before using this ability.
+          name: Effect
+        - cost: 5 Malice
+          effect: The chirurgeon uses this ability again.
       feature_type: ability
       icon: ⚔️
       keywords:
@@ -54,7 +58,8 @@ features:
     - cost: 3 Malice
       distance: Ranged 5
       effects:
-        - effect: '**Effect:** Each target can [teleport](../../../movement/teleport.md) up to 10 squares to a space that has cover or concealment.'
+        - effect: Each target can [teleport](../../../movement/teleport.md) up to 10 squares to a space that has cover or concealment.
+          name: Effect
       feature_type: ability
       icon: "\U0001F3F9"
       keywords:

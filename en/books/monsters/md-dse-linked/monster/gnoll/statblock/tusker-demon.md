@@ -38,6 +38,8 @@ features:
           tier1: 7 damage; [push](../../../movement/forced-movement.md) 1
           tier2: 11 damage; [push](../../../movement/forced-movement.md) 2
           tier3: 14 damage; [push](../../../movement/forced-movement.md) 3, [prone](../../../condition/prone.md)
+        - effect: If this ability is used as part of the Charge main action, it deals an extra 4 damage.
+          name: Effect
       feature_type: ability
       icon: "\U0001F5E1"
       keywords:
@@ -51,15 +53,15 @@ features:
       usage: Main action
     - distance: Ranged 7
       effects:
-        - effect: |-
-            **Trigger:** An enemy within distance deals damage to the tusker.
-            **Effect:** The tusker demon uses the Charge main action and Gore against the target.
+        - effect: The tusker demon uses the Charge main action and Gore against the target.
+          name: Effect
       feature_type: ability
       icon: ❗️
       keywords:
         - Ranged
       name: Vengeful Tusker
       target: The triggering enemy
+      trigger: An enemy within distance deals damage to the tusker.
       type: feature
       usage: Triggered action
     - effects:

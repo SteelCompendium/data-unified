@@ -2,6 +2,11 @@
 features:
     - cost: Encounter
       distance: Melee 1
+      effects:
+        - effect: The target takes damage from a strike.
+          name: Trigger
+        - effect: The retainer [pushes](scc.v1:mcdm.heroes.v1/movement/forced-movement) the target or the attacking creature up to 2 squares. If that moves the mentor out of distance of the strike, the strike has no effect.
+          name: Effect
       icon: ❗️
       keywords:
         - Melee
@@ -16,6 +21,11 @@ features:
       usage: Triggered action
     - cost: Encounter
       distance: Melee 1
+      effects:
+        - roll: Power Roll + highest characteristic
+          tier1: 7 damage; [taunted](scc.v1:mcdm.heroes.v1/condition/taunted) (EoT)
+          tier2: 11 damage; [taunted](scc.v1:mcdm.heroes.v1/condition/taunted) ([save](scc.v1:mcdm.heroes.v1/rule.general/saving-throw) ends)
+          tier3: 16 damage; [taunted](scc.v1:mcdm.heroes.v1/condition/taunted) ([save](scc.v1:mcdm.heroes.v1/rule.general/saving-throw) ends)
       icon: "\U0001F5E1"
       keywords:
         - Melee
@@ -33,6 +43,13 @@ features:
       usage: Main action
     - cost: Encounter
       distance: Melee 1
+      effects:
+        - roll: Power Roll + highest characteristic
+          tier1: 8 damage
+          tier2: 13 damage
+          tier3: 17 damage
+        - effect: The retainer and their mentor each gain 10 [temporary Stamina](scc.v1:mcdm.heroes.v1/rule.health/temporary-stamina). Additionally, each [winded](scc.v1:mcdm.heroes.v1/rule.health/winded) ally within 2 squares of the retainer can spend a [Recovery](scc.v1:mcdm.heroes.v1/rule.health/recoveries).
+          name: Effect
       icon: "\U0001F5E1"
       keywords:
         - Melee

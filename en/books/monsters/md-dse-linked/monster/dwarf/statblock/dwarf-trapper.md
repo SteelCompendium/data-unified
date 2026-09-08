@@ -37,6 +37,8 @@ features:
           tier1: 5 damage; [push](../../../movement/forced-movement.md) 2
           tier2: 7 damage; [push](../../../movement/forced-movement.md) 4
           tier3: 9 damage; [push](../../../movement/forced-movement.md) 6
+        - effect: A target [restrained](../../../condition/restrained.md) by a dwarf can be force moved by this ability. This forced movement doesn't end the [restrained](../../../condition/restrained.md) condition unless the Director determines otherwise.
+          name: Effect
       feature_type: ability
       icon: ⚔️
       keywords:
@@ -52,10 +54,12 @@ features:
     - cost: 3 Malice
       distance: 3 cube within 5
       effects:
-        - roll: ""
+        - effect: Each target makes a **Might test**.
+          name: Effect
           tier1: 7 damage; [restrained](../../../condition/restrained.md) (EoT)
           tier2: 5 damage; [slowed](../../../condition/slowed.md) (EoT)
           tier3: No effect.
+        - effect: The snare remains until the end of the encounter. Any enemy who moves into the area for the first time in a round or starts their turn there must make the test.
       feature_type: ability
       icon: "\U0001F533"
       keywords:

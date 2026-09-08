@@ -39,6 +39,8 @@ features:
           tier1: 7 damage
           tier2: 10 damage; vertical [slide](scc.v1:mcdm.heroes.v1/movement/forced-movement) 2
           tier3: 12 damage; vertical [slide](scc.v1:mcdm.heroes.v1/movement/forced-movement) 3
+        - cost: 1 Malice
+          effect: An enemy [forced moved](scc.v1:mcdm.heroes.v1/movement/forced-movement) by this ability is [grabbed](scc.v1:mcdm.heroes.v1/condition/grabbed) instead.
       feature_type: ability
       icon: "\U0001F5E1"
       keywords:
@@ -56,6 +58,8 @@ features:
           tier1: 2 acid damage; M < 2 [slowed](scc.v1:mcdm.heroes.v1/condition/slowed) (save ends)
           tier2: 4 acid damage; M < 3 [slowed](scc.v1:mcdm.heroes.v1/condition/slowed) (save ends)
           tier3: 6 acid damage; M < 4 [slowed](scc.v1:mcdm.heroes.v1/condition/slowed) (save ends)
+        - effect: The area is [difficult terrain](scc.v1:mcdm.heroes.v1/movement/difficult-terrain).
+          name: Effect
       feature_type: ability
       icon: "\U0001F533"
       keywords:

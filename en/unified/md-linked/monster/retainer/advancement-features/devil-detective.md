@@ -2,6 +2,15 @@
 features:
     - cost: Encounter
       distance: 4 cube within 5
+      effects:
+        - effect: The detective can instantly kill one or more of their minions to give themself a double [edge](../../../rule/dice/edge.md) on the [power roll](../../../rule/dice/power-roll.md).
+          name: Special
+          roll: 2d10 + highest characteristic
+          tier1: 2 damage; A < WEAK [bleeding](../../../condition/bleeding.md) (save ends)
+          tier2: 4 damage; A < AVERAGE [bleeding](../../../condition/bleeding.md) (save ends)
+          tier3: 5 damage; A < STRONG [bleeding](../../../condition/bleeding.md) (save ends)
+        - effect: Any enemy that was hiding in the area is revealed. The area is now [difficult terrain](../../../movement/difficult-terrain.md) for enemies.
+          name: Effect
       icon: "\U0001F3F9"
       keywords:
         - Area
@@ -23,6 +32,9 @@ features:
       usage: Main action
     - cost: Encounter
       distance: Ranged 10
+      effects:
+        - effect: The detective summons 3 violents into unoccupied spaces within distance. On each of the detective's turns, they direct the squad of **violents** to move and use a main action.
+          name: Effect
       icon: "\U0001F3F9"
       keywords:
         - Magic
@@ -36,6 +48,10 @@ features:
       usage: Main action
     - cost: Encounter
       distance: 5 burst
+      effects:
+        - effect: Each target moves up to their [speed](../../../rule/character/speed.md) toward an ally. Each ally within [line of effect](../../../rule/combat/line-of-effect.md) of the detective can give one [EoT](../../../rule/combat/end-of-turn.md) or save ends effect they're affected by to an [adjacent](../../../rule/combat/adjacent.md) minion and end that effect on themself.
+          name: Effect
+        - effect: Until the end of the encounter, whenever an enemy kills a target and has P < STRONG, they receive all EoT or save ends effects the target was affected by.
       icon: "\U0001F300"
       keywords:
         - Area
@@ -50,6 +66,14 @@ features:
       usage: Maneuver
     - cost: Encounter
       distance: Ranged 5
+      effects:
+        - effect: The minion explodes. Make a power roll, targeting each enemy within 2 squares of the target.
+          name: Effect
+          roll: 2d10 + highest characteristic
+          tier1: 5 corruption damage; M < WEAK [weakened](../../../condition/weakened.md) (save ends)
+          tier2: 8 corruption damage; M < AVERAGE [weakened](../../../condition/weakened.md) (save ends)
+          tier3: 10 corruption damage; M < STRONG [weakened](../../../condition/weakened.md) (save ends)
+        - effect: The area within 2 squares of the exploded minion is covered in blight until the end of the encounter. Abilities used against an enemy in the area have an [edge](../../../rule/dice/edge.md).
       icon: "\U0001F3F9"
       keywords:
         - Area
@@ -70,6 +94,9 @@ features:
       usage: Main action
     - cost: Encounter
       distance: Ranged 10
+      effects:
+        - effect: The detective summons two gorrres into unoccupied spaces within distance. On each of the detective's turns, they direct the squad of **gorrres** to move and use a main action.
+          name: Effect
       icon: "\U0001F3F9"
       keywords:
         - Magic

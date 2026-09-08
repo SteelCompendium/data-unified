@@ -11,6 +11,10 @@
           "tier1": "2 damage",
           "tier2": "4 damage",
           "tier3": "6 damage"
+        },
+        {
+          "effect": "This ability has a double edge against a [bleeding](scc.v1:mcdm.heroes.v1/condition/bleeding) target.",
+          "name": "Effect"
         }
       ],
       "feature_type": "ability",

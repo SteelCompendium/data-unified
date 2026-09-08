@@ -41,6 +41,8 @@ features:
           tier1: 2 damage
           tier2: 4 damage
           tier3: 5 damage
+        - effect: If the guard is flanked, they can make a [free strike](scc.v1:mcdm.heroes.v1/feature.common.main-actions/free-strike) against a different target [adjacent](scc.v1:mcdm.heroes.v1/rule.combat/adjacent) to them.
+          name: Effect
       feature_type: ability
       icon: "\U0001F5E1"
       keywords:

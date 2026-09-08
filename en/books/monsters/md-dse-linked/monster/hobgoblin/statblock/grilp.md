@@ -42,6 +42,8 @@ features:
           tier1: 3 damage
           tier2: 5 damage
           tier3: 7 damage; the grilp [shifts](../../../movement/shifting.md) up to 2 squares
+        - effect: The grilp moves up to their speed and can attempt to hide.
+          name: Effect
       feature_type: ability
       icon: "\U0001F5E1"
       keywords:

@@ -1,6 +1,14 @@
 {
   "features": [
     {
+      "effects": [
+        {
+          "effect": "As a maneuver, a creature [adjacent](scc.v1:mcdm.heroes.v1/rule.combat/adjacent) to a pavise shield controlled by another creature can make a **Might test**.",
+          "tier1": "The creature controlling the shield retains control of it and can make an [opportunity attack](scc.v1:mcdm.heroes.v1/rule.combat/opportunity-attack) against the creature making the test.",
+          "tier2": "The creature controlling the shield retains control of it.",
+          "tier3": "The creature making the test grabs the shield and takes control of it."
+        }
+      ],
       "icon": "🌀",
       "intro": "As a maneuver, a creature [adjacent](scc.v1:mcdm.heroes.v1/rule.combat/adjacent) to a pavise shield controlled by another creature can make a **Might test**.",
       "name": "Deactivate",
@@ -14,6 +22,14 @@
     },
     {
       "body": "While a creature has the pavise shield grabbed, they have [cover](scc.v1:mcdm.heroes.v1/rule.combat/cover) and take half damage from abilities whose line of effect extends through the shield. The pavise shield takes the other half of the damage.\n\nWhile a creature has a pavise shield grabbed, their speed is halved and they move the shield like a [grabbed](scc.v1:mcdm.heroes.v1/condition/grabbed) creature.",
+      "effects": [
+        {
+          "effect": "While a creature has the pavise shield grabbed, they have [cover](scc.v1:mcdm.heroes.v1/rule.combat/cover) and take half damage from abilities whose line of effect extends through the shield. The pavise shield takes the other half of the damage."
+        },
+        {
+          "effect": "While a creature has a pavise shield grabbed, their speed is halved and they move the shield like a [grabbed](scc.v1:mcdm.heroes.v1/condition/grabbed) creature."
+        }
+      ],
       "icon": "⭐️",
       "name": "Controlling the Shield"
     }

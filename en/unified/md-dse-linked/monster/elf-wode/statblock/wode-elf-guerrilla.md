@@ -39,6 +39,10 @@ features:
           tier1: 7 damage
           tier2: 11 damage
           tier3: 14 damage; M < 2 [bleeding](../../../condition/bleeding.md) (save ends)
+        - effect: The guerrilla can [teleport](../../../movement/teleport.md) up to 3 squares.
+          name: Effect
+        - cost: 3 Malice
+          effect: This ability targets one additional target, and deals an additional 3 damage if both targets are [adjacent](../../../rule/combat/adjacent.md) to each other.
       feature_type: ability
       icon: ⚔️
       keywords:
@@ -54,16 +58,17 @@ features:
     - cost: 3 Malice
       distance: Ranged 20
       effects:
-        - effect: |-
-            **Special:** The guerrilla must be acting as a captain.
-            **Trigger:** An ally ends their turn while the guerrilla hasn't acted this round.
-            **Effect:** The targets take their turn immediately. Each target gains an edge on abilities until the end of their turn.
+        - effect: The guerrilla must be acting as a captain.
+          name: Special
+        - effect: The targets take their turn immediately. Each target gains an edge on abilities until the end of their turn.
+          name: Effect
       feature_type: ability
       icon: ❗️
       keywords:
         - Ranged
       name: Do Not Hesitate in the Wode
       target: Self and each ally
+      trigger: An ally ends their turn while the guerrilla hasn't acted this round.
       type: feature
       usage: Free triggered action
     - effects:

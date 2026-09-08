@@ -2,11 +2,25 @@
   "features": [
     {
       "body": "Each square of stakes must be individually destroyed.",
+      "effects": [
+        {
+          "effect": "Each square of stakes must be individually destroyed."
+        }
+      ],
       "icon": "🌀",
       "name": "Deactivate"
     },
     {
       "body": "A creature enters an area of stakes from the front.",
+      "effects": [
+        {
+          "effect": "A creature enters an area of stakes from the front."
+        },
+        {
+          "effect": "The triggering creature takes 2 damage per square of stakes they enter. If they are [force moved](scc.v1:mcdm.heroes.v1/movement/forced-movement) into an area of stakes, they take an additional 3 damage.",
+          "name": "Effect"
+        }
+      ],
       "icon": "❕",
       "name": "Activate",
       "sections": [
@@ -18,11 +32,29 @@
     },
     {
       "body": "**Poison (+2 EV)** The tips of the stakes have poison applied to them. Any creature who takes damage from the stakes also takes 1d6 poison damage at the start of each of their turns ([save](scc.v1:mcdm.heroes.v1/rule.general/saving-throw) ends).\n\n**Sticky (+3 EV)** A sticky slime or webbing has been applied to the stakes and the ground between them. Any creature who enters an area of stakes triggers the **Sticky Stakes** ability in addition to suffering the stakes' other effects.",
+      "effects": [
+        {
+          "effect": "**Poison (+2 EV)** The tips of the stakes have poison applied to them. Any creature who takes damage from the stakes also takes 1d6 poison damage at the start of each of their turns ([save](scc.v1:mcdm.heroes.v1/rule.general/saving-throw) ends)."
+        },
+        {
+          "effect": "**Sticky (+3 EV)** A sticky slime or webbing has been applied to the stakes and the ground between them. Any creature who enters an area of stakes triggers the **Sticky Stakes** ability in addition to suffering the stakes' other effects."
+        }
+      ],
       "icon": "⭐️",
       "name": "Upgrades"
     },
     {
       "distance": "Melee 0",
+      "effects": [
+        {
+          "effect": "A creature or object enters an area of sticky stakes.",
+          "name": "Trigger",
+          "roll": "Power Roll + 2",
+          "tier1": "No effect.",
+          "tier2": "A \u003c 1 [slowed](scc.v1:mcdm.heroes.v1/condition/slowed) ([save](scc.v1:mcdm.heroes.v1/rule.general/saving-throw) ends)",
+          "tier3": "A \u003c 2 [restrained](scc.v1:mcdm.heroes.v1/condition/restrained) ([save](scc.v1:mcdm.heroes.v1/rule.general/saving-throw) ends)"
+        }
+      ],
       "icon": "❗️",
       "keywords": [
         "Melee",
@@ -49,6 +81,11 @@
     },
     {
       "body": "Allies of this object ignore the [difficult terrain](scc.v1:mcdm.heroes.v1/movement/difficult-terrain) created by the stakes, take no damage from moving through the stakes unless they are [force moved](scc.v1:mcdm.heroes.v1/movement/forced-movement), and have [cover](scc.v1:mcdm.heroes.v1/rule.combat/cover) while in an area of archer's stakes.",
+      "effects": [
+        {
+          "effect": "Allies of this object ignore the [difficult terrain](scc.v1:mcdm.heroes.v1/movement/difficult-terrain) created by the stakes, take no damage from moving through the stakes unless they are [force moved](scc.v1:mcdm.heroes.v1/movement/forced-movement), and have [cover](scc.v1:mcdm.heroes.v1/rule.combat/cover) while in an area of archer's stakes."
+        }
+      ],
       "icon": "⭐️",
       "name": "Allied Awareness"
     }

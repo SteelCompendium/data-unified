@@ -1,6 +1,11 @@
 ---
 features:
-    - icon: "\U0001F300"
+    - effects:
+        - effect: As a maneuver, a creature [adjacent](scc.v1:mcdm.heroes.v1/rule.combat/adjacent) to a pulley can make an **Agility test**.
+          tier1: The creature triggers the pulley.
+          tier2: The pulley is deactivated but the creature is [slowed](scc.v1:mcdm.heroes.v1/condition/slowed) (EoT).
+          tier3: The pulley is deactivated and doesn't trigger.
+      icon: "\U0001F300"
       intro: As a maneuver, a creature [adjacent](scc.v1:mcdm.heroes.v1/rule.combat/adjacent) to a pulley can make an **Agility test**.
       name: Deactivate
       power_roll:
@@ -9,15 +14,23 @@ features:
             low: The creature triggers the pulley.
             mid: The pulley is deactivated but the creature is [slowed](scc.v1:mcdm.heroes.v1/condition/slowed) (EoT).
     - body: A creature [adjacent](scc.v1:mcdm.heroes.v1/rule.combat/adjacent) to the pulley uses a maneuver to release the pulley.
+      effects:
+        - effect: A creature [adjacent](scc.v1:mcdm.heroes.v1/rule.combat/adjacent) to the pulley uses a maneuver to release the pulley.
+        - effect: The triggering creature is lifted to the top of the structure the pulley is attached to. The pulley must be manually reset.
+          name: Effect
       icon: ❕
       name: Activate
       sections:
         - label: Effect
           text: The triggering creature is lifted to the top of the structure the pulley is attached to. The pulley must be manually reset.
     - body: A creature [adjacent](scc.v1:mcdm.heroes.v1/rule.combat/adjacent) to the pulley can climb its ropes with an **easy Agility test** to ascend to the top of the structure it's attached to.
+      effects:
+        - effect: A creature [adjacent](scc.v1:mcdm.heroes.v1/rule.combat/adjacent) to the pulley can climb its ropes with an **easy Agility test** to ascend to the top of the structure it's attached to.
       icon: ⭐️
       name: Climbable
     - body: '**Looped Chain (+1 EV)** Instead of a rope and pulley, the system uses a counterweighted looped chain. A looped chain automatically resets and can be triggered repeatedly.'
+      effects:
+        - effect: '**Looped Chain (+1 EV)** Instead of a rope and pulley, the system uses a counterweighted looped chain. A looped chain automatically resets and can be triggered repeatedly.'
       icon: ⭐️
       name: Upgrade
 flavor: A counterweighted pulley system can be used to quickly ascend to the top of a wall, scaffold, tower, or other structure.

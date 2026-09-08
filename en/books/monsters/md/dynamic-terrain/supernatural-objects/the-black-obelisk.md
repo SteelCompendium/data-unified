@@ -1,6 +1,11 @@
 ---
 features:
-    - icon: "\U0001F300"
+    - effects:
+        - effect: As a maneuver, a creature [adjacent](scc.v1:mcdm.heroes.v1/rule.combat/adjacent) to the black obelisk can make a **Reason test**.
+          tier1: The creature accidentally activates the **Your Fears Become Manifest** ability, which gains an edge.
+          tier2: The creature must make another test to deactivate the obelisk. If they obtain this outcome a second time, they accidentally activate **Your Fears Become Manifest**.
+          tier3: The obelisk is deactivated until the end of the encounter.
+      icon: "\U0001F300"
       intro: As a maneuver, a creature [adjacent](scc.v1:mcdm.heroes.v1/rule.combat/adjacent) to the black obelisk can make a **Reason test**.
       name: Deactivate
       power_roll:
@@ -9,12 +14,25 @@ features:
             low: The creature accidentally activates the **Your Fears Become Manifest** ability, which gains an edge.
             mid: The creature must make another test to deactivate the obelisk. If they obtain this outcome a second time, they accidentally activate **Your Fears Become Manifest**.
     - body: A new round starts.
+      effects:
+        - effect: A new round starts.
+        - effect: The **Your Fears Become Manifest** ability.
+          name: Effect
       icon: ❕
       name: Activate
       sections:
         - label: Effect
           text: The **Your Fears Become Manifest** ability.
     - distance: 10 burst
+      effects:
+        - effect: A new round starts.
+          name: Trigger
+          roll: Power Roll + 2
+          tier1: P < 1 [slowed](scc.v1:mcdm.heroes.v1/condition/slowed) (EoT)
+          tier2: P < 2 [slowed](scc.v1:mcdm.heroes.v1/condition/slowed) and [weakened](scc.v1:mcdm.heroes.v1/condition/weakened) (EoT)
+          tier3: P < 3 [frightened](scc.v1:mcdm.heroes.v1/condition/frightened), [slowed](scc.v1:mcdm.heroes.v1/condition/slowed), and [weakened](scc.v1:mcdm.heroes.v1/condition/weakened) (EoT)
+        - effect: The target is pushed 2 squares.
+          name: Effect
       icon: ❗️
       keywords:
         - Area

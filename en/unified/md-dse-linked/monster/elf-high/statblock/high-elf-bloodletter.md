@@ -38,6 +38,8 @@ features:
           tier1: 6 damage
           tier2: 9 damage
           tier3: 12 damage; R < 2 [bleeding](../../../condition/bleeding.md) (save ends)
+        - effect: The bloodletter and each of their allies has a double edge on abilities targeting a creature [bleeding](../../../condition/bleeding.md) this way.
+          name: Effect
       feature_type: ability
       icon: "\U0001F5E1"
       keywords:
@@ -51,7 +53,8 @@ features:
     - cost: 2 Malice
       distance: 1 burst
       effects:
-        - effect: '**Effect:** Until the end of the next round, a cloud of blood vapor fills the area. The cloud blocks line of effect for enemies, and any enemy has damage weakness 3 while in the area. The bloodletter can then [shift](../../../movement/shifting.md) up to their speed, and can attempt to hide if they end that shift with concealment.'
+        - effect: Until the end of the next round, a cloud of blood vapor fills the area. The cloud blocks line of effect for enemies, and any enemy has damage weakness 3 while in the area. The bloodletter can then [shift](../../../movement/shifting.md) up to their speed, and can attempt to hide if they end that shift with concealment.
+          name: Effect
       feature_type: ability
       icon: ❇️
       keywords:

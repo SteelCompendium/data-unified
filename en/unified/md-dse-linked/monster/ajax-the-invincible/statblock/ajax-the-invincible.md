@@ -31,9 +31,10 @@ agility: 4
 ev: "156"
 features:
     - effects:
-        - effect: |-
-            **Ajax Turns:** Ajax takes up to three turns each round. He can't take turns consecutively. Additionally, he can use three [triggered actions](../../../rule/combat/triggered-action.md) in a round while he isn't [dazed](../../../condition/dazed.md).
-            **[End Effect](../../../rule/monster/end-effect.md):** At the end of each of his turns, Ajax can take 20 damage to end up to two effects on him that can be ended by a [saving throw](../../../rule/general/saving-throw.md). This damage can't be reduced in any way.
+        - effect: Ajax takes up to three turns each round. He can't take turns consecutively. Additionally, he can use three [triggered actions](../../../rule/combat/triggered-action.md) in a round while he isn't [dazed](../../../condition/dazed.md).
+          name: Ajax Turns
+        - effect: At the end of each of his turns, Ajax can take 20 damage to end up to two effects on him that can be ended by a [saving throw](../../../rule/general/saving-throw.md). This damage can't be reduced in any way.
+          name: End Effect
       feature_type: trait
       icon: ☠️
       name: Ajax
@@ -45,6 +46,10 @@ features:
           tier1: 16 damage; M < 4 the target loses 1d3 [Recoveries](../../../rule/health/recoveries.md)
           tier2: 22 damage; M < 5 the target loses 1d3 [Recoveries](../../../rule/health/recoveries.md)
           tier3: 26 damage; M < 6 [prone](../../../condition/prone.md) and the target loses 1d3 [Recoveries](../../../rule/health/recoveries.md)
+        - effect: Ajax [shifts](../../../movement/shifting.md) up to 2 squares between striking each target.
+          name: Effect
+        - cost: 1+ Malice
+          effect: Ajax can strike one additional target for each [Malice](../../../rule/monster/malice.md) spent.
       feature_type: ability
       icon: "\U0001F5E1"
       keywords:
@@ -63,6 +68,10 @@ features:
           tier1: 11 holy damage; [slide](../../../movement/forced-movement.md) 2; P < 4 the target is hexed (save ends)
           tier2: 17 holy damage; [slide](../../../movement/forced-movement.md) 5; P < 5 the target is hexed (save ends)
           tier3: 21 holy damage; [slide](../../../movement/forced-movement.md) 8; P < 6 the target is hexed (save ends)
+        - effect: A hexed target glows green, and each of their heroic abilities has its cost increased by 2.
+          name: Effect
+        - cost: 3 Malice
+          effect: The potency increases by 1. Additionally, the ground beneath the area drops 3 squares and is [difficult terrain](../../../movement/difficult-terrain.md). Each flying target who has M < 5 is knocked [prone](../../../condition/prone.md).
       feature_type: ability
       icon: "\U0001F533"
       keywords:
@@ -79,6 +88,10 @@ features:
           tier1: No effect.
           tier2: The target is [grabbed](../../../condition/grabbed.md).
           tier3: 11 damage; the target is [grabbed](../../../condition/grabbed.md).
+        - effect: If the target is [grabbed](../../../condition/grabbed.md), Ajax can choose to keep the vine extended, [pull](../../../movement/forced-movement.md) the target adjacent to him, or pull himself adjacent to the target. The vine stays attached to a [grabbed](../../../condition/grabbed.md) target until it takes damage from a strike, the target escapes the grab, or Ajax causes the vine to release the target (no action required).
+          name: Effect
+        - effect: This ability can be replaced with the features of a different treasure Ajax has acquired.
+          name: Special
       feature_type: ability
       icon: "\U0001F3F9"
       keywords:
@@ -92,7 +105,8 @@ features:
     - cost: 2 Malice
       distance: 5 cube within 20
       effects:
-        - effect: '**Effect:** Ajax throws a glowing bead to a square within distance, which ignites at the start of Ajax''s next turn and creates an area around it that lasts until the start of Ajax''s following turn. Each enemy in the area when the bead ignites takes 20 fire damage, and if they have A < 5, they are [dazed](../../../condition/dazed.md) (save ends). Any enemy who starts their turn in the area takes 10 fire damage.'
+        - effect: Ajax throws a glowing bead to a square within distance, which ignites at the start of Ajax's next turn and creates an area around it that lasts until the start of Ajax's following turn. Each enemy in the area when the bead ignites takes 20 fire damage, and if they have A < 5, they are [dazed](../../../condition/dazed.md) (save ends). Any enemy who starts their turn in the area takes 10 fire damage.
+          name: Effect
       feature_type: ability
       icon: "\U0001F533"
       keywords:
@@ -111,22 +125,21 @@ features:
       type: feature
     - distance: Ranged 10
       effects:
-        - effect: |-
-            **Trigger:** A creature within distance marks Ajax.
-            **Effect:** The target is marked while Ajax is marked. While the target is marked this way, Ajax gains an [edge](../../../rule/dice/edge.md) on power rolls against them, and whenever the target uses a [triggered action](../../../rule/combat/triggered-action.md) involving their mark on Ajax, he can make a [free strike](../../../feature/common/main-actions/free-strike.md) against them.
+        - effect: The target is marked while Ajax is marked. While the target is marked this way, Ajax gains an [edge](../../../rule/dice/edge.md) on power rolls against them, and whenever the target uses a [triggered action](../../../rule/combat/triggered-action.md) involving their mark on Ajax, he can make a [free strike](../../../feature/common/main-actions/free-strike.md) against them.
+          name: Effect
       feature_type: ability
       icon: ❗️
       keywords:
         - Ranged
       name: Is This What They Taught You?
       target: The triggering creature
+      trigger: A creature within distance marks Ajax.
       type: feature
       usage: Triggered action
     - distance: Melee 5
       effects:
-        - effect: |-
-            **Trigger:** An enemy within distance uses an ability to reduce damage.
-            **Effect:** Ajax makes a [free strike](../../../feature/common/main-actions/free-strike.md) against the target, dealing extra damage equal to twice the amount that was reduced. This extra damage can't be reduced in any way.
+        - effect: Ajax makes a [free strike](../../../feature/common/main-actions/free-strike.md) against the target, dealing extra damage equal to twice the amount that was reduced. This extra damage can't be reduced in any way.
+          name: Effect
       feature_type: ability
       icon: ❗️
       keywords:
@@ -134,25 +147,25 @@ features:
         - Melee
       name: Shieldbreaker Talisman
       target: The triggering creature
+      trigger: An enemy within distance uses an ability to reduce damage.
       type: feature
       usage: Triggered action
     - distance: Self
       effects:
-        - effect: |-
-            **Trigger:** A creature uses the Hesitation is Weakness ability.
-            **Effect:** Ajax [shifts](../../../movement/shifting.md) up to his speed and can make a [free strike](../../../feature/common/main-actions/free-strike.md). If the target has R < 4, this free strike also makes them [weakened](../../../condition/weakened.md) until the end of their next turn.
+        - effect: Ajax [shifts](../../../movement/shifting.md) up to his speed and can make a [free strike](../../../feature/common/main-actions/free-strike.md). If the target has R < 4, this free strike also makes them [weakened](../../../condition/weakened.md) until the end of their next turn.
+          name: Effect
       feature_type: ability
       icon: ❗️
       keywords: []
       name: Who's Hesitating?
       target: Self
+      trigger: A creature uses the Hesitation is Weakness ability.
       type: feature
       usage: Triggered action
     - distance: Ranged 10
       effects:
-        - effect: |-
-            **Trigger:** Ajax causes a creature within distance to gain ferocity or wrath.
-            **Effect:** If the target has I < 4, they use a [signature ability](../../../rule/combat/signature-ability.md) against a target of Ajax's choice.
+        - effect: If the target has I < 4, they use a [signature ability](../../../rule/combat/signature-ability.md) against a target of Ajax's choice.
+          name: Effect
       feature_type: ability
       icon: ❗️
       keywords:
@@ -160,20 +173,21 @@ features:
         - Ranged
       name: Your Obsession With Me Betrays You
       target: The triggering creature
+      trigger: Ajax causes a creature within distance to gain ferocity or wrath.
       type: feature
       usage: Triggered action
     - cost: 2 Malice
       distance: Self
       effects:
-        - effect: |-
-            **Trigger:** A creature within 10 squares regains [Stamina](../../../rule/health/stamina.md).
-            **Effect:** Ajax regains the same amount of [Stamina](../../../rule/health/stamina.md).
+        - effect: Ajax regains the same amount of [Stamina](../../../rule/health/stamina.md).
+          name: Effect
       feature_type: ability
       icon: ❗️
       keywords:
         - Magic
       name: You Would Flounder Your Assault?
       target: Self
+      trigger: A creature within 10 squares regains [Stamina](../../../rule/health/stamina.md).
       type: feature
       usage: Triggered action
     - cost: Villain Action 1
@@ -183,6 +197,8 @@ features:
           tier1: 11 fire damage; A < 4 [weakened](../../../condition/weakened.md) (save ends)
           tier2: 17 fire damage; A < 5 [weakened](../../../condition/weakened.md) (save ends)
           tier3: 21 fire damage; A < 6 [weakened](../../../condition/weakened.md) (save ends)
+        - effect: Ajax [flies](../../../movement/fly.md) at high speed to cut through each target, then appears in an unoccupied space within distance.
+          name: Effect
       feature_type: ability
       icon: ☠️
       keywords:
@@ -196,9 +212,10 @@ features:
     - cost: Villain Action 2
       distance: 3 burst
       effects:
-        - effect: |-
-            **Effect:** Ajax uses the shadow elf eclipse's technique to reduce each target's [surges](../../../rule/resource/surge.md) to 0. Additionally, until the end of the round, Ajax ignores [edges](../../../rule/dice/edge.md) and double edges on any target's abilities, and ignores any nondamaging effects of any target's damage-dealing abilities.
-            **Special:** This villain action can be replaced with a villain action from a creature any target has previously encountered.
+        - effect: Ajax uses the shadow elf eclipse's technique to reduce each target's [surges](../../../rule/resource/surge.md) to 0. Additionally, until the end of the round, Ajax ignores [edges](../../../rule/dice/edge.md) and double edges on any target's abilities, and ignores any nondamaging effects of any target's damage-dealing abilities.
+          name: Effect
+        - effect: This villain action can be replaced with a villain action from a creature any target has previously encountered.
+          name: Special
       feature_type: ability
       icon: ☠️
       keywords:
@@ -210,7 +227,8 @@ features:
     - cost: Villain Action 3
       distance: 7 burst
       effects:
-        - effect: '**Effect:** Each target who has I < 5 is knocked [prone](../../../condition/prone.md) and can''t stand until Ajax deals damage to them. For each target not knocked [prone](../../../condition/prone.md), Ajax can move up to his speed toward that target and use Blade of the Gol King against them.'
+        - effect: Each target who has I < 5 is knocked [prone](../../../condition/prone.md) and can't stand until Ajax deals damage to them. For each target not knocked [prone](../../../condition/prone.md), Ajax can move up to his speed toward that target and use Blade of the Gol King against them.
+          name: Effect
       feature_type: ability
       icon: ☠️
       keywords:

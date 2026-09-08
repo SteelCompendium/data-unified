@@ -43,6 +43,8 @@ features:
           tier1: 3 [damage](../../../../../rule/damage/damage.md); pull 2; A < WEAK [bleeding](../../../../../condition/bleeding.md) (EoT)
           tier2: 6 [damage](../../../../../rule/damage/damage.md); pull 3; A < AVERAGE [bleeding](../../../../../condition/bleeding.md) (EoT)
           tier3: 8 [damage](../../../../../rule/damage/damage.md); pull 4; A < STRONG [bleeding](../../../../../condition/bleeding.md) (EoT)
+        - effect: A target can't [shift](../../../../../movement/shifting.md) while [bleeding](../../../../../condition/bleeding.md) from this ability.
+          name: Effect
       feature_type: ability
       icon: "\U0001F3F9"
       keywords:

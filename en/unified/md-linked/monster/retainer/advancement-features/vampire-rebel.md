@@ -2,6 +2,13 @@
 features:
     - cost: Encounter
       distance: Melee 1
+      effects:
+        - roll: Power Roll + highest characteristic
+          tier1: 7 damage; M < WEAK [bleeding](../../../condition/bleeding.md) ([save](../../../rule/general/saving-throw.md) ends)
+          tier2: 11 damage; M < AVERAGE [bleeding](../../../condition/bleeding.md) ([save](../../../rule/general/saving-throw.md) ends)
+          tier3: 16 damage; M < STRONG [bleeding](../../../condition/bleeding.md) ([save](../../../rule/general/saving-throw.md) ends)
+        - effect: Before the [strike](../../../rule/combat/strike.md), the vampire rebel [shifts](../../../movement/shifting.md) up to their speed. If the vampire rebel has [temporary Stamina](../../../rule/health/temporary-stamina.md), they can expend it, dealing an extra 2 corruption damage for each point of [temporary Stamina](../../../rule/health/temporary-stamina.md) expended this way.
+          name: Effect
       icon: "\U0001F5E1"
       keywords:
         - Melee
@@ -22,6 +29,11 @@ features:
       usage: Main action
     - cost: Encounter
       distance: 3 cube within 1
+      effects:
+        - roll: Power Roll + highest characteristic
+          tier1: 7 corruption damage; M < WEAK [bleeding](../../../condition/bleeding.md) ([save](../../../rule/general/saving-throw.md) ends)
+          tier2: 11 corruption damage; M < AVERAGE [bleeding](../../../condition/bleeding.md) ([save](../../../rule/general/saving-throw.md) ends)
+          tier3: 16 corruption damage; M < STRONG [bleeding](../../../condition/bleeding.md) ([save](../../../rule/general/saving-throw.md) ends)
       icon: "\U0001F533"
       keywords:
         - Area

@@ -68,15 +68,15 @@ features:
     - cost: 1 Malice
       distance: Self
       effects:
-        - effect: |-
-            **Trigger:** A creature deals damage to the talent.
-            **Effect:** The talent halves the damage and [shifts](scc.v1:mcdm.heroes.v1/movement/shifting) up to 2 squares.
+        - effect: The talent halves the damage and [shifts](scc.v1:mcdm.heroes.v1/movement/shifting) up to 2 squares.
+          name: Effect
       feature_type: ability
       icon: ❗️
       keywords:
         - Psionic
       name: Precognitive Shift
       target: Self
+      trigger: A creature deals damage to the talent.
       type: feature
       usage: Triggered action
     - effects:

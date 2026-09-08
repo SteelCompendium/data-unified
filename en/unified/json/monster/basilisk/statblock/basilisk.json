@@ -11,6 +11,10 @@
           "tier1": "7 poison damage",
           "tier2": "10 poison damage",
           "tier3": "13 poison damage"
+        },
+        {
+          "effect": "This ability gains an edge against targets the basilisk has previously dealt poison damage to.",
+          "name": "Effect"
         }
       ],
       "feature_type": "ability",
@@ -29,10 +33,16 @@
       "distance": "5 x 2 line within 1",
       "effects": [
         {
+          "effect": "The area extends from both the basilisk’s eyes, and this ability targets the first creature without cover on either side of the area.",
+          "name": "Special",
           "roll": "Power Roll + 2",
           "tier1": "M \u003c 0 [restrained](scc.v1:mcdm.heroes.v1/condition/restrained) (save ends)",
           "tier2": "M \u003c 1 [restrained](scc.v1:mcdm.heroes.v1/condition/restrained) (save ends)",
           "tier3": "[Slowed](scc.v1:mcdm.heroes.v1/condition/slowed) (save ends); or if M \u003c 2 [restrained](scc.v1:mcdm.heroes.v1/condition/restrained) (save ends)"
+        },
+        {
+          "effect": "If a target is already [slowed](scc.v1:mcdm.heroes.v1/condition/slowed), the potency increases by 1 for that target. A target [restrained](scc.v1:mcdm.heroes.v1/condition/restrained) this way magically begins to turn to stone, and a target who ends two consecutive turns [restrained](scc.v1:mcdm.heroes.v1/condition/restrained) this way is petrified. A target [restrained](scc.v1:mcdm.heroes.v1/condition/restrained) this way or a creature adjacent to them can use a main action to cut encroaching stone from the target’s body, dealing 8 damage to the target that can’t be reduced in any way and ending this effect.",
+          "name": "Effect"
         }
       ],
       "feature_type": "ability",
@@ -72,7 +82,8 @@
       "distance": "1 burst",
       "effects": [
         {
-          "effect": "**Trigger:** The basilisk takes damage from a melee ability.\n**Effect:** Each target takes 5 damage. Any target who has A \u003c 2 is also [bleeding](scc.v1:mcdm.heroes.v1/condition/bleeding) (save ends)."
+          "effect": "Each target takes 5 damage. Any target who has A \u003c 2 is also [bleeding](scc.v1:mcdm.heroes.v1/condition/bleeding) (save ends).",
+          "name": "Effect"
         }
       ],
       "feature_type": "ability",
@@ -82,6 +93,7 @@
       ],
       "name": "Lash Out",
       "target": "Each enemy in the area",
+      "trigger": "The basilisk takes damage from a melee ability.",
       "type": "feature",
       "usage": "Triggered action"
     },

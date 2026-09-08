@@ -38,6 +38,8 @@ features:
           tier1: 5 damage
           tier2: 7 damage
           tier3: 9 damage
+        - effect: On a tier 3 outcome, the zephyr can make a [free strike](scc.v1:mcdm.heroes.v1/feature.common.main-actions/free-strike) against a creature [adjacent](scc.v1:mcdm.heroes.v1/rule.combat/adjacent) to the target. If they do so and that creature and the target both have A < 2, the creature and the target are both [prone](scc.v1:mcdm.heroes.v1/condition/prone). On any tier outcome, the zephyr can then [shift](scc.v1:mcdm.heroes.v1/movement/shifting) up to 2 squares.
+          name: Effect
       feature_type: ability
       icon: "\U0001F5E1"
       keywords:
@@ -50,7 +52,8 @@ features:
       usage: Main action
     - distance: Self
       effects:
-        - effect: '**Effect:** The zephyr [flies](scc.v1:mcdm.heroes.v1/movement/fly) up to their speed. If they don''t end this movment on solid ground, they are [prone](scc.v1:mcdm.heroes.v1/condition/prone).'
+        - effect: The zephyr [flies](scc.v1:mcdm.heroes.v1/movement/fly) up to their speed. If they don't end this movment on solid ground, they are [prone](scc.v1:mcdm.heroes.v1/condition/prone).
+          name: Effect
       feature_type: ability
       icon: "\U0001F464"
       keywords: []

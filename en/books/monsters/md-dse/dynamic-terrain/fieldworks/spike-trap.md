@@ -1,6 +1,11 @@
 ---
 features:
-    - icon: "\U0001F300"
+    - effects:
+        - effect: As a maneuver, a creature [adjacent](scc.v1:mcdm.heroes.v1/rule.combat/adjacent) to a spike trap can make an **Agility test**.
+          tier1: The creature triggers the trap and is affected as if in its area.
+          tier2: The trap is deactivated but the creature is [slowed](scc.v1:mcdm.heroes.v1/condition/slowed) (EoT).
+          tier3: The trap is deactivated and doesn't trigger.
+      icon: "\U0001F300"
       intro: As a maneuver, a creature [adjacent](scc.v1:mcdm.heroes.v1/rule.combat/adjacent) to a spike trap can make an **Agility test**.
       name: Deactivate
       power_roll:
@@ -9,12 +14,25 @@ features:
             low: The creature triggers the trap and is affected as if in its area.
             mid: The trap is deactivated but the creature is [slowed](scc.v1:mcdm.heroes.v1/condition/slowed) (EoT).
     - body: The spike trap is calibrated to be triggered by creatures or objects of a particular size or larger. The trap triggers when a creature or object of the appropriate size enters its area.
+      effects:
+        - effect: The spike trap is calibrated to be triggered by creatures or objects of a particular size or larger. The trap triggers when a creature or object of the appropriate size enters its area.
+        - effect: The **Spike Trap** ability.
+          name: Effect
       icon: ❕
       name: Activate
       sections:
         - label: Effect
           text: The **Spike Trap** ability.
     - distance: Melee 0
+      effects:
+        - effect: A creature or object of the appropriate size enters the trap's area.
+          name: Trigger
+          roll: Power Roll + 2
+          tier1: 3 damage; the target [shifts](scc.v1:mcdm.heroes.v1/movement/shifting) 1 square away from the trap
+          tier2: 4 damage; the target falls into the pit; A < 0 [prone](scc.v1:mcdm.heroes.v1/condition/prone)
+          tier3: 6 damage; the target falls into the pit; A < 1 [prone](scc.v1:mcdm.heroes.v1/condition/prone); [restrained](scc.v1:mcdm.heroes.v1/condition/restrained) ([save](scc.v1:mcdm.heroes.v1/rule.general/saving-throw) ends)
+        - effect: The target ends their movement when they enter the trap's area. The pit is typically 2 squares deep. The trap must be manually reset.
+          name: Effect
       icon: ❗️
       keywords:
         - Area
@@ -34,6 +52,8 @@ features:
       target: The triggering creature or object
       usage: Free triggered action
     - body: The spike trap is hidden until triggered or detected.
+      effects:
+        - effect: The spike trap is hidden until triggered or detected.
       icon: ⭐️
       name: Hidden
 file_basename: spike-trap
@@ -61,7 +81,12 @@ type: dynamic-terrain
 
 ```ds-fb
 features:
-    - icon: "\U0001F300"
+    - effects:
+        - effect: As a maneuver, a creature [adjacent](scc.v1:mcdm.heroes.v1/rule.combat/adjacent) to a spike trap can make an **Agility test**.
+          tier1: The creature triggers the trap and is affected as if in its area.
+          tier2: The trap is deactivated but the creature is [slowed](scc.v1:mcdm.heroes.v1/condition/slowed) (EoT).
+          tier3: The trap is deactivated and doesn't trigger.
+      icon: "\U0001F300"
       intro: As a maneuver, a creature [adjacent](scc.v1:mcdm.heroes.v1/rule.combat/adjacent) to a spike trap can make an **Agility test**.
       name: Deactivate
       power_roll:
@@ -70,12 +95,25 @@ features:
             low: The creature triggers the trap and is affected as if in its area.
             mid: The trap is deactivated but the creature is [slowed](scc.v1:mcdm.heroes.v1/condition/slowed) (EoT).
     - body: The spike trap is calibrated to be triggered by creatures or objects of a particular size or larger. The trap triggers when a creature or object of the appropriate size enters its area.
+      effects:
+        - effect: The spike trap is calibrated to be triggered by creatures or objects of a particular size or larger. The trap triggers when a creature or object of the appropriate size enters its area.
+        - effect: The **Spike Trap** ability.
+          name: Effect
       icon: ❕
       name: Activate
       sections:
         - label: Effect
           text: The **Spike Trap** ability.
     - distance: Melee 0
+      effects:
+        - effect: A creature or object of the appropriate size enters the trap's area.
+          name: Trigger
+          roll: Power Roll + 2
+          tier1: 3 damage; the target [shifts](scc.v1:mcdm.heroes.v1/movement/shifting) 1 square away from the trap
+          tier2: 4 damage; the target falls into the pit; A < 0 [prone](scc.v1:mcdm.heroes.v1/condition/prone)
+          tier3: 6 damage; the target falls into the pit; A < 1 [prone](scc.v1:mcdm.heroes.v1/condition/prone); [restrained](scc.v1:mcdm.heroes.v1/condition/restrained) ([save](scc.v1:mcdm.heroes.v1/rule.general/saving-throw) ends)
+        - effect: The target ends their movement when they enter the trap's area. The pit is typically 2 squares deep. The trap must be manually reset.
+          name: Effect
       icon: ❗️
       keywords:
         - Area
@@ -95,6 +133,8 @@ features:
       target: The triggering creature or object
       usage: Free triggered action
     - body: The spike trap is hidden until triggered or detected.
+      effects:
+        - effect: The spike trap is hidden until triggered or detected.
       icon: ⭐️
       name: Hidden
 flavor: A pit dug into the ground is filled with spikes, and camouflaged to avoid detection.

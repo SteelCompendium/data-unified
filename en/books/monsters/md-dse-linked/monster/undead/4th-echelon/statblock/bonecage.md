@@ -41,6 +41,10 @@ features:
           tier1: 9 damage; M < 4 [grabbed](../../../../condition/grabbed.md)
           tier2: 12 damage; M < 5 [grabbed](../../../../condition/grabbed.md)
           tier3: 14 damage; [grabbed](../../../../condition/grabbed.md)
+        - effect: The bonecage can have up to four [size](../../../../rule/character/size.md) 1 targets [grabbed](../../../../condition/grabbed.md) at once. Any creature [grabbed](../../../../condition/grabbed.md) by the bonecage takes a [bane](../../../../rule/dice/bane.md) on the [Escape Grab](../../../../feature/common/maneuvers/escape-grab.md) maneuver, and the bonecage has [damage immunity](../../../../rule/damage/damage-immunity.md) 5 against that creature's abilities. When the bonecage is [force moved](../../../../movement/forced-movement.md), any creature or object they have [grabbed](../../../../condition/grabbed.md) moves with them.
+          name: Effect
+        - cost: 3 Malice
+          effect: While [grabbed](../../../../condition/grabbed.md) this way, a target can't [teleport](../../../../movement/teleport.md) or be [teleported](../../../../movement/teleport.md).
       feature_type: ability
       icon: "\U0001F5E1"
       keywords:
@@ -54,10 +58,13 @@ features:
     - cost: 5 Malice
       distance: Four 10 x 1 lines within 3
       effects:
-        - roll: ""
+        - effect: The bonecage can put up to two 90-degree bends in each of the lines. Each target makes an Agility test.
+          name: Effect
           tier1: 9 damage
           tier2: 7 damage
           tier3: 4 damage
+        - effect: The area is [difficult terrain](../../../../movement/difficult-terrain.md) for enemies. The effect ends at the end of the encounter or when the bonecage uses this ability again.
+          name: Effect
       feature_type: ability
       icon: "\U0001F533"
       keywords:

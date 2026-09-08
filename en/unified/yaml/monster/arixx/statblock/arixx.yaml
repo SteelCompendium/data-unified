@@ -2,9 +2,10 @@ agility: 1
 ev: "36"
 features:
     - effects:
-        - effect: |-
-            **[End Effect](scc.v1:mcdm.monsters.v1/rule.monster/end-effect):** At the end of each of their turns, the arixx can take 5 damage to end one effect on them that can be ended by a [saving throw](scc.v1:mcdm.heroes.v1/rule.general/saving-throw). This damage can't be reduced in any way.
-            **Solo Turns:** The arixx can take two turns each round. They can't take turns consecutively.
+        - effect: At the end of each of their turns, the arixx can take 5 damage to end one effect on them that can be ended by a [saving throw](scc.v1:mcdm.heroes.v1/rule.general/saving-throw). This damage can't be reduced in any way.
+          name: End Effect
+        - effect: The arixx can take two turns each round. They can't take turns consecutively.
+          name: Solo Turns
       feature_type: trait
       icon: ☠️
       name: Solo Monster
@@ -28,6 +29,8 @@ features:
           tier1: 9 damage; [grabbed](scc.v1:mcdm.heroes.v1/condition/grabbed)
           tier2: 13 damage; [grabbed](scc.v1:mcdm.heroes.v1/condition/grabbed)
           tier3: 16 damage; [grabbed](scc.v1:mcdm.heroes.v1/condition/grabbed)
+        - effect: A size 1 target [grabbed](scc.v1:mcdm.heroes.v1/condition/grabbed) this way takes 3 acid damage at the start of each of their turns.
+          name: Effect
       feature_type: ability
       icon: "\U0001F5E1"
       keywords:
@@ -44,6 +47,8 @@ features:
           tier1: 5 damage; A < 1 [grabbed](scc.v1:mcdm.heroes.v1/condition/grabbed)
           tier2: 8 damage; A < 2 [grabbed](scc.v1:mcdm.heroes.v1/condition/grabbed)
           tier3: 11 damage; A < 3 [grabbed](scc.v1:mcdm.heroes.v1/condition/grabbed)
+        - effect: The arixx can vertically [slide](scc.v1:mcdm.heroes.v1/movement/forced-movement) each [grabbed](scc.v1:mcdm.heroes.v1/condition/grabbed) target up to 3 squares.
+          name: Effect
       feature_type: ability
       icon: "\U0001F5E1"
       keywords:
@@ -60,6 +65,8 @@ features:
           tier1: 4 acid damage
           tier2: 6 acid damage
           tier3: 7 acid damage; [prone](scc.v1:mcdm.heroes.v1/condition/prone)
+        - effect: The ground beneath each target is covered in burning acid until the end of the encounter. Any enemy who enters an affected space for the first time in a round or starts their turn there takes 2 acid damage.
+          name: Effect
       feature_type: ability
       icon: "\U0001F3F9"
       keywords:
@@ -77,6 +84,8 @@ features:
           tier1: 4 damage
           tier2: 6 damage; [push](scc.v1:mcdm.heroes.v1/movement/forced-movement) 2
           tier3: 7 damage; [push](scc.v1:mcdm.heroes.v1/movement/forced-movement) 4
+        - effect: The arixx flings rocks and debris to fill the area, and has a double [edge](scc.v1:mcdm.heroes.v1/rule.dice/edge) on the power roll if they started their turn underground. The area is [difficult terrain](scc.v1:mcdm.heroes.v1/movement/difficult-terrain).
+          name: Effect
       feature_type: ability
       icon: ❇️
       keywords:
@@ -87,7 +96,8 @@ features:
       usage: Main action
     - distance: 1 burst
       effects:
-        - effect: '**Effect:** The arixx kicks up dust to fill the area until the start of their next turn, then moves up to their speed. Any enemy in the area or who targets a creature in the area takes a [bane](scc.v1:mcdm.heroes.v1/rule.dice/bane) on power rolls.'
+        - effect: The arixx kicks up dust to fill the area until the start of their next turn, then moves up to their speed. Any enemy in the area or who targets a creature in the area takes a [bane](scc.v1:mcdm.heroes.v1/rule.dice/bane) on power rolls.
+          name: Effect
       feature_type: ability
       icon: ❇️
       keywords:
@@ -98,14 +108,14 @@ features:
       usage: Maneuver
     - distance: Self
       effects:
-        - effect: |-
-            **Trigger:** The arixx takes damage.
-            **Effect:** The arixx halves the damage and [shifts](scc.v1:mcdm.heroes.v1/movement/shifting) up to 3 squares after the triggering effect resolves.
+        - effect: The arixx halves the damage and [shifts](scc.v1:mcdm.heroes.v1/movement/shifting) up to 3 squares after the triggering effect resolves.
+          name: Effect
       feature_type: ability
       icon: ❗️
       keywords: []
       name: Skitter
       target: Self
+      trigger: The arixx takes damage.
       type: feature
       usage: Triggered action
     - cost: Villain Action 1
@@ -115,6 +125,8 @@ features:
           tier1: 5 acid damage
           tier2: 8 acid damage
           tier3: 11 acid damage
+        - effect: The ground in the area is covered in a puddle of acid until the end of the encounter. Any enemy who enters the area for the first time in a round or starts their turn there takes 2 acid damage.
+          name: Effect
       feature_type: ability
       icon: ☠️
       keywords:
@@ -127,7 +139,8 @@ features:
     - cost: Villain Action 2
       distance: Self
       effects:
-        - effect: '**Effect:** The arixx [shifts](scc.v1:mcdm.heroes.v1/movement/shifting) up to their speed. If they end this shift above ground and within 2 squares of a creature, they use Bite against the creature and can then use the Dig maneuver.'
+        - effect: The arixx [shifts](scc.v1:mcdm.heroes.v1/movement/shifting) up to their speed. If they end this shift above ground and within 2 squares of a creature, they use Bite against the creature and can then use the Dig maneuver.
+          name: Effect
       feature_type: ability
       icon: ☠️
       keywords: []

@@ -39,6 +39,8 @@ features:
           tier1: 4 fire damage
           tier2: 7 fire damage; [push](scc.v1:mcdm.heroes.v1/movement/forced-movement) 1
           tier3: 8 fire damage; [push](scc.v1:mcdm.heroes.v1/movement/forced-movement) 3
+        - effect: The space the target occupies fills with dark smoke and blocks line of effect until the start of the saboteur's next turn.
+          name: Effect
       feature_type: ability
       icon: "\U0001F3F9"
       keywords:

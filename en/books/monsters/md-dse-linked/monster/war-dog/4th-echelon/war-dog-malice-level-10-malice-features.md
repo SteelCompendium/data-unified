@@ -2,10 +2,21 @@
 features:
     - body: The war dog activates a [Malice](../../../rule/monster/malice.md) feature available to war dogs of level 9 or lower.
       cost: 3-7 Malice
+      effects:
+        - effect: The war dog activates a [Malice](../../../rule/monster/malice.md) feature available to war dogs of level 9 or lower.
       icon: ⭐️
       name: Prior Malice Features
     - cost: 7 Malice
       distance: 3 burst
+      effects:
+        - roll: Power Roll + 5
+          tier1: 7 psychic damage
+          tier2: 11 psychic damage; P < 4 [frightened](../../../condition/frightened.md) (save ends)
+          tier3: 14 psychic damage; P < 5 [frightened](../../../condition/frightened.md) (save ends)
+        - effect: Each war dog within distance deals an extra 15 damage with strikes until the end of their next turn. Additionally, they end any effect on them that can be ended by a [saving throw](../../../rule/general/saving-throw.md) or that ends at the end of their turn, then [shift](../../../movement/shifting.md) up to their speed and can make a [free strike](../../../feature/common/main-actions/free-strike.md).
+          name: Effect
+        - effect: This ability can't be used by a [minion](../../../rule/organization/minion.md).
+          name: Special
       icon: ❇️
       keywords:
         - Area
@@ -41,10 +52,21 @@ type: featureblock
 features:
     - body: The war dog activates a [Malice](../../../rule/monster/malice.md) feature available to war dogs of level 9 or lower.
       cost: 3-7 Malice
+      effects:
+        - effect: The war dog activates a [Malice](../../../rule/monster/malice.md) feature available to war dogs of level 9 or lower.
       icon: ⭐️
       name: Prior Malice Features
     - cost: 7 Malice
       distance: 3 burst
+      effects:
+        - roll: Power Roll + 5
+          tier1: 7 psychic damage
+          tier2: 11 psychic damage; P < 4 [frightened](../../../condition/frightened.md) (save ends)
+          tier3: 14 psychic damage; P < 5 [frightened](../../../condition/frightened.md) (save ends)
+        - effect: Each war dog within distance deals an extra 15 damage with strikes until the end of their next turn. Additionally, they end any effect on them that can be ended by a [saving throw](../../../rule/general/saving-throw.md) or that ends at the end of their turn, then [shift](../../../movement/shifting.md) up to their speed and can make a [free strike](../../../feature/common/main-actions/free-strike.md).
+          name: Effect
+        - effect: This ability can't be used by a [minion](../../../rule/organization/minion.md).
+          name: Special
       icon: ❇️
       keywords:
         - Area

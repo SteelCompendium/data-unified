@@ -43,6 +43,8 @@ features:
           tier1: 4 damage
           tier2: 7 damage; [pull](../../../../movement/forced-movement.md) 1
           tier3: 8 damage; [pull](../../../../movement/forced-movement.md) 3
+        - effect: Each ally gains an [edge](../../../../rule/dice/edge.md) on [strikes](../../../../rule/combat/strike.md) made against the target until the end of the round.
+          name: Effect
       feature_type: ability
       icon: "\U0001F5E1"
       keywords:

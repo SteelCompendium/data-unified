@@ -11,6 +11,10 @@
           "tier1": "9 damage",
           "tier2": "13 damage",
           "tier3": "16 damage"
+        },
+        {
+          "effect": "If the duskcaller has concealment, they can target one additional creature or object.",
+          "name": "Effect"
         }
       ],
       "feature_type": "ability",
@@ -29,7 +33,12 @@
       "distance": "2 cube within 3",
       "effects": [
         {
-          "effect": "**Effect:** Until the start of the duskcaller's next turn, the area is filled with darkness.\n**2 Malice:** The size of the cube increases by 3."
+          "effect": "Until the start of the duskcaller's next turn, the area is filled with darkness.",
+          "name": "Effect"
+        },
+        {
+          "cost": "2 Malice",
+          "effect": "The size of the cube increases by 3."
         }
       ],
       "feature_type": "ability",

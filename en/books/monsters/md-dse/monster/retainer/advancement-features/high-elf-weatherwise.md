@@ -2,6 +2,13 @@
 features:
     - cost: Encounter
       distance: 3 cube within 1
+      effects:
+        - roll: Power Roll + highest characteristic
+          tier1: 3 cold damage; [push](scc.v1:mcdm.heroes.v1/movement/forced-movement) 2
+          tier2: 5 cold damage; [push](scc.v1:mcdm.heroes.v1/movement/forced-movement) 3
+          tier3: 8 cold damage; [push](scc.v1:mcdm.heroes.v1/movement/forced-movement) 5
+        - effect: The weatherwise can [teleport](scc.v1:mcdm.heroes.v1/movement/teleport) up to 5 squares before or after using this ability.
+          name: Effect
       icon: "\U0001F533"
       keywords:
         - Area
@@ -21,6 +28,9 @@ features:
       usage: Main action
     - cost: Encounter
       distance: 3 burst
+      effects:
+        - effect: Each target can spend a [Recovery](scc.v1:mcdm.heroes.v1/rule.health/recoveries), and can choose one effect on them that can be ended by a [saving throw](scc.v1:mcdm.heroes.v1/rule.general/saving-throw). That effect instead ends at the end of their turn.
+          name: Effect
       icon: ❇️
       keywords:
         - Area
@@ -34,6 +44,11 @@ features:
       usage: Main action
     - cost: Encounter
       distance: 3 cube within 1
+      effects:
+        - roll: Power Roll + highest characteristic
+          tier1: 6 corruption damage; P < WEAK [prone](scc.v1:mcdm.heroes.v1/condition/prone) and can't stand ([save](scc.v1:mcdm.heroes.v1/rule.general/saving-throw) ends)
+          tier2: 10 corruption damage; P < AVERAGE [prone](scc.v1:mcdm.heroes.v1/condition/prone) and can't stand ([save](scc.v1:mcdm.heroes.v1/rule.general/saving-throw) ends)
+          tier3: 14 corruption damage; P < STRONG [prone](scc.v1:mcdm.heroes.v1/condition/prone) and can't stand ([save](scc.v1:mcdm.heroes.v1/rule.general/saving-throw) ends)
       icon: "\U0001F533"
       keywords:
         - Area
@@ -62,6 +77,13 @@ type: featureblock
 features:
     - cost: Encounter
       distance: 3 cube within 1
+      effects:
+        - roll: Power Roll + highest characteristic
+          tier1: 3 cold damage; [push](scc.v1:mcdm.heroes.v1/movement/forced-movement) 2
+          tier2: 5 cold damage; [push](scc.v1:mcdm.heroes.v1/movement/forced-movement) 3
+          tier3: 8 cold damage; [push](scc.v1:mcdm.heroes.v1/movement/forced-movement) 5
+        - effect: The weatherwise can [teleport](scc.v1:mcdm.heroes.v1/movement/teleport) up to 5 squares before or after using this ability.
+          name: Effect
       icon: "\U0001F533"
       keywords:
         - Area
@@ -81,6 +103,9 @@ features:
       usage: Main action
     - cost: Encounter
       distance: 3 burst
+      effects:
+        - effect: Each target can spend a [Recovery](scc.v1:mcdm.heroes.v1/rule.health/recoveries), and can choose one effect on them that can be ended by a [saving throw](scc.v1:mcdm.heroes.v1/rule.general/saving-throw). That effect instead ends at the end of their turn.
+          name: Effect
       icon: ❇️
       keywords:
         - Area
@@ -94,6 +119,11 @@ features:
       usage: Main action
     - cost: Encounter
       distance: 3 cube within 1
+      effects:
+        - roll: Power Roll + highest characteristic
+          tier1: 6 corruption damage; P < WEAK [prone](scc.v1:mcdm.heroes.v1/condition/prone) and can't stand ([save](scc.v1:mcdm.heroes.v1/rule.general/saving-throw) ends)
+          tier2: 10 corruption damage; P < AVERAGE [prone](scc.v1:mcdm.heroes.v1/condition/prone) and can't stand ([save](scc.v1:mcdm.heroes.v1/rule.general/saving-throw) ends)
+          tier3: 14 corruption damage; P < STRONG [prone](scc.v1:mcdm.heroes.v1/condition/prone) and can't stand ([save](scc.v1:mcdm.heroes.v1/rule.general/saving-throw) ends)
       icon: "\U0001F533"
       keywords:
         - Area

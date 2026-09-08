@@ -57,6 +57,8 @@ features:
           tier1: 6 psychic damage; R < 1 [push](scc.v1:mcdm.heroes.v1/movement/forced-movement) 2
           tier2: 10 psychic damage; R < 2 [push](scc.v1:mcdm.heroes.v1/movement/forced-movement) 3
           tier3: 12 psychic damage; R < 3 [push](scc.v1:mcdm.heroes.v1/movement/forced-movement) 4 and [prone](scc.v1:mcdm.heroes.v1/condition/prone)
+        - cost: 2 Malice
+          effect: The size of the burst increases to 5.
       feature_type: ability
       icon: ❇️
       keywords:
@@ -68,7 +70,9 @@ features:
       usage: Main action
     - distance: Melee 1
       effects:
-        - roll: Power Roll + 3
+        - effect: The target must be [grabbed](scc.v1:mcdm.heroes.v1/condition/grabbed) by the invader.
+          name: Effect
+          roll: Power Roll + 3
           tier1: 6 damage; vertical [slide](scc.v1:mcdm.heroes.v1/movement/forced-movement) 2
           tier2: 10 damage; vertical [slide](scc.v1:mcdm.heroes.v1/movement/forced-movement) 2
           tier3: 12 damage; vertical [slide](scc.v1:mcdm.heroes.v1/movement/forced-movement) 3
@@ -83,9 +87,8 @@ features:
       usage: Maneuver
     - distance: Special
       effects:
-        - effect: |-
-            **Trigger:** A creature [grabbed](scc.v1:mcdm.heroes.v1/condition/grabbed) by the invader resists an ability's [potency](scc.v1:mcdm.heroes.v1/rule.character/potency).
-            **Effect:** The [potency](scc.v1:mcdm.heroes.v1/rule.character/potency) increases by 2.
+        - effect: The [potency](scc.v1:mcdm.heroes.v1/rule.character/potency) increases by 2.
+          name: Effect
       feature_type: ability
       icon: ❗️
       keywords:
@@ -93,6 +96,7 @@ features:
         - Psionic
       name: Brain Drain
       target: The triggering creature
+      trigger: A creature [grabbed](scc.v1:mcdm.heroes.v1/condition/grabbed) by the invader resists an ability's [potency](scc.v1:mcdm.heroes.v1/rule.character/potency).
       type: feature
       usage: Triggered Action
     - effects:

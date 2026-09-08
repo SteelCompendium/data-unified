@@ -40,6 +40,8 @@ features:
           tier1: 3 damage; A < 2 [prone](../../../condition/prone.md)
           tier2: 5 damage; A < 3 [prone](../../../condition/prone.md)
           tier3: 6 damage; [prone](../../../condition/prone.md)
+        - effect: If a target made [prone](../../../condition/prone.md) this way is already [prone](../../../condition/prone.md), they are [grabbed](../../../condition/grabbed.md) instead.
+          name: Effect
       feature_type: ability
       icon: "\U0001F5E1"
       keywords:

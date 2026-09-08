@@ -39,6 +39,10 @@ features:
           tier1: 7 acid damage; A < 1 [dazed](scc.v1:mcdm.heroes.v1/condition/dazed) (save ends)
           tier2: 10 acid damage; A < 2 [dazed](scc.v1:mcdm.heroes.v1/condition/dazed) (save ends)
           tier3: 13 acid damage; A < 3 [dazed](scc.v1:mcdm.heroes.v1/condition/dazed) (save ends)
+        - effect: The next time the target makes a strike against the daybringer, the target takes 4 acid damage after the strike is resolved.
+          name: Effect
+        - cost: 1 Malice
+          effect: The daybringer jumps up to 3 squares before or after using this ability.
       feature_type: ability
       icon: "\U0001F5E1"
       keywords:
@@ -51,7 +55,8 @@ features:
       usage: Main action
     - distance: Self
       effects:
-        - effect: '**Effect:** The daybringer expands their throat to make it resemble the sun until the start of their next turn. During that time, each angulotl who starts their turn within 10 squares of the daybringer regains 5 [Stamina](scc.v1:mcdm.heroes.v1/rule.health/stamina) and gains a +3 bonus to speed until the end of their turn.'
+        - effect: The daybringer expands their throat to make it resemble the sun until the start of their next turn. During that time, each angulotl who starts their turn within 10 squares of the daybringer regains 5 [Stamina](scc.v1:mcdm.heroes.v1/rule.health/stamina) and gains a +3 bonus to speed until the end of their turn.
+          name: Effect
       feature_type: ability
       icon: "\U0001F464"
       keywords: []
@@ -61,16 +66,17 @@ features:
       usage: Maneuver
     - distance: Melee 5
       effects:
-        - effect: |-
-            **Trigger:** The target makes a strike against the daybringer or an ally that isn't a critical hit.
-            **Effect:** The outcome of the strike's power roll is reduced by one tier.
-            **2 [Malice](scc.v1:mcdm.monsters.v1/rule.monster/malice):** The target is [pulled](scc.v1:mcdm.heroes.v1/movement/forced-movement) up to 4 squares after the strike resolves.
+        - effect: The outcome of the strike's power roll is reduced by one tier.
+          name: Effect
+        - cost: 2 Malice
+          effect: The target is [pulled](scc.v1:mcdm.heroes.v1/movement/forced-movement) up to 4 squares after the strike resolves.
       feature_type: ability
       icon: ❗️
       keywords:
         - Melee
       name: Tongue Slap
       target: One creature
+      trigger: The target makes a strike against the daybringer or an ally that isn't a critical hit.
       type: feature
       usage: Triggered action
     - effects:
@@ -82,7 +88,8 @@ features:
     - cost: Villain Action 1
       distance: Ranged 10
       effects:
-        - effect: '**Effect:** Four **angulotl pollywogs** erupt from the daybringer''s back and waddle into unoccupied spaces within distance.'
+        - effect: Four **angulotl pollywogs** erupt from the daybringer's back and waddle into unoccupied spaces within distance.
+          name: Effect
       feature_type: ability
       icon: ☠️
       keywords:
@@ -94,7 +101,8 @@ features:
     - cost: Villain Action 2
       distance: 8 burst
       effects:
-        - effect: '**Effect:** Each target can jump up to 4 squares. Each non-[minion](scc.v1:mcdm.monsters.v1/rule.organization/minion) target can make a [free strike](scc.v1:mcdm.heroes.v1/feature.common.main-actions/free-strike) at the end of the jump.'
+        - effect: Each target can jump up to 4 squares. Each non-[minion](scc.v1:mcdm.monsters.v1/rule.organization/minion) target can make a [free strike](scc.v1:mcdm.heroes.v1/feature.common.main-actions/free-strike) at the end of the jump.
+          name: Effect
       feature_type: ability
       icon: ☠️
       keywords:
@@ -106,7 +114,8 @@ features:
     - cost: Villain Action 3
       distance: Special
       effects:
-        - effect: '**Effect:** The encounter map dries up and each enemy and object on it is illuminated until the end of the encounter. An illuminated creature or object can''t hide or become invisible, and any strike made against an illuminated target gains an [edge](scc.v1:mcdm.heroes.v1/rule.dice/edge). Additionally, each enemy in the encounter who is wet has that effect end and takes 6 acid damage. Each angulotl in the encounter has a double edge on their next strike.'
+        - effect: The encounter map dries up and each enemy and object on it is illuminated until the end of the encounter. An illuminated creature or object can't hide or become invisible, and any strike made against an illuminated target gains an [edge](scc.v1:mcdm.heroes.v1/rule.dice/edge). Additionally, each enemy in the encounter who is wet has that effect end and takes 6 acid damage. Each angulotl in the encounter has a double edge on their next strike.
+          name: Effect
       feature_type: ability
       icon: ☠️
       keywords: []

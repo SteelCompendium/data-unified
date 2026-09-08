@@ -1,6 +1,9 @@
 ---
 features:
     - distance: Self
+      effects:
+        - effect: If the sidekick's mentor moves [adjacent](scc.v1:mcdm.heroes.v1/rule.combat/adjacent) to the sidekick at any point during the mentor's turn, the mentor gains a +1 bonus to speed and can automatically climb at full speed while moving until the end of their turn.
+          name: Effect
       icon: "\U0001F464"
       level: 4
       name: Boost
@@ -11,6 +14,11 @@ features:
       usage: Maneuver
     - cost: Encounter
       distance: 3 cube within 3
+      effects:
+        - roll: Power Roll + highest characteristic
+          tier1: 6 poison damage; M < WEAK [weakened](scc.v1:mcdm.heroes.v1/condition/weakened) ([save](scc.v1:mcdm.heroes.v1/rule.general/saving-throw) ends)
+          tier2: 9 poison damage; M < AVERAGE [weakened](scc.v1:mcdm.heroes.v1/condition/weakened) ([save](scc.v1:mcdm.heroes.v1/rule.general/saving-throw) ends)
+          tier3: 13 poison damage; M < STRONG [weakened](scc.v1:mcdm.heroes.v1/condition/weakened) ([save](scc.v1:mcdm.heroes.v1/rule.general/saving-throw) ends)
       icon: "\U0001F533"
       keywords:
         - Area
@@ -27,6 +35,9 @@ features:
       usage: Main action
     - cost: Encounter
       distance: Ranged 10
+      effects:
+        - effect: Each target can spend a [Recovery](scc.v1:mcdm.heroes.v1/rule.health/recoveries), and ends the [dazed](scc.v1:mcdm.heroes.v1/condition/dazed), [frightened](scc.v1:mcdm.heroes.v1/condition/frightened), and [weakened](scc.v1:mcdm.heroes.v1/condition/weakened) conditions on themself.
+          name: Effect
       icon: "\U0001F3F9"
       keywords:
         - Ranged
@@ -50,6 +61,9 @@ type: featureblock
 ```ds-fb
 features:
     - distance: Self
+      effects:
+        - effect: If the sidekick's mentor moves [adjacent](scc.v1:mcdm.heroes.v1/rule.combat/adjacent) to the sidekick at any point during the mentor's turn, the mentor gains a +1 bonus to speed and can automatically climb at full speed while moving until the end of their turn.
+          name: Effect
       icon: "\U0001F464"
       level: 4
       name: Boost
@@ -60,6 +74,11 @@ features:
       usage: Maneuver
     - cost: Encounter
       distance: 3 cube within 3
+      effects:
+        - roll: Power Roll + highest characteristic
+          tier1: 6 poison damage; M < WEAK [weakened](scc.v1:mcdm.heroes.v1/condition/weakened) ([save](scc.v1:mcdm.heroes.v1/rule.general/saving-throw) ends)
+          tier2: 9 poison damage; M < AVERAGE [weakened](scc.v1:mcdm.heroes.v1/condition/weakened) ([save](scc.v1:mcdm.heroes.v1/rule.general/saving-throw) ends)
+          tier3: 13 poison damage; M < STRONG [weakened](scc.v1:mcdm.heroes.v1/condition/weakened) ([save](scc.v1:mcdm.heroes.v1/rule.general/saving-throw) ends)
       icon: "\U0001F533"
       keywords:
         - Area
@@ -76,6 +95,9 @@ features:
       usage: Main action
     - cost: Encounter
       distance: Ranged 10
+      effects:
+        - effect: Each target can spend a [Recovery](scc.v1:mcdm.heroes.v1/rule.health/recoveries), and ends the [dazed](scc.v1:mcdm.heroes.v1/condition/dazed), [frightened](scc.v1:mcdm.heroes.v1/condition/frightened), and [weakened](scc.v1:mcdm.heroes.v1/condition/weakened) conditions on themself.
+          name: Effect
       icon: "\U0001F3F9"
       keywords:
         - Ranged

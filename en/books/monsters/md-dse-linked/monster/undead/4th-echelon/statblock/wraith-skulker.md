@@ -41,6 +41,8 @@ features:
           tier1: 4 cold damage; the wraith can [shift](../../../../movement/shifting.md) 1 square
           tier2: 7 cold damage; the wraith [shifts](../../../../movement/shifting.md) up to 2 square
           tier3: 9 cold damage; P < 5 [slowed](../../../../condition/slowed.md) (save ends); the wraith [shifts](../../../../movement/shifting.md) up to 3 squares
+        - effect: The wraith turns invisible until the start of their next turn.
+          name: Effect
       feature_type: ability
       icon: "\U0001F5E1"
       keywords:

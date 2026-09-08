@@ -42,6 +42,8 @@ features:
           tier1: 3 damage
           tier2: 6 damage
           tier3: 7 damage; M < 4 [bleeding](../../../../condition/bleeding.md) (EoT)
+        - effect: If a target made [bleeding](../../../../condition/bleeding.md) this way is already [bleeding](../../../../condition/bleeding.md), they are instead knocked [prone](../../../../condition/prone.md) and can't stand until the end of their next turn.
+          name: Effect
       feature_type: ability
       icon: "\U0001F5E1"
       keywords:

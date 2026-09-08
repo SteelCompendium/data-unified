@@ -41,6 +41,8 @@ features:
           tier1: 9 damage
           tier2: 14 damage
           tier3: 17 damage; [prone](scc.v1:mcdm.heroes.v1/condition/prone)
+        - cost: 3 Malice
+          effect: Each ally [adjacent](scc.v1:mcdm.heroes.v1/rule.combat/adjacent) to a [prone](scc.v1:mcdm.heroes.v1/condition/prone) target can make a [free strike](scc.v1:mcdm.heroes.v1/feature.common.main-actions/free-strike) against that target.
       feature_type: ability
       icon: "\U0001F5E1"
       keywords:
@@ -58,6 +60,8 @@ features:
           tier1: 6 damage
           tier2: 11 damage
           tier3: 14 damage
+        - effect: Each target is [pushed](scc.v1:mcdm.heroes.v1/movement/forced-movement) up to 10 squares in the same direction, and the grandguard [shifts](scc.v1:mcdm.heroes.v1/movement/shifting) into the area left behind by the targets.
+          name: Effect
       feature_type: ability
       icon: "\U0001F533"
       keywords:

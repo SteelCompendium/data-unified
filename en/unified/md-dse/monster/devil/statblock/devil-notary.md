@@ -40,6 +40,8 @@ features:
           tier1: 3 fire damage
           tier2: 5 fire damage; R < 2 the target takes a [bane](scc.v1:mcdm.heroes.v1/rule.dice/bane) on their next strike
           tier3: 6 fire damage; R < 3 the target takes a [bane](scc.v1:mcdm.heroes.v1/rule.dice/bane) on their next strike
+        - effect: One non-[minion](scc.v1:mcdm.monsters.v1/rule.organization/minion) devil within 5 squares of the notary gains an [edge](scc.v1:mcdm.heroes.v1/rule.dice/edge) on their next strike.
+          name: Effect
       feature_type: ability
       icon: "\U0001F3F9"
       keywords:

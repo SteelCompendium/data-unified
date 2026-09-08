@@ -2,6 +2,13 @@
 features:
     - cost: Encounter
       distance: Ranged 10
+      effects:
+        - roll: Power Roll + highest characteristic
+          tier1: 2 corruption damage; the target is cursed (EoT)
+          tier2: 5 corruption damage; the target is cursed (EoT)
+          tier3: 7 corruption damage; the target is cursed (EoT)
+        - effect: While the target is cursed this way, whenever they make a strike that targets only one creature, the retainer can use a free triggered action to choose a second target for the strike within its distance.
+          name: Effect
       icon: "\U0001F3F9"
       keywords:
         - Magic
@@ -22,6 +29,13 @@ features:
       usage: Main action
     - cost: Encounter
       distance: Ranged 10
+      effects:
+        - roll: Power Roll + highest characteristic
+          tier1: 5 damage; M < WEAK [slowed](scc.v1:mcdm.heroes.v1/condition/slowed) ([save](scc.v1:mcdm.heroes.v1/rule.general/saving-throw) ends)
+          tier2: 9 damage; M < AVERAGE [slowed](scc.v1:mcdm.heroes.v1/condition/slowed) ([save](scc.v1:mcdm.heroes.v1/rule.general/saving-throw) ends)
+          tier3: 12 damage; M < STRONG [slowed](scc.v1:mcdm.heroes.v1/condition/slowed) ([save](scc.v1:mcdm.heroes.v1/rule.general/saving-throw) ends)
+        - effect: While the target is [slowed](scc.v1:mcdm.heroes.v1/condition/slowed) this way, if they end their turn without moving on that turn, they are no longer [slowed](scc.v1:mcdm.heroes.v1/condition/slowed) and are [restrained](scc.v1:mcdm.heroes.v1/condition/restrained) ([save](scc.v1:mcdm.heroes.v1/rule.general/saving-throw) ends).
+          name: Effect
       icon: "\U0001F3F9"
       keywords:
         - Magic
@@ -42,6 +56,13 @@ features:
       usage: Main action
     - cost: Encounter
       distance: Ranged 10
+      effects:
+        - roll: Power Roll + highest characteristic
+          tier1: 7 damage; if the target has M < WEAK they are mazed (save ends)
+          tier2: 11 damage; if the target has M < AVERAGE they are mazed (save ends)
+          tier3: 16 damage; if the target has M < STRONG they are mazed (save ends)
+        - effect: While mazed, the target is [dazed](scc.v1:mcdm.heroes.v1/condition/dazed). Additionally, at the end of each of the mazed target's turns, the retainer can cause the target to move up to their speed in a straight line in a direction of the retainer's choice. This is not [forced movement](scc.v1:mcdm.heroes.v1/movement/forced-movement), and the movement ends if it would cause the target to enter [difficult](scc.v1:mcdm.heroes.v1/movement/difficult-terrain) or damaging terrain.
+          name: Effect
       icon: "\U0001F3F9"
       keywords:
         - Magic
@@ -74,6 +95,13 @@ type: featureblock
 features:
     - cost: Encounter
       distance: Ranged 10
+      effects:
+        - roll: Power Roll + highest characteristic
+          tier1: 2 corruption damage; the target is cursed (EoT)
+          tier2: 5 corruption damage; the target is cursed (EoT)
+          tier3: 7 corruption damage; the target is cursed (EoT)
+        - effect: While the target is cursed this way, whenever they make a strike that targets only one creature, the retainer can use a free triggered action to choose a second target for the strike within its distance.
+          name: Effect
       icon: "\U0001F3F9"
       keywords:
         - Magic
@@ -94,6 +122,13 @@ features:
       usage: Main action
     - cost: Encounter
       distance: Ranged 10
+      effects:
+        - roll: Power Roll + highest characteristic
+          tier1: 5 damage; M < WEAK [slowed](scc.v1:mcdm.heroes.v1/condition/slowed) ([save](scc.v1:mcdm.heroes.v1/rule.general/saving-throw) ends)
+          tier2: 9 damage; M < AVERAGE [slowed](scc.v1:mcdm.heroes.v1/condition/slowed) ([save](scc.v1:mcdm.heroes.v1/rule.general/saving-throw) ends)
+          tier3: 12 damage; M < STRONG [slowed](scc.v1:mcdm.heroes.v1/condition/slowed) ([save](scc.v1:mcdm.heroes.v1/rule.general/saving-throw) ends)
+        - effect: While the target is [slowed](scc.v1:mcdm.heroes.v1/condition/slowed) this way, if they end their turn without moving on that turn, they are no longer [slowed](scc.v1:mcdm.heroes.v1/condition/slowed) and are [restrained](scc.v1:mcdm.heroes.v1/condition/restrained) ([save](scc.v1:mcdm.heroes.v1/rule.general/saving-throw) ends).
+          name: Effect
       icon: "\U0001F3F9"
       keywords:
         - Magic
@@ -114,6 +149,13 @@ features:
       usage: Main action
     - cost: Encounter
       distance: Ranged 10
+      effects:
+        - roll: Power Roll + highest characteristic
+          tier1: 7 damage; if the target has M < WEAK they are mazed (save ends)
+          tier2: 11 damage; if the target has M < AVERAGE they are mazed (save ends)
+          tier3: 16 damage; if the target has M < STRONG they are mazed (save ends)
+        - effect: While mazed, the target is [dazed](scc.v1:mcdm.heroes.v1/condition/dazed). Additionally, at the end of each of the mazed target's turns, the retainer can cause the target to move up to their speed in a straight line in a direction of the retainer's choice. This is not [forced movement](scc.v1:mcdm.heroes.v1/movement/forced-movement), and the movement ends if it would cause the target to enter [difficult](scc.v1:mcdm.heroes.v1/movement/difficult-terrain) or damaging terrain.
+          name: Effect
       icon: "\U0001F3F9"
       keywords:
         - Magic

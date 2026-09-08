@@ -1,11 +1,16 @@
 ---
 features:
     - body: The Aspect is now size 3.
+      effects:
+        - effect: The Aspect is now size 3.
       icon: ⭐️
       level: 10
       name: Size Increase
     - cost: 1 Eidos
       distance: 20 burst
+      effects:
+        - effect: Each target [teleports](../../../../../movement/teleport.md) up to their [speed](../../../../../rule/character/speed.md) and makes a [free strike](../../../../../feature/common/main-actions/free-strike.md). If a target has a [Save Ends](../../../../../rule/general/saving-throw.md) [condition](../../../../../rule/combat/condition.md), they can inflict the [condition](../../../../../rule/combat/condition.md) onto a creature with their [strike](../../../../../rule/combat/strike.md) and end the [condition](../../../../../rule/combat/condition.md) on themself.
+          name: Effect
       icon: ❗️
       level: 10
       name: Reality Flense
@@ -27,11 +32,16 @@ type: featureblock
 ```ds-fb
 features:
     - body: The Aspect is now size 3.
+      effects:
+        - effect: The Aspect is now size 3.
       icon: ⭐️
       level: 10
       name: Size Increase
     - cost: 1 Eidos
       distance: 20 burst
+      effects:
+        - effect: Each target [teleports](../../../../../movement/teleport.md) up to their [speed](../../../../../rule/character/speed.md) and makes a [free strike](../../../../../feature/common/main-actions/free-strike.md). If a target has a [Save Ends](../../../../../rule/general/saving-throw.md) [condition](../../../../../rule/combat/condition.md), they can inflict the [condition](../../../../../rule/combat/condition.md) onto a creature with their [strike](../../../../../rule/combat/strike.md) and end the [condition](../../../../../rule/combat/condition.md) on themself.
+          name: Effect
       icon: ❗️
       level: 10
       name: Reality Flense

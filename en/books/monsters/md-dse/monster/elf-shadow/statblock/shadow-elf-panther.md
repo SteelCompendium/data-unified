@@ -39,6 +39,8 @@ features:
           tier1: 9 damage
           tier2: 13 damage
           tier3: 16 damage; I < 3 [bleeding](scc.v1:mcdm.heroes.v1/condition/bleeding) (save ends)
+        - effect: The panther can make a [free strike](scc.v1:mcdm.heroes.v1/feature.common.main-actions/free-strike) against a creature or object [adjacent](scc.v1:mcdm.heroes.v1/rule.combat/adjacent) to the target.
+          name: Effect
       feature_type: ability
       icon: "\U0001F5E1"
       keywords:
@@ -56,6 +58,8 @@ features:
           tier1: 5 corruption damage
           tier2: 8 corruption damage; I < 2 [dazed](scc.v1:mcdm.heroes.v1/condition/dazed) (save ends)
           tier3: 10 corruption damage; I < 3 [dazed](scc.v1:mcdm.heroes.v1/condition/dazed) (save ends)
+        - effect: The panther has a double edge on strikes against targets [dazed](scc.v1:mcdm.heroes.v1/condition/dazed) this way.
+          name: Effect
       feature_type: ability
       icon: ❇️
       keywords:

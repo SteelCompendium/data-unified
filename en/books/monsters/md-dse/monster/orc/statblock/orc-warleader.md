@@ -32,10 +32,12 @@ features:
     - ability_type: Signature Ability
       distance: Ranged 10
       effects:
-        - effect: |-
-            **Effect:** The target moves up to their speed and can use a main action.
-            **1 [Malice](scc.v1:mcdm.monsters.v1/rule.monster/malice):** The warleader targets two allies.
-            **3 [Malice](scc.v1:mcdm.monsters.v1/rule.monster/malice):** The warleader targets one ally and a [minion](scc.v1:mcdm.monsters.v1/rule.organization/minion) [squad](scc.v1:mcdm.monsters.v1/rule.monster/squad).
+        - effect: The target moves up to their speed and can use a main action.
+          name: Effect
+        - cost: 1 Malice
+          effect: The warleader targets two allies.
+        - cost: 3 Malice
+          effect: The warleader targets one ally and a [minion](scc.v1:mcdm.monsters.v1/rule.organization/minion) [squad](scc.v1:mcdm.monsters.v1/rule.monster/squad).
       feature_type: ability
       icon: "\U0001F3F9"
       keywords:
@@ -63,7 +65,8 @@ features:
     - cost: 3 Malice
       distance: Self and ranged 10
       effects:
-        - effect: '**Effect:** Each target moves up to their speed and can use the [Grab](scc.v1:mcdm.heroes.v1/feature.common.maneuvers/grab) maneuver, which gains an edge.'
+        - effect: Each target moves up to their speed and can use the [Grab](scc.v1:mcdm.heroes.v1/feature.common.maneuvers/grab) maneuver, which gains an edge.
+          name: Effect
       feature_type: ability
       icon: "\U0001F3F9"
       keywords:
@@ -74,21 +77,22 @@ features:
       usage: Maneuver
     - distance: Ranged 10
       effects:
-        - effect: |-
-            **Trigger:** The target obtains a tier 1 outcome on one power roll.
-            **Effect:** The target has a double edge on their next power roll before the end of the encounter.
+        - effect: The target has a double edge on their next power roll before the end of the encounter.
+          name: Effect
       feature_type: ability
       icon: ❗️
       keywords:
         - Ranged
       name: Courtesy Call
       target: One creature
+      trigger: The target obtains a tier 1 outcome on one power roll.
       type: feature
       usage: Triggered action
     - cost: Villain Action 1
       distance: 10 burst
       effects:
-        - roll: ""
+        - effect: Each target moves up to their speed. Each enemy [adjacent](scc.v1:mcdm.heroes.v1/rule.combat/adjacent) to a target after this move makes an Intuition test.
+          name: Effect
           tier1: '[Frightened](scc.v1:mcdm.heroes.v1/condition/frightened) of the warleader (save ends)'
           tier2: '[Frightened](scc.v1:mcdm.heroes.v1/condition/frightened) of the warleader (EoT)'
           tier3: No effect
@@ -103,7 +107,8 @@ features:
     - cost: Villain Action 2
       distance: Ranged 10
       effects:
-        - effect: '**Effect:** The warleader [shifts](scc.v1:mcdm.heroes.v1/movement/shifting) up to their speed, and four orc blitzers appear in unoccupied spaces within distance.'
+        - effect: The warleader [shifts](scc.v1:mcdm.heroes.v1/movement/shifting) up to their speed, and four orc blitzers appear in unoccupied spaces within distance.
+          name: Effect
       feature_type: ability
       icon: ☠️
       keywords:
@@ -115,7 +120,8 @@ features:
     - cost: Villain Action 3
       distance: Self
       effects:
-        - effect: '**Effect:** Three times in succession, the warleader [shifts](scc.v1:mcdm.heroes.v1/movement/shifting) up to their speed and can use Mace Lariat.'
+        - effect: Three times in succession, the warleader [shifts](scc.v1:mcdm.heroes.v1/movement/shifting) up to their speed and can use Mace Lariat.
+          name: Effect
       feature_type: ability
       icon: ☠️
       keywords: []

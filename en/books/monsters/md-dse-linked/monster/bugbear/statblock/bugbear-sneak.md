@@ -39,6 +39,8 @@ features:
           tier1: 8 damage; A < 1 [grabbed](../../../condition/grabbed.md)
           tier2: 13 damage; A < 2 [grabbed](../../../condition/grabbed.md)
           tier3: 16 damage; [grabbed](../../../condition/grabbed.md)
+        - effect: The target can't use triggered actions until the start of the next round. Additionally, if the sneak started their turn hidden from the target, this ability deals an extra 4 damage.
+          name: Effect
       feature_type: ability
       icon: "\U0001F5E1"
       keywords:
@@ -56,6 +58,8 @@ features:
           tier1: 2 damage; I < 0 the sneak has concealment from the target (save ends)
           tier2: 3 damage; I < 1 the sneak has concealment from the target (save ends)
           tier3: 4 damage; I < 2 the sneak has concealment from the target (save ends)
+        - effect: The sneak [shifts](../../../movement/shifting.md) up to their speed and can attempt to hide.
+          name: Effect
       feature_type: ability
       icon: ❇️
       keywords:
@@ -70,6 +74,8 @@ features:
           tier1: 7 damage; M < 0 [bleeding](../../../condition/bleeding.md) (save ends)
           tier2: 11 damage; M < 1 [bleeding](../../../condition/bleeding.md) (save ends)
           tier3: 14 damage; M < 2 [bleeding](../../../condition/bleeding.md) (save ends)
+        - effect: While [bleeding](../../../condition/bleeding.md) this way, the target can't hide from the sneak or their allies.
+          name: Effect
       feature_type: ability
       icon: "\U0001F3F9"
       keywords:
@@ -82,9 +88,10 @@ features:
       usage: Main action
     - distance: Melee 1
       effects:
-        - effect: |-
-            **Special:** The target must be [grabbed](../../../condition/grabbed.md) by the sneak.
-            **Effect:** The target is vertical [pushed](../../../movement/forced-movement.md) up to 4 squares. An ally doesn't take damage from being [force moved](../../../movement/forced-movement.md) this way.
+        - effect: The target must be [grabbed](../../../condition/grabbed.md) by the sneak.
+          name: Special
+        - effect: The target is vertical [pushed](../../../movement/forced-movement.md) up to 4 squares. An ally doesn't take damage from being [force moved](../../../movement/forced-movement.md) this way.
+          name: Effect
       feature_type: ability
       icon: "\U0001F5E1"
       keywords:
@@ -96,28 +103,28 @@ features:
       usage: Maneuver
     - distance: Melee 1
       effects:
-        - effect: |-
-            **Trigger:** A size 1 creature or object is [force moved](../../../movement/forced-movement.md) within distance, or a size 1 ally willingly moves within distance.
-            **Effect:** The target is [grabbed](../../../condition/grabbed.md) by the sneak.
+        - effect: The target is [grabbed](../../../condition/grabbed.md) by the sneak.
+          name: Effect
       feature_type: ability
       icon: ❗️
       keywords:
         - Melee
       name: Catcher
       target: The triggering creature or object
+      trigger: A size 1 creature or object is [force moved](../../../movement/forced-movement.md) within distance, or a size 1 ally willingly moves within distance.
       type: feature
       usage: Free triggered action
     - cost: 1 Malice
       distance: Special
       effects:
-        - effect: |-
-            **Trigger:** The sneak is targeted by a strike.
-            **Effect:** The sneak chooses one enemy within distance of the strike to become the target of the strike.
+        - effect: The sneak chooses one enemy within distance of the strike to become the target of the strike.
+          name: Effect
       feature_type: ability
       icon: ❗️
       keywords: []
       name: Clever Trick
       target: One enemy
+      trigger: The sneak is targeted by a strike.
       type: feature
       usage: Triggered action
 free_strike: 5

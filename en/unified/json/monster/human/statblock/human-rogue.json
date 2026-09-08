@@ -11,6 +11,10 @@
           "tier1": "1 damage",
           "tier2": "2 damage",
           "tier3": "3 damage"
+        },
+        {
+          "effect": "If the rogue is disguised or hidden when they use this ability, it deals an extra 3 damage.",
+          "name": "Effect"
         }
       ],
       "feature_type": "ability",

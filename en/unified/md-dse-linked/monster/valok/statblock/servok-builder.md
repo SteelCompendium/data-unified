@@ -35,7 +35,8 @@ features:
     - ability_type: Signature Ability
       distance: 3 cube within 5
       effects:
-        - roll: ""
+        - effect: Each target must make either an Agility test or an **Intuition test**.
+          name: Effect
           tier1: 15 damage; [push](../../../movement/forced-movement.md) 5, [prone](../../../condition/prone.md)
           tier2: 12 damage; [push](../../../movement/forced-movement.md) 3
           tier3: 8 damage
@@ -68,7 +69,8 @@ features:
     - cost: 3 Malice
       distance: 6 x 3 line within 1
       effects:
-        - roll: ""
+        - effect: The area is covered in wet concrete and is [difficult terrain](../../../movement/difficult-terrain.md). An enemy who starts their turn in the concrete makes a **Might test**.
+          name: Effect
           tier1: '[Restrained](../../../condition/restrained.md) (EoT)'
           tier2: '[Slowed](../../../condition/slowed.md) (EoT)'
           tier3: No effect
@@ -82,7 +84,8 @@ features:
       usage: Main action
     - distance: 6 wall within 3
       effects:
-        - effect: '**Effect:** The builder creates a concrete wall. They can also remove any unoccupied squares of wet concrete within 3 squares of them, creating two additional squares of wall for each square of concrete removed.'
+        - effect: The builder creates a concrete wall. They can also remove any unoccupied squares of wet concrete within 3 squares of them, creating two additional squares of wall for each square of concrete removed.
+          name: Effect
       feature_type: ability
       icon: "\U0001F533"
       keywords:
@@ -99,12 +102,15 @@ features:
           tier1: A < 2 [restrained](../../../condition/restrained.md) (save ends)
           tier2: A < 3 [restrained](../../../condition/restrained.md) (save ends)
           tier3: A < 4 [restrained](../../../condition/restrained.md) (save ends)
+        - effect: While a creature is [restrained](../../../condition/restrained.md) this way, or if the target is an object, the target and their space are encased in wet concrete. A creature no longer [restrained](../../../condition/restrained.md) leaves squares of wet concrete behind.
+          name: Effect
       feature_type: ability
       icon: ❗️
       keywords:
         - Melee
       name: Sputter
       target: The triggering creature or object
+      trigger: A creature or object within distance deals damage to the builder.
       type: feature
       usage: Free triggered action
     - effects:

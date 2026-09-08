@@ -38,6 +38,8 @@ features:
           tier1: 1 damage; [push](../../../movement/forced-movement.md) 1
           tier2: 2 damage; [push](../../../movement/forced-movement.md) 2
           tier3: 3 damage; [push](../../../movement/forced-movement.md) 4
+        - effect: A target [restrained](../../../condition/restrained.md) by a dwarf can be force moved by this ability. This forced movement doesn't end the [restrained](../../../condition/restrained.md) condition unless the Director determines otherwise.
+          name: Effect
       feature_type: ability
       icon: ⚔️
       keywords:

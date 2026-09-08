@@ -40,6 +40,8 @@ features:
           tier1: 3 corruption damage
           tier2: 6 corruption damage; P < 3 [bleeding](../../../condition/bleeding.md) (save ends)
           tier3: 8 corruption damage; [grabbed](../../../condition/grabbed.md); P < 4 [bleeding](../../../condition/bleeding.md) (save ends)
+        - effect: A target [grabbed](../../../condition/grabbed.md) this way or already [grabbed](../../../condition/grabbed.md) by the knightmare can be vertical [pushed](../../../movement/forced-movement.md) up to 5 squares.
+          name: Effect
       feature_type: ability
       icon: "\U0001F5E1"
       keywords:

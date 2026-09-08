@@ -57,6 +57,10 @@ features:
           tier1: The targets regains 10 [Stamina](scc.v1:mcdm.heroes.v1/rule.health/stamina).
           tier2: 12 corruption damage; A < 2 [weakened](scc.v1:mcdm.heroes.v1/condition/weakened) (save ends)
           tier3: 12 lightning damage; A < 2 [bleeding](scc.v1:mcdm.heroes.v1/condition/bleeding) (save ends)
+        - effect: The first time in an encounter that Aeolyxria makes a power roll for this ability, she can subsequently use the outcome of that roll instead of rolling whenever she uses this ability until the end of the encounter.
+          name: Effect
+        - cost: 2+ Malice
+          effect: The ability targets one additional target for each 2 [Malice](scc.v1:mcdm.monsters.v1/rule.monster/malice) spent.
       feature_type: ability
       icon: "\U0001F3F9"
       keywords:
@@ -70,9 +74,10 @@ features:
     - cost: 2 Malice
       distance: 1 cube within 5
       effects:
-        - effect: |-
-            **Effect:** The ground in the area rises 5 squares, creating a pillar of dirt. Any creature in the area moves with the ground to its new elevation.
-            **1+ [Malice](scc.v1:mcdm.monsters.v1/rule.monster/malice):** Aeolyxria creates an additional pillar for each [Malice](scc.v1:mcdm.monsters.v1/rule.monster/malice) spent.
+        - effect: The ground in the area rises 5 squares, creating a pillar of dirt. Any creature in the area moves with the ground to its new elevation.
+          name: Effect
+        - cost: 1+ Malice
+          effect: Aeolyxria creates an additional pillar for each [Malice](scc.v1:mcdm.monsters.v1/rule.monster/malice) spent.
       feature_type: ability
       icon: "\U0001F533"
       keywords:
@@ -95,6 +100,7 @@ features:
         - Weapon
       name: Blood For Blood
       target: One creature
+      trigger: An ally is made [bleeding](scc.v1:mcdm.heroes.v1/condition/bleeding) by the target.
       type: feature
       usage: Triggered action
     - effects:

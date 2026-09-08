@@ -1,11 +1,16 @@
 ---
 features:
     - body: The Avatar is now size 3.
+      effects:
+        - effect: The Avatar is now size 3.
       icon: ⭐️
       level: 10
       name: Size Increase
     - cost: 1 Eidos
       distance: 5 × 3 line within 1
+      effects:
+        - effect: 9 holy [damage](scc.v1:mcdm.heroes.v1/rule.damage/damage). Each target is vertically [pulled](scc.v1:mcdm.heroes.v1/movement/forced-movement) a number of squares equal to their [size](scc.v1:mcdm.heroes.v1/rule.character/size) straight down, ignoring [stability](scc.v1:mcdm.heroes.v1/rule.character/stability). If the target would be [force moved](scc.v1:mcdm.heroes.v1/movement/forced-movement) into the ground, they are buried beneath the ground instead.
+          name: Effect
       icon: ❗️
       keywords:
         - Area

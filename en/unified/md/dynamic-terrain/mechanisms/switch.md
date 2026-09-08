@@ -1,6 +1,11 @@
 ---
 features:
-    - icon: "\U0001F300"
+    - effects:
+        - effect: As a maneuver, a creature [adjacent](scc.v1:mcdm.heroes.v1/rule.combat/adjacent) to a switch can make an **Agility test**.
+          tier1: The creature triggers the switch.
+          tier2: The switch is deactivated but the creature is [slowed](scc.v1:mcdm.heroes.v1/condition/slowed) (EoT).
+          tier3: The switch is deactivated and doesn't trigger.
+      icon: "\U0001F300"
       intro: As a maneuver, a creature [adjacent](scc.v1:mcdm.heroes.v1/rule.combat/adjacent) to a switch can make an **Agility test**.
       name: Deactivate
       power_roll:
@@ -9,12 +14,18 @@ features:
             low: The creature triggers the switch.
             mid: The switch is deactivated but the creature is [slowed](scc.v1:mcdm.heroes.v1/condition/slowed) (EoT).
     - body: A creature [adjacent](scc.v1:mcdm.heroes.v1/rule.combat/adjacent) to the switch uses a maneuver to trigger it.
+      effects:
+        - effect: A creature [adjacent](scc.v1:mcdm.heroes.v1/rule.combat/adjacent) to the switch uses a maneuver to trigger it.
+        - effect: The linked mechanism is activated. A switch automatically resets and can be triggered repeatedly.
+          name: Effect
       icon: ❕
       name: Activate
       sections:
         - label: Effect
           text: The linked mechanism is activated. A switch automatically resets and can be triggered repeatedly.
     - body: '**Concealed (+1 EV)** The switch is hidden.'
+      effects:
+        - effect: '**Concealed (+1 EV)** The switch is hidden.'
       icon: ⭐️
       name: Upgrade
 flavor: Set into any surface, this mechanism acts as a trigger for another linked mechanism.

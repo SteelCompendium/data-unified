@@ -40,6 +40,8 @@ features:
           tier1: 5 damage; the remasch can [teleport](scc.v1:mcdm.heroes.v1/movement/teleport) up to 2 squares
           tier2: 6 damage; the remasch can [teleport](scc.v1:mcdm.heroes.v1/movement/teleport) up to 3 squares
           tier3: 8 damage; the remasch can [teleport](scc.v1:mcdm.heroes.v1/movement/teleport) up to 5 squares
+        - cost: 5 Malice
+          effect: The remasch takes an [adjacent](scc.v1:mcdm.heroes.v1/rule.combat/adjacent) creature with them when they [teleport](scc.v1:mcdm.heroes.v1/movement/teleport). The creature appears in an unoccupied space [adjacent](scc.v1:mcdm.heroes.v1/rule.combat/adjacent) to the remasch's destination.
       feature_type: ability
       icon: "\U0001F5E1"
       keywords:
@@ -54,7 +56,8 @@ features:
     - cost: 3 Malice
       distance: Self
       effects:
-        - effect: '**Effect:** The remasch can [teleport](scc.v1:mcdm.heroes.v1/movement/teleport) up to 2 squares and uses Abyssal Strike.'
+        - effect: The remasch can [teleport](scc.v1:mcdm.heroes.v1/movement/teleport) up to 2 squares and uses Abyssal Strike.
+          name: Effect
       feature_type: ability
       icon: "\U0001F464"
       keywords:

@@ -52,7 +52,8 @@ features:
       usage: Main action
     - distance: Self
       effects:
-        - effect: '**Effect:** The ghoul jumps up to 3 squares. If they land on a size 1 enemy, that enemy is knocked [prone](../../../../condition/prone.md) and the ghoul can make a [free strike](../../../../feature/common/main-actions/free-strike.md) against them.'
+        - effect: The ghoul jumps up to 3 squares. If they land on a size 1 enemy, that enemy is knocked [prone](../../../../condition/prone.md) and the ghoul can make a [free strike](../../../../feature/common/main-actions/free-strike.md) against them.
+          name: Effect
       feature_type: ability
       icon: "\U0001F464"
       keywords: []

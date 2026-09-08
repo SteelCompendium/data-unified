@@ -2,10 +2,14 @@
 features:
     - body: The undead activates a [Malice](scc.v1:mcdm.monsters.v1/rule.monster/malice) feature available to undead of level 3 or lower.
       cost: 2-7+ Malice
+      effects:
+        - effect: The undead activates a [Malice](scc.v1:mcdm.monsters.v1/rule.monster/malice) feature available to undead of level 3 or lower.
       icon: ⭐️
       name: Prior Malice Features
     - body: One undead acting this turn uses a [signature ability](scc.v1:mcdm.heroes.v1/rule.combat/signature-ability) against a creature who is [bleeding](scc.v1:mcdm.heroes.v1/condition/bleeding). As a free triggered action, each undead within 5 squares of the first undead moves up to their speed and can make a [free strike](scc.v1:mcdm.heroes.v1/feature.common.main-actions/free-strike) against the same target.
       cost: 5 Malice
+      effects:
+        - effect: One undead acting this turn uses a [signature ability](scc.v1:mcdm.heroes.v1/rule.combat/signature-ability) against a creature who is [bleeding](scc.v1:mcdm.heroes.v1/condition/bleeding). As a free triggered action, each undead within 5 squares of the first undead moves up to their speed and can make a [free strike](scc.v1:mcdm.heroes.v1/feature.common.main-actions/free-strike) against the same target.
       icon: "\U0001F300"
       name: Blood Hunger
 flavor: At the start of any level 4 or higher undead's turn, you can spend Malice to activate one of the following features.

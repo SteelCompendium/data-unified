@@ -36,7 +36,14 @@ features:
     - ability_type: Signature Ability
       distance: Ranged 10
       effects:
-        - roll: Power Roll + 2
+        - effect: A detonator attaches to the target. At the end of each round, roll a die. On an odd result, the detonator explodes, triggering the following power roll.
+          name: Effect
+          roll: Power Roll + 2
+          tier1: 4 acid damage; M < 0 [bleeding](../../../../condition/bleeding.md) (save ends)
+          tier2: 6 acid damage; M < 1 [bleeding](../../../../condition/bleeding.md) (save ends)
+          tier3: 10 acid damage; M < 2 [bleeding](../../../../condition/bleeding.md) (save ends)
+        - effect: A creature [adjacent](../../../../rule/combat/adjacent.md) to the target can attempt an **Agility test** as a maneuver to remove the detonator.
+          name: Special
           tier1: No effect.
           tier2: The detonator is disarmed and destroyed.
           tier3: The creature can attach the detonator to another creature or object within 5 squares of them.
@@ -51,7 +58,8 @@ features:
       usage: Main action
     - distance: Ranged 10
       effects:
-        - effect: '**Effect:** If the target has a loyalty collar, they are reduced to 0 [Stamina](../../../../rule/health/stamina.md).'
+        - effect: If the target has a loyalty collar, they are reduced to 0 [Stamina](../../../../rule/health/stamina.md).
+          name: Effect
       feature_type: ability
       icon: "\U0001F3F9"
       keywords:

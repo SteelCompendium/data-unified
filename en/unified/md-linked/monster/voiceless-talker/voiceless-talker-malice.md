@@ -2,10 +2,19 @@
 features:
     - body: One non-[minion](../../rule/organization/minion.md) voiceless talker projects a psionic screen over their body, preventing other creatures from treating them as an enemy until the end of the voiceless talker's next turn.
       cost: 3 Malice
+      effects:
+        - effect: One non-[minion](../../rule/organization/minion.md) voiceless talker projects a psionic screen over their body, preventing other creatures from treating them as an enemy until the end of the voiceless talker's next turn.
       icon: "\U0001F464"
       name: Guise
     - cost: 5 Malice
       distance: Ranged 5
+      effects:
+        - roll: Power Roll + 3
+          tier1: 6 psychic damage; R < 1 the target can't treat their allies as allies (save ends)
+          tier2: 10 psychic damage; R < 2 the target perceives their allies as enemies (save ends)
+          tier3: 13 psychic damage; R < 3 the target perceives their allies as enemies (save ends)
+        - effect: This ability can't be used by a [minion](../../rule/organization/minion.md).
+          name: Special
       icon: "\U0001F3F9"
       keywords:
         - Psionic
@@ -24,6 +33,8 @@ features:
       usage: Maneuver
     - body: All voiceless talkers link their minds, creating a circuit that empowers them while two or more voiceless talkers remain in the encounter. While this circuit is active, any psionic strike made by a voiceless talker deals an extra 5 damage. Additionally, when a non-[minion](../../rule/organization/minion.md) voiceless talker takes damage, they can use a free triggered action to swap places with any voiceless talker [minion](../../rule/organization/minion.md) on the encounter map. The [minion](../../rule/organization/minion.md) takes the damage instead.
       cost: 10 Malice
+      effects:
+        - effect: All voiceless talkers link their minds, creating a circuit that empowers them while two or more voiceless talkers remain in the encounter. While this circuit is active, any psionic strike made by a voiceless talker deals an extra 5 damage. Additionally, when a non-[minion](../../rule/organization/minion.md) voiceless talker takes damage, they can use a free triggered action to swap places with any voiceless talker [minion](../../rule/organization/minion.md) on the encounter map. The [minion](../../rule/organization/minion.md) takes the damage instead.
       icon: "\U0001F300"
       name: Evolutionary Circuit
 flavor: At the start of any voiceless talker's turn, you can spend Malice to activate one of the following features.

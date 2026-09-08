@@ -39,6 +39,8 @@ features:
           tier1: 9 damage
           tier2: 14 damage; A < 2 [slowed](../../../condition/slowed.md) (save ends)
           tier3: 17 damage; A < 3 [slowed](../../../condition/slowed.md) (save ends)
+        - effect: If the targets are [adjacent](../../../rule/combat/adjacent.md) to each other, this ability deals an extra 3 damage.
+          name: Effect
       feature_type: ability
       icon: "\U0001F5E1"
       keywords:
@@ -55,6 +57,8 @@ features:
           tier1: 6 damage; M < 1 [prone](../../../condition/prone.md)
           tier2: 11 damage; M < 2 [prone](../../../condition/prone.md) and can't stand (save ends)
           tier3: 14 damage; M < 3 [prone](../../../condition/prone.md) and can't stand (save ends)
+        - effect: If this ability is used as part of the [Charge](../../../feature/common/main-actions/charge.md) main action, the legate ignores [difficult terrain](../../../movement/difficult-terrain.md) during the charge. Each creature and object whose space the legate moves through takes the damage from this ability, but not its additional effects.
+          name: Effect
       feature_type: ability
       icon: "\U0001F5E1"
       keywords:
@@ -68,7 +72,8 @@ features:
       usage: Main action
     - distance: Melee 1
       effects:
-        - effect: '**Effect:** The target is [taunted](../../../condition/taunted.md) by the legate (save ends). The legate can have only one creature [taunted](../../../condition/taunted.md) at a time.'
+        - effect: The target is [taunted](../../../condition/taunted.md) by the legate (save ends). The legate can have only one creature [taunted](../../../condition/taunted.md) at a time.
+          name: Effect
       feature_type: ability
       icon: "\U0001F5E1"
       keywords:
@@ -80,7 +85,8 @@ features:
     - cost: 2 Malice
       distance: Ranged 5
       effects:
-        - roll: ""
+        - effect: The target makes a Presence test.
+          name: Effect
           tier1: The legate chooses a new target for the strike.
           tier2: The legate halves the triggering damage.
           tier3: The target takes a [bane](../../../rule/dice/bane.md) on the strike.
@@ -91,6 +97,7 @@ features:
         - Ranged
       name: Devilish Charm
       target: The triggering creature
+      trigger: A creature targets the legate with a strike.
       type: feature
       usage: Triggered action
     - effects:

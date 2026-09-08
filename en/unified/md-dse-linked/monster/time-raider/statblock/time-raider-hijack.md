@@ -39,6 +39,8 @@ features:
           tier1: 7 damage
           tier2: 11 damage
           tier3: 14 damage; A < 2 [bleeding](../../../condition/bleeding.md) (save ends)
+        - effect: The hijack is hidden from any creature who is [bleeding](../../../condition/bleeding.md) from this ability until that condition ends.
+          name: Effect
       feature_type: ability
       icon: "\U0001F5E1"
       keywords:
@@ -52,7 +54,8 @@ features:
       usage: Main action
     - distance: Ranged 5
       effects:
-        - effect: '**Effect:** The hijack psychically latches their sickle onto the target and closes the distance between them. If the target is larger than the hijack, the hijack moves [adjacent](../../../rule/combat/adjacent.md) to the target. Otherwise, the target is [pulled](../../../movement/forced-movement.md) up to 4 squares toward the hijack.'
+        - effect: The hijack psychically latches their sickle onto the target and closes the distance between them. If the target is larger than the hijack, the hijack moves [adjacent](../../../rule/combat/adjacent.md) to the target. Otherwise, the target is [pulled](../../../movement/forced-movement.md) up to 4 squares toward the hijack.
+          name: Effect
       feature_type: ability
       icon: "\U0001F3F9"
       keywords:

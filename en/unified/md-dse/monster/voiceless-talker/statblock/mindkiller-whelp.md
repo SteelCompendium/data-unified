@@ -53,15 +53,15 @@ features:
       usage: Main action
     - distance: Self
       effects:
-        - effect: |-
-            **Trigger:** The whelp reduces a non-[minion](scc.v1:mcdm.monsters.v1/rule.organization/minion) creature to 0 [Stamina](scc.v1:mcdm.heroes.v1/rule.health/stamina).
-            **Effect:** The whelp transforms into a mindkiller whose [Stamina](scc.v1:mcdm.heroes.v1/rule.health/stamina) equals their squad's [Stamina](scc.v1:mcdm.heroes.v1/rule.health/stamina) pool before transforming. The [Stamina](scc.v1:mcdm.heroes.v1/rule.health/stamina) pool then loses the whelp's [Stamina](scc.v1:mcdm.heroes.v1/rule.health/stamina).
+        - effect: The whelp transforms into a mindkiller whose [Stamina](scc.v1:mcdm.heroes.v1/rule.health/stamina) equals their squad's [Stamina](scc.v1:mcdm.heroes.v1/rule.health/stamina) pool before transforming. The [Stamina](scc.v1:mcdm.heroes.v1/rule.health/stamina) pool then loses the whelp's [Stamina](scc.v1:mcdm.heroes.v1/rule.health/stamina).
+          name: Effect
       feature_type: ability
       icon: ❗️
       keywords:
         - Psionic
       name: Feast
       target: Self
+      trigger: The whelp reduces a non-[minion](scc.v1:mcdm.monsters.v1/rule.organization/minion) creature to 0 [Stamina](scc.v1:mcdm.heroes.v1/rule.health/stamina).
       type: feature
       usage: Triggered Action
     - effects:

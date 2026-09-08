@@ -35,9 +35,8 @@ agility: 1
 ev: "48"
 features:
     - effects:
-        - effect: |-
-            The summoner can command up to two squads of minions with a maximum of 8 minions per squad. They can only have one squad of [signature minions](scc.v1:mcdm.summoner.v1/feature.summoner.level-1/minions) active at any time.
-            At the start of each of the summoner's turns, up to four **skeletons** appear in unoccupied spaces within 5 squares of the summoner. On each of the summoner's turns, they direct the squad of skeletons to move and use a main action.
+        - effect: The summoner can command up to two squads of minions with a maximum of 8 minions per squad. They can only have one squad of [signature minions](scc.v1:mcdm.summoner.v1/feature.summoner.level-1/minions) active at any time.
+        - effect: At the start of each of the summoner's turns, up to four **skeletons** appear in unoccupied spaces within 5 squares of the summoner. On each of the summoner's turns, they direct the squad of skeletons to move and use a main action.
       feature_type: trait
       icon: ⭐️
       name: Undead Summoner
@@ -45,7 +44,8 @@ features:
     - ability_type: Signature Ability
       distance: Ranged 10
       effects:
-        - effect: '**Effect:** Each of the summoner''s minions within 5 squares of the target makes a [free strike](scc.v1:mcdm.heroes.v1/feature.common.main-actions/free-strike) against the target. The target takes an additional 5 damage for each of the summoner''s squads that joined the attack.'
+        - effect: Each of the summoner's minions within 5 squares of the target makes a [free strike](scc.v1:mcdm.heroes.v1/feature.common.main-actions/free-strike) against the target. The target takes an additional 5 damage for each of the summoner's squads that joined the attack.
+          name: Effect
       feature_type: ability
       icon: "\U0001F3F9"
       keywords:
@@ -59,7 +59,8 @@ features:
     - cost: 1+ Malice
       distance: Ranged 10
       effects:
-        - effect: '**Effect:** The summoner summons the listed number of minions for their Malice cost into unoccupied spaces within distance. If the minions are a part of a new squad, the summoner directs the squad to move and use a main action on each of their turns.'
+        - effect: The summoner summons the listed number of minions for their Malice cost into unoccupied spaces within distance. If the minions are a part of a new squad, the summoner directs the squad to move and use a main action on each of their turns.
+          name: Effect
       feature_type: ability
       icon: "\U0001F3F9"
       keywords:
@@ -72,14 +73,14 @@ features:
     - cost: 2 Malice
       distance: Ranged 10
       effects:
-        - effect: |-
-            **Trigger:** The target is targeted by a [strike](scc.v1:mcdm.heroes.v1/rule.combat/strike).
-            **Effect:** The summoner summons a **grave knight** into an unoccupied space [adjacent](scc.v1:mcdm.heroes.v1/rule.combat/adjacent) to the target. They become the new target of the strike. The target can [shift](scc.v1:mcdm.heroes.v1/movement/shifting) into any square [adjacent](scc.v1:mcdm.heroes.v1/rule.combat/adjacent) to the minion.
+        - effect: The summoner summons a **grave knight** into an unoccupied space [adjacent](scc.v1:mcdm.heroes.v1/rule.combat/adjacent) to the target. They become the new target of the strike. The target can [shift](scc.v1:mcdm.heroes.v1/movement/shifting) into any square [adjacent](scc.v1:mcdm.heroes.v1/rule.combat/adjacent) to the minion.
+          name: Effect
       feature_type: ability
       icon: ❗️
       keywords: []
       name: Death Strikes Back
       target: Self or one ally
+      trigger: The target is targeted by a [strike](scc.v1:mcdm.heroes.v1/rule.combat/strike).
       type: feature
       usage: Triggered action
     - cost: With All of Us

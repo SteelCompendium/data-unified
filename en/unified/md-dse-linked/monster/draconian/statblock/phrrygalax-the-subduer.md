@@ -69,7 +69,8 @@ features:
       usage: Main action
     - distance: Self
       effects:
-        - effect: '**Effect:** Phrrygalax [flies](../../../movement/fly.md) up to his speed and lands in an unoccupied space on the ground. Each creature [adjacent](../../../rule/combat/adjacent.md) to where he lands who has A < 2 is knocked [prone](../../../condition/prone.md).'
+        - effect: Phrrygalax [flies](../../../movement/fly.md) up to his speed and lands in an unoccupied space on the ground. Each creature [adjacent](../../../rule/combat/adjacent.md) to where he lands who has A < 2 is knocked [prone](../../../condition/prone.md).
+          name: Effect
       feature_type: ability
       icon: "\U0001F464"
       keywords:
@@ -81,26 +82,26 @@ features:
     - cost: 2 Malice
       distance: Self
       effects:
-        - effect: |-
-            **Trigger:** Phrrygalax takes acid, cold, corruption, fire, lightning, or poison damage.
-            **Effect:** Phrrygalax takes no damage and instead regains the same amount of [Stamina](../../../rule/health/stamina.md). He then swaps his current damage immunity with the triggering damage type.
+        - effect: Phrrygalax takes no damage and instead regains the same amount of [Stamina](../../../rule/health/stamina.md). He then swaps his current damage immunity with the triggering damage type.
+          name: Effect
       feature_type: ability
       icon: ❗️
       keywords: []
       name: Armor of the Ancients
       target: Self
+      trigger: Phrrygalax takes acid, cold, corruption, fire, lightning, or poison damage.
       type: feature
       usage: Triggered action
     - distance: Self
       effects:
-        - effect: |-
-            **Trigger:** Phrrygalax hears a creature within 5 squares reciting the oath of Good King Omund's Dragon Phalanx.
-            **Effect:** Phrrygalax [shifts](../../../movement/shifting.md) up to his speed and uses Baneful Blade against the triggering creature. That ability deals an extra 7 damage.
+        - effect: Phrrygalax [shifts](../../../movement/shifting.md) up to his speed and uses Baneful Blade against the triggering creature. That ability deals an extra 7 damage.
+          name: Effect
       feature_type: ability
       icon: ❗️
       keywords: []
       name: Still Your Tongue!
       target: Self
+      trigger: Phrrygalax hears a creature within 5 squares reciting the oath of Good King Omund's Dragon Phalanx.
       type: feature
       usage: Free triggered action
     - effects:

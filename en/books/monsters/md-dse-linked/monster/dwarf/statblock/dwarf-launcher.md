@@ -37,6 +37,8 @@ features:
           tier1: 3 damage; [push](../../../movement/forced-movement.md) 1
           tier2: 6 damage; [push](../../../movement/forced-movement.md) 3; M < 1 [slowed](../../../condition/slowed.md) (save ends)
           tier3: 8 damage; [push](../../../movement/forced-movement.md) 3; M < 2 [slowed](../../../condition/slowed.md) (save ends)
+        - effect: A target [restrained](../../../condition/restrained.md) by a dwarf can be force moved by this ability. This forced movement doesn't end the [restrained](../../../condition/restrained.md) condition unless the Director determines otherwise.
+          name: Effect
       feature_type: ability
       icon: "\U0001F533"
       keywords:
@@ -54,6 +56,8 @@ features:
           tier1: 3 poison damage; I < 0 [dazed](../../../condition/dazed.md) (save ends)
           tier2: 6 poison damage; I < 1 [dazed](../../../condition/dazed.md) (save ends)
           tier3: 8 poison damage; I < 2 [dazed](../../../condition/dazed.md) (save ends)
+        - effect: A target [dazed](../../../condition/dazed.md) this way treats their characteristic scores as 1 lower for the purpose of resisting [potencies](../../../rule/character/potency.md).
+          name: Effect
       feature_type: ability
       icon: "\U0001F533"
       keywords:

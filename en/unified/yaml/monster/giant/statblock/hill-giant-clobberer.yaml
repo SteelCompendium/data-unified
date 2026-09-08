@@ -8,6 +8,8 @@ features:
           tier1: 12 damage
           tier2: 17 damage; [prone](scc.v1:mcdm.heroes.v1/condition/prone)
           tier3: 21 damage; [prone](scc.v1:mcdm.heroes.v1/condition/prone)
+        - effect: A target who is already [prone](scc.v1:mcdm.heroes.v1/condition/prone) takes an extra 12 damage.
+          name: Effect
       feature_type: ability
       icon: "\U0001F5E1"
       keywords:
@@ -26,6 +28,8 @@ features:
           tier1: 14 damage; [prone](scc.v1:mcdm.heroes.v1/condition/prone)
           tier2: 20 damage; [prone](scc.v1:mcdm.heroes.v1/condition/prone); M < 3 can't stand (save ends)
           tier3: 25 damage; [prone](scc.v1:mcdm.heroes.v1/condition/prone); M < 4 can't stand (save ends)
+        - effect: In suitably soft ground, the target is entrenched in a 2-square deep hole.
+          name: Effect
       feature_type: ability
       icon: "\U0001F5E1"
       keywords:
@@ -38,10 +42,13 @@ features:
       usage: Main action
     - distance: 3 burst
       effects:
-        - roll: ""
+        - effect: Each target must make either a **Might test** or an **Agility test**.
+          name: Effect
           tier1: 6 damage; vertical [push](scc.v1:mcdm.heroes.v1/movement/forced-movement) 3
           tier2: 2 damage; vertical [push](scc.v1:mcdm.heroes.v1/movement/forced-movement) 2
           tier3: '[Push](scc.v1:mcdm.heroes.v1/movement/forced-movement) 2'
+        - effect: The clobberer can choose to fall [prone](scc.v1:mcdm.heroes.v1/condition/prone) in order to double the [forced movement](scc.v1:mcdm.heroes.v1/movement/forced-movement) distance.
+          name: Effect
       feature_type: ability
       icon: ❇️
       keywords:
@@ -52,16 +59,20 @@ features:
       usage: Maneuver
     - distance: Melee 3
       effects:
-        - roll: ""
+        - effect: The target makes an Agility test.
+          name: Effect
           tier1: '[Grabbed](scc.v1:mcdm.heroes.v1/condition/grabbed), and the target takes a bane on the Escape Grab maneuver'
           tier2: '[Grabbed](scc.v1:mcdm.heroes.v1/condition/grabbed)'
           tier3: No effect
+        - cost: 2 Malice
+          effect: A target who would be [grabbed](scc.v1:mcdm.heroes.v1/condition/grabbed) by this ability is instead either vertical [pushed](scc.v1:mcdm.heroes.v1/movement/forced-movement) up to 5 squares; or they take 5 damage, are knocked [prone](scc.v1:mcdm.heroes.v1/condition/prone), and can't stand until the end of their next turn.
       feature_type: ability
       icon: ❗️
       keywords:
         - Melee
       name: You Ain't Getting Away
       target: The triggering creature
+      trigger: A creature within distance moves or [shifts](scc.v1:mcdm.heroes.v1/movement/shifting) away from the clobberer.
       type: feature
       usage: Triggered action
     - effects:

@@ -40,6 +40,8 @@ features:
           tier1: 9 damage; M < 1 [bleeding](../../../condition/bleeding.md) (save ends)
           tier2: 14 damage; M < 2 [bleeding](../../../condition/bleeding.md) (save ends)
           tier3: 17 damage; M < 3 [bleeding](../../../condition/bleeding.md) (save ends)
+        - cost: 1 Malice
+          effect: The butcher regains [Stamina](../../../rule/health/stamina.md) equal to the damage dealt.
       feature_type: ability
       icon: "\U0001F5E1"
       keywords:
@@ -56,6 +58,8 @@ features:
           tier1: 5 poison damage; M < 1 [weakened](../../../condition/weakened.md) (save ends)
           tier2: 9 poison damage; M < 2 [weakened](../../../condition/weakened.md) (save ends)
           tier3: 11 poison damage; M < 3 [weakened](../../../condition/weakened.md) (save ends)
+        - effect: Each troll in the area ignores the damage and instead regains 3 [Stamina](../../../rule/health/stamina.md).
+          name: Effect
       feature_type: ability
       icon: "\U0001F533"
       keywords:
@@ -68,7 +72,8 @@ features:
     - cost: 2 Malice
       distance: Self
       effects:
-        - effect: '**Effect:** The butcher enhances their next use of Savoring Bite, changing the damage type and condition imposed to one of the following pairs: corruption damage and [dazed](../../../condition/dazed.md), acid damage and [restrained](../../../condition/restrained.md), or lightning damage and [frightened](../../../condition/frightened.md).'
+        - effect: 'The butcher enhances their next use of Savoring Bite, changing the damage type and condition imposed to one of the following pairs: corruption damage and [dazed](../../../condition/dazed.md), acid damage and [restrained](../../../condition/restrained.md), or lightning damage and [frightened](../../../condition/frightened.md).'
+          name: Effect
       feature_type: ability
       icon: "\U0001F464"
       keywords: []
@@ -78,15 +83,15 @@ features:
       usage: Maneuver
     - distance: Melee 1
       effects:
-        - effect: |-
-            **Trigger:** A creature within distance deals damage to the butcher with an ability that gains an edge, has a double edge, or uses a [surge](../../../rule/resource/surge.md).
-            **Effect:** The butcher makes a [free strike](../../../feature/common/main-actions/free-strike.md) against the target. Until the end of their next turn, the butcher gains an edge on power rolls and deals an extra 3 damage with strikes.
+        - effect: The butcher makes a [free strike](../../../feature/common/main-actions/free-strike.md) against the target. Until the end of their next turn, the butcher gains an edge on power rolls and deals an extra 3 damage with strikes.
+          name: Effect
       feature_type: ability
       icon: ❗️
       keywords:
         - Melee
       name: Acquired Taste
       target: The triggering creature
+      trigger: A creature within distance deals damage to the butcher with an ability that gains an edge, has a double edge, or uses a [surge](../../../rule/resource/surge.md).
       type: feature
       usage: Triggered action
     - effects:

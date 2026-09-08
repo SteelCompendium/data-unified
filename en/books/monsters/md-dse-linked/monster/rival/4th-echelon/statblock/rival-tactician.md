@@ -37,6 +37,8 @@ features:
           tier1: 15 damage
           tier2: 21 damage; A < 4 [prone](../../../../condition/prone.md) and can't stand (EoT)
           tier3: 25 damage; [prone](../../../../condition/prone.md); A < 5 can't stand (EoT)
+        - cost: 5 Malice
+          effect: Two allies within distance move up to their speed and can use a [signature ability](../../../../rule/combat/signature-ability.md) that has a double edge.
       feature_type: ability
       icon: "\U0001F3F9"
       keywords:
@@ -54,6 +56,8 @@ features:
           tier1: 10 damage; M < 3 [weakened](../../../../condition/weakened.md) (save ends)
           tier2: 16 damage; M < 4 [weakened](../../../../condition/weakened.md) (save ends)
           tier3: 20 damage; M < 5 [weakened](../../../../condition/weakened.md) (save ends)
+        - effect: Each ally in the area regains 10 [Stamina](../../../../rule/health/stamina.md).
+          name: Effect
       feature_type: ability
       icon: "\U0001F533"
       keywords:
@@ -66,15 +70,15 @@ features:
       usage: Main action
     - distance: Ranged 10
       effects:
-        - effect: |-
-            **Trigger:** An enemy within distance willingly moves.
-            **Effect:** At any point during the movement, the tactician and one ally within distance can use a [signature ability](../../../../rule/combat/signature-ability.md) against the target.
+        - effect: At any point during the movement, the tactician and one ally within distance can use a [signature ability](../../../../rule/combat/signature-ability.md) against the target.
+          name: Effect
       feature_type: ability
       icon: ❗️
       keywords:
         - Ranged
       name: Battlefield Control
       target: The triggering enemy
+      trigger: An enemy within distance willingly moves.
       type: feature
       usage: Triggered action
     - effects:

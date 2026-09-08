@@ -41,6 +41,8 @@ features:
           tier1: 5 fire damage
           tier2: 9 fire damage
           tier3: 12 fire damage; A < STRONG the target is burning (save ends)
+        - effect: A burning creature takes 1d6 fire damage at the start of each of their turns. A burning object takes 1d6 fire damage at the end of each round.
+          name: Effect
       feature_type: ability
       icon: "\U0001F3F9"
       keywords:
@@ -53,7 +55,8 @@ features:
       usage: Main action
     - distance: Ranged 10
       effects:
-        - effect: '**Effect:** Until the end of the flameslinger''s next turn, the target has fire weakness equal to the flameslinger''s level. If the target is the flameslinger''s mentor, they instead have fire immunity equal to the flameslinger''s level.'
+        - effect: Until the end of the flameslinger's next turn, the target has fire weakness equal to the flameslinger's level. If the target is the flameslinger's mentor, they instead have fire immunity equal to the flameslinger's level.
+          name: Effect
       feature_type: ability
       icon: "\U0001F3F9"
       keywords:

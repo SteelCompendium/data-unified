@@ -55,7 +55,8 @@ features:
     - cost: Encounter
       distance: Melee 1
       effects:
-        - effect: '**Effect:** The Nameless''s mentor enters the Nameless''s space and rides on their back. The Nameless or the mentor can move the mentor to an [adjacent](../../../rule/combat/adjacent.md) space as a free maneuver. While in the Nameless''s space, the mentor moves with them and can''t use their move action, and ability rolls against the mentor take a bane.'
+        - effect: The Nameless's mentor enters the Nameless's space and rides on their back. The Nameless or the mentor can move the mentor to an [adjacent](../../../rule/combat/adjacent.md) space as a free maneuver. While in the Nameless's space, the mentor moves with them and can't use their move action, and ability rolls against the mentor take a bane.
+          name: Effect
       feature_type: ability
       icon: "\U0001F5E1"
       keywords:

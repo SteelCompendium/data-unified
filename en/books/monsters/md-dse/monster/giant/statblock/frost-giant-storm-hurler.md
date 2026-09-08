@@ -39,6 +39,8 @@ features:
           tier1: 13 cold damage
           tier2: 18 cold damage; M < 3 [bleeding](scc.v1:mcdm.heroes.v1/condition/bleeding) (save ends)
           tier3: 22 cold damage; M < 4 [bleeding](scc.v1:mcdm.heroes.v1/condition/bleeding) (save ends)
+        - effect: Whenever a creature [bleeding](scc.v1:mcdm.heroes.v1/condition/bleeding) this way takes damage from that condition, their speed decreases by 1 (to a minimum of 0) until that condition ends.
+          name: Effect
       feature_type: ability
       icon: "\U0001F3F9"
       keywords:
@@ -52,7 +54,8 @@ features:
     - cost: 3 Malice
       distance: Ranged 15
       effects:
-        - roll: ""
+        - effect: The storm hurler throws three size 1L ice javelins into unoccupied squares within distance. Each javelin has 30 [Stamina](scc.v1:mcdm.heroes.v1/rule.health/stamina) and fire weakness 5. At the start of the storm hurler's next turn, all javelins not destroyed explode in a shower of icicles. Each enemy and object within 3 squares of an exploding javelin makes an **Agility test**.
+          name: Effect
           tier1: 14 cold damage; [push](scc.v1:mcdm.heroes.v1/movement/forced-movement) 4; [bleeding](scc.v1:mcdm.heroes.v1/condition/bleeding) (save ends)
           tier2: 11 cold damage; [push](scc.v1:mcdm.heroes.v1/movement/forced-movement) 2; [slowed](scc.v1:mcdm.heroes.v1/condition/slowed) (save ends)
           tier3: 7 cold damage
@@ -67,7 +70,8 @@ features:
       usage: Main action
     - distance: Melee 1
       effects:
-        - effect: '**Effect:** The storm hurler and the target each [shift](scc.v1:mcdm.heroes.v1/movement/shifting) up to 6 squares while staying [adjacent](scc.v1:mcdm.heroes.v1/rule.combat/adjacent) to each other. The target can then jump up to 5 squares and make a [free strike](scc.v1:mcdm.heroes.v1/feature.common.main-actions/free-strike).'
+        - effect: The storm hurler and the target each [shift](scc.v1:mcdm.heroes.v1/movement/shifting) up to 6 squares while staying [adjacent](scc.v1:mcdm.heroes.v1/rule.combat/adjacent) to each other. The target can then jump up to 5 squares and make a [free strike](scc.v1:mcdm.heroes.v1/feature.common.main-actions/free-strike).
+          name: Effect
       feature_type: ability
       icon: "\U0001F5E1"
       keywords:
@@ -78,14 +82,14 @@ features:
       usage: Maneuver
     - distance: Self
       effects:
-        - effect: |-
-            **Trigger:** The storm hurler is targeted by a ranged strike.
-            **Effect:** The triggering strike has a double bane. If the strike obtains a tier 1 outcome, the storm hurler uses Ice Javelins against the creature who made it.
+        - effect: The triggering strike has a double bane. If the strike obtains a tier 1 outcome, the storm hurler uses Ice Javelins against the creature who made it.
+          name: Effect
       feature_type: ability
       icon: ❗️
       keywords: []
       name: Frozen Retribution
       target: Self
+      trigger: The storm hurler is targeted by a ranged strike.
       type: feature
       usage: Triggered action
     - effects:

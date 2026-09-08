@@ -8,6 +8,8 @@ features:
           tier1: 6 damage; I < 2 [dazed](scc.v1:mcdm.heroes.v1/condition/dazed) (save ends)
           tier2: 10 damage; I < 3 [dazed](scc.v1:mcdm.heroes.v1/condition/dazed) (save ends)
           tier3: 14 damage; I < 4 [dazed](scc.v1:mcdm.heroes.v1/condition/dazed) (save ends)
+        - effect: If the target has any effect on them that can be ended by a saving throw or that ends at the end of their turn, they are also knocked [prone](scc.v1:mcdm.heroes.v1/condition/prone).
+          name: Effect
       feature_type: ability
       icon: "\U0001F533"
       keywords:
@@ -25,6 +27,8 @@ features:
           tier1: Vertical [push](scc.v1:mcdm.heroes.v1/movement/forced-movement) 7
           tier2: Vertical [push](scc.v1:mcdm.heroes.v1/movement/forced-movement) 10
           tier3: Vertical [push](scc.v1:mcdm.heroes.v1/movement/forced-movement) 12
+        - effect: Against a target who is [prone](scc.v1:mcdm.heroes.v1/condition/prone) or [grabbed](scc.v1:mcdm.heroes.v1/condition/grabbed), this ability has a double edge.
+          name: Effect
       feature_type: ability
       icon: "\U0001F5E1"
       keywords:
@@ -36,7 +40,8 @@ features:
       usage: Main action
     - distance: 10 x 2 line within 1
       effects:
-        - effect: '**Effect:** The ground in the area becomes slick and glossy. Any non-giant who starts or ends their turn in the area is knocked [prone](scc.v1:mcdm.heroes.v1/condition/prone) and [slides](scc.v1:mcdm.heroes.v1/movement/forced-movement) 2 squares.'
+        - effect: The ground in the area becomes slick and glossy. Any non-giant who starts or ends their turn in the area is knocked [prone](scc.v1:mcdm.heroes.v1/condition/prone) and [slides](scc.v1:mcdm.heroes.v1/movement/forced-movement) 2 squares.
+          name: Effect
       feature_type: ability
       icon: "\U0001F533"
       keywords:
@@ -48,14 +53,14 @@ features:
     - cost: 1 Malice
       distance: Self
       effects:
-        - effect: |-
-            **Trigger:** The marble stone giant takes damage.
-            **Effect:** The marble stone giant halves the damage, and has damage weakness 3 and a +3 bonus to speed until the end of the encounter. The damage weakness increases by 3 each time the marble stone giant uses this ability in the same encounter.
+        - effect: The marble stone giant halves the damage, and has damage weakness 3 and a +3 bonus to speed until the end of the encounter. The damage weakness increases by 3 each time the marble stone giant uses this ability in the same encounter.
+          name: Effect
       feature_type: ability
       icon: ❗️
       keywords: []
       name: Break Armor
       target: Self
+      trigger: The marble stone giant takes damage.
       type: feature
       usage: Triggered action
     - effects:

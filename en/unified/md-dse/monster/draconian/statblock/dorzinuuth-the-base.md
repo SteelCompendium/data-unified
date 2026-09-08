@@ -40,6 +40,8 @@ features:
           tier1: 11 damage; M < 2 [prone](scc.v1:mcdm.heroes.v1/condition/prone)
           tier2: 16 damage; M < 3 [prone](scc.v1:mcdm.heroes.v1/condition/prone)
           tier3: 19 damage; M < 4 [prone](scc.v1:mcdm.heroes.v1/condition/prone)
+        - cost: 2 Malice
+          effect: If the target has M < 4, they are also [bleeding](scc.v1:mcdm.heroes.v1/condition/bleeding) (save ends).
       feature_type: ability
       icon: "\U0001F5E1"
       keywords:
@@ -52,7 +54,9 @@ features:
       usage: Main action
     - distance: 5 x 2 line within 1
       effects:
-        - roll: Power Roll + 4
+        - effect: Before the power roll is made, Dorzinuuth [shifts](scc.v1:mcdm.heroes.v1/movement/shifting) to an unoccupied space [adjacent](scc.v1:mcdm.heroes.v1/rule.combat/adjacent) to the end of the line.
+          name: Effect
+          roll: Power Roll + 4
           tier1: 7 damage
           tier2: 13 damage; M < 3 [prone](scc.v1:mcdm.heroes.v1/condition/prone)
           tier3: 15 damage; M < 4 [prone](scc.v1:mcdm.heroes.v1/condition/prone)
@@ -67,15 +71,15 @@ features:
       usage: Maneuver
     - distance: Melee 1
       effects:
-        - effect: |-
-            **Trigger:** An ally within distance takes damage while Dorzinuuth isn't [flying](scc.v1:mcdm.heroes.v1/movement/fly).
-            **Effect:** Dorzinuuth shields the triggering ally with his wings, halving the damage.
+        - effect: Dorzinuuth shields the triggering ally with his wings, halving the damage.
+          name: Effect
       feature_type: ability
       icon: ❗️
       keywords:
         - Melee
       name: Watch Your Six!
       target: One ally
+      trigger: An ally within distance takes damage while Dorzinuuth isn't [flying](scc.v1:mcdm.heroes.v1/movement/fly).
       type: feature
       usage: Triggered action
     - effects:
@@ -99,10 +103,13 @@ features:
     - cost: Villain Action 1
       distance: 5 burst
       effects:
-        - roll: ""
+        - effect: Dorzinuuth lets loose a powerful roar. Each target makes a **Reason test**.
+          name: Effect
           tier1: '[Frightened](scc.v1:mcdm.heroes.v1/condition/frightened) (save ends)'
           tier2: '[Frightened](scc.v1:mcdm.heroes.v1/condition/frightened) (EoT)'
           tier3: No effect.
+        - effect: Each ally in the area gains an [edge](scc.v1:mcdm.heroes.v1/rule.dice/edge) on their next strike.
+          name: Effect
       feature_type: ability
       icon: ☠️
       keywords:
@@ -114,7 +121,8 @@ features:
     - cost: Villain Action 2
       distance: 10 burst
       effects:
-        - effect: '**Effect:** Each target [shifts](scc.v1:mcdm.heroes.v1/movement/shifting) or [flies](scc.v1:mcdm.heroes.v1/movement/fly) up to their speed and regains 10 [Stamina](scc.v1:mcdm.heroes.v1/rule.health/stamina).'
+        - effect: Each target [shifts](scc.v1:mcdm.heroes.v1/movement/shifting) or [flies](scc.v1:mcdm.heroes.v1/movement/fly) up to their speed and regains 10 [Stamina](scc.v1:mcdm.heroes.v1/rule.health/stamina).
+          name: Effect
       feature_type: ability
       icon: ☠️
       keywords:
@@ -126,7 +134,8 @@ features:
     - cost: Villain Action 3
       distance: 5 burst
       effects:
-        - effect: '**Effect:** Dorzinuuth covers the targets in an electrifying mesh. Whenever a target takes damage from a melee ability, the attacker takes 6 lightning damage.'
+        - effect: Dorzinuuth covers the targets in an electrifying mesh. Whenever a target takes damage from a melee ability, the attacker takes 6 lightning damage.
+          name: Effect
       feature_type: ability
       icon: ☠️
       keywords:

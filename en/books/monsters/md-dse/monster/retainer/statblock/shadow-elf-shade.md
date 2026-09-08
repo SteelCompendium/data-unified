@@ -39,6 +39,8 @@ features:
           tier1: 6 damage
           tier2: 10 damage
           tier3: 13 damage
+        - effect: Whenever the shade starts their turn with concealment from the target, they gain 1 [surge](scc.v1:mcdm.heroes.v1/rule.resource/surge).
+          name: Effect
       feature_type: ability
       icon: ⚔️
       keywords:
@@ -53,7 +55,8 @@ features:
     - cost: Encounter
       distance: 3 cube within 1
       effects:
-        - effect: '**Effect:** Until the end of the next turn, the area is filled with darkness. The shade''s mentor ignores concealment created by this darkness.'
+        - effect: Until the end of the next turn, the area is filled with darkness. The shade's mentor ignores concealment created by this darkness.
+          name: Effect
       feature_type: ability
       icon: "\U0001F533"
       keywords:

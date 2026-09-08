@@ -1,15 +1,30 @@
 ---
 features:
     - body: '-'
+      effects:
+        - effect: '-'
       icon: "\U0001F300"
       name: Deactivate
     - body: A creature or object enters the quicksand or starts their turn there.
+      effects:
+        - effect: A creature or object enters the quicksand or starts their turn there.
+        - effect: The **Grasping Depths** ability.
+          name: Effect
       icon: ❕
       name: Activate
       sections:
         - label: Effect
           text: The **Grasping Depths** ability.
     - distance: Melee 0
+      effects:
+        - effect: A creature or object enters the quicksand or starts their turn there.
+          name: Trigger
+          roll: Power Roll + 2
+          tier1: M < 0 [slowed](scc.v1:mcdm.heroes.v1/condition/slowed) ([save](scc.v1:mcdm.heroes.v1/rule.general/saving-throw) ends)
+          tier2: M < 1 [restrained](scc.v1:mcdm.heroes.v1/condition/restrained) ([save](scc.v1:mcdm.heroes.v1/rule.general/saving-throw) ends)
+          tier3: M < 2 [restrained](scc.v1:mcdm.heroes.v1/condition/restrained) ([save](scc.v1:mcdm.heroes.v1/rule.general/saving-throw) ends)
+        - effect: This ability takes a bane if a triggering creature [shifted](scc.v1:mcdm.heroes.v1/movement/shifting) into the quicksand. A character who starts their turn [restrained](scc.v1:mcdm.heroes.v1/condition/restrained) this way is [suffocating](scc.v1:mcdm.heroes.v1/rule.health/suffocating).
+          name: Effect
       icon: ❗️
       keywords:
         - Melee
@@ -29,6 +44,8 @@ features:
       target: The triggering creature or object
       usage: Free triggered action
     - body: The quicksand is hidden until triggered or detected.
+      effects:
+        - effect: The quicksand is hidden until triggered or detected.
       icon: ⭐️
       name: Hidden
 flavor: When this patch of sand is stepped on, it is revealed to be a slurry saturated by water—and ready to draw creatures down to their doom.

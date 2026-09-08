@@ -41,6 +41,8 @@ features:
           tier1: 11 corruption damage; P < 2 [bleeding](../../../condition/bleeding.md) (save ends)
           tier2: 16 corruption damage; P < 3 [bleeding](../../../condition/bleeding.md) (save ends)
           tier3: 19 corruption damage; P < 4 [bleeding](../../../condition/bleeding.md) (save ends)
+        - cost: 2 Malice
+          effect: Each target is marked until the end of the encounter or until they die. The bloodlord's allies gain an edge on strikes against any target marked this way. The bloodlord can have up to three targets marked this way. If they mark a new target who would exceed the limit, the oldest mark ends.
       feature_type: ability
       icon: "\U0001F5E1"
       keywords:
@@ -54,7 +56,8 @@ features:
       usage: Main action
     - distance: Ranged 10
       effects:
-        - effect: '**Effect:** The target moves up to their speed and can use a signature ability.'
+        - effect: The target moves up to their speed and can use a signature ability.
+          name: Effect
       feature_type: ability
       icon: "\U0001F3F9"
       keywords:
@@ -66,15 +69,15 @@ features:
     - cost: 3 Malice
       distance: Ranged 10
       effects:
-        - effect: |-
-            **Trigger:** A non-[minion](../../../rule/organization/minion.md) hobgoblin within distance takes damage.
-            **Effect:** Three hobgoblin recruits manifest from the target's blood into unoccupied spaces [adjacent](../../../rule/combat/adjacent.md) to the target.
+        - effect: Three hobgoblin recruits manifest from the target's blood into unoccupied spaces [adjacent](../../../rule/combat/adjacent.md) to the target.
+          name: Effect
       feature_type: ability
       icon: ❗️
       keywords:
         - Ranged
       name: An Army From Blood
       target: The triggering creature
+      trigger: A non-[minion](../../../rule/organization/minion.md) hobgoblin within distance takes damage.
       type: feature
       usage: Triggered action
     - effects:
@@ -92,7 +95,8 @@ features:
     - cost: Villain Action 1
       distance: 10 burst
       effects:
-        - effect: '**Effect:** Each target gains 10 temporary [Stamina](../../../rule/health/stamina.md) and can move up to their speed. Then each non-[minion](../../../rule/organization/minion.md) target can make a [free strike](../../../feature/common/main-actions/free-strike.md).'
+        - effect: Each target gains 10 temporary [Stamina](../../../rule/health/stamina.md) and can move up to their speed. Then each non-[minion](../../../rule/organization/minion.md) target can make a [free strike](../../../feature/common/main-actions/free-strike.md).
+          name: Effect
       feature_type: ability
       icon: ☠️
       keywords:
@@ -104,7 +108,8 @@ features:
     - cost: Villain Action 2
       distance: 3 aura
       effects:
-        - effect: '**Effect:** Until the end of the encounter, the bloodlord surrounds themself with a storm of flying skulls. Any enemy who enters the area for the first time in a round or starts their turn there takes 8 corruption damage and takes a bane on their next power roll until the start of their next turn.'
+        - effect: Until the end of the encounter, the bloodlord surrounds themself with a storm of flying skulls. Any enemy who enters the area for the first time in a round or starts their turn there takes 8 corruption damage and takes a bane on their next power roll until the start of their next turn.
+          name: Effect
       feature_type: ability
       icon: ☠️
       keywords:
@@ -121,6 +126,8 @@ features:
           tier1: 5 fire damage; P < 2 2 fire damage, [push](../../../movement/forced-movement.md) 2, [prone](../../../condition/prone.md)
           tier2: 5 fire damage; P < 3 7 fire damage, [push](../../../movement/forced-movement.md) 3, [prone](../../../condition/prone.md)
           tier3: 5 fire damage; P < 4 10 fire damage, [push](../../../movement/forced-movement.md) 5, [prone](../../../condition/prone.md)
+        - effect: Until the end of the encounter, the bloodlord is wreathed in black flames. Whenever any [adjacent](../../../rule/combat/adjacent.md) enemy [grabs](../../../condition/grabbed.md) the bloodlord or uses a melee ability against them, that enemy takes 5 corruption damage.
+          name: Effect
       feature_type: ability
       icon: ☠️
       keywords:

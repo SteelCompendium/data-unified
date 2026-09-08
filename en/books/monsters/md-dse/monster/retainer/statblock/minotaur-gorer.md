@@ -51,15 +51,15 @@ features:
       usage: Main action
     - distance: Ranged 6
       effects:
-        - effect: |-
-            **Trigger:** A creature within distance deals damage to the gorer.
-            **Effect:** The gorer uses the [Charge](scc.v1:mcdm.heroes.v1/feature.common.main-actions/charge) main action and Gore against the target.
+        - effect: The gorer uses the [Charge](scc.v1:mcdm.heroes.v1/feature.common.main-actions/charge) main action and Gore against the target.
+          name: Effect
       feature_type: ability
       icon: ❗️
       keywords:
         - Ranged
       name: Retaliatory Strike
       target: The triggering creature
+      trigger: A creature within distance deals damage to the gorer.
       type: feature
       usage: Triggered action
     - effects:

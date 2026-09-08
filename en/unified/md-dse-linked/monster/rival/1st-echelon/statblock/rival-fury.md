@@ -37,6 +37,8 @@ features:
           tier1: 7 damage; [push](../../../../movement/forced-movement.md) 1
           tier2: 11 damage; [push](../../../../movement/forced-movement.md) 2
           tier3: 14 damage; [push](../../../../movement/forced-movement.md) 3
+        - cost: 2 Malice
+          effect: Each target who has M < 1 is [slowed](../../../../condition/slowed.md) (save ends).
       feature_type: ability
       icon: "\U0001F5E1"
       keywords:
@@ -54,6 +56,8 @@ features:
           tier1: 8 damage; M < 0 [grabbed](../../../../condition/grabbed.md)
           tier2: 13 damage; M < 1 [grabbed](../../../../condition/grabbed.md)
           tier3: 16 damage; M < 2 [grabbed](../../../../condition/grabbed.md)
+        - effect: The target must be the fury's size or smaller. While the target is [grabbed](../../../../condition/grabbed.md) this way, the fury gains an edge on [strikes](../../../../rule/combat/strike.md) against them.
+          name: Effect
       feature_type: ability
       icon: "\U0001F5E1"
       keywords:

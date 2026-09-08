@@ -2,6 +2,13 @@
 features:
     - cost: Encounter
       distance: 1 burst
+      effects:
+        - roll: Power Roll + highest characteristic
+          tier1: 5 corruption damage; I < WEAK [weakened](../../../condition/weakened.md) ([save](../../../rule/general/saving-throw.md) ends)
+          tier2: 9 corruption damage; I < AVERAGE [weakened](../../../condition/weakened.md) ([save](../../../rule/general/saving-throw.md) ends)
+          tier3: 12 corruption damage; I < STRONG [weakened](../../../condition/weakened.md) ([save](../../../rule/general/saving-throw.md) ends)
+        - effect: If the Nameless's mentor is in the area, ability rolls against the mentor have a double bane until the start of their next turn.
+          name: Effect
       icon: ❇️
       keywords:
         - Area
@@ -21,6 +28,15 @@ features:
       usage: Main action
     - cost: Encounter
       distance: 5 burst
+      effects:
+        - effect: The Nameless must be [winded](../../../rule/health/winded.md) to use this ability.
+          name: Special
+          roll: Power Roll + highest characteristic
+          tier1: 11 corruption damage
+          tier2: 16 corruption damage
+          tier3: 21 corruption damage
+        - effect: Any living [minions](../../../rule/organization/minion.md) reduced to 0 [Stamina](../../../rule/health/stamina.md) by this ability regain all their [Stamina](../../../rule/health/stamina.md) and become corporeal [undead](../../../rule/keyword/undead.md) under the Nameless's control until the end of the Nameless's next turn, after which they are destroyed.
+          name: Effect
       icon: ❇️
       keywords:
         - Area

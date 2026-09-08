@@ -38,6 +38,8 @@ features:
           tier1: 6 damage
           tier2: 9 damage
           tier3: 12 damage; M < 2 [restrained](../../../condition/restrained.md) (save ends)
+        - effect: A target already [restrained](../../../condition/restrained.md) or [restrained](../../../condition/restrained.md) by this ability is [pulled](../../../movement/forced-movement.md) up to 3 squares. A target [restrained](../../../condition/restrained.md) by a dwarf can be force moved by this ability. This forced movement doesn't end the [restrained](../../../condition/restrained.md) condition unless the Director determines otherwise.
+          name: Effect
       feature_type: ability
       icon: "\U0001F5E1"
       keywords:

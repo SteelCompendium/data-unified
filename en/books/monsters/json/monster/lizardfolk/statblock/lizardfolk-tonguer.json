@@ -11,6 +11,10 @@
           "tier1": "2 damage; [pull](scc.v1:mcdm.heroes.v1/movement/forced-movement) 1, or the tonguer can [shift](scc.v1:mcdm.heroes.v1/movement/shifting) 1 square toward the target",
           "tier2": "4 damage; [pull](scc.v1:mcdm.heroes.v1/movement/forced-movement) 2, or the tonguer [shifts](scc.v1:mcdm.heroes.v1/movement/shifting) up to 2 squares toward the target",
           "tier3": "5 damage; [pull](scc.v1:mcdm.heroes.v1/movement/forced-movement) 3, or the tonguer [shifts](scc.v1:mcdm.heroes.v1/movement/shifting) up to 3 squares toward the target"
+        },
+        {
+          "effect": "If the [forced movement](scc.v1:mcdm.heroes.v1/movement/forced-movement) or the [shift](scc.v1:mcdm.heroes.v1/movement/shifting) leaves the target [adjacent](scc.v1:mcdm.heroes.v1/rule.combat/adjacent) to the tonguer, the target is also [grabbed](scc.v1:mcdm.heroes.v1/condition/grabbed).",
+          "name": "Effect"
         }
       ],
       "feature_type": "ability",

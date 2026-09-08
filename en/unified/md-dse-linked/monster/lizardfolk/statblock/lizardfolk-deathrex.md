@@ -37,6 +37,8 @@ features:
           tier1: 7 damage; [pull](../../../movement/forced-movement.md) 1; A < 1 [bleeding](../../../condition/bleeding.md) (save ends)
           tier2: 10 damage; [pull](../../../movement/forced-movement.md) 1; A < 2 [bleeding](../../../condition/bleeding.md) (save ends)
           tier3: 12 damage; [pull](../../../movement/forced-movement.md) 2; A < 3 [bleeding](../../../condition/bleeding.md) (save ends)
+        - cost: 1 Malice
+          effect: One target [adjacent](../../../rule/combat/adjacent.md) to the deathrex is [grabbed](../../../condition/grabbed.md) in the deathrex's mouth.
       feature_type: ability
       icon: "\U0001F5E1"
       keywords:
@@ -54,6 +56,8 @@ features:
           tier1: 8 damage; M < 1 [dazed](../../../condition/dazed.md) (save ends)
           tier2: 12 damage; M < 2 [dazed](../../../condition/dazed.md) (save ends)
           tier3: 15 damage; M < 3 [dazed](../../../condition/dazed.md) (save ends)
+        - effect: The target is no longer [grabbed](../../../condition/grabbed.md) by the deathrex, and the deathrex [slides](../../../movement/forced-movement.md) them up to 5 squares.
+          name: Effect
       feature_type: ability
       icon: "\U0001F5E1"
       keywords:
@@ -66,7 +70,8 @@ features:
       usage: Main action
     - distance: Self
       effects:
-        - effect: '**Effect:** The deathrex moves up to their speed. They can make a [free strike](../../../feature/common/main-actions/free-strike.md) against each creature who makes an opportunity attack against them during this movement.'
+        - effect: The deathrex moves up to their speed. They can make a [free strike](../../../feature/common/main-actions/free-strike.md) against each creature who makes an opportunity attack against them during this movement.
+          name: Effect
       feature_type: ability
       icon: "\U0001F464"
       keywords: []
@@ -76,15 +81,15 @@ features:
       usage: Maneuver
     - distance: Melee 1
       effects:
-        - effect: |-
-            **Trigger:** A creature or object within distance moves or [shifts](../../../movement/shifting.md) away from the deathrex.
-            **Effect:** The deathrex [slides](../../../movement/forced-movement.md) the target up to 5 squares.
+        - effect: The deathrex [slides](../../../movement/forced-movement.md) the target up to 5 squares.
+          name: Effect
       feature_type: ability
       icon: ❗️
       keywords:
         - Melee
       name: Swat the Fly
       target: The triggering creature or object
+      trigger: A creature or object within distance moves or [shifts](../../../movement/shifting.md) away from the deathrex.
       type: feature
       usage: Triggered action
     - effects:
@@ -96,7 +101,8 @@ features:
     - cost: Villain Action 1
       distance: 10 burst
       effects:
-        - effect: '**Effect:** Each target moves up to their speed and can make a [free strike](../../../feature/common/main-actions/free-strike.md). Each target gains temporary [Stamina](../../../rule/health/stamina.md) equal to the damage they deal.'
+        - effect: Each target moves up to their speed and can make a [free strike](../../../feature/common/main-actions/free-strike.md). Each target gains temporary [Stamina](../../../rule/health/stamina.md) equal to the damage they deal.
+          name: Effect
       feature_type: ability
       icon: ☠️
       keywords:
@@ -108,7 +114,8 @@ features:
     - cost: Villain Action 2
       distance: Self
       effects:
-        - effect: '**Effect:** The deathrex [shifts](../../../movement/shifting.md) up to their speed, leaving behind a shed skin duplicate in the space they started in. The duplicate acts on the deathrex''s turn and has the deathrex''s characteristics, but has 10 [Stamina](../../../rule/health/stamina.md) and no [villain actions](../../../rule/monster/villain-action.md).'
+        - effect: The deathrex [shifts](../../../movement/shifting.md) up to their speed, leaving behind a shed skin duplicate in the space they started in. The duplicate acts on the deathrex's turn and has the deathrex's characteristics, but has 10 [Stamina](../../../rule/health/stamina.md) and no [villain actions](../../../rule/monster/villain-action.md).
+          name: Effect
       feature_type: ability
       icon: ☠️
       keywords: []
@@ -119,7 +126,8 @@ features:
     - cost: Villain Action 3
       distance: 10 burst
       effects:
-        - effect: '**Effect:** Each target moves up to their speed. Until the end of the encounter, whenever a creature comes [adjacent](../../../rule/combat/adjacent.md) to a target or starts their turn there, the target can make a [free strike](../../../feature/common/main-actions/free-strike.md) against them.'
+        - effect: Each target moves up to their speed. Until the end of the encounter, whenever a creature comes [adjacent](../../../rule/combat/adjacent.md) to a target or starts their turn there, the target can make a [free strike](../../../feature/common/main-actions/free-strike.md) against them.
+          name: Effect
       feature_type: ability
       icon: ☠️
       keywords:

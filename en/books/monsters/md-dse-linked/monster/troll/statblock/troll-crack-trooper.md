@@ -41,6 +41,8 @@ features:
           tier1: 5 damage; [push](../../../movement/forced-movement.md) 2
           tier2: 7 damage; [push](../../../movement/forced-movement.md) 3; A < 3 3 damage
           tier3: 9 damage; [push](../../../movement/forced-movement.md) 4; A < 4 5 damage
+        - effect: The crack trooper's [squad](../../../rule/monster/squad.md)'s [Stamina](../../../rule/health/stamina.md) pool regains [Stamina](../../../rule/health/stamina.md) equal to half the damage dealt.
+          name: Effect
       feature_type: ability
       icon: "\U0001F5E1"
       keywords:

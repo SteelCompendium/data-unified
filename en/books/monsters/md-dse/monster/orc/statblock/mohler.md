@@ -39,6 +39,8 @@ features:
           tier1: 2 damage
           tier2: 4 damage
           tier3: 5 damage
+        - effect: The distance increases to melee 2. If the mohler is 1 or more squares beneath the target before they use this ability, a target who has M < 1 is also knocked [prone](scc.v1:mcdm.heroes.v1/condition/prone).
+          name: Effect
       feature_type: ability
       icon: "\U0001F5E1"
       keywords:

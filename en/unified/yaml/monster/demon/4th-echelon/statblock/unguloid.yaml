@@ -8,6 +8,8 @@ features:
           tier1: 5 damage; push 2
           tier2: 8 damage; push 4
           tier3: 10 damage; push 6
+        - effect: If this ability is used as part of a charge for which the unguloid moves 2 squares or more, it deals an extra 10 damage.
+          name: Effect
       feature_type: ability
       icon: "\U0001F5E1"
       keywords:

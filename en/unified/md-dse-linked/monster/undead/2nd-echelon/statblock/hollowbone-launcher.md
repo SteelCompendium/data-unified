@@ -41,6 +41,8 @@ features:
           tier1: 3 damage
           tier2: 5 damage
           tier3: 7 damage; M < 3 [bleeding](../../../../condition/bleeding.md) (save ends)
+        - effect: Each creature [adjacent](../../../../rule/combat/adjacent.md) to the target takes 2 damage.
+          name: Effect
       feature_type: ability
       icon: "\U0001F3F9"
       keywords:

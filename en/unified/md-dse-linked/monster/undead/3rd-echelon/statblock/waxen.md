@@ -40,6 +40,8 @@ features:
           tier1: 8 damage
           tier2: 11 damage
           tier3: 12 damage; A < 4 [slowed](../../../../condition/slowed.md) (save ends)
+        - effect: If a target made [slowed](../../../../condition/slowed.md) this way is already [slowed](../../../../condition/slowed.md), they are instead [restrained](../../../../condition/restrained.md) (save ends).
+          name: Effect
       feature_type: ability
       icon: "\U0001F3F9"
       keywords:
@@ -53,10 +55,12 @@ features:
     - cost: 3 Malice
       distance: 2 burst
       effects:
-        - roll: ""
+        - effect: If the waxen is ignited (see Burn Bright), they [shift](../../../../movement/shifting.md) up to their speed before using this ability. Each target makes an **Agility test**.
+          name: Effect
           tier1: 10 damage
           tier2: 8 damage
           tier3: 5 damage
+        - effect: The waxen is then destroyed and the area is [difficult terrain](../../../../movement/difficult-terrain.md) for enemies.
       feature_type: ability
       icon: ❇️
       keywords:

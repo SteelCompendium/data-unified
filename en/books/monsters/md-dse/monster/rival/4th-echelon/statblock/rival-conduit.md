@@ -37,6 +37,10 @@ features:
           tier1: 15 damage; vertical [slide](scc.v1:mcdm.heroes.v1/movement/forced-movement) 3; M < 3 5 lightning damage
           tier2: 20 damage; vertical [slide](scc.v1:mcdm.heroes.v1/movement/forced-movement) 4; M < 4 7 lightning damage
           tier3: 24 damage; vertical [slide](scc.v1:mcdm.heroes.v1/movement/forced-movement) 5; M < 5 9 lightning damage
+        - effect: The conduit or one ally within distance regains [Stamina](scc.v1:mcdm.heroes.v1/rule.health/stamina) equal to half the damage dealt.
+          name: Effect
+        - cost: 2 Malice
+          effect: Two additional allies within distance regain the same amount of [Stamina](scc.v1:mcdm.heroes.v1/rule.health/stamina).
       feature_type: ability
       icon: ⚔️
       keywords:
@@ -51,7 +55,8 @@ features:
     - cost: 5 Malice
       distance: Ranged 10
       effects:
-        - effect: '**Effect:** Each target has a double edge on their next [strike](scc.v1:mcdm.heroes.v1/rule.combat/strike), and that strike deals an extra 10 holy damage. Additionally, they can vertical [slide](scc.v1:mcdm.heroes.v1/movement/forced-movement) each creature targeted by the strike up to 2 squares.'
+        - effect: Each target has a double edge on their next [strike](scc.v1:mcdm.heroes.v1/rule.combat/strike), and that strike deals an extra 10 holy damage. Additionally, they can vertical [slide](scc.v1:mcdm.heroes.v1/movement/forced-movement) each creature targeted by the strike up to 2 squares.
+          name: Effect
       feature_type: ability
       icon: "\U0001F3F9"
       keywords:

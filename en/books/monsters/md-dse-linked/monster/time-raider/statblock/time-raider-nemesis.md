@@ -40,6 +40,8 @@ features:
           tier1: 7 damage; [pull](../../../movement/forced-movement.md) 1
           tier2: 10 damage; [pull](../../../movement/forced-movement.md) 2
           tier3: 13 damage; [pull](../../../movement/forced-movement.md) 3; A < 2 [restrained](../../../condition/restrained.md) (save ends)
+        - effect: This ability can target creatures on parallel planes of existence and pull them onto the nemesis's plane.
+          name: Effect
       feature_type: ability
       icon: "\U0001F5E1"
       keywords:
@@ -58,6 +60,8 @@ features:
           tier1: 7 psychic damage; M < 0 [slowed](../../../condition/slowed.md) (save ends)
           tier2: 10 psychic damage; M < 1 [slowed](../../../condition/slowed.md) (save ends)
           tier3: 13 psychic damage; M < 2 [slowed](../../../condition/slowed.md) (save ends)
+        - effect: Any creature [slowed](../../../condition/slowed.md) this way takes 2 damage for each square they move or are [force moved](../../../movement/forced-movement.md) until that condition ends.
+          name: Effect
       feature_type: ability
       icon: "\U0001F3F9"
       keywords:

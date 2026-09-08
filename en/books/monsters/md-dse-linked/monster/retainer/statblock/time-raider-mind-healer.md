@@ -35,10 +35,12 @@ features:
     - ability_type: Signature Ability
       distance: Ranged 3
       effects:
-        - roll: ""
+        - effect: '**2d10 + highest characteristic:**'
           tier1: 5 fire damage
           tier2: 8 fire damage
           tier3: 11 fire damage
+        - effect: If the mind healer targets an ally, the ability deals no damage. Additionally, the target can end one effect on them that can be ended by a [saving throw](../../../rule/general/saving-throw.md) or that ends at the end of their turn.
+          name: Effect
       feature_type: ability
       icon: "\U0001F3F9"
       keywords:

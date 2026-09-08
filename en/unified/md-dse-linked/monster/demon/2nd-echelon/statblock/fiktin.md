@@ -39,6 +39,8 @@ features:
           tier1: 3 corruption damage
           tier2: 6 corruption damage
           tier3: 7 corruption damage; I < 3 [dazed](../../../../condition/dazed.md) (save ends)
+        - effect: The fiktin violently changes shape, dealing an extra 6 damage to any target they were hidden from with their Aggressive Mimicry ability.
+          name: Effect
       feature_type: ability
       icon: ❇️
       keywords:
@@ -51,7 +53,8 @@ features:
     - cost: 1 Malice
       distance: Self
       effects:
-        - effect: '**Effect:** The fiktin transforms into a mundane object of their size or smaller and is automatically hidden. They can revert to their true form as a [free maneuver](../../../../rule/combat/free-maneuver.md).'
+        - effect: The fiktin transforms into a mundane object of their size or smaller and is automatically hidden. They can revert to their true form as a [free maneuver](../../../../rule/combat/free-maneuver.md).
+          name: Effect
       feature_type: ability
       icon: "\U0001F464"
       keywords:

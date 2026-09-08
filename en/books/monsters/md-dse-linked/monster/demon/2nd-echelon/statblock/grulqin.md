@@ -40,6 +40,8 @@ features:
           tier1: 3 damage
           tier2: 5 damage
           tier3: 7 damage
+        - effect: The grulqin gains an [edge](../../../../rule/dice/edge.md) on this ability if they previously moved 3 or more squares in a straight line on their turn.
+          name: Effect
       feature_type: ability
       icon: "\U0001F5E1"
       keywords:

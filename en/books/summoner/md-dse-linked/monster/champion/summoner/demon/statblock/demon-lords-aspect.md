@@ -44,6 +44,8 @@ features:
           tier1: 9 corruption [damage](../../../../../rule/damage/damage.md); [pull](../../../../../movement/forced-movement.md) 2
           tier2: 12 corruption [damage](../../../../../rule/damage/damage.md); [pull](../../../../../movement/forced-movement.md) 4
           tier3: 14 corruption [damage](../../../../../rule/damage/damage.md); [pull](../../../../../movement/forced-movement.md) 5
+        - effect: A target [pulled](../../../../../movement/forced-movement.md) [adjacent](../../../../../rule/combat/adjacent.md) to the Aspect is [grabbed](../../../../../condition/grabbed.md).
+          name: Effect
       feature_type: ability
       icon: "\U0001F3F9"
       keywords:
@@ -68,14 +70,14 @@ features:
       type: feature
     - distance: Self
       effects:
-        - effect: |-
-            **Trigger:** The Aspect takes [damage](../../../../../rule/damage/damage.md) from an enemy.
-            **Effect:** The Aspect has a double [edge](../../../../../rule/dice/edge.md) on their next [power roll](../../../../../rule/dice/power-roll.md). They can choose to give this benefit to an ally within your Summoner's Range instead.
+        - effect: The Aspect has a double [edge](../../../../../rule/dice/edge.md) on their next [power roll](../../../../../rule/dice/power-roll.md). They can choose to give this benefit to an ally within your Summoner's Range instead.
+          name: Effect
       feature_type: ability
       icon: ❗️
       keywords: []
       name: I Like Your Taste
       target: Self
+      trigger: The Aspect takes [damage](../../../../../rule/damage/damage.md) from an enemy.
       type: feature
       usage: Free triggered action
     - effects:

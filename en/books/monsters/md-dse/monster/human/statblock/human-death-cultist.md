@@ -40,6 +40,8 @@ features:
           tier1: 6 corruption damage
           tier2: 9 corruption damage
           tier3: 12 corruption damage; I < 2 [weakened](scc.v1:mcdm.heroes.v1/condition/weakened) (save ends)
+        - cost: 2 Malice
+          effect: The death cultist regains [Stamina](scc.v1:mcdm.heroes.v1/rule.health/stamina) equal to half the damage dealt.
       feature_type: ability
       icon: ⚔️
       keywords:
@@ -55,7 +57,8 @@ features:
     - cost: 1 Malice per minion
       distance: 5 burst
       effects:
-        - effect: '**Effect:** Each target who died during this encounter revives with full [Stamina](scc.v1:mcdm.heroes.v1/rule.health/stamina). They immediately die at the end of the encounter or if the death cultist is killed. A target can be revived multiple times by this ability.'
+        - effect: Each target who died during this encounter revives with full [Stamina](scc.v1:mcdm.heroes.v1/rule.health/stamina). They immediately die at the end of the encounter or if the death cultist is killed. A target can be revived multiple times by this ability.
+          name: Effect
       feature_type: ability
       icon: ❇️
       keywords:

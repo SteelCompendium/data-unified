@@ -57,6 +57,8 @@ features:
           tier1: 6 psychic damage; R < 1 [push](../../../movement/forced-movement.md) 2
           tier2: 10 psychic damage; R < 2 [push](../../../movement/forced-movement.md) 3
           tier3: 12 psychic damage; R < 3 [push](../../../movement/forced-movement.md) 4 and [prone](../../../condition/prone.md)
+        - cost: 2 Malice
+          effect: The size of the burst increases to 5.
       feature_type: ability
       icon: ❇️
       keywords:
@@ -68,7 +70,9 @@ features:
       usage: Main action
     - distance: Melee 1
       effects:
-        - roll: Power Roll + 3
+        - effect: The target must be [grabbed](../../../condition/grabbed.md) by the invader.
+          name: Effect
+          roll: Power Roll + 3
           tier1: 6 damage; vertical [slide](../../../movement/forced-movement.md) 2
           tier2: 10 damage; vertical [slide](../../../movement/forced-movement.md) 2
           tier3: 12 damage; vertical [slide](../../../movement/forced-movement.md) 3
@@ -83,9 +87,8 @@ features:
       usage: Maneuver
     - distance: Special
       effects:
-        - effect: |-
-            **Trigger:** A creature [grabbed](../../../condition/grabbed.md) by the invader resists an ability's [potency](../../../rule/character/potency.md).
-            **Effect:** The [potency](../../../rule/character/potency.md) increases by 2.
+        - effect: The [potency](../../../rule/character/potency.md) increases by 2.
+          name: Effect
       feature_type: ability
       icon: ❗️
       keywords:
@@ -93,6 +96,7 @@ features:
         - Psionic
       name: Brain Drain
       target: The triggering creature
+      trigger: A creature [grabbed](../../../condition/grabbed.md) by the invader resists an ability's [potency](../../../rule/character/potency.md).
       type: feature
       usage: Triggered Action
     - effects:

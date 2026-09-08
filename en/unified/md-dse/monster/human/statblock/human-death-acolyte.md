@@ -41,6 +41,8 @@ features:
           tier1: 1 corruption damage
           tier2: 2 corruption damage
           tier3: 3 corruption damage
+        - effect: One creature within 5 squares regains 1 [Stamina](scc.v1:mcdm.heroes.v1/rule.health/stamina).
+          name: Effect
       feature_type: ability
       icon: "\U0001F3F9"
       keywords:

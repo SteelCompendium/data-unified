@@ -37,6 +37,8 @@ features:
           tier1: 4 damage
           tier2: 5 damage
           tier3: 7 damage; [prone](../../../condition/prone.md); A < 2 [bleeding](../../../condition/bleeding.md) (save ends)
+        - cost: 2+ Malice
+          effect: This ability targets one additional target for each 2 [Malice](../../../rule/monster/malice.md) spent.
       feature_type: ability
       icon: "\U0001F5E1"
       keywords:
@@ -50,7 +52,8 @@ features:
     - cost: 3 Malice
       distance: 2 burst
       effects:
-        - effect: '**Effect:** Each target [shifts](../../../movement/shifting.md) up to their speed. If any target hasn''t used their own Cackletongue maneuver on this turn, they can use it immediately at no cost.'
+        - effect: Each target [shifts](../../../movement/shifting.md) up to their speed. If any target hasn't used their own Cackletongue maneuver on this turn, they can use it immediately at no cost.
+          name: Effect
       feature_type: ability
       icon: ❇️
       keywords:

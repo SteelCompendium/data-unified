@@ -37,6 +37,8 @@ features:
           tier1: 8 damage
           tier2: 12 damage; M < 1 [restrained](scc.v1:mcdm.heroes.v1/condition/restrained) (save ends)
           tier3: 15 damage; M < 2 [restrained](scc.v1:mcdm.heroes.v1/condition/restrained) (save ends)
+        - effect: The target's space is [difficult terrain](scc.v1:mcdm.heroes.v1/movement/difficult-terrain).
+          name: Effect
       feature_type: ability
       icon: "\U0001F5E1"
       keywords:
@@ -49,9 +51,10 @@ features:
       usage: Main action
     - distance: Ranged 5
       effects:
-        - effect: |-
-            **Effect:** Until the start of the force's next turn, any melee strike made against the target takes a bane if it doesn't already have a bane or double bane.
-            **3 [Malice](scc.v1:mcdm.monsters.v1/rule.monster/malice):** Until the end of the encounter, the target grows a carapace of stone. They have a +3 bonus to stability and gain 15 temporary Stamina.
+        - effect: Until the start of the force's next turn, any melee strike made against the target takes a bane if it doesn't already have a bane or double bane.
+          name: Effect
+        - cost: 3 Malice
+          effect: Until the end of the encounter, the target grows a carapace of stone. They have a +3 bonus to stability and gain 15 temporary Stamina.
       feature_type: ability
       icon: "\U0001F3F9"
       keywords:
@@ -64,14 +67,14 @@ features:
     - cost: 1 Malice
       distance: Self
       effects:
-        - effect: |-
-            **Trigger:** The force takes damage.
-            **Effect:** The force halves the damage, and has damage weakness 3 and a +3 bonus to speed until the end of the encounter. This damage weakness increases by 3 each time the force uses this ability in the same encounter.
+        - effect: The force halves the damage, and has damage weakness 3 and a +3 bonus to speed until the end of the encounter. This damage weakness increases by 3 each time the force uses this ability in the same encounter.
+          name: Effect
       feature_type: ability
       icon: ❗️
       keywords: []
       name: Break Armor
       target: Self
+      trigger: The force takes damage.
       type: feature
       usage: Triggered action
     - effects:

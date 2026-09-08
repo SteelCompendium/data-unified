@@ -39,6 +39,8 @@ features:
           tier1: 5 damage; pull 2
           tier2: 7 damage; pull 3
           tier3: 8 damage; pull 4
+        - effect: If the target is pulled [adjacent](../../../../rule/combat/adjacent.md) to the muceron, the muceron can either make a [free strike](../../../../feature/common/main-actions/free-strike.md) or use the [Grab](../../../../feature/common/maneuvers/grab.md) maneuver against them.
+          name: Effect
       feature_type: ability
       icon: "\U0001F5E1"
       keywords:
@@ -52,7 +54,8 @@ features:
     - cost: 2 Malice
       distance: Ranged 5
       effects:
-        - effect: '**Effect:** The muceron pulls each target up to 5 squares.'
+        - effect: The muceron pulls each target up to 5 squares.
+          name: Effect
       feature_type: ability
       icon: "\U0001F3F9"
       keywords:

@@ -2,6 +2,13 @@
 features:
     - cost: 3 Malice
       distance: 3 cube within 10
+      effects:
+        - roll: Power Roll + 2
+          tier1: 4 corruption damage; A < 0 [slowed](scc.v1:mcdm.heroes.v1/condition/slowed) (save ends)
+          tier2: 6 corruption damage; A < 1 [slowed](scc.v1:mcdm.heroes.v1/condition/slowed) (save ends)
+          tier3: 9 corruption damage; A < 2 [restrained](scc.v1:mcdm.heroes.v1/condition/restrained) (save ends)
+        - effect: This ability can't be used by a [minion](scc.v1:mcdm.monsters.v1/rule.organization/minion).
+          name: Special
       icon: "\U0001F533"
       keywords:
         - Area
@@ -21,10 +28,14 @@ features:
       usage: Maneuver
     - body: Each human acting this turn gains an edge on abilities until the end of their turn, or has a double edge on any ability that targets an enemy affected by a condition.
       cost: 5 Malice
+      effects:
+        - effect: Each human acting this turn gains an edge on abilities until the end of their turn, or has a double edge on any ability that targets an enemy affected by a condition.
       icon: ⭐️
       name: Exploit Opening
     - body: Each non-[minion](scc.v1:mcdm.monsters.v1/rule.organization/minion) human in the encounter regains [Stamina](scc.v1:mcdm.heroes.v1/rule.health/stamina) equal to 5 times their level.
       cost: 7 Malice
+      effects:
+        - effect: Each non-[minion](scc.v1:mcdm.monsters.v1/rule.organization/minion) human in the encounter regains [Stamina](scc.v1:mcdm.heroes.v1/rule.health/stamina) equal to 5 times their level.
       icon: ⭐️
       name: Staying Power
 file_basename: human-malice
@@ -43,6 +54,13 @@ type: featureblock
 features:
     - cost: 3 Malice
       distance: 3 cube within 10
+      effects:
+        - roll: Power Roll + 2
+          tier1: 4 corruption damage; A < 0 [slowed](scc.v1:mcdm.heroes.v1/condition/slowed) (save ends)
+          tier2: 6 corruption damage; A < 1 [slowed](scc.v1:mcdm.heroes.v1/condition/slowed) (save ends)
+          tier3: 9 corruption damage; A < 2 [restrained](scc.v1:mcdm.heroes.v1/condition/restrained) (save ends)
+        - effect: This ability can't be used by a [minion](scc.v1:mcdm.monsters.v1/rule.organization/minion).
+          name: Special
       icon: "\U0001F533"
       keywords:
         - Area
@@ -62,10 +80,14 @@ features:
       usage: Maneuver
     - body: Each human acting this turn gains an edge on abilities until the end of their turn, or has a double edge on any ability that targets an enemy affected by a condition.
       cost: 5 Malice
+      effects:
+        - effect: Each human acting this turn gains an edge on abilities until the end of their turn, or has a double edge on any ability that targets an enemy affected by a condition.
       icon: ⭐️
       name: Exploit Opening
     - body: Each non-[minion](scc.v1:mcdm.monsters.v1/rule.organization/minion) human in the encounter regains [Stamina](scc.v1:mcdm.heroes.v1/rule.health/stamina) equal to 5 times their level.
       cost: 7 Malice
+      effects:
+        - effect: Each non-[minion](scc.v1:mcdm.monsters.v1/rule.organization/minion) human in the encounter regains [Stamina](scc.v1:mcdm.heroes.v1/rule.health/stamina) equal to 5 times their level.
       icon: ⭐️
       name: Staying Power
 flavor: At the start of any human's turn, you can spend Malice to activate one of the following features.

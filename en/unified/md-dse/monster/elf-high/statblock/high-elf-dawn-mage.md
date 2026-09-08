@@ -39,6 +39,8 @@ features:
           tier1: 1 holy damage
           tier2: 2 holy damage
           tier3: 3 holy damage
+        - effect: Until the start of the dawn mage's next turn, the target can't hide.
+          name: Effect
       feature_type: ability
       icon: "\U0001F3F9"
       keywords:

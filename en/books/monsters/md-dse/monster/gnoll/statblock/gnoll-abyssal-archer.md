@@ -37,6 +37,8 @@ features:
           tier1: 5 corruption damage
           tier2: 6 corruption damage
           tier3: 8 corruption damage; M < 2 [slowed](scc.v1:mcdm.heroes.v1/condition/slowed) (save ends)
+        - effect: This ability gains an edge against any target not at full [Stamina](scc.v1:mcdm.heroes.v1/rule.health/stamina).
+          name: Effect
       feature_type: ability
       icon: "\U0001F3F9"
       keywords:
@@ -50,7 +52,8 @@ features:
     - cost: 2 Malice
       distance: 2 burst
       effects:
-        - effect: '**Effect:** Until the end of their next turn, each target gains an edge on their next strike. If any target hasn''t used their own Cackletongue maneuver on this turn, they can use it immediately at no cost.'
+        - effect: Until the end of their next turn, each target gains an edge on their next strike. If any target hasn't used their own Cackletongue maneuver on this turn, they can use it immediately at no cost.
+          name: Effect
       feature_type: ability
       icon: ❇️
       keywords:

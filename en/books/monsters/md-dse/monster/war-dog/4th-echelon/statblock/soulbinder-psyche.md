@@ -39,6 +39,8 @@ features:
           tier1: 15 holy damage; R < 3 the target is soulbound (save ends)
           tier2: 20 holy damage; R < 4 the target is soulbound (save ends)
           tier3: 24 holy damage; R < 5 the target is soulbound (save ends)
+        - effect: A soulbound creature can't benefit from edges or double edges, and can't gain or use [surges](scc.v1:mcdm.heroes.v1/rule.resource/surge).
+          name: Effect
       feature_type: ability
       icon: "\U0001F3F9"
       keywords:
@@ -56,6 +58,10 @@ features:
           tier1: 8 corruption damage; P < 3 [weakened](scc.v1:mcdm.heroes.v1/condition/weakened) (EoT)
           tier2: 12 corruption damage; P < 4 [weakened](scc.v1:mcdm.heroes.v1/condition/weakened) (EoT)
           tier3: 15 corruption damage; P < 5 [weakened](scc.v1:mcdm.heroes.v1/condition/weakened) (EoT)
+        - effect: The area is [difficult terrain](scc.v1:mcdm.heroes.v1/movement/difficult-terrain) until the start of Psyche's next turn At the start of each of her turns, Psyche can use a maneuver to maintain this effect, move the area up to 5 squares, and make the power roll against each creature in the area's new location.
+          name: Effect
+        - cost: 1 Malice
+          effect: Until the start of Psyche's next turn, if this ability makes a creature [weakened](scc.v1:mcdm.heroes.v1/condition/weakened), that creature is also soulbound (save ends; see Soulbind above).
       feature_type: ability
       icon: "\U0001F533"
       keywords:
@@ -68,7 +74,8 @@ features:
       usage: Main action
     - distance: 5 burst
       effects:
-        - effect: '**Effect:** Each target takes 5 damage from a self-inflicted wound, and if they have M < 4 Psyche [slides](scc.v1:mcdm.heroes.v1/movement/forced-movement) them up to 5 squares.'
+        - effect: Each target takes 5 damage from a self-inflicted wound, and if they have M < 4 Psyche [slides](scc.v1:mcdm.heroes.v1/movement/forced-movement) them up to 5 squares.
+          name: Effect
       feature_type: ability
       icon: ❇️
       keywords:
@@ -80,28 +87,29 @@ features:
       usage: Maneuver
     - distance: Self
       effects:
-        - effect: |-
-            **Trigger:** An enemy moves within 2 squares of Psyche.
-            **Effect:** Psyche moves up to 5 squares, and has damage immunity 5 and ignores [difficult terrain](scc.v1:mcdm.heroes.v1/movement/difficult-terrain) during this movement. The first time she moves through any creature during this movement, that creature takes 5 corruption damage.
+        - effect: Psyche moves up to 5 squares, and has damage immunity 5 and ignores [difficult terrain](scc.v1:mcdm.heroes.v1/movement/difficult-terrain) during this movement. The first time she moves through any creature during this movement, that creature takes 5 corruption damage.
+          name: Effect
       feature_type: ability
       icon: ❗️
       keywords: []
       name: Spirit Form
       target: Self
+      trigger: An enemy moves within 2 squares of Psyche.
       type: feature
       usage: Triggered action
     - distance: Ranged 10
       effects:
-        - effect: |-
-            **Trigger:** A war dog within distance is made [winded](scc.v1:mcdm.heroes.v1/rule.health/winded) or reduced to 0 [Stamina](scc.v1:mcdm.heroes.v1/rule.health/stamina).
-            **Effect:** The target loses all their [surges](scc.v1:mcdm.heroes.v1/rule.resource/surge) and takes 5 corruption damage.
-            **1 [Malice](scc.v1:mcdm.monsters.v1/rule.monster/malice):** The target also takes a bane on their next strike.
+        - effect: The target loses all their [surges](scc.v1:mcdm.heroes.v1/rule.resource/surge) and takes 5 corruption damage.
+          name: Effect
+        - cost: 1 Malice
+          effect: The target also takes a bane on their next strike.
       feature_type: ability
       icon: ❗️
       keywords:
         - Ranged
       name: Vengeance for the Slain
       target: One enemy
+      trigger: A war dog within distance is made [winded](scc.v1:mcdm.heroes.v1/rule.health/winded) or reduced to 0 [Stamina](scc.v1:mcdm.heroes.v1/rule.health/stamina).
       type: feature
       usage: Free triggered action
     - effects:
@@ -112,7 +120,8 @@ features:
       type: feature
     - distance: Ranged 10
       effects:
-        - effect: '**Effect:** The target takes 10 psychic damage.'
+        - effect: The target takes 10 psychic damage.
+          name: Effect
       feature_type: ability
       icon: "\U0001F3F9"
       keywords:

@@ -39,6 +39,8 @@ features:
           tier1: 14 fire damage; [push](scc.v1:mcdm.heroes.v1/movement/forced-movement) 2
           tier2: 19 fire damage; [push](scc.v1:mcdm.heroes.v1/movement/forced-movement) 4; A < 3 burning (save ends)
           tier3: 23 fire damage; [push](scc.v1:mcdm.heroes.v1/movement/forced-movement) 6; A < 4 burning (save ends)
+        - effect: A burning creature takes 1d6 fire damage at the start of each of their turns. A burning object takes 1d6 fire damage at the end of each round.
+          name: Effect
       feature_type: ability
       icon: "\U0001F5E1"
       keywords:
@@ -56,6 +58,8 @@ features:
           tier1: The distance is a 2 burst; 8 fire damage; M < 2 [pull](scc.v1:mcdm.heroes.v1/movement/forced-movement) 2
           tier2: The distance is a 3 burst; 12 fire damage; M < 3 [pull](scc.v1:mcdm.heroes.v1/movement/forced-movement) 4
           tier3: The distance is a 4 burst; 15 fire damage; M < 4 [pull](scc.v1:mcdm.heroes.v1/movement/forced-movement) 6
+        - effect: The outermost squares of the area become a 1-square-tall wall of stone. The rest of the area is on fire until the end of the encounter. A creature who enters the area for the first time in a round or starts their turn there takes 3 fire damage.
+          name: Effect
       feature_type: ability
       icon: ❇️
       keywords:
@@ -66,7 +70,8 @@ features:
       usage: Main action
     - distance: Self
       effects:
-        - effect: '**Effect:** The red fist jumps up to 5 squares. Each creature [adjacent](scc.v1:mcdm.heroes.v1/rule.combat/adjacent) to them when they land takes 5 fire damage.'
+        - effect: The red fist jumps up to 5 squares. Each creature [adjacent](scc.v1:mcdm.heroes.v1/rule.combat/adjacent) to them when they land takes 5 fire damage.
+          name: Effect
       feature_type: ability
       icon: "\U0001F464"
       keywords: []
@@ -76,7 +81,8 @@ features:
       usage: Maneuver
     - distance: Melee 3
       effects:
-        - roll: ""
+        - effect: The target makes a **Might test**. A target with fire immunity automatically obtains a tier 3 outcome.
+          name: Effect
           tier1: '[Weakened](scc.v1:mcdm.heroes.v1/condition/weakened) and [slowed](scc.v1:mcdm.heroes.v1/condition/slowed) (save ends)'
           tier2: '[Weakened](scc.v1:mcdm.heroes.v1/condition/weakened) (EoT)'
           tier3: No effect
@@ -86,19 +92,20 @@ features:
         - Melee
       name: Heat and Pressure
       target: The triggering creature
+      trigger: A creature within distance willingly moves or [shifts](scc.v1:mcdm.heroes.v1/movement/shifting) away from the red fist.
       type: feature
       usage: Free triggered action
     - distance: Melee 3
       effects:
-        - effect: |-
-            **Trigger:** An ally within distance is targeted by an enemy's ability.
-            **Effect:** The red fist becomes the target of the triggering ability, then can make a [free strike](scc.v1:mcdm.heroes.v1/feature.common.main-actions/free-strike) against the enemy after the ability resolves.
+        - effect: The red fist becomes the target of the triggering ability, then can make a [free strike](scc.v1:mcdm.heroes.v1/feature.common.main-actions/free-strike) against the enemy after the ability resolves.
+          name: Effect
       feature_type: ability
       icon: ❗️
       keywords:
         - Melee
       name: Guardian Block
       target: Self
+      trigger: An ally within distance is targeted by an enemy's ability.
       type: feature
       usage: Triggered action
     - effects:

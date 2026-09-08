@@ -8,6 +8,8 @@ features:
           tier1: 5 cold damage; P < 1 [slowed](scc.v1:mcdm.heroes.v1/condition/slowed) (save ends)
           tier2: 7 cold damage; P < 2 [slowed](scc.v1:mcdm.heroes.v1/condition/slowed) (save ends)
           tier3: 9 cold damage; P < 3 [slowed](scc.v1:mcdm.heroes.v1/condition/slowed) (save ends)
+        - effect: Any living creature who dies from this damage rises at the start of the next round as a ghoul craver under the Director's control.
+          name: Effect
       feature_type: ability
       icon: "\U0001F5E1"
       keywords:
@@ -21,7 +23,8 @@ features:
       usage: Main action
     - distance: Self
       effects:
-        - effect: '**Effect:** The wraith turns invisible, moves up to their speed, and is visible again.'
+        - effect: The wraith turns invisible, moves up to their speed, and is visible again.
+          name: Effect
       feature_type: ability
       icon: "\U0001F464"
       keywords: []
@@ -32,9 +35,8 @@ features:
     - cost: 1 Malice
       distance: Ranged 5
       effects:
-        - effect: |-
-            **Trigger:** An enemy within distance regains [Stamina](scc.v1:mcdm.heroes.v1/rule.health/stamina).
-            **Effect:** The target regains only half the [Stamina](scc.v1:mcdm.heroes.v1/rule.health/stamina), and the wraith regains the remaining [Stamina](scc.v1:mcdm.heroes.v1/rule.health/stamina).
+        - effect: The target regains only half the [Stamina](scc.v1:mcdm.heroes.v1/rule.health/stamina), and the wraith regains the remaining [Stamina](scc.v1:mcdm.heroes.v1/rule.health/stamina).
+          name: Effect
       feature_type: ability
       icon: ❗️
       keywords:
@@ -42,6 +44,7 @@ features:
         - Ranged
       name: Stolen Vitality
       target: The triggering creature
+      trigger: An enemy within distance regains [Stamina](scc.v1:mcdm.heroes.v1/rule.health/stamina).
       type: feature
       usage: Free triggered action
     - effects:

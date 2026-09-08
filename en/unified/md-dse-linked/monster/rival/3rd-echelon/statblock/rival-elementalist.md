@@ -37,6 +37,8 @@ features:
           tier1: 12 damage; [slide](../../../../movement/forced-movement.md) 2; M < 2 4 acid damage
           tier2: 17 damage; [slide](../../../../movement/forced-movement.md) 3; M < 3 6 acid damage
           tier3: 21 damage; [slide](../../../../movement/forced-movement.md) 4; M < 4 8 acid damage
+        - effect: One ally within distance ends one [condition](../../../../rule/combat/condition.md) on themself.
+          name: Effect
       feature_type: ability
       icon: "\U0001F3F9"
       keywords:
@@ -55,6 +57,8 @@ features:
           tier1: 6 damage
           tier2: 10 damage; [restrained](../../../../condition/restrained.md) (EoT)
           tier3: 14 damage; [restrained](../../../../condition/restrained.md) (save ends)
+        - effect: The area is [difficult terrain](../../../../movement/difficult-terrain.md) for enemies until the end of the encounter. Any enemy in the area has acid [weakness](../../../../rule/damage/damage-weakness.md) 5.
+          name: Effect
       feature_type: ability
       icon: "\U0001F533"
       keywords:
@@ -68,9 +72,8 @@ features:
       usage: Main action
     - distance: Self
       effects:
-        - effect: |-
-            **Trigger:** The elementalist takes damage.
-            **Effect:** The elementalist can [teleport](../../../../movement/teleport.md) up to 4 squares. Each creature [adjacent](../../../../rule/combat/adjacent.md) to the space they leave or appear in takes 4 corruption damage.
+        - effect: The elementalist can [teleport](../../../../movement/teleport.md) up to 4 squares. Each creature [adjacent](../../../../rule/combat/adjacent.md) to the space they leave or appear in takes 4 corruption damage.
+          name: Effect
       feature_type: ability
       icon: ❗️
       keywords:
@@ -78,6 +81,7 @@ features:
         - Void
       name: Maw of the Abyss
       target: Self
+      trigger: The elementalist takes damage.
       type: feature
       usage: Triggered action
     - effects:

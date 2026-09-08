@@ -37,6 +37,8 @@ features:
           tier1: 7 damage; [push](scc.v1:mcdm.heroes.v1/movement/forced-movement) 1
           tier2: 10 damage; [push](scc.v1:mcdm.heroes.v1/movement/forced-movement) 3
           tier3: 11 damage; [push](scc.v1:mcdm.heroes.v1/movement/forced-movement) 5
+        - effect: Any target [pushed](scc.v1:mcdm.heroes.v1/movement/forced-movement) into an obstacle is knocked [prone](scc.v1:mcdm.heroes.v1/condition/prone), and if they have M < 3 they are [restrained](scc.v1:mcdm.heroes.v1/condition/restrained) (save ends).
+          name: Effect
       feature_type: ability
       icon: "\U0001F3F9"
       keywords:
@@ -50,7 +52,8 @@ features:
     - cost: 3 Malice
       distance: 3 cube within 12
       effects:
-        - effect: '**Effect:** Until the start of the ballistite''s next turn, the area is [difficult terrain](scc.v1:mcdm.heroes.v1/movement/difficult-terrain), and any ranged ability targeting an enemy in the area deals an extra 8 damage.'
+        - effect: Until the start of the ballistite's next turn, the area is [difficult terrain](scc.v1:mcdm.heroes.v1/movement/difficult-terrain), and any ranged ability targeting an enemy in the area deals an extra 8 damage.
+          name: Effect
       feature_type: ability
       icon: "\U0001F533"
       keywords:

@@ -37,6 +37,10 @@ features:
           tier1: 6 damage
           tier2: 8 damage
           tier3: 10 damage; I < 3 [frightened](scc.v1:mcdm.heroes.v1/condition/frightened) (save ends)
+        - effect: This ability gains an edge while charging.
+          name: Effect
+        - cost: 2 Malice
+          effect: The ability deals an extra 3 fire damage to the target and each enemy [adjacent](scc.v1:mcdm.heroes.v1/rule.combat/adjacent) to the target.
       feature_type: ability
       icon: "\U0001F5E1"
       keywords:
@@ -50,7 +54,9 @@ features:
       usage: Main action
     - distance: Special; see below
       effects:
-        - roll: Power Roll + 3
+        - effect: The equivite moves up to their speed and ignores [difficult terrain](scc.v1:mcdm.heroes.v1/movement/difficult-terrain). Any mundane size 1 object whose space they move through is destroyed. The equivite makes one power roll against each enemy whose space they move through for the first time.
+          name: Effect
+          roll: Power Roll + 3
           tier1: 2 damage; [push](scc.v1:mcdm.heroes.v1/movement/forced-movement) 1
           tier2: 4 damage; [push](scc.v1:mcdm.heroes.v1/movement/forced-movement) 2
           tier3: 5 damage; [push](scc.v1:mcdm.heroes.v1/movement/forced-movement) 3; M < 3 [prone](scc.v1:mcdm.heroes.v1/condition/prone)

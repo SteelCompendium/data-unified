@@ -37,6 +37,8 @@ features:
           tier1: 5 damage; [push](scc.v1:mcdm.heroes.v1/movement/forced-movement) 2
           tier2: 6 damage; [push](scc.v1:mcdm.heroes.v1/movement/forced-movement) 2
           tier3: 8 damage; [grabbed](scc.v1:mcdm.heroes.v1/condition/grabbed); M < 2 the target takes a bane on the Escape Grab maneuver
+        - effect: While the bonesplitter has a target [grabbed](scc.v1:mcdm.heroes.v1/condition/grabbed), they can't use Three-Tail Flail against another target.
+          name: Effect
       feature_type: ability
       icon: "\U0001F5E1"
       keywords:
@@ -50,7 +52,8 @@ features:
     - cost: 4 Malice
       distance: 2 burst
       effects:
-        - effect: '**Effect:** Up to three targets can make a [free strike](scc.v1:mcdm.heroes.v1/feature.common.main-actions/free-strike). If any target hasn''t used their own Cackletongue maneuver on this turn, they can use it immediately at no cost.'
+        - effect: Up to three targets can make a [free strike](scc.v1:mcdm.heroes.v1/feature.common.main-actions/free-strike). If any target hasn't used their own Cackletongue maneuver on this turn, they can use it immediately at no cost.
+          name: Effect
       feature_type: ability
       icon: ❇️
       keywords:

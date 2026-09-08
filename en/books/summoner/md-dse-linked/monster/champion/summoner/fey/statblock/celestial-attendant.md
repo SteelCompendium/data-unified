@@ -43,6 +43,8 @@ features:
           tier1: 9 [damage](../../../../../rule/damage/damage.md); [slide](../../../../../movement/forced-movement.md) 3
           tier2: 12 [damage](../../../../../rule/damage/damage.md); [slide](../../../../../movement/forced-movement.md) 5
           tier3: 14 [damage](../../../../../rule/damage/damage.md); [slide](../../../../../movement/forced-movement.md) 6
+        - effect: An ally targeted by this ability can, instead, spend Recovery and [shift](../../../../../movement/shifting.md) the slide amount.
+          name: Effect
       feature_type: ability
       icon: "\U0001F3F9"
       keywords:
@@ -67,14 +69,14 @@ features:
       type: feature
     - distance: Self
       effects:
-        - effect: |-
-            **Trigger:** The Attendant takes [damage](../../../../../rule/damage/damage.md) from an enemy.
-            **Effect:** The Attendant rings a bell, and you summon a signature minion into an unoccupied space [adjacent](../../../../../rule/combat/adjacent.md) to the Attendant.
+        - effect: The Attendant rings a bell, and you summon a signature minion into an unoccupied space [adjacent](../../../../../rule/combat/adjacent.md) to the Attendant.
+          name: Effect
       feature_type: ability
       icon: ❗️
       keywords: []
       name: Celestial Bell
       target: Self
+      trigger: The Attendant takes [damage](../../../../../rule/damage/damage.md) from an enemy.
       type: feature
       usage: Free triggered action
     - effects:

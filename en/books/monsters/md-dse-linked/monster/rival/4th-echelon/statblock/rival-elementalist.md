@@ -37,6 +37,8 @@ features:
           tier1: 15 damage; [slide](../../../../movement/forced-movement.md) 3; M < 3 5 acid damage
           tier2: 20 damage; [slide](../../../../movement/forced-movement.md) 4; M < 4 7 acid damage
           tier3: 24 damage; [slide](../../../../movement/forced-movement.md) 5; M < 5 9 acid damage
+        - effect: One ally within distance ends all [conditions](../../../../rule/combat/condition.md) on themself.
+          name: Effect
       feature_type: ability
       icon: "\U0001F3F9"
       keywords:
@@ -51,7 +53,8 @@ features:
     - cost: 5 Malice
       distance: 3 cube within 10
       effects:
-        - effect: '**Effect:** The area becomes overgrown with caustic vines until the end of the encounter. While in the area, any enemy has acid [weakness](../../../../rule/damage/damage-weakness.md) 5 and is [slowed](../../../../condition/slowed.md). Any enemy who ends their turn in the area and has M < 4 is [restrained](../../../../condition/restrained.md) (save ends).'
+        - effect: The area becomes overgrown with caustic vines until the end of the encounter. While in the area, any enemy has acid [weakness](../../../../rule/damage/damage-weakness.md) 5 and is [slowed](../../../../condition/slowed.md). Any enemy who ends their turn in the area and has M < 4 is [restrained](../../../../condition/restrained.md) (save ends).
+          name: Effect
       feature_type: ability
       icon: "\U0001F533"
       keywords:
@@ -65,9 +68,8 @@ features:
       usage: Main action
     - distance: Self
       effects:
-        - effect: |-
-            **Trigger:** The elementalist takes damage.
-            **Effect:** The elementalist can [teleport](../../../../movement/teleport.md) up to 5 squares. Each creature [adjacent](../../../../rule/combat/adjacent.md) to the space they leave or appear in takes 5 corruption damage.
+        - effect: The elementalist can [teleport](../../../../movement/teleport.md) up to 5 squares. Each creature [adjacent](../../../../rule/combat/adjacent.md) to the space they leave or appear in takes 5 corruption damage.
+          name: Effect
       feature_type: ability
       icon: ❗️
       keywords:
@@ -75,6 +77,7 @@ features:
         - Void
       name: Breach of Nihility
       target: Self
+      trigger: The elementalist takes damage.
       type: feature
       usage: Triggered action
     - effects:

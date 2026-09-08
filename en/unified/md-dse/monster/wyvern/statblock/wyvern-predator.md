@@ -40,6 +40,8 @@ features:
           tier1: 9 damage
           tier2: 14 damage; M < 2 [slowed](scc.v1:mcdm.heroes.v1/condition/slowed) (save ends)
           tier3: 17 damage; M < 3 [slowed](scc.v1:mcdm.heroes.v1/condition/slowed) (save ends)
+        - effect: If a target [slowed](scc.v1:mcdm.heroes.v1/condition/slowed) this way is already [slowed](scc.v1:mcdm.heroes.v1/condition/slowed), they are instead [restrained](scc.v1:mcdm.heroes.v1/condition/restrained) (save ends).
+          name: Effect
       feature_type: ability
       icon: "\U0001F5E1"
       keywords:
@@ -56,6 +58,8 @@ features:
           tier1: 6 damage; A < 1 3 acid damage
           tier2: 11 damage; A < 2 3 acid damage
           tier3: 14 damage; A < 3 3 acid damage
+        - cost: 5 Malice
+          effect: The predator uses this ability a second time, either recreating the same line or creating a new line.
       feature_type: ability
       icon: "\U0001F533"
       keywords:
@@ -85,15 +89,15 @@ features:
     - cost: 1 Malice
       distance: Melee 3
       effects:
-        - effect: |-
-            **Trigger:** A creature within distance deals damage to the predator with a melee ability.
-            **Effect:** The predator uses Sedating Stinger against the target, then [shifts](scc.v1:mcdm.heroes.v1/movement/shifting) up to 3 squares.
+        - effect: The predator uses Sedating Stinger against the target, then [shifts](scc.v1:mcdm.heroes.v1/movement/shifting) up to 3 squares.
+          name: Effect
       feature_type: ability
       icon: ❗️
       keywords:
         - Melee
       name: Deterring Sting
       target: The triggering creature
+      trigger: A creature within distance deals damage to the predator with a melee ability.
       type: feature
       usage: Triggered action
     - effects:

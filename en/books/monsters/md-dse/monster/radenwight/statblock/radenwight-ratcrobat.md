@@ -38,6 +38,8 @@ features:
           tier1: 4 damage
           tier2: 6 damage
           tier3: 8 damage
+        - effect: The ratcrobat [shifts](scc.v1:mcdm.heroes.v1/movement/shifting) up to 2 squares after striking the first target, then can [shift](scc.v1:mcdm.heroes.v1/movement/shifting) 1 square after striking the second target.
+          name: Effect
       feature_type: ability
       icon: "\U0001F5E1"
       keywords:
@@ -50,7 +52,8 @@ features:
       usage: Main action
     - distance: Melee 1
       effects:
-        - effect: '**Effect:** The ratcrobat [slides](scc.v1:mcdm.heroes.v1/movement/forced-movement) the target up to 3 squares, then can [shift](scc.v1:mcdm.heroes.v1/movement/shifting) into any square the target left.'
+        - effect: The ratcrobat [slides](scc.v1:mcdm.heroes.v1/movement/forced-movement) the target up to 3 squares, then can [shift](scc.v1:mcdm.heroes.v1/movement/shifting) into any square the target left.
+          name: Effect
       feature_type: ability
       icon: "\U0001F5E1"
       keywords:
@@ -61,9 +64,8 @@ features:
       usage: Maneuver
     - distance: Melee 1
       effects:
-        - effect: |-
-            **Trigger:** An ally deals damage to the target.
-            **Effect:** The ratcrobat makes a [free strike](scc.v1:mcdm.heroes.v1/feature.common.main-actions/free-strike) against the target.
+        - effect: The ratcrobat makes a [free strike](scc.v1:mcdm.heroes.v1/feature.common.main-actions/free-strike) against the target.
+          name: Effect
       feature_type: ability
       icon: ❗️
       keywords:
@@ -71,6 +73,7 @@ features:
         - Weapon
       name: Ready Rodent
       target: One creature
+      trigger: An ally deals damage to the target.
       type: feature
       usage: Triggered action
     - effects:

@@ -39,6 +39,8 @@ features:
           tier1: 2 damage
           tier2: 4 damage
           tier3: 5 damage
+        - effect: One ally of the redeye within 2 squares of the target [shifts](scc.v1:mcdm.heroes.v1/movement/shifting) up to 2 squares.
+          name: Effect
       feature_type: ability
       icon: "\U0001F3F9"
       keywords:
@@ -51,9 +53,8 @@ features:
       usage: Main action
     - distance: Melee 1
       effects:
-        - effect: |-
-            **Trigger:** An ally deals damage to the target.
-            **Effect:** The redeye makes a [free strike](scc.v1:mcdm.heroes.v1/feature.common.main-actions/free-strike) against the target.
+        - effect: The redeye makes a [free strike](scc.v1:mcdm.heroes.v1/feature.common.main-actions/free-strike) against the target.
+          name: Effect
       feature_type: ability
       icon: ❗️
       keywords:
@@ -61,6 +62,7 @@ features:
         - Weapon
       name: Ready Rodent
       target: One creature
+      trigger: An ally deals damage to the target.
       type: feature
       usage: Triggered action
 free_strike: 2

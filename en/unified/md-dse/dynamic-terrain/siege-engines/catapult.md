@@ -1,6 +1,11 @@
 ---
 features:
-    - icon: "\U0001F300"
+    - effects:
+        - effect: As a maneuver, a creature [adjacent](scc.v1:mcdm.heroes.v1/rule.combat/adjacent) to a catapult can make an **Agility test**.
+          tier1: The creature accidentally activates the **Arcing Shot** ability.
+          tier2: The catapult is deactivated but the creature is [slowed](scc.v1:mcdm.heroes.v1/condition/slowed) (EoT).
+          tier3: The catapult is deactivated and can't be used.
+      icon: "\U0001F300"
       intro: As a maneuver, a creature [adjacent](scc.v1:mcdm.heroes.v1/rule.combat/adjacent) to a catapult can make an **Agility test**.
       name: Deactivate
       power_roll:
@@ -9,6 +14,13 @@ features:
             low: The creature accidentally activates the **Arcing Shot** ability.
             mid: The catapult is deactivated but the creature is [slowed](scc.v1:mcdm.heroes.v1/condition/slowed) (EoT).
     - distance: 3 cube within 20
+      effects:
+        - roll: Power Roll + 2
+          tier1: 5 damage
+          tier2: 9 damage; A < 0 push 1
+          tier3: 12 damage; A < 1 push 2
+        - effect: Line of effect for this ability is an arc that can be traced over obstacles between the catapult and the target area. This ability can't be used again until the catapult is reloaded.
+          name: Effect
       icon: "\U0001F533"
       keywords:
         - '- Area'
@@ -27,6 +39,9 @@ features:
       target: Each creature and object in the area
       usage: Main action (Adjacent creature)
     - distance: '-'
+      effects:
+        - effect: The catapult is reloaded, allowing **Arcing Shot** to be used again. This action can be used only once per round.
+          name: Effect
       icon: ⭐️
       name: Reload
       sections:
@@ -35,6 +50,9 @@ features:
       target: '-'
       usage: Main action (Adjacent creature)
     - distance: '-'
+      effects:
+        - effect: The next use of **Arcing Shot** gains an edge and has a +10 bonus to ranged distance. This action can be used only once per round.
+          name: Effect
       icon: ⭐️
       name: Spot
       sections:
@@ -43,6 +61,9 @@ features:
       target: '-'
       usage: Main action (Adjacent creature)
     - distance: '-'
+      effects:
+        - effect: The catapult and the creature using this action move together up to 2 squares.
+          name: Effect
       icon: ⭐️
       name: Move
       sections:
@@ -54,6 +75,9 @@ features:
         **Air Assault (+2 EV)** The side fielding the catapult has trained their forces to safely use the siege engine to launch them across the battlefield. As an adjacent creature main action, the catapult can be used to vertical push 10 any ally of size 1L or less. If the ally lands in an unoccupied space, they take no damage.
 
         **Flammable (+2 EV) Arcing Shot** deals fire damage, and the area of that ability is on fire until the end of the encounter. Any creature who enters the area for the first time in a round or starts their turn there takes 2 fire damage.
+      effects:
+        - effect: '**Air Assault (+2 EV)** The side fielding the catapult has trained their forces to safely use the siege engine to launch them across the battlefield. As an adjacent creature main action, the catapult can be used to vertical push 10 any ally of size 1L or less. If the ally lands in an unoccupied space, they take no damage.'
+        - effect: '**Flammable (+2 EV) Arcing Shot** deals fire damage, and the area of that ability is on fire until the end of the encounter. Any creature who enters the area for the first time in a round or starts their turn there takes 2 fire damage.'
       icon: ⭐️
       name: Upgrades
 file_basename: catapult
@@ -79,7 +103,12 @@ type: dynamic-terrain
 
 ```ds-fb
 features:
-    - icon: "\U0001F300"
+    - effects:
+        - effect: As a maneuver, a creature [adjacent](scc.v1:mcdm.heroes.v1/rule.combat/adjacent) to a catapult can make an **Agility test**.
+          tier1: The creature accidentally activates the **Arcing Shot** ability.
+          tier2: The catapult is deactivated but the creature is [slowed](scc.v1:mcdm.heroes.v1/condition/slowed) (EoT).
+          tier3: The catapult is deactivated and can't be used.
+      icon: "\U0001F300"
       intro: As a maneuver, a creature [adjacent](scc.v1:mcdm.heroes.v1/rule.combat/adjacent) to a catapult can make an **Agility test**.
       name: Deactivate
       power_roll:
@@ -88,6 +117,13 @@ features:
             low: The creature accidentally activates the **Arcing Shot** ability.
             mid: The catapult is deactivated but the creature is [slowed](scc.v1:mcdm.heroes.v1/condition/slowed) (EoT).
     - distance: 3 cube within 20
+      effects:
+        - roll: Power Roll + 2
+          tier1: 5 damage
+          tier2: 9 damage; A < 0 push 1
+          tier3: 12 damage; A < 1 push 2
+        - effect: Line of effect for this ability is an arc that can be traced over obstacles between the catapult and the target area. This ability can't be used again until the catapult is reloaded.
+          name: Effect
       icon: "\U0001F533"
       keywords:
         - '- Area'
@@ -106,6 +142,9 @@ features:
       target: Each creature and object in the area
       usage: Main action (Adjacent creature)
     - distance: '-'
+      effects:
+        - effect: The catapult is reloaded, allowing **Arcing Shot** to be used again. This action can be used only once per round.
+          name: Effect
       icon: ⭐️
       name: Reload
       sections:
@@ -114,6 +153,9 @@ features:
       target: '-'
       usage: Main action (Adjacent creature)
     - distance: '-'
+      effects:
+        - effect: The next use of **Arcing Shot** gains an edge and has a +10 bonus to ranged distance. This action can be used only once per round.
+          name: Effect
       icon: ⭐️
       name: Spot
       sections:
@@ -122,6 +164,9 @@ features:
       target: '-'
       usage: Main action (Adjacent creature)
     - distance: '-'
+      effects:
+        - effect: The catapult and the creature using this action move together up to 2 squares.
+          name: Effect
       icon: ⭐️
       name: Move
       sections:
@@ -133,6 +178,9 @@ features:
         **Air Assault (+2 EV)** The side fielding the catapult has trained their forces to safely use the siege engine to launch them across the battlefield. As an adjacent creature main action, the catapult can be used to vertical push 10 any ally of size 1L or less. If the ally lands in an unoccupied space, they take no damage.
 
         **Flammable (+2 EV) Arcing Shot** deals fire damage, and the area of that ability is on fire until the end of the encounter. Any creature who enters the area for the first time in a round or starts their turn there takes 2 fire damage.
+      effects:
+        - effect: '**Air Assault (+2 EV)** The side fielding the catapult has trained their forces to safely use the siege engine to launch them across the battlefield. As an adjacent creature main action, the catapult can be used to vertical push 10 any ally of size 1L or less. If the ally lands in an unoccupied space, they take no damage.'
+        - effect: '**Flammable (+2 EV) Arcing Shot** deals fire damage, and the area of that ability is on fire until the end of the encounter. Any creature who enters the area for the first time in a round or starts their turn there takes 2 fire damage.'
       icon: ⭐️
       name: Upgrades
 flavor: This massive counterweighted engine hurls a heavy projectile for a devastating assault.

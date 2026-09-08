@@ -11,6 +11,14 @@
           "tier1": "8 damage; M \u003c 1 [restrained](scc.v1:mcdm.heroes.v1/condition/restrained) (save ends)",
           "tier2": "12 damage; M \u003c 2 [restrained](scc.v1:mcdm.heroes.v1/condition/restrained) (save ends)",
           "tier3": "15 damage; M \u003c 3 [restrained](scc.v1:mcdm.heroes.v1/condition/restrained) (save ends)"
+        },
+        {
+          "effect": "The warleader can [teleport](scc.v1:mcdm.heroes.v1/movement/teleport) up to 3 squares between each strike.",
+          "name": "Effect"
+        },
+        {
+          "cost": "2 Malice",
+          "effect": "A target [restrained](scc.v1:mcdm.heroes.v1/condition/restrained) by this ability takes an extra 3 damage."
         }
       ],
       "feature_type": "ability",
@@ -31,7 +39,8 @@
       "distance": "10 burst",
       "effects": [
         {
-          "effect": "**Effect:** Each non-[minion](scc.v1:mcdm.monsters.v1/rule.organization/minion) target can make a [free strike](scc.v1:mcdm.heroes.v1/feature.common.main-actions/free-strike), then each target [shifts](scc.v1:mcdm.heroes.v1/movement/shifting) up to 3 squares. A target who has cover or concealment at the end of this shift can attempt to hide at the end of the warleader's turn."
+          "effect": "Each non-[minion](scc.v1:mcdm.monsters.v1/rule.organization/minion) target can make a [free strike](scc.v1:mcdm.heroes.v1/feature.common.main-actions/free-strike), then each target [shifts](scc.v1:mcdm.heroes.v1/movement/shifting) up to 3 squares. A target who has cover or concealment at the end of this shift can attempt to hide at the end of the warleader's turn.",
+          "name": "Effect"
         }
       ],
       "feature_type": "ability",
@@ -48,7 +57,8 @@
       "distance": "Ranged 10",
       "effects": [
         {
-          "effect": "**Trigger:** An ally ends their turn.\n**Effect:** The target must not have taken their turn this round. The target takes their turn immediately, and if they have P \u003c 2 they are [bleeding](scc.v1:mcdm.heroes.v1/condition/bleeding) and take a bane on strikes until the end of their turn."
+          "effect": "The target must not have taken their turn this round. The target takes their turn immediately, and if they have P \u003c 2 they are [bleeding](scc.v1:mcdm.heroes.v1/condition/bleeding) and take a bane on strikes until the end of their turn.",
+          "name": "Effect"
         }
       ],
       "feature_type": "ability",
@@ -58,6 +68,7 @@
       ],
       "name": "Wode Sickness",
       "target": "One enemy",
+      "trigger": "An ally ends their turn.",
       "type": "feature",
       "usage": "Triggered action"
     },
@@ -99,7 +110,8 @@
       "distance": "5 burst",
       "effects": [
         {
-          "effect": "**Effect:** The warleader uses Wodeblade against each target and gains an edge on the power roll."
+          "effect": "The warleader uses Wodeblade against each target and gains an edge on the power roll.",
+          "name": "Effect"
         }
       ],
       "feature_type": "ability",
@@ -117,7 +129,8 @@
       "distance": "5 burst",
       "effects": [
         {
-          "effect": "**Effect:** The warleader can use Wodeblade. Each target can then make a [free strike](scc.v1:mcdm.heroes.v1/feature.common.main-actions/free-strike)."
+          "effect": "The warleader can use Wodeblade. Each target can then make a [free strike](scc.v1:mcdm.heroes.v1/feature.common.main-actions/free-strike).",
+          "name": "Effect"
         }
       ],
       "feature_type": "ability",
@@ -135,7 +148,8 @@
       "distance": "5 burst",
       "effects": [
         {
-          "effect": "**Effect:** Each target is invisible until the start of the next round. The warleader then uses Wodeblade."
+          "effect": "Each target is invisible until the start of the next round. The warleader then uses Wodeblade.",
+          "name": "Effect"
         }
       ],
       "feature_type": "ability",

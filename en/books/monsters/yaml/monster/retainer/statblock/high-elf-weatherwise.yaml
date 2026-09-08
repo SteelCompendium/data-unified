@@ -8,6 +8,8 @@ features:
           tier1: 3 fire damage
           tier2: 5 fire damage
           tier3: 7 fire damage
+        - effect: If the weatherwise targets their mentor, the mentor ignores the damage and instead gains [temporary Stamina](scc.v1:mcdm.heroes.v1/rule.health/temporary-stamina) equal to the damage dealt.
+          name: Effect
       feature_type: ability
       icon: "\U0001F3F9"
       keywords:

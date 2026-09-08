@@ -37,6 +37,10 @@ features:
           tier1: 15 damage; M < 4 [bleeding](../../../../condition/bleeding.md) (save ends)
           tier2: 21 damage; M < 5 [bleeding](../../../../condition/bleeding.md) (save ends)
           tier3: 25 damage; M < 6 [bleeding](../../../../condition/bleeding.md) (save ends)
+        - effect: Each target loses 1d3 Recoveries.
+          name: Effect
+        - cost: 2 Malice
+          effect: When a target is made [bleeding](../../../../condition/bleeding.md) this way, each ally [adjacent](../../../../rule/combat/adjacent.md) to them can make a [free strike](../../../../feature/common/main-actions/free-strike.md) against the target.
       feature_type: ability
       icon: ⚔️
       keywords:
@@ -50,7 +54,8 @@ features:
       usage: Main action
     - distance: Ranged 15
       effects:
-        - effect: '**Effect:** Until the start of Alkestis''s next turn, any effect that reduces the damage taken by the target has no effect.'
+        - effect: Until the start of Alkestis's next turn, any effect that reduces the damage taken by the target has no effect.
+          name: Effect
       feature_type: ability
       icon: "\U0001F3F9"
       keywords:
@@ -66,6 +71,8 @@ features:
           tier1: 8 damage; A < 4 [slowed](../../../../condition/slowed.md) (save ends)
           tier2: 13 damage; A < 5 [slowed](../../../../condition/slowed.md) (save ends)
           tier3: 16 damage; A < 6 [slowed](../../../../condition/slowed.md) (save ends)
+        - effect: The area is [difficult terrain](../../../../movement/difficult-terrain.md) until the start of the next round.
+          name: Effect
       feature_type: ability
       icon: ❗️
       keywords:
@@ -74,6 +81,7 @@ features:
         - Weapon
       name: Artillery Enfilade
       target: Each creature and object in the area
+      trigger: An ally is reduced to 0 [Stamina](../../../../rule/health/stamina.md) within 10 squares of Alkestis.
       type: feature
       usage: Triggered action
     - effects:
@@ -91,7 +99,8 @@ features:
     - cost: Villain Action 1
       distance: Special
       effects:
-        - effect: '**Effect:** Each target can disappear, then reappear anywhere on the encounter map 3 or more squares away from any enemy. Additionally, each target has a double edge on their next power roll.'
+        - effect: Each target can disappear, then reappear anywhere on the encounter map 3 or more squares away from any enemy. Additionally, each target has a double edge on their next power roll.
+          name: Effect
       feature_type: ability
       icon: ☠️
       keywords: []
@@ -102,7 +111,8 @@ features:
     - cost: Villain Action 2
       distance: Ranged 15
       effects:
-        - effect: '**Effect:** For each war dog reduced to 0 [Stamina](../../../../rule/health/stamina.md) in the encounter, a war dog shriketrooper appears in an unoccupied space within distance.'
+        - effect: For each war dog reduced to 0 [Stamina](../../../../rule/health/stamina.md) in the encounter, a war dog shriketrooper appears in an unoccupied space within distance.
+          name: Effect
       feature_type: ability
       icon: ☠️
       keywords:
@@ -114,7 +124,8 @@ features:
     - cost: Villain Action 3
       distance: 5 burst
       effects:
-        - effect: '**Effect:** Until the start of the next round, each target enemy who has I < 4 is [dazed](../../../../condition/dazed.md), each target enemy who has M < 4 is [restrained](../../../../condition/restrained.md), and each target enemy who has A < 4 can''t use [triggered actions](../../../../rule/combat/triggered-action.md). Additionally, until the end of the encounter, Alkestis and each target ally have damage immunity 3 and deal an extra 5 damage with strikes.'
+        - effect: Until the start of the next round, each target enemy who has I < 4 is [dazed](../../../../condition/dazed.md), each target enemy who has M < 4 is [restrained](../../../../condition/restrained.md), and each target enemy who has A < 4 can't use [triggered actions](../../../../rule/combat/triggered-action.md). Additionally, until the end of the encounter, Alkestis and each target ally have damage immunity 3 and deal an extra 5 damage with strikes.
+          name: Effect
       feature_type: ability
       icon: ☠️
       keywords:

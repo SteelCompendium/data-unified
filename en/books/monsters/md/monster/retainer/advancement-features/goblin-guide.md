@@ -2,6 +2,13 @@
 features:
     - cost: Encounter
       distance: Melee 1
+      effects:
+        - roll: Power Roll + highest characteristic
+          tier1: 5 damage
+          tier2: 9 damage
+          tier3: 12 damage
+        - effect: The guide [shifts](scc.v1:mcdm.heroes.v1/movement/shifting) up to their speed before and after the [strike](scc.v1:mcdm.heroes.v1/rule.combat/strike).
+          name: Effect
       icon: "\U0001F5E1"
       keywords:
         - Melee
@@ -22,6 +29,13 @@ features:
       usage: Main action
     - cost: Encounter
       distance: Melee 1
+      effects:
+        - roll: Power Roll + highest characteristic
+          tier1: 8 damage
+          tier2: 12 damage; the guide and their mentor can each move up to their speed
+          tier3: 16 damage; the guide and their mentor can each move up to their speed, then attempt to [hide](scc.v1:mcdm.heroes.v1/feature.common.maneuvers/hide)
+        - effect: If the guide is hidden from the target, this ability has a double edge.
+          name: Effect
       icon: "\U0001F5E1"
       keywords:
         - Melee
@@ -42,6 +56,9 @@ features:
       usage: Main action
     - cost: Encounter
       distance: Special
+      effects:
+        - effect: The guide applies poison to their weapon. The next time the guide obtains a tier 2 or tier 3 outcome on a weapon [strike](scc.v1:mcdm.heroes.v1/rule.combat/strike), the [strike](scc.v1:mcdm.heroes.v1/rule.combat/strike) deals an extra 10 poison damage, and if the target has M < AVERAGE, they are [weakened](scc.v1:mcdm.heroes.v1/condition/weakened) ([save](scc.v1:mcdm.heroes.v1/rule.general/saving-throw) ends). If the guide is [adjacent](scc.v1:mcdm.heroes.v1/rule.combat/adjacent) to their mentor when they use Poison Blade, they apply poison to the mentor's weapon in the same way.
+          name: Effect
       icon: "\U0001F300"
       level: 10
       name: Poison Blade

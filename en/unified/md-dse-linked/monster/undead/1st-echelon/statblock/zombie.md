@@ -40,6 +40,8 @@ features:
           tier1: 4 damage
           tier2: 6 damage
           tier3: 7 damage; [grabbed](../../../../condition/grabbed.md)
+        - effect: 'A target who starts their turn [grabbed](../../../../condition/grabbed.md) by the zombie takes 2 corruption damage. A creature who takes 5 or more corruption damage this way becomes insatiably hungry for flesh, and must complete the Find a Cure downtime project in Draw Steel: Heroes to end this effect.'
+          name: Effect
       feature_type: ability
       icon: "\U0001F5E1"
       keywords:
@@ -53,7 +55,9 @@ features:
     - cost: 3 Malice
       distance: 2 burst
       effects:
-        - roll: Power Roll + 2
+        - effect: The zombie falls [prone](../../../../condition/prone.md), expelling a wave of rot and dust.
+          name: Effect
+          roll: Power Roll + 2
           tier1: 2 corruption damage
           tier2: 3 corruption damage; M < 1 [weakened](../../../../condition/weakened.md) (save ends)
           tier3: 4 corruption damage; M < 2 [dazed](../../../../condition/dazed.md) (save ends)

@@ -41,6 +41,8 @@ features:
           tier1: 5 fire damage
           tier2: 8 fire damage
           tier3: 10 fire damage; this damage ignores immunity
+        - effect: This ability ignores concealment. A winded target takes an extra 5 damage.
+          name: Effect
       feature_type: ability
       icon: "\U0001F3F9"
       keywords:

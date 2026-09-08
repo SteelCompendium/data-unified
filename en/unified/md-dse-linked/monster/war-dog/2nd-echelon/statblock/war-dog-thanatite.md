@@ -34,10 +34,14 @@ features:
     - ability_type: Signature Ability
       distance: Ranged 10
       effects:
-        - roll: Power Roll + 3
+        - effect: The target dies and the thanatite makes one power roll against each enemy within 2 squares of the target.
+          name: Effect
+          roll: Power Roll + 3
           tier1: 3 corruption damage; A < 1 [slowed](../../../../condition/slowed.md) (save ends)
           tier2: 5 corruption damage; A < 2 [slowed](../../../../condition/slowed.md) (save ends)
           tier3: 7 corruption damage; A < 3 [restrained](../../../../condition/restrained.md) (save ends)
+        - cost: 3 Malice
+          effect: If an affected enemy is [adjacent](../../../../rule/combat/adjacent.md) to any corpse, they are [frightened](../../../../condition/frightened.md) of the thanatite (save ends).
       feature_type: ability
       icon: "\U0001F3F9"
       keywords:
@@ -49,7 +53,8 @@ features:
       usage: Main action
     - distance: 10 wall within 10
       effects:
-        - effect: '**Effect:** The target spawns a wall of bloody muscle and pulsing viscera that must share one or more squares with the target. Each enemy in the area when the wall is created vertically [slides](../../../../movement/forced-movement.md) up to 2 squares and is knocked [prone](../../../../condition/prone.md). Each square of the wall has 3 [Stamina](../../../../rule/health/stamina.md).'
+        - effect: The target spawns a wall of bloody muscle and pulsing viscera that must share one or more squares with the target. Each enemy in the area when the wall is created vertically [slides](../../../../movement/forced-movement.md) up to 2 squares and is knocked [prone](../../../../condition/prone.md). Each square of the wall has 3 [Stamina](../../../../rule/health/stamina.md).
+          name: Effect
       feature_type: ability
       icon: "\U0001F533"
       keywords:

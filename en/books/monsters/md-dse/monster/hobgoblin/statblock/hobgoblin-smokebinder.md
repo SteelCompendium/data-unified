@@ -42,6 +42,8 @@ features:
           tier1: 9 fire damage
           tier2: 14 fire damage
           tier3: 17 fire damage; R < 3 [slowed](scc.v1:mcdm.heroes.v1/condition/slowed) (save ends)
+        - effect: If this ability gains an edge or has a double edge, the target can't communicate with anyone until the end of their next turn.
+          name: Effect
       feature_type: ability
       icon: "\U0001F3F9"
       keywords:
@@ -55,7 +57,8 @@ features:
     - cost: 3 Malice
       distance: 3 burst
       effects:
-        - roll: ""
+        - effect: Each target makes a Might test.
+          name: Effect
           tier1: 11 damage; the target has a double bane on their next power roll
           tier2: 9 damage; the target takes a bane on their next power roll
           tier3: 5 damage

@@ -40,6 +40,8 @@ features:
           tier1: 3 damage; pull 2
           tier2: 6 damage; pull 3
           tier3: 7 damage; pull 4, [grabbed](../../../condition/grabbed.md)
+        - effect: If the target is pulled into the mob, that [forced movement](../../../movement/forced-movement.md) deals damage only at the Director's determination.
+          name: Effect
       feature_type: ability
       icon: "\U0001F5E1"
       keywords:

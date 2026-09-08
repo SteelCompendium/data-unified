@@ -37,6 +37,8 @@ features:
           tier1: 3 damage
           tier2: 5 damage
           tier3: 7 damage
+        - effect: This ability ignores [cover](../../../rule/combat/cover.md) and bypasses [temporary Stamina](../../../rule/health/temporary-stamina.md).
+          name: Effect
       feature_type: ability
       icon: "\U0001F3F9"
       keywords:

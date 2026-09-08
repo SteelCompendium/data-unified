@@ -8,6 +8,8 @@ features:
           tier1: 4 sonic damage
           tier2: 7 sonic damage
           tier3: 10 sonic damage; [prone](scc.v1:mcdm.heroes.v1/condition/prone); M < 2 [slowed](scc.v1:mcdm.heroes.v1/condition/slowed) (save ends)
+        - effect: A layer of ground beneath the area that is 1 square deep is destroyed.
+          name: Effect
       feature_type: ability
       icon: "\U0001F533"
       keywords:
@@ -22,9 +24,8 @@ features:
     - cost: 1 Malice
       distance: 5 burst
       effects:
-        - effect: |-
-            **Trigger:** A creature damages the cannonfall with a ranged or area ability.
-            **Effect:** The damage is halved for the cannonfall and each target also affected by the triggering ability.
+        - effect: The damage is halved for the cannonfall and each target also affected by the triggering ability.
+          name: Effect
       feature_type: ability
       icon: ❗️
       keywords:
@@ -32,6 +33,7 @@ features:
         - Psionic
       name: Buss Buffe
       target: Self and each ally in the area
+      trigger: A creature damages the cannonfall with a ranged or area ability.
       type: feature
       usage: Free triggered action
     - effects:

@@ -46,6 +46,10 @@ features:
           tier1: 10 fire damage
           tier2: 15 fire damage; A < 2 burning (save ends)
           tier3: 18 fire damage; A < 3 burning (save ends)
+        - effect: A burning creature takes 1d6 fire damage at the start of each of their turns. A burning object takes 1d6 fire damage at the end of each round.
+          name: Effect
+        - cost: 1+ Malice
+          effect: The jurist can target one additional creature or object for each [Malice](scc.v1:mcdm.monsters.v1/rule.monster/malice) spent.
       feature_type: ability
       icon: "\U0001F3F9"
       keywords:
@@ -62,6 +66,8 @@ features:
           tier1: 6 damage; slide 1
           tier2: 10 damage; slide 3
           tier3: 12 damage; slide 5
+        - effect: If the target has M < 2, the [forced](scc.v1:mcdm.heroes.v1/movement/forced-movement) distance movement gains a +3 bonus.
+          name: Effect
       feature_type: ability
       icon: ❇️
       keywords:
@@ -73,7 +79,8 @@ features:
       usage: Main action
     - distance: Ranged 12
       effects:
-        - effect: '**Effect:** If the target is burning (see Fire and Brimstone), they take 6 fire damage.'
+        - effect: If the target is burning (see Fire and Brimstone), they take 6 fire damage.
+          name: Effect
       feature_type: ability
       icon: "\U0001F3F9"
       keywords:
@@ -86,7 +93,8 @@ features:
     - cost: 2 Malice
       distance: Ranged 5
       effects:
-        - roll: ""
+        - effect: The target makes a Presence test.
+          name: Effect
           tier1: The jurist chooses a new target for the strike.
           tier2: The jurist halves the triggering damage.
           tier3: The target takes a [bane](scc.v1:mcdm.heroes.v1/rule.dice/bane) on the strike.
@@ -97,6 +105,7 @@ features:
         - Ranged
       name: Devilish Charm
       target: The triggering creature
+      trigger: A creature targets the jurist with a strike.
       type: feature
       usage: Triggered action
     - effects:

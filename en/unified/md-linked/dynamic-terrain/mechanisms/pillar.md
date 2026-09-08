@@ -1,15 +1,30 @@
 ---
 features:
     - body: The pillar's linked trigger must be deactivated.
+      effects:
+        - effect: The pillar's linked trigger must be deactivated.
       icon: "\U0001F300"
       name: Deactivate
     - body: The pillar is destroyed, or a [pressure plate](pressure-plate.md), [switch](switch.md), or other linked trigger is activated.
+      effects:
+        - effect: The pillar is destroyed, or a [pressure plate](pressure-plate.md), [switch](switch.md), or other linked trigger is activated.
+        - effect: The **Toppling Pillar** ability.
+          name: Effect
       icon: ❕
       name: Activate
       sections:
         - label: Effect
           text: The **Toppling Pillar** ability.
     - distance: 4 x 1 line within 1
+      effects:
+        - effect: The pillar is destroyed, or a [pressure plate](pressure-plate.md), [switch](switch.md), or other linked trigger is activated.
+          name: Trigger
+          roll: Power Roll + 2
+          tier1: 4 damage
+          tier2: 6 damage; M < 1 [restrained](../../condition/restrained.md) ([save](../../rule/general/saving-throw.md) ends)
+          tier3: 9 damage; M < 2 [restrained](../../condition/restrained.md) ([save](../../rule/general/saving-throw.md) ends)
+        - effect: The area is [difficult terrain](../../movement/difficult-terrain.md).
+          name: Effect
       icon: ❗️
       keywords:
         - Area
@@ -31,6 +46,9 @@ features:
         **Metal Pillar (+1 EV)** The pillar is made of metal, has 9 [Stamina](../../rule/health/stamina.md), and deals 1d6 extra damage.
 
         **Multiple Pillars (+3 EV per additional pillar)** Multiple pillars can be used to represent a larger toppling object such as a wall. If triggered by destruction, all individual pillars need to be destroyed before the object falls.
+      effects:
+        - effect: '**Metal Pillar (+1 EV)** The pillar is made of metal, has 9 [Stamina](../../rule/health/stamina.md), and deals 1d6 extra damage.'
+        - effect: '**Multiple Pillars (+3 EV per additional pillar)** Multiple pillars can be used to represent a larger toppling object such as a wall. If triggered by destruction, all individual pillars need to be destroyed before the object falls.'
       icon: ⭐️
       name: Upgrades
 flavor: This stone pillar can be toppled onto unsuspecting foes with the right amount of damage or a well-engineered trigger mechanism.

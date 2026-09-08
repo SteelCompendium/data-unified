@@ -1,11 +1,16 @@
 ---
 features:
     - body: The Portent is now size 3.
+      effects:
+        - effect: The Portent is now size 3.
       icon: ⭐️
       level: 10
       name: Size Increase
     - cost: 1 Eidos
       distance: 4 cube within 10
+      effects:
+        - effect: 9 affinity [damage](scc.v1:mcdm.heroes.v1/rule.damage/damage). The [damage](scc.v1:mcdm.heroes.v1/rule.damage/damage) ignores [immunity](scc.v1:mcdm.heroes.v1/rule.damage/damage-immunity). The affected area becomes [difficult terrain](scc.v1:mcdm.heroes.v1/movement/difficult-terrain). An enemy has affinity [weakness](scc.v1:mcdm.heroes.v1/rule.damage/damage-weakness) 5 while occupying an affected square.
+          name: Effect
       icon: ❗️
       keywords:
         - Area
@@ -31,11 +36,16 @@ type: featureblock
 ```ds-fb
 features:
     - body: The Portent is now size 3.
+      effects:
+        - effect: The Portent is now size 3.
       icon: ⭐️
       level: 10
       name: Size Increase
     - cost: 1 Eidos
       distance: 4 cube within 10
+      effects:
+        - effect: 9 affinity [damage](scc.v1:mcdm.heroes.v1/rule.damage/damage). The [damage](scc.v1:mcdm.heroes.v1/rule.damage/damage) ignores [immunity](scc.v1:mcdm.heroes.v1/rule.damage/damage-immunity). The affected area becomes [difficult terrain](scc.v1:mcdm.heroes.v1/movement/difficult-terrain). An enemy has affinity [weakness](scc.v1:mcdm.heroes.v1/rule.damage/damage-weakness) 5 while occupying an affected square.
+          name: Effect
       icon: ❗️
       keywords:
         - Area

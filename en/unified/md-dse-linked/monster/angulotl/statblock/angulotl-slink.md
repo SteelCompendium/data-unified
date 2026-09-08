@@ -40,6 +40,8 @@ features:
           tier1: 4 damage; [pull](../../../movement/forced-movement.md) 2
           tier2: 6 damage; [pull](../../../movement/forced-movement.md) 4
           tier3: 7 damage; [pull](../../../movement/forced-movement.md) 6
+        - effect: The target is wet (save ends). Any ally targeted by this ability ignores the damage, is wet until the end of the encounter, and is [pulled](../../../movement/forced-movement.md) up to 6 squares, ignoring stability.
+          name: Effect
       feature_type: ability
       icon: "\U0001F5E1"
       keywords:
@@ -53,7 +55,8 @@ features:
     - cost: 2 Malice
       distance: Self
       effects:
-        - effect: '**Effect:** The slink jumps up to 3 squares. If they have [cover](../../../rule/combat/cover.md) or [concealment](../../../rule/combat/concealment.md) when they land, they can attempt to hide.'
+        - effect: The slink jumps up to 3 squares. If they have [cover](../../../rule/combat/cover.md) or [concealment](../../../rule/combat/concealment.md) when they land, they can attempt to hide.
+          name: Effect
       feature_type: ability
       icon: "\U0001F464"
       keywords: []

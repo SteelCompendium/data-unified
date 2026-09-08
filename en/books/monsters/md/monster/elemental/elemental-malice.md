@@ -2,14 +2,21 @@
 features:
     - body: Two elementals on the encounter map [teleport](scc.v1:mcdm.heroes.v1/movement/teleport) to swap places, and each has damage immunity 2 until the end of the round.
       cost: 3 Malice
+      effects:
+        - effect: Two elementals on the encounter map [teleport](scc.v1:mcdm.heroes.v1/movement/teleport) to swap places, and each has damage immunity 2 until the end of the round.
       icon: ⭐️
       name: Elemental Swap
     - body: An elemental acting this turn cleaves themself into two separate elementals. Each elemental has the same statistics as the original, except that each has half the original's current Stamina and is one size smaller. Both elementals can then [shift](scc.v1:mcdm.heroes.v1/movement/shifting) up to their speed.
       cost: 5 Malice
+      effects:
+        - effect: An elemental acting this turn cleaves themself into two separate elementals. Each elemental has the same statistics as the original, except that each has half the original's current Stamina and is one size smaller. Both elementals can then [shift](scc.v1:mcdm.heroes.v1/movement/shifting) up to their speed.
       icon: "\U0001F464"
       name: Split
     - cost: 7 Malice
       distance: Ranged 8
+      effects:
+        - effect: Until the end of the encounter, the target has a +5 bonus to speed and a +5 damage bonus to strikes. Additionally, whenever an elemental within the target's line of effect uses an ability with "Convocation" in the name, the target also gains the effects of that ability.
+          name: Effect
       icon: "\U0001F3F9"
       keywords:
         - Magic

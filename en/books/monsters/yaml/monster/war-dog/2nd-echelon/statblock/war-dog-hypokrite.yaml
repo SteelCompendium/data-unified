@@ -8,6 +8,8 @@ features:
           tier1: 6 damage
           tier2: 8 damage; A < 2 [bleeding](scc.v1:mcdm.heroes.v1/condition/bleeding) (save ends)
           tier3: 10 damage; A < 3 [bleeding](scc.v1:mcdm.heroes.v1/condition/bleeding) and [weakened](scc.v1:mcdm.heroes.v1/condition/weakened) (save ends)
+        - effect: This ability deals an extra 6 damage if the hypokrite is hidden or disguised.
+          name: Effect
       feature_type: ability
       icon: "\U0001F5E1"
       keywords:
@@ -21,15 +23,15 @@ features:
     - cost: 2 Malice
       distance: Ranged 20
       effects:
-        - effect: |-
-            **Trigger:** The hypokrite takes damage.
-            **Effect:** The hypokrite detonates their loyalty collar to deal 2d6 damage to each [adjacent](scc.v1:mcdm.heroes.v1/rule.combat/adjacent) enemy, but [teleports](scc.v1:mcdm.heroes.v1/movement/teleport) to an unoccupied space [adjacent](scc.v1:mcdm.heroes.v1/rule.combat/adjacent) to an ally within distance and remains alive.
+        - effect: The hypokrite detonates their loyalty collar to deal 2d6 damage to each [adjacent](scc.v1:mcdm.heroes.v1/rule.combat/adjacent) enemy, but [teleports](scc.v1:mcdm.heroes.v1/movement/teleport) to an unoccupied space [adjacent](scc.v1:mcdm.heroes.v1/rule.combat/adjacent) to an ally within distance and remains alive.
+          name: Effect
       feature_type: ability
       icon: ❗️
       keywords:
         - Ranged
       name: Feign Death
       target: Special
+      trigger: The hypokrite takes damage.
       type: feature
       usage: Triggered action
     - effects:

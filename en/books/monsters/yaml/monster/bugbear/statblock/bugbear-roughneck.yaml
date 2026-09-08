@@ -8,6 +8,8 @@ features:
           tier1: 7 damage
           tier2: 11 damage; one target is [grabbed](scc.v1:mcdm.heroes.v1/condition/grabbed); one target is [pushed](scc.v1:mcdm.heroes.v1/movement/forced-movement) up to 2 squares
           tier3: 14 damage; one target is [grabbed](scc.v1:mcdm.heroes.v1/condition/grabbed); one target is vertical [pushed](scc.v1:mcdm.heroes.v1/movement/forced-movement) up to 3 squares
+        - cost: 5 Malice
+          effect: The ability takes the Area keyword and loses the Strike keyword, its distance becomes a 1 burst, and it targets each enemy in the area.
       feature_type: ability
       icon: "\U0001F5E1"
       keywords:
@@ -24,6 +26,8 @@ features:
           tier1: 8 damage; M < 1 [prone](scc.v1:mcdm.heroes.v1/condition/prone)
           tier2: 13 damage; M < 2 [prone](scc.v1:mcdm.heroes.v1/condition/prone)
           tier3: 16 damage; M < 3 [prone](scc.v1:mcdm.heroes.v1/condition/prone)
+        - effect: The roughneck can jump up to 5 squares to an unoccupied space within distance of the target before making this strike.
+          name: Effect
       feature_type: ability
       icon: "\U0001F5E1"
       keywords:
@@ -37,9 +41,10 @@ features:
     - cost: 3 Malice
       distance: Melee 1
       effects:
-        - effect: |-
-            **Special:** The target must be [grabbed](scc.v1:mcdm.heroes.v1/condition/grabbed) by the roughneck.
-            **Effect:** The roughneck moves up to their speed across the ground, dragging the target with them. The target takes 2 damage for each square they were dragged through. When this movement ends, the target is no longer [grabbed](scc.v1:mcdm.heroes.v1/condition/grabbed) and falls [prone](scc.v1:mcdm.heroes.v1/condition/prone). Each square the target was dragged through is difficult terrain for enemies.
+        - effect: The target must be [grabbed](scc.v1:mcdm.heroes.v1/condition/grabbed) by the roughneck.
+          name: Special
+        - effect: The roughneck moves up to their speed across the ground, dragging the target with them. The target takes 2 damage for each square they were dragged through. When this movement ends, the target is no longer [grabbed](scc.v1:mcdm.heroes.v1/condition/grabbed) and falls [prone](scc.v1:mcdm.heroes.v1/condition/prone). Each square the target was dragged through is difficult terrain for enemies.
+          name: Effect
       feature_type: ability
       icon: "\U0001F5E1"
       keywords:
@@ -50,9 +55,10 @@ features:
       usage: Maneuver
     - distance: Melee 1
       effects:
-        - effect: |-
-            **Special:** The target must be [grabbed](scc.v1:mcdm.heroes.v1/condition/grabbed) by the roughneck.
-            **Effect:** The target is vertical [pushed](scc.v1:mcdm.heroes.v1/movement/forced-movement) up to 5 squares. An ally doesn't take damage from being [force moved](scc.v1:mcdm.heroes.v1/movement/forced-movement) this way.
+        - effect: The target must be [grabbed](scc.v1:mcdm.heroes.v1/condition/grabbed) by the roughneck.
+          name: Special
+        - effect: The target is vertical [pushed](scc.v1:mcdm.heroes.v1/movement/forced-movement) up to 5 squares. An ally doesn't take damage from being [force moved](scc.v1:mcdm.heroes.v1/movement/forced-movement) this way.
+          name: Effect
       feature_type: ability
       icon: "\U0001F5E1"
       keywords:
@@ -64,28 +70,28 @@ features:
       usage: Maneuver
     - distance: Melee 1
       effects:
-        - effect: |-
-            **Trigger:** A size 1 creature or object is [force moved](scc.v1:mcdm.heroes.v1/movement/forced-movement) within distance, or a size 1 ally willingly moves within distance.
-            **Effect:** The target is [grabbed](scc.v1:mcdm.heroes.v1/condition/grabbed) by the roughneck.
+        - effect: The target is [grabbed](scc.v1:mcdm.heroes.v1/condition/grabbed) by the roughneck.
+          name: Effect
       feature_type: ability
       icon: ❗️
       keywords:
         - Melee
       name: Catcher
       target: The triggering creature or object
+      trigger: A size 1 creature or object is [force moved](scc.v1:mcdm.heroes.v1/movement/forced-movement) within distance, or a size 1 ally willingly moves within distance.
       type: feature
       usage: Free triggered action
     - distance: Self
       effects:
-        - effect: |-
-            **Trigger:** The roughneck is vertical force moved by another creature.
-            **Effect:** The roughneck uses Haymaker against a creature or object at any point during the forced movement, or after falling as a result of it.
+        - effect: The roughneck uses Haymaker against a creature or object at any point during the forced movement, or after falling as a result of it.
+          name: Effect
       feature_type: ability
       icon: ❗️
       keywords:
         - Melee
       name: Flying Sawblade
       target: Self
+      trigger: The roughneck is vertical force moved by another creature.
       type: feature
       usage: Triggered action
 free_strike: 5

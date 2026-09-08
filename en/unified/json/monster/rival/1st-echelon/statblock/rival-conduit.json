@@ -11,6 +11,10 @@
           "tier1": "7 holy damage",
           "tier2": "10 holy damage",
           "tier3": "13 holy damage"
+        },
+        {
+          "effect": "The conduit or one ally within distance regains [Stamina](scc.v1:mcdm.heroes.v1/rule.health/stamina) equal to half the damage dealt.",
+          "name": "Effect"
         }
       ],
       "feature_type": "ability",
@@ -31,7 +35,8 @@
       "distance": "Ranged 10",
       "effects": [
         {
-          "effect": "**Effect:** Each target gains an edge on their next [strike](scc.v1:mcdm.heroes.v1/rule.combat/strike)."
+          "effect": "Each target gains an edge on their next [strike](scc.v1:mcdm.heroes.v1/rule.combat/strike).",
+          "name": "Effect"
         }
       ],
       "feature_type": "ability",

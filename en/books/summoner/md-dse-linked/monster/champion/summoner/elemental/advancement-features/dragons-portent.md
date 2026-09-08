@@ -1,11 +1,16 @@
 ---
 features:
     - body: The Portent is now size 3.
+      effects:
+        - effect: The Portent is now size 3.
       icon: ⭐️
       level: 10
       name: Size Increase
     - cost: 1 Eidos
       distance: 4 cube within 10
+      effects:
+        - effect: 9 affinity [damage](../../../../../rule/damage/damage.md). The [damage](../../../../../rule/damage/damage.md) ignores [immunity](../../../../../rule/damage/damage-immunity.md). The affected area becomes [difficult terrain](../../../../../movement/difficult-terrain.md). An enemy has affinity [weakness](../../../../../rule/damage/damage-weakness.md) 5 while occupying an affected square.
+          name: Effect
       icon: ❗️
       keywords:
         - Area
@@ -31,11 +36,16 @@ type: featureblock
 ```ds-fb
 features:
     - body: The Portent is now size 3.
+      effects:
+        - effect: The Portent is now size 3.
       icon: ⭐️
       level: 10
       name: Size Increase
     - cost: 1 Eidos
       distance: 4 cube within 10
+      effects:
+        - effect: 9 affinity [damage](../../../../../rule/damage/damage.md). The [damage](../../../../../rule/damage/damage.md) ignores [immunity](../../../../../rule/damage/damage-immunity.md). The affected area becomes [difficult terrain](../../../../../movement/difficult-terrain.md). An enemy has affinity [weakness](../../../../../rule/damage/damage-weakness.md) 5 while occupying an affected square.
+          name: Effect
       icon: ❗️
       keywords:
         - Area

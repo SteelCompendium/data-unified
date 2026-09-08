@@ -5,7 +5,12 @@
     {
       "effects": [
         {
-          "effect": "**Ajax Turns:** Ajax takes up to three turns each round. He can't take turns consecutively. Additionally, he can use three [triggered actions](scc.v1:mcdm.heroes.v1/rule.combat/triggered-action) in a round while he isn't [dazed](scc.v1:mcdm.heroes.v1/condition/dazed).\n**[End Effect](scc.v1:mcdm.monsters.v1/rule.monster/end-effect):** At the end of each of his turns, Ajax can take 20 damage to end up to two effects on him that can be ended by a [saving throw](scc.v1:mcdm.heroes.v1/rule.general/saving-throw). This damage can't be reduced in any way."
+          "effect": "Ajax takes up to three turns each round. He can't take turns consecutively. Additionally, he can use three [triggered actions](scc.v1:mcdm.heroes.v1/rule.combat/triggered-action) in a round while he isn't [dazed](scc.v1:mcdm.heroes.v1/condition/dazed).",
+          "name": "Ajax Turns"
+        },
+        {
+          "effect": "At the end of each of his turns, Ajax can take 20 damage to end up to two effects on him that can be ended by a [saving throw](scc.v1:mcdm.heroes.v1/rule.general/saving-throw). This damage can't be reduced in any way.",
+          "name": "End Effect"
         }
       ],
       "feature_type": "trait",
@@ -22,6 +27,14 @@
           "tier1": "16 damage; M \u003c 4 the target loses 1d3 [Recoveries](scc.v1:mcdm.heroes.v1/rule.health/recoveries)",
           "tier2": "22 damage; M \u003c 5 the target loses 1d3 [Recoveries](scc.v1:mcdm.heroes.v1/rule.health/recoveries)",
           "tier3": "26 damage; M \u003c 6 [prone](scc.v1:mcdm.heroes.v1/condition/prone) and the target loses 1d3 [Recoveries](scc.v1:mcdm.heroes.v1/rule.health/recoveries)"
+        },
+        {
+          "effect": "Ajax [shifts](scc.v1:mcdm.heroes.v1/movement/shifting) up to 2 squares between striking each target.",
+          "name": "Effect"
+        },
+        {
+          "cost": "1+ Malice",
+          "effect": "Ajax can strike one additional target for each [Malice](scc.v1:mcdm.monsters.v1/rule.monster/malice) spent."
         }
       ],
       "feature_type": "ability",
@@ -46,6 +59,14 @@
           "tier1": "11 holy damage; [slide](scc.v1:mcdm.heroes.v1/movement/forced-movement) 2; P \u003c 4 the target is hexed (save ends)",
           "tier2": "17 holy damage; [slide](scc.v1:mcdm.heroes.v1/movement/forced-movement) 5; P \u003c 5 the target is hexed (save ends)",
           "tier3": "21 holy damage; [slide](scc.v1:mcdm.heroes.v1/movement/forced-movement) 8; P \u003c 6 the target is hexed (save ends)"
+        },
+        {
+          "effect": "A hexed target glows green, and each of their heroic abilities has its cost increased by 2.",
+          "name": "Effect"
+        },
+        {
+          "cost": "3 Malice",
+          "effect": "The potency increases by 1. Additionally, the ground beneath the area drops 3 squares and is [difficult terrain](scc.v1:mcdm.heroes.v1/movement/difficult-terrain). Each flying target who has M \u003c 5 is knocked [prone](scc.v1:mcdm.heroes.v1/condition/prone)."
         }
       ],
       "feature_type": "ability",
@@ -68,6 +89,14 @@
           "tier1": "No effect.",
           "tier2": "The target is [grabbed](scc.v1:mcdm.heroes.v1/condition/grabbed).",
           "tier3": "11 damage; the target is [grabbed](scc.v1:mcdm.heroes.v1/condition/grabbed)."
+        },
+        {
+          "effect": "If the target is [grabbed](scc.v1:mcdm.heroes.v1/condition/grabbed), Ajax can choose to keep the vine extended, [pull](scc.v1:mcdm.heroes.v1/movement/forced-movement) the target adjacent to him, or pull himself adjacent to the target. The vine stays attached to a [grabbed](scc.v1:mcdm.heroes.v1/condition/grabbed) target until it takes damage from a strike, the target escapes the grab, or Ajax causes the vine to release the target (no action required).",
+          "name": "Effect"
+        },
+        {
+          "effect": "This ability can be replaced with the features of a different treasure Ajax has acquired.",
+          "name": "Special"
         }
       ],
       "feature_type": "ability",
@@ -87,7 +116,8 @@
       "distance": "5 cube within 20",
       "effects": [
         {
-          "effect": "**Effect:** Ajax throws a glowing bead to a square within distance, which ignites at the start of Ajax's next turn and creates an area around it that lasts until the start of Ajax's following turn. Each enemy in the area when the bead ignites takes 20 fire damage, and if they have A \u003c 5, they are [dazed](scc.v1:mcdm.heroes.v1/condition/dazed) (save ends). Any enemy who starts their turn in the area takes 10 fire damage."
+          "effect": "Ajax throws a glowing bead to a square within distance, which ignites at the start of Ajax's next turn and creates an area around it that lasts until the start of Ajax's following turn. Each enemy in the area when the bead ignites takes 20 fire damage, and if they have A \u003c 5, they are [dazed](scc.v1:mcdm.heroes.v1/condition/dazed) (save ends). Any enemy who starts their turn in the area takes 10 fire damage.",
+          "name": "Effect"
         }
       ],
       "feature_type": "ability",
@@ -117,7 +147,8 @@
       "distance": "Ranged 10",
       "effects": [
         {
-          "effect": "**Trigger:** A creature within distance marks Ajax.\n**Effect:** The target is marked while Ajax is marked. While the target is marked this way, Ajax gains an [edge](scc.v1:mcdm.heroes.v1/rule.dice/edge) on power rolls against them, and whenever the target uses a [triggered action](scc.v1:mcdm.heroes.v1/rule.combat/triggered-action) involving their mark on Ajax, he can make a [free strike](scc.v1:mcdm.heroes.v1/feature.common.main-actions/free-strike) against them."
+          "effect": "The target is marked while Ajax is marked. While the target is marked this way, Ajax gains an [edge](scc.v1:mcdm.heroes.v1/rule.dice/edge) on power rolls against them, and whenever the target uses a [triggered action](scc.v1:mcdm.heroes.v1/rule.combat/triggered-action) involving their mark on Ajax, he can make a [free strike](scc.v1:mcdm.heroes.v1/feature.common.main-actions/free-strike) against them.",
+          "name": "Effect"
         }
       ],
       "feature_type": "ability",
@@ -127,6 +158,7 @@
       ],
       "name": "Is This What They Taught You?",
       "target": "The triggering creature",
+      "trigger": "A creature within distance marks Ajax.",
       "type": "feature",
       "usage": "Triggered action"
     },
@@ -134,7 +166,8 @@
       "distance": "Melee 5",
       "effects": [
         {
-          "effect": "**Trigger:** An enemy within distance uses an ability to reduce damage.\n**Effect:** Ajax makes a [free strike](scc.v1:mcdm.heroes.v1/feature.common.main-actions/free-strike) against the target, dealing extra damage equal to twice the amount that was reduced. This extra damage can't be reduced in any way."
+          "effect": "Ajax makes a [free strike](scc.v1:mcdm.heroes.v1/feature.common.main-actions/free-strike) against the target, dealing extra damage equal to twice the amount that was reduced. This extra damage can't be reduced in any way.",
+          "name": "Effect"
         }
       ],
       "feature_type": "ability",
@@ -145,6 +178,7 @@
       ],
       "name": "Shieldbreaker Talisman",
       "target": "The triggering creature",
+      "trigger": "An enemy within distance uses an ability to reduce damage.",
       "type": "feature",
       "usage": "Triggered action"
     },
@@ -152,7 +186,8 @@
       "distance": "Self",
       "effects": [
         {
-          "effect": "**Trigger:** A creature uses the Hesitation is Weakness ability.\n**Effect:** Ajax [shifts](scc.v1:mcdm.heroes.v1/movement/shifting) up to his speed and can make a [free strike](scc.v1:mcdm.heroes.v1/feature.common.main-actions/free-strike). If the target has R \u003c 4, this free strike also makes them [weakened](scc.v1:mcdm.heroes.v1/condition/weakened) until the end of their next turn."
+          "effect": "Ajax [shifts](scc.v1:mcdm.heroes.v1/movement/shifting) up to his speed and can make a [free strike](scc.v1:mcdm.heroes.v1/feature.common.main-actions/free-strike). If the target has R \u003c 4, this free strike also makes them [weakened](scc.v1:mcdm.heroes.v1/condition/weakened) until the end of their next turn.",
+          "name": "Effect"
         }
       ],
       "feature_type": "ability",
@@ -160,6 +195,7 @@
       "keywords": null,
       "name": "Who's Hesitating?",
       "target": "Self",
+      "trigger": "A creature uses the Hesitation is Weakness ability.",
       "type": "feature",
       "usage": "Triggered action"
     },
@@ -167,7 +203,8 @@
       "distance": "Ranged 10",
       "effects": [
         {
-          "effect": "**Trigger:** Ajax causes a creature within distance to gain ferocity or wrath.\n**Effect:** If the target has I \u003c 4, they use a [signature ability](scc.v1:mcdm.heroes.v1/rule.combat/signature-ability) against a target of Ajax's choice."
+          "effect": "If the target has I \u003c 4, they use a [signature ability](scc.v1:mcdm.heroes.v1/rule.combat/signature-ability) against a target of Ajax's choice.",
+          "name": "Effect"
         }
       ],
       "feature_type": "ability",
@@ -178,6 +215,7 @@
       ],
       "name": "Your Obsession With Me Betrays You",
       "target": "The triggering creature",
+      "trigger": "Ajax causes a creature within distance to gain ferocity or wrath.",
       "type": "feature",
       "usage": "Triggered action"
     },
@@ -186,7 +224,8 @@
       "distance": "Self",
       "effects": [
         {
-          "effect": "**Trigger:** A creature within 10 squares regains [Stamina](scc.v1:mcdm.heroes.v1/rule.health/stamina).\n**Effect:** Ajax regains the same amount of [Stamina](scc.v1:mcdm.heroes.v1/rule.health/stamina)."
+          "effect": "Ajax regains the same amount of [Stamina](scc.v1:mcdm.heroes.v1/rule.health/stamina).",
+          "name": "Effect"
         }
       ],
       "feature_type": "ability",
@@ -196,6 +235,7 @@
       ],
       "name": "You Would Flounder Your Assault?",
       "target": "Self",
+      "trigger": "A creature within 10 squares regains [Stamina](scc.v1:mcdm.heroes.v1/rule.health/stamina).",
       "type": "feature",
       "usage": "Triggered action"
     },
@@ -208,6 +248,10 @@
           "tier1": "11 fire damage; A \u003c 4 [weakened](scc.v1:mcdm.heroes.v1/condition/weakened) (save ends)",
           "tier2": "17 fire damage; A \u003c 5 [weakened](scc.v1:mcdm.heroes.v1/condition/weakened) (save ends)",
           "tier3": "21 fire damage; A \u003c 6 [weakened](scc.v1:mcdm.heroes.v1/condition/weakened) (save ends)"
+        },
+        {
+          "effect": "Ajax [flies](scc.v1:mcdm.heroes.v1/movement/fly) at high speed to cut through each target, then appears in an unoccupied space within distance.",
+          "name": "Effect"
         }
       ],
       "feature_type": "ability",
@@ -227,7 +271,12 @@
       "distance": "3 burst",
       "effects": [
         {
-          "effect": "**Effect:** Ajax uses the shadow elf eclipse's technique to reduce each target's [surges](scc.v1:mcdm.heroes.v1/rule.resource/surge) to 0. Additionally, until the end of the round, Ajax ignores [edges](scc.v1:mcdm.heroes.v1/rule.dice/edge) and double edges on any target's abilities, and ignores any nondamaging effects of any target's damage-dealing abilities.\n**Special:** This villain action can be replaced with a villain action from a creature any target has previously encountered."
+          "effect": "Ajax uses the shadow elf eclipse's technique to reduce each target's [surges](scc.v1:mcdm.heroes.v1/rule.resource/surge) to 0. Additionally, until the end of the round, Ajax ignores [edges](scc.v1:mcdm.heroes.v1/rule.dice/edge) and double edges on any target's abilities, and ignores any nondamaging effects of any target's damage-dealing abilities.",
+          "name": "Effect"
+        },
+        {
+          "effect": "This villain action can be replaced with a villain action from a creature any target has previously encountered.",
+          "name": "Special"
         }
       ],
       "feature_type": "ability",
@@ -245,7 +294,8 @@
       "distance": "7 burst",
       "effects": [
         {
-          "effect": "**Effect:** Each target who has I \u003c 5 is knocked [prone](scc.v1:mcdm.heroes.v1/condition/prone) and can't stand until Ajax deals damage to them. For each target not knocked [prone](scc.v1:mcdm.heroes.v1/condition/prone), Ajax can move up to his speed toward that target and use Blade of the Gol King against them."
+          "effect": "Each target who has I \u003c 5 is knocked [prone](scc.v1:mcdm.heroes.v1/condition/prone) and can't stand until Ajax deals damage to them. For each target not knocked [prone](scc.v1:mcdm.heroes.v1/condition/prone), Ajax can move up to his speed toward that target and use Blade of the Gol King against them.",
+          "name": "Effect"
         }
       ],
       "feature_type": "ability",

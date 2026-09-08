@@ -1,9 +1,13 @@
 ---
 features:
     - body: Each enemy that starts their [turn](../../../../rule/combat/turn.md) within 3 squares of the gates is I < AVERAGE [frightened](../../../../condition/frightened.md) (EoT) by the gates. The [potency](../../../../rule/character/potency.md) increases by 1 for [winded](../../../../rule/health/winded.md) enemies.
+      effects:
+        - effect: Each enemy that starts their [turn](../../../../rule/combat/turn.md) within 3 squares of the gates is I < AVERAGE [frightened](../../../../condition/frightened.md) (EoT) by the gates. The [potency](../../../../rule/character/potency.md) increases by 1 for [winded](../../../../rule/health/winded.md) enemies.
       icon: ⭐️
       name: The Bell Tolls
     - body: Each of your undead [minions](../../../../feature/summoner/level-1/minions.md) has [damage immunity](../../../../rule/damage/damage-immunity.md) 2 while occupying a space within 3 squares of the gates.
+      effects:
+        - effect: Each of your undead [minions](../../../../feature/summoner/level-1/minions.md) has [damage immunity](../../../../rule/damage/damage-immunity.md) 2 while occupying a space within 3 squares of the gates.
       icon: ⭐️
       name: Undead Dominion
 name: Barrow Gates

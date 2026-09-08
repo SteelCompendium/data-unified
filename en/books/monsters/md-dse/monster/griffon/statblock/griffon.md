@@ -38,6 +38,8 @@ features:
           tier1: 7 damage; the griffon can [shift](scc.v1:mcdm.heroes.v1/movement/shifting) 1 square
           tier2: 10 damage; the griffon [shifts](scc.v1:mcdm.heroes.v1/movement/shifting) up to 2 squares
           tier3: 13 damage; the griffon [shifts](scc.v1:mcdm.heroes.v1/movement/shifting) up to 3 squares
+        - effect: If this ability is used as part of the Charge main action, the griffon can [grab](scc.v1:mcdm.heroes.v1/condition/grabbed) one of the targets.
+          name: Effect
       feature_type: ability
       icon: "\U0001F5E1"
       keywords:
@@ -51,7 +53,11 @@ features:
       usage: Main action
     - distance: 3 cube within 8
       effects:
-        - roll: Power Roll + 2
+        - effect: The griffon must be flying and must have a creature or object [grabbed](scc.v1:mcdm.heroes.v1/condition/grabbed).
+          name: Special
+        - effect: The griffon flies up to half their speed toward the ground, then sends the creature or object they've [grabbed](scc.v1:mcdm.heroes.v1/condition/grabbed) hurtling down. The creature or object hits the ground to turn the area into an impact crater, and takes falling damage that can't be reduced in any way.
+          name: Effect
+          roll: Power Roll + 2
           tier1: 4 damage
           tier2: 6 damage; A < 1 [push](scc.v1:mcdm.heroes.v1/movement/forced-movement) 3
           tier3: 9 damage; A < 2 [push](scc.v1:mcdm.heroes.v1/movement/forced-movement) 4; [prone](scc.v1:mcdm.heroes.v1/condition/prone)
@@ -67,7 +73,9 @@ features:
     - cost: 3 Malice
       distance: 4 x 2 line within 1
       effects:
-        - roll: Power Roll + 2
+        - effect: A target object must be size 2 or smaller.
+          name: Special
+          roll: Power Roll + 2
           tier1: '[Push](scc.v1:mcdm.heroes.v1/movement/forced-movement) 3; A < 0 the [forced movement](scc.v1:mcdm.heroes.v1/movement/forced-movement) is vertical'
           tier2: '[Push](scc.v1:mcdm.heroes.v1/movement/forced-movement) 4; A < 1 the [forced movement](scc.v1:mcdm.heroes.v1/movement/forced-movement) is vertical'
           tier3: '[Push](scc.v1:mcdm.heroes.v1/movement/forced-movement) 5; A < 2 the [forced movement](scc.v1:mcdm.heroes.v1/movement/forced-movement) is vertical'
@@ -82,14 +90,14 @@ features:
     - cost: 1 Malice
       distance: Self
       effects:
-        - effect: |-
-            **Trigger:** The griffon takes damage.
-            **Effect:** The griffon halves the damage, ignores any nondamaging effects associated with it, and [shifts](scc.v1:mcdm.heroes.v1/movement/shifting) up to 2 squares.
+        - effect: The griffon halves the damage, ignores any nondamaging effects associated with it, and [shifts](scc.v1:mcdm.heroes.v1/movement/shifting) up to 2 squares.
+          name: Effect
       feature_type: ability
       icon: ❗️
       keywords: []
       name: Zephyr Feint
       target: Self
+      trigger: The griffon takes damage.
       type: feature
       usage: Triggered action
     - effects:

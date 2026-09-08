@@ -37,6 +37,10 @@ features:
           tier1: 7 damage; [push](../../../movement/forced-movement.md) special
           tier2: 10 damage; [push](../../../movement/forced-movement.md) special
           tier3: 13 damage; [push](../../../movement/forced-movement.md) special or [prone](../../../condition/prone.md)
+        - effect: The [forced movement](../../../movement/forced-movement.md) distance is equal to the number of squares the bloodrunner moved on their turn before using this ability. An ally targeted by this ability ignores the damage and can move up to that same distance.
+          name: Effect
+        - cost: 2 Malice
+          effect: An ally targeted by this ability can make a [free strike](../../../feature/common/main-actions/free-strike.md) after the [forced movement](../../../movement/forced-movement.md) is resolved.
       feature_type: ability
       icon: "\U0001F5E1"
       keywords:

@@ -37,6 +37,8 @@ features:
           tier1: 7 damage
           tier2: 11 damage; [prone](../../../condition/prone.md)
           tier3: 14 damage; [prone](../../../condition/prone.md)
+        - effect: The scyza roars, and if the target has I < 2, they are [frightened](../../../condition/frightened.md) (save ends).
+          name: Effect
       feature_type: ability
       icon: "\U0001F5E1"
       keywords:
@@ -53,6 +55,8 @@ features:
           tier1: 8 damage
           tier2: 13 damage; [prone](../../../condition/prone.md)
           tier3: 16 damage; A < 2 [bleeding](../../../condition/bleeding.md) (save ends)
+        - effect: Against a target on top of the scyza, this ability gains an edge, and the target is [pushed](../../../movement/forced-movement.md) into an unoccupied [adjacent](../../../rule/combat/adjacent.md) square and knocked [prone](../../../condition/prone.md).
+          name: Effect
       feature_type: ability
       icon: "\U0001F5E1"
       keywords:
@@ -83,7 +87,8 @@ features:
     - cost: 3 Malice
       distance: 3 burst
       effects:
-        - roll: ""
+        - effect: The scyza kicks up a sandstorm, granting [concealment](../../../rule/combat/concealment.md) to themself and any ally in the area until the end of the scyza's next turn. Each enemy in the area makes an Intuition test.
+          name: Effect
           tier1: 10 damage; [prone](../../../condition/prone.md); [slowed](../../../condition/slowed.md) (EoT)
           tier2: 7 damage; [slowed](../../../condition/slowed.md) (EoT)
           tier3: 4 damage
@@ -97,14 +102,14 @@ features:
       usage: Maneuver
     - distance: Self
       effects:
-        - effect: |-
-            **Trigger:** The scyza or an ally riding the scyza is targeted by an ability.
-            **Effect:** Any damage dealt by the triggering ability is halved. If the creature or object who used the ability is within 3 squares of the scyza, the scyza can make a [free strike](../../../feature/common/main-actions/free-strike.md) against them.
+        - effect: Any damage dealt by the triggering ability is halved. If the creature or object who used the ability is within 3 squares of the scyza, the scyza can make a [free strike](../../../feature/common/main-actions/free-strike.md) against them.
+          name: Effect
       feature_type: ability
       icon: ❗️
       keywords: []
       name: Brace and Break
       target: Self
+      trigger: The scyza or an ally riding the scyza is targeted by an ability.
       type: feature
       usage: Triggered action
     - effects:

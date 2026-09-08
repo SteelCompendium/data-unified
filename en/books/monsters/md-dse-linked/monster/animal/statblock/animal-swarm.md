@@ -37,6 +37,8 @@ features:
           tier1: 6 damage
           tier2: 9 damage; pull 1
           tier3: 12 damage; pull 2
+        - effect: If the target is [pulled](../../../movement/forced-movement.md) into the animal swarm, that [forced movement](../../../movement/forced-movement.md) deals damage only at the Director's determination.
+          name: Effect
       feature_type: ability
       icon: "\U0001F5E1"
       keywords:
@@ -55,7 +57,8 @@ features:
       type: feature
     - distance: 1 aura
       effects:
-        - effect: '**Effect:** The area is [difficult terrain](../../../movement/difficult-terrain.md) for enemies until the start of the animal swarm''s next turn.'
+        - effect: The area is [difficult terrain](../../../movement/difficult-terrain.md) for enemies until the start of the animal swarm's next turn.
+          name: Effect
       feature_type: ability
       icon: ❇️
       keywords:

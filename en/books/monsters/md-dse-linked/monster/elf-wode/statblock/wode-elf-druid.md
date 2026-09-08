@@ -39,6 +39,10 @@ features:
           tier1: 5 damage; [pull](../../../movement/forced-movement.md) 1
           tier2: 8 damage; [pull](../../../movement/forced-movement.md) 3; M < 1 [slowed](../../../condition/slowed.md) (save ends)
           tier3: 10 damage; [pull](../../../movement/forced-movement.md) 5; M < 2 [slowed](../../../condition/slowed.md) (save ends)
+        - effect: While [slowed](../../../condition/slowed.md) this way, a target can't search for hidden creatures.
+          name: Effect
+        - cost: 3 Malice
+          effect: The size of the cube and the [potency](../../../rule/character/potency.md) both increase by 1.
       feature_type: ability
       icon: "\U0001F533"
       keywords:
@@ -52,7 +56,8 @@ features:
     - cost: 3 Malice
       distance: Ranged 5
       effects:
-        - effect: '**Effect:** Each target can [teleport](../../../movement/teleport.md) up to 10 squares to a space that has cover or concealment.'
+        - effect: Each target can [teleport](../../../movement/teleport.md) up to 10 squares to a space that has cover or concealment.
+          name: Effect
       feature_type: ability
       icon: "\U0001F3F9"
       keywords:

@@ -37,6 +37,8 @@ features:
           tier1: 3 damage; [taunted](../../../condition/taunted.md) (EoT)
           tier2: 4 damage; [taunted](../../../condition/taunted.md) (EoT)
           tier3: 5 damage; [taunted](../../../condition/taunted.md) (EoT)
+        - cost: 3 Malice
+          effect: If the legionary is acting as a [captain](../../../rule/monster/captain.md), they and each member of their [squad](../../../rule/monster/squad.md) [shift](../../../movement/shifting.md) up to 2 squares before this ability is used.
       feature_type: ability
       icon: "\U0001F5E1"
       keywords:

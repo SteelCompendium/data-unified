@@ -31,9 +31,10 @@ agility: 2
 ev: "96"
 features:
     - effects:
-        - effect: |-
-            **[End Effect](../../../rule/monster/end-effect.md):** At the end of each of his turns, Xorannox can take 10 damage to end one effect on him that can be ended by a [saving throw](../../../rule/general/saving-throw.md). This damage can't be reduced in any way.
-            **Solo Turns:** Xorannox can take two turns each round. He can't take turns consecutively.
+        - effect: At the end of each of his turns, Xorannox can take 10 damage to end one effect on him that can be ended by a [saving throw](../../../rule/general/saving-throw.md). This damage can't be reduced in any way.
+          name: End Effect
+        - effect: Xorannox can take two turns each round. He can't take turns consecutively.
+          name: Solo Turns
       feature_type: trait
       icon: ☠️
       name: Solo Monster
@@ -67,6 +68,8 @@ features:
           tier1: Vertical [push](../../../movement/forced-movement.md) 3
           tier2: Vertical [push](../../../movement/forced-movement.md) 5
           tier3: Vertical [push](../../../movement/forced-movement.md) 7
+        - effect: Xorannox [shifts](../../../movement/shifting.md) up to his speed before or after using this ability.
+          name: Effect
       feature_type: ability
       icon: ❇️
       keywords:
@@ -78,7 +81,8 @@ features:
       usage: Main action
     - distance: Self
       effects:
-        - effect: '**Effect:** Xorannox commands all his eyestalks to move up to their speed.'
+        - effect: Xorannox commands all his eyestalks to move up to their speed.
+          name: Effect
       feature_type: ability
       icon: "\U0001F464"
       keywords: []
@@ -89,7 +93,8 @@ features:
     - cost: 2 Malice
       distance: 5 x 2 line within 1
       effects:
-        - effect: '**Effect:** Xorannox ends all ongoing supernatural effects and suppresses supernatural effects from treasures in the area. New supernatural effects can''t be activated in the area until the end of Xorannox''s next turn.'
+        - effect: Xorannox ends all ongoing supernatural effects and suppresses supernatural effects from treasures in the area. New supernatural effects can't be activated in the area until the end of Xorannox's next turn.
+          name: Effect
       feature_type: ability
       icon: "\U0001F533"
       keywords:
@@ -100,9 +105,8 @@ features:
       usage: Maneuver
     - distance: Ranged 10
       effects:
-        - effect: |-
-            **Trigger:** A creature within distance deals damage to Xorannox.
-            **Effect:** If the target has I < 3 they are [frightened](../../../condition/frightened.md) (save ends)
+        - effect: If the target has I < 3 they are [frightened](../../../condition/frightened.md) (save ends)
+          name: Effect
       feature_type: ability
       icon: ❗️
       keywords:
@@ -110,6 +114,7 @@ features:
         - Ranged
       name: Cower!
       target: The triggering creature
+      trigger: A creature within distance deals damage to Xorannox.
       type: feature
       usage: Triggered action
     - effects:
@@ -144,7 +149,8 @@ features:
     - cost: Villain Action 2
       distance: Self
       effects:
-        - effect: '**Effect:** Xorannox recreates any destroyed eyestalks, which return in unoccupied spaces on the encounter map with full [Stamina](../../../rule/health/stamina.md).'
+        - effect: Xorannox recreates any destroyed eyestalks, which return in unoccupied spaces on the encounter map with full [Stamina](../../../rule/health/stamina.md).
+          name: Effect
       feature_type: ability
       icon: ☠️
       keywords: []
@@ -155,7 +161,8 @@ features:
     - cost: Villain Action 3
       distance: 2 burst
       effects:
-        - effect: '**Effect:** Xorannox directs each of his eyestalks to use a [signature ability](../../../rule/combat/signature-ability.md) against any target.'
+        - effect: Xorannox directs each of his eyestalks to use a [signature ability](../../../rule/combat/signature-ability.md) against any target.
+          name: Effect
       feature_type: ability
       icon: ☠️
       keywords:

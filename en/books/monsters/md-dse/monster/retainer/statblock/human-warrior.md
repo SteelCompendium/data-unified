@@ -37,6 +37,8 @@ features:
           tier1: 3 damage
           tier2: 5 damage
           tier3: 7 damage
+        - effect: If the warrior is [adjacent](scc.v1:mcdm.heroes.v1/rule.combat/adjacent) to their mentor, this ability gains an edge.
+          name: Effect
       feature_type: ability
       icon: "\U0001F5E1"
       keywords:

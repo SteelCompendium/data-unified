@@ -38,6 +38,8 @@ features:
           tier1: 1 damage
           tier2: 2 damage
           tier3: 3 damage
+        - effect: One ally within 3 squares of the princeps [shifts](../../../movement/shifting.md) up to 2 squares.
+          name: Effect
       feature_type: ability
       icon: "\U0001F5E1"
       keywords:

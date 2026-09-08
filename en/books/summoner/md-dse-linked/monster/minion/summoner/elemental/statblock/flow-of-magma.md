@@ -45,6 +45,8 @@ features:
           tier1: 4 fire damage; [shift](../../../../../movement/shifting.md) 3
           tier2: 6 fire damage; [shift](../../../../../movement/shifting.md) 4
           tier3: 8 fire damage; [shift](../../../../../movement/shifting.md) 5
+        - effect: Each square that the flow [shifts](../../../../../movement/shifting.md) into becomes wreathed in flames until the start of the flow's next turn. An enemy that enters an affected square takes 2 damage.
+          name: Effect
       feature_type: ability
       icon: "\U0001F3F9"
       keywords:

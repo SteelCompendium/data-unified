@@ -38,6 +38,8 @@ features:
           tier1: 6 damage; A < 0 [prone](../../../condition/prone.md) and can't stand (save ends)
           tier2: 9 damage; A < 1 [prone](../../../condition/prone.md) and can't stand (save ends)
           tier3: 12 damage; A < 2 [prone](../../../condition/prone.md) and can't stand (save ends)
+        - effect: Each target must be on the ground, and the ground in each target's space rises 1 square.
+          name: Effect
       feature_type: ability
       icon: "\U0001F3F9"
       keywords:
@@ -55,6 +57,8 @@ features:
           tier1: 4 damage; M < 0 [restrained](../../../condition/restrained.md) (save ends)
           tier2: 7 damage; M < 1 [restrained](../../../condition/restrained.md) (save ends)
           tier3: 10 damage; M < 2 [restrained](../../../condition/restrained.md) (save ends)
+        - effect: The area is [difficult terrain](../../../movement/difficult-terrain.md).
+          name: Effect
       feature_type: ability
       icon: ❇️
       keywords:

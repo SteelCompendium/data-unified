@@ -41,6 +41,8 @@ features:
           tier1: 10 corruption damage; I < 2 [bleeding](scc.v1:mcdm.heroes.v1/condition/bleeding) (save ends)
           tier2: 14 corruption damage; I < 3 [bleeding](scc.v1:mcdm.heroes.v1/condition/bleeding) (save ends)
           tier3: 17 corruption damage; I < 4 [bleeding](scc.v1:mcdm.heroes.v1/condition/bleeding) (save ends)
+        - effect: While the target is [bleeding](scc.v1:mcdm.heroes.v1/condition/bleeding) this way, the [potency](scc.v1:mcdm.heroes.v1/rule.character/potency) of any ability used against them increases by 1 for the target.
+          name: Effect
       feature_type: ability
       icon: "\U0001F5E1"
       keywords:
@@ -58,6 +60,10 @@ features:
           tier1: 7 corruption damage; I < 2 [frightened](scc.v1:mcdm.heroes.v1/condition/frightened) (save ends)
           tier2: 12 corruption damage; I < 3 [frightened](scc.v1:mcdm.heroes.v1/condition/frightened) (save ends)
           tier3: 16 corruption damage; I < 4 [frightened](scc.v1:mcdm.heroes.v1/condition/frightened) (save ends)
+        - effect: While [frightened](scc.v1:mcdm.heroes.v1/condition/frightened) this way, a target takes 4 psychic damage whenever they use a move action.
+          name: Effect
+        - cost: 2+ Malice
+          effect: This ability targets one additional target for each 2 [Malice](scc.v1:mcdm.monsters.v1/rule.monster/malice) spent.
       feature_type: ability
       icon: "\U0001F3F9"
       keywords:
@@ -70,21 +76,21 @@ features:
     - cost: 2 Malice
       distance: Ranged 10
       effects:
-        - effect: |-
-            **Trigger:** The mummy lord is made [winded](scc.v1:mcdm.heroes.v1/rule.health/winded) for the first time in the encounter.
-            **Effect:** One mummy or four ghoul cravers appear within distance.
+        - effect: One mummy or four ghoul cravers appear within distance.
+          name: Effect
       feature_type: ability
       icon: ❗️
       keywords:
         - Ranged
       name: Summon My Guard
       target: Special
+      trigger: The mummy lord is made [winded](scc.v1:mcdm.heroes.v1/rule.health/winded) for the first time in the encounter.
       type: feature
       usage: Triggered action
     - effects:
-        - effect: |-
-            At the end of each of their turns, the mummy lord can take 10 damage to end one effect on them that can be ended by a [saving throw](scc.v1:mcdm.heroes.v1/rule.general/saving-throw). This damage can't be reduced in any way.
-            **5 [Malice](scc.v1:mcdm.monsters.v1/rule.monster/malice):** The effect that is ended is transferred to another creature within 10 squares.
+        - effect: At the end of each of their turns, the mummy lord can take 10 damage to end one effect on them that can be ended by a [saving throw](scc.v1:mcdm.heroes.v1/rule.general/saving-throw). This damage can't be reduced in any way.
+        - cost: 5 Malice
+          effect: The effect that is ended is transferred to another creature within 10 squares.
       feature_type: trait
       icon: ⭐️
       name: Cursed Transference
@@ -96,6 +102,8 @@ features:
           tier1: 5 poison damage
           tier2: 8 poison damage
           tier3: 10 poison damage
+        - effect: Each target takes a bane on their next strike.
+          name: Effect
       feature_type: ability
       icon: ☠️
       keywords:
@@ -108,7 +116,8 @@ features:
     - cost: Villain Action 2
       distance: Self
       effects:
-        - roll: ""
+        - effect: The mummy lord gains a +2 bonus to speed and can automatically burrow at full speed while moving. They can then use the Dig maneuver. The next time the mummy lord breaches the surface, each enemy within 2 squares of the mummy lord makes an **Agility test**.
+          name: Effect
           tier1: '[Prone](scc.v1:mcdm.heroes.v1/condition/prone) and can''t stand (EoT)'
           tier2: '[Prone](scc.v1:mcdm.heroes.v1/condition/prone)'
           tier3: No effect

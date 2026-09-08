@@ -33,9 +33,10 @@ agility: 4
 ev: "120"
 features:
     - effects:
-        - effect: |-
-            **[End Effect](../../../rule/monster/end-effect.md):** At the end of each of their turns, the dragon can take 15 damage to end one effect on them that can be ended by a saving throw. This damage can't be reduced in any way.
-            **Solo Turns:** The dragon can take two turns each round. They can't take turns consecutively.
+        - effect: At the end of each of their turns, the dragon can take 15 damage to end one effect on them that can be ended by a saving throw. This damage can't be reduced in any way.
+          name: End Effect
+        - effect: The dragon can take two turns each round. They can't take turns consecutively.
+          name: Solo Turns
       feature_type: trait
       icon: ☠️
       name: Solo Monster
@@ -55,10 +56,12 @@ features:
     - ability_type: Signature Ability
       distance: 5 cube within 10
       effects:
-        - roll: ""
+        - effect: Each target makes an **Agility test**.
+          name: Effect
           tier1: 18 corruption damage; the target is dragonsealed (save ends)
           tier2: 14 corruption damage; the target is dragonsealed (save ends)
           tier3: 9 corruption damage
+        - effect: Only creatures with souls can be dragonsealed by the omen dragon. A dragonsealed creature appears ghastly and pale, their Presence score is treated as 1 lower for the purpose of resisting [potencies](../../../rule/character/potency.md), and they can't treat other creatures as allies.
       feature_type: ability
       icon: "\U0001F533"
       keywords:
@@ -75,6 +78,8 @@ features:
           tier1: 14 damage; M < 3 [bleeding](../../../condition/bleeding.md) (save ends)
           tier2: 19 damage; M < 4 [bleeding](../../../condition/bleeding.md) (save ends)
           tier3: 23 damage; M < 5 [bleeding](../../../condition/bleeding.md) (save ends)
+        - cost: 3 Malice
+          effect: The [potency](../../../rule/character/potency.md) increases by 2, and each target is also pulled up to 5 squares.
       feature_type: ability
       icon: "\U0001F5E1"
       keywords:
@@ -95,7 +100,8 @@ features:
     - cost: 5 Malice
       distance: 10 burst
       effects:
-        - effect: '**Effect:** Each target must be dragonsealed. Each target takes 9 corruption damage, and the omen dragon regains [Stamina](../../../rule/health/stamina.md) equal to half the total damage dealt. The target then loses their dragonseal.'
+        - effect: Each target must be dragonsealed. Each target takes 9 corruption damage, and the omen dragon regains [Stamina](../../../rule/health/stamina.md) equal to half the total damage dealt. The target then loses their dragonseal.
+          name: Effect
       feature_type: ability
       icon: ❇️
       keywords:
@@ -107,28 +113,28 @@ features:
     - cost: 1 Malice
       distance: Self
       effects:
-        - effect: |-
-            **Trigger:** A creature leaves the area of the dragon's Stagnant Wyrmscale Aura [trait](../../../rule/monster/monster-trait.md).
-            **Effect:** The dragon [shifts](../../../movement/shifting.md) up to their speed, and the Deathcount of each dragonsealed creature who comes [adjacent](../../../rule/combat/adjacent.md) to the dragon during this shift is reduced by 1.
+        - effect: The dragon [shifts](../../../movement/shifting.md) up to their speed, and the Deathcount of each dragonsealed creature who comes [adjacent](../../../rule/combat/adjacent.md) to the dragon during this shift is reduced by 1.
+          name: Effect
       feature_type: ability
       icon: ❗️
       keywords: []
       name: Don't Turn Away
       target: Self
+      trigger: A creature leaves the area of the dragon's Stagnant Wyrmscale Aura [trait](../../../rule/monster/monster-trait.md).
       type: feature
       usage: Free triggered action
     - cost: 2 Malice
       distance: Ranged 5
       effects:
-        - effect: |-
-            **Trigger:** A dragonsealed creature within distance deals damage to the dragon.
-            **Effect:** The target must choose between making a [free strike](../../../feature/common/main-actions/free-strike.md) against themself or gaining a Deathcount of 5.
+        - effect: The target must choose between making a [free strike](../../../feature/common/main-actions/free-strike.md) against themself or gaining a Deathcount of 5.
+          name: Effect
       feature_type: ability
       icon: ❗️
       keywords:
         - Ranged
       name: Repent!
       target: The triggering creature
+      trigger: A dragonsealed creature within distance deals damage to the dragon.
       type: feature
       usage: Free triggered action
     - cost: Villain Action 1
@@ -138,6 +144,8 @@ features:
           tier1: Pull 1; the target has a Deathcount of 10
           tier2: Pull 2; the target has a Deathcount of 8
           tier3: Pull 3; the target has a Deathcount of 6
+        - effect: Each target receives a premonition of their imminent death.
+          name: Effect
       feature_type: ability
       icon: ☠️
       keywords:
@@ -150,7 +158,9 @@ features:
     - cost: Villain Action 2
       distance: Ranged 10
       effects:
-        - roll: Power Roll + 5
+        - effect: The dragon spits fragments of souls to attempt to possess the targets, making a separate power roll for each target.
+          name: Effect
+          roll: Power Roll + 5
           tier1: P < 5 [frightened](../../../condition/frightened.md) (save ends)
           tier2: P < 5 the target moves up to their speed toward the dragon
           tier3: P < 5 the target makes a [free strike](../../../feature/common/main-actions/free-strike.md) against the nearest ally
@@ -167,7 +177,8 @@ features:
     - cost: Villain Action 3
       distance: 6 burst
       effects:
-        - effect: '**Effect:** Each target must be dragonsealed. The dragon''s eyes glow with unequalled malevolence, and any target who has a Deathcount has that Deathcount reduced to 1.'
+        - effect: Each target must be dragonsealed. The dragon's eyes glow with unequalled malevolence, and any target who has a Deathcount has that Deathcount reduced to 1.
+          name: Effect
       feature_type: ability
       icon: ☠️
       keywords:

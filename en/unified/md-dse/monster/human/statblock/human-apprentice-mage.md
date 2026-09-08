@@ -41,6 +41,8 @@ features:
           tier1: 2 lightning damage
           tier2: 3 lightning damage
           tier3: 5 lightning damage
+        - effect: If the apprentice mage doesn't use a maneuver or a move action this turn, the target is also [slowed](scc.v1:mcdm.heroes.v1/condition/slowed) (EoT).
+          name: Effect
       feature_type: ability
       icon: "\U0001F3F9"
       keywords:

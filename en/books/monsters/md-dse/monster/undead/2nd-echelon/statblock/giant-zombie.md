@@ -53,14 +53,14 @@ features:
     - cost: 1 Malice
       distance: Self
       effects:
-        - effect: |-
-            **Trigger:** The giant zombie [grabs](scc.v1:mcdm.heroes.v1/condition/grabbed) two creatures or objects, or starts their turn with two creatures or objects [grabbed](scc.v1:mcdm.heroes.v1/condition/grabbed).
-            **Effect:** The creatures or objects are smashed together using Rotten Smash, which has a double edge.
+        - effect: The creatures or objects are smashed together using Rotten Smash, which has a double edge.
+          name: Effect
       feature_type: ability
       icon: ❗️
       keywords: []
       name: Knocking Heads
       target: Self; see below
+      trigger: The giant zombie [grabs](scc.v1:mcdm.heroes.v1/condition/grabbed) two creatures or objects, or starts their turn with two creatures or objects [grabbed](scc.v1:mcdm.heroes.v1/condition/grabbed).
       type: feature
       usage: Triggered action
     - effects:

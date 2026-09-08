@@ -37,6 +37,8 @@ features:
           tier1: 12 holy damage; vertical [slide](../../../../movement/forced-movement.md) 2
           tier2: 17 holy damage; vertical [slide](../../../../movement/forced-movement.md) 3
           tier3: 21 holy damage; vertical [slide](../../../../movement/forced-movement.md) 4
+        - effect: The conduit or one ally within distance regains [Stamina](../../../../rule/health/stamina.md) equal to half the damage dealt.
+          name: Effect
       feature_type: ability
       icon: ⚔️
       keywords:
@@ -51,7 +53,8 @@ features:
     - cost: 3 Malice
       distance: Ranged 10
       effects:
-        - effect: '**Effect:** Each target has a double edge on their next [strike](../../../../rule/combat/strike.md).'
+        - effect: Each target has a double edge on their next [strike](../../../../rule/combat/strike.md).
+          name: Effect
       feature_type: ability
       icon: "\U0001F3F9"
       keywords:

@@ -2,10 +2,14 @@
 features:
     - body: The demon activates a [Malice](../../../rule/monster/malice.md) feature available to demons of level or lower.
       cost: 3-7 Malice
+      effects:
+        - effect: The demon activates a [Malice](../../../rule/monster/malice.md) feature available to demons of level or lower.
       icon: ⭐️
       name: Prior Malice Features
     - body: One demon acting this turn folds space around them, temporarily slipping in and out of the Abyssal Wasteland. Until the start of the demon's next turn, they ignore [difficult terrain](../../../movement/difficult-terrain.md), can move through solid matter, and don't provoke [opportunity attacks](../../../rule/combat/opportunity-attack.md) by moving. If the demon ends their turn inside solid matter, they are shunted out into the space from which they entered it.
       cost: 3 Malice
+      effects:
+        - effect: One demon acting this turn folds space around them, temporarily slipping in and out of the Abyssal Wasteland. Until the start of the demon's next turn, they ignore [difficult terrain](../../../movement/difficult-terrain.md), can move through solid matter, and don't provoke [opportunity attacks](../../../rule/combat/opportunity-attack.md) by moving. If the demon ends their turn inside solid matter, they are shunted out into the space from which they entered it.
       icon: "\U0001F464"
       name: Abyssal Jaunt
 flavor: At the start of any level 4 or higher demon's turn, you can spend Malice to activate one of the following features.

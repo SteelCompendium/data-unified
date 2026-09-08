@@ -30,7 +30,8 @@
       "distance": "Self",
       "effects": [
         {
-          "effect": "**Effect:** The ghoul jumps up to 3 squares. If they land on a size 1 enemy, that enemy is knocked [prone](scc.v1:mcdm.heroes.v1/condition/prone) and the ghoul can make a [free strike](scc.v1:mcdm.heroes.v1/feature.common.main-actions/free-strike) against them."
+          "effect": "The ghoul jumps up to 3 squares. If they land on a size 1 enemy, that enemy is knocked [prone](scc.v1:mcdm.heroes.v1/condition/prone) and the ghoul can make a [free strike](scc.v1:mcdm.heroes.v1/feature.common.main-actions/free-strike) against them.",
+          "name": "Effect"
         }
       ],
       "feature_type": "ability",

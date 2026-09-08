@@ -57,6 +57,8 @@ features:
           tier1: 2 cold damage
           tier2: 3 cold damage
           tier3: 4 cold damage
+        - effect: Until the end of the stalker's next turn, the area provides concealment, and blocks [line of effect](../../../../rule/combat/line-of-effect.md) for enemies.
+          name: Effect
       feature_type: ability
       icon: "\U0001F533"
       keywords:

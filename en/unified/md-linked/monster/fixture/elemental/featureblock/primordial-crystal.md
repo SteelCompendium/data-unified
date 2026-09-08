@@ -1,9 +1,13 @@
 ---
 features:
     - body: Each enemy that starts their [turn](../../../../rule/combat/turn.md) within 3 squares of the crystal is vertically pulled 3.
+      effects:
+        - effect: Each enemy that starts their [turn](../../../../rule/combat/turn.md) within 3 squares of the crystal is vertically pulled 3.
       icon: ⭐️
       name: Magnetic Pull
     - body: When you or an ally uses a ranged ability that draws a line through the crystal, the distance increases by 5.
+      effects:
+        - effect: When you or an ally uses a ranged ability that draws a line through the crystal, the distance increases by 5.
       icon: ⭐️
       name: Elemental Boost
 name: Primordial Crystal

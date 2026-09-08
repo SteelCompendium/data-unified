@@ -35,6 +35,10 @@
           "tier1": "3 damage",
           "tier2": "5 damage; [restrained](scc.v1:mcdm.heroes.v1/condition/restrained) (EoT)",
           "tier3": "8 damage; [restrained](scc.v1:mcdm.heroes.v1/condition/restrained) (save ends)"
+        },
+        {
+          "effect": "The area is [difficult terrain](scc.v1:mcdm.heroes.v1/movement/difficult-terrain) for enemies until the end of the encounter. Any enemy in the area has acid [weakness](scc.v1:mcdm.heroes.v1/rule.damage/damage-weakness) 2.",
+          "name": "Effect"
         }
       ],
       "feature_type": "ability",
@@ -54,7 +58,8 @@
       "distance": "Self",
       "effects": [
         {
-          "effect": "**Trigger:** The elementalist takes damage.\n**Effect:** The elementalist can [teleport](scc.v1:mcdm.heroes.v1/movement/teleport) up to 2 squares. Each creature [adjacent](scc.v1:mcdm.heroes.v1/rule.combat/adjacent) to the space they leave takes 2 corruption damage."
+          "effect": "The elementalist can [teleport](scc.v1:mcdm.heroes.v1/movement/teleport) up to 2 squares. Each creature [adjacent](scc.v1:mcdm.heroes.v1/rule.combat/adjacent) to the space they leave takes 2 corruption damage.",
+          "name": "Effect"
         }
       ],
       "feature_type": "ability",
@@ -65,6 +70,7 @@
       ],
       "name": "Jaws of the Void",
       "target": "Self",
+      "trigger": "The elementalist takes damage.",
       "type": "feature",
       "usage": "Triggered action"
     },

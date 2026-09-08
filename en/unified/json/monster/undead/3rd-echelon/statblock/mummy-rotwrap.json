@@ -11,6 +11,10 @@
           "tier1": "4 damage",
           "tier2": "7 damage; [pull](scc.v1:mcdm.heroes.v1/movement/forced-movement) 1",
           "tier3": "8 damage; [pull](scc.v1:mcdm.heroes.v1/movement/forced-movement) 3"
+        },
+        {
+          "effect": "Each ally gains an [edge](scc.v1:mcdm.heroes.v1/rule.dice/edge) on [strikes](scc.v1:mcdm.heroes.v1/rule.combat/strike) made against the target until the end of the round.",
+          "name": "Effect"
         }
       ],
       "feature_type": "ability",

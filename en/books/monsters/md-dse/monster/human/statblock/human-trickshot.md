@@ -40,6 +40,10 @@ features:
           tier1: 6 damage
           tier2: 9 damage
           tier3: 12 damage
+        - effect: This ability ignores cover and concealment.
+          name: Effect
+        - cost: 3 Malice
+          effect: This ability targets one additional target.
       feature_type: ability
       icon: ⚔️
       keywords:

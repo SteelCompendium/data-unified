@@ -8,6 +8,8 @@ features:
           tier1: 6 damage; the garroter can [shift](scc.v1:mcdm.heroes.v1/movement/shifting) 1 square
           tier2: 9 damage; the garroter [shifts](scc.v1:mcdm.heroes.v1/movement/shifting) up to 2 squares
           tier3: 12 damage; the garroter [shifts](scc.v1:mcdm.heroes.v1/movement/shifting) up to 3 squares
+        - effect: If this ability gains an edge or has a double edge, it deals an extra 4 damage.
+          name: Effect
       feature_type: ability
       icon: "\U0001F5E1"
       keywords:
@@ -24,6 +26,8 @@ features:
           tier1: 6 damage
           tier2: 9 damage; I < 1 [dazed](scc.v1:mcdm.heroes.v1/condition/dazed) (save ends)
           tier3: 12 damage; [grabbed](scc.v1:mcdm.heroes.v1/condition/grabbed); I < 2 [dazed](scc.v1:mcdm.heroes.v1/condition/dazed) (save ends)
+        - effect: While [grabbed](scc.v1:mcdm.heroes.v1/condition/grabbed) this way, a target can't communicate or use magic abilities.
+          name: Effect
       feature_type: ability
       icon: "\U0001F5E1"
       keywords:

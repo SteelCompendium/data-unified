@@ -34,9 +34,8 @@ agility: 0
 ev: "40"
 features:
     - effects:
-        - effect: |-
-            The summoner can command up to two squads of minions with a maximum of 8 minions per squad. They can only have one squad of [signature minions](../../../../feature/summoner/level-1/minions.md) active at any time.
-            At the start of each of the summoner's turns, up to four **skeletons** appear in unoccupied spaces within 5 squares of the summoner. On each of the summoner's turns, they direct the squad of skeletons to move and use a main action.
+        - effect: The summoner can command up to two squads of minions with a maximum of 8 minions per squad. They can only have one squad of [signature minions](../../../../feature/summoner/level-1/minions.md) active at any time.
+        - effect: At the start of each of the summoner's turns, up to four **skeletons** appear in unoccupied spaces within 5 squares of the summoner. On each of the summoner's turns, they direct the squad of skeletons to move and use a main action.
       feature_type: trait
       icon: ⭐️
       name: Undead Summoner
@@ -61,7 +60,8 @@ features:
     - cost: 1+ Malice
       distance: Ranged 10
       effects:
-        - effect: '**Effect:** The summoner summons the listed number of minions for their Malice cost into unoccupied spaces within distance. If the minions are a part of a new squad, the summoner directs the squad to move and use a main action on each of their turns.'
+        - effect: The summoner summons the listed number of minions for their Malice cost into unoccupied spaces within distance. If the minions are a part of a new squad, the summoner directs the squad to move and use a main action on each of their turns.
+          name: Effect
       feature_type: ability
       icon: "\U0001F3F9"
       keywords:
@@ -74,15 +74,16 @@ features:
     - cost: 2 Malice
       distance: Ranged 10
       effects:
-        - effect: |-
-            **Trigger:** The target is targeted by a [strike](../../../../rule/combat/strike.md).
-            **Effect:** The summoner summons a **skeleton** into an unoccupied space [adjacent](../../../../rule/combat/adjacent.md) to the target. They become the new target of the strike. The original target can [shift](../../../../movement/shifting.md) into any square [adjacent](../../../../rule/combat/adjacent.md) to the minion.
-            **1 Malice:** Instead, the summoner summons a **zombie lumberer** into an unoccupied space [adjacent](../../../../rule/combat/adjacent.md) to the target to take the strike.
+        - effect: The summoner summons a **skeleton** into an unoccupied space [adjacent](../../../../rule/combat/adjacent.md) to the target. They become the new target of the strike. The original target can [shift](../../../../movement/shifting.md) into any square [adjacent](../../../../rule/combat/adjacent.md) to the minion.
+          name: Effect
+        - cost: 1 Malice
+          effect: Instead, the summoner summons a **zombie lumberer** into an unoccupied space [adjacent](../../../../rule/combat/adjacent.md) to the target to take the strike.
       feature_type: ability
       icon: ❗️
       keywords: []
       name: Death Ward
       target: Self or one ally
+      trigger: The target is targeted by a [strike](../../../../rule/combat/strike.md).
       type: feature
       usage: Triggered action
     - cost: With All of Us

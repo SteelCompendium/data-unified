@@ -55,6 +55,8 @@ features:
           tier1: 3 damage
           tier2: 5 damage; [restrained](../../../../condition/restrained.md) (EoT)
           tier3: 8 damage; [restrained](../../../../condition/restrained.md) (save ends)
+        - effect: The area is [difficult terrain](../../../../movement/difficult-terrain.md) for enemies until the end of the encounter. Any enemy in the area has acid [weakness](../../../../rule/damage/damage-weakness.md) 2.
+          name: Effect
       feature_type: ability
       icon: "\U0001F533"
       keywords:
@@ -68,9 +70,8 @@ features:
       usage: Main action
     - distance: Self
       effects:
-        - effect: |-
-            **Trigger:** The elementalist takes damage.
-            **Effect:** The elementalist can [teleport](../../../../movement/teleport.md) up to 2 squares. Each creature [adjacent](../../../../rule/combat/adjacent.md) to the space they leave takes 2 corruption damage.
+        - effect: The elementalist can [teleport](../../../../movement/teleport.md) up to 2 squares. Each creature [adjacent](../../../../rule/combat/adjacent.md) to the space they leave takes 2 corruption damage.
+          name: Effect
       feature_type: ability
       icon: ❗️
       keywords:
@@ -78,6 +79,7 @@ features:
         - Void
       name: Jaws of the Void
       target: Self
+      trigger: The elementalist takes damage.
       type: feature
       usage: Triggered action
     - effects:

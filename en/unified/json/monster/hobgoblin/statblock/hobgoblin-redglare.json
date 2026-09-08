@@ -34,6 +34,10 @@
           "tier1": "10 corruption damage",
           "tier2": "10 corruption damage, or if the target has P \u003c 2 they are judged",
           "tier3": "The target is judged."
+        },
+        {
+          "effect": "Until the end of the encounter, a judged target takes 10 corruption damage at the start of each of their turns, and regains 5 [Stamina](scc.v1:mcdm.heroes.v1/rule.health/stamina) each time they use an ability or other effect that allows another creature to spend a Recovery.",
+          "name": "Effect"
         }
       ],
       "feature_type": "ability",

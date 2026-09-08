@@ -39,6 +39,8 @@ features:
           tier1: 2 damage
           tier2: 4 damage
           tier3: 5 damage
+        - effect: Each ally adjacent to the target shifts up to 2 squares.
+          name: Effect
       feature_type: ability
       icon: "\U0001F3F9"
       keywords:

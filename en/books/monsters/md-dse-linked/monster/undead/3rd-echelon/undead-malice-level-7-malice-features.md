@@ -2,10 +2,14 @@
 features:
     - body: The undead activates a [Malice](../../../rule/monster/malice.md) feature available to undead of level 6 or lower.
       cost: 2-7+ Malice
+      effects:
+        - effect: The undead activates a [Malice](../../../rule/monster/malice.md) feature available to undead of level 6 or lower.
       icon: ⭐️
       name: Prior Malice Features
     - body: Until the end of the round, whenever an undead is reduced to 0 [Stamina](../../../rule/health/stamina.md), they deal 8 corruption damage to each enemy within 3 squares of them.
       cost: 5 Malice
+      effects:
+        - effect: Until the end of the round, whenever an undead is reduced to 0 [Stamina](../../../rule/health/stamina.md), they deal 8 corruption damage to each enemy within 3 squares of them.
       icon: "\U0001F300"
       name: Necrotic Rupture
 file_basename: undead-malice-level-7-malice-features
@@ -25,10 +29,14 @@ type: featureblock
 features:
     - body: The undead activates a [Malice](../../../rule/monster/malice.md) feature available to undead of level 6 or lower.
       cost: 2-7+ Malice
+      effects:
+        - effect: The undead activates a [Malice](../../../rule/monster/malice.md) feature available to undead of level 6 or lower.
       icon: ⭐️
       name: Prior Malice Features
     - body: Until the end of the round, whenever an undead is reduced to 0 [Stamina](../../../rule/health/stamina.md), they deal 8 corruption damage to each enemy within 3 squares of them.
       cost: 5 Malice
+      effects:
+        - effect: Until the end of the round, whenever an undead is reduced to 0 [Stamina](../../../rule/health/stamina.md), they deal 8 corruption damage to each enemy within 3 squares of them.
       icon: "\U0001F300"
       name: Necrotic Rupture
 flavor: At the start of any level 7 or higher undead's turn, you can spend Malice to activate one of the following features.

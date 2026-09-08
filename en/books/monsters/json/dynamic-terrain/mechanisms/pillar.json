@@ -2,11 +2,25 @@
   "features": [
     {
       "body": "The pillar's linked trigger must be deactivated.",
+      "effects": [
+        {
+          "effect": "The pillar's linked trigger must be deactivated."
+        }
+      ],
       "icon": "🌀",
       "name": "Deactivate"
     },
     {
       "body": "The pillar is destroyed, or a [pressure plate](scc.v1:mcdm.monsters.v1/dynamic-terrain.mechanisms/pressure-plate), [switch](scc.v1:mcdm.monsters.v1/dynamic-terrain.mechanisms/switch), or other linked trigger is activated.",
+      "effects": [
+        {
+          "effect": "The pillar is destroyed, or a [pressure plate](scc.v1:mcdm.monsters.v1/dynamic-terrain.mechanisms/pressure-plate), [switch](scc.v1:mcdm.monsters.v1/dynamic-terrain.mechanisms/switch), or other linked trigger is activated."
+        },
+        {
+          "effect": "The **Toppling Pillar** ability.",
+          "name": "Effect"
+        }
+      ],
       "icon": "❕",
       "name": "Activate",
       "sections": [
@@ -18,6 +32,20 @@
     },
     {
       "distance": "4 x 1 line within 1",
+      "effects": [
+        {
+          "effect": "The pillar is destroyed, or a [pressure plate](scc.v1:mcdm.monsters.v1/dynamic-terrain.mechanisms/pressure-plate), [switch](scc.v1:mcdm.monsters.v1/dynamic-terrain.mechanisms/switch), or other linked trigger is activated.",
+          "name": "Trigger",
+          "roll": "Power Roll + 2",
+          "tier1": "4 damage",
+          "tier2": "6 damage; M \u003c 1 [restrained](scc.v1:mcdm.heroes.v1/condition/restrained) ([save](scc.v1:mcdm.heroes.v1/rule.general/saving-throw) ends)",
+          "tier3": "9 damage; M \u003c 2 [restrained](scc.v1:mcdm.heroes.v1/condition/restrained) ([save](scc.v1:mcdm.heroes.v1/rule.general/saving-throw) ends)"
+        },
+        {
+          "effect": "The area is [difficult terrain](scc.v1:mcdm.heroes.v1/movement/difficult-terrain).",
+          "name": "Effect"
+        }
+      ],
       "icon": "❗️",
       "keywords": [
         "Area"
@@ -46,6 +74,14 @@
     },
     {
       "body": "**Metal Pillar (+1 EV)** The pillar is made of metal, has 9 [Stamina](scc.v1:mcdm.heroes.v1/rule.health/stamina), and deals 1d6 extra damage.\n\n**Multiple Pillars (+3 EV per additional pillar)** Multiple pillars can be used to represent a larger toppling object such as a wall. If triggered by destruction, all individual pillars need to be destroyed before the object falls.",
+      "effects": [
+        {
+          "effect": "**Metal Pillar (+1 EV)** The pillar is made of metal, has 9 [Stamina](scc.v1:mcdm.heroes.v1/rule.health/stamina), and deals 1d6 extra damage."
+        },
+        {
+          "effect": "**Multiple Pillars (+3 EV per additional pillar)** Multiple pillars can be used to represent a larger toppling object such as a wall. If triggered by destruction, all individual pillars need to be destroyed before the object falls."
+        }
+      ],
       "icon": "⭐️",
       "name": "Upgrades"
     }

@@ -2,13 +2,22 @@
 features:
     - body: Until the end of the round, each rival can impose a bane on a [strike](scc.v1:mcdm.heroes.v1/rule.combat/strike) made against an [adjacent](scc.v1:mcdm.heroes.v1/rule.combat/adjacent) rival as a free triggered action.
       cost: 3 Malice
+      effects:
+        - effect: Until the end of the round, each rival can impose a bane on a [strike](scc.v1:mcdm.heroes.v1/rule.combat/strike) made against an [adjacent](scc.v1:mcdm.heroes.v1/rule.combat/adjacent) rival as a free triggered action.
       icon: ⭐️
       name: Work as One
     - body: Until the end of the round, whenever any rival makes a power roll against the target of their Rivalry trait, they roll a d3 and add it to the power roll.
       cost: 3 Malice
+      effects:
+        - effect: Until the end of the round, whenever any rival makes a power roll against the target of their Rivalry trait, they roll a d3 and add it to the power roll.
       icon: ⭐️
       name: We Just Do It Better
     - cost: 5 Malice
+      effects:
+        - effect: 'One rival pulls out a magic consumable and hurls it, targeting a 5 x 1 line within 1 square of them or a 3 cube within 10 squares of them. Each enemy in the area makes an Agility test. The rival chooses a damage type and a condition for the outcome of the test from one of the following pairs: sonic damage and [dazed](scc.v1:mcdm.heroes.v1/condition/dazed), poison damage and [weakened](scc.v1:mcdm.heroes.v1/condition/weakened), or fire damage and [frightened](scc.v1:mcdm.heroes.v1/condition/frightened).'
+          tier1: 11 damage; the condition affects the target (save ends)
+          tier2: 8 damage; the condition affects the target (EoT)
+          tier3: 5 damage
       icon: "\U0001F533"
       intro: 'One rival pulls out a magic consumable and hurls it, targeting a 5 x 1 line within 1 square of them or a 3 cube within 10 squares of them. Each enemy in the area makes an Agility test. The rival chooses a damage type and a condition for the outcome of the test from one of the following pairs: sonic damage and [dazed](scc.v1:mcdm.heroes.v1/condition/dazed), poison damage and [weakened](scc.v1:mcdm.heroes.v1/condition/weakened), or fire damage and [frightened](scc.v1:mcdm.heroes.v1/condition/frightened).'
       name: Check Out Our Loot
@@ -19,10 +28,14 @@ features:
             mid: 8 damage; the condition affects the target (EoT)
     - body: Each rival regains 10 [Stamina](scc.v1:mcdm.heroes.v1/rule.health/stamina). Until the end of the round, whenever a rival uses an ability against an enemy, each other rival [adjacent](scc.v1:mcdm.heroes.v1/rule.combat/adjacent) to that enemy can make a [free strike](scc.v1:mcdm.heroes.v1/feature.common.main-actions/free-strike) against them.
       cost: 7 Malice
+      effects:
+        - effect: Each rival regains 10 [Stamina](scc.v1:mcdm.heroes.v1/rule.health/stamina). Until the end of the round, whenever a rival uses an ability against an enemy, each other rival [adjacent](scc.v1:mcdm.heroes.v1/rule.combat/adjacent) to that enemy can make a [free strike](scc.v1:mcdm.heroes.v1/feature.common.main-actions/free-strike) against them.
       icon: ⭐️
       name: Calling the Shots
     - body: Each rival moves up to their speed and uses a main action or maneuver that doesn't cost [Malice](scc.v1:mcdm.monsters.v1/rule.monster/malice).
       cost: 10 Malice
+      effects:
+        - effect: Each rival moves up to their speed and uses a main action or maneuver that doesn't cost [Malice](scc.v1:mcdm.monsters.v1/rule.monster/malice).
       icon: ⭐️
       name: Coordinated Takedown
 file_basename: rival-malice-level-1-malice-features
@@ -42,13 +55,22 @@ type: featureblock
 features:
     - body: Until the end of the round, each rival can impose a bane on a [strike](scc.v1:mcdm.heroes.v1/rule.combat/strike) made against an [adjacent](scc.v1:mcdm.heroes.v1/rule.combat/adjacent) rival as a free triggered action.
       cost: 3 Malice
+      effects:
+        - effect: Until the end of the round, each rival can impose a bane on a [strike](scc.v1:mcdm.heroes.v1/rule.combat/strike) made against an [adjacent](scc.v1:mcdm.heroes.v1/rule.combat/adjacent) rival as a free triggered action.
       icon: ⭐️
       name: Work as One
     - body: Until the end of the round, whenever any rival makes a power roll against the target of their Rivalry trait, they roll a d3 and add it to the power roll.
       cost: 3 Malice
+      effects:
+        - effect: Until the end of the round, whenever any rival makes a power roll against the target of their Rivalry trait, they roll a d3 and add it to the power roll.
       icon: ⭐️
       name: We Just Do It Better
     - cost: 5 Malice
+      effects:
+        - effect: 'One rival pulls out a magic consumable and hurls it, targeting a 5 x 1 line within 1 square of them or a 3 cube within 10 squares of them. Each enemy in the area makes an Agility test. The rival chooses a damage type and a condition for the outcome of the test from one of the following pairs: sonic damage and [dazed](scc.v1:mcdm.heroes.v1/condition/dazed), poison damage and [weakened](scc.v1:mcdm.heroes.v1/condition/weakened), or fire damage and [frightened](scc.v1:mcdm.heroes.v1/condition/frightened).'
+          tier1: 11 damage; the condition affects the target (save ends)
+          tier2: 8 damage; the condition affects the target (EoT)
+          tier3: 5 damage
       icon: "\U0001F533"
       intro: 'One rival pulls out a magic consumable and hurls it, targeting a 5 x 1 line within 1 square of them or a 3 cube within 10 squares of them. Each enemy in the area makes an Agility test. The rival chooses a damage type and a condition for the outcome of the test from one of the following pairs: sonic damage and [dazed](scc.v1:mcdm.heroes.v1/condition/dazed), poison damage and [weakened](scc.v1:mcdm.heroes.v1/condition/weakened), or fire damage and [frightened](scc.v1:mcdm.heroes.v1/condition/frightened).'
       name: Check Out Our Loot
@@ -59,10 +81,14 @@ features:
             mid: 8 damage; the condition affects the target (EoT)
     - body: Each rival regains 10 [Stamina](scc.v1:mcdm.heroes.v1/rule.health/stamina). Until the end of the round, whenever a rival uses an ability against an enemy, each other rival [adjacent](scc.v1:mcdm.heroes.v1/rule.combat/adjacent) to that enemy can make a [free strike](scc.v1:mcdm.heroes.v1/feature.common.main-actions/free-strike) against them.
       cost: 7 Malice
+      effects:
+        - effect: Each rival regains 10 [Stamina](scc.v1:mcdm.heroes.v1/rule.health/stamina). Until the end of the round, whenever a rival uses an ability against an enemy, each other rival [adjacent](scc.v1:mcdm.heroes.v1/rule.combat/adjacent) to that enemy can make a [free strike](scc.v1:mcdm.heroes.v1/feature.common.main-actions/free-strike) against them.
       icon: ⭐️
       name: Calling the Shots
     - body: Each rival moves up to their speed and uses a main action or maneuver that doesn't cost [Malice](scc.v1:mcdm.monsters.v1/rule.monster/malice).
       cost: 10 Malice
+      effects:
+        - effect: Each rival moves up to their speed and uses a main action or maneuver that doesn't cost [Malice](scc.v1:mcdm.monsters.v1/rule.monster/malice).
       icon: ⭐️
       name: Coordinated Takedown
 flavor: At the start of any rival's turn, you can spend Malice to activate one of the following features.

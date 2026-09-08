@@ -50,9 +50,10 @@ features:
       usage: Main action
     - distance: Ranged 10
       effects:
-        - effect: |-
-            **Effect:** The target moves up to their speed and can use a main action.
-            **3 [Malice](../../../rule/monster/malice.md):** The godcaller targets a second ally.
+        - effect: The target moves up to their speed and can use a main action.
+          name: Effect
+        - cost: 3 Malice
+          effect: The godcaller targets a second ally.
       feature_type: ability
       icon: "\U0001F3F9"
       keywords:
@@ -65,7 +66,8 @@ features:
     - cost: 2 Malice
       distance: Ranged 10
       effects:
-        - effect: '**Effect:** Each target regains 15 [Stamina](../../../rule/health/stamina.md) and ignores [difficult terrain](../../../movement/difficult-terrain.md) until the end of the encounter.'
+        - effect: Each target regains 15 [Stamina](../../../rule/health/stamina.md) and ignores [difficult terrain](../../../movement/difficult-terrain.md) until the end of the encounter.
+          name: Effect
       feature_type: ability
       icon: "\U0001F3F9"
       keywords:

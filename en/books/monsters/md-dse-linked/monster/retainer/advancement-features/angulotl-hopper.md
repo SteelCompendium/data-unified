@@ -2,6 +2,13 @@
 features:
     - cost: Encounter
       distance: Melee 1
+      effects:
+        - roll: Power Roll + highest characteristic
+          tier1: 5 damage; M < WEAK, [prone](../../../condition/prone.md)
+          tier2: 9 damage; M < AVERAGE, [prone](../../../condition/prone.md)
+          tier3: 12 damage; M < STRONG, [prone](../../../condition/prone.md)
+        - effect: The hopper can jump up to their speed in a straight line before the [strike](../../../rule/combat/strike.md) without provoking [opportunity attacks](../../../rule/combat/opportunity-attack.md). If they jump 2 or more squares this way, they gain 1 [surge](../../../rule/resource/surge.md).
+          name: Effect
       icon: "\U0001F5E1"
       keywords:
         - Melee
@@ -22,6 +29,11 @@ features:
       usage: Main action
     - cost: Encounter
       distance: Ranged 5
+      effects:
+        - roll: Power Roll + highest characteristic
+          tier1: 5 poison damage; M < WEAK, [weakened](../../../condition/weakened.md) ([save](../../../rule/general/saving-throw.md) ends)
+          tier2: 9 poison damage; M < AVERAGE, [slowed](../../../condition/slowed.md) and [weakened](../../../condition/weakened.md) ([save](../../../rule/general/saving-throw.md) ends)
+          tier3: 12 poison damage; M < STRONG, [dazed](../../../condition/dazed.md), [slowed](../../../condition/slowed.md), and [weakened](../../../condition/weakened.md) ([save](../../../rule/general/saving-throw.md) ends)
       icon: "\U0001F3F9"
       keywords:
         - Ranged
@@ -39,6 +51,11 @@ features:
       usage: Main action
     - cost: Encounter
       distance: Melee 5
+      effects:
+        - effect: A creature moves within distance.
+          name: Trigger
+        - effect: If the target has M < AVERAGE, their movement ends, they are knocked [prone](../../../condition/prone.md), and one ally within distance gains 2 [surges](../../../rule/resource/surge.md).
+          name: Effect
       icon: ❗️
       keywords:
         - Melee
@@ -65,6 +82,13 @@ type: featureblock
 features:
     - cost: Encounter
       distance: Melee 1
+      effects:
+        - roll: Power Roll + highest characteristic
+          tier1: 5 damage; M < WEAK, [prone](../../../condition/prone.md)
+          tier2: 9 damage; M < AVERAGE, [prone](../../../condition/prone.md)
+          tier3: 12 damage; M < STRONG, [prone](../../../condition/prone.md)
+        - effect: The hopper can jump up to their speed in a straight line before the [strike](../../../rule/combat/strike.md) without provoking [opportunity attacks](../../../rule/combat/opportunity-attack.md). If they jump 2 or more squares this way, they gain 1 [surge](../../../rule/resource/surge.md).
+          name: Effect
       icon: "\U0001F5E1"
       keywords:
         - Melee
@@ -85,6 +109,11 @@ features:
       usage: Main action
     - cost: Encounter
       distance: Ranged 5
+      effects:
+        - roll: Power Roll + highest characteristic
+          tier1: 5 poison damage; M < WEAK, [weakened](../../../condition/weakened.md) ([save](../../../rule/general/saving-throw.md) ends)
+          tier2: 9 poison damage; M < AVERAGE, [slowed](../../../condition/slowed.md) and [weakened](../../../condition/weakened.md) ([save](../../../rule/general/saving-throw.md) ends)
+          tier3: 12 poison damage; M < STRONG, [dazed](../../../condition/dazed.md), [slowed](../../../condition/slowed.md), and [weakened](../../../condition/weakened.md) ([save](../../../rule/general/saving-throw.md) ends)
       icon: "\U0001F3F9"
       keywords:
         - Ranged
@@ -102,6 +131,11 @@ features:
       usage: Main action
     - cost: Encounter
       distance: Melee 5
+      effects:
+        - effect: A creature moves within distance.
+          name: Trigger
+        - effect: If the target has M < AVERAGE, their movement ends, they are knocked [prone](../../../condition/prone.md), and one ally within distance gains 2 [surges](../../../rule/resource/surge.md).
+          name: Effect
       icon: ❗️
       keywords:
         - Melee

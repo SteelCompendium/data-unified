@@ -37,6 +37,8 @@ features:
           tier1: 7 damage
           tier2: 11 damage; [prone](../../../condition/prone.md)
           tier3: 14 damage; [prone](../../../condition/prone.md); M < 2 [bleeding](../../../condition/bleeding.md) (save ends)
+        - effect: A target who is already [prone](../../../condition/prone.md) takes an extra 6 damage.
+          name: Effect
       feature_type: ability
       icon: "\U0001F5E1"
       keywords:
@@ -50,14 +52,14 @@ features:
     - cost: 1 Malice
       distance: Self
       effects:
-        - effect: |-
-            **Trigger:** The juggernaut takes damage.
-            **Effect:** The juggernaut moves up to their speed and can make a [free strike](../../../feature/common/main-actions/free-strike.md).
+        - effect: The juggernaut moves up to their speed and can make a [free strike](../../../feature/common/main-actions/free-strike.md).
+          name: Effect
       feature_type: ability
       icon: ❗️
       keywords: []
       name: Hrraaaaaagh!
       target: Self
+      trigger: The juggernaut takes damage.
       type: feature
       usage: Free triggered action
     - effects:

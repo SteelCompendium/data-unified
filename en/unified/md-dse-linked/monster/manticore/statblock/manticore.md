@@ -31,9 +31,9 @@ agility: 3
 ev: "72"
 features:
     - effects:
-        - effect: |-
-            [**End Effect:**](../../../rule/monster/end-effect.md) At the end of each of their turns, the manticore can take 10 damage to end one effect on them that can be ended by a [saving throw](../../../rule/general/saving-throw.md). This damage can't be reduced in any way.
-            **Solo Turns:** The manticore can take two turns each round. They can't take turns consecutively.
+        - effect: '[**End Effect:**](../../../rule/monster/end-effect.md) At the end of each of their turns, the manticore can take 10 damage to end one effect on them that can be ended by a [saving throw](../../../rule/general/saving-throw.md). This damage can''t be reduced in any way.'
+        - effect: The manticore can take two turns each round. They can't take turns consecutively.
+          name: Solo Turns
       feature_type: trait
       icon: ☠️
       name: Solo Monster
@@ -51,6 +51,8 @@ features:
           tier1: 12 damage; A < 2 [bleeding](../../../condition/bleeding.md) (save ends)
           tier2: 17 damage; A < 3 [bleeding](../../../condition/bleeding.md) (save ends)
           tier3: 21 damage; A < 4 [bleeding](../../../condition/bleeding.md) (save ends)
+        - effect: If the target is [frightened](../../../condition/frightened.md), this ability gains an edge.
+          name: Effect
       feature_type: ability
       icon: "\U0001F5E1"
       keywords:
@@ -67,6 +69,8 @@ features:
           tier1: 6 damage; M < 2 4 poison damage
           tier2: 11 damage; M < 3 4 poison damage, [weakened](../../../condition/weakened.md) (save ends)
           tier3: 14 damage; M < 4 8 poison damage, [weakened](../../../condition/weakened.md) (save ends)
+        - cost: 1 Malice
+          effect: While [weakened](../../../condition/weakened.md) this way, a target takes 1d6 poison damage at the start of each of their turns.
       feature_type: ability
       icon: "\U0001F3F9"
       keywords:
@@ -96,15 +100,15 @@ features:
     - cost: 2 Malice
       distance: Ranged 10
       effects:
-        - effect: |-
-            **Trigger:** A creature within distance deals damage to the manticore.
-            **Effect:** The manticore [shifts](../../../movement/shifting.md) up to 5 squares into the air, then can use Tail Spike against the target.
+        - effect: The manticore [shifts](../../../movement/shifting.md) up to 5 squares into the air, then can use Tail Spike against the target.
+          name: Effect
       feature_type: ability
       icon: ❗️
       keywords:
         - Ranged
       name: Reflexive Instinct
       target: The triggering creature
+      trigger: A creature within distance deals damage to the manticore.
       type: feature
       usage: Triggered action
     - cost: Villain Action 1
@@ -126,7 +130,8 @@ features:
     - cost: Villain Action 2
       distance: Self
       effects:
-        - effect: '**Effect:** The manticore [shifts](../../../movement/shifting.md) up to their speed, then can use Tail Spike against each enemy within distance of that ability.'
+        - effect: The manticore [shifts](../../../movement/shifting.md) up to their speed, then can use Tail Spike against each enemy within distance of that ability.
+          name: Effect
       feature_type: ability
       icon: ☠️
       keywords: []
@@ -137,7 +142,8 @@ features:
     - cost: Villain Action 3
       distance: Self
       effects:
-        - effect: '**Effect:** The manticore sours their poison with enmity. Until the end of the encounter, the manticore has a double edge on power rolls against [weakened](../../../condition/weakened.md) creatures. Additionally, any creature [weakened](../../../condition/weakened.md) by the manticore''s Tail Spike ability has their speed halved and takes an extra 3 poison damage at the start of each of their turns.'
+        - effect: The manticore sours their poison with enmity. Until the end of the encounter, the manticore has a double edge on power rolls against [weakened](../../../condition/weakened.md) creatures. Additionally, any creature [weakened](../../../condition/weakened.md) by the manticore's Tail Spike ability has their speed halved and takes an extra 3 poison damage at the start of each of their turns.
+          name: Effect
       feature_type: ability
       icon: ☠️
       keywords: []

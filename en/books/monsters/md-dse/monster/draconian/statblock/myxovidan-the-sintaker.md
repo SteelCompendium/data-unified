@@ -41,6 +41,8 @@ features:
           tier1: 10 damage; M < 1 [weakened](scc.v1:mcdm.heroes.v1/condition/weakened) (save ends)
           tier2: 15 damage; M < 2 [weakened](scc.v1:mcdm.heroes.v1/condition/weakened) (save ends)
           tier3: 18 corruption damage; M < 3 [weakened](scc.v1:mcdm.heroes.v1/condition/weakened) (save ends)
+        - cost: 2 Malice
+          effect: Myxovidan regains [Stamina](scc.v1:mcdm.heroes.v1/rule.health/stamina) equal to half the damage dealt.
       feature_type: ability
       icon: "\U0001F5E1"
       keywords:
@@ -68,7 +70,8 @@ features:
       usage: Main action
     - distance: Ranged 3
       effects:
-        - effect: '**Effect:** Myxovidan and the target [shift](scc.v1:mcdm.heroes.v1/movement/shifting) to swap places.'
+        - effect: Myxovidan and the target [shift](scc.v1:mcdm.heroes.v1/movement/shifting) to swap places.
+          name: Effect
       feature_type: ability
       icon: "\U0001F3F9"
       keywords:
@@ -80,14 +83,14 @@ features:
     - cost: 2 Malice
       distance: Self
       effects:
-        - effect: |-
-            **Trigger:** An [adjacent](scc.v1:mcdm.heroes.v1/rule.combat/adjacent) creature damages Myxovidan with a melee ability.
-            **Effect:** Myxovidan recreates the ability to use it against the triggering creature. If the ability has a power roll, Myxovidan uses his highest characteristic score for the roll. If Myxovidan gets a higher tier outcome than the triggering creature, the Director gains 2 [Malice](scc.v1:mcdm.monsters.v1/rule.monster/malice).
+        - effect: Myxovidan recreates the ability to use it against the triggering creature. If the ability has a power roll, Myxovidan uses his highest characteristic score for the roll. If Myxovidan gets a higher tier outcome than the triggering creature, the Director gains 2 [Malice](scc.v1:mcdm.monsters.v1/rule.monster/malice).
+          name: Effect
       feature_type: ability
       icon: ❗️
       keywords: []
       name: Anyone Can Do That
       target: Self
+      trigger: An [adjacent](scc.v1:mcdm.heroes.v1/rule.combat/adjacent) creature damages Myxovidan with a melee ability.
       type: feature
       usage: Triggered action
     - effects:

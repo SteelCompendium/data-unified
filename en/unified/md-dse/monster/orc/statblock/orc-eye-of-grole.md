@@ -47,6 +47,8 @@ features:
           tier1: 6 damage; [push](scc.v1:mcdm.heroes.v1/movement/forced-movement) 2, or the eye [shifts](scc.v1:mcdm.heroes.v1/movement/shifting) up to 2 squares away from the target
           tier2: 9 damage; [slide](scc.v1:mcdm.heroes.v1/movement/forced-movement) 4, or the eye [shifts](scc.v1:mcdm.heroes.v1/movement/shifting) up to 4 squares away from the target
           tier3: 12 damage; [slide](scc.v1:mcdm.heroes.v1/movement/forced-movement) 6, or the eye [shifts](scc.v1:mcdm.heroes.v1/movement/shifting) up to 6 squares away from the target
+        - effect: This ability deals cold, fire, or lightning damage.
+          name: Effect
       feature_type: ability
       icon: "\U0001F3F9"
       keywords:
@@ -64,6 +66,8 @@ features:
           tier1: 3 damage; [push](scc.v1:mcdm.heroes.v1/movement/forced-movement) 2
           tier2: 5 damage; [push](scc.v1:mcdm.heroes.v1/movement/forced-movement) 3
           tier3: 8 damage; [push](scc.v1:mcdm.heroes.v1/movement/forced-movement) 4, [prone](scc.v1:mcdm.heroes.v1/condition/prone)
+        - effect: This ability deals cold, fire, or lightning damage, and any enemy targeted by the ability has [damage weakness](scc.v1:mcdm.heroes.v1/rule.damage/damage-weakness) 3 to the same damage type (save ends).
+          name: Effect
       feature_type: ability
       icon: "\U0001F533"
       keywords:

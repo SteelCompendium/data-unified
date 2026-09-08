@@ -37,6 +37,8 @@ features:
           tier1: 15 damage; [push](scc.v1:mcdm.heroes.v1/movement/forced-movement) 4
           tier2: 21 damage; [push](scc.v1:mcdm.heroes.v1/movement/forced-movement) 5
           tier3: 25 damage; [push](scc.v1:mcdm.heroes.v1/movement/forced-movement) 6
+        - cost: 2 Malice
+          effect: Each target who has M < 4 is [bleeding](scc.v1:mcdm.heroes.v1/condition/bleeding) and [slowed](scc.v1:mcdm.heroes.v1/condition/slowed) (save ends).
       feature_type: ability
       icon: "\U0001F5E1"
       keywords:
@@ -54,6 +56,8 @@ features:
           tier1: 15 damage; M < 3 [grabbed](scc.v1:mcdm.heroes.v1/condition/grabbed)
           tier2: 21 damage; M < 4 [grabbed](scc.v1:mcdm.heroes.v1/condition/grabbed)
           tier3: 25 damage; M < 5 [grabbed](scc.v1:mcdm.heroes.v1/condition/grabbed)
+        - effect: The target must be the fury's size or smaller. While the target is [grabbed](scc.v1:mcdm.heroes.v1/condition/grabbed) this way, the fury and their allies have a double edge on [strikes](scc.v1:mcdm.heroes.v1/rule.combat/strike) against them.
+          name: Effect
       feature_type: ability
       icon: "\U0001F5E1"
       keywords:

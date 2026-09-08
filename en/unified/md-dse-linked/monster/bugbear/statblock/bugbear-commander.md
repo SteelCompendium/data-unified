@@ -39,6 +39,8 @@ features:
           tier1: 7 damage
           tier2: 10 damage
           tier3: 13 damage; one target is [grabbed](../../../condition/grabbed.md)
+        - effect: One ally within 5 squares of the commander gains an [edge](../../../rule/dice/edge.md) on their next strike until the start of the commander's next turn.
+          name: Effect
       feature_type: ability
       icon: "\U0001F5E1"
       keywords:
@@ -51,7 +53,8 @@ features:
       usage: Main action
     - distance: Ranged 8
       effects:
-        - effect: '**Effect:** The target moves up to their speed and uses a signature ability.'
+        - effect: The target moves up to their speed and uses a signature ability.
+          name: Effect
       feature_type: ability
       icon: "\U0001F3F9"
       keywords:
@@ -63,7 +66,8 @@ features:
     - cost: 5 Malice
       distance: 5 burst
       effects:
-        - effect: '**Effect:** Each target [shifts](../../../movement/shifting.md) up to their speed, then can use the Throw maneuver.'
+        - effect: Each target [shifts](../../../movement/shifting.md) up to their speed, then can use the Throw maneuver.
+          name: Effect
       feature_type: ability
       icon: ❇️
       keywords:
@@ -74,9 +78,10 @@ features:
       usage: Main Action
     - distance: Melee 1
       effects:
-        - effect: |-
-            **Special:** The target must be [grabbed](../../../condition/grabbed.md) by the commander.
-            **Effect:** The target is vertical [pushed](../../../movement/forced-movement.md) up to 4 squares. An ally doesn't take damage from being [force moved](../../../movement/forced-movement.md) this way.
+        - effect: The target must be [grabbed](../../../condition/grabbed.md) by the commander.
+          name: Special
+        - effect: The target is vertical [pushed](../../../movement/forced-movement.md) up to 4 squares. An ally doesn't take damage from being [force moved](../../../movement/forced-movement.md) this way.
+          name: Effect
       feature_type: ability
       icon: "\U0001F5E1"
       keywords:
@@ -88,15 +93,15 @@ features:
       usage: Maneuver
     - distance: Melee 1
       effects:
-        - effect: |-
-            **Trigger:** A size 1 creature or object is [force moved](../../../movement/forced-movement.md) within distance, or a size 1 ally willingly moves within distance.
-            **Effect:** The target is [grabbed](../../../condition/grabbed.md) by the commander.
+        - effect: The target is [grabbed](../../../condition/grabbed.md) by the commander.
+          name: Effect
       feature_type: ability
       icon: ❗️
       keywords:
         - Melee
       name: Catcher
       target: The triggering creature or object
+      trigger: A size 1 creature or object is [force moved](../../../movement/forced-movement.md) within distance, or a size 1 ally willingly moves within distance.
       type: feature
       usage: Free triggered action
     - effects:

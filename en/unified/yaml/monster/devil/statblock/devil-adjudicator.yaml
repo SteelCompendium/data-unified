@@ -8,6 +8,8 @@ features:
           tier1: 10 fire damage; I < 1 [frightened](scc.v1:mcdm.heroes.v1/condition/frightened) (save ends)
           tier2: 15 fire damage; I < 1 [frightened](scc.v1:mcdm.heroes.v1/condition/frightened) (save ends)
           tier3: 18 fire damage; I < 1 [frightened](scc.v1:mcdm.heroes.v1/condition/frightened) (save ends)
+        - effect: The adjudicator can slide a target [frightened](scc.v1:mcdm.heroes.v1/condition/frightened) by this ability up to 2 squares.
+          name: Effect
       feature_type: ability
       icon: "\U0001F3F9"
       keywords:
@@ -20,7 +22,8 @@ features:
       usage: Main action
     - distance: Ranged 10
       effects:
-        - roll: ""
+        - effect: The target makes a Presence test.
+          name: Effect
           tier1: The target is [slowed](scc.v1:mcdm.heroes.v1/condition/slowed), takes a [bane](scc.v1:mcdm.heroes.v1/rule.dice/bane) on power rolls, and can't regain [Stamina](scc.v1:mcdm.heroes.v1/rule.health/stamina) (save ends).
           tier2: The target is [slowed](scc.v1:mcdm.heroes.v1/condition/slowed) and takes a [bane](scc.v1:mcdm.heroes.v1/rule.dice/bane) on power rolls (save ends).
           tier3: '[Slowed](scc.v1:mcdm.heroes.v1/condition/slowed) (save ends)'
@@ -35,7 +38,8 @@ features:
       usage: Main action
     - distance: Ranged 10
       effects:
-        - effect: '**Effect:** The adjudicator and the target [teleport](scc.v1:mcdm.heroes.v1/movement/teleport) to switch places.'
+        - effect: The adjudicator and the target [teleport](scc.v1:mcdm.heroes.v1/movement/teleport) to switch places.
+          name: Effect
       feature_type: ability
       icon: "\U0001F3F9"
       keywords:
@@ -48,7 +52,8 @@ features:
     - cost: 2 Malice
       distance: Ranged 5
       effects:
-        - roll: ""
+        - effect: The target makes a Presence test.
+          name: Effect
           tier1: The adjudicator chooses a new target for the strike.
           tier2: The adjudicator halves the triggering damage.
           tier3: The target takes a [bane](scc.v1:mcdm.heroes.v1/rule.dice/bane) on the strike.
@@ -59,6 +64,7 @@ features:
         - Ranged
       name: Devilish Charm
       target: The triggering creature
+      trigger: A creature targets the adjudicator with a strike.
       type: feature
       usage: Triggered action
     - effects:

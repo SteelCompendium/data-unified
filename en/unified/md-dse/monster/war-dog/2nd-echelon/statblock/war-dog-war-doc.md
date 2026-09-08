@@ -38,6 +38,8 @@ features:
           tier1: 6 poison damage
           tier2: 8 poison damage
           tier3: 9 poison damage; M < 3 [weakened](scc.v1:mcdm.heroes.v1/condition/weakened) (save ends)
+        - effect: A target enemy is subject to this ability's power roll. A target ally instead gains 5 temporary [Stamina](scc.v1:mcdm.heroes.v1/rule.health/stamina) and can make a [free strike](scc.v1:mcdm.heroes.v1/feature.common.main-actions/free-strike).
+          name: Effect
       feature_type: ability
       icon: "\U0001F3F9"
       keywords:
@@ -50,7 +52,8 @@ features:
       usage: Main action
     - distance: Ranged 10
       effects:
-        - effect: '**Effect:** If the target has a loyalty collar, they are reduced to 0 [Stamina](scc.v1:mcdm.heroes.v1/rule.health/stamina).'
+        - effect: If the target has a loyalty collar, they are reduced to 0 [Stamina](scc.v1:mcdm.heroes.v1/rule.health/stamina).
+          name: Effect
       feature_type: ability
       icon: "\U0001F3F9"
       keywords:
@@ -63,9 +66,8 @@ features:
     - cost: 1 Malice
       distance: Ranged 15
       effects:
-        - effect: |-
-            **Trigger:** One ally within distance dies.
-            **Effect:** Each ally [adjacent](scc.v1:mcdm.heroes.v1/rule.combat/adjacent) to the dead ally deals an extra 6 damage on their next strike.
+        - effect: Each ally [adjacent](scc.v1:mcdm.heroes.v1/rule.combat/adjacent) to the dead ally deals an extra 6 damage on their next strike.
+          name: Effect
       feature_type: ability
       icon: ❗️
       keywords:
@@ -73,6 +75,7 @@ features:
         - Ranged
       name: Sanguine Stimulants
       target: Special
+      trigger: One ally within distance dies.
       type: feature
       usage: Triggered action
     - effects:

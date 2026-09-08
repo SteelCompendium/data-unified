@@ -11,6 +11,10 @@
           "tier1": "3 damage",
           "tier2": "5 damage",
           "tier3": "7 damage"
+        },
+        {
+          "effect": "The next strike made against the target gains an edge.",
+          "name": "Effect"
         }
       ],
       "feature_type": "ability",

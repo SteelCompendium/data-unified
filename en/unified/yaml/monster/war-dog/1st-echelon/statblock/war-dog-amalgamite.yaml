@@ -8,6 +8,10 @@ features:
           tier1: 4 damage
           tier2: 5 damage; A < 1 [grabbed](scc.v1:mcdm.heroes.v1/condition/grabbed)
           tier3: 6 damage; A < 2 [grabbed](scc.v1:mcdm.heroes.v1/condition/grabbed)
+        - effect: The amalgamite can have up to four targets [grabbed](scc.v1:mcdm.heroes.v1/condition/grabbed) at once.
+          name: Effect
+        - cost: 3 Malice
+          effect: The amalgamite deals 3 damage to each creature [grabbed](scc.v1:mcdm.heroes.v1/condition/grabbed) this way or who they already have [grabbed](scc.v1:mcdm.heroes.v1/condition/grabbed), and regains [Stamina](scc.v1:mcdm.heroes.v1/rule.health/stamina) equal to the damage dealt.
       feature_type: ability
       icon: "\U0001F5E1"
       keywords:
@@ -20,7 +24,8 @@ features:
       usage: Main action
     - distance: Ranged 10
       effects:
-        - effect: '**Effect:** If the target has a loyalty collar, they are reduced to 0 [Stamina](scc.v1:mcdm.heroes.v1/rule.health/stamina).'
+        - effect: If the target has a loyalty collar, they are reduced to 0 [Stamina](scc.v1:mcdm.heroes.v1/rule.health/stamina).
+          name: Effect
       feature_type: ability
       icon: "\U0001F3F9"
       keywords:

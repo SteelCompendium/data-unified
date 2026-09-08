@@ -39,6 +39,8 @@ features:
           tier1: 8 damage
           tier2: 11 damage
           tier3: 12 damage; M < 4 [bleeding](../../../../condition/bleeding.md) and [weakened](../../../../condition/weakened.md) (save ends)
+        - effect: The blackcap can [teleport](../../../../movement/teleport.md) up to their speed before using this ability, creating an ash clone (see below) in their original square.
+          name: Effect
       feature_type: ability
       icon: ⚔️
       keywords:
@@ -53,7 +55,8 @@ features:
       usage: Main action
     - distance: Ranged 20
       effects:
-        - effect: '**Effect:** Each target makes a [free strike](../../../../feature/common/main-actions/free-strike.md).'
+        - effect: Each target makes a [free strike](../../../../feature/common/main-actions/free-strike.md).
+          name: Effect
       feature_type: ability
       icon: "\U0001F3F9"
       keywords:

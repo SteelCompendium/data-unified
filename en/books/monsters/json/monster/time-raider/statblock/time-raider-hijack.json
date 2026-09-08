@@ -11,6 +11,10 @@
           "tier1": "7 damage",
           "tier2": "11 damage",
           "tier3": "14 damage; A \u003c 2 [bleeding](scc.v1:mcdm.heroes.v1/condition/bleeding) (save ends)"
+        },
+        {
+          "effect": "The hijack is hidden from any creature who is [bleeding](scc.v1:mcdm.heroes.v1/condition/bleeding) from this ability until that condition ends.",
+          "name": "Effect"
         }
       ],
       "feature_type": "ability",
@@ -30,7 +34,8 @@
       "distance": "Ranged 5",
       "effects": [
         {
-          "effect": "**Effect:** The hijack psychically latches their sickle onto the target and closes the distance between them. If the target is larger than the hijack, the hijack moves [adjacent](scc.v1:mcdm.heroes.v1/rule.combat/adjacent) to the target. Otherwise, the target is [pulled](scc.v1:mcdm.heroes.v1/movement/forced-movement) up to 4 squares toward the hijack."
+          "effect": "The hijack psychically latches their sickle onto the target and closes the distance between them. If the target is larger than the hijack, the hijack moves [adjacent](scc.v1:mcdm.heroes.v1/rule.combat/adjacent) to the target. Otherwise, the target is [pulled](scc.v1:mcdm.heroes.v1/movement/forced-movement) up to 4 squares toward the hijack.",
+          "name": "Effect"
         }
       ],
       "feature_type": "ability",

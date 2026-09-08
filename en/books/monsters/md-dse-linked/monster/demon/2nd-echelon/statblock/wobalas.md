@@ -40,6 +40,8 @@ features:
           tier1: 3 psychic damage
           tier2: 5 psychic damage
           tier3: 7 psychic damage
+        - effect: The target takes a [bane](../../../../rule/dice/bane.md) on their next strike. If the target is [winded](../../../../rule/health/winded.md), they have a double bane on their next strike instead.
+          name: Effect
       feature_type: ability
       icon: "\U0001F3F9"
       keywords:

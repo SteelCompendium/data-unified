@@ -34,7 +34,8 @@ features:
     - ability_type: Signature Ability
       distance: 3 cube within 4
       effects:
-        - roll: ""
+        - effect: Each target makes either an **Agility test** or an **Intuition test**.
+          name: Effect
           tier1: 18 fire damage; [prone](../../../condition/prone.md); [weakened](../../../condition/weakened.md) (save ends)
           tier2: 14 fire damage; [prone](../../../condition/prone.md)
           tier3: 9 fire damage
@@ -84,21 +85,22 @@ features:
     - cost: 1 Malice
       distance: Ranged 12
       effects:
-        - effect: |-
-            **Trigger:** A fire giant ally within distance makes a strike.
-            **Effect:** The strike has a double edge and deals an extra 10 fire damage.
+        - effect: The strike has a double edge and deals an extra 10 fire damage.
+          name: Effect
       feature_type: ability
       icon: ❗️
       keywords:
         - Ranged
       name: Fuel the Fire
       target: The triggering ally
+      trigger: A fire giant ally within distance makes a strike.
       type: feature
       usage: Triggered action
     - cost: Villain Action 1
       distance: 10 burst
       effects:
-        - effect: '**Effect:** Each target [shifts](../../../movement/shifting.md) up to their speed and can make a [free strike](../../../feature/common/main-actions/free-strike.md). Any enemy who takes damage from a [free strike](../../../feature/common/main-actions/free-strike.md) this way and who has A < 4 is burning (save ends). A burning enemy takes 1d6 fire damage at the start of each of their turns.'
+        - effect: Each target [shifts](../../../movement/shifting.md) up to their speed and can make a [free strike](../../../feature/common/main-actions/free-strike.md). Any enemy who takes damage from a [free strike](../../../feature/common/main-actions/free-strike.md) this way and who has A < 4 is burning (save ends). A burning enemy takes 1d6 fire damage at the start of each of their turns.
+          name: Effect
       feature_type: ability
       icon: ☠️
       keywords:
@@ -110,7 +112,8 @@ features:
     - cost: Villain Action 2
       distance: Ranged 15
       effects:
-        - effect: '**Effect:** The chief [shifts](../../../movement/shifting.md) up to 10 squares. Five fire giant fireballer then arrive in unoccupied spaces within distance.'
+        - effect: The chief [shifts](../../../movement/shifting.md) up to 10 squares. Five fire giant fireballer then arrive in unoccupied spaces within distance.
+          name: Effect
       feature_type: ability
       icon: ☠️
       keywords:
@@ -122,7 +125,8 @@ features:
     - cost: Villain Action 3
       distance: 10 burst
       effects:
-        - roll: ""
+        - effect: Each target unleashes a wave of fire, and each enemy within 2 squares of any target makes an Agility test. An enemy affected by two targets takes a bane on the test, while an enemy affected by three or more targets has a double bane.
+          name: Effect
           tier1: 18 fire damage
           tier2: 14 fire damage
           tier3: 9 fire damage

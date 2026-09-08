@@ -33,10 +33,16 @@ features:
     - ability_type: Signature Ability
       distance: 5 x 3 line within 15
       effects:
-        - roll: Power Roll + 5
+        - effect: This ability targets only non-[prone](../../../../condition/prone.md) creatures.
+          name: Special
+          roll: Power Roll + 5
           tier1: 8 damage
           tier2: 12 damage; I < 4 [slowed](../../../../condition/slowed.md) (save ends)
           tier3: 15 damage; I < 5 [slowed](../../../../condition/slowed.md) (save ends)
+        - effect: A target creature can choose to drop [prone](../../../../condition/prone.md), in which case the ability takes a bane against them.
+          name: Effect
+        - cost: 2 Malice
+          effect: The area remains active until Vesper is reduced to 0 [Stamina](../../../../rule/health/stamina.md) or until the end of the encounter. Any non-[prone](../../../../condition/prone.md) enemy who enters the area for the first time in a round or starts their turn there takes 15 damage, or 7 damage if they choose to fall [prone](../../../../condition/prone.md).
       feature_type: ability
       icon: "\U0001F533"
       keywords:
@@ -54,6 +60,8 @@ features:
           tier1: 8 fire damage
           tier2: 12 fire damage
           tier3: 15 fire damage
+        - effect: The area is [difficult terrain](../../../../movement/difficult-terrain.md). Any creature who enters the area for the first time in a round or starts their turn there takes 10 fir damage. Until the end of the encounter, the size of the area increases by 1 at the start of each round.
+          name: Effect
       feature_type: ability
       icon: "\U0001F533"
       keywords:
@@ -70,6 +78,10 @@ features:
           tier1: A < 4 [pull](../../../../movement/forced-movement.md) 3 toward the center of the area
           tier2: A < 5 [pull](../../../../movement/forced-movement.md) 3 toward the center of the area
           tier3: '[Pull](../../../../movement/forced-movement.md) 3 toward the center of the area'
+        - effect: A portal appears at the center of the area. Any creature at the center of the area when this ability is used or who is pulled into the center for the first time in a round takes 10 sonic damage.
+          name: Effect
+        - cost: 2 Malice
+          effect: The area remains active and deals its damage until Vesper is reduced to 0 [Stamina](../../../../rule/health/stamina.md) or until the end of the encounter. Any creature who enters the area and has A < 4 is [pulled](../../../../movement/forced-movement.md) 3 squares toward the center of the area. Any creature who starts their turn in the area and has M < 4 is [slowed](../../../../condition/slowed.md) until the end of their turn.
       feature_type: ability
       icon: "\U0001F533"
       keywords:
@@ -82,15 +94,15 @@ features:
       usage: Maneuver
     - distance: Ranged 3
       effects:
-        - effect: |-
-            **Trigger:** The target moves within distance of Vesper.
-            **Effect:** The target is dropped through a portal, which [teleports](../../../../movement/teleport.md) them up to 7 squares above a space within 15 squares.
+        - effect: The target is dropped through a portal, which [teleports](../../../../movement/teleport.md) them up to 7 squares above a space within 15 squares.
+          name: Effect
       feature_type: ability
       icon: ❗️
       keywords:
         - Ranged
       name: Portal to the Sky
       target: One enemy
+      trigger: The target moves within distance of Vesper.
       type: feature
       usage: Triggered action
     - effects:

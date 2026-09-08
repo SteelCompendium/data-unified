@@ -2,6 +2,11 @@
 features:
     - cost: Encounter
       distance: Ranged 5
+      effects:
+        - effect: The mentor takes damage from a strike while within distance.
+          name: Trigger
+        - effect: The shieldbearer blocks the [strike](scc.v1:mcdm.heroes.v1/rule.combat/strike) (if [adjacent](scc.v1:mcdm.heroes.v1/rule.combat/adjacent) to the mentor) or throws their shield into the mentor's space. The triggering [strike](scc.v1:mcdm.heroes.v1/rule.combat/strike)'s damage is halved and the [potency](scc.v1:mcdm.heroes.v1/rule.character/potency) of any [potency](scc.v1:mcdm.heroes.v1/rule.character/potency) effects is reduced by 1. If the shieldbearer threw their shield, it bounces back to their hand.
+          name: Effect
       icon: ❗️
       keywords:
         - Ranged
@@ -15,6 +20,9 @@ features:
       target: The shieldbearer's mentor
       usage: Triggered action
     - distance: Melee 1
+      effects:
+        - effect: The shieldbearer straps their shield on their back and climbs onto their mentor's back, entering the mentor's space. While the shieldbearer is on their mentor's back, each of them gains 10 [temporary Stamina](scc.v1:mcdm.heroes.v1/rule.health/temporary-stamina) and can use Shield Block as a triggered action targeting an ally instead of the shieldbearer's mentor. Additionally, the shieldbearer moves with the mentor, and they can't use main actions, maneuvers, or move actions except to end this effect as a maneuver. The effect also ends if the shieldbearer is [force moved](scc.v1:mcdm.heroes.v1/movement/forced-movement) away from their mentor or knocked [prone](scc.v1:mcdm.heroes.v1/condition/prone). If the shieldbearer is still in their mentor's space when the effect ends, they move into an [adjacent](scc.v1:mcdm.heroes.v1/rule.combat/adjacent) unoccupied space of their choice.
+          name: Effect
       icon: "\U0001F5E1"
       keywords:
         - Melee
@@ -27,6 +35,13 @@ features:
       usage: Main action
     - cost: Encounter
       distance: Melee 1
+      effects:
+        - roll: Power Roll + highest characteristic
+          tier1: 6 damage; M < WEAK [prone](scc.v1:mcdm.heroes.v1/condition/prone)
+          tier2: 10 damage; M < AVERAGE [prone](scc.v1:mcdm.heroes.v1/condition/prone)
+          tier3: 14 damage; M < STRONG [prone](scc.v1:mcdm.heroes.v1/condition/prone)
+        - effect: If this ability is used as part of the [Charge](scc.v1:mcdm.heroes.v1/feature.common.main-actions/charge) main action, the shieldbearer gains 2 [surges](scc.v1:mcdm.heroes.v1/rule.resource/surge) that can be used immediately.
+          name: Effect
       icon: "\U0001F5E1"
       keywords:
         - Charge
@@ -60,6 +75,11 @@ type: featureblock
 features:
     - cost: Encounter
       distance: Ranged 5
+      effects:
+        - effect: The mentor takes damage from a strike while within distance.
+          name: Trigger
+        - effect: The shieldbearer blocks the [strike](scc.v1:mcdm.heroes.v1/rule.combat/strike) (if [adjacent](scc.v1:mcdm.heroes.v1/rule.combat/adjacent) to the mentor) or throws their shield into the mentor's space. The triggering [strike](scc.v1:mcdm.heroes.v1/rule.combat/strike)'s damage is halved and the [potency](scc.v1:mcdm.heroes.v1/rule.character/potency) of any [potency](scc.v1:mcdm.heroes.v1/rule.character/potency) effects is reduced by 1. If the shieldbearer threw their shield, it bounces back to their hand.
+          name: Effect
       icon: ❗️
       keywords:
         - Ranged
@@ -73,6 +93,9 @@ features:
       target: The shieldbearer's mentor
       usage: Triggered action
     - distance: Melee 1
+      effects:
+        - effect: The shieldbearer straps their shield on their back and climbs onto their mentor's back, entering the mentor's space. While the shieldbearer is on their mentor's back, each of them gains 10 [temporary Stamina](scc.v1:mcdm.heroes.v1/rule.health/temporary-stamina) and can use Shield Block as a triggered action targeting an ally instead of the shieldbearer's mentor. Additionally, the shieldbearer moves with the mentor, and they can't use main actions, maneuvers, or move actions except to end this effect as a maneuver. The effect also ends if the shieldbearer is [force moved](scc.v1:mcdm.heroes.v1/movement/forced-movement) away from their mentor or knocked [prone](scc.v1:mcdm.heroes.v1/condition/prone). If the shieldbearer is still in their mentor's space when the effect ends, they move into an [adjacent](scc.v1:mcdm.heroes.v1/rule.combat/adjacent) unoccupied space of their choice.
+          name: Effect
       icon: "\U0001F5E1"
       keywords:
         - Melee
@@ -85,6 +108,13 @@ features:
       usage: Main action
     - cost: Encounter
       distance: Melee 1
+      effects:
+        - roll: Power Roll + highest characteristic
+          tier1: 6 damage; M < WEAK [prone](scc.v1:mcdm.heroes.v1/condition/prone)
+          tier2: 10 damage; M < AVERAGE [prone](scc.v1:mcdm.heroes.v1/condition/prone)
+          tier3: 14 damage; M < STRONG [prone](scc.v1:mcdm.heroes.v1/condition/prone)
+        - effect: If this ability is used as part of the [Charge](scc.v1:mcdm.heroes.v1/feature.common.main-actions/charge) main action, the shieldbearer gains 2 [surges](scc.v1:mcdm.heroes.v1/rule.resource/surge) that can be used immediately.
+          name: Effect
       icon: "\U0001F5E1"
       keywords:
         - Charge

@@ -11,6 +11,10 @@
           "tier1": "7 damage",
           "tier2": "10 damage; A \u003c 1 vertical [push](scc.v1:mcdm.heroes.v1/movement/forced-movement) 2",
           "tier3": "13 damage; A \u003c 2 vertical [slide](scc.v1:mcdm.heroes.v1/movement/forced-movement) 3"
+        },
+        {
+          "cost": "1 Malice",
+          "effect": "Each target who has M \u003c 1 is [bleeding](scc.v1:mcdm.heroes.v1/condition/bleeding) (save ends)."
         }
       ],
       "feature_type": "ability",
@@ -30,6 +34,8 @@
       "distance": "3 burst",
       "effects": [
         {
+          "effect": "The juggernaut jumps up to 6 squares before using this ability.",
+          "name": "Effect",
           "roll": "Power Roll + 2",
           "tier1": "4 damage",
           "tier2": "6 damage; [push](scc.v1:mcdm.heroes.v1/movement/forced-movement) 2; M \u003c 1 [prone](scc.v1:mcdm.heroes.v1/condition/prone)",
@@ -56,6 +62,10 @@
           "tier1": "I \u003c 0 [frightened](scc.v1:mcdm.heroes.v1/condition/frightened) (save ends)",
           "tier2": "I \u003c 1 [frightened](scc.v1:mcdm.heroes.v1/condition/frightened) (save ends)",
           "tier3": "I \u003c 2 [frightened](scc.v1:mcdm.heroes.v1/condition/frightened) (save ends)"
+        },
+        {
+          "effect": "While a target is [frightened](scc.v1:mcdm.heroes.v1/condition/frightened) this way, any ogre gains an edge on strikes against them.",
+          "name": "Effect"
         }
       ],
       "feature_type": "ability",
@@ -73,7 +83,8 @@
       "distance": "Self",
       "effects": [
         {
-          "effect": "**Trigger:** The juggernaut takes damage.\n**Effect:** The juggernaut moves up to their speed and can make a [free strike](scc.v1:mcdm.heroes.v1/feature.common.main-actions/free-strike)."
+          "effect": "The juggernaut moves up to their speed and can make a [free strike](scc.v1:mcdm.heroes.v1/feature.common.main-actions/free-strike).",
+          "name": "Effect"
         }
       ],
       "feature_type": "ability",
@@ -81,6 +92,7 @@
       "keywords": null,
       "name": "Hrraaaaaagh!",
       "target": "Self",
+      "trigger": "The juggernaut takes damage.",
       "type": "feature",
       "usage": "Free triggered action"
     },

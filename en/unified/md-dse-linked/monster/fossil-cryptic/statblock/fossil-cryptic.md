@@ -30,9 +30,10 @@ agility: 2
 ev: "48"
 features:
     - effects:
-        - effect: |-
-            **[End Effect](../../../rule/monster/end-effect.md):** At the end of each of their turns, the cryptic can take 5 damage to end one effect on them that can be ended by a saving throw. This damage can't be reduced in any way.
-            **Solo Turns:** The cryptic can take two turns each round. They can't take turns consecutively.
+        - effect: At the end of each of their turns, the cryptic can take 5 damage to end one effect on them that can be ended by a saving throw. This damage can't be reduced in any way.
+          name: End Effect
+        - effect: The cryptic can take two turns each round. They can't take turns consecutively.
+          name: Solo Turns
       feature_type: trait
       icon: ☠️
       name: Solo Monster
@@ -56,6 +57,8 @@ features:
           tier1: 8 damage; A < 1 [slide](../../../movement/forced-movement.md) 2
           tier2: 12 damage; A < 2 [slide](../../../movement/forced-movement.md) 2, [prone](../../../condition/prone.md)
           tier3: 15 damage; A < 3 [slide](../../../movement/forced-movement.md) 3, [prone](../../../condition/prone.md) and can't stand (EoT)
+        - effect: If a target made [prone](../../../condition/prone.md) this way is already [prone](../../../condition/prone.md), they are instead [restrained](../../../condition/restrained.md) (EoT).
+          name: Effect
       feature_type: ability
       icon: "\U0001F5E1"
       keywords:
@@ -72,6 +75,8 @@ features:
           tier1: 4 damage; M < 1 [push](../../../movement/forced-movement.md) 2
           tier2: 7 damage; M < 2 [prone](../../../condition/prone.md)
           tier3: 10 damage; M < 3 [prone](../../../condition/prone.md)
+        - effect: The cryptic reforms their body and appears in an unoccupied space in the area.
+          name: Effect
       feature_type: ability
       icon: "\U0001F533"
       keywords:
@@ -82,9 +87,10 @@ features:
       usage: Main action
     - distance: Ranged 5
       effects:
-        - effect: |-
-            **Effect:** The cryptic [slides](../../../movement/forced-movement.md) the target up to 3 squares.
-            **2 [Malice](../../../rule/monster/malice.md):** The ability targets one additional target.
+        - effect: The cryptic [slides](../../../movement/forced-movement.md) the target up to 3 squares.
+          name: Effect
+        - cost: 2 Malice
+          effect: The ability targets one additional target.
       feature_type: ability
       icon: "\U0001F3F9"
       keywords:
@@ -96,20 +102,22 @@ features:
     - cost: 1 Malice
       distance: Self
       effects:
-        - effect: |-
-            **Trigger:** The cryptic takes damage.
-            **Effect:** The cryptic halves the damage, ignores any nondamaging effects associated with it, and [shifts](../../../movement/shifting.md) up to 3 squares.
+        - effect: The cryptic halves the damage, ignores any nondamaging effects associated with it, and [shifts](../../../movement/shifting.md) up to 3 squares.
+          name: Effect
       feature_type: ability
       icon: ❗️
       keywords: []
       name: Dissipate
       target: Self
+      trigger: The cryptic takes damage.
       type: feature
       usage: Triggered action
     - cost: 5 Malice
       distance: 2 burst
       effects:
-        - roll: Power Roll + 3
+        - effect: Before using the Dig maneuver, the cryptic moves up to their speed. They then create the burst when they breach the surface.
+          name: Effect
+          roll: Power Roll + 3
           tier1: 4 damage; [push](../../../movement/forced-movement.md) 2
           tier2: 7 damage; [push](../../../movement/forced-movement.md) 3, [prone](../../../condition/prone.md)
           tier3: 10 damage; [push](../../../movement/forced-movement.md) 4, [prone](../../../condition/prone.md)
@@ -119,12 +127,16 @@ features:
         - Area
       name: Shatterstone
       target: Each enemy in the area
+      trigger: The cryptic uses the Dig maneuver to resurface.
       type: feature
       usage: Triggered action
     - cost: Villain Action 1
       distance: 10 burst
       effects:
-        - roll: ""
+        - effect: A target must be on the ground.
+          name: Special
+        - effect: Each target makes a **Might test**.
+          name: Effect
           tier1: '[Prone](../../../condition/prone.md) and can''t stand (EoT)'
           tier2: '[Prone](../../../condition/prone.md)'
           tier3: No effect
@@ -139,7 +151,10 @@ features:
     - cost: Villain Action 2
       distance: 5 burst
       effects:
-        - roll: ""
+        - effect: A target must be on the ground.
+          name: Special
+        - effect: The area drops 2 squares and is [difficult terrain](../../../movement/difficult-terrain.md). Each target enemy falls, while each target ally drops safely. Additionally, each target enemy makes an **Agility test**.
+          name: Effect
           tier1: 9 damage; [prone](../../../condition/prone.md)
           tier2: 5 damage
           tier3: The target moves to the nearest unoccupied space outside the area.
@@ -154,7 +169,14 @@ features:
     - cost: Villain Action 3
       distance: Ranged 10
       effects:
-        - roll: Power Roll + 3
+        - effect: The cryptic makes an initial power roll that calls down stone pillars from the ceiling.
+          name: Effect
+          roll: Power Roll + 3
+          tier1: 5 damage; [prone](../../../condition/prone.md); M < 1 [restrained](../../../condition/restrained.md) (save ends)
+          tier2: 9 damage; [prone](../../../condition/prone.md); M < 2 [restrained](../../../condition/restrained.md) (save ends)
+          tier3: 12 damage; [prone](../../../condition/prone.md); M < 3 [restrained](../../../condition/restrained.md) (save ends)
+        - effect: "The cryptic then makes a second power roll that raises stone pillars from the floor (**\U0001F4CF Ranged 10** | **\U0001F3AF Two creatures or objects on the ground**)"
+          roll: Power Roll + 3
           tier1: 2 damage; vertical [slide](../../../movement/forced-movement.md) 2
           tier2: 3 damage; vertical [slide](../../../movement/forced-movement.md) 4
           tier3: 4 damage; vertical [slide](../../../movement/forced-movement.md) 6; if this movement brings the target into contact with the ceiling, they are [restrained](../../../condition/restrained.md) (save ends).

@@ -38,6 +38,10 @@ features:
           tier1: 5 damage
           tier2: 7 damage
           tier3: 9 damage
+        - effect: The target is [taunted](../../../condition/taunted.md) until the end of their next turn, and the greenskeeper [shifts](../../../movement/shifting.md) up to 3 squares.
+          name: Effect
+        - cost: 2 Malice
+          effect: The distance increases to Melee 5.
       feature_type: ability
       icon: "\U0001F5E1"
       keywords:
@@ -51,7 +55,8 @@ features:
     - cost: 3 Malice
       distance: 3 cube within 10
       effects:
-        - effect: '**Effect:** The area is overgrown with heavy brush and brambles until the end of the encounter, providing cover and concealment for the greenskeeper and their allies. The area is [difficult terrain](../../../movement/difficult-terrain.md) for enemies and any enemy who starts their turn in the area takes 3 damage.'
+        - effect: The area is overgrown with heavy brush and brambles until the end of the encounter, providing cover and concealment for the greenskeeper and their allies. The area is [difficult terrain](../../../movement/difficult-terrain.md) for enemies and any enemy who starts their turn in the area takes 3 damage.
+          name: Effect
       feature_type: ability
       icon: "\U0001F533"
       keywords:

@@ -2,6 +2,13 @@
 features:
     - cost: 5 Malice
       distance: 10 x 1 line within 1
+      effects:
+        - roll: Power Roll + 3
+          tier1: 5 fire damage; R < 1 [frightened](../../condition/frightened.md) (save ends)
+          tier2: 8 fire damage; R < 2 [frightened](../../condition/frightened.md) (save ends)
+          tier3: 11 fire damage; R < 3 [frightened](../../condition/frightened.md) (save ends)
+        - effect: After making the power roll, the hag can choose to replace the damage type and condition with lightning damage and [dazed](../../condition/dazed.md), or cold damage and [slowed](../../condition/slowed.md).
+          name: Effect
       icon: "\U0001F533"
       keywords:
         - Area
@@ -20,14 +27,23 @@ features:
       usage: Main action
     - body: The hag takes an additional main action on their turn. They can use this feature even if they are [dazed](../../condition/dazed.md).
       cost: 5 Malice
+      effects:
+        - effect: The hag takes an additional main action on their turn. They can use this feature even if they are [dazed](../../condition/dazed.md).
       icon: ☠️
       name: Solo Action
     - body: The hag's hut springs to life. It enters the encounter map within 10 squares of the hag if it isn't already there and takes its turn. The hut is size 4, has 75 [Stamina](../../rule/health/stamina.md) and damage immunity 3, and has speed 8 from its powerful set of animal legs. This feature can't be used if the hut is reduced to 0 [Stamina](../../rule/health/stamina.md). In addition to its move action, the house can take only the following main action.
       cost: 10 Malice
+      effects:
+        - effect: The hag's hut springs to life. It enters the encounter map within 10 squares of the hag if it isn't already there and takes its turn. The hut is size 4, has 75 [Stamina](../../rule/health/stamina.md) and damage immunity 3, and has speed 8 from its powerful set of animal legs. This feature can't be used if the hut is reduced to 0 [Stamina](../../rule/health/stamina.md). In addition to its move action, the house can take only the following main action.
       icon: "\U0001F300"
       name: House Call
     - cost: Signature
       distance: 2 cube within 2
+      effects:
+        - roll: Power Roll + 3
+          tier1: 6 damage; [push](../../movement/forced-movement.md) 3; M < 1 [prone](../../condition/prone.md)
+          tier2: 10 damage; [push](../../movement/forced-movement.md) 4; M < 2 [prone](../../condition/prone.md)
+          tier3: 13 damage; [push](../../movement/forced-movement.md) 5; M < 3 [prone](../../condition/prone.md)
       icon: "\U0001F533"
       keywords:
         - Area
@@ -58,6 +74,13 @@ type: featureblock
 features:
     - cost: 5 Malice
       distance: 10 x 1 line within 1
+      effects:
+        - roll: Power Roll + 3
+          tier1: 5 fire damage; R < 1 [frightened](../../condition/frightened.md) (save ends)
+          tier2: 8 fire damage; R < 2 [frightened](../../condition/frightened.md) (save ends)
+          tier3: 11 fire damage; R < 3 [frightened](../../condition/frightened.md) (save ends)
+        - effect: After making the power roll, the hag can choose to replace the damage type and condition with lightning damage and [dazed](../../condition/dazed.md), or cold damage and [slowed](../../condition/slowed.md).
+          name: Effect
       icon: "\U0001F533"
       keywords:
         - Area
@@ -76,14 +99,23 @@ features:
       usage: Main action
     - body: The hag takes an additional main action on their turn. They can use this feature even if they are [dazed](../../condition/dazed.md).
       cost: 5 Malice
+      effects:
+        - effect: The hag takes an additional main action on their turn. They can use this feature even if they are [dazed](../../condition/dazed.md).
       icon: ☠️
       name: Solo Action
     - body: The hag's hut springs to life. It enters the encounter map within 10 squares of the hag if it isn't already there and takes its turn. The hut is size 4, has 75 [Stamina](../../rule/health/stamina.md) and damage immunity 3, and has speed 8 from its powerful set of animal legs. This feature can't be used if the hut is reduced to 0 [Stamina](../../rule/health/stamina.md). In addition to its move action, the house can take only the following main action.
       cost: 10 Malice
+      effects:
+        - effect: The hag's hut springs to life. It enters the encounter map within 10 squares of the hag if it isn't already there and takes its turn. The hut is size 4, has 75 [Stamina](../../rule/health/stamina.md) and damage immunity 3, and has speed 8 from its powerful set of animal legs. This feature can't be used if the hut is reduced to 0 [Stamina](../../rule/health/stamina.md). In addition to its move action, the house can take only the following main action.
       icon: "\U0001F300"
       name: House Call
     - cost: Signature
       distance: 2 cube within 2
+      effects:
+        - roll: Power Roll + 3
+          tier1: 6 damage; [push](../../movement/forced-movement.md) 3; M < 1 [prone](../../condition/prone.md)
+          tier2: 10 damage; [push](../../movement/forced-movement.md) 4; M < 2 [prone](../../condition/prone.md)
+          tier3: 13 damage; [push](../../movement/forced-movement.md) 5; M < 3 [prone](../../condition/prone.md)
       icon: "\U0001F533"
       keywords:
         - Area

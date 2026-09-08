@@ -2,6 +2,9 @@
 features:
     - cost: 3 Malice
       distance: Self
+      effects:
+        - effect: The griffon flies up to their speed, and can make a [free strike](../../feature/common/main-actions/free-strike.md) against each creature who makes an [opportunity attack](../../rule/combat/opportunity-attack.md) against them during this movement.
+          name: Effect
       icon: "\U0001F464"
       name: Swoop
       sections:
@@ -10,6 +13,11 @@ features:
       target: Self
       usage: Maneuver
     - cost: 5 Malice
+      effects:
+        - effect: A griffon acting this turn unleashes a hideous screech at one enemy within 5 squares of them, forcing that creature to make an **Intuition test**.
+          tier1: '[Frightened](../../condition/frightened.md) (save ends)'
+          tier2: '[Frightened](../../condition/frightened.md) (EoT)'
+          tier3: No effect.
       icon: ❇️
       intro: A griffon acting this turn unleashes a hideous screech at one enemy within 5 squares of them, forcing that creature to make an **Intuition test**.
       name: Piercing Cry
@@ -20,6 +28,8 @@ features:
             mid: '[Frightened](../../condition/frightened.md) (EoT)'
     - body: Winds bluster and blow across the encounter map. Until the end of the encounter, each creature who can't fly or isn't mounted on a flying creature takes a −3 penalty to [stability](../../rule/character/stability.md), and any [forced movement](../../movement/forced-movement.md) effect targeting such a creature moves them an additional 5 squares.
       cost: 10 Malice
+      effects:
+        - effect: Winds bluster and blow across the encounter map. Until the end of the encounter, each creature who can't fly or isn't mounted on a flying creature takes a −3 penalty to [stability](../../rule/character/stability.md), and any [forced movement](../../movement/forced-movement.md) effect targeting such a creature moves them an additional 5 squares.
       icon: "\U0001F300"
       name: Wildwinds
 file_basename: griffon-malice
@@ -38,6 +48,9 @@ type: featureblock
 features:
     - cost: 3 Malice
       distance: Self
+      effects:
+        - effect: The griffon flies up to their speed, and can make a [free strike](../../feature/common/main-actions/free-strike.md) against each creature who makes an [opportunity attack](../../rule/combat/opportunity-attack.md) against them during this movement.
+          name: Effect
       icon: "\U0001F464"
       name: Swoop
       sections:
@@ -46,6 +59,11 @@ features:
       target: Self
       usage: Maneuver
     - cost: 5 Malice
+      effects:
+        - effect: A griffon acting this turn unleashes a hideous screech at one enemy within 5 squares of them, forcing that creature to make an **Intuition test**.
+          tier1: '[Frightened](../../condition/frightened.md) (save ends)'
+          tier2: '[Frightened](../../condition/frightened.md) (EoT)'
+          tier3: No effect.
       icon: ❇️
       intro: A griffon acting this turn unleashes a hideous screech at one enemy within 5 squares of them, forcing that creature to make an **Intuition test**.
       name: Piercing Cry
@@ -56,6 +74,8 @@ features:
             mid: '[Frightened](../../condition/frightened.md) (EoT)'
     - body: Winds bluster and blow across the encounter map. Until the end of the encounter, each creature who can't fly or isn't mounted on a flying creature takes a −3 penalty to [stability](../../rule/character/stability.md), and any [forced movement](../../movement/forced-movement.md) effect targeting such a creature moves them an additional 5 squares.
       cost: 10 Malice
+      effects:
+        - effect: Winds bluster and blow across the encounter map. Until the end of the encounter, each creature who can't fly or isn't mounted on a flying creature takes a −3 penalty to [stability](../../rule/character/stability.md), and any [forced movement](../../movement/forced-movement.md) effect targeting such a creature moves them an additional 5 squares.
       icon: "\U0001F300"
       name: Wildwinds
 flavor: At the start of any griffon's turn, you can spend Malice to activate one of the following features.

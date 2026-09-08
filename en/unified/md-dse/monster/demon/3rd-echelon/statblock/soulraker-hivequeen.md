@@ -40,6 +40,8 @@ features:
           tier1: 14 poison damage; M < 3 [bleeding](scc.v1:mcdm.heroes.v1/condition/bleeding) (save ends)
           tier2: 19 poison damage; M < 4 [bleeding](scc.v1:mcdm.heroes.v1/condition/bleeding) (save ends)
           tier3: 23 poison damage; M < 5 the target is implanted
+        - effect: An implanted target has a soulraker handmaiden parasite gestating in them (see the handmaiden's Implanted Parasite trait).
+          name: Effect
       feature_type: ability
       icon: ⚔️
       keywords:
@@ -54,7 +56,8 @@ features:
     - cost: 3 Malice
       distance: 10 burst
       effects:
-        - effect: '**Effect:** The hivequeen lets loose a subsonic call to each target, forcing them to immediately emerge from their host''s body as a mature soulraker handmaiden and make a [free strike](scc.v1:mcdm.heroes.v1/feature.common.main-actions/free-strike).'
+        - effect: The hivequeen lets loose a subsonic call to each target, forcing them to immediately emerge from their host's body as a mature soulraker handmaiden and make a [free strike](scc.v1:mcdm.heroes.v1/feature.common.main-actions/free-strike).
+          name: Effect
       feature_type: ability
       icon: ❇️
       keywords:
@@ -66,16 +69,17 @@ features:
     - cost: 2 Malice
       distance: 5 burst
       effects:
-        - effect: |-
-            **Trigger:** The hivequeen is targeted by a strike for the second time on an attacker's turn, whether by the attacker or another creature acting on the attacker's turn.
-            **Effect:** Two soulraker [minions](scc.v1:mcdm.monsters.v1/rule.organization/minion) appear within distance.
-            **2 [Malice](scc.v1:mcdm.monsters.v1/rule.monster/malice):** A soulraker praetorian also appears within distance.
+        - effect: Two soulraker [minions](scc.v1:mcdm.monsters.v1/rule.organization/minion) appear within distance.
+          name: Effect
+        - cost: 2 Malice
+          effect: A soulraker praetorian also appears within distance.
       feature_type: ability
       icon: ❗️
       keywords:
         - Area
       name: For the Queen!
       target: Special
+      trigger: The hivequeen is targeted by a strike for the second time on an attacker's turn, whether by the attacker or another creature acting on the attacker's turn.
       type: feature
       usage: Triggered action
     - effects:
@@ -93,7 +97,8 @@ features:
     - cost: Villain Action 1
       distance: 10 burst
       effects:
-        - effect: '**Effect:** Each target can move their speed and make a [free strike](scc.v1:mcdm.heroes.v1/feature.common.main-actions/free-strike). If no [minions](scc.v1:mcdm.monsters.v1/rule.organization/minion) are present, four soulraker [minions](scc.v1:mcdm.monsters.v1/rule.organization/minion) are summoned into unoccupied spaces within distance before the hivequeen uses this [villain action](scc.v1:mcdm.monsters.v1/rule.monster/villain-action).'
+        - effect: Each target can move their speed and make a [free strike](scc.v1:mcdm.heroes.v1/feature.common.main-actions/free-strike). If no [minions](scc.v1:mcdm.monsters.v1/rule.organization/minion) are present, four soulraker [minions](scc.v1:mcdm.monsters.v1/rule.organization/minion) are summoned into unoccupied spaces within distance before the hivequeen uses this [villain action](scc.v1:mcdm.monsters.v1/rule.monster/villain-action).
+          name: Effect
       feature_type: ability
       icon: ☠️
       keywords:
@@ -109,6 +114,8 @@ features:
           tier1: Push 3; I < 3 [dazed](scc.v1:mcdm.heroes.v1/condition/dazed) (save ends)
           tier2: Push 3; I < 4 [dazed](scc.v1:mcdm.heroes.v1/condition/dazed) (save ends)
           tier3: 11 sonic damage; push 3; I < 5 [dazed](scc.v1:mcdm.heroes.v1/condition/dazed) (save ends)
+        - effect: The hivequeen [shifts](scc.v1:mcdm.heroes.v1/movement/shifting) up to her speed.
+          name: Effect
       feature_type: ability
       icon: ☠️
       keywords:

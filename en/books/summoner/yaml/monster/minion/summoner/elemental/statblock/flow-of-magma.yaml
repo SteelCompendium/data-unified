@@ -9,6 +9,8 @@ features:
           tier1: 4 fire damage; [shift](scc.v1:mcdm.heroes.v1/movement/shifting) 3
           tier2: 6 fire damage; [shift](scc.v1:mcdm.heroes.v1/movement/shifting) 4
           tier3: 8 fire damage; [shift](scc.v1:mcdm.heroes.v1/movement/shifting) 5
+        - effect: Each square that the flow [shifts](scc.v1:mcdm.heroes.v1/movement/shifting) into becomes wreathed in flames until the start of the flow's next turn. An enemy that enters an affected square takes 2 damage.
+          name: Effect
       feature_type: ability
       icon: "\U0001F3F9"
       keywords:

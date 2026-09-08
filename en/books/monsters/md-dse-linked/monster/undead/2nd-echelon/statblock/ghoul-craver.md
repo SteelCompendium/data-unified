@@ -41,6 +41,8 @@ features:
           tier1: 2 damage
           tier2: 4 damage
           tier3: 6 damage
+        - effect: This ability has a double edge against a [bleeding](../../../../condition/bleeding.md) target.
+          name: Effect
       feature_type: ability
       icon: "\U0001F5E1"
       keywords:

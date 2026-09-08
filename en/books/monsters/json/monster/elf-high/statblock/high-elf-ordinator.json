@@ -11,6 +11,10 @@
           "tier1": "9 lightning damage; R \u003c 1 [dazed](scc.v1:mcdm.heroes.v1/condition/dazed) (save ends)",
           "tier2": "14 lightning damage; R \u003c 2 [dazed](scc.v1:mcdm.heroes.v1/condition/dazed) (save ends)",
           "tier3": "17 lightning damage; R \u003c 3 [dazed](scc.v1:mcdm.heroes.v1/condition/dazed) (save ends)"
+        },
+        {
+          "effect": "Until the start of the ordinator's next turn, each ally high elf in the encounter gains an edge on ability rolls against the target.",
+          "name": "Effect"
         }
       ],
       "feature_type": "ability",
@@ -29,7 +33,8 @@
       "distance": "10 burst",
       "effects": [
         {
-          "effect": "**Effect:** Each target can move up to their speed or make a [free strike](scc.v1:mcdm.heroes.v1/feature.common.main-actions/free-strike). Elemental mote targets can, instead, use their Spark of Life trait."
+          "effect": "Each target can move up to their speed or make a [free strike](scc.v1:mcdm.heroes.v1/feature.common.main-actions/free-strike). Elemental mote targets can, instead, use their Spark of Life trait.",
+          "name": "Effect"
         }
       ],
       "feature_type": "ability",
@@ -48,7 +53,12 @@
       "distance": "Ranged 10",
       "effects": [
         {
-          "effect": "**Effect:** The ordinator summons four elemental motes or four soot crows into unoccupied space within distance.\n**3 [Malice](scc.v1:mcdm.monsters.v1/rule.monster/malice):** The ordinator instead summons one ceramic horse or one winded brambleguard into an unoccupied space within distance."
+          "effect": "The ordinator summons four elemental motes or four soot crows into unoccupied space within distance.",
+          "name": "Effect"
+        },
+        {
+          "cost": "3 Malice",
+          "effect": "The ordinator instead summons one ceramic horse or one winded brambleguard into an unoccupied space within distance."
         }
       ],
       "feature_type": "ability",
@@ -65,7 +75,8 @@
       "distance": "Ranged 10",
       "effects": [
         {
-          "effect": "**Trigger:** An enemy within distance uses an ability against the ordinator or any ally within distance.\n**Effect:** The ordinator uses Lightning Rod against the target after the ability is resolved."
+          "effect": "The ordinator uses Lightning Rod against the target after the ability is resolved.",
+          "name": "Effect"
         }
       ],
       "feature_type": "ability",
@@ -75,6 +86,7 @@
       ],
       "name": "Enough!",
       "target": "The triggering enemy",
+      "trigger": "An enemy within distance uses an ability against the ordinator or any ally within distance.",
       "type": "feature",
       "usage": "Triggered action"
     },
@@ -94,7 +106,8 @@
       "distance": "10 burst",
       "effects": [
         {
-          "effect": "**Effect:** Each target glows briefly, and can end one effect on themself then move up to their speed."
+          "effect": "Each target glows briefly, and can end one effect on themself then move up to their speed.",
+          "name": "Effect"
         }
       ],
       "feature_type": "ability",
@@ -113,10 +126,15 @@
       "distance": "5 cube within 10",
       "effects": [
         {
-          "roll": "",
+          "effect": "Each target makes a **Presence test**.",
+          "name": "Effect",
           "tier1": "12 corruption damage; pull 5 toward the center of the cube",
           "tier2": "9 corruption damage; pull 3 toward the center of the cube",
           "tier3": "Pull 1 toward the center of the cube"
+        },
+        {
+          "effect": "The area turns dark and distorted, and is difficult terrain for enemies.",
+          "name": "Effect"
         }
       ],
       "feature_type": "ability",
@@ -136,7 +154,8 @@
       "distance": "10 burst",
       "effects": [
         {
-          "effect": "**Effect:** Each target's free strike now has the Magic keyword and can target two creatures or objects. Additionally, each target glows with magic."
+          "effect": "Each target's free strike now has the Magic keyword and can target two creatures or objects. Additionally, each target glows with magic.",
+          "name": "Effect"
         }
       ],
       "feature_type": "ability",

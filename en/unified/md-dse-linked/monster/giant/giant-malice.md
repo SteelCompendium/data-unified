@@ -2,6 +2,12 @@
 features:
     - cost: 3 Malice
       distance: 4 cube within 10
+      effects:
+        - effect: A giant unearths a structure, hazard, or chunk of the encounter map and launches it to fill the area. Each target makes an **Agility test**.
+          name: Effect
+          tier1: 18 damage; [prone](../../condition/prone.md) and can't stand (save ends)
+          tier2: 14 damage; [prone](../../condition/prone.md)
+          tier3: 9 damage
       icon: "\U0001F533"
       keywords:
         - Area
@@ -20,9 +26,16 @@ features:
       usage: Main action
     - body: Each giant in the encounter takes a deep breath and yells, [pushing](../../movement/forced-movement.md) each creature within 3 squares of them up to 10 squares. A creature who can be pushed by more than one giant is pushed by one giant of your choice.
       cost: 5 Malice
+      effects:
+        - effect: Each giant in the encounter takes a deep breath and yells, [pushing](../../movement/forced-movement.md) each creature within 3 squares of them up to 10 squares. A creature who can be pushed by more than one giant is pushed by one giant of your choice.
       icon: ❇️
       name: Bellow
     - cost: 7 Malice
+      effects:
+        - effect: A giant creates a fissure along the ground, either in a 15 x 2 line within 1 or a 10 x 3 line within 2, and that opens up to a depth of 6 squares. Each giant in the area can [shift](../../movement/shifting.md) into the nearest unoccupied space outside the fissure. Each non-giant in the area makes an **Agility test**.
+          tier1: 10 damage; the target falls into the fissure, and is [prone](../../condition/prone.md) and can't stand (EoT)
+          tier2: 10 damage; the target is [prone](../../condition/prone.md) and hanging onto the edge of the fissure
+          tier3: The target can [shift](../../movement/shifting.md) into the nearest unoccupied space outside the fissure.
       icon: "\U0001F533"
       intro: A giant creates a fissure along the ground, either in a 15 x 2 line within 1 or a 10 x 3 line within 2, and that opens up to a depth of 6 squares. Each giant in the area can [shift](../../movement/shifting.md) into the nearest unoccupied space outside the fissure. Each non-giant in the area makes an **Agility test**.
       name: Titanic Tear
@@ -47,6 +60,12 @@ type: featureblock
 features:
     - cost: 3 Malice
       distance: 4 cube within 10
+      effects:
+        - effect: A giant unearths a structure, hazard, or chunk of the encounter map and launches it to fill the area. Each target makes an **Agility test**.
+          name: Effect
+          tier1: 18 damage; [prone](../../condition/prone.md) and can't stand (save ends)
+          tier2: 14 damage; [prone](../../condition/prone.md)
+          tier3: 9 damage
       icon: "\U0001F533"
       keywords:
         - Area
@@ -65,9 +84,16 @@ features:
       usage: Main action
     - body: Each giant in the encounter takes a deep breath and yells, [pushing](../../movement/forced-movement.md) each creature within 3 squares of them up to 10 squares. A creature who can be pushed by more than one giant is pushed by one giant of your choice.
       cost: 5 Malice
+      effects:
+        - effect: Each giant in the encounter takes a deep breath and yells, [pushing](../../movement/forced-movement.md) each creature within 3 squares of them up to 10 squares. A creature who can be pushed by more than one giant is pushed by one giant of your choice.
       icon: ❇️
       name: Bellow
     - cost: 7 Malice
+      effects:
+        - effect: A giant creates a fissure along the ground, either in a 15 x 2 line within 1 or a 10 x 3 line within 2, and that opens up to a depth of 6 squares. Each giant in the area can [shift](../../movement/shifting.md) into the nearest unoccupied space outside the fissure. Each non-giant in the area makes an **Agility test**.
+          tier1: 10 damage; the target falls into the fissure, and is [prone](../../condition/prone.md) and can't stand (EoT)
+          tier2: 10 damage; the target is [prone](../../condition/prone.md) and hanging onto the edge of the fissure
+          tier3: The target can [shift](../../movement/shifting.md) into the nearest unoccupied space outside the fissure.
       icon: "\U0001F533"
       intro: A giant creates a fissure along the ground, either in a 15 x 2 line within 1 or a 10 x 3 line within 2, and that opens up to a depth of 6 squares. Each giant in the area can [shift](../../movement/shifting.md) into the nearest unoccupied space outside the fissure. Each non-giant in the area makes an **Agility test**.
       name: Titanic Tear

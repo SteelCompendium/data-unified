@@ -39,6 +39,8 @@ features:
           tier1: 4 psychic damage
           tier2: 5 psychic damage; P < 1 [weakened](scc.v1:mcdm.heroes.v1/condition/weakened) (save ends)
           tier3: 7 psychic damage; P < 2 [weakened](scc.v1:mcdm.heroes.v1/condition/weakened) (save ends)
+        - effect: If the target makes a strike while [weakened](scc.v1:mcdm.heroes.v1/condition/weakened) this way, the bendrak can choose a second target within distance for the strike. The first target takes half of any damage from the strike and the second target takes any remaining damage.
+          name: Effect
       feature_type: ability
       icon: "\U0001F3F9"
       keywords:
@@ -52,7 +54,8 @@ features:
     - cost: 1 Malice
       distance: Ranged 10
       effects:
-        - effect: '**Effect:** The target is invisible until the start of their next turn. They can then move up to 3 squares and attempt to hide.'
+        - effect: The target is invisible until the start of their next turn. They can then move up to 3 squares and attempt to hide.
+          name: Effect
       feature_type: ability
       icon: "\U0001F3F9"
       keywords:

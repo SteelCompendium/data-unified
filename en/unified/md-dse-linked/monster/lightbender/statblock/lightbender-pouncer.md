@@ -37,6 +37,8 @@ features:
           tier1: 7 damage
           tier2: 11 damage; A < 1 [prone](../../../condition/prone.md)
           tier3: 14 damage; A < 2 [prone](../../../condition/prone.md)
+        - effect: The pouncer can make a [free strike](../../../feature/common/main-actions/free-strike.md) against each target they knock [prone](../../../condition/prone.md).
+          name: Effect
       feature_type: ability
       icon: "\U0001F5E1"
       keywords:
@@ -54,6 +56,8 @@ features:
           tier1: 4 damage
           tier2: 7 damage; A < 1 the target is dazzled (save ends)
           tier3: 10 damage; A < 2 the target is dazzled (save ends)
+        - effect: A dazzled target takes a bane on strikes and has line of effect only within 1 square.
+          name: Effect
       feature_type: ability
       icon: ❇️
       keywords:
@@ -70,6 +74,8 @@ features:
           tier1: I < 0 [dazed](../../../condition/dazed.md) (save ends)
           tier2: I < 1 [dazed](../../../condition/dazed.md) (save ends)
           tier3: I < 2 [dazed](../../../condition/dazed.md) (save ends)
+        - effect: While [dazed](../../../condition/dazed.md) this way, a target has speed 0. If a target takes damage, or if someone else uses a main action to shake the target out of their stupor, the [dazed](../../../condition/dazed.md) condition ends.
+          name: Effect
       feature_type: ability
       icon: "\U0001F533"
       keywords:
@@ -82,15 +88,15 @@ features:
       usage: Maneuver
     - distance: Self
       effects:
-        - effect: |-
-            **Trigger:** The pouncer takes damage from a strike.
-            **Effect:** The pouncer halves the damage, ignores any nondamaging effects associated with it, and can [teleport](../../../movement/teleport.md) up to 5 squares. If they [teleport](../../../movement/teleport.md) into concealment or cover, the pouncer can immediately attempt to hide as a free maneuver.
+        - effect: The pouncer halves the damage, ignores any nondamaging effects associated with it, and can [teleport](../../../movement/teleport.md) up to 5 squares. If they [teleport](../../../movement/teleport.md) into concealment or cover, the pouncer can immediately attempt to hide as a free maneuver.
+          name: Effect
       feature_type: ability
       icon: ❗️
       keywords:
         - Magic
       name: Striking Afterimage
       target: Self
+      trigger: The pouncer takes damage from a strike.
       type: feature
       usage: Triggered action
     - effects:

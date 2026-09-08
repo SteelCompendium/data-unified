@@ -38,6 +38,10 @@ features:
           tier1: 8 damage; M < 1 [restrained](../../../condition/restrained.md) (save ends)
           tier2: 12 damage; M < 2 [restrained](../../../condition/restrained.md) (save ends)
           tier3: 15 damage; M < 3 [restrained](../../../condition/restrained.md) (save ends)
+        - effect: The warleader can [teleport](../../../movement/teleport.md) up to 3 squares between each strike.
+          name: Effect
+        - cost: 2 Malice
+          effect: A target [restrained](../../../condition/restrained.md) by this ability takes an extra 3 damage.
       feature_type: ability
       icon: "\U0001F5E1"
       keywords:
@@ -52,7 +56,8 @@ features:
     - cost: 5 Malice
       distance: 10 burst
       effects:
-        - effect: '**Effect:** Each non-[minion](../../../rule/organization/minion.md) target can make a [free strike](../../../feature/common/main-actions/free-strike.md), then each target [shifts](../../../movement/shifting.md) up to 3 squares. A target who has cover or concealment at the end of this shift can attempt to hide at the end of the warleader''s turn.'
+        - effect: Each non-[minion](../../../rule/organization/minion.md) target can make a [free strike](../../../feature/common/main-actions/free-strike.md), then each target [shifts](../../../movement/shifting.md) up to 3 squares. A target who has cover or concealment at the end of this shift can attempt to hide at the end of the warleader's turn.
+          name: Effect
       feature_type: ability
       icon: ❇️
       keywords:
@@ -63,15 +68,15 @@ features:
       usage: Maneuver
     - distance: Ranged 10
       effects:
-        - effect: |-
-            **Trigger:** An ally ends their turn.
-            **Effect:** The target must not have taken their turn this round. The target takes their turn immediately, and if they have P < 2 they are [bleeding](../../../condition/bleeding.md) and take a bane on strikes until the end of their turn.
+        - effect: The target must not have taken their turn this round. The target takes their turn immediately, and if they have P < 2 they are [bleeding](../../../condition/bleeding.md) and take a bane on strikes until the end of their turn.
+          name: Effect
       feature_type: ability
       icon: ❗️
       keywords:
         - Ranged
       name: Wode Sickness
       target: One enemy
+      trigger: An ally ends their turn.
       type: feature
       usage: Triggered action
     - effects:
@@ -95,7 +100,8 @@ features:
     - cost: Villain Action 1
       distance: 5 burst
       effects:
-        - effect: '**Effect:** The warleader uses Wodeblade against each target and gains an edge on the power roll.'
+        - effect: The warleader uses Wodeblade against each target and gains an edge on the power roll.
+          name: Effect
       feature_type: ability
       icon: ☠️
       keywords:
@@ -107,7 +113,8 @@ features:
     - cost: Villain Action 2
       distance: 5 burst
       effects:
-        - effect: '**Effect:** The warleader can use Wodeblade. Each target can then make a [free strike](../../../feature/common/main-actions/free-strike.md).'
+        - effect: The warleader can use Wodeblade. Each target can then make a [free strike](../../../feature/common/main-actions/free-strike.md).
+          name: Effect
       feature_type: ability
       icon: ☠️
       keywords:
@@ -119,7 +126,8 @@ features:
     - cost: Villain Action 3
       distance: 5 burst
       effects:
-        - effect: '**Effect:** Each target is invisible until the start of the next round. The warleader then uses Wodeblade.'
+        - effect: Each target is invisible until the start of the next round. The warleader then uses Wodeblade.
+          name: Effect
       feature_type: ability
       icon: ☠️
       keywords:

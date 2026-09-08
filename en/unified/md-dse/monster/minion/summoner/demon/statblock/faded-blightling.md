@@ -45,6 +45,8 @@ features:
           tier1: 7 corruption [damage](scc.v1:mcdm.heroes.v1/rule.damage/damage); P < WEAK [bleeding](scc.v1:mcdm.heroes.v1/condition/bleeding) (EoT)
           tier2: 11 corruption [damage](scc.v1:mcdm.heroes.v1/rule.damage/damage); P < AVERAGE [bleeding](scc.v1:mcdm.heroes.v1/condition/bleeding) (EoT)
           tier3: 16 corruption [damage](scc.v1:mcdm.heroes.v1/rule.damage/damage); P < STRONG [bleeding](scc.v1:mcdm.heroes.v1/condition/bleeding) (EoT)
+        - effect: Instead of taking [damage](scc.v1:mcdm.heroes.v1/rule.damage/damage), you or an ally targeted by this ability impose a double [bane](scc.v1:mcdm.heroes.v1/rule.dice/bane) on the next [strike](scc.v1:mcdm.heroes.v1/rule.combat/strike) that targets them.
+          name: Effect
       feature_type: ability
       icon: "\U0001F3F9"
       keywords:

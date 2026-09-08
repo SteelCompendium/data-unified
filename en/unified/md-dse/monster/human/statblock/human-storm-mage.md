@@ -40,6 +40,8 @@ features:
           tier1: 7 lightning damage
           tier2: 10 lightning damage
           tier3: 13 lightning damage
+        - cost: 5 Malice
+          effect: The ability loses the Ranged and Strike keywords, takes the Area keyword, and is a 10 x 1 line within 15 that targets each enemy and object in the area.
       feature_type: ability
       icon: "\U0001F3F9"
       keywords:
@@ -57,6 +59,8 @@ features:
           tier1: '[Slide](scc.v1:mcdm.heroes.v1/movement/forced-movement) 2; M < 0 [slowed](scc.v1:mcdm.heroes.v1/condition/slowed) (save ends)'
           tier2: '[Slide](scc.v1:mcdm.heroes.v1/movement/forced-movement) 4; M < 1 [slowed](scc.v1:mcdm.heroes.v1/condition/slowed) (save ends)'
           tier3: '[Slide](scc.v1:mcdm.heroes.v1/movement/forced-movement) 6; M < 2 [slowed](scc.v1:mcdm.heroes.v1/condition/slowed) (save ends)'
+        - effect: The gust of wind disperses gas or vapor and extinguishes any flames, including supernatural effects.
+          name: Effect
       feature_type: ability
       icon: "\U0001F533"
       keywords:
@@ -67,9 +71,8 @@ features:
       type: feature
       usage: Maneuver
     - effects:
-        - effect: |-
-            Any melee ability targeting the storm mage takes a bane.
-            Additionally, whenever the mage takes damage from an [adjacent](scc.v1:mcdm.heroes.v1/rule.combat/adjacent) enemy, the enemy takes 2 lightning damage, and if they have R < 1 they are [pushed](scc.v1:mcdm.heroes.v1/movement/forced-movement) up to 2 squares.
+        - effect: Any melee ability targeting the storm mage takes a bane.
+        - effect: Additionally, whenever the mage takes damage from an [adjacent](scc.v1:mcdm.heroes.v1/rule.combat/adjacent) enemy, the enemy takes 2 lightning damage, and if they have R < 1 they are [pushed](scc.v1:mcdm.heroes.v1/movement/forced-movement) up to 2 squares.
       feature_type: trait
       icon: ⭐️
       name: Arcane Shield

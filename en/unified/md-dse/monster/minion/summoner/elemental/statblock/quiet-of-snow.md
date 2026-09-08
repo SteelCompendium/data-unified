@@ -47,6 +47,8 @@ features:
           tier1: 4 cold [damage](scc.v1:mcdm.heroes.v1/rule.damage/damage); M < WEAK [slowed](scc.v1:mcdm.heroes.v1/condition/slowed) (EoT)
           tier2: 6 cold [damage](scc.v1:mcdm.heroes.v1/rule.damage/damage); M < AVERAGE [slowed](scc.v1:mcdm.heroes.v1/condition/slowed) (EoT)
           tier3: 8 cold [damage](scc.v1:mcdm.heroes.v1/rule.damage/damage); M < STRONG speed is 0 (EoT)
+        - effect: Frost slows the enemy down, allowing one ally [adjacent](scc.v1:mcdm.heroes.v1/rule.combat/adjacent) to each target to [shift](scc.v1:mcdm.heroes.v1/movement/shifting) 2 and either [hide](scc.v1:mcdm.heroes.v1/feature.common.maneuvers/hide) or [defend](scc.v1:mcdm.heroes.v1/feature.common.main-actions/defend).
+          name: Effect
       feature_type: ability
       icon: "\U0001F3F9"
       keywords:

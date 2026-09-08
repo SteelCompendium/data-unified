@@ -2,6 +2,9 @@
 features:
     - cost: Encounter
       distance: Melee 1
+      effects:
+        - effect: The mercenary must be [winded](../../../rule/health/winded.md) to use this ability. The mercenary uses Big Bite against each target.
+          name: Effect
       icon: "\U0001F5E1"
       keywords:
         - Melee
@@ -14,6 +17,11 @@ features:
       usage: Main action
     - cost: Encounter
       distance: Self
+      effects:
+        - effect: An ability deals acid or fire damage to the mercenary.
+          name: Trigger
+        - effect: The mercenary moves up to their speed. If this movement takes them beyond the distance of the triggering ability, the ability has no effect on them.
+          name: Effect
       icon: ❗️
       level: 10
       name: Fire Bad
@@ -38,6 +46,9 @@ type: featureblock
 features:
     - cost: Encounter
       distance: Melee 1
+      effects:
+        - effect: The mercenary must be [winded](../../../rule/health/winded.md) to use this ability. The mercenary uses Big Bite against each target.
+          name: Effect
       icon: "\U0001F5E1"
       keywords:
         - Melee
@@ -50,6 +61,11 @@ features:
       usage: Main action
     - cost: Encounter
       distance: Self
+      effects:
+        - effect: An ability deals acid or fire damage to the mercenary.
+          name: Trigger
+        - effect: The mercenary moves up to their speed. If this movement takes them beyond the distance of the triggering ability, the ability has no effect on them.
+          name: Effect
       icon: ❗️
       level: 10
       name: Fire Bad

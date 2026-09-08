@@ -30,7 +30,8 @@
       "distance": "Self",
       "effects": [
         {
-          "effect": "**Effect:** Until the start of their next turn, the breaker has a double edge on abilities and is automatically affected by all [potency](scc.v1:mcdm.heroes.v1/rule.character/potency) effect."
+          "effect": "Until the start of their next turn, the breaker has a double edge on abilities and is automatically affected by all [potency](scc.v1:mcdm.heroes.v1/rule.character/potency) effect.",
+          "name": "Effect"
         }
       ],
       "feature_type": "ability",

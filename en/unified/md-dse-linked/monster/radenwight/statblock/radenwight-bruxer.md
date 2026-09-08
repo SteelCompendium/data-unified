@@ -38,6 +38,8 @@ features:
           tier1: 6 damage
           tier2: 9 damage
           tier3: 12 damage; [grabbed](../../../condition/grabbed.md)
+        - effect: A target [grabbed](../../../condition/grabbed.md) this way takes 2 damage at the start of each of the bruxer's turns.
+          name: Effect
       feature_type: ability
       icon: "\U0001F5E1"
       keywords:
@@ -66,9 +68,8 @@ features:
       usage: Main action
     - distance: Melee 1
       effects:
-        - effect: |-
-            **Trigger:** An ally deals damage to the target.
-            **Effect:** The bruxer makes a [free strike](../../../feature/common/main-actions/free-strike.md) against the target.
+        - effect: The bruxer makes a [free strike](../../../feature/common/main-actions/free-strike.md) against the target.
+          name: Effect
       feature_type: ability
       icon: ❗️
       keywords:
@@ -76,6 +77,7 @@ features:
         - Weapon
       name: Ready Rodent
       target: One creature
+      trigger: An ally deals damage to the target.
       type: feature
       usage: Triggered action
     - effects:

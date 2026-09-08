@@ -45,6 +45,8 @@ features:
           tier1: 15 corruption damage; R < 4 [weakened](../../../../condition/weakened.md) (save ends)
           tier2: 20 corruption damage; R < 5 [weakened](../../../../condition/weakened.md) (save ends)
           tier3: 24 corruption damage; R < 6 [weakened](../../../../condition/weakened.md) (save ends)
+        - cost: 2 Malice
+          effect: Aurumvas regains [Stamina](../../../../rule/health/stamina.md) equal to the damage dealt.
       feature_type: ability
       icon: "\U0001F5E1"
       keywords:
@@ -62,6 +64,8 @@ features:
           tier1: 15 psychic damage; P < 4 [dazed](../../../../condition/dazed.md) (save ends)
           tier2: 20 psychic damage; P < 5 [dazed](../../../../condition/dazed.md) (save ends)
           tier3: 24 psychic damage; P < 6 [dazed](../../../../condition/dazed.md) (save ends)
+        - cost: 2 Malice
+          effect: While [dazed](../../../../condition/dazed.md) this way, a target can't gain [Heroic Resources](../../../../rule/resource/heroic-resource.md).
       feature_type: ability
       icon: "\U0001F3F9"
       keywords:
@@ -75,7 +79,8 @@ features:
     - cost: 2 Malice
       distance: Ranged 10
       effects:
-        - effect: '**Effect:** Aurumvas chooses a supernatural treasure or an item made of gold and [teleports](../../../../movement/teleport.md) to an unoccupied space [adjacent](../../../../rule/combat/adjacent.md) to that object, then ends one effect on him that can be ended by a [saving throw](../../../../rule/general/saving-throw.md).'
+        - effect: Aurumvas chooses a supernatural treasure or an item made of gold and [teleports](../../../../movement/teleport.md) to an unoccupied space [adjacent](../../../../rule/combat/adjacent.md) to that object, then ends one effect on him that can be ended by a [saving throw](../../../../rule/general/saving-throw.md).
+          name: Effect
       feature_type: ability
       icon: "\U0001F3F9"
       keywords:
@@ -99,7 +104,8 @@ features:
     - cost: Villain Action 1
       distance: 20 burst
       effects:
-        - effect: '**Effect:** Aurumvas warps time with his abyssal avarice. Each target can [teleport](../../../../movement/teleport.md) up to their speed and make a [free strike](../../../../feature/common/main-actions/free-strike.md).'
+        - effect: Aurumvas warps time with his abyssal avarice. Each target can [teleport](../../../../movement/teleport.md) up to their speed and make a [free strike](../../../../feature/common/main-actions/free-strike.md).
+          name: Effect
       feature_type: ability
       icon: ☠️
       keywords:
@@ -112,7 +118,8 @@ features:
     - cost: Villain Action 2
       distance: Ranged 10
       effects:
-        - effect: '**Effect:** Aurumvas chooses up to three treasures within distance that he has [line of effect](../../../../rule/combat/line-of-effect.md) to and that aren''t artifacts. Until the end of the encounter, ethereal golden snakes swirl around the target treasures. While an affected treasure is worn or held by a hero, each time that hero gains any amount of their [Heroic Resource](../../../../rule/resource/heroic-resource.md), the Director gains 1 [Malice](../../../../rule/monster/malice.md).'
+        - effect: Aurumvas chooses up to three treasures within distance that he has [line of effect](../../../../rule/combat/line-of-effect.md) to and that aren't artifacts. Until the end of the encounter, ethereal golden snakes swirl around the target treasures. While an affected treasure is worn or held by a hero, each time that hero gains any amount of their [Heroic Resource](../../../../rule/resource/heroic-resource.md), the Director gains 1 [Malice](../../../../rule/monster/malice.md).
+          name: Effect
       feature_type: ability
       icon: ☠️
       keywords:
@@ -124,7 +131,9 @@ features:
     - cost: Villain Action 3
       distance: Four 3 cubes within 10
       effects:
-        - roll: Power Roll + 5
+        - effect: Aurumvas summons treasures from his vaults into the area, then causes them to explode.
+          name: Effect
+          roll: Power Roll + 5
           tier1: 10 fire damage; push 1
           tier2: 15 fire damage; push 2
           tier3: 19 fire damage; push 3

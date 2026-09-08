@@ -40,6 +40,8 @@ features:
           tier1: 6 damage
           tier2: 9 damage
           tier3: 12 damage; M < 2 [grabbed](../../../condition/grabbed.md) and the target takes a bane on the Escape Grab maneuver
+        - effect: A target who is already [grabbed](../../../condition/grabbed.md) takes an extra 2 damage.
+          name: Effect
       feature_type: ability
       icon: "\U0001F5E1"
       keywords:
@@ -53,7 +55,8 @@ features:
     - cost: 1 Malice
       distance: Melee 1
       effects:
-        - effect: '**Effect:** The brawler [pushes](../../../movement/forced-movement.md) the target up to 5 squares.'
+        - effect: The brawler [pushes](../../../movement/forced-movement.md) the target up to 5 squares.
+          name: Effect
       feature_type: ability
       icon: "\U0001F5E1"
       keywords:

@@ -11,6 +11,10 @@
           "tier1": "9 damage",
           "tier2": "13 damage",
           "tier3": "16 damage"
+        },
+        {
+          "effect": "Until the end of the current turn, the moondancer ignores opportunity attacks from the target.",
+          "name": "Effect"
         }
       ],
       "feature_type": "ability",
@@ -30,7 +34,8 @@
       "distance": "Self",
       "effects": [
         {
-          "effect": "**Trigger:** The moondancer takes damage from a strike.\n**Effect:** The moondancer can [teleport](scc.v1:mcdm.heroes.v1/movement/teleport) up to 10 squares to a space with concealment created by darkness."
+          "effect": "The moondancer can [teleport](scc.v1:mcdm.heroes.v1/movement/teleport) up to 10 squares to a space with concealment created by darkness.",
+          "name": "Effect"
         }
       ],
       "feature_type": "ability",
@@ -40,6 +45,7 @@
       ],
       "name": "Dissolve",
       "target": "Self",
+      "trigger": "The moondancer takes damage from a strike.",
       "type": "feature",
       "usage": "Triggered action"
     },

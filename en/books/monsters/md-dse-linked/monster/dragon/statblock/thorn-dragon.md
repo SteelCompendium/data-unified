@@ -33,9 +33,10 @@ agility: 3
 ev: "48"
 features:
     - effects:
-        - effect: |-
-            **[End Effect](../../../rule/monster/end-effect.md):** At the end of each of their turns, the dragon can take 10 damage to end one effect on them that can be ended by a saving throw. This damage can't be reduced in any way.
-            **Solo Turns:** The dragon can take two turns each round. They can't take turns consecutively.
+        - effect: At the end of each of their turns, the dragon can take 10 damage to end one effect on them that can be ended by a saving throw. This damage can't be reduced in any way.
+          name: End Effect
+        - effect: The dragon can take two turns each round. They can't take turns consecutively.
+          name: Solo Turns
       feature_type: trait
       icon: ☠️
       name: Solo Monster
@@ -49,10 +50,12 @@ features:
     - ability_type: Signature Ability
       distance: 10 x 1 line within 1
       effects:
-        - roll: ""
+        - effect: Each target makes a **Might test**.
+          name: Effect
           tier1: 12 poison damage; the target is dragonsealed (save ends)
           tier2: 9 poison damage; the target is dragonsealed (save ends)
           tier3: 5 poison damage
+        - effect: A dragonsealed creature has their wounds bound by nettles and thorns, causing them to take an extra 1d3 damage whenever they take damage rolled as a d6 or a d3.
       feature_type: ability
       icon: "\U0001F533"
       keywords:
@@ -68,6 +71,8 @@ features:
           tier1: 8 damage; push 2
           tier2: 12 damage; push 4
           tier3: 15 damage; push 8
+        - cost: 2 Malice
+          effect: Each target takes an extra 1d3 damage, and if they have A < 2, they are [bleeding](../../../condition/bleeding.md) (save ends).
       feature_type: ability
       icon: "\U0001F5E1"
       keywords:
@@ -88,7 +93,8 @@ features:
     - cost: 5 Malice
       distance: 10 burst
       effects:
-        - effect: '**Effect:** Each target must be dragonsealed. Each target is pulled up to 5 squares toward the dragon, who gains 5 [temporary Stamina](../../../rule/health/temporary-stamina.md) for each target pulled.'
+        - effect: Each target must be dragonsealed. Each target is pulled up to 5 squares toward the dragon, who gains 5 [temporary Stamina](../../../rule/health/temporary-stamina.md) for each target pulled.
+          name: Effect
       feature_type: ability
       icon: ❇️
       keywords:
@@ -99,9 +105,8 @@ features:
       usage: Maneuver
     - distance: Ranged 10
       effects:
-        - effect: |-
-            **Trigger:** A dragonsealed creature within distance ends the dragonsealed effect.
-            **Effect:** The target is pulled up to 5 squares toward the dragon, and if they have A < 2, they are [restrained](../../../condition/restrained.md) until the end of their next turn.
+        - effect: The target is pulled up to 5 squares toward the dragon, and if they have A < 2, they are [restrained](../../../condition/restrained.md) until the end of their next turn.
+          name: Effect
       feature_type: ability
       icon: ❗️
       keywords:
@@ -109,20 +114,21 @@ features:
         - Ranged
       name: Prickly Situation
       target: The triggering creature
+      trigger: A dragonsealed creature within distance ends the dragonsealed effect.
       type: feature
       usage: Free triggered action
     - cost: 1 Malice
       distance: Melee 1
       effects:
-        - effect: |-
-            **Trigger:** A creature within distance deals damage to the dragon with a melee strike.
-            **Effect:** The dragon makes a [free strike](../../../feature/common/main-actions/free-strike.md) against the target, and if the target has M < 2, they are [bleeding](../../../condition/bleeding.md) until the end of their next turn.
+        - effect: The dragon makes a [free strike](../../../feature/common/main-actions/free-strike.md) against the target, and if the target has M < 2, they are [bleeding](../../../condition/bleeding.md) until the end of their next turn.
+          name: Effect
       feature_type: ability
       icon: ❗️
       keywords:
         - Melee
       name: Thorny Scales
       target: The triggering creature
+      trigger: A creature within distance deals damage to the dragon with a melee strike.
       type: feature
       usage: Free triggered action
     - cost: Villain Action 1
@@ -144,7 +150,8 @@ features:
     - cost: Villain Action 2
       distance: Self
       effects:
-        - effect: '**Effect:** The thorns upon the dragon''s scales grow longer and sharper. Until the end of the encounter, any [adjacent](../../../rule/combat/adjacent.md) creature who targets the dragon with a melee strike takes 3 damage. The dragon then uses their Provoking Nettles ability.'
+        - effect: The thorns upon the dragon's scales grow longer and sharper. Until the end of the encounter, any [adjacent](../../../rule/combat/adjacent.md) creature who targets the dragon with a melee strike takes 3 damage. The dragon then uses their Provoking Nettles ability.
+          name: Effect
       feature_type: ability
       icon: ☠️
       keywords: []
@@ -155,9 +162,10 @@ features:
     - cost: Villain Action 3
       distance: Special
       effects:
-        - effect: |-
-            **Effect:** Poisonous overgrowth and seeking vines cover all surfaces on the encounter map. The dragon uses their Bramble Barricade Malice feature twice at no cost. Until the end of the encounter, any creature [force moved](../../../movement/forced-movement.md) by the dragon takes 1d3 poison damage, and if they have M < 2, they are [weakened](../../../condition/weakened.md) (save ends).
-            **Special:** If the Thorn Dragon's Domain [trait](../../../rule/monster/monster-trait.md) is in effect, any creature other than the dragon who starts their turn on the encounter map takes 1d3 poison damage.
+        - effect: Poisonous overgrowth and seeking vines cover all surfaces on the encounter map. The dragon uses their Bramble Barricade Malice feature twice at no cost. Until the end of the encounter, any creature [force moved](../../../movement/forced-movement.md) by the dragon takes 1d3 poison damage, and if they have M < 2, they are [weakened](../../../condition/weakened.md) (save ends).
+          name: Effect
+        - effect: If the Thorn Dragon's Domain [trait](../../../rule/monster/monster-trait.md) is in effect, any creature other than the dragon who starts their turn on the encounter map takes 1d3 poison damage.
+          name: Special
       feature_type: ability
       icon: ☠️
       keywords: []

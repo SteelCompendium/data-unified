@@ -20,9 +20,8 @@ features:
       usage: Main action
     - distance: Melee 2
       effects:
-        - effect: |-
-            **Trigger:** An enemy within distance makes a strike against the target.
-            **Effect:** The target takes half the damage and the knightfell takes the other half.
+        - effect: The target takes half the damage and the knightfell takes the other half.
+          name: Effect
       feature_type: ability
       icon: ❗️
       keywords:
@@ -30,6 +29,7 @@ features:
         - Melee
       name: Trick of the Eye
       target: One ally
+      trigger: An enemy within distance makes a strike against the target.
       type: feature
       usage: Triggered action
     - effects:

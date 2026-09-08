@@ -1,14 +1,20 @@
 ---
 features:
     - body: You gain a [surge](scc.v1:mcdm.heroes.v1/rule.resource/surge) the first time in a [round](scc.v1:mcdm.heroes.v1/rule.combat/combat-round) one of your undead [minions](scc.v1:mcdm.summoner.v1/feature.summoner.level-1/minions) unwillingly dies while you have [line of effect](scc.v1:mcdm.heroes.v1/rule.combat/line-of-effect) to the gates. You can choose to give the [surge](scc.v1:mcdm.heroes.v1/rule.resource/surge) to an ally who also has [line of effect](scc.v1:mcdm.heroes.v1/rule.combat/line-of-effect) to the gates.
+      effects:
+        - effect: You gain a [surge](scc.v1:mcdm.heroes.v1/rule.resource/surge) the first time in a [round](scc.v1:mcdm.heroes.v1/rule.combat/combat-round) one of your undead [minions](scc.v1:mcdm.summoner.v1/feature.summoner.level-1/minions) unwillingly dies while you have [line of effect](scc.v1:mcdm.heroes.v1/rule.combat/line-of-effect) to the gates. You can choose to give the [surge](scc.v1:mcdm.heroes.v1/rule.resource/surge) to an ally who also has [line of effect](scc.v1:mcdm.heroes.v1/rule.combat/line-of-effect) to the gates.
       icon: ⭐️
       level: 5
       name: Memento Mori
     - body: The gates are now size 3.
+      effects:
+        - effect: The gates are now size 3.
       icon: ⭐️
       level: 9
       name: Size Increase
     - body: You can use [Rise!](scc.v1:mcdm.summoner.v1/feature.summoner.level-1/rise) as a [free triggered action](scc.v1:mcdm.heroes.v1/rule.combat/triggered-action) each time an enemy dies within 3 squares of the gates while you have [line of effect](scc.v1:mcdm.heroes.v1/rule.combat/line-of-effect) to the gates.
+      effects:
+        - effect: You can use [Rise!](scc.v1:mcdm.summoner.v1/feature.summoner.level-1/rise) as a [free triggered action](scc.v1:mcdm.heroes.v1/rule.combat/triggered-action) each time an enemy dies within 3 squares of the gates while you have [line of effect](scc.v1:mcdm.heroes.v1/rule.combat/line-of-effect) to the gates.
       icon: ⭐️
       level: 9
       name: Open the Gates

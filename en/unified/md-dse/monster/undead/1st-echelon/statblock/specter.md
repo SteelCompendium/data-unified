@@ -40,6 +40,8 @@ features:
           tier1: 3 corruption damage; P < 0 [weakened](scc.v1:mcdm.heroes.v1/condition/weakened) (save ends)
           tier2: 4 corruption damage; P < 1 [weakened](scc.v1:mcdm.heroes.v1/condition/weakened) (save ends)
           tier3: 5 corruption damage; P < 2 [weakened](scc.v1:mcdm.heroes.v1/condition/weakened) (save ends)
+        - cost: 2 Malice
+          effect: The [potency](scc.v1:mcdm.heroes.v1/rule.character/potency) increases by 1. Any living creature who dies from this damage rises at the start of the next round in the target's space as a specter under the Director's control.
       feature_type: ability
       icon: "\U0001F5E1"
       keywords:
@@ -52,7 +54,8 @@ features:
       usage: Main action
     - distance: Self
       effects:
-        - effect: '**Effect:** The specter turns invisible, moves up to their speed, and is visible again.'
+        - effect: The specter turns invisible, moves up to their speed, and is visible again.
+          name: Effect
       feature_type: ability
       icon: "\U0001F464"
       keywords: []

@@ -48,7 +48,8 @@ features:
       usage: Main action
     - distance: Self
       effects:
-        - effect: '**Effect:** The predator assesses their environment or lets loose a threatening roar and gains an edge on their next strike.'
+        - effect: The predator assesses their environment or lets loose a threatening roar and gains an edge on their next strike.
+          name: Effect
       feature_type: ability
       icon: "\U0001F464"
       keywords: []
@@ -58,9 +59,8 @@ features:
       usage: Maneuver
     - distance: Melee 1
       effects:
-        - effect: |-
-            **Trigger:** A creature or object comes within distance.
-            **Effect:** The predator makes a [free strike](scc.v1:mcdm.heroes.v1/feature.common.main-actions/free-strike) against the target. If the predator was hidden from the target, the strike deals an extra 3 damage.
+        - effect: The predator makes a [free strike](scc.v1:mcdm.heroes.v1/feature.common.main-actions/free-strike) against the target. If the predator was hidden from the target, the strike deals an extra 3 damage.
+          name: Effect
       feature_type: ability
       icon: ❗️
       keywords:
@@ -69,6 +69,7 @@ features:
         - Weapon
       name: Quick Strike
       target: The triggering creature or object
+      trigger: A creature or object comes within distance.
       type: feature
       usage: Triggered action
     - effects:

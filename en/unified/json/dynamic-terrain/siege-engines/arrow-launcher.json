@@ -1,6 +1,14 @@
 {
   "features": [
     {
+      "effects": [
+        {
+          "effect": "As a maneuver, a creature [adjacent](scc.v1:mcdm.heroes.v1/rule.combat/adjacent) to an arrow launcher can make an **Agility test**.",
+          "tier1": "The creature accidentally activates the **Arrow Storm** ability.",
+          "tier2": "The arrow launcher is deactivated but the creature is [slowed](scc.v1:mcdm.heroes.v1/condition/slowed) (EoT).",
+          "tier3": "The arrow launcher is deactivated and can't be used."
+        }
+      ],
       "icon": "🌀",
       "intro": "As a maneuver, a creature [adjacent](scc.v1:mcdm.heroes.v1/rule.combat/adjacent) to an arrow launcher can make an **Agility test**.",
       "name": "Deactivate",
@@ -14,6 +22,18 @@
     },
     {
       "distance": "5 cube within 20",
+      "effects": [
+        {
+          "roll": "Power Roll + 2",
+          "tier1": "5 damage",
+          "tier2": "8 damage",
+          "tier3": "11 damage"
+        },
+        {
+          "effect": "This ability can't be used again until the arrow launcher is reloaded.",
+          "name": "Effect"
+        }
+      ],
       "icon": "🔳",
       "keywords": [
         "- Area",
@@ -40,6 +60,12 @@
     },
     {
       "distance": "-",
+      "effects": [
+        {
+          "effect": "The arrow launcher is reloaded, allowing **Arrow Storm** to be used again. This action can be used only once per round.",
+          "name": "Effect"
+        }
+      ],
       "icon": "⭐️",
       "name": "Reload",
       "sections": [
@@ -53,6 +79,12 @@
     },
     {
       "distance": "-",
+      "effects": [
+        {
+          "effect": "The next use of **Arrow Storm** gains an edge and has a +10 bonus to ranged distance. This action can be used only once per round.",
+          "name": "Effect"
+        }
+      ],
       "icon": "⭐️",
       "name": "Spot",
       "sections": [
@@ -66,6 +98,12 @@
     },
     {
       "distance": "-",
+      "effects": [
+        {
+          "effect": "The arrow launcher and the creature using this action move together up to 3 squares.",
+          "name": "Effect"
+        }
+      ],
       "icon": "⭐️",
       "name": "Move",
       "sections": [
@@ -79,11 +117,31 @@
     },
     {
       "body": "**Flaming Arrows (+1 EV) Arrow Storm** deals fire damage, and can ignite flammable objects in its area.\n\n**Screamers (+3 EV)** The arrows make a high-pitched screaming noise as they are fired and descend onto their targets. The **Screamers** ability replaces **Arrow Storm**.",
+      "effects": [
+        {
+          "effect": "**Flaming Arrows (+1 EV) Arrow Storm** deals fire damage, and can ignite flammable objects in its area."
+        },
+        {
+          "effect": "**Screamers (+3 EV)** The arrows make a high-pitched screaming noise as they are fired and descend onto their targets. The **Screamers** ability replaces **Arrow Storm**."
+        }
+      ],
       "icon": "⭐️",
       "name": "Upgrades"
     },
     {
       "distance": "5 cube within 20",
+      "effects": [
+        {
+          "roll": "Power Roll + 2",
+          "tier1": "5 damage; R \u003c 0 [dazed](scc.v1:mcdm.heroes.v1/condition/dazed) ([save](scc.v1:mcdm.heroes.v1/rule.general/saving-throw) ends)",
+          "tier2": "8 damage; R \u003c 1 [dazed](scc.v1:mcdm.heroes.v1/condition/dazed) ([save](scc.v1:mcdm.heroes.v1/rule.general/saving-throw) ends)",
+          "tier3": "11 damage; R \u003c 2 [frightened](scc.v1:mcdm.heroes.v1/condition/frightened) ([save](scc.v1:mcdm.heroes.v1/rule.general/saving-throw) ends)"
+        },
+        {
+          "effect": "This ability can't be used again until the arrow launcher is reloaded.",
+          "name": "Effect"
+        }
+      ],
       "icon": "🔳",
       "keywords": [
         "Area",

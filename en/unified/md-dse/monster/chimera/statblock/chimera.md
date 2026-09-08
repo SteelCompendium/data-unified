@@ -33,9 +33,10 @@ agility: 2
 ev: "60"
 features:
     - effects:
-        - effect: |-
-            **End Effect:** At the end of each of their turns, the chimera can take 5 damage to end one effect on them that can be ended by a [saving throw](scc.v1:mcdm.heroes.v1/rule.general/saving-throw). This damage can't be reduced in any way.
-            **Solo Turns:** The chimera can take two turns each round. They can't take turns consecutively.
+        - effect: At the end of each of their turns, the chimera can take 5 damage to end one effect on them that can be ended by a [saving throw](scc.v1:mcdm.heroes.v1/rule.general/saving-throw). This damage can't be reduced in any way.
+          name: End Effect
+        - effect: The chimera can take two turns each round. They can't take turns consecutively.
+          name: Solo Turns
       feature_type: trait
       icon: ☠️
       name: Solo Monster
@@ -53,6 +54,8 @@ features:
           tier1: 9 damage
           tier2: 13 damage
           tier3: 16 damage
+        - effect: This strike deals an extra 3 damage if it gains an [edge](scc.v1:mcdm.heroes.v1/rule.dice/edge) or has a double edge.
+          name: Effect
       feature_type: ability
       icon: "\U0001F5E1"
       keywords:
@@ -113,7 +116,9 @@ features:
       usage: Maneuver
     - distance: Melee 2
       effects:
-        - roll: Power Roll + 3
+        - effect: The chimera [shifts](scc.v1:mcdm.heroes.v1/movement/shifting) up to 5 squares. If they end this shift within distance of the target, make a power roll.
+          name: Effect
+          roll: Power Roll + 3
           tier1: 6 damage; M < 1 [slowed](scc.v1:mcdm.heroes.v1/condition/slowed) (save ends)
           tier2: 8 damage; [prone](scc.v1:mcdm.heroes.v1/condition/prone); M < 2 [slowed](scc.v1:mcdm.heroes.v1/condition/slowed) (save ends)
           tier3: 10 damage; [prone](scc.v1:mcdm.heroes.v1/condition/prone); M < 3 [slowed](scc.v1:mcdm.heroes.v1/condition/slowed) (save ends)
@@ -125,12 +130,14 @@ features:
         - Weapon
       name: Ram's Defiance
       target: The triggering creature
+      trigger: A creature makes a strike against the chimera and obtains a tier 1 outcome.
       type: feature
       usage: Triggered action
     - cost: Villain Action 1
       distance: 1 burst
       effects:
-        - effect: '**Effect:** The chimera can use Bite and Lion''s Toss against each target.'
+        - effect: The chimera can use Bite and Lion's Toss against each target.
+          name: Effect
       feature_type: ability
       icon: ☠️
       keywords:
@@ -142,7 +149,8 @@ features:
     - cost: Villain Action 2
       distance: Self
       effects:
-        - effect: '**Effect:** The chimera uses Dragon''s Eruption and Roar without spending [Malice](scc.v1:mcdm.monsters.v1/rule.monster/malice).'
+        - effect: The chimera uses Dragon's Eruption and Roar without spending [Malice](scc.v1:mcdm.monsters.v1/rule.monster/malice).
+          name: Effect
       feature_type: ability
       icon: ☠️
       keywords: []
@@ -153,7 +161,8 @@ features:
     - cost: Villain Action 3
       distance: Self
       effects:
-        - effect: '**Effect:** The chimera uses Roar, then [shifts](scc.v1:mcdm.heroes.v1/movement/shifting) up to their speed and can make a [free strike](scc.v1:mcdm.heroes.v1/feature.common.main-actions/free-strike) against each enemy who comes [adjacent](scc.v1:mcdm.heroes.v1/rule.combat/adjacent) to them during the shift. When the chimera ends this shift, they use Dragon''s Eruption. The use of these abilities as part of this [villain action](scc.v1:mcdm.monsters.v1/rule.monster/villain-action) costs no [Malice](scc.v1:mcdm.monsters.v1/rule.monster/malice).'
+        - effect: The chimera uses Roar, then [shifts](scc.v1:mcdm.heroes.v1/movement/shifting) up to their speed and can make a [free strike](scc.v1:mcdm.heroes.v1/feature.common.main-actions/free-strike) against each enemy who comes [adjacent](scc.v1:mcdm.heroes.v1/rule.combat/adjacent) to them during the shift. When the chimera ends this shift, they use Dragon's Eruption. The use of these abilities as part of this [villain action](scc.v1:mcdm.monsters.v1/rule.monster/villain-action) costs no [Malice](scc.v1:mcdm.monsters.v1/rule.monster/malice).
+          name: Effect
       feature_type: ability
       icon: ☠️
       keywords: []

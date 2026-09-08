@@ -3,18 +3,44 @@
     {
       "body": "A dwarf can destroy one [adjacent](scc.v1:mcdm.heroes.v1/rule.combat/adjacent) object or square of wall for each 3 [Malice](scc.v1:mcdm.monsters.v1/rule.monster/malice) spent. Each enemy [adjacent](scc.v1:mcdm.heroes.v1/rule.combat/adjacent) to the destroyed object or square takes the object's Stamina in damage (3 for wood, 6 for stone, or 9 for metal).",
       "cost": "3 Malice",
+      "effects": [
+        {
+          "effect": "A dwarf can destroy one [adjacent](scc.v1:mcdm.heroes.v1/rule.combat/adjacent) object or square of wall for each 3 [Malice](scc.v1:mcdm.monsters.v1/rule.monster/malice) spent. Each enemy [adjacent](scc.v1:mcdm.heroes.v1/rule.combat/adjacent) to the destroyed object or square takes the object's Stamina in damage (3 for wood, 6 for stone, or 9 for metal)."
+        }
+      ],
       "icon": "👤",
       "name": "Breaching Charge"
     },
     {
       "body": "Each dwarf acting this turn can automatically climb at full speed while moving. At any point during this movement, they can make a [free strike](scc.v1:mcdm.heroes.v1/feature.common.main-actions/free-strike).",
       "cost": "5 Malice",
+      "effects": [
+        {
+          "effect": "Each dwarf acting this turn can automatically climb at full speed while moving. At any point during this movement, they can make a [free strike](scc.v1:mcdm.heroes.v1/feature.common.main-actions/free-strike)."
+        }
+      ],
       "icon": "⭐️",
       "name": "Rappelling Barrage"
     },
     {
       "cost": "7 Malice",
       "distance": "10 x 1 line within 10",
+      "effects": [
+        {
+          "effect": "Each target makes an **Agility test**.",
+          "name": "Effect",
+          "tier1": "8 damage; [restrained](scc.v1:mcdm.heroes.v1/condition/restrained) (EoT)",
+          "tier2": "6 damage; [slowed](scc.v1:mcdm.heroes.v1/condition/slowed) (EoT)",
+          "tier3": "No effect."
+        },
+        {
+          "effect": "The snaring line remains until the end of the encounter. Any enemy who moves into the area for the first time in a round or starts their turn there must make the test."
+        },
+        {
+          "effect": "This ability can't be used by a [minion](scc.v1:mcdm.monsters.v1/rule.organization/minion).",
+          "name": "Special"
+        }
+      ],
       "icon": "🔳",
       "keywords": [
         "Area",

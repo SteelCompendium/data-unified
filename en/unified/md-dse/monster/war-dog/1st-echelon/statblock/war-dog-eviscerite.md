@@ -38,6 +38,8 @@ features:
           tier1: 3 damage
           tier2: 4 damage; [pull](scc.v1:mcdm.heroes.v1/movement/forced-movement) 1
           tier3: 5 damage; [pull](scc.v1:mcdm.heroes.v1/movement/forced-movement) 2
+        - effect: The eviscerite can automatically [grab](scc.v1:mcdm.heroes.v1/condition/grabbed) a target [pulled](scc.v1:mcdm.heroes.v1/movement/forced-movement) [adjacent](scc.v1:mcdm.heroes.v1/rule.combat/adjacent) to them this way.
+          name: Effect
       feature_type: ability
       icon: "\U0001F5E1"
       keywords:
@@ -50,7 +52,8 @@ features:
       usage: Main action
     - distance: Ranged 10
       effects:
-        - effect: '**Effect:** If the target has a loyalty collar, they are reduced to 0 [Stamina](scc.v1:mcdm.heroes.v1/rule.health/stamina).'
+        - effect: If the target has a loyalty collar, they are reduced to 0 [Stamina](scc.v1:mcdm.heroes.v1/rule.health/stamina).
+          name: Effect
       feature_type: ability
       icon: "\U0001F3F9"
       keywords:

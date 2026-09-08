@@ -37,6 +37,8 @@ features:
           tier1: 7 damage
           tier2: 11 damage
           tier3: 14 damage
+        - cost: 2 Malice
+          effect: Two allies within distance can make a [free strike](../../../../feature/common/main-actions/free-strike.md) against one of the targets.
       feature_type: ability
       icon: "\U0001F3F9"
       keywords:
@@ -54,6 +56,8 @@ features:
           tier1: 8 damage; M < 0 [weakened](../../../../condition/weakened.md) (save ends)
           tier2: 13 damage; M < 1 [weakened](../../../../condition/weakened.md) (save ends)
           tier3: 16 damage; M < 2 [weakened](../../../../condition/weakened.md) (save ends)
+        - effect: One ally [adjacent](../../../../rule/combat/adjacent.md) to the target regains 5 [Stamina](../../../../rule/health/stamina.md).
+          name: Effect
       feature_type: ability
       icon: "\U0001F3F9"
       keywords:
@@ -66,15 +70,15 @@ features:
       usage: Main action
     - distance: Ranged 10
       effects:
-        - effect: |-
-            **Trigger:** An enemy within distance willingly moves.
-            **Effect:** At any point during the movement, the tactician makes a [free strike](../../../../feature/common/main-actions/free-strike.md) against the target.
+        - effect: At any point during the movement, the tactician makes a [free strike](../../../../feature/common/main-actions/free-strike.md) against the target.
+          name: Effect
       feature_type: ability
       icon: ❗️
       keywords:
         - Ranged
       name: Overwatch
       target: The triggering enemy
+      trigger: An enemy within distance willingly moves.
       type: feature
       usage: Triggered action
     - effects:

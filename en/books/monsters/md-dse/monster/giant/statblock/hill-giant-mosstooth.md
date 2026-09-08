@@ -41,6 +41,8 @@ features:
           tier1: 4 damage
           tier2: 7 damage
           tier3: 8 damage; [grabbed](scc.v1:mcdm.heroes.v1/condition/grabbed)
+        - effect: The mosstooth can use a creature or object they have [grabbed](scc.v1:mcdm.heroes.v1/condition/grabbed) as a weapon for this ability, dealing an extra 5 damage to that creature or object and the target. They then end the grab and leave the creature or object [prone](scc.v1:mcdm.heroes.v1/condition/prone) in an unoccupied space [adjacent](scc.v1:mcdm.heroes.v1/rule.combat/adjacent) to the target.
+          name: Effect
       feature_type: ability
       icon: "\U0001F5E1"
       keywords:

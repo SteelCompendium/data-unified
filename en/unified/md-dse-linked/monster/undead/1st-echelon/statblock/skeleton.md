@@ -40,6 +40,8 @@ features:
           tier1: 4 damage
           tier2: 6 damage
           tier3: 7 damage
+        - effect: Until the start of the skeleton's next turn, the target takes 2 damage the first time they willingly move on their turn.
+          name: Effect
       feature_type: ability
       icon: ⚔️
       keywords:
@@ -58,6 +60,8 @@ features:
           tier1: 1 damage; M < 0 [bleeding](../../../../condition/bleeding.md) (save ends)
           tier2: 2 damage; M < 1 [bleeding](../../../../condition/bleeding.md) (save ends)
           tier3: 3 damage; M < 2 [bleeding](../../../../condition/bleeding.md) (save ends)
+        - effect: Each target takes a bane on their next strike.
+          name: Effect
       feature_type: ability
       icon: ❇️
       keywords:

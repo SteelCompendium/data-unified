@@ -1,15 +1,23 @@
 ---
 features:
     - body: Each square of brambles must be individually destroyed.
+      effects:
+        - effect: Each square of brambles must be individually destroyed.
       icon: "\U0001F300"
       name: Deactivate
     - body: A creature enters a square of brambles without [shifting](../../movement/shifting.md).
+      effects:
+        - effect: A creature enters a square of brambles without [shifting](../../movement/shifting.md).
+        - effect: A creature takes 1 damage per square of brambles they enter.
+          name: Effect
       icon: ❕
       name: Activate
       sections:
         - label: Effect
           text: A creature takes 1 damage per square of brambles they enter.
     - body: '**Poisonous Thorns (+1 EV)** The brambles are poisonous. Any creature who takes damage from brambles is also [bleeding](../../condition/bleeding.md) ([save](../../rule/general/saving-throw.md) ends).'
+      effects:
+        - effect: '**Poisonous Thorns (+1 EV)** The brambles are poisonous. Any creature who takes damage from brambles is also [bleeding](../../condition/bleeding.md) ([save](../../rule/general/saving-throw.md) ends).'
       icon: ⭐️
       name: Upgrade
 flavor: This thicket features close-growing vines tipped with sharp thorns.

@@ -42,6 +42,8 @@ features:
           tier1: 1 damage
           tier2: 2 damage
           tier3: 3 damage
+        - effect: The crawling claw [shifts](../../../../movement/shifting.md) up to a number of squares equal to the damage dealt.
+          name: Effect
       feature_type: ability
       icon: "\U0001F5E1"
       keywords:

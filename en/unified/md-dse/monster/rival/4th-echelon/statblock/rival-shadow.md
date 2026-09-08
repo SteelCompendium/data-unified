@@ -37,6 +37,8 @@ features:
           tier1: 15 damage; A < 3 [bleeding](scc.v1:mcdm.heroes.v1/condition/bleeding) (save ends)
           tier2: 21 damage; A < 4 [bleeding](scc.v1:mcdm.heroes.v1/condition/bleeding) (save ends)
           tier3: 25 damage; A < 5 [bleeding](scc.v1:mcdm.heroes.v1/condition/bleeding) (save ends)
+        - cost: 1 Malice
+          effect: The shadow can [teleport](scc.v1:mcdm.heroes.v1/movement/teleport) up to 10 squares, then can attempt to hide.
       feature_type: ability
       icon: "\U0001F5E1"
       keywords:
@@ -49,7 +51,8 @@ features:
       usage: Main action
     - distance: Self
       effects:
-        - effect: '**Effect:** The shadow coats their weapon with poison. They have a double edge on their next [strike](scc.v1:mcdm.heroes.v1/rule.combat/strike), any [potency](scc.v1:mcdm.heroes.v1/rule.character/potency) for that strike increases by 2, and if the target has M < 4, they are [weakened](scc.v1:mcdm.heroes.v1/condition/weakened) (save ends).'
+        - effect: The shadow coats their weapon with poison. They have a double edge on their next [strike](scc.v1:mcdm.heroes.v1/rule.combat/strike), any [potency](scc.v1:mcdm.heroes.v1/rule.character/potency) for that strike increases by 2, and if the target has M < 4, they are [weakened](scc.v1:mcdm.heroes.v1/condition/weakened) (save ends).
+          name: Effect
       feature_type: ability
       icon: "\U0001F464"
       keywords: []

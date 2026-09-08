@@ -37,6 +37,10 @@ features:
           tier1: 3 damage
           tier2: 4 damage
           tier3: 5 damage
+        - effect: One ally within 10 squares of the signifer can [shift](../../../movement/shifting.md) up to their speed if they end that shift [adjacent](../../../rule/combat/adjacent.md) to an ally.
+          name: Effect
+        - cost: 2+ Malice
+          effect: One additional ally can [shift](../../../movement/shifting.md) for each 2 [Malice](../../../rule/monster/malice.md) spent.
       feature_type: ability
       icon: "\U0001F5E1"
       keywords:
@@ -50,7 +54,8 @@ features:
     - cost: 5 Malice
       distance: 5 burst
       effects:
-        - effect: '**Effect:** Each target regains 5 [Stamina](../../../rule/health/stamina.md).'
+        - effect: Each target regains 5 [Stamina](../../../rule/health/stamina.md).
+          name: Effect
       feature_type: ability
       icon: ❇️
       keywords:

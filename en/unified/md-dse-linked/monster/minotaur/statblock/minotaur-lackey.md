@@ -39,6 +39,8 @@ features:
           tier1: 3 damage
           tier2: 6 damage; [slide](../../../movement/forced-movement.md) 1
           tier3: 8 damage; [slide](../../../movement/forced-movement.md) 3
+        - effect: A target who is [force moved](../../../movement/forced-movement.md) into an obstacle and has M < 3 is [bleeding](../../../condition/bleeding.md) (save ends).
+          name: Effect
       feature_type: ability
       icon: "\U0001F5E1"
       keywords:

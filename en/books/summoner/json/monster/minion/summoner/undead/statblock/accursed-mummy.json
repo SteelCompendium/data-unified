@@ -12,6 +12,10 @@
           "tier1": "3 poison [damage](scc.v1:mcdm.heroes.v1/rule.damage/damage); pull R",
           "tier2": "4 poison [damage](scc.v1:mcdm.heroes.v1/rule.damage/damage); pull R + 1",
           "tier3": "6 poison [damage](scc.v1:mcdm.heroes.v1/rule.damage/damage); pull R + 2"
+        },
+        {
+          "effect": "A target pulled [adjacent](scc.v1:mcdm.heroes.v1/rule.combat/adjacent) to the mummy is M \u003c STRONG [weakened](scc.v1:mcdm.heroes.v1/condition/weakened) (EoT).",
+          "name": "Effect"
         }
       ],
       "feature_type": "ability",

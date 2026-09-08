@@ -31,9 +31,9 @@ agility: 4
 ev: "84"
 features:
     - effects:
-        - effect: |-
-            [**End Effect:**](../../../rule/monster/end-effect.md) At the end of each of their turns, the medusa can take 10 damage to end one effect on them that can be ended by a [saving throw](../../../rule/general/saving-throw.md). This damage can't be reduced in any way.
-            **Solo Turns:** The medusa can take two turns each round. They can't take turns consecutively.
+        - effect: '[**End Effect:**](../../../rule/monster/end-effect.md) At the end of each of their turns, the medusa can take 10 damage to end one effect on them that can be ended by a [saving throw](../../../rule/general/saving-throw.md). This damage can''t be reduced in any way.'
+        - effect: The medusa can take two turns each round. They can't take turns consecutively.
+          name: Solo Turns
       feature_type: trait
       icon: ☠️
       name: Solo Monster
@@ -62,6 +62,8 @@ features:
           tier1: 11 damage; [push](../../../movement/forced-movement.md) 3
           tier2: 16 damage; [push](../../../movement/forced-movement.md) 5
           tier3: 19 damage; [push](../../../movement/forced-movement.md) 7
+        - cost: 3 Malice
+          effect: The medusa targets two additional creatures or objects.
       feature_type: ability
       icon: "\U0001F3F9"
       keywords:
@@ -79,6 +81,8 @@ features:
           tier1: M < 2 [restrained](../../../condition/restrained.md) (save ends)
           tier2: M < 3 [restrained](../../../condition/restrained.md) (save ends)
           tier3: '[Slowed](../../../condition/slowed.md) (save ends); or if M < 4 [restrained](../../../condition/restrained.md) (save ends)'
+        - effect: A target with cover reduces the [potency](../../../rule/character/potency.md) by 1, while a [slowed](../../../condition/slowed.md) target increases the [potency](../../../rule/character/potency.md) by 1. A target [restrained](../../../condition/restrained.md) this way magically begins to turn to stone, and a target who ends two consecutive turns [restrained](../../../condition/restrained.md) this way is petrified.
+          name: Effect
       feature_type: ability
       icon: ❇️
       keywords:
@@ -90,7 +94,8 @@ features:
       usage: Main action
     - distance: Self
       effects:
-        - effect: '**Effect:** The medusa [shifts](../../../movement/shifting.md) up to 3 squares and can attempt to hide even if observed.'
+        - effect: The medusa [shifts](../../../movement/shifting.md) up to 3 squares and can attempt to hide even if observed.
+          name: Effect
       feature_type: ability
       icon: "\U0001F464"
       keywords: []
@@ -111,6 +116,7 @@ features:
         - Melee
       name: Venomous Spit
       target: The triggering creature
+      trigger: A creature within distance deals damage to the medusa.
       type: feature
       usage: Triggered action
     - effects:
@@ -128,7 +134,8 @@ features:
     - cost: Villain Action 1
       distance: Ranged 50
       effects:
-        - effect: '**Effect:** The medusa can use Petrify against each target without spending [Malice](../../../rule/monster/malice.md). A target who doesn''t have cover increases the [potency](../../../rule/character/potency.md) by 1.'
+        - effect: The medusa can use Petrify against each target without spending [Malice](../../../rule/monster/malice.md). A target who doesn't have cover increases the [potency](../../../rule/character/potency.md) by 1.
+          name: Effect
       feature_type: ability
       icon: ☠️
       keywords:
@@ -141,7 +148,8 @@ features:
     - cost: Villain Action 2
       distance: Self
       effects:
-        - effect: '**Effect:** The medusa temporarily manifests wings and [flies](../../../movement/fly.md) up to their speed without provoking opportunity attacks. During or after this movement, they can use Snake Bites and Damning Gaze once each.'
+        - effect: The medusa temporarily manifests wings and [flies](../../../movement/fly.md) up to their speed without provoking opportunity attacks. During or after this movement, they can use Snake Bites and Damning Gaze once each.
+          name: Effect
       feature_type: ability
       icon: ☠️
       keywords: []
@@ -156,6 +164,8 @@ features:
           tier1: 8 acid damage; P < 3 [weakened](../../../condition/weakened.md) (save ends)
           tier2: 13 acid damage; P < 4 [weakened](../../../condition/weakened.md) (save ends)
           tier3: 17 acid damage; P < 5 [weakened](../../../condition/weakened.md) (save ends)
+        - effect: As a free triggered action, each stone statue and creature [restrained](../../../condition/restrained.md) or [slowed](../../../condition/slowed.md) by Petrify within distance moves up to their speed and uses a [signature ability](../../../rule/combat/signature-ability.md) that gains an edge, targeting an enemy of the medusa's choice. A stone statue without its own statistics has speed 5 and uses the medusa's [free strike](../../../feature/common/main-actions/free-strike.md).
+          name: Effect
       feature_type: ability
       icon: ☠️
       keywords:

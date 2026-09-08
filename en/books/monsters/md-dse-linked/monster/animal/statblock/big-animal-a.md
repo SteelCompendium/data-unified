@@ -48,9 +48,10 @@ features:
       usage: Main action
     - distance: Melee 1
       effects:
-        - effect: |-
-            **Special:** The target must be the animal's size or smaller.
-            **Effect:** The target vertical [slides](../../../movement/forced-movement.md) up to 3 squares. If the target is an ally, they can make a [free strike](../../../feature/common/main-actions/free-strike.md) at the end of the forced movement, then fall without taking damage.
+        - effect: The target must be the animal's size or smaller.
+          name: Special
+        - effect: The target vertical [slides](../../../movement/forced-movement.md) up to 3 squares. If the target is an ally, they can make a [free strike](../../../feature/common/main-actions/free-strike.md) at the end of the forced movement, then fall without taking damage.
+          name: Effect
       feature_type: ability
       icon: "\U0001F5E1"
       keywords:
@@ -61,14 +62,14 @@ features:
       usage: Maneuver
     - distance: Self
       effects:
-        - effect: |-
-            **Trigger:** The animal is targeted by an area ability.
-            **Effect:** The animal [shifts](../../../movement/shifting.md) up to 2 squares before the ability resolves.
+        - effect: The animal [shifts](../../../movement/shifting.md) up to 2 squares before the ability resolves.
+          name: Effect
       feature_type: ability
       icon: ❗️
       keywords: []
       name: Juke
       target: Self
+      trigger: The animal is targeted by an area ability.
       type: feature
       usage: Triggered action
     - effects:

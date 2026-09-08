@@ -1,10 +1,19 @@
 features:
     - body: A draconian acting this turn flaps their wings and creates a mighty gale. Each creature [adjacent](scc.v1:mcdm.heroes.v1/rule.combat/adjacent) to the draconian is pushed up to 4 squares, and if they have M < 2, they are knocked [prone](scc.v1:mcdm.heroes.v1/condition/prone).
       cost: 3 Malice
+      effects:
+        - effect: A draconian acting this turn flaps their wings and creates a mighty gale. Each creature [adjacent](scc.v1:mcdm.heroes.v1/rule.combat/adjacent) to the draconian is pushed up to 4 squares, and if they have M < 2, they are knocked [prone](scc.v1:mcdm.heroes.v1/condition/prone).
       icon: "\U0001F464"
       name: Guarding Gale
     - cost: 5 Malice
       distance: 4 x 2 line within 1
+      effects:
+        - effect: The damage dealt by this ability matches a damage type the draconian has immunity to.
+          name: Special
+          roll: Power Roll + 3
+          tier1: 6 damage
+          tier2: 10 damage
+          tier3: 13 damage
       icon: "\U0001F533"
       keywords:
         - Area
@@ -23,6 +32,13 @@ features:
       usage: Main action
     - cost: 7 Malice
       distance: 2 burst
+      effects:
+        - roll: Power Roll + 3
+          tier1: 7 damage
+          tier2: 13 damage
+          tier3: 16 damage
+        - effect: The draconian's scales shatter from battle damage. The draconian has damage weakness 5 but can take two turns per round until the end of the encounter.
+          name: Effect
       icon: ❇️
       keywords:
         - Area

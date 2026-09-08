@@ -8,6 +8,8 @@ features:
           tier1: 2 acid damage
           tier2: 3 cold damage
           tier3: 5 lightning damage; the target can't use magic abilities (EoT)
+        - effect: The target takes a bane on their next power roll.
+          name: Effect
       feature_type: ability
       icon: "\U0001F5E1"
       keywords:

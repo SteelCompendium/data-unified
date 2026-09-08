@@ -3,6 +3,12 @@
     {
       "cost": "3 Malice",
       "distance": "5 cube within 3",
+      "effects": [
+        {
+          "effect": "A time raider acting this turn activates a gravity well in the area. The gravity well sits at the center of the cube and lasts until the end of the encounter, or until a creature [adjacent](scc.v1:mcdm.heroes.v1/rule.combat/adjacent) to the well uses a maneuver to deactivate it. The area is [difficult terrain](scc.v1:mcdm.heroes.v1/movement/difficult-terrain) for enemies. Any enemy who ends their turn in the area is [pulled](scc.v1:mcdm.heroes.v1/movement/forced-movement) up to 4 squares toward the well.",
+          "name": "Effect"
+        }
+      ],
       "icon": "🔳",
       "keywords": [
         "Area",
@@ -23,11 +29,24 @@
     {
       "body": "Until the end of the round, each time raider gains a +3 bonus to speed, and can [teleport](scc.v1:mcdm.heroes.v1/movement/teleport) up to their speed as a move action.",
       "cost": "5 Malice",
+      "effects": [
+        {
+          "effect": "Until the end of the round, each time raider gains a +3 bonus to speed, and can [teleport](scc.v1:mcdm.heroes.v1/movement/teleport) up to their speed as a move action."
+        }
+      ],
       "icon": "⭐️",
       "name": "Recall Module"
     },
     {
       "cost": "10 Malice",
+      "effects": [
+        {
+          "effect": "All time raiders in the encounter collectively create a psionic field over the encounter map, which lasts until the first time raider with the highest [Stamina](scc.v1:mcdm.heroes.v1/rule.health/stamina) maximum drops to 0 [Stamina](scc.v1:mcdm.heroes.v1/rule.health/stamina) or chooses to end the field (no action required). While the field is up, each non-time raider on the map makes a **Reason test** against this psionic effect at the start of each round.",
+          "tier1": "10 psychic damage; [slowed](scc.v1:mcdm.heroes.v1/condition/slowed) (EoT)",
+          "tier2": "7 psychic damage; [slowed](scc.v1:mcdm.heroes.v1/condition/slowed) (EoT)",
+          "tier3": "No effect."
+        }
+      ],
       "icon": "🌀",
       "intro": "All time raiders in the encounter collectively create a psionic field over the encounter map, which lasts until the first time raider with the highest [Stamina](scc.v1:mcdm.heroes.v1/rule.health/stamina) maximum drops to 0 [Stamina](scc.v1:mcdm.heroes.v1/rule.health/stamina) or chooses to end the field (no action required). While the field is up, each non-time raider on the map makes a **Reason test** against this psionic effect at the start of each round.",
       "name": "Psi-Cage",

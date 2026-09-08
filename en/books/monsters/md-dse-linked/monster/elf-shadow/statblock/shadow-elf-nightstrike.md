@@ -40,6 +40,8 @@ features:
           tier1: 3 damage
           tier2: 5 damage
           tier3: 7 damage
+        - effect: The nightstrike shifts to leap over the target and into an unoccupied space adjacent to the target, opposite from the nightstrike's original space.
+          name: Effect
       feature_type: ability
       icon: "\U0001F5E1"
       keywords:

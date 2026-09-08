@@ -37,6 +37,8 @@ features:
           tier1: 7 damage
           tier2: 11 damage
           tier3: 14 damage; A < 2 [bleeding](../../../../condition/bleeding.md) (save ends)
+        - cost: 1 Malice
+          effect: The shadow can [teleport](../../../../movement/teleport.md) up to 5 squares, then can attempt to hide.
       feature_type: ability
       icon: "\U0001F5E1"
       keywords:
@@ -49,7 +51,8 @@ features:
       usage: Main action
     - distance: Self
       effects:
-        - effect: '**Effect:** The shadow coats their weapon with poison. They gain an edge on their next [strike](../../../../rule/combat/strike.md), and any [potency](../../../../rule/character/potency.md) for that strike increases by 1.'
+        - effect: The shadow coats their weapon with poison. They gain an edge on their next [strike](../../../../rule/combat/strike.md), and any [potency](../../../../rule/character/potency.md) for that strike increases by 1.
+          name: Effect
       feature_type: ability
       icon: "\U0001F464"
       keywords: []

@@ -8,6 +8,8 @@ features:
           tier1: 10 damage
           tier2: 15 damage; M < 2 [slowed](scc.v1:mcdm.heroes.v1/condition/slowed) (save ends)
           tier3: 18 damage; M < 3 [slowed](scc.v1:mcdm.heroes.v1/condition/slowed) (save ends)
+        - cost: 1 Malice
+          effect: The glutton regains [Stamina](scc.v1:mcdm.heroes.v1/rule.health/stamina) equal to the damage dealt.
       feature_type: ability
       icon: "\U0001F5E1"
       keywords:
@@ -21,7 +23,8 @@ features:
     - cost: 3 Malice
       distance: Self
       effects:
-        - effect: '**Effect:** The glutton [shifts](scc.v1:mcdm.heroes.v1/movement/shifting) up to their speed in a straight line, ignoring [difficult terrain](scc.v1:mcdm.heroes.v1/movement/difficult-terrain). The first time during this movement that the glutton moves through the space of a creature or object their size or smaller, that creature or object takes 10 damage, or a creature can choose to fall [prone](scc.v1:mcdm.heroes.v1/condition/prone) instead. If the glutton moves into a creature or object larger than them and doesn''t knock the creature [prone](scc.v1:mcdm.heroes.v1/condition/prone) or destroy the object, the glutton''s movement ends and they are [dazed](scc.v1:mcdm.heroes.v1/condition/dazed) until the end of their next turn.'
+        - effect: The glutton [shifts](scc.v1:mcdm.heroes.v1/movement/shifting) up to their speed in a straight line, ignoring [difficult terrain](scc.v1:mcdm.heroes.v1/movement/difficult-terrain). The first time during this movement that the glutton moves through the space of a creature or object their size or smaller, that creature or object takes 10 damage, or a creature can choose to fall [prone](scc.v1:mcdm.heroes.v1/condition/prone) instead. If the glutton moves into a creature or object larger than them and doesn't knock the creature [prone](scc.v1:mcdm.heroes.v1/condition/prone) or destroy the object, the glutton's movement ends and they are [dazed](scc.v1:mcdm.heroes.v1/condition/dazed) until the end of their next turn.
+          name: Effect
       feature_type: ability
       icon: "\U0001F464"
       keywords: []
@@ -31,7 +34,8 @@ features:
       usage: Main action
     - distance: Self
       effects:
-        - effect: '**Effect:** Until the start of their next turn, the glutton has a double edge on strikes, and strikes made against them gain an edge.'
+        - effect: Until the start of their next turn, the glutton has a double edge on strikes, and strikes made against them gain an edge.
+          name: Effect
       feature_type: ability
       icon: "\U0001F464"
       keywords: []
@@ -42,15 +46,15 @@ features:
     - cost: 1 Malice
       distance: Melee 1
       effects:
-        - effect: |-
-            **Trigger:** The glutton is reduced to 0 [Stamina](scc.v1:mcdm.heroes.v1/rule.health/stamina) but doesn't die.
-            **Effect:** The glutton uses Voracious Mastication against an [adjacent](scc.v1:mcdm.heroes.v1/rule.combat/adjacent) creature.
+        - effect: The glutton uses Voracious Mastication against an [adjacent](scc.v1:mcdm.heroes.v1/rule.combat/adjacent) creature.
+          name: Effect
       feature_type: ability
       icon: ❗️
       keywords:
         - Melee
       name: Spiteful Retort
       target: The triggering creature
+      trigger: The glutton is reduced to 0 [Stamina](scc.v1:mcdm.heroes.v1/rule.health/stamina) but doesn't die.
       type: feature
       usage: Free triggered action
     - effects:

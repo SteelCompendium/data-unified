@@ -11,6 +11,10 @@
           "tier1": "4 damage",
           "tier2": "7 damage; M \u003c 3 [prone](scc.v1:mcdm.heroes.v1/condition/prone)",
           "tier3": "8 damage; [prone](scc.v1:mcdm.heroes.v1/condition/prone)"
+        },
+        {
+          "effect": "A target who is already [prone](scc.v1:mcdm.heroes.v1/condition/prone) takes an extra 4 damage.",
+          "name": "Effect"
         }
       ],
       "feature_type": "ability",

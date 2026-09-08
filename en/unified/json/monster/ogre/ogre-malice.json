@@ -2,6 +2,14 @@
   "features": [
     {
       "cost": "3 Malice",
+      "effects": [
+        {
+          "effect": "One ogre acting this turn jumps and lands on their rear, causing a 3 burst shockwave. Each size 1 creature in the area makes a **Might test** or **Agility test**.",
+          "tier1": "5 damage; vertical [push](scc.v1:mcdm.heroes.v1/movement/forced-movement) 3",
+          "tier2": "4 damage; vertical [push](scc.v1:mcdm.heroes.v1/movement/forced-movement) 2",
+          "tier3": "[Push](scc.v1:mcdm.heroes.v1/movement/forced-movement) 1"
+        }
+      ],
       "icon": "❇️",
       "intro": "One ogre acting this turn jumps and lands on their rear, causing a 3 burst shockwave. Each size 1 creature in the area makes a **Might test** or **Agility test**.",
       "name": "Shockwave",
@@ -16,12 +24,22 @@
     {
       "body": "Each ogre in the encounter [shifts](scc.v1:mcdm.heroes.v1/movement/shifting) up to their speed and can make a [free strike](scc.v1:mcdm.heroes.v1/feature.common.main-actions/free-strike). If they can, they gang up on the same target rather than picking different targets.",
       "cost": "5 Malice",
+      "effects": [
+        {
+          "effect": "Each ogre in the encounter [shifts](scc.v1:mcdm.heroes.v1/movement/shifting) up to their speed and can make a [free strike](scc.v1:mcdm.heroes.v1/feature.common.main-actions/free-strike). If they can, they gang up on the same target rather than picking different targets."
+        }
+      ],
       "icon": "🌀",
       "name": "Bully"
     },
     {
       "body": "Until the end of the round, each ogre has damage immunity 5 and deals an extra 5 damage with abilities, and heroic abilities that target any ogre have their Heroic Resource cost reduced by 1 (to a minimum of 1).",
       "cost": "7 Malice",
+      "effects": [
+        {
+          "effect": "Until the end of the round, each ogre has damage immunity 5 and deals an extra 5 damage with abilities, and heroic abilities that target any ogre have their Heroic Resource cost reduced by 1 (to a minimum of 1)."
+        }
+      ],
       "icon": "⭐️",
       "name": "Rampage"
     }

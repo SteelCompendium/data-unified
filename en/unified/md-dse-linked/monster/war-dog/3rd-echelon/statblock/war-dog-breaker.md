@@ -51,7 +51,8 @@ features:
       usage: Main action
     - distance: Self
       effects:
-        - effect: '**Effect:** Until the start of their next turn, the breaker has a double edge on abilities and is automatically affected by all [potency](../../../../rule/character/potency.md) effect.'
+        - effect: Until the start of their next turn, the breaker has a double edge on abilities and is automatically affected by all [potency](../../../../rule/character/potency.md) effect.
+          name: Effect
       feature_type: ability
       icon: "\U0001F464"
       keywords: []

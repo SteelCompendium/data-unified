@@ -1,15 +1,30 @@
 ---
 features:
     - body: Destroying a square of the frozen pond turns the square into shallow icy water.
+      effects:
+        - effect: Destroying a square of the frozen pond turns the square into shallow icy water.
       icon: "\U0001F300"
       name: Deactivate
     - body: A creature or object enters a square of the frozen pond without [shifting](scc.v1:mcdm.heroes.v1/movement/shifting).
+      effects:
+        - effect: A creature or object enters a square of the frozen pond without [shifting](scc.v1:mcdm.heroes.v1/movement/shifting).
+        - effect: The **Slippery Surface** ability.
+          name: Effect
       icon: ❕
       name: Activate
       sections:
         - label: Effect
           text: The **Slippery Surface** ability.
     - distance: Melee 0
+      effects:
+        - effect: A creature or object enters a square of the frozen pond without [shifting](scc.v1:mcdm.heroes.v1/movement/shifting).
+          name: Trigger
+          roll: Power Roll + 2
+          tier1: Push 1 in the direction the target was moving
+          tier2: Push 2 in the direction the target was moving; A < 1 [slowed](scc.v1:mcdm.heroes.v1/condition/slowed) ([save](scc.v1:mcdm.heroes.v1/rule.general/saving-throw) ends)
+          tier3: Push 3 in the direction the target was moving; A < 2 [prone](scc.v1:mcdm.heroes.v1/condition/prone) and can't stand ([save](scc.v1:mcdm.heroes.v1/rule.general/saving-throw) ends)
+        - effect: The triggering creature's movement ends, then they are [force moved](scc.v1:mcdm.heroes.v1/movement/forced-movement). If the target triggered this ability by being [force moved](scc.v1:mcdm.heroes.v1/movement/forced-movement), this ability gains an edge and any remaining [forced movement](scc.v1:mcdm.heroes.v1/movement/forced-movement) distance is added to the ability's [forced movement](scc.v1:mcdm.heroes.v1/movement/forced-movement). The ability's [forced movement](scc.v1:mcdm.heroes.v1/movement/forced-movement) doesn't trigger the ability again.
+          name: Effect
       icon: ❗️
       keywords:
         - Melee
@@ -32,6 +47,9 @@ features:
         **Thin Ice (+1 EV)** The ice covering the pond is thin and the water is deeper. Whenever a creature or object enters or falls [prone](scc.v1:mcdm.heroes.v1/condition/prone) in a square of the frozen pond, that square is destroyed and replaced with icy water. The **Icy Water** ability replaces **Slippery Surface**.
 
         Any creature who starts their turn in the icy water takes 1 cold damage. If the water is deep enough, a creature can swim beneath the surface of the frozen pond, but takes this cold damage while doing so.
+      effects:
+        - effect: '**Thin Ice (+1 EV)** The ice covering the pond is thin and the water is deeper. Whenever a creature or object enters or falls [prone](scc.v1:mcdm.heroes.v1/condition/prone) in a square of the frozen pond, that square is destroyed and replaced with icy water. The **Icy Water** ability replaces **Slippery Surface**.'
+        - effect: Any creature who starts their turn in the icy water takes 1 cold damage. If the water is deep enough, a creature can swim beneath the surface of the frozen pond, but takes this cold damage while doing so.
       icon: ⭐️
       name: Upgrade
 file_basename: frozen-pond
@@ -60,15 +78,30 @@ type: dynamic-terrain
 ```ds-fb
 features:
     - body: Destroying a square of the frozen pond turns the square into shallow icy water.
+      effects:
+        - effect: Destroying a square of the frozen pond turns the square into shallow icy water.
       icon: "\U0001F300"
       name: Deactivate
     - body: A creature or object enters a square of the frozen pond without [shifting](scc.v1:mcdm.heroes.v1/movement/shifting).
+      effects:
+        - effect: A creature or object enters a square of the frozen pond without [shifting](scc.v1:mcdm.heroes.v1/movement/shifting).
+        - effect: The **Slippery Surface** ability.
+          name: Effect
       icon: ❕
       name: Activate
       sections:
         - label: Effect
           text: The **Slippery Surface** ability.
     - distance: Melee 0
+      effects:
+        - effect: A creature or object enters a square of the frozen pond without [shifting](scc.v1:mcdm.heroes.v1/movement/shifting).
+          name: Trigger
+          roll: Power Roll + 2
+          tier1: Push 1 in the direction the target was moving
+          tier2: Push 2 in the direction the target was moving; A < 1 [slowed](scc.v1:mcdm.heroes.v1/condition/slowed) ([save](scc.v1:mcdm.heroes.v1/rule.general/saving-throw) ends)
+          tier3: Push 3 in the direction the target was moving; A < 2 [prone](scc.v1:mcdm.heroes.v1/condition/prone) and can't stand ([save](scc.v1:mcdm.heroes.v1/rule.general/saving-throw) ends)
+        - effect: The triggering creature's movement ends, then they are [force moved](scc.v1:mcdm.heroes.v1/movement/forced-movement). If the target triggered this ability by being [force moved](scc.v1:mcdm.heroes.v1/movement/forced-movement), this ability gains an edge and any remaining [forced movement](scc.v1:mcdm.heroes.v1/movement/forced-movement) distance is added to the ability's [forced movement](scc.v1:mcdm.heroes.v1/movement/forced-movement). The ability's [forced movement](scc.v1:mcdm.heroes.v1/movement/forced-movement) doesn't trigger the ability again.
+          name: Effect
       icon: ❗️
       keywords:
         - Melee
@@ -91,6 +124,9 @@ features:
         **Thin Ice (+1 EV)** The ice covering the pond is thin and the water is deeper. Whenever a creature or object enters or falls [prone](scc.v1:mcdm.heroes.v1/condition/prone) in a square of the frozen pond, that square is destroyed and replaced with icy water. The **Icy Water** ability replaces **Slippery Surface**.
 
         Any creature who starts their turn in the icy water takes 1 cold damage. If the water is deep enough, a creature can swim beneath the surface of the frozen pond, but takes this cold damage while doing so.
+      effects:
+        - effect: '**Thin Ice (+1 EV)** The ice covering the pond is thin and the water is deeper. Whenever a creature or object enters or falls [prone](scc.v1:mcdm.heroes.v1/condition/prone) in a square of the frozen pond, that square is destroyed and replaced with icy water. The **Icy Water** ability replaces **Slippery Surface**.'
+        - effect: Any creature who starts their turn in the icy water takes 1 cold damage. If the water is deep enough, a creature can swim beneath the surface of the frozen pond, but takes this cold damage while doing so.
       icon: ⭐️
       name: Upgrade
 flavor: A shallow, frozen patch of water features ice thick enough that it won't break, but its surface is slick and treacherous to navigate.

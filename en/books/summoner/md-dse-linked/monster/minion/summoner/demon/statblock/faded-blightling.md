@@ -45,6 +45,8 @@ features:
           tier1: 7 corruption [damage](../../../../../rule/damage/damage.md); P < WEAK [bleeding](../../../../../condition/bleeding.md) (EoT)
           tier2: 11 corruption [damage](../../../../../rule/damage/damage.md); P < AVERAGE [bleeding](../../../../../condition/bleeding.md) (EoT)
           tier3: 16 corruption [damage](../../../../../rule/damage/damage.md); P < STRONG [bleeding](../../../../../condition/bleeding.md) (EoT)
+        - effect: Instead of taking [damage](../../../../../rule/damage/damage.md), you or an ally targeted by this ability impose a double [bane](../../../../../rule/dice/bane.md) on the next [strike](../../../../../rule/combat/strike.md) that targets them.
+          name: Effect
       feature_type: ability
       icon: "\U0001F3F9"
       keywords:

@@ -40,6 +40,8 @@ features:
           tier1: 3 damage; push 1
           tier2: 6 damage; push 2
           tier3: 7 damage; push 3
+        - effect: Any target [adjacent](../../../rule/combat/adjacent.md) to two or more clerks is [taunted](../../../condition/taunted.md) until the end of their next turn.
+          name: Effect
       feature_type: ability
       icon: "\U0001F5E1"
       keywords:

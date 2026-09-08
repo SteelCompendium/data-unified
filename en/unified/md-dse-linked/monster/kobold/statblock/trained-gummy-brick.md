@@ -40,6 +40,10 @@ features:
           tier1: 7 acid damage; A < 0 [dazed](../../../condition/dazed.md) (save ends)
           tier2: 10 acid damage; A < 1 [dazed](../../../condition/dazed.md) (save ends)
           tier3: 14 acid damage; A < 2 [restrained](../../../condition/restrained.md) (save ends)
+        - effect: A size 2 or smaller creature [restrained](../../../condition/restrained.md) this way is [pulled](../../../movement/forced-movement.md) into the brick's space, moves with the brick, and takes 4 acid damage at the start of each of their turns. An engulfed creature who is no longer [restrained](../../../condition/restrained.md) moves to the nearest unoccupied space [adjacent](../../../rule/combat/adjacent.md) to the brick. The brick can have as many creatures or objects engulfed as will fit within their space.
+          name: Effect
+        - cost: 2 Malice
+          effect: This ability targets one additional target.
       feature_type: ability
       icon: "\U0001F5E1"
       keywords:
@@ -52,14 +56,14 @@ features:
       usage: Main action
     - distance: Self
       effects:
-        - effect: |-
-            **Trigger:** A creature moves or is [force moved](../../../movement/forced-movement.md) [adjacent](../../../rule/combat/adjacent.md) to the brick.
-            **Effect:** The brick uses Engulf against the triggering creature and has a double edge.
+        - effect: The brick uses Engulf against the triggering creature and has a double edge.
+          name: Effect
       feature_type: ability
       icon: ❗️
       keywords: []
       name: You Didn't Pay Attention!
       target: One creature or object
+      trigger: A creature moves or is [force moved](../../../movement/forced-movement.md) [adjacent](../../../rule/combat/adjacent.md) to the brick.
       type: feature
       usage: Free triggered action
     - effects:

@@ -40,6 +40,8 @@ features:
           tier1: 2 fire damage
           tier2: 5 fire damage; [push](../../../movement/forced-movement.md) 1
           tier3: 6 fire damage; [push](../../../movement/forced-movement.md) 2
+        - effect: The fireballer can jump up to 4 squares before using this ability.
+          name: Effect
       feature_type: ability
       icon: ❇️
       keywords:

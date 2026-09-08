@@ -2,6 +2,13 @@
 features:
     - cost: Encounter
       distance: Ranged 10
+      effects:
+        - roll: Power Roll + highest characteristic
+          tier1: 6 corruption damage; the target has 1 level of drain
+          tier2: 10 corruption damage; the target has 2 levels of drain
+          tier3: 14 corruption damage; the target has 3 levels of drain
+        - effect: The next creature to make a [strike](scc.v1:mcdm.heroes.v1/rule.combat/strike) against the target gains 1 [surge](scc.v1:mcdm.heroes.v1/rule.resource/surge) for each level of drain, which must be used on that [strike](scc.v1:mcdm.heroes.v1/rule.combat/strike).
+          name: Effect
       icon: "\U0001F3F9"
       keywords:
         - Magic
@@ -22,6 +29,11 @@ features:
       usage: Main action
     - cost: Encounter
       distance: 3 cube within 1
+      effects:
+        - roll: Power Roll + highest characteristic
+          tier1: A < WEAK [slowed](scc.v1:mcdm.heroes.v1/condition/slowed) and [weakened](scc.v1:mcdm.heroes.v1/condition/weakened) ([save](scc.v1:mcdm.heroes.v1/rule.general/saving-throw) ends)
+          tier2: A < AVERAGE [slowed](scc.v1:mcdm.heroes.v1/condition/slowed) and [weakened](scc.v1:mcdm.heroes.v1/condition/weakened) ([save](scc.v1:mcdm.heroes.v1/rule.general/saving-throw) ends)
+          tier3: A < STRONG [slowed](scc.v1:mcdm.heroes.v1/condition/slowed) and [weakened](scc.v1:mcdm.heroes.v1/condition/weakened) ([save](scc.v1:mcdm.heroes.v1/rule.general/saving-throw) ends)
       icon: "\U0001F533"
       keywords:
         - Area
@@ -38,6 +50,9 @@ features:
       usage: Main action
     - cost: Encounter
       distance: Ranged 5
+      effects:
+        - effect: If the target has P < STRONG, they are phased until the end of their next turn. A phased target gains the unquiet spirit's Corruptive Phasing trait and can [fly](scc.v1:mcdm.heroes.v1/movement/fly). They are visible but can't affect or be affed by other creatures or objects. A willing creature not subject to the ability's [potency](scc.v1:mcdm.heroes.v1/rule.character/potency) can choose to automatically be affected.
+          name: Effect
       icon: "\U0001F3F9"
       keywords:
         - Magic

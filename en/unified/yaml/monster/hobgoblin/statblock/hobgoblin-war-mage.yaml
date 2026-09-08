@@ -8,6 +8,8 @@ features:
           tier1: 5 fire damage; M < 1 [weakened](scc.v1:mcdm.heroes.v1/condition/weakened) (save ends)
           tier2: 9 fire damage; M < 2 [weakened](scc.v1:mcdm.heroes.v1/condition/weakened) (save ends)
           tier3: 11 fire damage; M < 3 [weakened](scc.v1:mcdm.heroes.v1/condition/weakened) (save ends)
+        - effect: Before using this ability, the war mage can [teleport](scc.v1:mcdm.heroes.v1/movement/teleport) a creature within 10 squares of them up to 2 squares.
+          name: Effect
       feature_type: ability
       icon: "\U0001F533"
       keywords:
@@ -20,7 +22,8 @@ features:
       usage: Main action
     - distance: Ranged 10
       effects:
-        - effect: '**Effect:** Each target gains 10 temporary [Stamina](scc.v1:mcdm.heroes.v1/rule.health/stamina) and has a double edge on their next power roll. The war mage can spend any amount of their current [Stamina](scc.v1:mcdm.heroes.v1/rule.health/stamina) to increase the temporary [Stamina](scc.v1:mcdm.heroes.v1/rule.health/stamina) each target gains by an equivalent amount.'
+        - effect: Each target gains 10 temporary [Stamina](scc.v1:mcdm.heroes.v1/rule.health/stamina) and has a double edge on their next power roll. The war mage can spend any amount of their current [Stamina](scc.v1:mcdm.heroes.v1/rule.health/stamina) to increase the temporary [Stamina](scc.v1:mcdm.heroes.v1/rule.health/stamina) each target gains by an equivalent amount.
+          name: Effect
       feature_type: ability
       icon: "\U0001F3F9"
       keywords:
@@ -33,7 +36,8 @@ features:
     - cost: 3 Malice
       distance: 5 cube within 10
       effects:
-        - effect: '**Effect:** The war mage consecrates the area and causes it to smolder until the end of the encounter. The area is [difficult terrain](scc.v1:mcdm.heroes.v1/movement/difficult-terrain) and an enemy in the area has fire weakness 10.'
+        - effect: The war mage consecrates the area and causes it to smolder until the end of the encounter. The area is [difficult terrain](scc.v1:mcdm.heroes.v1/movement/difficult-terrain) and an enemy in the area has fire weakness 10.
+          name: Effect
       feature_type: ability
       icon: "\U0001F533"
       keywords:
@@ -46,9 +50,8 @@ features:
       usage: Maneuver
     - distance: Ranged 10
       effects:
-        - effect: |-
-            **Trigger:** A creature within distance uses a magic ability.
-            **Effect:** Any damage dealt or [Stamina](scc.v1:mcdm.heroes.v1/rule.health/stamina) regained from the creature's ability is halved. The war mage regains [Stamina](scc.v1:mcdm.heroes.v1/rule.health/stamina) equal to the remaining damage dealt or [Stamina](scc.v1:mcdm.heroes.v1/rule.health/stamina) regained.
+        - effect: Any damage dealt or [Stamina](scc.v1:mcdm.heroes.v1/rule.health/stamina) regained from the creature's ability is halved. The war mage regains [Stamina](scc.v1:mcdm.heroes.v1/rule.health/stamina) equal to the remaining damage dealt or [Stamina](scc.v1:mcdm.heroes.v1/rule.health/stamina) regained.
+          name: Effect
       feature_type: ability
       icon: ❗️
       keywords:
@@ -56,6 +59,7 @@ features:
         - Ranged
       name: Magic Siphon
       target: The triggering creature
+      trigger: A creature within distance uses a magic ability.
       type: feature
       usage: Triggered action
     - effects:

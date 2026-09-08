@@ -40,6 +40,8 @@ features:
           tier1: 7 damage; M < 3 [grabbed](scc.v1:mcdm.heroes.v1/condition/grabbed)
           tier2: 10 damage; M < 4 [grabbed](scc.v1:mcdm.heroes.v1/condition/grabbed)
           tier3: 11 damage; [grabbed](scc.v1:mcdm.heroes.v1/condition/grabbed)
+        - effect: A 3-[cube](scc.v1:mcdm.heroes.v1/rule.combat/cube) area of ground centered on the target is [difficult terrain](scc.v1:mcdm.heroes.v1/movement/difficult-terrain) for enemies.
+          name: Effect
       feature_type: ability
       icon: "\U0001F5E1"
       keywords:
@@ -57,6 +59,8 @@ features:
           tier1: 3 corruption damage; I < 2 [frightened](scc.v1:mcdm.heroes.v1/condition/frightened) (save ends)
           tier2: 6 corruption damage; I < 3 [frightened](scc.v1:mcdm.heroes.v1/condition/frightened) (save ends)
           tier3: 7 corruption damage; I < 4 [frightened](scc.v1:mcdm.heroes.v1/condition/frightened) (save ends)
+        - effect: A target [frightened](scc.v1:mcdm.heroes.v1/condition/frightened) this way is [frightened](scc.v1:mcdm.heroes.v1/condition/frightened) of all [undead](scc.v1:mcdm.monsters.v1/rule.keyword/undead). This effect ends early if the mournling is destroyed.
+          name: Effect
       feature_type: ability
       icon: ❇️
       keywords:

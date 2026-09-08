@@ -40,6 +40,8 @@ features:
           tier1: 4 poison damage
           tier2: 6 poison damage
           tier3: 7 poison damage
+        - cost: 2 Malice
+          effect: A target who has M < 2 is [weakened](../../../condition/weakened.md) (save ends). A target [weakened](../../../condition/weakened.md) this way takes 2 poison damage at the start of each of their turns.
       feature_type: ability
       icon: "\U0001F3F9"
       keywords:

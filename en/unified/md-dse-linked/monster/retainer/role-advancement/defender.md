@@ -2,6 +2,11 @@
 features:
     - cost: Encounter
       distance: Melee 1
+      effects:
+        - effect: The target takes damage from a strike.
+          name: Trigger
+        - effect: The retainer [pushes](../../../movement/forced-movement.md) the target or the attacking creature up to 2 squares. If that moves the mentor out of distance of the strike, the strike has no effect.
+          name: Effect
       icon: ❗️
       keywords:
         - Melee
@@ -16,6 +21,11 @@ features:
       usage: Triggered action
     - cost: Encounter
       distance: Melee 1
+      effects:
+        - roll: Power Roll + highest characteristic
+          tier1: 7 damage; [taunted](../../../condition/taunted.md) (EoT)
+          tier2: 11 damage; [taunted](../../../condition/taunted.md) ([save](../../../rule/general/saving-throw.md) ends)
+          tier3: 16 damage; [taunted](../../../condition/taunted.md) ([save](../../../rule/general/saving-throw.md) ends)
       icon: "\U0001F5E1"
       keywords:
         - Melee
@@ -33,6 +43,13 @@ features:
       usage: Main action
     - cost: Encounter
       distance: Melee 1
+      effects:
+        - roll: Power Roll + highest characteristic
+          tier1: 8 damage
+          tier2: 13 damage
+          tier3: 17 damage
+        - effect: The retainer and their mentor each gain 10 [temporary Stamina](../../../rule/health/temporary-stamina.md). Additionally, each [winded](../../../rule/health/winded.md) ally within 2 squares of the retainer can spend a [Recovery](../../../rule/health/recoveries.md).
+          name: Effect
       icon: "\U0001F5E1"
       keywords:
         - Melee
@@ -64,6 +81,11 @@ type: featureblock
 features:
     - cost: Encounter
       distance: Melee 1
+      effects:
+        - effect: The target takes damage from a strike.
+          name: Trigger
+        - effect: The retainer [pushes](../../../movement/forced-movement.md) the target or the attacking creature up to 2 squares. If that moves the mentor out of distance of the strike, the strike has no effect.
+          name: Effect
       icon: ❗️
       keywords:
         - Melee
@@ -78,6 +100,11 @@ features:
       usage: Triggered action
     - cost: Encounter
       distance: Melee 1
+      effects:
+        - roll: Power Roll + highest characteristic
+          tier1: 7 damage; [taunted](../../../condition/taunted.md) (EoT)
+          tier2: 11 damage; [taunted](../../../condition/taunted.md) ([save](../../../rule/general/saving-throw.md) ends)
+          tier3: 16 damage; [taunted](../../../condition/taunted.md) ([save](../../../rule/general/saving-throw.md) ends)
       icon: "\U0001F5E1"
       keywords:
         - Melee
@@ -95,6 +122,13 @@ features:
       usage: Main action
     - cost: Encounter
       distance: Melee 1
+      effects:
+        - roll: Power Roll + highest characteristic
+          tier1: 8 damage
+          tier2: 13 damage
+          tier3: 17 damage
+        - effect: The retainer and their mentor each gain 10 [temporary Stamina](../../../rule/health/temporary-stamina.md). Additionally, each [winded](../../../rule/health/winded.md) ally within 2 squares of the retainer can spend a [Recovery](../../../rule/health/recoveries.md).
+          name: Effect
       icon: "\U0001F5E1"
       keywords:
         - Melee

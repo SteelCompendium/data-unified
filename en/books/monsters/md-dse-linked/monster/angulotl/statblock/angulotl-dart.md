@@ -41,6 +41,8 @@ features:
           tier1: 2 poison damage
           tier2: 4 poison damage
           tier3: 5 poison damage
+        - effect: The dart gains an [edge](../../../rule/dice/edge.md) on this ability against any target who has less than full [Stamina](../../../rule/health/stamina.md).
+          name: Effect
       feature_type: ability
       icon: "\U0001F3F9"
       keywords:

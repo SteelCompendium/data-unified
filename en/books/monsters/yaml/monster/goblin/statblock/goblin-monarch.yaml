@@ -8,6 +8,8 @@ features:
           tier1: 7 damage
           tier2: 10 damage
           tier3: 13 damage
+        - effect: One ally within 10 squares of the monarch can make a [free strike](scc.v1:mcdm.heroes.v1/feature.common.main-actions/free-strike).
+          name: Effect
       feature_type: ability
       icon: ⚔️
       keywords:
@@ -22,7 +24,8 @@ features:
     - cost: 1 Malice
       distance: Ranged 20
       effects:
-        - effect: '**Effect:** Two goblin runners appear in unoccupied spaces within distance.'
+        - effect: Two goblin runners appear in unoccupied spaces within distance.
+          name: Effect
       feature_type: ability
       icon: "\U0001F3F9"
       keywords:
@@ -33,15 +36,15 @@ features:
       usage: Maneuver
     - distance: Melee 1
       effects:
-        - effect: |-
-            **Trigger:** A creature targets the monarch with a strike.
-            **Effect:** The ally is the target of the triggering strike instead.
+        - effect: The ally is the target of the triggering strike instead.
+          name: Effect
       feature_type: ability
       icon: ❗️
       keywords:
         - Melee
       name: Meat Shield
       target: One ally
+      trigger: A creature targets the monarch with a strike.
       type: feature
       usage: Triggered action
     - effects:
@@ -59,7 +62,8 @@ features:
     - cost: Villain Action 1
       distance: 10 burst
       effects:
-        - effect: '**Effect:** Each target can move up to their speed or make a [free strike](scc.v1:mcdm.heroes.v1/feature.common.main-actions/free-strike).'
+        - effect: Each target can move up to their speed or make a [free strike](scc.v1:mcdm.heroes.v1/feature.common.main-actions/free-strike).
+          name: Effect
       feature_type: ability
       icon: ☠️
       keywords:
@@ -71,7 +75,8 @@ features:
     - cost: Villain Action 2
       distance: Ranged 10
       effects:
-        - effect: '**Effect:** Each ally within 10 squares of the target can move up to their speed toward the target.'
+        - effect: Each ally within 10 squares of the target can move up to their speed toward the target.
+          name: Effect
       feature_type: ability
       icon: ☠️
       keywords:
@@ -83,7 +88,8 @@ features:
     - cost: Villain Action 3
       distance: Special
       effects:
-        - effect: '**Effect:** Each enemy in the encounter takes 2 damage for each goblin [adjacent](scc.v1:mcdm.heroes.v1/rule.combat/adjacent) to them.'
+        - effect: Each enemy in the encounter takes 2 damage for each goblin [adjacent](scc.v1:mcdm.heroes.v1/rule.combat/adjacent) to them.
+          name: Effect
       feature_type: ability
       icon: ☠️
       keywords: []

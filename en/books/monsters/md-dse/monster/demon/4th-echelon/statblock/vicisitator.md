@@ -39,6 +39,8 @@ features:
           tier1: 9 damage
           tier2: 12 damage
           tier3: 14 damage; I < 5 the target is [slowed](scc.v1:mcdm.heroes.v1/condition/slowed) and [weakened](scc.v1:mcdm.heroes.v1/condition/weakened) (save ends)
+        - effect: The effects of being [slowed](scc.v1:mcdm.heroes.v1/condition/slowed) and [weakened](scc.v1:mcdm.heroes.v1/condition/weakened) this way can't be ignored.
+          name: Special
       feature_type: ability
       icon: ⚔️
       keywords:
@@ -58,6 +60,8 @@ features:
           tier1: 4 psychic damage; P < 3 [bleeding](scc.v1:mcdm.heroes.v1/condition/bleeding) (save ends)
           tier2: 7 psychic damage; P < 4 [bleeding](scc.v1:mcdm.heroes.v1/condition/bleeding) (save ends)
           tier3: 9 psychic damage; P < 5 [bleeding](scc.v1:mcdm.heroes.v1/condition/bleeding) (save ends)
+        - effect: Any creature who is [bleeding](scc.v1:mcdm.heroes.v1/condition/bleeding) from this ability loses 2d6 [Stamina](scc.v1:mcdm.heroes.v1/rule.health/stamina) instead of 1d6.
+          name: Effect
       feature_type: ability
       icon: "\U0001F533"
       keywords:

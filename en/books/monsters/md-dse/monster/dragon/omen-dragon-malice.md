@@ -2,9 +2,16 @@
 features:
     - body: The dragon expands their wings to create a shroud of shadow. Until the start of the dragon's next turn, any strike made against them takes a [bane](scc.v1:mcdm.heroes.v1/rule.dice/bane).
       cost: 3 Malice
+      effects:
+        - effect: The dragon expands their wings to create a shroud of shadow. Until the start of the dragon's next turn, any strike made against them takes a [bane](scc.v1:mcdm.heroes.v1/rule.dice/bane).
       icon: ⭐️
       name: Black Skies
     - cost: 5 Malice
+      effects:
+        - effect: The dragon [flies](scc.v1:mcdm.heroes.v1/movement/fly) up to 10 squares and carries fated souls with them. Each creature in the area of the dragon's Stagnant Wyrmscale Aura [trait](scc.v1:mcdm.monsters.v1/rule.monster/monster-trait) makes a **Presence test**.
+          tier1: Vertical pull 10
+          tier2: Vertical pull 6
+          tier3: Vertical pull 4
       icon: ❇️
       intro: The dragon [flies](scc.v1:mcdm.heroes.v1/movement/fly) up to 10 squares and carries fated souls with them. Each creature in the area of the dragon's Stagnant Wyrmscale Aura [trait](scc.v1:mcdm.monsters.v1/rule.monster/monster-trait) makes a **Presence test**.
       name: Rise and Fall
@@ -15,10 +22,14 @@ features:
             mid: Vertical pull 6
     - body: The dragon takes an additional main action on their turn. They can use this feature even if they are [dazed](scc.v1:mcdm.heroes.v1/condition/dazed).
       cost: 5 Malice
+      effects:
+        - effect: The dragon takes an additional main action on their turn. They can use this feature even if they are [dazed](scc.v1:mcdm.heroes.v1/condition/dazed).
       icon: ☠️
       name: Solo Action
     - body: Each edge of the encounter map burns with intangible purple flames until the end of the encounter. The flames expand by 1 square at the end of every turn. Any enemy takes 5 corruption damage for each square of flames they enter.
       cost: 10 Malice
+      effects:
+        - effect: Each edge of the encounter map burns with intangible purple flames until the end of the encounter. The flames expand by 1 square at the end of every turn. Any enemy takes 5 corruption damage for each square of flames they enter.
       icon: "\U0001F300"
       name: Burn It Right Down
 file_basename: omen-dragon-malice
@@ -37,9 +48,16 @@ type: featureblock
 features:
     - body: The dragon expands their wings to create a shroud of shadow. Until the start of the dragon's next turn, any strike made against them takes a [bane](scc.v1:mcdm.heroes.v1/rule.dice/bane).
       cost: 3 Malice
+      effects:
+        - effect: The dragon expands their wings to create a shroud of shadow. Until the start of the dragon's next turn, any strike made against them takes a [bane](scc.v1:mcdm.heroes.v1/rule.dice/bane).
       icon: ⭐️
       name: Black Skies
     - cost: 5 Malice
+      effects:
+        - effect: The dragon [flies](scc.v1:mcdm.heroes.v1/movement/fly) up to 10 squares and carries fated souls with them. Each creature in the area of the dragon's Stagnant Wyrmscale Aura [trait](scc.v1:mcdm.monsters.v1/rule.monster/monster-trait) makes a **Presence test**.
+          tier1: Vertical pull 10
+          tier2: Vertical pull 6
+          tier3: Vertical pull 4
       icon: ❇️
       intro: The dragon [flies](scc.v1:mcdm.heroes.v1/movement/fly) up to 10 squares and carries fated souls with them. Each creature in the area of the dragon's Stagnant Wyrmscale Aura [trait](scc.v1:mcdm.monsters.v1/rule.monster/monster-trait) makes a **Presence test**.
       name: Rise and Fall
@@ -50,10 +68,14 @@ features:
             mid: Vertical pull 6
     - body: The dragon takes an additional main action on their turn. They can use this feature even if they are [dazed](scc.v1:mcdm.heroes.v1/condition/dazed).
       cost: 5 Malice
+      effects:
+        - effect: The dragon takes an additional main action on their turn. They can use this feature even if they are [dazed](scc.v1:mcdm.heroes.v1/condition/dazed).
       icon: ☠️
       name: Solo Action
     - body: Each edge of the encounter map burns with intangible purple flames until the end of the encounter. The flames expand by 1 square at the end of every turn. Any enemy takes 5 corruption damage for each square of flames they enter.
       cost: 10 Malice
+      effects:
+        - effect: Each edge of the encounter map burns with intangible purple flames until the end of the encounter. The flames expand by 1 square at the end of every turn. Any enemy takes 5 corruption damage for each square of flames they enter.
       icon: "\U0001F300"
       name: Burn It Right Down
 flavor: At the start of an omen dragon's turn, you can spend Malice to activate one of the following features.

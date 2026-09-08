@@ -38,6 +38,8 @@ features:
           tier1: 8 damage; [pull](../../../movement/forced-movement.md) 1
           tier2: 12 damage; [pull](../../../movement/forced-movement.md) 2
           tier3: 15 damage; [pull](../../../movement/forced-movement.md) 3
+        - effect: A target [pulled](../../../movement/forced-movement.md) [adjacent](../../../rule/combat/adjacent.md) to the sunderer is automatically [grabbed](../../../condition/grabbed.md).
+          name: Effect
       feature_type: ability
       icon: "\U0001F5E1"
       keywords:
@@ -56,6 +58,8 @@ features:
           tier1: I < 0 [frightened](../../../condition/frightened.md) (save ends)
           tier2: I < 1 [frightened](../../../condition/frightened.md) (save ends)
           tier3: I < 2 [frightened](../../../condition/frightened.md) (save ends)
+        - effect: Until the end of their next turn, the minotaur has damage immunity 2 and deals an extra 5 damage with strikes.
+          name: Effect
       feature_type: ability
       icon: ❇️
       keywords:
@@ -67,10 +71,14 @@ features:
     - cost: 3 Malice
       distance: Melee 2
       effects:
-        - roll: Power Roll + 2
+        - effect: The target must be [grabbed](../../../condition/grabbed.md) by the sunderer.
+          name: Special
+          roll: Power Roll + 2
           tier1: 5 damage; M < 0 [bleeding](../../../condition/bleeding.md) (save ends)
           tier2: 8 damage; M < 1 [bleeding](../../../condition/bleeding.md) (save ends)
           tier3: 9 damage; M < 2 [bleeding](../../../condition/bleeding.md) (save ends)
+        - effect: While [bleeding](../../../condition/bleeding.md) this way, the target takes 1d6 damage at the start of each of their turns.
+          name: Effect
       feature_type: ability
       icon: "\U0001F5E1"
       keywords:
@@ -84,15 +92,15 @@ features:
       usage: Maneuver
     - distance: Ranged 6
       effects:
-        - effect: |-
-            **Trigger:** A creature within distance deals damage to the sunderer.
-            **Effect:** The sunderer uses the Charge main action and Spiked Maul against the target.
+        - effect: The sunderer uses the Charge main action and Spiked Maul against the target.
+          name: Effect
       feature_type: ability
       icon: ❗️
       keywords:
         - Ranged
       name: Retaliatory Strike
       target: The triggering creature
+      trigger: A creature within distance deals damage to the sunderer.
       type: feature
       usage: Triggered action
     - effects:

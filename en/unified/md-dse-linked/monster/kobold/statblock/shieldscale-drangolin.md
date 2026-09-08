@@ -38,6 +38,8 @@ features:
           tier1: 7 fire damage
           tier2: 10 fire damage
           tier3: 13 fire damage
+        - effect: If the drangolin is size 3, the distance becomes Melee 2.
+          name: Special
       feature_type: ability
       icon: "\U0001F5E1"
       keywords:
@@ -51,7 +53,8 @@ features:
     - cost: 5 Malice
       distance: Self; see below
       effects:
-        - effect: '**Effect:** The drangolin [shifts](../../../movement/shifting.md) up to their speed and uses Fiery Claws against each creature who comes [adjacent](../../../rule/combat/adjacent.md) to them during the shift. The drangolin makes one power roll against all targets.'
+        - effect: The drangolin [shifts](../../../movement/shifting.md) up to their speed and uses Fiery Claws against each creature who comes [adjacent](../../../rule/combat/adjacent.md) to them during the shift. The drangolin makes one power roll against all targets.
+          name: Effect
       feature_type: ability
       icon: "\U0001F464"
       keywords: []
@@ -62,7 +65,9 @@ features:
     - cost: 3 Malice
       distance: 2 burst
       effects:
-        - roll: Power Roll + 2
+        - effect: The drangolin uses the Dig maneuver to breach the surface before using this ability. Each target in the area where the drangolin breaches takes an extra 2 fire damage.
+          name: Effect
+          roll: Power Roll + 2
           tier1: 6 damage; [push](../../../movement/forced-movement.md) 1; A < 0 [prone](../../../condition/prone.md)
           tier2: 8 damage; [push](../../../movement/forced-movement.md) 3; A < 0 [prone](../../../condition/prone.md)
           tier3: 11 damage; [push](../../../movement/forced-movement.md) 5; A < 0 [prone](../../../condition/prone.md)

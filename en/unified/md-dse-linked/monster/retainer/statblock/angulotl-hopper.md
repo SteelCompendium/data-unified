@@ -40,6 +40,8 @@ features:
           tier1: 3 damage
           tier2: 5 damage
           tier3: 7 damage
+        - effect: Before or after making this [strike](../../../rule/combat/strike.md), the hopper jumps up to 2 squares, or up to 4 squares if they jump over their mentor's space.
+          name: Effect
       feature_type: ability
       icon: "\U0001F5E1"
       keywords:

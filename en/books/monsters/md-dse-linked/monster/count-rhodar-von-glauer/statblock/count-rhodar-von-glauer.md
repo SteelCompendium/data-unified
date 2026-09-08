@@ -34,9 +34,10 @@ agility: 5
 ev: "144"
 features:
     - effects:
-        - effect: |-
-            **[End Effect](../../../rule/monster/end-effect.md):** At the end of each of his turns, Rhodar can take 20 damage to end one effect on him that can be ended by a [saving throw](../../../rule/general/saving-throw.md). This damage can't be reduced in any way.
-            **Solo Turns:** Rhodar can take two turns each round. He can't take turns consecutively.
+        - effect: At the end of each of his turns, Rhodar can take 20 damage to end one effect on him that can be ended by a [saving throw](../../../rule/general/saving-throw.md). This damage can't be reduced in any way.
+          name: End Effect
+        - effect: Rhodar can take two turns each round. He can't take turns consecutively.
+          name: Solo Turns
       feature_type: trait
       icon: ☠️
       name: Solo Monster
@@ -60,6 +61,8 @@ features:
           tier1: 13 damage; A < 4 [restrained](../../../condition/restrained.md) (save ends)
           tier2: 18 damage; A < 5 [restrained](../../../condition/restrained.md) (save ends)
           tier3: 21 damage; A < 6 [restrained](../../../condition/restrained.md) (save ends)
+        - effect: A target [restrained](../../../condition/restrained.md) this way is impaled by a spear. Rhodar has four spears, each of which can be used to impale a target. At the start of each of his turns, Rhodar can summon any of his spears back to himself, ending the [restrained](../../../condition/restrained.md) condition on an impaled target.
+          name: Effect
       feature_type: ability
       icon: ⚔️
       keywords:
@@ -74,10 +77,12 @@ features:
       usage: Main action
     - distance: 5 burst
       effects:
-        - roll: ""
+        - effect: Each target makes an Intuition test.
+          name: Effect
           tier1: 16 corruption damage; [frightened](../../../condition/frightened.md) (save ends)
           tier2: 13 corruption damage; [frightened](../../../condition/frightened.md) (EoT)
           tier3: 8 corruption damage
+        - effect: While a target is [frightened](../../../condition/frightened.md) this way, Rhodar ignores banes and double banes on abilities used against them.
       feature_type: ability
       icon: ❇️
       keywords:
@@ -94,6 +99,8 @@ features:
           tier1: 17 corruption damage; M < 4 [bleeding](../../../condition/bleeding.md) (save ends) and [prone](../../../condition/prone.md)
           tier2: 24 corruption damage; [prone](../../../condition/prone.md); M < 5 [bleeding](../../../condition/bleeding.md) (save ends)
           tier3: 30 corruption damage; [prone](../../../condition/prone.md); M < 6 the target is [bleeding](../../../condition/bleeding.md) until the end of the encounter
+        - effect: Rhodar regains [Stamina](../../../rule/health/stamina.md) equal to half the damage dealt.
+          name: Effect
       feature_type: ability
       icon: "\U0001F5E1"
       keywords:
@@ -111,6 +118,8 @@ features:
           tier1: 6 damage, 2 corruption damage; [push](../../../movement/forced-movement.md) 2; M < 4 [bleeding](../../../condition/bleeding.md) (save ends)
           tier2: 6 damage, 7 corruption damage; [push](../../../movement/forced-movement.md) 5; M < 5 [bleeding](../../../condition/bleeding.md) (save ends)
           tier3: 6 damage, 10 corruption damage; [push](../../../movement/forced-movement.md) 7; M < 6 [bleeding](../../../condition/bleeding.md) (save ends)
+        - effect: Rhodar [shifts](../../../movement/shifting.md) up to his speed before or after using this ability. He regains [Stamina](../../../rule/health/stamina.md) equal to half the total corruption damage dealt.
+          name: Effect
       feature_type: ability
       icon: ❇️
       keywords:
@@ -123,7 +132,8 @@ features:
     - cost: 2 Malice
       distance: Two 3 cubes within 5
       effects:
-        - effect: '**Effect:** Each area is saturated with vengeful spirits until the end of the round. Any enemy who enters the area for the first time in a round or starts their turn there takes 5 corruption damage. At the end of the round, the spirits violently disperse. Each enemy within 2 squares of an area and has P < 5 is [weakened](../../../condition/weakened.md) (save ends).'
+        - effect: Each area is saturated with vengeful spirits until the end of the round. Any enemy who enters the area for the first time in a round or starts their turn there takes 5 corruption damage. At the end of the round, the spirits violently disperse. Each enemy within 2 squares of an area and has P < 5 is [weakened](../../../condition/weakened.md) (save ends).
+          name: Effect
       feature_type: ability
       icon: "\U0001F533"
       keywords:
@@ -137,9 +147,8 @@ features:
     - cost: 2 Malice
       distance: Ranged 10
       effects:
-        - effect: |-
-            **Trigger:** A creature within distance makes a strike against Rhodar.
-            **Effect:** A target who has I < 5 is [frightened](../../../condition/frightened.md). This effect ends if the target is 11 or more squares from Rhodar.
+        - effect: A target who has I < 5 is [frightened](../../../condition/frightened.md). This effect ends if the target is 11 or more squares from Rhodar.
+          name: Effect
       feature_type: ability
       icon: ❗️
       keywords:
@@ -147,6 +156,7 @@ features:
         - Ranged
       name: Reactive Rebuke
       target: The triggering creature
+      trigger: A creature within distance makes a strike against Rhodar.
       type: feature
       usage: Triggered Action
     - effects:
@@ -162,6 +172,8 @@ features:
           tier1: 8 corruption damage; A < 4 the target is blood soaked (save ends)
           tier2: 13 corruption damage; A < 5 the target is blood soaked (save ends)
           tier3: 16 corruption damage; A < 6 the target is blood soaked until the end of the encounter
+        - effect: While a creature is blood soaked, Rhodar has a double edge on abilities used against them.
+          name: Effect
       feature_type: ability
       icon: ☠️
       keywords:
@@ -175,10 +187,13 @@ features:
     - cost: Villain Action 2
       distance: 5 burst
       effects:
-        - roll: ""
+        - effect: Each target makes a Presence test.
+          name: Effect
           tier1: 16 corruption damage; the target is [bleeding](../../../condition/bleeding.md) until the end of the encounter
           tier2: 13 corruption damage; [bleeding](../../../condition/bleeding.md) (save ends)
           tier3: 8 corruption damage
+        - effect: Rhodar [teleports](../../../movement/teleport.md) to an unoccupied space in the area. If he has lost the damage immunity from his Grave Ward trait, he regains it.
+          name: Effect
       feature_type: ability
       icon: ☠️
       keywords:
@@ -195,6 +210,8 @@ features:
           tier1: 10 fire damage; R < 4 [weakened](../../../condition/weakened.md) (save ends)
           tier2: 16 fire damage; R < 5 [weakened](../../../condition/weakened.md) (save ends)
           tier3: 20 fire damage; R < 6 [weakened](../../../condition/weakened.md) (save ends)
+        - effect: Rhodar [teleports](../../../movement/teleport.md) to an unoccupied space [adjacent](../../../rule/combat/adjacent.md) to one target after the ability resolve.
+          name: Effect
       feature_type: ability
       icon: ☠️
       keywords:

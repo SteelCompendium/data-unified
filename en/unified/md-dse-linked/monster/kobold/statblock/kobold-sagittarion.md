@@ -38,6 +38,8 @@ features:
           tier1: 2 damage
           tier2: 4 damage
           tier3: 5 damage
+        - effect: While [adjacent](../../../rule/combat/adjacent.md) to any ally, the sagittarion gains an edge on this ability.
+          name: Effect
       feature_type: ability
       icon: "\U0001F3F9"
       keywords:

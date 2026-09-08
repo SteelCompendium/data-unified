@@ -8,6 +8,8 @@ features:
           tier1: 7 damage; [slide](scc.v1:mcdm.heroes.v1/movement/forced-movement) 2
           tier2: 10 damage; [slide](scc.v1:mcdm.heroes.v1/movement/forced-movement) 3
           tier3: 11 damage; [slide](scc.v1:mcdm.heroes.v1/movement/forced-movement) 5
+        - effect: If the target is [force moved](scc.v1:mcdm.heroes.v1/movement/forced-movement) into another creature's space, that creature takes an additional 4 damage and the haunt [slides](scc.v1:mcdm.heroes.v1/movement/forced-movement) them up to 2 squares.
+          name: Effect
       feature_type: ability
       icon: "\U0001F5E1"
       keywords:
@@ -25,6 +27,8 @@ features:
           tier1: 3 damage; I < 2 [prone](scc.v1:mcdm.heroes.v1/condition/prone)
           tier2: 6 damage; I < 3 [prone](scc.v1:mcdm.heroes.v1/condition/prone)
           tier3: 7 damage; I < 4 [prone](scc.v1:mcdm.heroes.v1/condition/prone)
+        - effect: A target knocked [prone](scc.v1:mcdm.heroes.v1/condition/prone) this way can't use the [Stand Up](scc.v1:mcdm.heroes.v1/feature.common.maneuvers/stand-up) maneuver on themself while any haunt is within 20 squares of them.
+          name: Effect
       feature_type: ability
       icon: ❇️
       keywords:

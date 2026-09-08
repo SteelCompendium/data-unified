@@ -8,6 +8,8 @@ features:
           tier1: I < 2 the target is charmed
           tier2: I < 3 the target is charmed
           tier3: I < 4 the target is charmed
+        - effect: As a free [triggered action](scc.v1:mcdm.heroes.v1/rule.combat/triggered-action), a charmed target immediately moves up to their speed and can make a [free strike](scc.v1:mcdm.heroes.v1/feature.common.main-actions/free-strike) against an enemy of Xorannox's choice. The target is then no longer charmed.
+          name: Effect
       feature_type: ability
       icon: "\U0001F3F9"
       keywords:

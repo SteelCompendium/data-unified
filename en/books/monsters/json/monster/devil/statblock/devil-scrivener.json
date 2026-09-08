@@ -11,6 +11,10 @@
           "tier1": "3 corruption damage",
           "tier2": "5 corruption damage; [slowed](scc.v1:mcdm.heroes.v1/condition/slowed) (EoT)",
           "tier3": "6 corruption damage; [slowed](scc.v1:mcdm.heroes.v1/condition/slowed) (EoT)"
+        },
+        {
+          "effect": "The scrivener can [shift](scc.v1:mcdm.heroes.v1/movement/shifting) 1 square.",
+          "name": "Effect"
         }
       ],
       "feature_type": "ability",

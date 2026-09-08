@@ -2,13 +2,22 @@
 features:
     - body: Each wode elf who ends this turn hidden can [shift](../../movement/shifting.md) up to their speed while remaining hidden.
       cost: 3 Malice
+      effects:
+        - effect: Each wode elf who ends this turn hidden can [shift](../../movement/shifting.md) up to their speed while remaining hidden.
       icon: ⭐️
       name: Forest Network
     - body: Until the end of the round, each wode elf gains an edge on abilities, and their strikes can [slide](../../movement/forced-movement.md) a target up to 2 squares in addition to their usual effects. If a strike already imposes forced movement, this slide happens after that forced movement. A creature force moved by a wode elf's strike who ends this forced movement in [difficult terrain](../../movement/difficult-terrain.md) is [restrained](../../condition/restrained.md) until the end of their next turn.
       cost: 5 Malice
+      effects:
+        - effect: Until the end of the round, each wode elf gains an edge on abilities, and their strikes can [slide](../../movement/forced-movement.md) a target up to 2 squares in addition to their usual effects. If a strike already imposes forced movement, this slide happens after that forced movement. A creature force moved by a wode elf's strike who ends this forced movement in [difficult terrain](../../movement/difficult-terrain.md) is [restrained](../../condition/restrained.md) until the end of their next turn.
       icon: ⭐️
       name: Punishing Regrowth
     - cost: 7 Malice
+      effects:
+        - effect: Vines rapidly grow across the entire encounter map. Each enemy in the encounter makes an **Agility test**.
+          tier1: 8 damage; [restrained](../../condition/restrained.md) (save ends)
+          tier2: '[Restrained](../../condition/restrained.md) (EoT)'
+          tier3: No effect.
       icon: "\U0001F300"
       intro: Vines rapidly grow across the entire encounter map. Each enemy in the encounter makes an **Agility test**.
       name: Vines Everywhere

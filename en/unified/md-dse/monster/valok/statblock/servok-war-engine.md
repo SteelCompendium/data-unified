@@ -55,6 +55,8 @@ features:
           tier1: 22 damage
           tier2: 29 damage; I < 4 [dazed](scc.v1:mcdm.heroes.v1/condition/dazed) (save ends)
           tier3: 34 damage; I < 5 [dazed](scc.v1:mcdm.heroes.v1/condition/dazed) (save ends)
+        - effect: This damage can't be reduced in any way. This ability can't be used again until the start of the next round.
+          name: Effect
       feature_type: ability
       icon: "\U0001F3F9"
       keywords:
@@ -67,7 +69,8 @@ features:
       usage: Main action
     - distance: Self
       effects:
-        - effect: '**Effect:** The war engine moves up to their speed in a straight line, automatically destroying mundane size 1 objects or walls in their path. The first time the war engine moves through a creature''s space during this movement, that creature can choose to either fall [prone](scc.v1:mcdm.heroes.v1/condition/prone) or take 10 damage.'
+        - effect: The war engine moves up to their speed in a straight line, automatically destroying mundane size 1 objects or walls in their path. The first time the war engine moves through a creature's space during this movement, that creature can choose to either fall [prone](scc.v1:mcdm.heroes.v1/condition/prone) or take 10 damage.
+          name: Effect
       feature_type: ability
       icon: "\U0001F464"
       keywords: []
@@ -78,10 +81,12 @@ features:
     - cost: 3 Malice
       distance: 20 x 1 line within 1
       effects:
-        - roll: ""
+        - effect: Each target makes an Agility test.
+          name: Effect
           tier1: 16 fire damage; the target is burning (save ends)
           tier2: 12 fire damage; the target is burning (EoT)
           tier3: 8 fire damage
+        - effect: A burning creature takes 1d6 fire damage at the start of each of their turns. A burning object takes 1d6 fire damage at the end of each round. Additionally, the area is burning until the end of the encounter. While the area is burning, it is [difficult terrain](scc.v1:mcdm.heroes.v1/movement/difficult-terrain) and any enemy takes 3 fire damage for each square of the area they enter.
       feature_type: ability
       icon: "\U0001F533"
       keywords:
@@ -97,6 +102,8 @@ features:
           tier1: 8 damage; [push](scc.v1:mcdm.heroes.v1/movement/forced-movement) 2
           tier2: 12 damage; [push](scc.v1:mcdm.heroes.v1/movement/forced-movement) 5
           tier3: 16 damage; [push](scc.v1:mcdm.heroes.v1/movement/forced-movement) 8
+        - effect: This damage can't be reduced in any way.
+          name: Effect
       feature_type: ability
       icon: ❗️
       keywords:
@@ -105,6 +112,7 @@ features:
         - Weapon
       name: Quick Blast
       target: One creature or object
+      trigger: The target deals damage to the war engine.
       type: feature
       usage: Free triggered action
     - effects:

@@ -32,6 +32,10 @@
           "tier1": "5 damage; R \u003c 0 [slowed](scc.v1:mcdm.heroes.v1/condition/slowed) (save ends)",
           "tier2": "8 damage; R \u003c 1 [slowed](scc.v1:mcdm.heroes.v1/condition/slowed) (save ends)",
           "tier3": "11 damage; R \u003c 2 [restrained](scc.v1:mcdm.heroes.v1/condition/restrained) (save ends)"
+        },
+        {
+          "effect": "Each enemy within 3 squares of a target suffers the same [potency](scc.v1:mcdm.heroes.v1/rule.character/potency) effect as the target unless they are already [adjacent](scc.v1:mcdm.heroes.v1/rule.combat/adjacent) to them, or if they immediately [shift](scc.v1:mcdm.heroes.v1/movement/shifting) into an unoccupied space [adjacent](scc.v1:mcdm.heroes.v1/rule.combat/adjacent) to the target (no action required).",
+          "name": "Effect"
         }
       ],
       "feature_type": "ability",

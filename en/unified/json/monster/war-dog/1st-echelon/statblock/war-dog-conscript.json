@@ -11,6 +11,10 @@
           "tier1": "1 damage",
           "tier2": "2 damage",
           "tier3": "3 damage"
+        },
+        {
+          "effect": "If used with the Charge main action, this ability gains an edge.",
+          "name": "Effect"
         }
       ],
       "feature_type": "ability",

@@ -38,6 +38,8 @@ features:
           tier1: 2 damage
           tier2: 4 damage; [push](scc.v1:mcdm.heroes.v1/movement/forced-movement) 3
           tier3: 5 damage; [push](scc.v1:mcdm.heroes.v1/movement/forced-movement) 3 or [prone](scc.v1:mcdm.heroes.v1/condition/prone)
+        - effect: The razor gains an edge against any target affected by a [condition](scc.v1:mcdm.heroes.v1/rule.combat/condition).
+          name: Effect
       feature_type: ability
       icon: "\U0001F3F9"
       keywords:

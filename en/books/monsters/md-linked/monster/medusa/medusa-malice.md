@@ -2,6 +2,11 @@
 features:
     - cost: 4 Malice
       distance: Ranged 10
+      effects:
+        - roll: Power Roll + 4
+          tier1: 6 damage; [weakened](../../condition/weakened.md) (EoT)
+          tier2: 10 damage; [weakened](../../condition/weakened.md) (EoT)
+          tier3: 12 damage; [weakened](../../condition/weakened.md) (save ends)
       icon: "\U0001F3F9"
       keywords:
         - Magic
@@ -18,10 +23,19 @@ features:
       usage: Main action
     - body: The medusa takes an additional main action on their turn. They can use this feature even if they are [dazed](../../condition/dazed.md).
       cost: 5 Malice
+      effects:
+        - effect: The medusa takes an additional main action on their turn. They can use this feature even if they are [dazed](../../condition/dazed.md).
       icon: ☠️
       name: Solo Action
     - cost: 5 Malice
       distance: Ranged 10
+      effects:
+        - roll: Power Roll + 4
+          tier1: I < 2 the target is charmed
+          tier2: I < 3 the target is charmed
+          tier3: I < 4 the target is charmed
+        - effect: At a time of the medusa's choosing, a charmed creature moves up to their speed and makes a [free strike](../../feature/common/main-actions/free-strike.md) against an enemy of the medusa's choice as a free triggered action. The creature is then no longer charmed.
+          name: Effect
       icon: "\U0001F3F9"
       keywords:
         - Magic
@@ -39,6 +53,11 @@ features:
       target: Three creatures
       usage: Main action
     - cost: 7 Malice
+      effects:
+        - effect: The medusa causes three stone statues within 10 squares of them to each shatter in a 2-cube explosion. Each enemy in one of those areas makes a **Might test**. An enemy [restrained](../../condition/restrained.md) or [slowed](../../condition/slowed.md) by the medusa's Petrify ability has a double bane on the test.
+          tier1: 12 damage; vertical [push](../../movement/forced-movement.md) 3; [bleeding](../../condition/bleeding.md) (save ends)
+          tier2: 10 damage; vertical [push](../../movement/forced-movement.md) 3
+          tier3: 6 damage
       icon: "\U0001F533"
       intro: The medusa causes three stone statues within 10 squares of them to each shatter in a 2-cube explosion. Each enemy in one of those areas makes a **Might test**. An enemy [restrained](../../condition/restrained.md) or [slowed](../../condition/slowed.md) by the medusa's Petrify ability has a double bane on the test.
       name: Shatter Victims

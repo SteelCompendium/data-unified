@@ -40,6 +40,10 @@ features:
           tier1: 9 psychic damage; R < 3 [restrained](../../../../condition/restrained.md) (save ends)
           tier2: 12 psychic damage; R < 4 [restrained](../../../../condition/restrained.md) (save ends)
           tier3: 14 psychic damage; R < 5 [restrained](../../../../condition/restrained.md) (save ends)
+        - effect: The izyak can slide any target [restrained](../../../../condition/restrained.md) this way up to 3 squares.
+          name: Effect
+        - cost: 3 Malice
+          effect: The izyak can vertical slide any target [restrained](../../../../condition/restrained.md) this way up to 6 squares instead. A target left in midair doesn't fall until the restrained condition ends.
       feature_type: ability
       icon: "\U0001F3F9"
       keywords:
@@ -57,6 +61,10 @@ features:
           tier1: 4 psychic damage; I < 3 [dazed](../../../../condition/dazed.md) (save ends)
           tier2: 7 psychic damage; I < 4 [dazed](../../../../condition/dazed.md) (save ends)
           tier3: 9 psychic damage; I < 5 [dazed](../../../../condition/dazed.md) (save ends)
+        - effect: Any target [dazed](../../../../condition/dazed.md) this way must use a move action to move their speed toward the izyak on their next turn.
+          name: Effect
+        - cost: 2 Malice
+          effect: The area increases to a 6 cube.
       feature_type: ability
       icon: "\U0001F533"
       keywords:

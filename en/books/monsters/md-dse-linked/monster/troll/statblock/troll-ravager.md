@@ -41,6 +41,8 @@ features:
           tier1: 4 damage; the ravager can [shift](../../../movement/shifting.md) 1 square
           tier2: 6 damage; the ravager [shifts](../../../movement/shifting.md) up to 2 squares
           tier3: 8 damage; the ravager [shifts](../../../movement/shifting.md) up to 3 squares
+        - effect: The ravager's [squad](../../../rule/monster/squad.md)'s [Stamina](../../../rule/health/stamina.md) pool regains [Stamina](../../../rule/health/stamina.md) equal to half the damage dealt.
+          name: Effect
       feature_type: ability
       icon: "\U0001F5E1"
       keywords:

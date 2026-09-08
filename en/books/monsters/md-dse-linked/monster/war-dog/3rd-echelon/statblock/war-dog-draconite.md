@@ -39,6 +39,8 @@ features:
           tier1: 4 damage
           tier2: 4 damage, 3 psychic damage
           tier3: 4 damage, 4 psychic damage; the target must move their speed in a straight line away from the draconite
+        - effect: If this damage leaves the target [winded](../../../../rule/health/winded.md), they are [frightened](../../../../condition/frightened.md) of the draconite until the end of the target's next turn.
+          name: Effect
       feature_type: ability
       icon: "\U0001F5E1"
       keywords:

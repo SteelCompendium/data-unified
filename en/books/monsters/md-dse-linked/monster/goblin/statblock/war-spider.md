@@ -38,6 +38,8 @@ features:
           tier1: 7 poison damage
           tier2: 11 poison damage
           tier3: 14 poison damage; M < 2 [weakened](../../../condition/weakened.md) (save ends)
+        - cost: 2 Malice
+          effect: For any tier outcome, if the target has M < 3, they are [weakened](../../../condition/weakened.md) (save ends).
       feature_type: ability
       icon: "\U0001F5E1"
       keywords:
@@ -67,7 +69,8 @@ features:
     - cost: 5 Malice
       distance: Self
       effects:
-        - effect: '**Effect:** The spider [shifts](../../../movement/shifting.md) up to their speed and uses Leg Blade against each creature who comes [adjacent](../../../rule/combat/adjacent.md) to them during the shift. The spider makes one power roll against all targets.'
+        - effect: The spider [shifts](../../../movement/shifting.md) up to their speed and uses Leg Blade against each creature who comes [adjacent](../../../rule/combat/adjacent.md) to them during the shift. The spider makes one power roll against all targets.
+          name: Effect
       feature_type: ability
       icon: "\U0001F464"
       keywords: []
@@ -81,6 +84,8 @@ features:
           tier1: A < 0 [restrained](../../../condition/restrained.md) (save ends)
           tier2: A < 1 [restrained](../../../condition/restrained.md) (save ends)
           tier3: A < 2 [restrained](../../../condition/restrained.md) (save ends)
+        - effect: The area is [difficult terrain](../../../movement/difficult-terrain.md) for enemies.
+          name: Effect
       feature_type: ability
       icon: "\U0001F533"
       keywords:
@@ -92,14 +97,14 @@ features:
       usage: Maneuver
     - distance: Self
       effects:
-        - effect: |-
-            **Trigger:** The spider or any ally riding the spider takes damage.
-            **Effect:** The damage is halved, and the spider [shifts](../../../movement/shifting.md) up to 2 squares after the triggering effect resolves.
+        - effect: The damage is halved, and the spider [shifts](../../../movement/shifting.md) up to 2 squares after the triggering effect resolves.
+          name: Effect
       feature_type: ability
       icon: ❗️
       keywords: []
       name: Skitter
       target: Self
+      trigger: The spider or any ally riding the spider takes damage.
       type: feature
       usage: Triggered action
     - effects:

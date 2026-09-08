@@ -59,6 +59,8 @@ features:
           tier1: 10 corruption damage
           tier2: 10 corruption damage, or if the target has P < 2 they are judged
           tier3: The target is judged.
+        - effect: Until the end of the encounter, a judged target takes 10 corruption damage at the start of each of their turns, and regains 5 [Stamina](../../../rule/health/stamina.md) each time they use an ability or other effect that allows another creature to spend a Recovery.
+          name: Effect
       feature_type: ability
       icon: "\U0001F3F9"
       keywords:

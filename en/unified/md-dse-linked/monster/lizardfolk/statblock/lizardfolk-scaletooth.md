@@ -38,6 +38,8 @@ features:
           tier1: 6 damage
           tier2: 9 damage
           tier3: 12 damage; A < 2 bleeding (save ends)
+        - effect: If the scaletooth has the target [grabbed](../../../condition/grabbed.md), the [potency](../../../rule/character/potency.md) of this ability increases by 1.
+          name: Effect
       feature_type: ability
       icon: "\U0001F5E1"
       keywords:

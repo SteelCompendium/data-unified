@@ -2,6 +2,13 @@
 features:
     - cost: Encounter
       distance: 3 cube within 10
+      effects:
+        - roll: Power Roll + highest characteristic
+          tier1: 4 damage; [push](../../../movement/forced-movement.md) 2
+          tier2: 6 damage; [push](../../../movement/forced-movement.md) 3
+          tier3: 10 damage; [push](../../../movement/forced-movement.md) 5
+        - effect: 'When the retainer uses this ability, they can choose for it to deal one of the following damage types: acid, cold, fire, lightning, poison, or sonic.'
+          name: Effect
       icon: "\U0001F533"
       keywords:
         - Area
@@ -22,6 +29,13 @@ features:
       usage: Main action
     - cost: Encounter
       distance: 3 cube within 10
+      effects:
+        - roll: Power Roll + highest characteristic
+          tier1: 5 poison damage; M < WEAK [prone](../../../condition/prone.md)
+          tier2: 8 poison damage; M < AVERAGE [prone](../../../condition/prone.md)
+          tier3: 11 poison damage; M < STRONG [prone](../../../condition/prone.md)
+        - effect: The area is [difficult terrain](../../../movement/difficult-terrain.md) for enemies. Any enemy has fire weakness 5 while in the area, and any enemy who ends their turn in the area and has no movement remaining falls [prone](../../../condition/prone.md).
+          name: Effect
       icon: "\U0001F533"
       keywords:
         - Area
@@ -42,6 +56,15 @@ features:
       usage: Main action
     - cost: Encounter
       distance: Ranged 10
+      effects:
+        - effect: The target must be size 1M or smaller.
+          name: Special
+          roll: Power Roll + highest characteristic
+          tier1: 7 damage
+          tier2: 11 damage
+          tier3: 16 damage
+        - effect: The area within 2 squares of the target is [difficult terrain](../../../movement/difficult-terrain.md), and each enemy in the area takes the same damage the object took.
+          name: Effect
       icon: "\U0001F3F9"
       keywords:
         - Ranged

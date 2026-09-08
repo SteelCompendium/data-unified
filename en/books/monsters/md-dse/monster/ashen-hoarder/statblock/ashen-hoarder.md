@@ -33,9 +33,10 @@ agility: -1
 ev: "72"
 features:
     - effects:
-        - effect: |-
-            **[End Effect](scc.v1:mcdm.monsters.v1/rule.monster/end-effect):** At the end of each of their turns, the ashen hoarder can take 10 damage to end one effect on them that can be ended by a [saving throw](scc.v1:mcdm.heroes.v1/rule.general/saving-throw). This damage can't be reduced in any way.
-            **Solo Turns:** The ashen hoarder can take two turns each round. They can't take turns consecutively.
+        - effect: At the end of each of their turns, the ashen hoarder can take 10 damage to end one effect on them that can be ended by a [saving throw](scc.v1:mcdm.heroes.v1/rule.general/saving-throw). This damage can't be reduced in any way.
+          name: End Effect
+        - effect: The ashen hoarder can take two turns each round. They can't take turns consecutively.
+          name: Solo Turns
       feature_type: trait
       icon: ☠️
       name: Solo Monster
@@ -47,6 +48,8 @@ features:
           tier1: 10 damage; if one target has M < 2 they are [bleeding](scc.v1:mcdm.heroes.v1/condition/bleeding) (save ends); if the other target has A < 2 they are [grabbed](scc.v1:mcdm.heroes.v1/condition/grabbed)
           tier2: 15 damage; if one target has M < 3 they are [bleeding](scc.v1:mcdm.heroes.v1/condition/bleeding) (save ends); if the other target has A < 3 they are [grabbed](scc.v1:mcdm.heroes.v1/condition/grabbed)
           tier3: 18 damage; M < 4 [bleeding](scc.v1:mcdm.heroes.v1/condition/bleeding) (save ends); A < 2 [grabbed](scc.v1:mcdm.heroes.v1/condition/grabbed)
+        - effect: The ashen hoarder can have up to two size 1 creatures [grabbed](scc.v1:mcdm.heroes.v1/condition/grabbed) at a time.                                                                              |  |
+          name: Effect
       feature_type: ability
       icon: "\U0001F5E1"
       keywords:
@@ -63,6 +66,10 @@ features:
           tier1: 4 damage; A < 2 [weakened](scc.v1:mcdm.heroes.v1/condition/weakened) (save ends)
           tier2: 8 damage; A < 3 [weakened](scc.v1:mcdm.heroes.v1/condition/weakened) (save ends)
           tier3: 11 damage; A < 4 [weakened](scc.v1:mcdm.heroes.v1/condition/weakened) (save ends)
+        - cost: 2 Malice
+          effect: Any enemy [weakened](scc.v1:mcdm.heroes.v1/condition/weakened) this way is instead [slowed](scc.v1:mcdm.heroes.v1/condition/slowed) and [weakened](scc.v1:mcdm.heroes.v1/condition/weakened) (save ends).
+        - cost: 3 Malice
+          effect: The ashen hoarder targets a second 4 cube within distance.
       feature_type: ability
       icon: "\U0001F533"
       keywords:
@@ -80,6 +87,8 @@ features:
           tier1: 6 corruption damage; M < 2 the target is impaled (save ends)
           tier2: 11 corruption damage; M < 3 the target is impaled (save ends)
           tier3: 14 corruption damage; M < 4 the target is impaled (save ends)
+        - effect: An impaled creature is [restrained](scc.v1:mcdm.heroes.v1/condition/restrained) and [bleeding](scc.v1:mcdm.heroes.v1/condition/bleeding), and moves with the ashen hoarder. The ashen hoarder can have three creatures impaled with this ability at a time.
+          name: Effect
       feature_type: ability
       icon: "\U0001F533"
       keywords:
@@ -91,7 +100,8 @@ features:
       usage: Main action
     - distance: Self
       effects:
-        - effect: '**Effect:** The ashen hoarder moves up to twice their speed in a straight line. Each creature or object in the path of this movement is either [pushed](scc.v1:mcdm.heroes.v1/movement/forced-movement) into the nearest unoccupied space outside the path, or if they have M < 3 is pushed forward until the movement ends. Any creature who is [force moved](scc.v1:mcdm.heroes.v1/movement/forced-movement) forward into an obstacle is [dazed](scc.v1:mcdm.heroes.v1/condition/dazed) (save ends).'
+        - effect: The ashen hoarder moves up to twice their speed in a straight line. Each creature or object in the path of this movement is either [pushed](scc.v1:mcdm.heroes.v1/movement/forced-movement) into the nearest unoccupied space outside the path, or if they have M < 3 is pushed forward until the movement ends. Any creature who is [force moved](scc.v1:mcdm.heroes.v1/movement/forced-movement) forward into an obstacle is [dazed](scc.v1:mcdm.heroes.v1/condition/dazed) (save ends).
+          name: Effect
       feature_type: ability
       icon: "\U0001F464"
       keywords: []
@@ -102,14 +112,14 @@ features:
     - cost: 2 Malice
       distance: Self
       effects:
-        - effect: |-
-            **Trigger:** The ashen hoarder takes damage.
-            **Effect:** The ashen hoarder halves the damage. If the ashen hoarder has one or more creatures impaled, the [Malice](scc.v1:mcdm.monsters.v1/rule.monster/malice) cost of this feature is reduced by 1 and one impaled creature takes the other half of the damage.
+        - effect: The ashen hoarder halves the damage. If the ashen hoarder has one or more creatures impaled, the [Malice](scc.v1:mcdm.monsters.v1/rule.monster/malice) cost of this feature is reduced by 1 and one impaled creature takes the other half of the damage.
+          name: Effect
       feature_type: ability
       icon: ❗️
       keywords: []
       name: Armor of Corpses
       target: Self
+      trigger: The ashen hoarder takes damage.
       type: feature
       usage: Triggered action
     - effects:
@@ -131,6 +141,8 @@ features:
           tier1: 6 damage, vertical push 2
           tier2: 11 damage, vertical push 2
           tier3: 14 damage, vertical push 3
+        - effect: Each target is [force moved](scc.v1:mcdm.heroes.v1/movement/forced-movement) straight up, then falls. A target who would normally land [prone](scc.v1:mcdm.heroes.v1/condition/prone) after falling is instead [restrained](scc.v1:mcdm.heroes.v1/condition/restrained) (save ends).
+          name: Effect
       feature_type: ability
       icon: ☠️
       keywords:
@@ -143,7 +155,8 @@ features:
     - cost: Villain Action 2
       distance: 10 cube within 20
       effects:
-        - effect: '**Effect:** The ashen hoarder sprays out six size 1M zombie mines that appear in unoccupied squares within distance. Any enemy who moves adjacent to a zombie mine for the first time in a round or starts their turn there causes the mine to explode, dealing 4 corruption damage to each creature adjacent to the mine. Any other zombie mines adjacent to the exploding mine also explode. At the start of each of the ashen hoarder''s turns, each unexploded zombie mine can be moved up to 2 squares.'
+        - effect: The ashen hoarder sprays out six size 1M zombie mines that appear in unoccupied squares within distance. Any enemy who moves adjacent to a zombie mine for the first time in a round or starts their turn there causes the mine to explode, dealing 4 corruption damage to each creature adjacent to the mine. Any other zombie mines adjacent to the exploding mine also explode. At the start of each of the ashen hoarder's turns, each unexploded zombie mine can be moved up to 2 squares.
+          name: Effect
       feature_type: ability
       icon: ☠️
       keywords:
@@ -156,7 +169,8 @@ features:
     - cost: Villain Action 3
       distance: Self; see below
       effects:
-        - effect: '**Effect:** The ashen hoarder moves up to their speed and uses Claw and Blade with a double edge against one target. On a tier 3 outcome, the ashen hoarder can use Impale without spending Malice.'
+        - effect: The ashen hoarder moves up to their speed and uses Claw and Blade with a double edge against one target. On a tier 3 outcome, the ashen hoarder can use Impale without spending Malice.
+          name: Effect
       feature_type: ability
       icon: ☠️
       keywords:

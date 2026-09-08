@@ -38,6 +38,10 @@ features:
           tier1: 14 lightning damage; the lightning spreads 1 square; I < 3 [dazed](../../../../condition/dazed.md) (save ends)
           tier2: 19 lightning damage; the lightning spreads 2 squares; I < 4 [dazed](../../../../condition/dazed.md) (save ends)
           tier3: 23 lightning damage; the lightning spreads 3 squares; I < 5 [dazed](../../../../condition/dazed.md) (save ends)
+        - effect: The spread is the distance the charge arcs from a target to nearby enemies. Each enemy within spread takes 5 lightning damage.
+          name: Effect
+        - cost: 2 Malice
+          effect: The lighting spread increases by 2 squares. Additionally, any creature who takes lightning damage from this ability and who has M < 4 is [slowed](../../../../condition/slowed.md) until the end of their next turn.
       feature_type: ability
       icon: "\U0001F3F9"
       keywords:
@@ -51,7 +55,8 @@ features:
     - cost: 2 Malice
       distance: 4 cube within 10
       effects:
-        - effect: '**Effect:** Each target [shifts](../../../../movement/shifting.md) up to their speed and can make a [free strike](../../../../feature/common/main-actions/free-strike.md) that deals an extra 5 lightning damage.'
+        - effect: Each target [shifts](../../../../movement/shifting.md) up to their speed and can make a [free strike](../../../../feature/common/main-actions/free-strike.md) that deals an extra 5 lightning damage.
+          name: Effect
       feature_type: ability
       icon: "\U0001F533"
       keywords:
@@ -64,9 +69,8 @@ features:
       usage: Maneuver
     - distance: Melee 1
       effects:
-        - effect: |-
-            **Trigger:** An enemy within distance deals damage to the taxiarch.
-            **Effect:** After the ability is resolved, the target is [teleported](../../../../movement/teleport.md) up to 5 squares and is thunderstruck (save ends). A thunderstruck creature has lightning weakness 5, and the taxiarch gains an edge on power rolls against them.
+        - effect: After the ability is resolved, the target is [teleported](../../../../movement/teleport.md) up to 5 squares and is thunderstruck (save ends). A thunderstruck creature has lightning weakness 5, and the taxiarch gains an edge on power rolls against them.
+          name: Effect
       feature_type: ability
       icon: ❗️
       keywords:
@@ -74,6 +78,7 @@ features:
         - Melee
       name: Thunderstruck
       target: The triggering enemy
+      trigger: An enemy within distance deals damage to the taxiarch.
       type: feature
       usage: Triggered action
     - effects:
@@ -85,7 +90,8 @@ features:
     - cost: Villain Action 1
       distance: 10 burst
       effects:
-        - effect: '**Effect:** [Slide](../../../../movement/forced-movement.md) 5, and if the the target has M < 4, they fall [prone](../../../../condition/prone.md).'
+        - effect: '[Slide](../../../../movement/forced-movement.md) 5, and if the the target has M < 4, they fall [prone](../../../../condition/prone.md).'
+          name: Effect
       feature_type: ability
       icon: ☠️
       keywords:
@@ -98,7 +104,8 @@ features:
     - cost: Villain Action 2
       distance: 5 burst
       effects:
-        - effect: '**Effect:** Each target [shifts](../../../../movement/shifting.md) up to their speed, then can make a [free strike](../../../../feature/common/main-actions/free-strike.md) or use a maneuver.'
+        - effect: Each target [shifts](../../../../movement/shifting.md) up to their speed, then can make a [free strike](../../../../feature/common/main-actions/free-strike.md) or use a maneuver.
+          name: Effect
       feature_type: ability
       icon: ☠️
       keywords:
@@ -111,10 +118,12 @@ features:
     - cost: Villain Action 3
       distance: 3 burst
       effects:
-        - roll: ""
+        - effect: Each target makes an Agility test.
+          name: Effect
           tier1: 18 lightning damage; the target is thunderstruck (save ends)
           tier2: 14 lightning damage; the target is thunderstruck (EoT)
           tier3: 9 lightning damage
+        - effect: See Thunderstruck. Additionally, until the end of the encounter, any enemy who moves within 3 squares of the taxiarch for the first time in a round or starts their turn there takes 3 lightning damage.
       feature_type: ability
       icon: ☠️
       keywords:

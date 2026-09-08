@@ -39,6 +39,8 @@ features:
           tier1: 5 acid damage; M < 1 [slowed](../../../../condition/slowed.md) (save ends)
           tier2: 7 acid damage; M < 2 [slowed](../../../../condition/slowed.md) (save ends)
           tier3: 9 acid damage; M < 3 [restrained](../../../../condition/restrained.md) (save ends)
+        - effect: The ground and any surfaces in the area pool with slime. The slime is [difficult terrain](../../../../movement/difficult-terrain.md) for enemies, and any enemy is [bleeding](../../../../condition/bleeding.md) while in the area.
+          name: Effect
       feature_type: ability
       icon: "\U0001F533"
       keywords:
@@ -52,14 +54,14 @@ features:
     - cost: 1 Malice
       distance: Self
       effects:
-        - effect: |-
-            **Trigger:** The gunge takes damage from a melee strike.
-            **Effect:** The gunge vomits with great force, letting them [shift](../../../../movement/shifting.md) up to their speed and ignore any additional effects from the strike. The space the gunge occupied before the shift is covered in slime that is [difficult terrain](../../../../movement/difficult-terrain.md) for enemies. Additionally, any enemy is [bleeding](../../../../condition/bleeding.md) while in the slime.
+        - effect: The gunge vomits with great force, letting them [shift](../../../../movement/shifting.md) up to their speed and ignore any additional effects from the strike. The space the gunge occupied before the shift is covered in slime that is [difficult terrain](../../../../movement/difficult-terrain.md) for enemies. Additionally, any enemy is [bleeding](../../../../condition/bleeding.md) while in the slime.
+          name: Effect
       feature_type: ability
       icon: ❗️
       keywords: []
       name: Spew Slide
       target: Self
+      trigger: The gunge takes damage from a melee strike.
       type: feature
       usage: Free triggered action
     - effects:

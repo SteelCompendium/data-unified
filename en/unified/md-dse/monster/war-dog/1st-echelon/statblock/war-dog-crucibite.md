@@ -40,6 +40,10 @@ features:
           tier1: 2 fire damage
           tier2: 4 fire damage
           tier3: 5 fire damage
+        - effect: The area is covered in sticky fire until the start of the crucibite's next turn. Any creature who enters the area for the first time in a round or starts their turn there takes 2 fire damage.
+          name: Effect
+        - cost: 3 Malice
+          effect: The area becomes a 10 x 1 line, and if any ally of the crucibite is in the area when it is created, the ability deals an extra 2 damage to each target.
       feature_type: ability
       icon: "\U0001F533"
       keywords:
@@ -51,7 +55,8 @@ features:
       usage: Main action
     - distance: Ranged 10
       effects:
-        - effect: '**Effect:** If the target has a loyalty collar, they are reduced to 0 [Stamina](scc.v1:mcdm.heroes.v1/rule.health/stamina).'
+        - effect: If the target has a loyalty collar, they are reduced to 0 [Stamina](scc.v1:mcdm.heroes.v1/rule.health/stamina).
+          name: Effect
       feature_type: ability
       icon: "\U0001F3F9"
       keywords:

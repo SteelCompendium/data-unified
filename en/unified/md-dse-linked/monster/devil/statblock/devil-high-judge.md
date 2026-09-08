@@ -39,6 +39,8 @@ features:
           tier1: 10 damage; P < 2 the target can't hide (save ends)
           tier2: 15 damage; P < 3 the target can't hide (save ends)
           tier3: 19 damage; P < 4 the target can't hide (save ends)
+        - cost: 2 Malice
+          effect: While a target is unable to hide this way, any strike against them made by a devil gains an [edge](../../../rule/dice/edge.md).
       feature_type: ability
       icon: "\U0001F3F9"
       keywords:
@@ -55,6 +57,8 @@ features:
           tier1: I < 2 the target is charmed (save ends)
           tier2: I < 3 the target is charmed (save ends)
           tier3: I < 4 the target is charmed (save ends)
+        - effect: While charmed this way, a creature treats the high judge as an ally, and the high judge can spend 1 [Malice](../../../rule/monster/malice.md) on their turn to make that creature move up to 3 squares.
+          name: Effect
       feature_type: ability
       icon: "\U0001F3F9"
       keywords:
@@ -68,10 +72,12 @@ features:
     - cost: 2 Malice
       distance: Ranged 5
       effects:
-        - roll: ""
+        - effect: The target makes a **Presence test**.
+          name: Effect
           tier1: The target is charmed (save ends).
           tier2: The high judge chooses a new target for the strike.
           tier3: The target takes a [bane](../../../rule/dice/bane.md) on the strike.
+        - effect: While charmed this way, a creature treats the high judge as an ally, and the high judge can spend 1 [Malice](../../../rule/monster/malice.md) on their turn to make that creature move up to 3 squares.
       feature_type: ability
       icon: ❗️
       keywords:
@@ -79,6 +85,7 @@ features:
         - Ranged
       name: Devilish Suggestion
       target: The triggering creature
+      trigger: A creature targets the high judge with a strike.
       type: feature
       usage: Triggered action
     - effects:
@@ -96,10 +103,12 @@ features:
     - cost: Villain Action 1
       distance: 3 burst
       effects:
-        - roll: ""
+        - effect: The target makes a **Presence test**.
+          name: Effect
           tier1: 15 psychic damage; the target is charmed (save ends)
           tier2: 12 psychic damage; the target is charmed (save ends)
           tier3: 7 psychic damage
+        - effect: While charmed this way, a creature treats the high judge as an ally, and the high judge can spend 1 [Malice](../../../rule/monster/malice.md) on their turn to make that creature move up to 3 squares.
       feature_type: ability
       icon: ☠️
       keywords:
@@ -112,7 +121,8 @@ features:
     - cost: Villain Action 2
       distance: 5 burst
       effects:
-        - effect: '**Effect:** Each target [shifts](../../../movement/shifting.md) up to their speed. The high judge can make each creature charmed by All Rise, Compel the Jury, or Devilish Suggestion move up to half that creature''s speed.'
+        - effect: Each target [shifts](../../../movement/shifting.md) up to their speed. The high judge can make each creature charmed by All Rise, Compel the Jury, or Devilish Suggestion move up to half that creature's speed.
+          name: Effect
       feature_type: ability
       icon: ☠️
       keywords:
@@ -124,7 +134,8 @@ features:
     - cost: Villain Action 3
       distance: Ranged 12
       effects:
-        - effect: '**Effect:** If the target is an ally or a creature charmed by All Rise, Compel the Jury, or Devilish Suggestion, the high judge and the target [teleport](../../../movement/teleport.md) to swap places. Each ally within 12 squares of the high judge can then make a [free strike](../../../feature/common/main-actions/free-strike.md) against a target of the high judge''s choice. Each creature charmed by All Rise, Compel the Jury, or Devilish Suggestion makes a [free strike](../../../feature/common/main-actions/free-strike.md) against a target of the high judge''s choice.'
+        - effect: If the target is an ally or a creature charmed by All Rise, Compel the Jury, or Devilish Suggestion, the high judge and the target [teleport](../../../movement/teleport.md) to swap places. Each ally within 12 squares of the high judge can then make a [free strike](../../../feature/common/main-actions/free-strike.md) against a target of the high judge's choice. Each creature charmed by All Rise, Compel the Jury, or Devilish Suggestion makes a [free strike](../../../feature/common/main-actions/free-strike.md) against a target of the high judge's choice.
+          name: Effect
       feature_type: ability
       icon: ☠️
       keywords:

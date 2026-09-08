@@ -38,6 +38,8 @@ features:
           tier1: 11 corruption damage; A < 2 [restrained](scc.v1:mcdm.heroes.v1/condition/restrained) (save ends)
           tier2: 16 corruption damage; A < 3 [restrained](scc.v1:mcdm.heroes.v1/condition/restrained) (save ends)
           tier3: 19 corruption damage; A < 4 [restrained](scc.v1:mcdm.heroes.v1/condition/restrained) (save ends)
+        - cost: 2 Malice
+          effect: Two ensnarers appear in unoccupied spaces [adjacent](scc.v1:mcdm.heroes.v1/rule.combat/adjacent) to each target. On a tier 3 outcome, four ensnarers appear.
       feature_type: ability
       icon: "\U0001F3F9"
       keywords:
@@ -51,9 +53,10 @@ features:
     - cost: 2 Malice
       distance: 3 burst
       effects:
-        - effect: |-
-            **Effect:** Four level 1 demon [minions](scc.v1:mcdm.monsters.v1/rule.organization/minion) (most commonly ensnarers, frenzieds, and pitlings) burst forth from the egress and appear in unoccupied spaces in the area.
-            **2 [Malice](scc.v1:mcdm.monsters.v1/rule.monster/malice):** Four level 4 demon [minions](scc.v1:mcdm.monsters.v1/rule.organization/minion) (most commonly orliq, grulqins, and wobalas) appear instead.
+        - effect: Four level 1 demon [minions](scc.v1:mcdm.monsters.v1/rule.organization/minion) (most commonly ensnarers, frenzieds, and pitlings) burst forth from the egress and appear in unoccupied spaces in the area.
+          name: Effect
+        - cost: 2 Malice
+          effect: Four level 4 demon [minions](scc.v1:mcdm.monsters.v1/rule.organization/minion) (most commonly orliq, grulqins, and wobalas) appear instead.
       feature_type: ability
       icon: ❇️
       keywords:
@@ -65,9 +68,8 @@ features:
     - cost: 2 Malice
       distance: 5 burst
       effects:
-        - effect: |-
-            **Trigger:** The last ally [minion](scc.v1:mcdm.monsters.v1/rule.organization/minion) on the encounter map dies, or the egress is reduced below 25 [Stamina](scc.v1:mcdm.heroes.v1/rule.health/stamina).
-            **Effect:** Eight ensnarers appear anywhere in the area.
+        - effect: Eight ensnarers appear anywhere in the area.
+          name: Effect
       feature_type: ability
       icon: ❗️
       keywords:
@@ -75,6 +77,7 @@ features:
         - Magic
       name: Abyssal Protectors
       target: Special
+      trigger: The last ally [minion](scc.v1:mcdm.monsters.v1/rule.organization/minion) on the encounter map dies, or the egress is reduced below 25 [Stamina](scc.v1:mcdm.heroes.v1/rule.health/stamina).
       type: feature
       usage: Triggered action
     - effects:
@@ -101,7 +104,8 @@ features:
     - cost: Villain Action 2
       distance: Ranged 20
       effects:
-        - effect: '**Effect:** The egress folds into their own portal and [teleports](scc.v1:mcdm.heroes.v1/movement/teleport) to an unoccupied space within distance. Four level 4 demon [minions](scc.v1:mcdm.monsters.v1/rule.organization/minion) (most commonly orliq, grulqins, and wobalas) appear in squares in the egress''s former space.'
+        - effect: The egress folds into their own portal and [teleports](scc.v1:mcdm.heroes.v1/movement/teleport) to an unoccupied space within distance. Four level 4 demon [minions](scc.v1:mcdm.monsters.v1/rule.organization/minion) (most commonly orliq, grulqins, and wobalas) appear in squares in the egress's former space.
+          name: Effect
       feature_type: ability
       icon: ☠️
       keywords:
@@ -117,6 +121,8 @@ features:
           tier1: 6 corruption damage; R < 2 [weakened](scc.v1:mcdm.heroes.v1/condition/weakened) (save ends)
           tier2: 11 corruption damage; R < 3 [weakened](scc.v1:mcdm.heroes.v1/condition/weakened) (save ends)
           tier3: 14 corruption damage; R < 4 [weakened](scc.v1:mcdm.heroes.v1/condition/weakened) (save ends)
+        - effect: The egress recalls and instantly destroys any [minion](scc.v1:mcdm.monsters.v1/rule.organization/minion) allies on the encounter map. A torrent of churned-up minion bodies, blood, and ichor erupts from the egress, dealing an extra 1 damage for each minion destroyed this way.
+          name: Effect
       feature_type: ability
       icon: ☠️
       keywords:

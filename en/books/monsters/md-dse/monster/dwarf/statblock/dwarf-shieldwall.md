@@ -37,6 +37,10 @@ features:
           tier1: 7 damage; [slide](scc.v1:mcdm.heroes.v1/movement/forced-movement) 1
           tier2: 10 damage; [slide](scc.v1:mcdm.heroes.v1/movement/forced-movement) 1
           tier3: 13 damage; [slide](scc.v1:mcdm.heroes.v1/movement/forced-movement) 1
+        - effect: The shieldwall can [shift](scc.v1:mcdm.heroes.v1/movement/shifting) 1 square to remain [adjacent](scc.v1:mcdm.heroes.v1/rule.combat/adjacent) to the target. A target [restrained](scc.v1:mcdm.heroes.v1/condition/restrained) by a dwarf can be force moved by this ability. This forced movement doesn't end the [restrained](scc.v1:mcdm.heroes.v1/condition/restrained) condition unless the Director determines otherwise.
+          name: Effect
+        - cost: 3 Malice
+          effect: This ability targets one additional target.
       feature_type: ability
       icon: "\U0001F5E1"
       keywords:
@@ -50,14 +54,14 @@ features:
     - cost: 1 Malice
       distance: Self
       effects:
-        - effect: |-
-            **Trigger:** A creature makes a strike against an ally [adjacent](scc.v1:mcdm.heroes.v1/rule.combat/adjacent) to the shieldwall.
-            **Effect:** The shieldwall becomes the target of the triggering strike and halves the damage.
+        - effect: The shieldwall becomes the target of the triggering strike and halves the damage.
+          name: Effect
       feature_type: ability
       icon: ❗️
       keywords: []
       name: Intercepting Shield
       target: Self
+      trigger: A creature makes a strike against an ally [adjacent](scc.v1:mcdm.heroes.v1/rule.combat/adjacent) to the shieldwall.
       type: feature
       usage: Triggered action
     - effects:

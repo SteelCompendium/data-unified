@@ -39,6 +39,10 @@ features:
           tier1: 4 damage; [slide](../../../../movement/forced-movement.md) 1
           tier2: 6 damage; [slide](../../../../movement/forced-movement.md) 2
           tier3: 7 damage; [slide](../../../../movement/forced-movement.md) 3
+        - effect: The teletalite gains an edge on this ability if any ally is [adjacent](../../../../rule/combat/adjacent.md) to the target.
+          name: Effect
+        - cost: 1 Malice
+          effect: The teletalite [teleports](../../../../movement/teleport.md) the target 3 squares before sliding them.
       feature_type: ability
       icon: ⚔️
       keywords:
@@ -52,7 +56,8 @@ features:
       usage: Main action
     - distance: Ranged 10
       effects:
-        - effect: '**Effect:** If the target has a loyalty collar, they are reduced to 0 [Stamina](../../../../rule/health/stamina.md).'
+        - effect: If the target has a loyalty collar, they are reduced to 0 [Stamina](../../../../rule/health/stamina.md).
+          name: Effect
       feature_type: ability
       icon: "\U0001F3F9"
       keywords:
@@ -65,7 +70,8 @@ features:
     - cost: 1 Malice
       distance: Self
       effects:
-        - effect: '**Effect:** The teletalite can [teleport](../../../../movement/teleport.md) up to 5 squares and gains an edge on strikes until the end of their turn.'
+        - effect: The teletalite can [teleport](../../../../movement/teleport.md) up to 5 squares and gains an edge on strikes until the end of their turn.
+          name: Effect
       feature_type: ability
       icon: "\U0001F464"
       keywords:

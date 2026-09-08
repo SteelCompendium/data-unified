@@ -40,6 +40,10 @@ features:
           tier1: 6 psychic damage
           tier2: 8 psychic damage
           tier3: 9 psychic damage
+        - effect: The target has corruption [weakness](../../../../rule/damage/damage-weakness.md) 5 (EoT).
+          name: Effect
+        - cost: 2 Malice
+          effect: If the target has I < 2, they have corruption [weakness](../../../../rule/damage/damage-weakness.md) 5 (save ends).
       feature_type: ability
       icon: "\U0001F3F9"
       keywords:
@@ -53,10 +57,14 @@ features:
     - cost: 5 Malice
       distance: 4 cube within 5
       effects:
-        - roll: Power Roll + 3
+        - effect: The bale eye must create the cube beneath themself.
+          name: Special
+          roll: Power Roll + 3
           tier1: 3 psychic damage; A < 1 the target is warped (save ends)
           tier2: 5 psychic damage; A < 2 the target is warped (save ends)
           tier3: 6 psychic damage; A < 3 the target is warped (save ends)
+        - effect: While warped, a creature has a double [bane](../../../../rule/dice/bane.md) on power rolls using any characteristic higher than 0, and has a double [edge](../../../../rule/dice/edge.md) on power rolls using any characteristic lower than 0.
+          name: Effect
       feature_type: ability
       icon: "\U0001F533"
       keywords:

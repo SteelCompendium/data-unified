@@ -37,6 +37,8 @@ features:
           tier1: 5 damage; M < 0 [slowed](scc.v1:mcdm.heroes.v1/condition/slowed) (save ends)
           tier2: 7 damage; M < 1 [slowed](scc.v1:mcdm.heroes.v1/condition/slowed) (save ends)
           tier3: 9 damage; M < 2 [slowed](scc.v1:mcdm.heroes.v1/condition/slowed) (save ends)
+        - effect: The target is [pulled](scc.v1:mcdm.heroes.v1/movement/forced-movement) up to 5 squares. A target [restrained](scc.v1:mcdm.heroes.v1/condition/restrained) by a dwarf can be force moved by this ability. This forced movement doesn't end the [restrained](scc.v1:mcdm.heroes.v1/condition/restrained) condition unless the Director determines otherwise.
+          name: Effect
       feature_type: ability
       icon: "\U0001F3F9"
       keywords:
@@ -50,7 +52,8 @@ features:
     - cost: 3 Malice
       distance: Ranged 10
       effects:
-        - effect: '**Effect:** The target is [pulled](scc.v1:mcdm.heroes.v1/movement/forced-movement) up to 8 squares. A [restrained](scc.v1:mcdm.heroes.v1/condition/restrained) or [slowed](scc.v1:mcdm.heroes.v1/condition/slowed) target can be pulled an additional 2 squares. A target [restrained](scc.v1:mcdm.heroes.v1/condition/restrained) by a dwarf can be force moved by this ability. This forced movement doesn''t end the [restrained](scc.v1:mcdm.heroes.v1/condition/restrained) condition unless the Director determines otherwise.'
+        - effect: The target is [pulled](scc.v1:mcdm.heroes.v1/movement/forced-movement) up to 8 squares. A [restrained](scc.v1:mcdm.heroes.v1/condition/restrained) or [slowed](scc.v1:mcdm.heroes.v1/condition/slowed) target can be pulled an additional 2 squares. A target [restrained](scc.v1:mcdm.heroes.v1/condition/restrained) by a dwarf can be force moved by this ability. This forced movement doesn't end the [restrained](scc.v1:mcdm.heroes.v1/condition/restrained) condition unless the Director determines otherwise.
+          name: Effect
       feature_type: ability
       icon: "\U0001F3F9"
       keywords:

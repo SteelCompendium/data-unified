@@ -39,6 +39,8 @@ features:
           tier1: 3 corruption damage
           tier2: 4 corruption damage; M < 1 [slowed](scc.v1:mcdm.heroes.v1/condition/slowed) (save ends)
           tier3: 5 corruption damage; M < 2 [slowed](scc.v1:mcdm.heroes.v1/condition/slowed) and [weakened](scc.v1:mcdm.heroes.v1/condition/weakened) (save ends)
+        - effect: The target appears to rapidly age each time they take damage from this ability. The target regains their former appearance when the soulwight is destroyed.
+          name: Effect
       feature_type: ability
       icon: "\U0001F5E1"
       keywords:
@@ -52,7 +54,8 @@ features:
     - cost: 3 Malice
       distance: Ranged 5
       effects:
-        - effect: '**Effect:** The target regains 10 [Stamina](scc.v1:mcdm.heroes.v1/rule.health/stamina). The soulwight can''t use this maneuver again until after they strike a creature with their Soulstealer Longsword.'
+        - effect: The target regains 10 [Stamina](scc.v1:mcdm.heroes.v1/rule.health/stamina). The soulwight can't use this maneuver again until after they strike a creature with their Soulstealer Longsword.
+          name: Effect
       feature_type: ability
       icon: "\U0001F3F9"
       keywords:

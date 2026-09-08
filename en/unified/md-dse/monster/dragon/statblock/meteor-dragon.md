@@ -31,9 +31,10 @@ agility: 5
 ev: "144"
 features:
     - effects:
-        - effect: |-
-            **[End Effect](scc.v1:mcdm.monsters.v1/rule.monster/end-effect):** At the end of each of their turns, the dragon can take 20 damage to end one effect on them that can be ended by a saving throw. This damage can't be reduced in any way.
-            **Solo Turns:** The dragon can take two turns each round. They can't take turns consecutively.
+        - effect: At the end of each of their turns, the dragon can take 20 damage to end one effect on them that can be ended by a saving throw. This damage can't be reduced in any way.
+          name: End Effect
+        - effect: The dragon can take two turns each round. They can't take turns consecutively.
+          name: Solo Turns
       feature_type: trait
       icon: ☠️
       name: Solo Monster
@@ -47,10 +48,12 @@ features:
     - ability_type: Signature Ability
       distance: 4 cube within 10
       effects:
-        - roll: ""
+        - effect: Each target makes a **Might test**.
+          name: Effect
           tier1: 20 sonic damage; the target is dragonsealed (save ends)
           tier2: 16 sonic damage; the target is dragonsealed (save ends)
           tier3: 10 sonic damage
+        - effect: A dragonsealed target emits a golden aura, and takes 2 damage per square moved when falling or when [force moved](scc.v1:mcdm.heroes.v1/movement/forced-movement) into an obstacle.
       feature_type: ability
       icon: "\U0001F533"
       keywords:
@@ -67,6 +70,8 @@ features:
           tier1: 15 holy damage; A < 4 [weakened](scc.v1:mcdm.heroes.v1/condition/weakened) (save ends)
           tier2: 21 holy damage; A < 5 [weakened](scc.v1:mcdm.heroes.v1/condition/weakened) (save ends)
           tier3: 25 holy damage; A < 6 [weakened](scc.v1:mcdm.heroes.v1/condition/weakened) (save ends)
+        - effect: If a target made [weakened](scc.v1:mcdm.heroes.v1/condition/weakened) this way is already [weakened](scc.v1:mcdm.heroes.v1/condition/weakened), they are instead [dazed](scc.v1:mcdm.heroes.v1/condition/dazed) until the end of their next turn.
+          name: Effect
       feature_type: ability
       icon: ⚔️
       keywords:
@@ -87,7 +92,8 @@ features:
     - cost: 5 Malice
       distance: 15 burst
       effects:
-        - effect: '**Effect:** Each target must be dragonsealed. The dragon chooses a direction and vertical slides each target 10 squares in that direction, ignoring [stability](scc.v1:mcdm.heroes.v1/rule.character/stability). A target who strikes an obstacle takes damage as if they had fallen the [forced movement](scc.v1:mcdm.heroes.v1/movement/forced-movement) distance.'
+        - effect: Each target must be dragonsealed. The dragon chooses a direction and vertical slides each target 10 squares in that direction, ignoring [stability](scc.v1:mcdm.heroes.v1/rule.character/stability). A target who strikes an obstacle takes damage as if they had fallen the [forced movement](scc.v1:mcdm.heroes.v1/movement/forced-movement) distance.
+          name: Effect
       feature_type: ability
       icon: ❇️
       keywords:
@@ -99,14 +105,14 @@ features:
       usage: Maneuver
     - distance: Self
       effects:
-        - effect: |-
-            **Trigger:** The dragon takes damage from an ability while the area of their Voidshroud Wyrmscale Aura is 2 or more.
-            **Effect:** The dragon halves the damage. Each enemy and object in the area of the dragon's Voidshroud Wyrmscale Aura trait takes 5 sonic damage and is pulled up to 5 squares toward the dragon. The area of the wyrmscale aura then resets to 1.
+        - effect: The dragon halves the damage. Each enemy and object in the area of the dragon's Voidshroud Wyrmscale Aura trait takes 5 sonic damage and is pulled up to 5 squares toward the dragon. The area of the wyrmscale aura then resets to 1.
+          name: Effect
       feature_type: ability
       icon: ❗️
       keywords: []
       name: Field Collapse
       target: Self
+      trigger: The dragon takes damage from an ability while the area of their Voidshroud Wyrmscale Aura is 2 or more.
       type: feature
       usage: Free triggered action
     - cost: 2 Malice
@@ -116,6 +122,8 @@ features:
           tier1: 10 psychic damage; P < 4 [frightened](scc.v1:mcdm.heroes.v1/condition/frightened) (save ends)
           tier2: 16 psychic damage; P < 5 [frightened](scc.v1:mcdm.heroes.v1/condition/frightened) (save ends)
           tier3: 20 psychic damage; P < 6 [frightened](scc.v1:mcdm.heroes.v1/condition/frightened) (save ends)
+        - effect: While [frightened](scc.v1:mcdm.heroes.v1/condition/frightened) this way, the target can't use the triggering ability.
+          name: Effect
       feature_type: ability
       icon: ❗️
       keywords:
@@ -123,14 +131,16 @@ features:
         - Ranged
       name: A Hero Faces the Void
       target: The triggering creature
+      trigger: A creature within distance spends their Heroic Resource to use an ability.
       type: feature
       usage: Free triggered action
     - cost: Villain Action 1
       distance: 1-mile burst
       effects:
-        - effect: |-
-            **Effect:** Each target takes 30 fire damage, and if they have M < 5, they are knocked [prone](scc.v1:mcdm.heroes.v1/condition/prone).
-            **Special:** The dragon can use this ability before the encounter begins.
+        - effect: Each target takes 30 fire damage, and if they have M < 5, they are knocked [prone](scc.v1:mcdm.heroes.v1/condition/prone).
+          name: Effect
+        - effect: The dragon can use this ability before the encounter begins.
+          name: Special
       feature_type: ability
       icon: ☠️
       keywords:
@@ -143,7 +153,8 @@ features:
     - cost: Villain Action 2
       distance: Self
       effects:
-        - effect: '**Effect:** Until the end of the encounter, each enemy who is dragonsealed and [weakened](scc.v1:mcdm.heroes.v1/condition/weakened) and who the dragon has [line of effect](scc.v1:mcdm.heroes.v1/rule.combat/line-of-effect) to loses 1 of their Heroic Resource at the start of each of their turns (to a minimum of 0). The dragon then uses their Cosmic Tail Ray ability with a double [edge](scc.v1:mcdm.heroes.v1/rule.dice/edge), targeting four creatures or objects.'
+        - effect: Until the end of the encounter, each enemy who is dragonsealed and [weakened](scc.v1:mcdm.heroes.v1/condition/weakened) and who the dragon has [line of effect](scc.v1:mcdm.heroes.v1/rule.combat/line-of-effect) to loses 1 of their Heroic Resource at the start of each of their turns (to a minimum of 0). The dragon then uses their Cosmic Tail Ray ability with a double [edge](scc.v1:mcdm.heroes.v1/rule.dice/edge), targeting four creatures or objects.
+          name: Effect
       feature_type: ability
       icon: ☠️
       keywords: []
@@ -154,10 +165,12 @@ features:
     - cost: Villain Action 3
       distance: ∞ x 3 line within 1
       effects:
-        - roll: ""
+        - effect: Each target makes an Agility test.
+          name: Effect
           tier1: 25 damage; I < 6 the target is annihilated
           tier2: 21 damage; I < 5 the target is annihilated
           tier3: 15 damage; I < 4 the target is annihilated
+        - effect: An annihilated target must make the test again, decreasing the [potency](scc.v1:mcdm.heroes.v1/rule.character/potency) for themself by 2 each time they are annihilated. A creature reduced to 0 [Stamina](scc.v1:mcdm.heroes.v1/rule.health/stamina) by this dies and their soul is destroyed.
       feature_type: ability
       icon: ☠️
       keywords:

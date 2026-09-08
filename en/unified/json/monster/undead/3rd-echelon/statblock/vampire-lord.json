@@ -11,6 +11,14 @@
           "tier1": "13 corruption damage; M \u003c 3 [bleeding](scc.v1:mcdm.heroes.v1/condition/bleeding) (save ends)",
           "tier2": "21 corruption damage; M \u003c 4 [bleeding](scc.v1:mcdm.heroes.v1/condition/bleeding) (save ends)",
           "tier3": "24 corruption damage; M \u003c 5 [bleeding](scc.v1:mcdm.heroes.v1/condition/bleeding) (save ends)"
+        },
+        {
+          "effect": "The vampire regains [Stamina](scc.v1:mcdm.heroes.v1/rule.health/stamina) equal to half the damage dealt, and can end one effect on them that can be ended by a [saving throw](scc.v1:mcdm.heroes.v1/rule.general/saving-throw).",
+          "name": "Effect"
+        },
+        {
+          "cost": "2+ Malice",
+          "effect": "The vampire [shifts](scc.v1:mcdm.heroes.v1/movement/shifting) 3 after striking the last target, and can target one additional creature for every 2 malice spent."
         }
       ],
       "feature_type": "ability",
@@ -30,7 +38,8 @@
       "distance": "Ranged 10",
       "effects": [
         {
-          "effect": "**Effect:** Two blood-starved vampires appear in unoccupied spaces within distance."
+          "effect": "Two blood-starved vampires appear in unoccupied spaces within distance.",
+          "name": "Effect"
         }
       ],
       "feature_type": "ability",
@@ -48,7 +57,8 @@
       "distance": "Ranged 5",
       "effects": [
         {
-          "effect": "**Trigger:** A creature makes a [strike](scc.v1:mcdm.heroes.v1/rule.combat/strike) against the vampire.\n**Effect:** The target becomes the new target of the [strike](scc.v1:mcdm.heroes.v1/rule.combat/strike)."
+          "effect": "The target becomes the new target of the [strike](scc.v1:mcdm.heroes.v1/rule.combat/strike).",
+          "name": "Effect"
         }
       ],
       "feature_type": "ability",
@@ -59,6 +69,7 @@
       ],
       "name": "Redirected Charm",
       "target": "One enemy",
+      "trigger": "A creature makes a [strike](scc.v1:mcdm.heroes.v1/rule.combat/strike) against the vampire.",
       "type": "feature",
       "usage": "Free triggered action"
     },
@@ -78,7 +89,8 @@
       "distance": "20 burst",
       "effects": [
         {
-          "effect": "**Effect:** Each target who has P \u003c 4 is now [bleeding](scc.v1:mcdm.heroes.v1/condition/bleeding) (save ends)."
+          "effect": "Each target who has P \u003c 4 is now [bleeding](scc.v1:mcdm.heroes.v1/condition/bleeding) (save ends).",
+          "name": "Effect"
         }
       ],
       "feature_type": "ability",
@@ -100,6 +112,10 @@
           "tier1": "2 damage; M \u003c 3 6 corruption damage",
           "tier2": "7 damage; M \u003c 4 6 corruption damage",
           "tier3": "10 damage; M \u003c 5 6 corruption damage"
+        },
+        {
+          "effect": "The vampire turns to mist, filling the area. Until the end of the round, the vampire can't move or be targeted by abilities, but they can use Crimson Embrace against a target in the area. The vampire reforms in an unoccupied space in the area at the end of the round.",
+          "name": "Effect"
         }
       ],
       "feature_type": "ability",
@@ -118,7 +134,15 @@
       "distance": "Ranged 20",
       "effects": [
         {
-          "roll": "",
+          "effect": "Each target is marked for sacrifice. At the end of the round, each target who isn't dead or destroyed takes 50 corruption damage. The vampire then uses the following ability.",
+          "name": "Effect"
+        },
+        {
+          "effect": "**Wave of Blood:**"
+        },
+        {
+          "effect": "Each target makes a **Might test**. This ability deals an extra 5 damage for each creature killed by the Sacrifice [villain action](scc.v1:mcdm.monsters.v1/rule.monster/villain-action).",
+          "name": "Effect",
           "tier1": "11 corruption damage",
           "tier2": "8 corruption damage",
           "tier3": "2 corruption damage"

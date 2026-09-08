@@ -36,6 +36,10 @@ features:
           tier1: 7 damage; M < 1 [weakened](../../../condition/weakened.md) (save ends)
           tier2: 10 damage; M < 1 [weakened](../../../condition/weakened.md) (save ends)
           tier3: 13 damage; M < 1 [weakened](../../../condition/weakened.md) (save ends)
+        - effect: Each ally [adjacent](../../../rule/combat/adjacent.md) to a target can make a [free strike](../../../feature/common/main-actions/free-strike.md) against that target.
+          name: Effect
+        - cost: 3 Malice
+          effect: While [weakened](../../../condition/weakened.md) this way, a target is also [restrained](../../../condition/restrained.md).
       feature_type: ability
       icon: ⚔️
       keywords:
@@ -49,7 +53,8 @@ features:
       usage: Main action
     - distance: Ranged 10
       effects:
-        - effect: '**Effect:** Until the start of the centurion''s next turn, the centurion and their allies gain an edge on power rolls against the target.'
+        - effect: Until the start of the centurion's next turn, the centurion and their allies gain an edge on power rolls against the target.
+          name: Effect
       feature_type: ability
       icon: "\U0001F3F9"
       keywords:
@@ -60,15 +65,15 @@ features:
       usage: Maneuver
     - distance: 5 burst
       effects:
-        - effect: |-
-            **Trigger:** A creature uses an ability that targets the centurion or an ally of the centurion within distance.
-            **Effect:** Each target [shifts](../../../movement/shifting.md) up to 2 squares before the damage is resolved. Each kobold with the Shield? Shield! trait gains damage immunity 2 against the triggering ability.
+        - effect: Each target [shifts](../../../movement/shifting.md) up to 2 squares before the damage is resolved. Each kobold with the Shield? Shield! trait gains damage immunity 2 against the triggering ability.
+          name: Effect
       feature_type: ability
       icon: ❗️
       keywords:
         - Area
       name: Testudo!
       target: Each ally in the area
+      trigger: A creature uses an ability that targets the centurion or an ally of the centurion within distance.
       type: feature
       usage: Triggered action
     - effects:
@@ -80,7 +85,8 @@ features:
     - cost: Villain Action 1
       distance: Special
       effects:
-        - effect: '**Effect:** The centurion moves up to their speed, ignoring [difficult terrain](../../../movement/difficult-terrain.md), and uses Pilum against each creature whose space they move through. They make one power roll against all targets, and the ability deals an extra 5 damage. While [weakened](../../../condition/weakened.md) by that ability, each target takes 2 fire damage at the start of each of their turns.'
+        - effect: The centurion moves up to their speed, ignoring [difficult terrain](../../../movement/difficult-terrain.md), and uses Pilum against each creature whose space they move through. They make one power roll against all targets, and the ability deals an extra 5 damage. While [weakened](../../../condition/weakened.md) by that ability, each target takes 2 fire damage at the start of each of their turns.
+          name: Effect
       feature_type: ability
       icon: ☠️
       keywords: []
@@ -91,7 +97,8 @@ features:
     - cost: Villain Action 2
       distance: 5 cube within 10
       effects:
-        - effect: '**Effect:** The centurion uses Pilum against each target and has a double edge. Each target is then [pushed](../../../movement/forced-movement.md) up to 3 squares.'
+        - effect: The centurion uses Pilum against each target and has a double edge. Each target is then [pushed](../../../movement/forced-movement.md) up to 3 squares.
+          name: Effect
       feature_type: ability
       icon: ☠️
       keywords:
@@ -105,7 +112,8 @@ features:
     - cost: Villain Action 3
       distance: 10 burst
       effects:
-        - effect: '**Effect:** A target who has P < 2 is [taunted](../../../condition/taunted.md) (save ends). Each ally within distance can make a [free strike](../../../feature/common/main-actions/free-strike.md). Additionally, until the end of the encounter, the centurion has damage immunity 2.'
+        - effect: A target who has P < 2 is [taunted](../../../condition/taunted.md) (save ends). Each ally within distance can make a [free strike](../../../feature/common/main-actions/free-strike.md). Additionally, until the end of the encounter, the centurion has damage immunity 2.
+          name: Effect
       feature_type: ability
       icon: ☠️
       keywords:

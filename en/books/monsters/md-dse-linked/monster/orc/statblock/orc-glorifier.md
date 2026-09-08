@@ -38,6 +38,8 @@ features:
           tier1: 1 sonic damage
           tier2: 2 sonic damage; P < 1 [slowed](../../../condition/slowed.md) (save ends)
           tier3: 3 sonic damage; P < 2 [slowed](../../../condition/slowed.md) (save ends)
+        - effect: Allies gain an edge on melee [strikes](../../../rule/combat/strike.md) against the target until the glorifier and each other glorifier in their [squad](../../../rule/monster/squad.md) are killed.
+          name: Effect
       feature_type: ability
       icon: ⚔️
       keywords:

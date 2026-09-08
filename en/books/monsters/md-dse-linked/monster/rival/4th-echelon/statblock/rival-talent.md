@@ -37,6 +37,8 @@ features:
           tier1: 15 psychic damage
           tier2: 20 psychic damage
           tier3: 24 psychic damage
+        - cost: 4 Malice
+          effect: Each target moves up to their speed and can make a [free strike](../../../../feature/common/main-actions/free-strike.md) against one enemy of the talent's choice. The target's movement can provoke opportunity attacks, but they can't otherwise be moved in a way that would harm them.
       feature_type: ability
       icon: "\U0001F3F9"
       keywords:
@@ -55,6 +57,8 @@ features:
           tier1: R < 3 [slowed](../../../../condition/slowed.md) (save ends)
           tier2: R < 4 [restrained](../../../../condition/restrained.md) (save ends)
           tier3: R < 5 [restrained](../../../../condition/restrained.md) (save ends)
+        - effect: One ally within distance can use an additional main action on their next turn.
+          name: Effect
       feature_type: ability
       icon: "\U0001F3F9"
       keywords:
@@ -68,15 +72,15 @@ features:
     - cost: 2 Malice
       distance: Self; see below
       effects:
-        - effect: |-
-            **Trigger:** A creature deals damage to the talent.
-            **Effect:** The talent halves the damage and [shifts](../../../../movement/shifting.md) up to 2 squares. The triggering creature takes psychic damage equal to half the damage dealt and is [pushed](../../../../movement/forced-movement.md) up to 5 squares.
+        - effect: The talent halves the damage and [shifts](../../../../movement/shifting.md) up to 2 squares. The triggering creature takes psychic damage equal to half the damage dealt and is [pushed](../../../../movement/forced-movement.md) up to 5 squares.
+          name: Effect
       feature_type: ability
       icon: ❗️
       keywords:
         - Psionic
       name: Psionic Retribution
       target: Self
+      trigger: A creature deals damage to the talent.
       type: feature
       usage: Triggered action
     - effects:

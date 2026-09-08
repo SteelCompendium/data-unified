@@ -41,6 +41,8 @@ features:
           tier1: 2 damage
           tier2: 4 damage
           tier3: 5 damage
+        - effect: The cleaver jumps up to 4 squares before or after making this [strike](../../../rule/combat/strike.md).
+          name: Effect
       feature_type: ability
       icon: "\U0001F5E1"
       keywords:

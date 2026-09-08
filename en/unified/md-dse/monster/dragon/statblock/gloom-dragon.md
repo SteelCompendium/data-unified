@@ -33,9 +33,10 @@ agility: 4
 ev: "72"
 features:
     - effects:
-        - effect: |-
-            **[End Effect](scc.v1:mcdm.monsters.v1/rule.monster/end-effect):** At the end of each of their turns, the dragon can take 10 damage to end one effect on them that can be ended by a saving throw. This damage can't be reduced in any way.
-            **Solo Turns:** The dragon can take two turns each round. They can't take turns consecutively.
+        - effect: At the end of each of their turns, the dragon can take 10 damage to end one effect on them that can be ended by a saving throw. This damage can't be reduced in any way.
+          name: End Effect
+        - effect: The dragon can take two turns each round. They can't take turns consecutively.
+          name: Solo Turns
       feature_type: trait
       icon: ☠️
       name: Solo Monster
@@ -49,10 +50,12 @@ features:
     - ability_type: Signature Ability
       distance: 4 cube within 10
       effects:
-        - roll: ""
+        - effect: Each target makes an **Agility test**.
+          name: Effect
           tier1: 14 cold damage; the target is dragonsealed (save ends)
           tier2: 11 cold damage; the target is dragonsealed (save ends)
           tier3: 6 cold damage
+        - effect: A dragonsealed creature has psychic weakness 3 and cold weakness 3. Additionally, the area is filled with magical darkness. The dragon ignores concealment created by this darkness.
       feature_type: ability
       icon: "\U0001F533"
       keywords:
@@ -69,6 +72,8 @@ features:
           tier1: 10 psychic damage; pull 2
           tier2: 15 psychic damage; pull 4
           tier3: 18 psychic damage; pull 6
+        - cost: 3 Malice
+          effect: The pull becomes a vertical slide.
       feature_type: ability
       icon: "\U0001F5E1"
       keywords:
@@ -89,7 +94,8 @@ features:
     - cost: 5 Malice
       distance: 10 burst
       effects:
-        - effect: '**Effect:** Each target must be dragonsealed. Each target takes 3 psychic damage, and if they have I < 3 they immediately make a [free strike](scc.v1:mcdm.heroes.v1/feature.common.main-actions/free-strike) against one ally of the dragon''s choice.'
+        - effect: Each target must be dragonsealed. Each target takes 3 psychic damage, and if they have I < 3 they immediately make a [free strike](scc.v1:mcdm.heroes.v1/feature.common.main-actions/free-strike) against one ally of the dragon's choice.
+          name: Effect
       feature_type: ability
       icon: ❇️
       keywords:
@@ -102,14 +108,14 @@ features:
     - cost: 1 Malice
       distance: Self
       effects:
-        - effect: |-
-            **Trigger:** A creature within 10 squares moves.
-            **Effect:** The dragon moves two existing cubes of magical darkness they created up to 10 squares each.
+        - effect: The dragon moves two existing cubes of magical darkness they created up to 10 squares each.
+          name: Effect
       feature_type: ability
       icon: ❗️
       keywords: []
       name: Encroaching Darkness
       target: Self
+      trigger: A creature within 10 squares moves.
       type: feature
       usage: Free triggered action
     - cost: Villain Action 1
@@ -135,6 +141,8 @@ features:
           tier1: 6 psychic damage
           tier2: 11 psychic damage
           tier3: 14 psychic damage
+        - effect: Each target must be dragonsealed. Any target who has I < 3 is also [dazed](scc.v1:mcdm.heroes.v1/condition/dazed) (save ends).
+          name: Effect
       feature_type: ability
       icon: ☠️
       keywords:
@@ -147,7 +155,8 @@ features:
     - cost: Villain Action 3
       distance: Special
       effects:
-        - effect: '**Effect:** The dragon disappears from the encounter map. The dragon and three hallucinatory illusions of themself then immediately reappear in unoccupied spaces on the encounter map, and the dragon and each illusion uses Breath of Brume. Each illusion is indistinguishable from the dragon except by supernatural means, has 1 [Stamina](scc.v1:mcdm.heroes.v1/rule.health/stamina), and has the dragon''s speed. An illusion acts on the dragon''s turns but can take only move actions. Once per round before or after using an ability, the dragon can trade places with any duplicate.'
+        - effect: The dragon disappears from the encounter map. The dragon and three hallucinatory illusions of themself then immediately reappear in unoccupied spaces on the encounter map, and the dragon and each illusion uses Breath of Brume. Each illusion is indistinguishable from the dragon except by supernatural means, has 1 [Stamina](scc.v1:mcdm.heroes.v1/rule.health/stamina), and has the dragon's speed. An illusion acts on the dragon's turns but can take only move actions. Once per round before or after using an ability, the dragon can trade places with any duplicate.
+          name: Effect
       feature_type: ability
       icon: ☠️
       keywords: []

@@ -39,6 +39,8 @@ features:
           tier1: 8 lightning damage
           tier2: 12 lightning damage
           tier3: 15 lightning damage
+        - effect: The next strike made against the target deals an extra 5 damage.
+          name: Effect
       feature_type: ability
       icon: "\U0001F3F9"
       keywords:
@@ -56,6 +58,8 @@ features:
           tier1: The target regains 6 Stamina.
           tier2: The target regains 9 Stamina.
           tier3: The target regains 12 Stamina and the Director gains 3 [Malice](scc.v1:mcdm.monsters.v1/rule.monster/malice).
+        - effect: Each target gains an edge on their next strike.
+          name: Effect
       feature_type: ability
       icon: ❇️
       keywords:

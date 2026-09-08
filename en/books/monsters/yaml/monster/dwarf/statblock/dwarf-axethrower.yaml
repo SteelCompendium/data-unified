@@ -8,6 +8,8 @@ features:
           tier1: 1 damage
           tier2: 2 damage
           tier3: 3 damage; one ally [adjacent](scc.v1:mcdm.heroes.v1/rule.combat/adjacent) to the target can make a [free strike](scc.v1:mcdm.heroes.v1/feature.common.main-actions/free-strike)
+        - effect: The target can't use triggered actions until the start of the next round.
+          name: Effect
       feature_type: ability
       icon: ⚔️
       keywords:

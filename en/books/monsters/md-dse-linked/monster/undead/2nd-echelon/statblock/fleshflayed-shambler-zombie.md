@@ -41,6 +41,8 @@ features:
           tier1: 3 damage
           tier2: 5 damage
           tier3: 7 damage
+        - effect: If this ability gains an edge or has a double edge, the target is [bleeding](../../../../condition/bleeding.md) (save ends).
+          name: Effect
       feature_type: ability
       icon: "\U0001F5E1"
       keywords:

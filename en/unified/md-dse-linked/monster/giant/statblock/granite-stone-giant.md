@@ -38,6 +38,8 @@ features:
           tier1: 12 damage
           tier2: 17 damage; R < 3 [weakened](../../../condition/weakened.md) (save ends)
           tier3: 21 damage; R < 4 [weakened](../../../condition/weakened.md) (save ends)
+        - effect: If the target is already [weakened](../../../condition/weakened.md), they are also [bleeding](../../../condition/bleeding.md) (save ends).
+          name: Effect
       feature_type: ability
       icon: "\U0001F5E1"
       keywords:
@@ -55,6 +57,8 @@ features:
           tier1: 6 damage; [push](../../../movement/forced-movement.md) 2
           tier2: 10 damage; [push](../../../movement/forced-movement.md) 4
           tier3: 14 damage; vertical [push](../../../movement/forced-movement.md) 4
+        - effect: The area is [difficult terrain](../../../movement/difficult-terrain.md). Whenever a creature enters square in the area, they take 3 damage.
+          name: Effect
       feature_type: ability
       icon: ❇️
       keywords:
@@ -65,7 +69,8 @@ features:
       usage: Main action
     - distance: Self
       effects:
-        - effect: '**Effect:** The granite stone giant moves up to their speed and creates a 14 wall of stone in squares [adjacent](../../../rule/combat/adjacent.md) to the path of their movement.'
+        - effect: The granite stone giant moves up to their speed and creates a 14 wall of stone in squares [adjacent](../../../rule/combat/adjacent.md) to the path of their movement.
+          name: Effect
       feature_type: ability
       icon: "\U0001F464"
       keywords: []
@@ -75,15 +80,15 @@ features:
       usage: Maneuver
     - distance: Melee 3
       effects:
-        - effect: |-
-            **Trigger:** A creature or object within distance moves or [shifts](../../../movement/shifting.md) away from the granite stone giant.
-            **Effect:** A 1-square pillar of stone rises 5 squares out of the ground beneath the target, who moves with the ground to its new elevation, then is vertical [pushed](../../../movement/forced-movement.md) 5 squares.
+        - effect: A 1-square pillar of stone rises 5 squares out of the ground beneath the target, who moves with the ground to its new elevation, then is vertical [pushed](../../../movement/forced-movement.md) 5 squares.
+          name: Effect
       feature_type: ability
       icon: ❗️
       keywords:
         - Melee
       name: Pillar
       target: The triggering creature or object
+      trigger: A creature or object within distance moves or [shifts](../../../movement/shifting.md) away from the granite stone giant.
       type: feature
       usage: Triggered action
     - effects:

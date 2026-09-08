@@ -11,6 +11,10 @@
           "tier1": "4 damage",
           "tier2": "6 damage",
           "tier3": "7 damage"
+        },
+        {
+          "effect": "If this ability gains an edge or has a double edge, it deals an extra 2 damage.",
+          "name": "Effect"
         }
       ],
       "feature_type": "ability",

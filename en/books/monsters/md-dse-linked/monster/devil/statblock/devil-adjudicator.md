@@ -40,6 +40,8 @@ features:
           tier1: 10 fire damage; I < 1 [frightened](../../../condition/frightened.md) (save ends)
           tier2: 15 fire damage; I < 1 [frightened](../../../condition/frightened.md) (save ends)
           tier3: 18 fire damage; I < 1 [frightened](../../../condition/frightened.md) (save ends)
+        - effect: The adjudicator can slide a target [frightened](../../../condition/frightened.md) by this ability up to 2 squares.
+          name: Effect
       feature_type: ability
       icon: "\U0001F3F9"
       keywords:
@@ -52,7 +54,8 @@ features:
       usage: Main action
     - distance: Ranged 10
       effects:
-        - roll: ""
+        - effect: The target makes a Presence test.
+          name: Effect
           tier1: The target is [slowed](../../../condition/slowed.md), takes a [bane](../../../rule/dice/bane.md) on power rolls, and can't regain [Stamina](../../../rule/health/stamina.md) (save ends).
           tier2: The target is [slowed](../../../condition/slowed.md) and takes a [bane](../../../rule/dice/bane.md) on power rolls (save ends).
           tier3: '[Slowed](../../../condition/slowed.md) (save ends)'
@@ -67,7 +70,8 @@ features:
       usage: Main action
     - distance: Ranged 10
       effects:
-        - effect: '**Effect:** The adjudicator and the target [teleport](../../../movement/teleport.md) to switch places.'
+        - effect: The adjudicator and the target [teleport](../../../movement/teleport.md) to switch places.
+          name: Effect
       feature_type: ability
       icon: "\U0001F3F9"
       keywords:
@@ -80,7 +84,8 @@ features:
     - cost: 2 Malice
       distance: Ranged 5
       effects:
-        - roll: ""
+        - effect: The target makes a Presence test.
+          name: Effect
           tier1: The adjudicator chooses a new target for the strike.
           tier2: The adjudicator halves the triggering damage.
           tier3: The target takes a [bane](../../../rule/dice/bane.md) on the strike.
@@ -91,6 +96,7 @@ features:
         - Ranged
       name: Devilish Charm
       target: The triggering creature
+      trigger: A creature targets the adjudicator with a strike.
       type: feature
       usage: Triggered action
     - effects:

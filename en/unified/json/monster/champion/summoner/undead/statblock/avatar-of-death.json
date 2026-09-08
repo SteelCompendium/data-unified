@@ -12,6 +12,10 @@
           "tier1": "9 corruption [damage](scc.v1:mcdm.heroes.v1/rule.damage/damage); M \u003c WEAK [bleeding](scc.v1:mcdm.heroes.v1/condition/bleeding) ([save ends](scc.v1:mcdm.heroes.v1/rule.general/saving-throw))",
           "tier2": "12 corruption [damage](scc.v1:mcdm.heroes.v1/rule.damage/damage); M \u003c AVERAGE [bleeding](scc.v1:mcdm.heroes.v1/condition/bleeding) ([save ends](scc.v1:mcdm.heroes.v1/rule.general/saving-throw))",
           "tier3": "14 corruption [damage](scc.v1:mcdm.heroes.v1/rule.damage/damage); M \u003c STRONG [bleeding](scc.v1:mcdm.heroes.v1/condition/bleeding) ([save ends](scc.v1:mcdm.heroes.v1/rule.general/saving-throw))"
+        },
+        {
+          "effect": "If the target is a creature that isn't a leader or a solo and they are still [bleeding](scc.v1:mcdm.heroes.v1/condition/bleeding) at the end of the encounter, they instantly die.",
+          "name": "Effect"
         }
       ],
       "feature_type": "ability",
@@ -52,7 +56,8 @@
       "distance": "1 burst",
       "effects": [
         {
-          "effect": "**Trigger:** The Avatar takes [damage](scc.v1:mcdm.heroes.v1/rule.damage/damage).\n**Effect:** M \u003c AVERAGE [weakened](scc.v1:mcdm.heroes.v1/condition/weakened) ([EoT](scc.v1:mcdm.heroes.v1/rule.combat/end-of-turn))."
+          "effect": "M \u003c AVERAGE [weakened](scc.v1:mcdm.heroes.v1/condition/weakened) ([EoT](scc.v1:mcdm.heroes.v1/rule.combat/end-of-turn)).",
+          "name": "Effect"
         }
       ],
       "feature_type": "ability",
@@ -62,6 +67,7 @@
       ],
       "name": "Dust and Rot",
       "target": "Each enemy in the burst",
+      "trigger": "The Avatar takes [damage](scc.v1:mcdm.heroes.v1/rule.damage/damage).",
       "type": "feature",
       "usage": "Free triggered action"
     },

@@ -1,11 +1,16 @@
 ---
 features:
     - body: The Attendant is now size 3.
+      effects:
+        - effect: The Attendant is now size 3.
       icon: ⭐️
       level: 10
       name: Size Increase
     - cost: 1 Eidos
       distance: 20 burst
+      effects:
+        - effect: Each target gains 20 [temporary Stamina](../../../../../rule/health/temporary-stamina.md) and receives the benefits of one of your [Flash Powder](../../../../../feature/summoner/level-5/flash-powder.md) effects until the end of their next [turn](../../../../../rule/combat/turn.md).
+          name: Effect
       icon: ❗️
       level: 10
       name: A Shower of Dust
@@ -27,11 +32,16 @@ type: featureblock
 ```ds-fb
 features:
     - body: The Attendant is now size 3.
+      effects:
+        - effect: The Attendant is now size 3.
       icon: ⭐️
       level: 10
       name: Size Increase
     - cost: 1 Eidos
       distance: 20 burst
+      effects:
+        - effect: Each target gains 20 [temporary Stamina](../../../../../rule/health/temporary-stamina.md) and receives the benefits of one of your [Flash Powder](../../../../../feature/summoner/level-5/flash-powder.md) effects until the end of their next [turn](../../../../../rule/combat/turn.md).
+          name: Effect
       icon: ❗️
       level: 10
       name: A Shower of Dust

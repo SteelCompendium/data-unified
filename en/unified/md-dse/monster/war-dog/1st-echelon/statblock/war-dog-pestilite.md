@@ -40,6 +40,8 @@ features:
           tier1: 2 poison damage; I < 0 [frightened](scc.v1:mcdm.heroes.v1/condition/frightened) (save ends)
           tier2: 4 poison damage; I < 1 [frightened](scc.v1:mcdm.heroes.v1/condition/frightened) (save ends)
           tier3: 5 poison damage; I < 2 [frightened](scc.v1:mcdm.heroes.v1/condition/frightened) (save ends)
+        - effect: The area is filled with a cloud of pestilence that lasts until the start of the pestilite's next turn. Any creature who enters the area for the first time in a round or starts their turn there takes 2 poison damage.
+          name: Effect
       feature_type: ability
       icon: "\U0001F533"
       keywords:
@@ -52,7 +54,8 @@ features:
       usage: Main action
     - distance: Ranged 10
       effects:
-        - effect: '**Effect:** If the target has a loyalty collar, they are reduced to 0 [Stamina](scc.v1:mcdm.heroes.v1/rule.health/stamina).'
+        - effect: If the target has a loyalty collar, they are reduced to 0 [Stamina](scc.v1:mcdm.heroes.v1/rule.health/stamina).
+          name: Effect
       feature_type: ability
       icon: "\U0001F3F9"
       keywords:

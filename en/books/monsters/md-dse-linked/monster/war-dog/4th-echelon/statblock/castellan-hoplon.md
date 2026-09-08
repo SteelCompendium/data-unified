@@ -40,6 +40,8 @@ features:
           tier1: 15 damage
           tier2: 20 damage; [push](../../../../movement/forced-movement.md) 3
           tier3: 24 damage; [push](../../../../movement/forced-movement.md) 5
+        - effect: Two allies within 10 squares of Hoplon each [shift](../../../../movement/shifting.md) up to their speed, then can take the Defend main action or make a [free strike](../../../../feature/common/main-actions/free-strike.md).
+          name: Effect
       feature_type: ability
       icon: "\U0001F5E1"
       keywords:
@@ -53,7 +55,8 @@ features:
     - cost: 5 Malice
       distance: Ranged 15
       effects:
-        - effect: '**Effect:** A 10-square-tall tower made of black stone shimmers into being in an unoccupied space that is 5 squares on a side. The tower has three floors, an entrance in the middle of each side on the ground floor, and a crenelated rooftop. Any war dog inside or [adjacent](../../../../rule/combat/adjacent.md) to the tower has damage immunity 2 and regains 5 [Stamina](../../../../rule/health/stamina.md) at the start of each of their turns, and war dogs inside the tower can observe through and have line of effect through its walls. This ability can be used only once per encounter.'
+        - effect: A 10-square-tall tower made of black stone shimmers into being in an unoccupied space that is 5 squares on a side. The tower has three floors, an entrance in the middle of each side on the ground floor, and a crenelated rooftop. Any war dog inside or [adjacent](../../../../rule/combat/adjacent.md) to the tower has damage immunity 2 and regains 5 [Stamina](../../../../rule/health/stamina.md) at the start of each of their turns, and war dogs inside the tower can observe through and have line of effect through its walls. This ability can be used only once per encounter.
+          name: Effect
       feature_type: ability
       icon: "\U0001F3F9"
       keywords:
@@ -69,6 +72,8 @@ features:
           tier1: R < 3 taunted (EoT)
           tier2: R < 4 taunted (EoT)
           tier3: R < 5 taunted (EoT)
+        - effect: Until the start of Hoplon's next turn, any enemy ability that includes him as a target takes a bane.
+          name: Effect
       feature_type: ability
       icon: ❇️
       keywords:
@@ -79,15 +84,15 @@ features:
       usage: Maneuver
     - distance: Self
       effects:
-        - effect: |-
-            **Trigger:** An enemy within 10 squares targets an ally with an ability.
-            **Effect:** Hoplon [teleports](../../../../movement/teleport.md) to an unoccupied space [adjacent](../../../../rule/combat/adjacent.md) to the enemy and becomes the new target of the ability. He can then make a [free strike](../../../../feature/common/main-actions/free-strike.md) against the enemy, and if that enemy has R < 4 they are taunted until the end of their next turn.
+        - effect: Hoplon [teleports](../../../../movement/teleport.md) to an unoccupied space [adjacent](../../../../rule/combat/adjacent.md) to the enemy and becomes the new target of the ability. He can then make a [free strike](../../../../feature/common/main-actions/free-strike.md) against the enemy, and if that enemy has R < 4 they are taunted until the end of their next turn.
+          name: Effect
       feature_type: ability
       icon: ❗️
       keywords:
         - Magic
       name: Timely Intervention
       target: Self
+      trigger: An enemy within 10 squares targets an ally with an ability.
       type: feature
       usage: Triggered action
     - effects:

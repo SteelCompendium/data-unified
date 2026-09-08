@@ -8,7 +8,15 @@ features:
         - Weapon
       name: Iron Jaws
       usage: Maneuver
-    - icon: '|'
+    - effects:
+        - effect: A gnoll acting this turn drops an iron-jawed snare into the area. The first time any enemy moves into the area, they make an **Agility test**. If they were unaware of the snare, the test takes a bane.
+          name: Effect
+          tier1: 6 damage; [bleeding](../../condition/bleeding.md) (save ends)
+          tier2: 4 damage; [bleeding](../../condition/bleeding.md) (EoT)
+          tier3: No effect.
+        - effect: While an enemy is [bleeding](../../condition/bleeding.md) this way, each gnoll in the encounter gains an edge on strikes made against them.
+          name: Effect
+      icon: '|'
       name: "\U0001F4CF 1 cube within 3**   | **\U0001F3AF Special"
       power_roll:
         tiers:
@@ -22,10 +30,14 @@ features:
           text: While an enemy is [bleeding](../../condition/bleeding.md) this way, each gnoll in the encounter gains an edge on strikes made against them.
     - body: One gnoll [minion](../../rule/organization/minion.md) suddenly explodes into a pool of blood, splattering the area within 3 squares of them. Any gnoll who starts their turn in this area deals an extra 5 damage on their next strike before the end of their turn. Once per round, an abyssal hyena who starts their turn in the area turns into a **gnoll marauder**, keeping their current [Stamina](../../rule/health/stamina.md).
       cost: 5 Malice
+      effects:
+        - effect: One gnoll [minion](../../rule/organization/minion.md) suddenly explodes into a pool of blood, splattering the area within 3 squares of them. Any gnoll who starts their turn in this area deals an extra 5 damage on their next strike before the end of their turn. Once per round, an abyssal hyena who starts their turn in the area turns into a **gnoll marauder**, keeping their current [Stamina](../../rule/health/stamina.md).
       icon: "\U0001F464"
       name: Bloodpool
     - body: Until the end of the encounter, the encounter map is encased in a soundscape of laughter and howling. Each enemy takes a bane on the first power roll they make each round. Whenever a gnoll is killed, this effect is suppressed until the start of the next round.
       cost: 7 Malice
+      effects:
+        - effect: Until the end of the encounter, the encounter map is encased in a soundscape of laughter and howling. Each enemy takes a bane on the first power roll they make each round. Whenever a gnoll is killed, this effect is suppressed until the start of the next round.
       icon: "\U0001F300"
       name: Echoes of Laughter
 file_basename: gnoll-malice
@@ -50,7 +62,15 @@ features:
         - Weapon
       name: Iron Jaws
       usage: Maneuver
-    - icon: '|'
+    - effects:
+        - effect: A gnoll acting this turn drops an iron-jawed snare into the area. The first time any enemy moves into the area, they make an **Agility test**. If they were unaware of the snare, the test takes a bane.
+          name: Effect
+          tier1: 6 damage; [bleeding](../../condition/bleeding.md) (save ends)
+          tier2: 4 damage; [bleeding](../../condition/bleeding.md) (EoT)
+          tier3: No effect.
+        - effect: While an enemy is [bleeding](../../condition/bleeding.md) this way, each gnoll in the encounter gains an edge on strikes made against them.
+          name: Effect
+      icon: '|'
       name: "\U0001F4CF 1 cube within 3**   | **\U0001F3AF Special"
       power_roll:
         tiers:
@@ -64,10 +84,14 @@ features:
           text: While an enemy is [bleeding](../../condition/bleeding.md) this way, each gnoll in the encounter gains an edge on strikes made against them.
     - body: One gnoll [minion](../../rule/organization/minion.md) suddenly explodes into a pool of blood, splattering the area within 3 squares of them. Any gnoll who starts their turn in this area deals an extra 5 damage on their next strike before the end of their turn. Once per round, an abyssal hyena who starts their turn in the area turns into a **gnoll marauder**, keeping their current [Stamina](../../rule/health/stamina.md).
       cost: 5 Malice
+      effects:
+        - effect: One gnoll [minion](../../rule/organization/minion.md) suddenly explodes into a pool of blood, splattering the area within 3 squares of them. Any gnoll who starts their turn in this area deals an extra 5 damage on their next strike before the end of their turn. Once per round, an abyssal hyena who starts their turn in the area turns into a **gnoll marauder**, keeping their current [Stamina](../../rule/health/stamina.md).
       icon: "\U0001F464"
       name: Bloodpool
     - body: Until the end of the encounter, the encounter map is encased in a soundscape of laughter and howling. Each enemy takes a bane on the first power roll they make each round. Whenever a gnoll is killed, this effect is suppressed until the start of the next round.
       cost: 7 Malice
+      effects:
+        - effect: Until the end of the encounter, the encounter map is encased in a soundscape of laughter and howling. Each enemy takes a bane on the first power roll they make each round. Whenever a gnoll is killed, this effect is suppressed until the start of the next round.
       icon: "\U0001F300"
       name: Echoes of Laughter
 flavor: At the start of any gnoll's turn, you can spend Malice to activate one of the following features.

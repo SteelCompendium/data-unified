@@ -11,6 +11,10 @@
           "tier1": "4 damage",
           "tier2": "6 damage",
           "tier3": "7 damage; [grabbed](scc.v1:mcdm.heroes.v1/condition/grabbed)"
+        },
+        {
+          "effect": "A target who starts their turn [grabbed](scc.v1:mcdm.heroes.v1/condition/grabbed) by the zombie takes 2 corruption damage. A creature who takes 5 or more corruption damage this way becomes insatiably hungry for flesh, and must complete the Find a Cure downtime project in Draw Steel: Heroes to end this effect.",
+          "name": "Effect"
         }
       ],
       "feature_type": "ability",
@@ -30,6 +34,8 @@
       "distance": "2 burst",
       "effects": [
         {
+          "effect": "The zombie falls [prone](scc.v1:mcdm.heroes.v1/condition/prone), expelling a wave of rot and dust.",
+          "name": "Effect",
           "roll": "Power Roll + 2",
           "tier1": "2 corruption damage",
           "tier2": "3 corruption damage; M \u003c 1 [weakened](scc.v1:mcdm.heroes.v1/condition/weakened) (save ends)",

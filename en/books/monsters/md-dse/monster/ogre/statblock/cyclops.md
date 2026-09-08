@@ -38,6 +38,8 @@ features:
           tier1: 3 damage; A < 3 3 damage
           tier2: 6 damage; [push](scc.v1:mcdm.heroes.v1/movement/forced-movement) 3; A < 4 4 damage
           tier3: 7 damage; [prone](scc.v1:mcdm.heroes.v1/condition/prone); A < 5 5 damage and [restrained](scc.v1:mcdm.heroes.v1/condition/restrained) (save ends)
+        - effect: The cyclops automatically treats their initial power roll as a 17. They can still roll to determine if they score a critical hit.
+          name: Effect
       feature_type: ability
       icon: ❇️
       keywords:

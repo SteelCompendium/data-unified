@@ -39,6 +39,8 @@ features:
           tier1: 7 damage; pull 1
           tier2: 10 damage; pull 2, [grabbed](scc.v1:mcdm.heroes.v1/condition/grabbed)
           tier3: 12 damage; pull 3, [grabbed](scc.v1:mcdm.heroes.v1/condition/grabbed)
+        - effect: Any target [restrained](scc.v1:mcdm.heroes.v1/condition/restrained) by the styrich's Tangled Nest ability can be pulled the distance determined by the power roll.
+          name: Effect
       feature_type: ability
       icon: "\U0001F5E1"
       keywords:

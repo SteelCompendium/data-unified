@@ -11,6 +11,10 @@
           "tier1": "7 corruption damage",
           "tier2": "10 corruption damage",
           "tier3": "11 corruption damage"
+        },
+        {
+          "effect": "A puddle of blight—digested soul juice—covers the ground in the target's square, which is affected as if by Seeping Blight (see the Level 7+ Demon Malice feature).",
+          "name": "Effect"
         }
       ],
       "feature_type": "ability",
@@ -30,7 +34,16 @@
       "distance": "5 cube within 1",
       "effects": [
         {
-          "effect": "**Special:** The blight phage must create the cube beneath themself.\n**Effect:** The blight phage spins and sheds corruptive blight to fill the area, which is treated as if affected by Seeping Blight.\n**2 [Malice](scc.v1:mcdm.monsters.v1/rule.monster/malice):** The blight phage chooses three 2 cube areas within 10 squares of the phage. Each area is covered with blight and treated as if affected by Seeping Blight."
+          "effect": "The blight phage must create the cube beneath themself.",
+          "name": "Special"
+        },
+        {
+          "effect": "The blight phage spins and sheds corruptive blight to fill the area, which is treated as if affected by Seeping Blight.",
+          "name": "Effect"
+        },
+        {
+          "cost": "2 Malice",
+          "effect": "The blight phage chooses three 2 cube areas within 10 squares of the phage. Each area is covered with blight and treated as if affected by Seeping Blight."
         }
       ],
       "feature_type": "ability",

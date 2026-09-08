@@ -42,6 +42,8 @@ features:
           tier1: 6 corruption damage; [pull](../../../../movement/forced-movement.md) 1
           tier2: 8 corruption damage; [pull](../../../../movement/forced-movement.md) 2
           tier3: 10 corruption damage; [pull](../../../../movement/forced-movement.md) 2; M < 3 [restrained](../../../../condition/restrained.md) (save ends)
+        - effect: The next ability the mummy uses against the target has any [potency](../../../../rule/character/potency.md) increased by 1 for the target.
+          name: Effect
       feature_type: ability
       icon: "\U0001F5E1"
       keywords:
@@ -59,6 +61,8 @@ features:
           tier1: 3 corruption damage; I < 1 the target is cursed (save ends)
           tier2: 5 corruption damage; I < 2 the target is cursed (save ends)
           tier3: 7 corruption damage; I < 3 the target is cursed (save ends)
+        - effect: A cursed target is [bleeding](../../../../condition/bleeding.md) and [weakened](../../../../condition/weakened.md), and allies gain an edge on strikes made against them.
+          name: Effect
       feature_type: ability
       icon: "\U0001F3F9"
       keywords:
@@ -71,15 +75,15 @@ features:
     - cost: 1 Malice
       distance: 1 burst
       effects:
-        - effect: |-
-            **Trigger:** The mummy comes within distance of a [restrained](../../../../condition/restrained.md) creature or starts their turn within distance of one.
-            **Effect:** The target takes 8 poison damage.
+        - effect: The target takes 8 poison damage.
+          name: Effect
       feature_type: ability
       icon: ❗️
       keywords:
         - Area
       name: Blast of Mummy Dust
       target: The triggering creature
+      trigger: The mummy comes within distance of a [restrained](../../../../condition/restrained.md) creature or starts their turn within distance of one.
       type: feature
       usage: Triggered action
 free_strike: 3

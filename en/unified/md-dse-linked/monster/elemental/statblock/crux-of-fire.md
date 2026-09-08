@@ -38,6 +38,8 @@ features:
           tier1: 8 fire damage
           tier2: 12 fire damage; A < 1 the target is burning (save ends)
           tier3: 15 fire damage; A < 2 the target is burning (save ends)
+        - effect: A burning creature takes 1d6 fire damage at the start of each of their turns. A burning object takes 1d6 fire damage at the end of each round.
+          name: Effect
       feature_type: ability
       icon: "\U0001F3F9"
       keywords:
@@ -50,9 +52,10 @@ features:
       usage: Main action
     - distance: Ranged 5
       effects:
-        - effect: |-
-            **Effect:** Until the start of the crux's next turn, the target has fire immunity 5.
-            **3 [Malice](../../../rule/monster/malice.md):** Until the end of the encounter, the ground within 3 squares of the target is wreathed in fire. Any enemy who enters that area for the first time in a round or starts their turn there takes 3 fire damage.
+        - effect: Until the start of the crux's next turn, the target has fire immunity 5.
+          name: Effect
+        - cost: 3 Malice
+          effect: Until the end of the encounter, the ground within 3 squares of the target is wreathed in fire. Any enemy who enters that area for the first time in a round or starts their turn there takes 3 fire damage.
       feature_type: ability
       icon: "\U0001F3F9"
       keywords:
@@ -65,15 +68,15 @@ features:
     - cost: 1 Malice
       distance: Self
       effects:
-        - effect: |-
-            **Trigger:** The crux takes damage.
-            **Effect:** The crux ignores any effects associated with the damage and can [fly](../../../movement/fly.md) up to their speed. If the crux doesn't end this movement on solid ground, they fall.
+        - effect: The crux ignores any effects associated with the damage and can [fly](../../../movement/fly.md) up to their speed. If the crux doesn't end this movement on solid ground, they fall.
+          name: Effect
       feature_type: ability
       icon: ❗️
       keywords:
         - Magic
       name: Flame Jet
       target: Self
+      trigger: The crux takes damage.
       type: feature
       usage: Triggered action
     - effects:

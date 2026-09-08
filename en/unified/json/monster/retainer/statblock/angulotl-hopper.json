@@ -11,6 +11,10 @@
           "tier1": "3 damage",
           "tier2": "5 damage",
           "tier3": "7 damage"
+        },
+        {
+          "effect": "Before or after making this [strike](scc.v1:mcdm.heroes.v1/rule.combat/strike), the hopper jumps up to 2 squares, or up to 4 squares if they jump over their mentor's space.",
+          "name": "Effect"
         }
       ],
       "feature_type": "ability",

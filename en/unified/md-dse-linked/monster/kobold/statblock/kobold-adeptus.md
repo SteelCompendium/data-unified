@@ -37,6 +37,8 @@ features:
           tier1: 4 lightning damage
           tier2: 6 lightning damage
           tier3: 7 lightning damage
+        - effect: While the target is adjacent to any enemy, the adeptus gains an edge on this ability. Each enemy adjacent to the target takes 2 lighting damage.
+          name: Effect
       feature_type: ability
       icon: "\U0001F3F9"
       keywords:
@@ -54,6 +56,8 @@ features:
           tier1: 3 damage
           tier2: 5 damage
           tier3: 6 damage
+        - effect: This ability ignores banes, double banes, and damage immunity.
+          name: Effect
       feature_type: ability
       icon: "\U0001F3F9"
       keywords:

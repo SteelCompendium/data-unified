@@ -39,6 +39,10 @@ features:
           tier1: 9 damage
           tier2: 14 damage
           tier3: 17 damage
+        - effect: The target takes a bane on their next strike.
+          name: Effect
+        - cost: 3 Malice
+          effect: The target instead has a double bane on the next ability they use.
       feature_type: ability
       icon: "\U0001F3F9"
       keywords:

@@ -39,6 +39,8 @@ features:
           tier1: Slide 3
           tier2: Slide 4
           tier3: Slide 5
+        - effect: The ground in the area turns into a morass of spongy flesh before the targets are [force moved](../../../../movement/forced-movement.md). Until the start of the torlas's next turn, the area is [difficult terrain](../../../../movement/difficult-terrain.md), and each creature who moves in the area takes 1 damage for each square moved.
+          name: Effect
       feature_type: ability
       icon: "\U0001F533"
       keywords:
@@ -51,7 +53,8 @@ features:
       usage: Main action
     - distance: Ranged 10
       effects:
-        - effect: '**Effect:** The torlas pulls each target up to 3 squares.'
+        - effect: The torlas pulls each target up to 3 squares.
+          name: Effect
       feature_type: ability
       icon: "\U0001F3F9"
       keywords:

@@ -41,6 +41,10 @@ features:
           tier1: 7 damage
           tier2: 9 damage
           tier3: 11 damage; A < 3 [bleeding](scc.v1:mcdm.heroes.v1/condition/bleeding) (save ends)
+        - effect: 'This ability ignores cover and concealment. The arachnite chooses one of the following damage types when making the strike: acid, cold, fire, lightning, poison, psychic, or sonic.'
+          name: Effect
+        - cost: 2 Malice
+          effect: The arachnite can use this ability as if they were in the space of any ally within distance.
       feature_type: ability
       icon: "\U0001F3F9"
       keywords:
@@ -53,7 +57,8 @@ features:
       usage: Main action
     - distance: 2 cube within 10
       effects:
-        - effect: '**Effect:** The area is [difficult terrain](scc.v1:mcdm.heroes.v1/movement/difficult-terrain) until the end of the encounter.'
+        - effect: The area is [difficult terrain](scc.v1:mcdm.heroes.v1/movement/difficult-terrain) until the end of the encounter.
+          name: Effect
       feature_type: ability
       icon: "\U0001F533"
       keywords:

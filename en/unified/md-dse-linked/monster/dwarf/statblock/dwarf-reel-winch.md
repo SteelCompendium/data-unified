@@ -37,6 +37,8 @@ features:
           tier1: 5 damage; M < 0 [slowed](../../../condition/slowed.md) (save ends)
           tier2: 7 damage; M < 1 [slowed](../../../condition/slowed.md) (save ends)
           tier3: 9 damage; M < 2 [slowed](../../../condition/slowed.md) (save ends)
+        - effect: The target is [pulled](../../../movement/forced-movement.md) up to 5 squares. A target [restrained](../../../condition/restrained.md) by a dwarf can be force moved by this ability. This forced movement doesn't end the [restrained](../../../condition/restrained.md) condition unless the Director determines otherwise.
+          name: Effect
       feature_type: ability
       icon: "\U0001F3F9"
       keywords:
@@ -50,7 +52,8 @@ features:
     - cost: 3 Malice
       distance: Ranged 10
       effects:
-        - effect: '**Effect:** The target is [pulled](../../../movement/forced-movement.md) up to 8 squares. A [restrained](../../../condition/restrained.md) or [slowed](../../../condition/slowed.md) target can be pulled an additional 2 squares. A target [restrained](../../../condition/restrained.md) by a dwarf can be force moved by this ability. This forced movement doesn''t end the [restrained](../../../condition/restrained.md) condition unless the Director determines otherwise.'
+        - effect: The target is [pulled](../../../movement/forced-movement.md) up to 8 squares. A [restrained](../../../condition/restrained.md) or [slowed](../../../condition/slowed.md) target can be pulled an additional 2 squares. A target [restrained](../../../condition/restrained.md) by a dwarf can be force moved by this ability. This forced movement doesn't end the [restrained](../../../condition/restrained.md) condition unless the Director determines otherwise.
+          name: Effect
       feature_type: ability
       icon: "\U0001F3F9"
       keywords:

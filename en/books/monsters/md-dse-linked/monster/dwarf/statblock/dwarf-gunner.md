@@ -37,6 +37,10 @@ features:
           tier1: 6 damage; [push](../../../movement/forced-movement.md) 1
           tier2: 9 damage; [push](../../../movement/forced-movement.md) 3
           tier3: 12 damage; [push](../../../movement/forced-movement.md) 5
+        - effect: If the target is [adjacent](../../../rule/combat/adjacent.md) to an object or a wall after the power roll is resolved, they are [restrained](../../../condition/restrained.md) until the end of their next turn. A target [restrained](../../../condition/restrained.md) by a dwarf can be force moved by this ability. This forced movement doesn't end the [restrained](../../../condition/restrained.md) condition unless the Director determines otherwise.
+          name: Effect
+        - cost: 5 Malice
+          effect: If the target is pushed into another creature, the target and the creature are each [restrained](../../../condition/restrained.md) until the end of their next turn.
       feature_type: ability
       icon: "\U0001F3F9"
       keywords:
@@ -50,7 +54,8 @@ features:
     - cost: 5 Malice
       distance: Ranged 10
       effects:
-        - effect: '**Effect:** The gunner makes a [free strike](../../../feature/common/main-actions/free-strike.md) against the target, and the [prone](../../../condition/prone.md), [restrained](../../../condition/restrained.md), and [slowed](../../../condition/slowed.md) conditions on the target end. The target is then [restrained](../../../condition/restrained.md) (save ends).'
+        - effect: The gunner makes a [free strike](../../../feature/common/main-actions/free-strike.md) against the target, and the [prone](../../../condition/prone.md), [restrained](../../../condition/restrained.md), and [slowed](../../../condition/slowed.md) conditions on the target end. The target is then [restrained](../../../condition/restrained.md) (save ends).
+          name: Effect
       feature_type: ability
       icon: "\U0001F3F9"
       keywords:

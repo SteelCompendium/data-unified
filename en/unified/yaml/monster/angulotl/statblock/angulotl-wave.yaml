@@ -8,6 +8,8 @@ features:
           tier1: 3 holy damage
           tier2: 4 holy damage; R < 1 the target is illuminated (save ends)
           tier3: 5 holy damage; R < 2 the target is illuminated (save ends)
+        - effect: An illuminated creature or object can't hide or become invisible, and any strike made against an illuminated target gains an [edge](scc.v1:mcdm.heroes.v1/rule.dice/edge).
+          name: Effect
       feature_type: ability
       icon: "\U0001F3F9"
       keywords:
@@ -21,7 +23,8 @@ features:
     - cost: 2 Malice
       distance: 2 cube of unoccupied space within 10
       effects:
-        - roll: ""
+        - effect: A bubble of toxic gas fills the area, ready to pop. If any creature or object touches the bubble or if the bubble takes damage, it bursts. Each angulotl adjacent to the bubble is wet until the end of the encounter, and each enemy adjacent to the bubble makes a **[Might](scc.v1:mcdm.heroes.v1/rule.character/might) test**.
+          name: Effect
           tier1: 3 poison damage; the target is wet and [weakened](scc.v1:mcdm.heroes.v1/condition/weakened) (save ends)
           tier2: 2 poison damage; the target is wet (save ends)
           tier3: 1 poison damage; the target is wet ([EoT](scc.v1:mcdm.heroes.v1/rule.combat/end-of-turn))

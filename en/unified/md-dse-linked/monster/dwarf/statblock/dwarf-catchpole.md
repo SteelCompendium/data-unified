@@ -38,6 +38,8 @@ features:
           tier1: 2 damage
           tier2: 4 damage
           tier3: 5 damage; [grabbed](../../../condition/grabbed.md) or [prone](../../../condition/prone.md)
+        - effect: If the target is [restrained](../../../condition/restrained.md), they take an extra 2 damage.
+          name: Effect
       feature_type: ability
       icon: "\U0001F5E1"
       keywords:

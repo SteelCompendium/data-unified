@@ -31,9 +31,10 @@ agility: 2
 ev: "36"
 features:
     - effects:
-        - effect: |-
-            **[End Effect](scc.v1:mcdm.monsters.v1/rule.monster/end-effect):** At the end of each of their turns, the werewolf can take 5 damage to end one effect on them that can be ended by a [saving throw](scc.v1:mcdm.heroes.v1/rule.general/saving-throw). This damage can't be reduced in any way.
-            **Solo Turns:** The werewolf can take two turns each round. They can't take turns consecutively.
+        - effect: At the end of each of their turns, the werewolf can take 5 damage to end one effect on them that can be ended by a [saving throw](scc.v1:mcdm.heroes.v1/rule.general/saving-throw). This damage can't be reduced in any way.
+          name: End Effect
+        - effect: The werewolf can take two turns each round. They can't take turns consecutively.
+          name: Solo Turns
       feature_type: trait
       icon: ☠️
       name: Solo Monster
@@ -63,6 +64,8 @@ features:
           tier1: 9 damage; the target gains 2 rage
           tier2: 13 damage; the target gains 4 rage
           tier3: 16 damage; the target gains 5 rage
+        - cost: 2 Malice
+          effect: 'If the target has P < 0, they are afflicted with lycanthpy. Each time the target is unaffected by the [potency](scc.v1:mcdm.heroes.v1/rule.character/potency) effect, the [potency](scc.v1:mcdm.heroes.v1/rule.character/potency) increases by 1 the next time the werewolf uses the ability against the same target. A creature afflicted with lycanthropy gains 2 rage at the end of each of their turns whenever they''re in combat. Their rage doesn''t disappear after finishing a respite and they must complete the Find a Cure downtime project in "Draw Steel: Heroes" to end this effect.'
       feature_type: ability
       icon: "\U0001F5E1"
       keywords:
@@ -97,6 +100,8 @@ features:
           tier1: 4 damage; [push](scc.v1:mcdm.heroes.v1/movement/forced-movement) 2
           tier2: 6 damage; [push](scc.v1:mcdm.heroes.v1/movement/forced-movement) 3; the target gains 1 rage
           tier3: 7 damage; [slide](scc.v1:mcdm.heroes.v1/movement/forced-movement) 3; the target gains 3 rage
+        - effect: The werewolf [shifts](scc.v1:mcdm.heroes.v1/movement/shifting) up to their speed before using this ability.
+          name: Effect
       feature_type: ability
       icon: ❇️
       keywords:
@@ -108,7 +113,8 @@ features:
       usage: Main action
     - distance: Self
       effects:
-        - effect: '**Effect:** The werewolf jumps up to 4 squares. If they end this jump at a wall, the werewolf jumps off the wall up to 4 squares and can make a melee [free strike](scc.v1:mcdm.heroes.v1/feature.common.main-actions/free-strike). If the target of the [free strike](scc.v1:mcdm.heroes.v1/feature.common.main-actions/free-strike) has M < 2, they are knocked [prone](scc.v1:mcdm.heroes.v1/condition/prone).'
+        - effect: The werewolf jumps up to 4 squares. If they end this jump at a wall, the werewolf jumps off the wall up to 4 squares and can make a melee [free strike](scc.v1:mcdm.heroes.v1/feature.common.main-actions/free-strike). If the target of the [free strike](scc.v1:mcdm.heroes.v1/feature.common.main-actions/free-strike) has M < 2, they are knocked [prone](scc.v1:mcdm.heroes.v1/condition/prone).
+          name: Effect
       feature_type: ability
       icon: "\U0001F464"
       keywords: []
@@ -119,24 +125,27 @@ features:
     - cost: 2 Malice
       distance: Melee 1
       effects:
-        - effect: |-
-            **Trigger:** A creature within distance targets the werewolf with a melee ability after charging or moving 2 or more squares in a straight line toward them.
-            **Effect:** The target is knocked [prone](scc.v1:mcdm.heroes.v1/condition/prone) and takes 5 damage before the [triggered action](scc.v1:mcdm.heroes.v1/rule.combat/triggered-action) is resolved.
+        - effect: The target is knocked [prone](scc.v1:mcdm.heroes.v1/condition/prone) and takes 5 damage before the [triggered action](scc.v1:mcdm.heroes.v1/rule.combat/triggered-action) is resolved.
+          name: Effect
       feature_type: ability
       icon: ❗️
       keywords:
         - Melee
       name: Facepalm and Head Slam
       target: The triggering creature
+      trigger: A creature within distance targets the werewolf with a melee ability after charging or moving 2 or more squares in a straight line toward them.
       type: feature
       usage: Triggered action
     - cost: Villain Action 1
       distance: 5 burst
       effects:
-        - roll: ""
+        - effect: Each target makes an Intuition test.
+          name: Effect
           tier1: The target must move their speed in a straight line away from the werewolf; [frightened](scc.v1:mcdm.heroes.v1/condition/frightened) (save ends)
           tier2: '[Frightened](scc.v1:mcdm.heroes.v1/condition/frightened) (EoT)'
           tier3: No effect
+        - effect: Any enemy in the encounter who has 1 or more rage gains 4 rage and howls along with the werewolf.
+          name: Effect
       feature_type: ability
       icon: ☠️
       keywords:
@@ -148,7 +157,8 @@ features:
     - cost: Villain Action 2
       distance: Self
       effects:
-        - effect: '**Effect:** The werewolf transforms into a massive wolf of size 3 until they die or until the end of the encounter. They move to a space that can accommodate their new size and [push](scc.v1:mcdm.heroes.v1/movement/forced-movement) [adjacent](scc.v1:mcdm.heroes.v1/rule.combat/adjacent) creatures out of their way. While in wolf form, they have speed 10 and stability 2, their strikes gain a +2 damage bonus and bestow an additional 1 rage, and the [potency](scc.v1:mcdm.heroes.v1/rule.character/potency) of Accursed Bite increases by 1.'
+        - effect: The werewolf transforms into a massive wolf of size 3 until they die or until the end of the encounter. They move to a space that can accommodate their new size and [push](scc.v1:mcdm.heroes.v1/movement/forced-movement) [adjacent](scc.v1:mcdm.heroes.v1/rule.combat/adjacent) creatures out of their way. While in wolf form, they have speed 10 and stability 2, their strikes gain a +2 damage bonus and bestow an additional 1 rage, and the [potency](scc.v1:mcdm.heroes.v1/rule.character/potency) of Accursed Bite increases by 1.
+          name: Effect
       feature_type: ability
       icon: ☠️
       keywords: []
@@ -163,6 +173,8 @@ features:
           tier1: 5 damage; the target gains 2 rage; M < 1 [bleeding](scc.v1:mcdm.heroes.v1/condition/bleeding) (save ends)
           tier2: 8 damage; the target gains 4 rage; M < 2 [bleeding](scc.v1:mcdm.heroes.v1/condition/bleeding) (save ends)
           tier3: 11 damage; the target gains 8 rage; M < 3 [bleeding](scc.v1:mcdm.heroes.v1/condition/bleeding) (save ends)
+        - effect: The werewolf [shifts](scc.v1:mcdm.heroes.v1/movement/shifting) up to their speed before and after using this ability.
+          name: Effect
       feature_type: ability
       icon: ☠️
       keywords:

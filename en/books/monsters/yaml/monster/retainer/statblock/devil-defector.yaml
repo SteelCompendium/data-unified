@@ -21,9 +21,8 @@ features:
     - cost: Encounter
       distance: Ranged 10
       effects:
-        - effect: |-
-            **Trigger:** A sapient enemy is reduced to 0 [Stamina](scc.v1:mcdm.heroes.v1/rule.health/stamina).
-            **Effect:** The defector makes an offer to keep the target alive. If the target accepts, they are reduced to 1 [Stamina](scc.v1:mcdm.heroes.v1/rule.health/stamina) instead. On the target's next turn, the defector controls their move action and the target must use a [signature ability](scc.v1:mcdm.heroes.v1/rule.combat/signature-ability) against a creature of the defector's choice or immediately die. To have the target turn down the offer, the Diretor must spend 3 [Malice](scc.v1:mcdm.monsters.v1/rule.monster/malice).
+        - effect: The defector makes an offer to keep the target alive. If the target accepts, they are reduced to 1 [Stamina](scc.v1:mcdm.heroes.v1/rule.health/stamina) instead. On the target's next turn, the defector controls their move action and the target must use a [signature ability](scc.v1:mcdm.heroes.v1/rule.combat/signature-ability) against a creature of the defector's choice or immediately die. To have the target turn down the offer, the Diretor must spend 3 [Malice](scc.v1:mcdm.monsters.v1/rule.monster/malice).
+          name: Effect
       feature_type: ability
       icon: ❗️
       keywords:
@@ -31,6 +30,7 @@ features:
         - Strike
       name: Tempting Offer
       target: The triggering creature
+      trigger: A sapient enemy is reduced to 0 [Stamina](scc.v1:mcdm.heroes.v1/rule.health/stamina).
       type: feature
       usage: Free triggered action
     - effects:

@@ -11,6 +11,10 @@
           "tier1": "1 poison damage",
           "tier2": "2 poison damage",
           "tier3": "3 poison damage"
+        },
+        {
+          "effect": "The target takes a bane on their next strike.",
+          "name": "Effect"
         }
       ],
       "feature_type": "ability",

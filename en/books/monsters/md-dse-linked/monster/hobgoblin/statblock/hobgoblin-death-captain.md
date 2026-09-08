@@ -41,6 +41,10 @@ features:
           tier1: 8 damage
           tier2: 8 damage, 4 corruption damage
           tier3: 8 damage, 7 corruption damage
+        - effect: The next strike made against the target has a double edge.
+          name: Effect
+        - cost: 3 Malice
+          effect: One ally [adjacent](../../../rule/combat/adjacent.md) to the target can use their signature ability.
       feature_type: ability
       icon: "\U0001F5E1"
       keywords:
@@ -54,7 +58,8 @@ features:
       usage: Main action
     - distance: Ranged 5
       effects:
-        - effect: '**Effect:** The target moves up to their speed and can make a [free strike](../../../feature/common/main-actions/free-strike.md).'
+        - effect: The target moves up to their speed and can make a [free strike](../../../feature/common/main-actions/free-strike.md).
+          name: Effect
       feature_type: ability
       icon: "\U0001F3F9"
       keywords:

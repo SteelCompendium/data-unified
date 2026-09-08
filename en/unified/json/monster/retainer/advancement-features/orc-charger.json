@@ -3,6 +3,12 @@
     {
       "cost": "Encounter",
       "distance": "Self",
+      "effects": [
+        {
+          "effect": "Until the start of the charger's next turn, the charger and their mentor each have [temporary Stamina](scc.v1:mcdm.heroes.v1/rule.health/temporary-stamina) equal to their Recovery value and a +2 bonus to speed, and they each gain an edge on reactive tests.",
+          "name": "Effect"
+        }
+      ],
       "icon": "👤",
       "keywords": [
         "Self"
@@ -21,6 +27,12 @@
     {
       "cost": "Encounter",
       "distance": "Self; See below",
+      "effects": [
+        {
+          "effect": "The charger moves in a straight line up to their speed. During this move, they ignore enemy [free strikes](scc.v1:mcdm.heroes.v1/feature.common.main-actions/free-strike), and they can make a melee [free strike](scc.v1:mcdm.heroes.v1/feature.common.main-actions/free-strike) against any creature they move [adjacent](scc.v1:mcdm.heroes.v1/rule.combat/adjacent) to.",
+          "name": "Effect"
+        }
+      ],
       "icon": "👤",
       "level": 7,
       "name": "Mow 'Em Down",
@@ -36,6 +48,18 @@
     {
       "cost": "Encounter",
       "distance": "2 burst",
+      "effects": [
+        {
+          "roll": "Power Roll + highest characteristic",
+          "tier1": "12 psychic damage",
+          "tier2": "18 psychic damage",
+          "tier3": "24 psychic damage"
+        },
+        {
+          "effect": "The charger takes psychic damage equal to the number of enemies affected. This damage can't be reducetd in any way.",
+          "name": "Effect"
+        }
+      ],
       "icon": "❇️",
       "keywords": [
         "Area",

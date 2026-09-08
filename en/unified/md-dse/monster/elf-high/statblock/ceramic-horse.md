@@ -54,6 +54,8 @@ features:
           tier1: 3 damage
           tier2: 5 damage
           tier3: 7 damage
+        - effect: Any target who is [prone](scc.v1:mcdm.heroes.v1/condition/prone) takes an extra 2 damage.
+          name: Effect
       feature_type: ability
       icon: ❇️
       keywords:
@@ -66,7 +68,8 @@ features:
     - cost: 2 Malice
       distance: Self
       effects:
-        - effect: '**Effect:** The horse vertical [slides](scc.v1:mcdm.heroes.v1/movement/forced-movement) the target up to 3 squares, ignoring stability. The target can use a ranged ability at any point during this forced movement, and takes no damage if they then fall.'
+        - effect: The horse vertical [slides](scc.v1:mcdm.heroes.v1/movement/forced-movement) the target up to 3 squares, ignoring stability. The target can use a ranged ability at any point during this forced movement, and takes no damage if they then fall.
+          name: Effect
       feature_type: ability
       icon: "\U0001F464"
       keywords: []

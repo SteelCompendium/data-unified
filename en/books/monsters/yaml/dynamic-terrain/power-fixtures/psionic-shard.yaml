@@ -1,11 +1,20 @@
 features:
     - body: The psionic shard must be completely destroyed.
+      effects:
+        - effect: The psionic shard must be completely destroyed.
       icon: "\U0001F300"
       name: Deactivate
     - body: A psionic shard is attuned to one side in an encounter. While a psionic shard is intact, any damage dealt to each ally of the shard in the encounter is halved.
+      effects:
+        - effect: A psionic shard is attuned to one side in an encounter. While a psionic shard is intact, any damage dealt to each ally of the shard in the encounter is halved.
       icon: ⭐️
       name: Psionic Barrier
     - distance: Special
+      effects:
+        - effect: The shard is destroyed.
+          name: Trigger
+        - effect: The shard releases a shockwave channeled through each creature affected by Psionic Barrier. Each ally in the encounter is [dazed](scc.v1:mcdm.heroes.v1/condition/dazed) until the end of their next turn.
+          name: Effect
       icon: ❗️
       name: Psionic Pulse
       sections:

@@ -8,6 +8,8 @@ features:
           tier1: 2 damage
           tier2: 4 damage; [push](scc.v1:mcdm.heroes.v1/movement/forced-movement) 1
           tier3: 6 damage; [push](scc.v1:mcdm.heroes.v1/movement/forced-movement) 3
+        - effect: Any target within 2 squares of the sweeper takes an extra 3 damage.
+          name: Effect
       feature_type: ability
       icon: ⚔️
       keywords:

@@ -38,6 +38,8 @@ features:
           tier1: 12 damage; M < 2 [slowed](scc.v1:mcdm.heroes.v1/condition/slowed) (save ends)
           tier2: 17 damage; M < 3 [slowed](scc.v1:mcdm.heroes.v1/condition/slowed) (save ends)
           tier3: 21 damage; M < 4 [slowed](scc.v1:mcdm.heroes.v1/condition/slowed) (save ends)
+        - effect: If a target was already [slowed](scc.v1:mcdm.heroes.v1/condition/slowed), that condition continues but their speed is 0 until the end of their next turn.
+          name: Effect
       feature_type: ability
       icon: "\U0001F5E1"
       keywords:
@@ -56,6 +58,8 @@ features:
           tier1: 10 damage; A < 2 [restrained](scc.v1:mcdm.heroes.v1/condition/restrained) (save ends)
           tier2: 16 damage; A < 3 [restrained](scc.v1:mcdm.heroes.v1/condition/restrained) (save ends)
           tier3: 20 damage; [prone](scc.v1:mcdm.heroes.v1/condition/prone); A < 4 [restrained](scc.v1:mcdm.heroes.v1/condition/restrained) (save ends)
+        - effect: The knife lands in the target's square, and has 30 [Stamina](scc.v1:mcdm.heroes.v1/rule.health/stamina) and damage immunity 5. Whenever the knife takes damage, it deals 4 sonic damage to each enemy within 3 squares. The knife lasts until the end of the encounter, and can't be picked up or manipulated.
+          name: Effect
       feature_type: ability
       icon: ⚔️
       keywords:
@@ -69,7 +73,8 @@ features:
       usage: Main action
     - distance: Self
       effects:
-        - effect: '**Effect:** The basalt stone giant moves up to their speed. Each square that they leave during this move is [difficult terrain](scc.v1:mcdm.heroes.v1/movement/difficult-terrain) for enemies. Giants ignore this [difficult terrain](scc.v1:mcdm.heroes.v1/movement/difficult-terrain).'
+        - effect: The basalt stone giant moves up to their speed. Each square that they leave during this move is [difficult terrain](scc.v1:mcdm.heroes.v1/movement/difficult-terrain) for enemies. Giants ignore this [difficult terrain](scc.v1:mcdm.heroes.v1/movement/difficult-terrain).
+          name: Effect
       feature_type: ability
       icon: "\U0001F464"
       keywords: []
@@ -79,9 +84,8 @@ features:
       usage: Maneuver
     - distance: 2 burst
       effects:
-        - effect: |-
-            **Trigger:** The basalt stone giant takes damage.
-            **Effect:** The target is [pushed](scc.v1:mcdm.heroes.v1/movement/forced-movement) up to 3 squares, or if they have A < 3, they are [pushed](scc.v1:mcdm.heroes.v1/movement/forced-movement) up to 6 squares and knocked [prone](scc.v1:mcdm.heroes.v1/condition/prone).
+        - effect: The target is [pushed](scc.v1:mcdm.heroes.v1/movement/forced-movement) up to 3 squares, or if they have A < 3, they are [pushed](scc.v1:mcdm.heroes.v1/movement/forced-movement) up to 6 squares and knocked [prone](scc.v1:mcdm.heroes.v1/condition/prone).
+          name: Effect
       feature_type: ability
       icon: ❗️
       keywords:
@@ -89,6 +93,7 @@ features:
         - Magic
       name: Resonate Rune
       target: Each enemy in the area
+      trigger: The basalt stone giant takes damage.
       type: feature
       usage: Triggered action
     - effects:

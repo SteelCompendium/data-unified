@@ -1,10 +1,21 @@
 features:
     - body: The war dog activates a [Malice](scc.v1:mcdm.monsters.v1/rule.monster/malice) feature available to war dogs of level 9 or lower.
       cost: 3-7 Malice
+      effects:
+        - effect: The war dog activates a [Malice](scc.v1:mcdm.monsters.v1/rule.monster/malice) feature available to war dogs of level 9 or lower.
       icon: ⭐️
       name: Prior Malice Features
     - cost: 7 Malice
       distance: 3 burst
+      effects:
+        - roll: Power Roll + 5
+          tier1: 7 psychic damage
+          tier2: 11 psychic damage; P < 4 [frightened](scc.v1:mcdm.heroes.v1/condition/frightened) (save ends)
+          tier3: 14 psychic damage; P < 5 [frightened](scc.v1:mcdm.heroes.v1/condition/frightened) (save ends)
+        - effect: Each war dog within distance deals an extra 15 damage with strikes until the end of their next turn. Additionally, they end any effect on them that can be ended by a [saving throw](scc.v1:mcdm.heroes.v1/rule.general/saving-throw) or that ends at the end of their turn, then [shift](scc.v1:mcdm.heroes.v1/movement/shifting) up to their speed and can make a [free strike](scc.v1:mcdm.heroes.v1/feature.common.main-actions/free-strike).
+          name: Effect
+        - effect: This ability can't be used by a [minion](scc.v1:mcdm.monsters.v1/rule.organization/minion).
+          name: Special
       icon: ❇️
       keywords:
         - Area

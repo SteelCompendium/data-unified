@@ -11,6 +11,10 @@
           "tier1": "2 damage",
           "tier2": "4 damage",
           "tier3": "5 damage"
+        },
+        {
+          "effect": "If the sniper doesn't use a move action this turn, this ability gains an edge.",
+          "name": "Effect"
         }
       ],
       "feature_type": "ability",

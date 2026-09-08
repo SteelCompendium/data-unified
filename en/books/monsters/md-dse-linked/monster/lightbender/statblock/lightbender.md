@@ -37,6 +37,8 @@ features:
           tier1: 9 damage
           tier2: 14 damage
           tier3: 18 damage
+        - effect: If this ability gains an edge or has a double edge, it deals an extra 4 damage.
+          name: Effect
       feature_type: ability
       icon: "\U0001F5E1"
       keywords:
@@ -53,6 +55,8 @@ features:
           tier1: 8 damage
           tier2: 12 damage; M < 1 [bleeding](../../../condition/bleeding.md) (save ends)
           tier3: 15 damage; M < 2 [bleeding](../../../condition/bleeding.md) (save ends)
+        - effect: While [bleeding](../../../condition/bleeding.md) this way, the target takes a bane on tests to search for the lightbender while they are hidden.
+          name: Effect
       feature_type: ability
       icon: "\U0001F5E1"
       keywords:
@@ -70,6 +74,8 @@ features:
           tier1: I < 0 [dazed](../../../condition/dazed.md) (save ends)
           tier2: I < 1 [dazed](../../../condition/dazed.md) (save ends)
           tier3: I < 2 [dazed](../../../condition/dazed.md) (save ends)
+        - effect: While [dazed](../../../condition/dazed.md) this way, a target has speed 0. If a target takes damage, or if someone else uses a main action to shake the target out of their stupor, the [dazed](../../../condition/dazed.md) condition ends.
+          name: Effect
       feature_type: ability
       icon: ❇️
       keywords:
@@ -81,15 +87,15 @@ features:
       usage: Maneuver
     - distance: Self
       effects:
-        - effect: |-
-            **Trigger:** The lightbender takes damage from a strike.
-            **Effect:** The lightbender halves the damage, ignores any nondamaging effects associated with it, and can [teleport](../../../movement/teleport.md) up to 5 squares. If they [teleport](../../../movement/teleport.md) into concealment or cover, the lightbender can immediately attempt to hide as a free maneuver.
+        - effect: The lightbender halves the damage, ignores any nondamaging effects associated with it, and can [teleport](../../../movement/teleport.md) up to 5 squares. If they [teleport](../../../movement/teleport.md) into concealment or cover, the lightbender can immediately attempt to hide as a free maneuver.
+          name: Effect
       feature_type: ability
       icon: ❗️
       keywords:
         - Magic
       name: Stalker's Afterimage
       target: Self
+      trigger: The lightbender takes damage from a strike.
       type: feature
       usage: Triggered action
     - effects:

@@ -2,6 +2,11 @@
   "features": [
     {
       "body": "The Aspect is now size 3.",
+      "effects": [
+        {
+          "effect": "The Aspect is now size 3."
+        }
+      ],
       "icon": "⭐️",
       "level": 10,
       "name": "Size Increase"
@@ -9,6 +14,12 @@
     {
       "cost": "1 Eidos",
       "distance": "20 burst",
+      "effects": [
+        {
+          "effect": "Each target [teleports](scc.v1:mcdm.heroes.v1/movement/teleport) up to their [speed](scc.v1:mcdm.heroes.v1/rule.character/speed) and makes a [free strike](scc.v1:mcdm.heroes.v1/feature.common.main-actions/free-strike). If a target has a [Save Ends](scc.v1:mcdm.heroes.v1/rule.general/saving-throw) [condition](scc.v1:mcdm.heroes.v1/rule.combat/condition), they can inflict the [condition](scc.v1:mcdm.heroes.v1/rule.combat/condition) onto a creature with their [strike](scc.v1:mcdm.heroes.v1/rule.combat/strike) and end the [condition](scc.v1:mcdm.heroes.v1/rule.combat/condition) on themself.",
+          "name": "Effect"
+        }
+      ],
       "icon": "❗️",
       "level": 10,
       "name": "Reality Flense",

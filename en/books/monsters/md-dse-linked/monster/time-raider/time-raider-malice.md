@@ -2,6 +2,9 @@
 features:
     - cost: 3 Malice
       distance: 5 cube within 3
+      effects:
+        - effect: A time raider acting this turn activates a gravity well in the area. The gravity well sits at the center of the cube and lasts until the end of the encounter, or until a creature [adjacent](../../rule/combat/adjacent.md) to the well uses a maneuver to deactivate it. The area is [difficult terrain](../../movement/difficult-terrain.md) for enemies. Any enemy who ends their turn in the area is [pulled](../../movement/forced-movement.md) up to 4 squares toward the well.
+          name: Effect
       icon: "\U0001F533"
       keywords:
         - Area
@@ -16,9 +19,16 @@ features:
       usage: Maneuver
     - body: Until the end of the round, each time raider gains a +3 bonus to speed, and can [teleport](../../movement/teleport.md) up to their speed as a move action.
       cost: 5 Malice
+      effects:
+        - effect: Until the end of the round, each time raider gains a +3 bonus to speed, and can [teleport](../../movement/teleport.md) up to their speed as a move action.
       icon: ⭐️
       name: Recall Module
     - cost: 10 Malice
+      effects:
+        - effect: All time raiders in the encounter collectively create a psionic field over the encounter map, which lasts until the first time raider with the highest [Stamina](../../rule/health/stamina.md) maximum drops to 0 [Stamina](../../rule/health/stamina.md) or chooses to end the field (no action required). While the field is up, each non-time raider on the map makes a **Reason test** against this psionic effect at the start of each round.
+          tier1: 10 psychic damage; [slowed](../../condition/slowed.md) (EoT)
+          tier2: 7 psychic damage; [slowed](../../condition/slowed.md) (EoT)
+          tier3: No effect.
       icon: "\U0001F300"
       intro: All time raiders in the encounter collectively create a psionic field over the encounter map, which lasts until the first time raider with the highest [Stamina](../../rule/health/stamina.md) maximum drops to 0 [Stamina](../../rule/health/stamina.md) or chooses to end the field (no action required). While the field is up, each non-time raider on the map makes a **Reason test** against this psionic effect at the start of each round.
       name: Psi-Cage
@@ -43,6 +53,9 @@ type: featureblock
 features:
     - cost: 3 Malice
       distance: 5 cube within 3
+      effects:
+        - effect: A time raider acting this turn activates a gravity well in the area. The gravity well sits at the center of the cube and lasts until the end of the encounter, or until a creature [adjacent](../../rule/combat/adjacent.md) to the well uses a maneuver to deactivate it. The area is [difficult terrain](../../movement/difficult-terrain.md) for enemies. Any enemy who ends their turn in the area is [pulled](../../movement/forced-movement.md) up to 4 squares toward the well.
+          name: Effect
       icon: "\U0001F533"
       keywords:
         - Area
@@ -57,9 +70,16 @@ features:
       usage: Maneuver
     - body: Until the end of the round, each time raider gains a +3 bonus to speed, and can [teleport](../../movement/teleport.md) up to their speed as a move action.
       cost: 5 Malice
+      effects:
+        - effect: Until the end of the round, each time raider gains a +3 bonus to speed, and can [teleport](../../movement/teleport.md) up to their speed as a move action.
       icon: ⭐️
       name: Recall Module
     - cost: 10 Malice
+      effects:
+        - effect: All time raiders in the encounter collectively create a psionic field over the encounter map, which lasts until the first time raider with the highest [Stamina](../../rule/health/stamina.md) maximum drops to 0 [Stamina](../../rule/health/stamina.md) or chooses to end the field (no action required). While the field is up, each non-time raider on the map makes a **Reason test** against this psionic effect at the start of each round.
+          tier1: 10 psychic damage; [slowed](../../condition/slowed.md) (EoT)
+          tier2: 7 psychic damage; [slowed](../../condition/slowed.md) (EoT)
+          tier3: No effect.
       icon: "\U0001F300"
       intro: All time raiders in the encounter collectively create a psionic field over the encounter map, which lasts until the first time raider with the highest [Stamina](../../rule/health/stamina.md) maximum drops to 0 [Stamina](../../rule/health/stamina.md) or chooses to end the field (no action required). While the field is up, each non-time raider on the map makes a **Reason test** against this psionic effect at the start of each round.
       name: Psi-Cage

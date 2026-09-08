@@ -41,6 +41,8 @@ features:
           tier1: 7 damage; M < 2 [bleeding](scc.v1:mcdm.heroes.v1/condition/bleeding) (save ends)
           tier2: 10 corruption damage; M < 3 5 corruption damage and [bleeding](scc.v1:mcdm.heroes.v1/condition/bleeding) (save ends)
           tier3: 11 corruption damage; M < 4 7 corruption damage and [bleeding](scc.v1:mcdm.heroes.v1/condition/bleeding) (save ends)
+        - effect: The vampire regains [Stamina](scc.v1:mcdm.heroes.v1/rule.health/stamina) equal to any corruption damage dealt.
+          name: Effect
       feature_type: ability
       icon: "\U0001F5E1"
       keywords:
@@ -58,6 +60,8 @@ features:
           tier1: 7 damage; A < 2 [slowed](scc.v1:mcdm.heroes.v1/condition/slowed) (save ends)
           tier2: 10 damage; A < 3 [slowed](scc.v1:mcdm.heroes.v1/condition/slowed) (save ends)
           tier3: 11 damage; A < 4 [slowed](scc.v1:mcdm.heroes.v1/condition/slowed) (save ends)
+        - effect: If the target is [bleeding](scc.v1:mcdm.heroes.v1/condition/bleeding), the vampire [shifts](scc.v1:mcdm.heroes.v1/movement/shifting) up to their speed before using this ability.
+          name: Effect
       feature_type: ability
       icon: "\U0001F5E1"
       keywords:
@@ -71,9 +75,8 @@ features:
     - cost: 2 Malice
       distance: Ranged 5
       effects:
-        - effect: |-
-            **Trigger:** A creature makes a [strike](scc.v1:mcdm.heroes.v1/rule.combat/strike) against the vampire.
-            **Effect:** The target becomes the new target of the [strike](scc.v1:mcdm.heroes.v1/rule.combat/strike).
+        - effect: The target becomes the new target of the [strike](scc.v1:mcdm.heroes.v1/rule.combat/strike).
+          name: Effect
       feature_type: ability
       icon: ❗️
       keywords:
@@ -81,6 +84,7 @@ features:
         - Ranged
       name: Reactive Charm
       target: One enemy
+      trigger: A creature makes a [strike](scc.v1:mcdm.heroes.v1/rule.combat/strike) against the vampire.
       type: feature
       usage: Triggered action
     - effects:

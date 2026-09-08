@@ -1,15 +1,30 @@
 ---
 features:
     - body: Each square of plants must be individually destroyed.
+      effects:
+        - effect: Each square of plants must be individually destroyed.
       icon: "\U0001F300"
       name: Deactivate
     - body: A creature starts their turn in the area of the toxic plants, or enters a square of toxic plants without [shifting](scc.v1:mcdm.heroes.v1/movement/shifting).
+      effects:
+        - effect: A creature starts their turn in the area of the toxic plants, or enters a square of toxic plants without [shifting](scc.v1:mcdm.heroes.v1/movement/shifting).
+        - effect: The **Sleep Spores** ability.
+          name: Effect
       icon: ❕
       name: Activate
       sections:
         - label: Effect
           text: The **Sleep Spores** ability.
     - distance: Melee 0
+      effects:
+        - effect: A creature starts their turn in the area of the toxic plants, or enters a square of toxic plants without [shifting](scc.v1:mcdm.heroes.v1/movement/shifting).
+          name: Trigger
+          roll: Power Roll + 2
+          tier1: M < 0 [dazed](scc.v1:mcdm.heroes.v1/condition/dazed) ([save](scc.v1:mcdm.heroes.v1/rule.general/saving-throw) ends)
+          tier2: M < 1 [dazed](scc.v1:mcdm.heroes.v1/condition/dazed) ([save](scc.v1:mcdm.heroes.v1/rule.general/saving-throw) ends)
+          tier3: M < 2 [dazed](scc.v1:mcdm.heroes.v1/condition/dazed) ([save](scc.v1:mcdm.heroes.v1/rule.general/saving-throw) ends)
+        - effect: While [dazed](scc.v1:mcdm.heroes.v1/condition/dazed) this way, a target who starts their turn in the area of the toxic plants falls [prone](scc.v1:mcdm.heroes.v1/condition/prone) and can't stand.
+          name: Effect
       icon: ❗️
       keywords:
         - Magic
@@ -33,6 +48,9 @@ features:
         **Poisonous Spores (+2 EV)** Any creature [dazed](scc.v1:mcdm.heroes.v1/condition/dazed) by this hazard takes 1d6 poison damage at the start of each of their turns.
 
         **Carnivorous Plants (+2 EV)** The plants are carnivorous and attempt to slowly digest any creature who falls among them. Any creature who starts their turn [prone](scc.v1:mcdm.heroes.v1/condition/prone) in the area takes 4 acid damage.
+      effects:
+        - effect: '**Poisonous Spores (+2 EV)** Any creature [dazed](scc.v1:mcdm.heroes.v1/condition/dazed) by this hazard takes 1d6 poison damage at the start of each of their turns.'
+        - effect: '**Carnivorous Plants (+2 EV)** The plants are carnivorous and attempt to slowly digest any creature who falls among them. Any creature who starts their turn [prone](scc.v1:mcdm.heroes.v1/condition/prone) in the area takes 4 acid damage.'
       icon: ⭐️
       name: Upgrades
 flavor: Colorful mushrooms or lovely flowering plants release a cloud of spores or pollen when disturbed, causing creatures to fall into a magical slumber.

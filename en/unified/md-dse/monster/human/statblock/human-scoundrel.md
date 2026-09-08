@@ -40,6 +40,8 @@ features:
           tier1: 6 damage
           tier2: 9 damage
           tier3: 12 damage
+        - cost: 2 Malice
+          effect: If this ability gains an edge or has a double edge, it deals an extra 2 damage.
       feature_type: ability
       icon: "\U0001F5E1"
       keywords:

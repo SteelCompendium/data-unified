@@ -1,6 +1,11 @@
 ---
 features:
-    - icon: "\U0001F300"
+    - effects:
+        - effect: As a maneuver, a creature [adjacent](../../rule/combat/adjacent.md) to a snare trap can make an **Agility test**.
+          tier1: The creature triggers the trap and is affected as if in its space.
+          tier2: The trap is deactivated but the creature is [slowed](../../condition/slowed.md) (EoT).
+          tier3: The trap is deactivated and doesn't trigger.
+      icon: "\U0001F300"
       intro: As a maneuver, a creature [adjacent](../../rule/combat/adjacent.md) to a snare trap can make an **Agility test**.
       name: Deactivate
       power_roll:
@@ -9,12 +14,25 @@ features:
             low: The creature triggers the trap and is affected as if in its space.
             mid: The trap is deactivated but the creature is [slowed](../../condition/slowed.md) (EoT).
     - body: The snare trap is calibrated to be triggered by creatures or objects of a particular size or larger. The trap triggers when a creature or object of the appropriate size enters its space.
+      effects:
+        - effect: The snare trap is calibrated to be triggered by creatures or objects of a particular size or larger. The trap triggers when a creature or object of the appropriate size enters its space.
+        - effect: A triggering creature or object ends their movement and is targeted by the **Snare** ability.
+          name: Effect
       icon: ❕
       name: Activate
       sections:
         - label: Effect
           text: A triggering creature or object ends their movement and is targeted by the **Snare** ability.
     - distance: Melee 0
+      effects:
+        - effect: A creature or object of the appropriate size enters the trap's space.
+          name: Trigger
+          roll: Power Roll + 2
+          tier1: The target [shifts](../../movement/shifting.md) 1 square away from the snare.
+          tier2: 1 damage; A < 1 [restrained](../../condition/restrained.md) ([save](../../rule/general/saving-throw.md) ends)
+          tier3: 3 damage; A < 2 [restrained](../../condition/restrained.md) ([save](../../rule/general/saving-throw.md) ends)
+        - effect: A creature [restrained](../../condition/restrained.md) this way is vertical pulled 2 squares and suspended in the air by the snare line. On a successful [save](../../rule/general/saving-throw.md), the snare is cut or breaks and the creature falls to the ground. The snare must be manually reset.
+          name: Effect
       icon: ❗️
       keywords:
         - Melee
@@ -35,9 +53,13 @@ features:
       target: The triggering creature or object
       usage: Free triggered action
     - body: '**Net Trap (+1 EV)** The snare becomes a net that can wrap up multiple targets. The net has 3 [Stamina](../../rule/health/stamina.md) and fills an area of 3 squares by 3 squares. The Snare ability loses its existing keywords, gains the Area keyword, and targets each creature or object in the area. The trap can be triggered by a target moving through one specific square, or by requiring multiple squares to be moved through. Any creature who makes their [save](../../rule/general/saving-throw.md) to end the [restrained](../../condition/restrained.md) effect ends that effect for all targets, who all fall to the ground.'
+      effects:
+        - effect: '**Net Trap (+1 EV)** The snare becomes a net that can wrap up multiple targets. The net has 3 [Stamina](../../rule/health/stamina.md) and fills an area of 3 squares by 3 squares. The Snare ability loses its existing keywords, gains the Area keyword, and targets each creature or object in the area. The trap can be triggered by a target moving through one specific square, or by requiring multiple squares to be moved through. Any creature who makes their [save](../../rule/general/saving-throw.md) to end the [restrained](../../condition/restrained.md) effect ends that effect for all targets, who all fall to the ground.'
       icon: ⭐️
       name: Upgrade
     - body: The snare trap is hidden until triggered or detected.
+      effects:
+        - effect: The snare trap is hidden until triggered or detected.
       icon: ⭐️
       name: Hidden
 file_basename: snare-trap
@@ -63,7 +85,12 @@ type: dynamic-terrain
 
 ```ds-fb
 features:
-    - icon: "\U0001F300"
+    - effects:
+        - effect: As a maneuver, a creature [adjacent](../../rule/combat/adjacent.md) to a snare trap can make an **Agility test**.
+          tier1: The creature triggers the trap and is affected as if in its space.
+          tier2: The trap is deactivated but the creature is [slowed](../../condition/slowed.md) (EoT).
+          tier3: The trap is deactivated and doesn't trigger.
+      icon: "\U0001F300"
       intro: As a maneuver, a creature [adjacent](../../rule/combat/adjacent.md) to a snare trap can make an **Agility test**.
       name: Deactivate
       power_roll:
@@ -72,12 +99,25 @@ features:
             low: The creature triggers the trap and is affected as if in its space.
             mid: The trap is deactivated but the creature is [slowed](../../condition/slowed.md) (EoT).
     - body: The snare trap is calibrated to be triggered by creatures or objects of a particular size or larger. The trap triggers when a creature or object of the appropriate size enters its space.
+      effects:
+        - effect: The snare trap is calibrated to be triggered by creatures or objects of a particular size or larger. The trap triggers when a creature or object of the appropriate size enters its space.
+        - effect: A triggering creature or object ends their movement and is targeted by the **Snare** ability.
+          name: Effect
       icon: ❕
       name: Activate
       sections:
         - label: Effect
           text: A triggering creature or object ends their movement and is targeted by the **Snare** ability.
     - distance: Melee 0
+      effects:
+        - effect: A creature or object of the appropriate size enters the trap's space.
+          name: Trigger
+          roll: Power Roll + 2
+          tier1: The target [shifts](../../movement/shifting.md) 1 square away from the snare.
+          tier2: 1 damage; A < 1 [restrained](../../condition/restrained.md) ([save](../../rule/general/saving-throw.md) ends)
+          tier3: 3 damage; A < 2 [restrained](../../condition/restrained.md) ([save](../../rule/general/saving-throw.md) ends)
+        - effect: A creature [restrained](../../condition/restrained.md) this way is vertical pulled 2 squares and suspended in the air by the snare line. On a successful [save](../../rule/general/saving-throw.md), the snare is cut or breaks and the creature falls to the ground. The snare must be manually reset.
+          name: Effect
       icon: ❗️
       keywords:
         - Melee
@@ -98,9 +138,13 @@ features:
       target: The triggering creature or object
       usage: Free triggered action
     - body: '**Net Trap (+1 EV)** The snare becomes a net that can wrap up multiple targets. The net has 3 [Stamina](../../rule/health/stamina.md) and fills an area of 3 squares by 3 squares. The Snare ability loses its existing keywords, gains the Area keyword, and targets each creature or object in the area. The trap can be triggered by a target moving through one specific square, or by requiring multiple squares to be moved through. Any creature who makes their [save](../../rule/general/saving-throw.md) to end the [restrained](../../condition/restrained.md) effect ends that effect for all targets, who all fall to the ground.'
+      effects:
+        - effect: '**Net Trap (+1 EV)** The snare becomes a net that can wrap up multiple targets. The net has 3 [Stamina](../../rule/health/stamina.md) and fills an area of 3 squares by 3 squares. The Snare ability loses its existing keywords, gains the Area keyword, and targets each creature or object in the area. The trap can be triggered by a target moving through one specific square, or by requiring multiple squares to be moved through. Any creature who makes their [save](../../rule/general/saving-throw.md) to end the [restrained](../../condition/restrained.md) effect ends that effect for all targets, who all fall to the ground.'
       icon: ⭐️
       name: Upgrade
     - body: The snare trap is hidden until triggered or detected.
+      effects:
+        - effect: The snare trap is hidden until triggered or detected.
       icon: ⭐️
       name: Hidden
 flavor: A rope snare is set to grab a target, leaving them hanging upside down.

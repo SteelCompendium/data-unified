@@ -34,10 +34,12 @@ features:
     - ability_type: Signature Ability
       distance: Melee 1
       effects:
-        - roll: ""
+        - effect: '**2d10 + highest characteristic:**'
           tier1: 5 damage
           tier2: 5 damage, 3 corruption damage
           tier3: 5 damage, 6 corruption damage; M < STRONG [bleeding](../../../condition/bleeding.md) ([save](../../../rule/general/saving-throw.md) ends)
+        - effect: The vampire rebel gains [temporary Stamina](../../../rule/health/temporary-stamina.md) equal to any corruption damage dealt.
+          name: Effect
       feature_type: ability
       icon: "\U0001F5E1"
       keywords:
@@ -51,7 +53,8 @@ features:
     - cost: Encounter
       distance: Self
       effects:
-        - effect: '**Effect:** The vampire rebel changes their form into a bat. In bat form, their size is 1T and they can [fly](../../../movement/fly.md). The vampire rebel then [shifts](../../../movement/shifting.md) up to their speed, then regains their true form. If they can''t fit in their current space when they return to their true form, they take 10 damage and are pushed to the nearest unoccupied space.'
+        - effect: The vampire rebel changes their form into a bat. In bat form, their size is 1T and they can [fly](../../../movement/fly.md). The vampire rebel then [shifts](../../../movement/shifting.md) up to their speed, then regains their true form. If they can't fit in their current space when they return to their true form, they take 10 damage and are pushed to the nearest unoccupied space.
+          name: Effect
       feature_type: ability
       icon: "\U0001F464"
       keywords: []

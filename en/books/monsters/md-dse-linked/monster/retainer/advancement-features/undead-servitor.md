@@ -2,6 +2,11 @@
 features:
     - cost: Encounter
       distance: Melee 1
+      effects:
+        - roll: Power Roll + highest characteristic
+          tier1: 7 damage; M < WEAK [grabbed](../../../condition/grabbed.md)
+          tier2: 11 damage; M < AVERAGE [grabbed](../../../condition/grabbed.md)
+          tier3: 16 damage; M < STRONG [grabbed](../../../condition/grabbed.md)
       icon: "\U0001F5E1"
       keywords:
         - Melee
@@ -19,6 +24,13 @@ features:
       usage: Main action
     - cost: Encounter
       distance: Ranged 10
+      effects:
+        - roll: Power Roll + highest characteristic
+          tier1: 8 corruption damage; P < WEAK [weakened](../../../condition/weakened.md) ([save](../../../rule/general/saving-throw.md) ends)
+          tier2: 13 corruption damage; P < AVERAGE [weakened](../../../condition/weakened.md) ([save](../../../rule/general/saving-throw.md) ends)
+          tier3: 17 corruption damage; P < STRONG [weakened](../../../condition/weakened.md) ([save](../../../rule/general/saving-throw.md) ends)
+        - effect: Before making the [strike](../../../rule/combat/strike.md), the servitor can [teleport](../../../movement/teleport.md) up to 10 squares to a space containing a dead creature, then burst out of the creature's body.
+          name: Effect
       icon: "\U0001F3F9"
       keywords:
         - Magic
@@ -39,6 +51,15 @@ features:
       usage: Maneuver
     - cost: Encounter
       distance: 2 burst
+      effects:
+        - effect: The servitor is reduced to 0 [Stamina](../../../rule/health/stamina.md).
+          name: Trigger
+        - effect: The servitor explodes.
+          name: Effect
+          roll: Power Roll + highest characteristic
+          tier1: 6 corruption damage
+          tier2: 10 corruption damage
+          tier3: 14 corruption damage
       icon: ❗️
       keywords:
         - Area
@@ -72,6 +93,11 @@ type: featureblock
 features:
     - cost: Encounter
       distance: Melee 1
+      effects:
+        - roll: Power Roll + highest characteristic
+          tier1: 7 damage; M < WEAK [grabbed](../../../condition/grabbed.md)
+          tier2: 11 damage; M < AVERAGE [grabbed](../../../condition/grabbed.md)
+          tier3: 16 damage; M < STRONG [grabbed](../../../condition/grabbed.md)
       icon: "\U0001F5E1"
       keywords:
         - Melee
@@ -89,6 +115,13 @@ features:
       usage: Main action
     - cost: Encounter
       distance: Ranged 10
+      effects:
+        - roll: Power Roll + highest characteristic
+          tier1: 8 corruption damage; P < WEAK [weakened](../../../condition/weakened.md) ([save](../../../rule/general/saving-throw.md) ends)
+          tier2: 13 corruption damage; P < AVERAGE [weakened](../../../condition/weakened.md) ([save](../../../rule/general/saving-throw.md) ends)
+          tier3: 17 corruption damage; P < STRONG [weakened](../../../condition/weakened.md) ([save](../../../rule/general/saving-throw.md) ends)
+        - effect: Before making the [strike](../../../rule/combat/strike.md), the servitor can [teleport](../../../movement/teleport.md) up to 10 squares to a space containing a dead creature, then burst out of the creature's body.
+          name: Effect
       icon: "\U0001F3F9"
       keywords:
         - Magic
@@ -109,6 +142,15 @@ features:
       usage: Maneuver
     - cost: Encounter
       distance: 2 burst
+      effects:
+        - effect: The servitor is reduced to 0 [Stamina](../../../rule/health/stamina.md).
+          name: Trigger
+        - effect: The servitor explodes.
+          name: Effect
+          roll: Power Roll + highest characteristic
+          tier1: 6 corruption damage
+          tier2: 10 corruption damage
+          tier3: 14 corruption damage
       icon: ❗️
       keywords:
         - Area

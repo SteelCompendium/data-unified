@@ -41,6 +41,8 @@ features:
           tier1: 9 fire damage
           tier2: 14 fire damage
           tier3: 17 fire damage; A < 3 burning (save ends)
+        - effect: A burning creature takes 1d6 fire damage at the start of each of their turns. A burning object takes 1d6 fire damage at the end of each round.
+          name: Effect
       feature_type: ability
       icon: "\U0001F3F9"
       keywords:
@@ -58,6 +60,8 @@ features:
           tier1: 5 fire damage; A < 1 burning (save ends)
           tier2: 9 fire damage; A < 2 burning (save ends)
           tier3: 11 fire damage; [prone](../../../condition/prone.md); A < 3 burning (save ends)
+        - effect: A burning creature takes 1d6 fire damage at the start of each of their turns. A burning object takes 1d6 fire damage at the end of each round.
+          name: Effect
       feature_type: ability
       icon: "\U0001F533"
       keywords:

@@ -41,6 +41,8 @@ features:
           tier1: 9 damage
           tier2: 14 damage
           tier3: 17 damage; [prone](../../../condition/prone.md)
+        - cost: 3 Malice
+          effect: Each ally [adjacent](../../../rule/combat/adjacent.md) to a [prone](../../../condition/prone.md) target can make a [free strike](../../../feature/common/main-actions/free-strike.md) against that target.
       feature_type: ability
       icon: "\U0001F5E1"
       keywords:
@@ -58,6 +60,8 @@ features:
           tier1: 6 damage
           tier2: 11 damage
           tier3: 14 damage
+        - effect: Each target is [pushed](../../../movement/forced-movement.md) up to 10 squares in the same direction, and the grandguard [shifts](../../../movement/shifting.md) into the area left behind by the targets.
+          name: Effect
       feature_type: ability
       icon: "\U0001F533"
       keywords:

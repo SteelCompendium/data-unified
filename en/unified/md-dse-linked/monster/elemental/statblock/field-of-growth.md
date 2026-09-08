@@ -39,6 +39,8 @@ features:
           tier1: 8 damage
           tier2: 13 damage; R < 1 [prone](../../../condition/prone.md) and can't stand (save ends)
           tier3: 16 damage; R < 2 [prone](../../../condition/prone.md) and can't stand (save ends)
+        - effect: If a target made [prone](../../../condition/prone.md) this way is already [prone](../../../condition/prone.md), they are instead [restrained](../../../condition/restrained.md) (save ends). If the target was also unable to stand, that effect ends when they are no longer [restrained](../../../condition/restrained.md) this way.
+          name: Effect
       feature_type: ability
       icon: "\U0001F3F9"
       keywords:
@@ -51,9 +53,10 @@ features:
       usage: Main action
     - distance: Ranged 5
       effects:
-        - effect: |-
-            **Effect:** The target gains 15 temporary Stamina that lasts until the start of the field's next turn.
-            **3 [Malice](../../../rule/monster/malice.md):** Until the end of the encounter, the ground within 1 square of the target is overgrown with underbrush and vines. Whenever any enemy makes a strike against the target while within line of effect of that area, the enemy is [pulled](../../../movement/forced-movement.md) 5 squares toward the area after the strike is resolved. Any enemy who enters the area for the first time in a round or starts their turn there is knocked [prone](../../../condition/prone.md).
+        - effect: The target gains 15 temporary Stamina that lasts until the start of the field's next turn.
+          name: Effect
+        - cost: 3 Malice
+          effect: Until the end of the encounter, the ground within 1 square of the target is overgrown with underbrush and vines. Whenever any enemy makes a strike against the target while within line of effect of that area, the enemy is [pulled](../../../movement/forced-movement.md) 5 squares toward the area after the strike is resolved. Any enemy who enters the area for the first time in a round or starts their turn there is knocked [prone](../../../condition/prone.md).
       feature_type: ability
       icon: "\U0001F3F9"
       keywords:
@@ -66,9 +69,8 @@ features:
     - cost: 1 Malice
       distance: Melee 3
       effects:
-        - effect: |-
-            **Trigger:** A creature or object within distance deals damage to the field.
-            **Effect:** The target takes 6 damage, and if they have A < 2, they are [bleeding](../../../condition/bleeding.md) (save ends).
+        - effect: The target takes 6 damage, and if they have A < 2, they are [bleeding](../../../condition/bleeding.md) (save ends).
+          name: Effect
       feature_type: ability
       icon: ❗️
       keywords:
@@ -76,6 +78,7 @@ features:
         - Melee
       name: Rose Thorn Lash
       target: The triggering creature or object
+      trigger: A creature or object within distance deals damage to the field.
       type: feature
       usage: Triggered action
     - effects:

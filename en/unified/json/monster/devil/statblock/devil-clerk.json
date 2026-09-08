@@ -11,6 +11,10 @@
           "tier1": "3 damage; push 1",
           "tier2": "6 damage; push 2",
           "tier3": "7 damage; push 3"
+        },
+        {
+          "effect": "Any target [adjacent](scc.v1:mcdm.heroes.v1/rule.combat/adjacent) to two or more clerks is [taunted](scc.v1:mcdm.heroes.v1/condition/taunted) until the end of their next turn.",
+          "name": "Effect"
         }
       ],
       "feature_type": "ability",

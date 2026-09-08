@@ -37,6 +37,8 @@ features:
           tier1: 13 damage
           tier2: 18 damage; A < 3 [prone](scc.v1:mcdm.heroes.v1/condition/prone)
           tier3: 22 damage; A < 4 [prone](scc.v1:mcdm.heroes.v1/condition/prone)
+        - cost: 4 Malice
+          effect: Two allies within distance move up to their speed and can use a [signature ability](scc.v1:mcdm.heroes.v1/rule.combat/signature-ability).
       feature_type: ability
       icon: "\U0001F3F9"
       keywords:
@@ -54,6 +56,8 @@ features:
           tier1: 15 damage; M < 2 [weakened](scc.v1:mcdm.heroes.v1/condition/weakened) (save ends)
           tier2: 21 damage; M < 3 [weakened](scc.v1:mcdm.heroes.v1/condition/weakened) (save ends)
           tier3: 26 damage; M < 4 [weakened](scc.v1:mcdm.heroes.v1/condition/weakened) (save ends)
+        - effect: Two allies [adjacent](scc.v1:mcdm.heroes.v1/rule.combat/adjacent) to the target each regain 7 [Stamina](scc.v1:mcdm.heroes.v1/rule.health/stamina).
+          name: Effect
       feature_type: ability
       icon: "\U0001F3F9"
       keywords:
@@ -66,15 +70,15 @@ features:
       usage: Main action
     - distance: Ranged 10
       effects:
-        - effect: |-
-            **Trigger:** An enemy within distance willingly moves.
-            **Effect:** At any point during the movement, the tactician uses a [signature ability](scc.v1:mcdm.heroes.v1/rule.combat/signature-ability) against the target.
+        - effect: At any point during the movement, the tactician uses a [signature ability](scc.v1:mcdm.heroes.v1/rule.combat/signature-ability) against the target.
+          name: Effect
       feature_type: ability
       icon: ❗️
       keywords:
         - Ranged
       name: Quickshot
       target: The triggering enemy
+      trigger: An enemy within distance willingly moves.
       type: feature
       usage: Triggered action
     - effects:

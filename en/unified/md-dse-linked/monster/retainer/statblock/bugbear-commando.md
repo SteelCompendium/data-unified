@@ -39,6 +39,8 @@ features:
           tier1: 5 damage
           tier2: 6 damage
           tier3: 11 damage
+        - effect: If the commando started their turn with concealment from the target or hidden from them, they gain 1 [surge](../../../rule/resource/surge.md) that can be used immediately.
+          name: Effect
       feature_type: ability
       icon: "\U0001F5E1"
       keywords:
@@ -51,9 +53,10 @@ features:
       usage: Main action
     - distance: Melee 1
       effects:
-        - effect: |-
-            **Special:** The target must be [grabbed](../../../condition/grabbed.md) by the commando.
-            **Effect:** The target is vertical pushed up to 5 squares. An ally doesn't take damage from being [force moved](../../../movement/forced-movement.md) this way.
+        - effect: The target must be [grabbed](../../../condition/grabbed.md) by the commando.
+          name: Special
+        - effect: The target is vertical pushed up to 5 squares. An ally doesn't take damage from being [force moved](../../../movement/forced-movement.md) this way.
+          name: Effect
       feature_type: ability
       icon: "\U0001F5E1"
       keywords:
@@ -65,15 +68,15 @@ features:
       usage: Maneuver
     - distance: Melee 1
       effects:
-        - effect: |-
-            **Trigger:** A size 1 creature or object is [force moved](../../../movement/forced-movement.md) within distance, or a size 1 ally willingly moves within distance.
-            **Effect:** The target is [grabbed](../../../condition/grabbed.md) by the commando.
+        - effect: The target is [grabbed](../../../condition/grabbed.md) by the commando.
+          name: Effect
       feature_type: ability
       icon: ❗️
       keywords:
         - Melee
       name: Catcher
       target: The triggering creature or object
+      trigger: A size 1 creature or object is [force moved](../../../movement/forced-movement.md) within distance, or a size 1 ally willingly moves within distance.
       type: feature
       usage: Free triggered action
 free_strike: 2

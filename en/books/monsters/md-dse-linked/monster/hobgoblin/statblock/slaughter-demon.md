@@ -41,6 +41,8 @@ features:
           tier1: 9 damage
           tier2: 14 damage; A < 2 [bleeding](../../../condition/bleeding.md) (save ends)
           tier3: 17 damage; A < 3 [bleeding](../../../condition/bleeding.md) and [restrained](../../../condition/restrained.md) (save ends)
+        - effect: A creature [restrained](../../../condition/restrained.md) this way moves with the slaughter demon. The slaughter demon can have up to six creatures or objects [restrained](../../../condition/restrained.md) at once.
+          name: Effect
       feature_type: ability
       icon: "\U0001F5E1"
       keywords:
@@ -58,6 +60,8 @@ features:
           tier1: 10 poison damage; M < 1 [weakened](../../../condition/weakened.md) (save ends)
           tier2: 16 poison damage; M < 2 [weakened](../../../condition/weakened.md) (save ends)
           tier3: 20 poison damage; M < 3 [weakened](../../../condition/weakened.md) (save ends)
+        - effect: A target [weakened](../../../condition/weakened.md) this way also has damage weakness 3.
+          name: Effect
       feature_type: ability
       icon: "\U0001F5E1"
       keywords:
@@ -76,9 +80,8 @@ features:
       type: feature
     - distance: 5 burst
       effects:
-        - effect: |-
-            **Trigger:** A creature within distance who has a soul dies.
-            **Effect:** The target can't be brought back to life. Until the end of the encounter, the slaughter demon gains an edge on power rolls.
+        - effect: The target can't be brought back to life. Until the end of the encounter, the slaughter demon gains an edge on power rolls.
+          name: Effect
       feature_type: ability
       icon: ❗️
       keywords:
@@ -86,6 +89,7 @@ features:
         - Magic
       name: Devour Soul
       target: The triggering creature
+      trigger: A creature within distance who has a soul dies.
       type: feature
       usage: Triggered action
     - effects:

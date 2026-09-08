@@ -2,10 +2,14 @@
 features:
     - body: The demon activates a [Malice](scc.v1:mcdm.monsters.v1/rule.monster/malice) feature available to demons of level 6 or lower.
       cost: 3-7 Malice
+      effects:
+        - effect: The demon activates a [Malice](scc.v1:mcdm.monsters.v1/rule.monster/malice) feature available to demons of level 6 or lower.
       icon: ⭐️
       name: Prior Malice Features
     - body: One demon acting this turn expels blight—digested soul juice—onto the ground around them in a 3 burst that lingers until the start of their next turn. Any enemy who enters the area or starts their turn there takes 6 corruption damage, and has a double [bane](scc.v1:mcdm.heroes.v1/rule.dice/bane) on power rolls until the start of their next turn.
       cost: 5 Malice
+      effects:
+        - effect: One demon acting this turn expels blight—digested soul juice—onto the ground around them in a 3 burst that lingers until the start of their next turn. Any enemy who enters the area or starts their turn there takes 6 corruption damage, and has a double [bane](scc.v1:mcdm.heroes.v1/rule.dice/bane) on power rolls until the start of their next turn.
       icon: ❇️
       name: Seeping Blight
 flavor: At the start of any level 7 or higher demon's turn, you can spend Malice to activate one of the following features.

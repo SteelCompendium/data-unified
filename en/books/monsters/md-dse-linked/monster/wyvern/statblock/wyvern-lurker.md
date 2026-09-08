@@ -40,6 +40,8 @@ features:
           tier1: 9 damage
           tier2: 14 damage; M < 2 [bleeding](../../../condition/bleeding.md) (save ends)
           tier3: 17 damage; M < 3 [bleeding](../../../condition/bleeding.md) (save ends)
+        - cost: 1 Malice
+          effect: One target hidden from the lurker takes an extra 6 acid damage.
       feature_type: ability
       icon: "\U0001F5E1"
       keywords:
@@ -57,6 +59,8 @@ features:
           tier1: 10 acid damage; M < 1 [weakened](../../../condition/weakened.md) (save ends)
           tier2: 16 acid damage; M < 2 [weakened](../../../condition/weakened.md) (save ends)
           tier3: 20 acid damage; M < 3 [weakened](../../../condition/weakened.md) (save ends)
+        - effect: A target [weakened](../../../condition/weakened.md) this way takes 1d4 acid damage at the start of each of their turns.
+          name: Effect
       feature_type: ability
       icon: "\U0001F5E1"
       keywords:
@@ -69,7 +73,8 @@ features:
       usage: Main action
     - distance: Self
       effects:
-        - effect: '**Effect:** The lurker [flies](../../../movement/fly.md) up to their speed, then can attempt to hide. Each enemy the lurker moves [adjacent](../../../rule/combat/adjacent.md) to during this movement can choose to take 3 sonic damage or fall [prone](../../../condition/prone.md).'
+        - effect: The lurker [flies](../../../movement/fly.md) up to their speed, then can attempt to hide. Each enemy the lurker moves [adjacent](../../../rule/combat/adjacent.md) to during this movement can choose to take 3 sonic damage or fall [prone](../../../condition/prone.md).
+          name: Effect
       feature_type: ability
       icon: "\U0001F464"
       keywords: []
@@ -79,15 +84,15 @@ features:
       usage: Maneuver
     - distance: Ranged 5
       effects:
-        - effect: |-
-            **Trigger:** A creature within distance deals damage to the lurker with a ranged ability.
-            **Effect:** The lurker [flies](../../../movement/fly.md) [adjacent](../../../rule/combat/adjacent.md) to the target and can make a [free strike](../../../feature/common/main-actions/free-strike.md) against them.
+        - effect: The lurker [flies](../../../movement/fly.md) [adjacent](../../../rule/combat/adjacent.md) to the target and can make a [free strike](../../../feature/common/main-actions/free-strike.md) against them.
+          name: Effect
       feature_type: ability
       icon: ❗️
       keywords:
         - Ranged
       name: Retaliatory Dive
       target: The triggering creature
+      trigger: A creature within distance deals damage to the lurker with a ranged ability.
       type: feature
       usage: Triggered action
     - effects:

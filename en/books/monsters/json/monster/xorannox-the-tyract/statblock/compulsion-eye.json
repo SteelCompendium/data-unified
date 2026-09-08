@@ -11,6 +11,10 @@
           "tier1": "I \u003c 2 the target is charmed",
           "tier2": "I \u003c 3 the target is charmed",
           "tier3": "I \u003c 4 the target is charmed"
+        },
+        {
+          "effect": "As a free [triggered action](scc.v1:mcdm.heroes.v1/rule.combat/triggered-action), a charmed target immediately moves up to their speed and can make a [free strike](scc.v1:mcdm.heroes.v1/feature.common.main-actions/free-strike) against an enemy of Xorannox's choice. The target is then no longer charmed.",
+          "name": "Effect"
         }
       ],
       "feature_type": "ability",

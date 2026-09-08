@@ -39,6 +39,8 @@ features:
           tier1: 10 damage
           tier2: 15 damage
           tier3: 18 damage
+        - effect: The mournblade is invisible to the target until the start of the mournblade's next turn.
+          name: Effect
       feature_type: ability
       icon: "\U0001F5E1"
       keywords:
@@ -51,7 +53,8 @@ features:
       usage: Main action
     - distance: Self
       effects:
-        - effect: '**Effect:** If the mournblade has concealment, they can [teleport](scc.v1:mcdm.heroes.v1/movement/teleport) up to 10 squares to a space with concealment created by darkness.'
+        - effect: If the mournblade has concealment, they can [teleport](scc.v1:mcdm.heroes.v1/movement/teleport) up to 10 squares to a space with concealment created by darkness.
+          name: Effect
       feature_type: ability
       icon: "\U0001F464"
       keywords:

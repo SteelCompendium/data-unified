@@ -8,6 +8,10 @@ features:
           tier1: 8 damage; [pull](scc.v1:mcdm.heroes.v1/movement/forced-movement) 1
           tier2: 12 damage; [pull](scc.v1:mcdm.heroes.v1/movement/forced-movement) 2
           tier3: 15 damage; [pull](scc.v1:mcdm.heroes.v1/movement/forced-movement) 3
+        - effect: One ally within 10 squares of the ground commander can make a [free strike](scc.v1:mcdm.heroes.v1/feature.common.main-actions/free-strike).
+          name: Effect
+        - cost: 1 Malice
+          effect: A target who has I < 2 and who is [adjacent](scc.v1:mcdm.heroes.v1/rule.combat/adjacent) to the ground commander after this ability is resolved is [grabbed](scc.v1:mcdm.heroes.v1/condition/grabbed) (save ends). This grab can't be escaped using the Escape Grab maneuver. The ground commander can grab up to two creatures at a time.
       feature_type: ability
       icon: ⚔️
       keywords:
@@ -21,7 +25,8 @@ features:
       usage: Main action
     - distance: 10 burst
       effects:
-        - effect: '**Effect:** Any target who has a loyalty collar is reduced to 0 [Stamina](scc.v1:mcdm.heroes.v1/rule.health/stamina).'
+        - effect: Any target who has a loyalty collar is reduced to 0 [Stamina](scc.v1:mcdm.heroes.v1/rule.health/stamina).
+          name: Effect
       feature_type: ability
       icon: ❇️
       keywords:
@@ -33,9 +38,8 @@ features:
       usage: Maneuver
     - distance: Ranged 10
       effects:
-        - effect: |-
-            **Trigger:** The target takes damage, is [forced moved](scc.v1:mcdm.heroes.v1/movement/forced-movement), or is reduced to 0 [Stamina](scc.v1:mcdm.heroes.v1/rule.health/stamina).
-            **Effect:** Even if reduced to 0 [Stamina](scc.v1:mcdm.heroes.v1/rule.health/stamina), the target moves up to their speed and can make a [free strike](scc.v1:mcdm.heroes.v1/feature.common.main-actions/free-strike) after the triggering effect is resolved. The target then immediately dies.
+        - effect: Even if reduced to 0 [Stamina](scc.v1:mcdm.heroes.v1/rule.health/stamina), the target moves up to their speed and can make a [free strike](scc.v1:mcdm.heroes.v1/feature.common.main-actions/free-strike) after the triggering effect is resolved. The target then immediately dies.
+          name: Effect
       feature_type: ability
       icon: ❗️
       keywords:
@@ -43,6 +47,7 @@ features:
         - Ranged
       name: Final Orders
       target: One ally
+      trigger: The target takes damage, is [forced moved](scc.v1:mcdm.heroes.v1/movement/forced-movement), or is reduced to 0 [Stamina](scc.v1:mcdm.heroes.v1/rule.health/stamina).
       type: feature
       usage: Triggered action
     - effects:
@@ -60,7 +65,8 @@ features:
     - cost: Villain Action 1
       distance: 10 burst
       effects:
-        - effect: '**Effect:** Each target can make a ranged [free strike](scc.v1:mcdm.heroes.v1/feature.common.main-actions/free-strike), then immediately use the Charge main action.'
+        - effect: Each target can make a ranged [free strike](scc.v1:mcdm.heroes.v1/feature.common.main-actions/free-strike), then immediately use the Charge main action.
+          name: Effect
       feature_type: ability
       icon: ☠️
       keywords:
@@ -72,7 +78,8 @@ features:
     - cost: Villain Action 2
       distance: Ranged 10
       effects:
-        - effect: '**Effect:** Each ally within 5 squares of the target moves up to their speed and can make a [free strike](scc.v1:mcdm.heroes.v1/feature.common.main-actions/free-strike) against the target. If the target has I < 2, they are [frightened](scc.v1:mcdm.heroes.v1/condition/frightened) of the ground commander (save ends).'
+        - effect: Each ally within 5 squares of the target moves up to their speed and can make a [free strike](scc.v1:mcdm.heroes.v1/feature.common.main-actions/free-strike) against the target. If the target has I < 2, they are [frightened](scc.v1:mcdm.heroes.v1/condition/frightened) of the ground commander (save ends).
+          name: Effect
       feature_type: ability
       icon: ☠️
       keywords:
@@ -85,7 +92,8 @@ features:
     - cost: Villain Action 3
       distance: 10 burst
       effects:
-        - effect: '**Effect:** Each target ally [shifts](scc.v1:mcdm.heroes.v1/movement/shifting) up to 2 squares and can use the Grab maneuver. Until the end of the encounter, each target enemy takes a bane on the Escape Grab maneuver.'
+        - effect: Each target ally [shifts](scc.v1:mcdm.heroes.v1/movement/shifting) up to 2 squares and can use the Grab maneuver. Until the end of the encounter, each target enemy takes a bane on the Escape Grab maneuver.
+          name: Effect
       feature_type: ability
       icon: ☠️
       keywords:

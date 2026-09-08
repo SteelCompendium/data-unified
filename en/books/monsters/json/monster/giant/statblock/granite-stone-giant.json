@@ -11,6 +11,10 @@
           "tier1": "12 damage",
           "tier2": "17 damage; R \u003c 3 [weakened](scc.v1:mcdm.heroes.v1/condition/weakened) (save ends)",
           "tier3": "21 damage; R \u003c 4 [weakened](scc.v1:mcdm.heroes.v1/condition/weakened) (save ends)"
+        },
+        {
+          "effect": "If the target is already [weakened](scc.v1:mcdm.heroes.v1/condition/weakened), they are also [bleeding](scc.v1:mcdm.heroes.v1/condition/bleeding) (save ends).",
+          "name": "Effect"
         }
       ],
       "feature_type": "ability",
@@ -34,6 +38,10 @@
           "tier1": "6 damage; [push](scc.v1:mcdm.heroes.v1/movement/forced-movement) 2",
           "tier2": "10 damage; [push](scc.v1:mcdm.heroes.v1/movement/forced-movement) 4",
           "tier3": "14 damage; vertical [push](scc.v1:mcdm.heroes.v1/movement/forced-movement) 4"
+        },
+        {
+          "effect": "The area is [difficult terrain](scc.v1:mcdm.heroes.v1/movement/difficult-terrain). Whenever a creature enters square in the area, they take 3 damage.",
+          "name": "Effect"
         }
       ],
       "feature_type": "ability",
@@ -50,7 +58,8 @@
       "distance": "Self",
       "effects": [
         {
-          "effect": "**Effect:** The granite stone giant moves up to their speed and creates a 14 wall of stone in squares [adjacent](scc.v1:mcdm.heroes.v1/rule.combat/adjacent) to the path of their movement."
+          "effect": "The granite stone giant moves up to their speed and creates a 14 wall of stone in squares [adjacent](scc.v1:mcdm.heroes.v1/rule.combat/adjacent) to the path of their movement.",
+          "name": "Effect"
         }
       ],
       "feature_type": "ability",
@@ -65,7 +74,8 @@
       "distance": "Melee 3",
       "effects": [
         {
-          "effect": "**Trigger:** A creature or object within distance moves or [shifts](scc.v1:mcdm.heroes.v1/movement/shifting) away from the granite stone giant.\n**Effect:** A 1-square pillar of stone rises 5 squares out of the ground beneath the target, who moves with the ground to its new elevation, then is vertical [pushed](scc.v1:mcdm.heroes.v1/movement/forced-movement) 5 squares."
+          "effect": "A 1-square pillar of stone rises 5 squares out of the ground beneath the target, who moves with the ground to its new elevation, then is vertical [pushed](scc.v1:mcdm.heroes.v1/movement/forced-movement) 5 squares.",
+          "name": "Effect"
         }
       ],
       "feature_type": "ability",
@@ -75,6 +85,7 @@
       ],
       "name": "Pillar",
       "target": "The triggering creature or object",
+      "trigger": "A creature or object within distance moves or [shifts](scc.v1:mcdm.heroes.v1/movement/shifting) away from the granite stone giant.",
       "type": "feature",
       "usage": "Triggered action"
     },

@@ -39,6 +39,8 @@ features:
           tier1: 12 damage
           tier2: 17 damage; A < 3 [bleeding](scc.v1:mcdm.heroes.v1/condition/bleeding) (save ends)
           tier3: 21 damage; A < 4 [bleeding](scc.v1:mcdm.heroes.v1/condition/bleeding) (save ends)
+        - effect: A target who is already [bleeding](scc.v1:mcdm.heroes.v1/condition/bleeding) takes an extra 1d6 cold damage.
+          name: Effect
       feature_type: ability
       icon: "\U0001F5E1"
       keywords:
@@ -53,7 +55,8 @@ features:
     - cost: 5 Malice
       distance: Self
       effects:
-        - effect: '**Effect:** The wind sprinter [shifts](scc.v1:mcdm.heroes.v1/movement/shifting) up to their speed and uses Cold Axe against each enemy who comes within 2 squares of them during the move. The wind sprinter makes one power roll against all targets.'
+        - effect: The wind sprinter [shifts](scc.v1:mcdm.heroes.v1/movement/shifting) up to their speed and uses Cold Axe against each enemy who comes within 2 squares of them during the move. The wind sprinter makes one power roll against all targets.
+          name: Effect
       feature_type: ability
       icon: "\U0001F464"
       keywords: []
@@ -63,7 +66,8 @@ features:
       usage: Main action
     - distance: Melee 1
       effects:
-        - effect: '**Effect:** The wind sprinter and the target each [shift](scc.v1:mcdm.heroes.v1/movement/shifting) up to 6 squares while staying [adjacent](scc.v1:mcdm.heroes.v1/rule.combat/adjacent) to each other. The target can then jump up to 5 squares and make a [free strike](scc.v1:mcdm.heroes.v1/feature.common.main-actions/free-strike).'
+        - effect: The wind sprinter and the target each [shift](scc.v1:mcdm.heroes.v1/movement/shifting) up to 6 squares while staying [adjacent](scc.v1:mcdm.heroes.v1/rule.combat/adjacent) to each other. The target can then jump up to 5 squares and make a [free strike](scc.v1:mcdm.heroes.v1/feature.common.main-actions/free-strike).
+          name: Effect
       feature_type: ability
       icon: "\U0001F5E1"
       keywords:
@@ -74,14 +78,14 @@ features:
       usage: Maneuver
     - distance: Self
       effects:
-        - effect: |-
-            **Trigger:** The wind sprinter takes damage.
-            **Effect:** The wind sprinter moves up to their speed and uses Cold Axe against one target.
+        - effect: The wind sprinter moves up to their speed and uses Cold Axe against one target.
+          name: Effect
       feature_type: ability
       icon: ❗️
       keywords: []
       name: Begone, Smallfolk!
       target: Self
+      trigger: The wind sprinter takes damage.
       type: feature
       usage: Triggered action
     - effects:

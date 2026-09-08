@@ -39,6 +39,8 @@ features:
           tier1: 9 cold, fire, or sonic damage
           tier2: 11 cold, fire, or sonic damage
           tier3: 13 cold, fire, or sonic damage; M < 4 [bleeding](scc.v1:mcdm.heroes.v1/condition/bleeding), [dazed](scc.v1:mcdm.heroes.v1/condition/dazed), or [slowed](scc.v1:mcdm.heroes.v1/condition/slowed) (save ends)
+        - effect: After making the power roll, the chimeron decides what damage type the ability deals and which condition it imposes.
+          name: Special
       feature_type: ability
       icon: "\U0001F5E1"
       keywords:
@@ -52,14 +54,14 @@ features:
     - cost: 1 Malice
       distance: Self
       effects:
-        - effect: |-
-            **Trigger:** The chimeron is targeted by a damage-dealing strike.
-            **Effect:** The chimeron halves the damage.
+        - effect: The chimeron halves the damage.
+          name: Effect
       feature_type: ability
       icon: ❗️
       keywords: []
       name: Pain Absorption
       target: Self
+      trigger: The chimeron is targeted by a damage-dealing strike.
       type: feature
       usage: Triggered action
     - effects:

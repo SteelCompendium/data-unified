@@ -39,6 +39,8 @@ features:
           tier1: 9 damage
           tier2: 13 damage
           tier3: 16 damage
+        - effect: Until the end of the current turn, the moondancer ignores opportunity attacks from the target.
+          name: Effect
       feature_type: ability
       icon: "\U0001F5E1"
       keywords:
@@ -52,15 +54,15 @@ features:
       usage: Main action
     - distance: Self
       effects:
-        - effect: |-
-            **Trigger:** The moondancer takes damage from a strike.
-            **Effect:** The moondancer can [teleport](../../../movement/teleport.md) up to 10 squares to a space with concealment created by darkness.
+        - effect: The moondancer can [teleport](../../../movement/teleport.md) up to 10 squares to a space with concealment created by darkness.
+          name: Effect
       feature_type: ability
       icon: ❗️
       keywords:
         - Magic
       name: Dissolve
       target: Self
+      trigger: The moondancer takes damage from a strike.
       type: feature
       usage: Triggered action
     - effects:

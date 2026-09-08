@@ -41,6 +41,8 @@ features:
           tier1: 7 fire damage
           tier2: 10 fire damage
           tier3: 13 fire damage
+        - effect: Until the end of their turn, the trooper doesn't provoke opportunity attacks from any target.
+          name: Effect
       feature_type: ability
       icon: "\U0001F5E1"
       keywords:
@@ -53,7 +55,8 @@ features:
       usage: Main action
     - distance: Ranged 5
       effects:
-        - effect: '**Effect:** If the target has P < 2, they are taunted (EoT). While taunted this way, the target takes 1d6 fire damage whenever they use an ability or strike that doesn''t target the trooper.'
+        - effect: If the target has P < 2, they are taunted (EoT). While taunted this way, the target takes 1d6 fire damage whenever they use an ability or strike that doesn't target the trooper.
+          name: Effect
       feature_type: ability
       icon: "\U0001F3F9"
       keywords:

@@ -2,6 +2,13 @@
 features:
     - cost: Encounter
       distance: Melee 1
+      effects:
+        - roll: Power Roll + highest characteristic
+          tier1: 6 damage; M < WEAK [grabbed](scc.v1:mcdm.heroes.v1/condition/grabbed)
+          tier2: 9 damage; M < AVERAGE [grabbed](scc.v1:mcdm.heroes.v1/condition/grabbed)
+          tier3: 13 damage; M < STRONG [grabbed](scc.v1:mcdm.heroes.v1/condition/grabbed)
+        - effect: While the target is [grabbed](scc.v1:mcdm.heroes.v1/condition/grabbed) this way, they can't communicate and all creatures and objects have concealment from them.
+          name: Effect
       icon: "\U0001F5E1"
       keywords:
         - Melee
@@ -22,6 +29,13 @@ features:
       usage: Main action
     - cost: Encounter
       distance: Ranged 10
+      effects:
+        - roll: Power Roll + highest characteristic
+          tier1: Pull 8
+          tier2: Pull 10
+          tier3: Pull 12
+        - effect: The target takes 1 damage for each square they are [pulled](scc.v1:mcdm.heroes.v1/movement/forced-movement).
+          name: Effect
       icon: "\U0001F3F9"
       keywords:
         - Magic
@@ -42,6 +56,13 @@ features:
       usage: Main action
     - cost: Encounter
       distance: Melee 1
+      effects:
+        - roll: Power Roll + highest characteristic
+          tier1: 12 damage
+          tier2: 18 damage
+          tier3: 24 damage
+        - effect: The target takes 15 damage, they are no longer [grabbed](scc.v1:mcdm.heroes.v1/condition/grabbed), and they fall [prone](scc.v1:mcdm.heroes.v1/condition/prone).
+          name: Effect
       icon: "\U0001F5E1"
       keywords:
         - Melee

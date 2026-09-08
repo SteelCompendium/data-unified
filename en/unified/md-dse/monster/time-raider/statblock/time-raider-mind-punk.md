@@ -39,6 +39,8 @@ features:
           tier1: 6 damage
           tier2: 8 damage; M < 1 [dazed](scc.v1:mcdm.heroes.v1/condition/dazed) (save ends)
           tier3: 11 damage; M < 2 [dazed](scc.v1:mcdm.heroes.v1/condition/dazed) (save ends)
+        - effect: A target who ends their next turn [adjacent](scc.v1:mcdm.heroes.v1/rule.combat/adjacent) to the other target falls [prone](scc.v1:mcdm.heroes.v1/condition/prone).
+          name: Effect
       feature_type: ability
       icon: "\U0001F5E1"
       keywords:

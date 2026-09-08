@@ -2,10 +2,18 @@
 features:
     - body: One war dog acting this turn tears apart a nearby corpse of a humanoid and incorporates its body parts into their own. The war dog regains [Stamina](scc.v1:mcdm.heroes.v1/rule.health/stamina) equal to 5 times their level.
       cost: 3 Malice
+      effects:
+        - effect: One war dog acting this turn tears apart a nearby corpse of a humanoid and incorporates its body parts into their own. The war dog regains [Stamina](scc.v1:mcdm.heroes.v1/rule.health/stamina) equal to 5 times their level.
       icon: "\U0001F464"
       name: Reconstitute
     - cost: 5 Malice
       distance: 4 cube within 10
+      effects:
+        - effect: Each target makes an **Agility test**. The same condition is imposed on each affected target.
+          name: Effect
+          tier1: 5 fire damage; [slowed](scc.v1:mcdm.heroes.v1/condition/slowed) or [weakened](scc.v1:mcdm.heroes.v1/condition/weakened) (save ends)
+          tier2: 5 fire damage; [slowed](scc.v1:mcdm.heroes.v1/condition/slowed) or [weakened](scc.v1:mcdm.heroes.v1/condition/weakened) (EoT)
+          tier3: 5 fire damage
       icon: "\U0001F533"
       keywords:
         - Area
@@ -24,6 +32,8 @@ features:
       usage: Maneuver
     - body: Each war dog [minion](scc.v1:mcdm.monsters.v1/rule.organization/minion) in the encounter [shifts](scc.v1:mcdm.heroes.v1/movement/shifting) up to their speed and can make a [free strike](scc.v1:mcdm.heroes.v1/feature.common.main-actions/free-strike). A [minion](scc.v1:mcdm.monsters.v1/rule.organization/minion) who does so is then reduced to 0 [Stamina](scc.v1:mcdm.heroes.v1/rule.health/stamina).
       cost: 7 Malice
+      effects:
+        - effect: Each war dog [minion](scc.v1:mcdm.monsters.v1/rule.organization/minion) in the encounter [shifts](scc.v1:mcdm.heroes.v1/movement/shifting) up to their speed and can make a [free strike](scc.v1:mcdm.heroes.v1/feature.common.main-actions/free-strike). A [minion](scc.v1:mcdm.monsters.v1/rule.organization/minion) who does so is then reduced to 0 [Stamina](scc.v1:mcdm.heroes.v1/rule.health/stamina).
       icon: ⭐️
       name: Fodder Run
 file_basename: war-dog-malice-level-1-malice-features
@@ -43,10 +53,18 @@ type: featureblock
 features:
     - body: One war dog acting this turn tears apart a nearby corpse of a humanoid and incorporates its body parts into their own. The war dog regains [Stamina](scc.v1:mcdm.heroes.v1/rule.health/stamina) equal to 5 times their level.
       cost: 3 Malice
+      effects:
+        - effect: One war dog acting this turn tears apart a nearby corpse of a humanoid and incorporates its body parts into their own. The war dog regains [Stamina](scc.v1:mcdm.heroes.v1/rule.health/stamina) equal to 5 times their level.
       icon: "\U0001F464"
       name: Reconstitute
     - cost: 5 Malice
       distance: 4 cube within 10
+      effects:
+        - effect: Each target makes an **Agility test**. The same condition is imposed on each affected target.
+          name: Effect
+          tier1: 5 fire damage; [slowed](scc.v1:mcdm.heroes.v1/condition/slowed) or [weakened](scc.v1:mcdm.heroes.v1/condition/weakened) (save ends)
+          tier2: 5 fire damage; [slowed](scc.v1:mcdm.heroes.v1/condition/slowed) or [weakened](scc.v1:mcdm.heroes.v1/condition/weakened) (EoT)
+          tier3: 5 fire damage
       icon: "\U0001F533"
       keywords:
         - Area
@@ -65,6 +83,8 @@ features:
       usage: Maneuver
     - body: Each war dog [minion](scc.v1:mcdm.monsters.v1/rule.organization/minion) in the encounter [shifts](scc.v1:mcdm.heroes.v1/movement/shifting) up to their speed and can make a [free strike](scc.v1:mcdm.heroes.v1/feature.common.main-actions/free-strike). A [minion](scc.v1:mcdm.monsters.v1/rule.organization/minion) who does so is then reduced to 0 [Stamina](scc.v1:mcdm.heroes.v1/rule.health/stamina).
       cost: 7 Malice
+      effects:
+        - effect: Each war dog [minion](scc.v1:mcdm.monsters.v1/rule.organization/minion) in the encounter [shifts](scc.v1:mcdm.heroes.v1/movement/shifting) up to their speed and can make a [free strike](scc.v1:mcdm.heroes.v1/feature.common.main-actions/free-strike). A [minion](scc.v1:mcdm.monsters.v1/rule.organization/minion) who does so is then reduced to 0 [Stamina](scc.v1:mcdm.heroes.v1/rule.health/stamina).
       icon: ⭐️
       name: Fodder Run
 flavor: At the start of any war dog's turn, you can spend Malice to activate one of the following features.

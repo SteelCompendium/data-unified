@@ -37,6 +37,8 @@ features:
           tier1: 6 damage
           tier2: 9 damage; [taunted](scc.v1:mcdm.heroes.v1/condition/taunted) (EoT)
           tier3: 12 damage; [taunted](scc.v1:mcdm.heroes.v1/condition/taunted) (EoT)
+        - effect: This ability has a double edge against any target who dealt damage to the rampart this round.
+          name: Effect
       feature_type: ability
       icon: "\U0001F5E1"
       keywords:
@@ -49,7 +51,8 @@ features:
       usage: Main action
     - distance: Self; see below
       effects:
-        - effect: '**Effect:** The rampart moves or [shifts](scc.v1:mcdm.heroes.v1/movement/shifting) up to their speed [adjacent](scc.v1:mcdm.heroes.v1/rule.combat/adjacent) to the target, then can swap places with the target.'
+        - effect: The rampart moves or [shifts](scc.v1:mcdm.heroes.v1/movement/shifting) up to their speed [adjacent](scc.v1:mcdm.heroes.v1/rule.combat/adjacent) to the target, then can swap places with the target.
+          name: Effect
       feature_type: ability
       icon: "\U0001F464"
       keywords: []
@@ -59,14 +62,14 @@ features:
       usage: Maneuver
     - distance: Self
       effects:
-        - effect: |-
-            **Trigger:** A creature targets an ally [adjacent](scc.v1:mcdm.heroes.v1/rule.combat/adjacent) to the rampart with an ability that doesn't also target the rampart.
-            **Effect:** The rampart becomes the target of the triggering ability instead.
+        - effect: The rampart becomes the target of the triggering ability instead.
+          name: Effect
       feature_type: ability
       icon: ❗️
       keywords: []
       name: No.
       target: Self
+      trigger: A creature targets an ally [adjacent](scc.v1:mcdm.heroes.v1/rule.combat/adjacent) to the rampart with an ability that doesn't also target the rampart.
       type: feature
       usage: Triggered action
     - effects:

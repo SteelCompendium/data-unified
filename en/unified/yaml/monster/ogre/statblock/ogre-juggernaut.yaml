@@ -8,6 +8,8 @@ features:
           tier1: 7 damage
           tier2: 10 damage; A < 1 vertical [push](scc.v1:mcdm.heroes.v1/movement/forced-movement) 2
           tier3: 13 damage; A < 2 vertical [slide](scc.v1:mcdm.heroes.v1/movement/forced-movement) 3
+        - cost: 1 Malice
+          effect: Each target who has M < 1 is [bleeding](scc.v1:mcdm.heroes.v1/condition/bleeding) (save ends).
       feature_type: ability
       icon: "\U0001F5E1"
       keywords:
@@ -21,7 +23,9 @@ features:
       usage: Main action
     - distance: 3 burst
       effects:
-        - roll: Power Roll + 2
+        - effect: The juggernaut jumps up to 6 squares before using this ability.
+          name: Effect
+          roll: Power Roll + 2
           tier1: 4 damage
           tier2: 6 damage; [push](scc.v1:mcdm.heroes.v1/movement/forced-movement) 2; M < 1 [prone](scc.v1:mcdm.heroes.v1/condition/prone)
           tier3: 9 damage; [push](scc.v1:mcdm.heroes.v1/movement/forced-movement) 4; M < 2 [prone](scc.v1:mcdm.heroes.v1/condition/prone)
@@ -41,6 +45,8 @@ features:
           tier1: I < 0 [frightened](scc.v1:mcdm.heroes.v1/condition/frightened) (save ends)
           tier2: I < 1 [frightened](scc.v1:mcdm.heroes.v1/condition/frightened) (save ends)
           tier3: I < 2 [frightened](scc.v1:mcdm.heroes.v1/condition/frightened) (save ends)
+        - effect: While a target is [frightened](scc.v1:mcdm.heroes.v1/condition/frightened) this way, any ogre gains an edge on strikes against them.
+          name: Effect
       feature_type: ability
       icon: ❇️
       keywords:
@@ -52,14 +58,14 @@ features:
     - cost: 1 Malice
       distance: Self
       effects:
-        - effect: |-
-            **Trigger:** The juggernaut takes damage.
-            **Effect:** The juggernaut moves up to their speed and can make a [free strike](scc.v1:mcdm.heroes.v1/feature.common.main-actions/free-strike).
+        - effect: The juggernaut moves up to their speed and can make a [free strike](scc.v1:mcdm.heroes.v1/feature.common.main-actions/free-strike).
+          name: Effect
       feature_type: ability
       icon: ❗️
       keywords: []
       name: Hrraaaaaagh!
       target: Self
+      trigger: The juggernaut takes damage.
       type: feature
       usage: Free triggered action
     - effects:

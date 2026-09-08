@@ -11,6 +11,10 @@
           "tier1": "5 damage",
           "tier2": "7 damage",
           "tier3": "9 damage"
+        },
+        {
+          "effect": "Each enemy adjacent to the fangling takes 2 damage.",
+          "name": "Effect"
         }
       ],
       "feature_type": "ability",

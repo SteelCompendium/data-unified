@@ -56,6 +56,8 @@ features:
           tier1: 15 damage; A < 2 [slowed](../../../condition/slowed.md) (save ends)
           tier2: 21 damage; A < 3 [slowed](../../../condition/slowed.md) (save ends)
           tier3: 26 damage; A < 4 [slowed](../../../condition/slowed.md) (save ends)
+        - effect: This damage can't be reduced in any way. While a target is [slowed](../../../condition/slowed.md) this way, any strike against them has a double edge.
+          name: Effect
       feature_type: ability
       icon: "\U0001F3F9"
       keywords:
@@ -68,7 +70,8 @@ features:
       usage: Main action
     - distance: Ranged 5
       effects:
-        - effect: '**Effect:** The target [shifts](../../../movement/shifting.md) up to their speed and can use a main action.'
+        - effect: The target [shifts](../../../movement/shifting.md) up to their speed and can use a main action.
+          name: Effect
       feature_type: ability
       icon: "\U0001F3F9"
       keywords:
@@ -79,15 +82,15 @@ features:
       usage: Maneuver
     - distance: Ranged 10
       effects:
-        - effect: |-
-            **Trigger:** The chief or an ally within distance is subject to an effect that can be ended by a [saving throw](../../../rule/general/saving-throw.md) or that ends at the end of their turn.
-            **Effect:** The target gains 15 temporary [Stamina](../../../rule/health/stamina.md). Each time this triggered action is used, the amount of temporary [Stamina](../../../rule/health/stamina.md) received decreases by 3 (to a minimum of 0).
+        - effect: The target gains 15 temporary [Stamina](../../../rule/health/stamina.md). Each time this triggered action is used, the amount of temporary [Stamina](../../../rule/health/stamina.md) received decreases by 3 (to a minimum of 0).
+          name: Effect
       feature_type: ability
       icon: ❗️
       keywords:
         - Ranged
       name: Quick Shield
       target: The triggering creature
+      trigger: The chief or an ally within distance is subject to an effect that can be ended by a [saving throw](../../../rule/general/saving-throw.md) or that ends at the end of their turn.
       type: feature
       usage: Triggered Action
     - effects:

@@ -9,6 +9,8 @@ features:
           tier1: 3 poison damage; [pull](scc.v1:mcdm.heroes.v1/movement/forced-movement) 2
           tier2: 4 poison damage; [pull](scc.v1:mcdm.heroes.v1/movement/forced-movement) 3
           tier3: 6 poison damage; [pull](scc.v1:mcdm.heroes.v1/movement/forced-movement) 4
+        - effect: A target pulled [adjacent](scc.v1:mcdm.heroes.v1/rule.combat/adjacent) to the mummy is M < 2 [weakened](scc.v1:mcdm.heroes.v1/condition/weakened) ([EoT](scc.v1:mcdm.heroes.v1/rule.combat/end-of-turn)).
+          name: Effect
       feature_type: ability
       icon: "\U0001F5E1"
       keywords:

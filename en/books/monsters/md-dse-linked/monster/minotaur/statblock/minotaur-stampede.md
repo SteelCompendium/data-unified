@@ -40,6 +40,8 @@ features:
           tier1: 4 damage
           tier2: 7 damage; [prone](../../../condition/prone.md)
           tier3: 9 damage; [prone](../../../condition/prone.md); M < 5 can't stand (save ends)
+        - effect: If this ability is used as part of the Charge main action, each creature the stampede moves through who has M < 4 is knocked [prone](../../../condition/prone.md).
+          name: Effect
       feature_type: ability
       icon: "\U0001F5E1"
       keywords:

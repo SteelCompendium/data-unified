@@ -30,9 +30,10 @@ agility: -1
 ev: "84"
 features:
     - effects:
-        - effect: |-
-            **[End Effect](../../../rule/monster/end-effect.md):** At the end of each of their turns, the shambling mound can take 10 damage to end one effect on them that can be ended by a [saving throw](../../../rule/general/saving-throw.md). This damage can't be reduced in any way.
-            **Solo Turns:** The shambling mound can take two turns each round. They can't take turns consecutively.
+        - effect: At the end of each of their turns, the shambling mound can take 10 damage to end one effect on them that can be ended by a [saving throw](../../../rule/general/saving-throw.md). This damage can't be reduced in any way.
+          name: End Effect
+        - effect: The shambling mound can take two turns each round. They can't take turns consecutively.
+          name: Solo Turns
       feature_type: trait
       icon: ☠️
       name: Solo Monster
@@ -50,6 +51,10 @@ features:
           tier1: 11 damage; A < 3 [grabbed](../../../condition/grabbed.md)
           tier2: 16 damage; A < 4 [grabbed](../../../condition/grabbed.md)
           tier3: 19 damage; [grabbed](../../../condition/grabbed.md)
+        - cost: 2 Malice
+          effect: The shambling mound can [slide](../../../movement/forced-movement.md) each target up to 6 squares.
+        - cost: 3 Malice
+          effect: Each target takes 7 poison damage.
       feature_type: ability
       icon: "\U0001F5E1"
       keywords:
@@ -78,9 +83,10 @@ features:
     - cost: 2 Malice
       distance: Melee 6
       effects:
-        - effect: |-
-            **Effect:** The target must be size 1L or smaller. The shambling mound reaches out with writhing vines, and if the target has A < 3, they are engulfed into the shambling mound's sack. If the target is [grabbed](../../../condition/grabbed.md) by the shambling mound, the [potency](../../../rule/character/potency.md) increases by 1. An engulfed creature is [restrained](../../../condition/restrained.md), takes 3 poison damage at the start of each turn, and can't take damage from abilities used from outside the sack. When the shambling mound moves, the engulfed creature moves with them. If the shambling mound dies or their sack is destroyed, each engulfed creature is freed and appears in an unoccupied space within 2 squares of the shambling mound.
-            **2+ [Malice](../../../rule/monster/malice.md):** The shambling mound can engulf one additional target for each 2 [Malice](../../../rule/monster/malice.md) spent.
+        - effect: The target must be size 1L or smaller. The shambling mound reaches out with writhing vines, and if the target has A < 3, they are engulfed into the shambling mound's sack. If the target is [grabbed](../../../condition/grabbed.md) by the shambling mound, the [potency](../../../rule/character/potency.md) increases by 1. An engulfed creature is [restrained](../../../condition/restrained.md), takes 3 poison damage at the start of each turn, and can't take damage from abilities used from outside the sack. When the shambling mound moves, the engulfed creature moves with them. If the shambling mound dies or their sack is destroyed, each engulfed creature is freed and appears in an unoccupied space within 2 squares of the shambling mound.
+          name: Effect
+        - cost: 2+ Malice
+          effect: The shambling mound can engulf one additional target for each 2 [Malice](../../../rule/monster/malice.md) spent.
       feature_type: ability
       icon: "\U0001F5E1"
       keywords:
@@ -91,7 +97,8 @@ features:
       usage: Main action
     - distance: Self
       effects:
-        - effect: '**Effect:** Each creature engulfed by the shambling mound takes 5 poison damage. The shambling mound gains 5 temporary [Stamina](../../../rule/health/stamina.md) for each creature who takes damage this way.'
+        - effect: Each creature engulfed by the shambling mound takes 5 poison damage. The shambling mound gains 5 temporary [Stamina](../../../rule/health/stamina.md) for each creature who takes damage this way.
+          name: Effect
       feature_type: ability
       icon: "\U0001F464"
       keywords: []
@@ -111,6 +118,7 @@ features:
         - Melee
       name: Tether Down
       target: The triggering creature
+      trigger: A creature within distance willingly moves.
       type: feature
       usage: Triggered action
     - effects:
@@ -144,7 +152,8 @@ features:
     - cost: Villain Action 2
       distance: Melee 6
       effects:
-        - effect: '**Effect:** The shambling mound uses Engulf against each target without spending [Malice](../../../rule/monster/malice.md).'
+        - effect: The shambling mound uses Engulf against each target without spending [Malice](../../../rule/monster/malice.md).
+          name: Effect
       feature_type: ability
       icon: ☠️
       keywords:
@@ -156,7 +165,8 @@ features:
     - cost: Villain Action 3
       distance: Self
       effects:
-        - effect: '**Effect:** The shambling mound rips themself apart, exposing the crux of magic holding them together. The distance of the shambling mound''s melee abilities increases to melee 10, the creature has a double edge on power rolls, and strikes made against them gain an edge.'
+        - effect: The shambling mound rips themself apart, exposing the crux of magic holding them together. The distance of the shambling mound's melee abilities increases to melee 10, the creature has a double edge on power rolls, and strikes made against them gain an edge.
+          name: Effect
       feature_type: ability
       icon: ☠️
       keywords:

@@ -37,6 +37,10 @@ features:
           tier1: 11 damage
           tier2: 16 damage; taunted (EoT)
           tier3: 19 damage; taunted (EoT)
+        - effect: A creature taunted this way takes a bane on strikes.
+          name: Effect
+        - cost: 3 Malice
+          effect: Each target loses 1d3 Recoveries.
       feature_type: ability
       icon: ⚔️
       keywords:
@@ -52,7 +56,8 @@ features:
     - cost: 1 Malice per target
       distance: Ranged 10
       effects:
-        - effect: '**Effect:** Each target [shifts](../../../../movement/shifting.md) up to their speed and can make a [free strike](../../../../feature/common/main-actions/free-strike.md). If the [free strike](../../../../feature/common/main-actions/free-strike.md) targets an enemy taunted by the tetrarch, it deals an extra 4 damage.'
+        - effect: Each target [shifts](../../../../movement/shifting.md) up to their speed and can make a [free strike](../../../../feature/common/main-actions/free-strike.md). If the [free strike](../../../../feature/common/main-actions/free-strike.md) targets an enemy taunted by the tetrarch, it deals an extra 4 damage.
+          name: Effect
       feature_type: ability
       icon: "\U0001F3F9"
       keywords:
@@ -63,15 +68,15 @@ features:
       usage: Maneuver
     - distance: Ranged 10
       effects:
-        - effect: |-
-            **Trigger:** A creature within distance who is not taunted by the tetrarch targets the tetrarch with a power roll.
-            **Effect:** The power roll has a double bane. If the target obtains a tier 1 outcome, the tetrarch ignores any of the power roll's effects other than damage and the target is [frightened](../../../../condition/frightened.md) of the tetrarch (save ends).
+        - effect: The power roll has a double bane. If the target obtains a tier 1 outcome, the tetrarch ignores any of the power roll's effects other than damage and the target is [frightened](../../../../condition/frightened.md) of the tetrarch (save ends).
+          name: Effect
       feature_type: ability
       icon: ❗️
       keywords:
         - Ranged
       name: Sneering Disregard
       target: The triggering creature
+      trigger: A creature within distance who is not taunted by the tetrarch targets the tetrarch with a power roll.
       type: feature
       usage: Triggered action
     - effects:
@@ -83,7 +88,9 @@ features:
     - cost: Villain Action 1
       distance: 2 burst
       effects:
-        - roll: Power Roll + 4
+        - effect: The tetrarch can jump up to 7 squares before using this ability.
+          name: Effect
+          roll: Power Roll + 4
           tier1: '[Push](../../../../movement/forced-movement.md) 2; I < 2 [frightened](../../../../condition/frightened.md) (save ends)'
           tier2: '[Push](../../../../movement/forced-movement.md) 4; I < 3 [frightened](../../../../condition/frightened.md) (save ends)'
           tier3: '[Push](../../../../movement/forced-movement.md) 5; I < 4 [frightened](../../../../condition/frightened.md) (save ends)'
@@ -102,6 +109,8 @@ features:
           tier1: 7 fire damage; A < 2 [slowed](../../../../condition/slowed.md) (EoT)
           tier2: 13 fire damage; A < 3 [slowed](../../../../condition/slowed.md) (save ends)
           tier3: 16 fire damage; A < 4 [slowed](../../../../condition/slowed.md) (save ends)
+        - effect: The area is set ablaze until the end of the encounter. While ablaze, the area is [difficult terrain](../../../../movement/difficult-terrain.md), and any creature takes 2 fire damage for each square in the area they enter for the first time in a round.
+          name: Effect
       feature_type: ability
       icon: ☠️
       keywords:
@@ -115,7 +124,8 @@ features:
     - cost: Villain Action 3
       distance: Self
       effects:
-        - effect: '**Effect:** Until the end of the encounter, the tetrarch has damage immunity 2, and their Houndblade ability targets three creatures or objects.'
+        - effect: Until the end of the encounter, the tetrarch has damage immunity 2, and their Houndblade ability targets three creatures or objects.
+          name: Effect
       feature_type: ability
       icon: ☠️
       keywords: []

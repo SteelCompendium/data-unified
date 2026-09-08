@@ -40,6 +40,8 @@ features:
           tier1: 5 psychic damage
           tier2: 7 psychic damage; I < 1 [weakened](../../../condition/weakened.md) (save ends)
           tier3: 9 psychic damage; I < 2 [weakened](../../../condition/weakened.md) (save ends)
+        - cost: 2 Malice
+          effect: The [potency](../../../rule/character/potency.md) increases by 1. If the target is [weakened](../../../condition/weakened.md) this way at the end of the encounter, they can't take a respite activity during their next respite.
       feature_type: ability
       icon: "\U0001F3F9"
       keywords:
@@ -52,7 +54,8 @@ features:
       usage: Main action
     - distance: Ranged 5
       effects:
-        - effect: '**Effect:** Each target can [teleport](../../../movement/teleport.md) to an unoccupied space [adjacent](../../../rule/combat/adjacent.md) to the palinode. The palinode and each target then gain 5 temporary Stamina.'
+        - effect: Each target can [teleport](../../../movement/teleport.md) to an unoccupied space [adjacent](../../../rule/combat/adjacent.md) to the palinode. The palinode and each target then gain 5 temporary Stamina.
+          name: Effect
       feature_type: ability
       icon: "\U0001F3F9"
       keywords:

@@ -41,6 +41,8 @@ features:
           tier1: 4 damage
           tier2: 7 damage
           tier3: 9 damage
+        - effect: The tyburaki can make a [free strike](../../../../feature/common/main-actions/free-strike.md) against each enemy [adjacent](../../../../rule/combat/adjacent.md) to the target.
+          name: Effect
       feature_type: ability
       icon: "\U0001F5E1"
       keywords:

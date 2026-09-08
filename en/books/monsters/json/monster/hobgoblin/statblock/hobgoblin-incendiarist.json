@@ -11,6 +11,10 @@
           "tier1": "9 fire damage",
           "tier2": "14 fire damage",
           "tier3": "17 fire damage; A \u003c 3 burning (save ends)"
+        },
+        {
+          "effect": "A burning creature takes 1d6 fire damage at the start of each of their turns. A burning object takes 1d6 fire damage at the end of each round.",
+          "name": "Effect"
         }
       ],
       "feature_type": "ability",
@@ -34,6 +38,10 @@
           "tier1": "5 fire damage; A \u003c 1 burning (save ends)",
           "tier2": "9 fire damage; A \u003c 2 burning (save ends)",
           "tier3": "11 fire damage; [prone](scc.v1:mcdm.heroes.v1/condition/prone); A \u003c 3 burning (save ends)"
+        },
+        {
+          "effect": "A burning creature takes 1d6 fire damage at the start of each of their turns. A burning object takes 1d6 fire damage at the end of each round.",
+          "name": "Effect"
         }
       ],
       "feature_type": "ability",

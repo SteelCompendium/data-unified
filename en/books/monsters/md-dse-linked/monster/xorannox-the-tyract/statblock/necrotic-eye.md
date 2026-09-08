@@ -38,6 +38,8 @@ features:
           tier1: 11 corruption damage
           tier2: 17 corruption damage; M < 3 [bleeding](../../../condition/bleeding.md) (save ends)
           tier3: 20 corruption damage; M < 4 [bleeding](../../../condition/bleeding.md) (save ends)
+        - effect: If this damage or the [Stamina](../../../rule/health/stamina.md) loss from [bleeding](../../../condition/bleeding.md) this way reduces a target creature's [Stamina](../../../rule/health/stamina.md) to 0, that creature dies.
+          name: Effect
       feature_type: ability
       icon: "\U0001F3F9"
       keywords:

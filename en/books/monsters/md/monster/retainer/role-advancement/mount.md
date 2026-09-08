@@ -2,6 +2,13 @@
 features:
     - cost: Encounter
       distance: Melee 1
+      effects:
+        - roll: Power Roll + highest characteristic
+          tier1: 6 damage
+          tier2: 8 damage
+          tier3: 11 damage
+        - effect: If this ability is used as part of the [Charge](scc.v1:mcdm.heroes.v1/feature.common.main-actions/charge) main action, the mount's rider can use a free triggered action to make a melee [free strike](scc.v1:mcdm.heroes.v1/feature.common.main-actions/free-strike) against the same target.
+          name: Effect
       icon: "\U0001F5E1"
       keywords:
         - Charge
@@ -23,6 +30,9 @@ features:
       usage: Main action
     - cost: Encounter
       distance: Range 5
+      effects:
+        - effect: The mount [shifts](scc.v1:mcdm.heroes.v1/movement/shifting) twice their speed. They can jump as part of this movement.
+          name: Effect
       icon: "\U0001F464"
       level: 7
       name: Giddyup!
@@ -33,6 +43,13 @@ features:
       usage: Move action
     - cost: Encounter
       distance: 1 burst
+      effects:
+        - roll: Power Roll + highest characteristic
+          tier1: 10 damage; M < WEAK [prone](scc.v1:mcdm.heroes.v1/condition/prone)
+          tier2: 15 damage; M < AVERAGE [prone](scc.v1:mcdm.heroes.v1/condition/prone)
+          tier3: 21 damage; M < STRONG [prone](scc.v1:mcdm.heroes.v1/condition/prone)
+        - effect: A target knocked [prone](scc.v1:mcdm.heroes.v1/condition/prone) this way or who is already [prone](scc.v1:mcdm.heroes.v1/condition/prone) takes an extra 5 damage.
+          name: Effect
       icon: ❇️
       keywords:
         - Area

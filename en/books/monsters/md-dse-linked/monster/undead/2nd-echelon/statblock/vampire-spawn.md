@@ -41,6 +41,10 @@ features:
           tier1: 5 damage
           tier2: 7 corruption damage; M < 2 [bleeding](../../../../condition/bleeding.md) (save ends)
           tier3: 9 corruption damage; M < 3 [bleeding](../../../../condition/bleeding.md) (save ends)
+        - effect: The vampire spawn regains [Stamina](../../../../rule/health/stamina.md) equal to any corruption damage dealt.
+          name: Effect
+        - cost: 1 Malice
+          effect: The target takes an additional 3 corruption damage.
       feature_type: ability
       icon: "\U0001F5E1"
       keywords:
@@ -53,7 +57,8 @@ features:
       usage: Main action
     - distance: Self
       effects:
-        - effect: '**Effect:** The vampire spawn can [shift](../../../../movement/shifting.md) 1 square, then move up to their speed. The next ability the vampire uses before the start of their next turn gains an edge.'
+        - effect: The vampire spawn can [shift](../../../../movement/shifting.md) 1 square, then move up to their speed. The next ability the vampire uses before the start of their next turn gains an edge.
+          name: Effect
       feature_type: ability
       icon: "\U0001F464"
       keywords: []

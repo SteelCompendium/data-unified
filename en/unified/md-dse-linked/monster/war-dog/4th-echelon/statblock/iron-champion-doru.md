@@ -38,6 +38,10 @@ features:
           tier1: 15 damage
           tier2: 21 damage; Doru gains an edge on his next power roll; M < 4 [slide](../../../../movement/forced-movement.md) 3
           tier3: 25 damage; Doru has a double edge on his next power roll; M < 5 [slide](../../../../movement/forced-movement.md) 5
+        - effect: The damage from this ability can't be reduced in any way.
+          name: Effect
+        - cost: 3 Malice
+          effect: This ability targets one additional target.
       feature_type: ability
       icon: "\U0001F5E1"
       keywords:
@@ -55,6 +59,8 @@ features:
           tier1: 5 damage; A < 3 [bleeding](../../../../condition/bleeding.md) (save ends)
           tier2: 11 damage; A < 4 [bleeding](../../../../condition/bleeding.md) (save ends)
           tier3: 15 damage; A < 5 [bleeding](../../../../condition/bleeding.md) (save ends)
+        - effect: This ability deals an extra 5 damage for each [winded](../../../../rule/health/winded.md) target in the area.
+          name: Effect
       feature_type: ability
       icon: ❇️
       keywords:
@@ -66,7 +72,8 @@ features:
       usage: Main action
     - distance: Ranged 5
       effects:
-        - effect: '**Effect:** Doru jumps to an unoccupied space [adjacent](../../../../rule/combat/adjacent.md) to the target, then can make a [free strike](../../../../feature/common/main-actions/free-strike.md) against them. If the target is [bleeding](../../../../condition/bleeding.md) or [winded](../../../../rule/health/winded.md), the distance of the ability becomes Ranged 10 and the [free strike](../../../../feature/common/main-actions/free-strike.md) deals an extra 5 damage.'
+        - effect: Doru jumps to an unoccupied space [adjacent](../../../../rule/combat/adjacent.md) to the target, then can make a [free strike](../../../../feature/common/main-actions/free-strike.md) against them. If the target is [bleeding](../../../../condition/bleeding.md) or [winded](../../../../rule/health/winded.md), the distance of the ability becomes Ranged 10 and the [free strike](../../../../feature/common/main-actions/free-strike.md) deals an extra 5 damage.
+          name: Effect
       feature_type: ability
       icon: "\U0001F3F9"
       keywords:
@@ -77,14 +84,14 @@ features:
       usage: Maneuver
     - distance: Self
       effects:
-        - effect: |-
-            **Trigger:** An enemy makes a strike against Doru.
-            **Effect:** The triggering strike takes a bane and Doru gains an edge on his next power roll.
+        - effect: The triggering strike takes a bane and Doru gains an edge on his next power roll.
+          name: Effect
       feature_type: ability
       icon: ❗️
       keywords: []
       name: Laugh It Off
       target: Self
+      trigger: An enemy makes a strike against Doru.
       type: feature
       usage: Triggered action
     - effects:

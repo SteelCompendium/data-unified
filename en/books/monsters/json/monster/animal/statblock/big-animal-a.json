@@ -29,7 +29,12 @@
       "distance": "Melee 1",
       "effects": [
         {
-          "effect": "**Special:** The target must be the animal's size or smaller.\n**Effect:** The target vertical [slides](scc.v1:mcdm.heroes.v1/movement/forced-movement) up to 3 squares. If the target is an ally, they can make a [free strike](scc.v1:mcdm.heroes.v1/feature.common.main-actions/free-strike) at the end of the forced movement, then fall without taking damage."
+          "effect": "The target must be the animal's size or smaller.",
+          "name": "Special"
+        },
+        {
+          "effect": "The target vertical [slides](scc.v1:mcdm.heroes.v1/movement/forced-movement) up to 3 squares. If the target is an ally, they can make a [free strike](scc.v1:mcdm.heroes.v1/feature.common.main-actions/free-strike) at the end of the forced movement, then fall without taking damage.",
+          "name": "Effect"
         }
       ],
       "feature_type": "ability",
@@ -46,7 +51,8 @@
       "distance": "Self",
       "effects": [
         {
-          "effect": "**Trigger:** The animal is targeted by an area ability.\n**Effect:** The animal [shifts](scc.v1:mcdm.heroes.v1/movement/shifting) up to 2 squares before the ability resolves."
+          "effect": "The animal [shifts](scc.v1:mcdm.heroes.v1/movement/shifting) up to 2 squares before the ability resolves.",
+          "name": "Effect"
         }
       ],
       "feature_type": "ability",
@@ -54,6 +60,7 @@
       "keywords": null,
       "name": "Juke",
       "target": "Self",
+      "trigger": "The animal is targeted by an area ability.",
       "type": "feature",
       "usage": "Triggered action"
     },

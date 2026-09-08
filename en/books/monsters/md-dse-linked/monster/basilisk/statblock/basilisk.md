@@ -39,6 +39,8 @@ features:
           tier1: 7 poison damage
           tier2: 10 poison damage
           tier3: 13 poison damage
+        - effect: This ability gains an edge against targets the basilisk has previously dealt poison damage to.
+          name: Effect
       feature_type: ability
       icon: "\U0001F5E1"
       keywords:
@@ -51,10 +53,14 @@ features:
       usage: Main Action
     - distance: 5 x 2 line within 1
       effects:
-        - roll: Power Roll + 2
+        - effect: The area extends from both the basilisk’s eyes, and this ability targets the first creature without cover on either side of the area.
+          name: Special
+          roll: Power Roll + 2
           tier1: M < 0 [restrained](../../../condition/restrained.md) (save ends)
           tier2: M < 1 [restrained](../../../condition/restrained.md) (save ends)
           tier3: '[Slowed](../../../condition/slowed.md) (save ends); or if M < 2 [restrained](../../../condition/restrained.md) (save ends)'
+        - effect: If a target is already [slowed](../../../condition/slowed.md), the potency increases by 1 for that target. A target [restrained](../../../condition/restrained.md) this way magically begins to turn to stone, and a target who ends two consecutive turns [restrained](../../../condition/restrained.md) this way is petrified. A target [restrained](../../../condition/restrained.md) this way or a creature adjacent to them can use a main action to cut encroaching stone from the target’s body, dealing 8 damage to the target that can’t be reduced in any way and ending this effect.
+          name: Effect
       feature_type: ability
       icon: "\U0001F533"
       keywords:
@@ -82,15 +88,15 @@ features:
       usage: Main action
     - distance: 1 burst
       effects:
-        - effect: |-
-            **Trigger:** The basilisk takes damage from a melee ability.
-            **Effect:** Each target takes 5 damage. Any target who has A < 2 is also [bleeding](../../../condition/bleeding.md) (save ends).
+        - effect: Each target takes 5 damage. Any target who has A < 2 is also [bleeding](../../../condition/bleeding.md) (save ends).
+          name: Effect
       feature_type: ability
       icon: ❗️
       keywords:
         - Area
       name: Lash Out
       target: Each enemy in the area
+      trigger: The basilisk takes damage from a melee ability.
       type: feature
       usage: Triggered action
     - effects:

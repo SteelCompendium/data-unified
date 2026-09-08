@@ -39,6 +39,10 @@ features:
           tier1: 7 damage
           tier2: 11 damage
           tier3: 14 damage; A < 2 [restrained](../../../condition/restrained.md) (save ends)
+        - effect: The gweiadur [shifts](../../../movement/shifting.md) up to 3 squares.
+          name: Effect
+        - cost: 3 Malice
+          effect: If this ability [restrains](../../../condition/restrained.md) the target, one enemy [adjacent](../../../rule/combat/adjacent.md) to the target is also [restrained](../../../condition/restrained.md) (save ends).
       feature_type: ability
       icon: "\U0001F3F9"
       keywords:
@@ -56,6 +60,8 @@ features:
           tier1: 4 damage; R < 0 the target is marked (save ends)
           tier2: 6 damage; R < 1 [slowed](../../../condition/slowed.md) and the target is marked (save ends)
           tier3: 9 damage; R < 2 [slowed](../../../condition/slowed.md) and the target is marked (save ends)
+        - effect: Allies gain an edge on abilities against a target marked by any wode elf.
+          name: Effect
       feature_type: ability
       icon: "\U0001F533"
       keywords:

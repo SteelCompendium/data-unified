@@ -53,9 +53,10 @@ features:
       usage: Main action
     - distance: 4 x 2 line within 10
       effects:
-        - effect: |-
-            **Effect:** The area is a psionically charged treadmill that pushes creatures and objects at high speed in one direction of the helix's choice. Any creature who enters the area or starts their turn there [slides](../../../movement/forced-movement.md) 3 squares toward the end of the area in the chosen direction. Each enemy in the area when it first appears takes 3 damage before they slide.
-            **3 [Malice](../../../rule/monster/malice.md):** The helix creates a second kinetic lane.
+        - effect: The area is a psionically charged treadmill that pushes creatures and objects at high speed in one direction of the helix's choice. Any creature who enters the area or starts their turn there [slides](../../../movement/forced-movement.md) 3 squares toward the end of the area in the chosen direction. Each enemy in the area when it first appears takes 3 damage before they slide.
+          name: Effect
+        - cost: 3 Malice
+          effect: The helix creates a second kinetic lane.
       feature_type: ability
       icon: "\U0001F533"
       keywords:

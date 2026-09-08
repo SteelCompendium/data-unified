@@ -39,6 +39,8 @@ features:
           tier1: 5 damage
           tier2: 5 damage, 4 lightning damage; [push](../../../movement/forced-movement.md) 1
           tier3: 5 damage, 7 lightning damage; [push](../../../movement/forced-movement.md) 3
+        - effect: The essence [shifts](../../../movement/shifting.md) up to 3 squares before or after using this ability.
+          name: Effect
       feature_type: ability
       icon: ❇️
       keywords:
@@ -50,9 +52,10 @@ features:
       usage: Main action
     - distance: Ranged 5
       effects:
-        - effect: |-
-            **Effect:** Until the start of the essence's next turn, the target has lightning immunity 5.
-            **3 [Malice](../../../rule/monster/malice.md):** Until the end of the encounter, a vortex surrounds the target in a 3 aura. The area is [difficult terrain](../../../movement/difficult-terrain.md) for enemies. Additionally, at the end of each of the target's turns, they can [push](../../../movement/forced-movement.md) one creature in the area up to 5 squares.
+        - effect: Until the start of the essence's next turn, the target has lightning immunity 5.
+          name: Effect
+        - cost: 3 Malice
+          effect: Until the end of the encounter, a vortex surrounds the target in a 3 aura. The area is [difficult terrain](../../../movement/difficult-terrain.md) for enemies. Additionally, at the end of each of the target's turns, they can [push](../../../movement/forced-movement.md) one creature in the area up to 5 squares.
       feature_type: ability
       icon: "\U0001F3F9"
       keywords:
@@ -65,9 +68,8 @@ features:
     - cost: 1 Malice
       distance: Ranged 5
       effects:
-        - effect: |-
-            **Trigger:** A creature within distance deals damage to the essence.
-            **Effect:** The target takes 5 lightning damage.
+        - effect: The target takes 5 lightning damage.
+          name: Effect
       feature_type: ability
       icon: ❗️
       keywords:
@@ -75,6 +77,7 @@ features:
         - Ranged
       name: Thunderclap
       target: The triggering creature
+      trigger: A creature within distance deals damage to the essence.
       type: feature
       usage: Triggered action
     - effects:
