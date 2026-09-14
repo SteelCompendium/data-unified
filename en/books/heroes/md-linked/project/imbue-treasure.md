@@ -155,7 +155,7 @@ On your [turn](../rule/combat/turn.md), you can [teleport](../movement/teleport.
 
 **Dragon Soul II:** While you are [winded](../rule/health/winded.md), your head transforms into a dragon's head and you have the following ability.
 
-### Dragon's Fire {data-scc="mcdm.heroes.v1/feature.ability.common/dragons-fire"}
+### Dragon's Fire {data-scc="mcdm.heroes.v1/feature.ability.treasure/dragons-fire"}
 
 *You open your maw and unleash hell.*
 

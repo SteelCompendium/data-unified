@@ -142,7 +142,7 @@ Total: 621
 - [Draconian Pride](../feature/ability/dragon-knight/draconian-pride.md)
 - [Drag the Unworthy](../feature/ability/conduit/level-8/drag-the-unworthy.md)
 - [Dragon Breath](../feature/ability/dragon-knight/dragon-breath.md)
-- [Dragon's Fire](../feature/ability/common/dragons-fire.md)
+- [Dragon's Fire](../feature/ability/treasure/dragons-fire.md)
 - [Drain](../feature/ability/conduit/level-1/drain.md)
 - [Drake Breath](../feature/ability/companion/beastheart/drake/level-1/drake-breath.md)
 - [Dramatic Monologue](../feature/ability/troubadour/level-1/dramatic-monologue.md)

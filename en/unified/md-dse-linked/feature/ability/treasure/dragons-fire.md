@@ -8,8 +8,9 @@ effects:
       tier3: 11 fire damage
 feature_type: ability
 file_basename: dragons-fire
-file_dpath: feature/ability/common
+file_dpath: feature/ability/treasure
 flavor: You open your maw and unleash hell.
+granted_by: mcdm.heroes.v1/rule.treasure/enhancement
 item_id: dragons-fire
 item_name: Dragon's Fire
 keywords:
@@ -17,7 +18,7 @@ keywords:
     - Magic
 name: Dragon's Fire
 power_roll_characteristic: Your Highest [Characteristic](../../../rule/character/characteristic.md) Score
-scc: mcdm.heroes.v1/feature.ability.common/dragons-fire
+scc: mcdm.heroes.v1/feature.ability.treasure/dragons-fire
 source: mcdm.heroes.v1
 target: Each enemy in the area
 tier1: 5 fire damage
@@ -47,12 +48,13 @@ metadata:
           tier2: 8 fire damage
           tier3: 11 fire damage
     flavor: You open your maw and unleash hell.
+    granted_by: mcdm.heroes.v1/rule.treasure/enhancement
     keywords:
         - Area
         - Magic
     name: Dragon's Fire
     power_roll_characteristic: Your Highest [Characteristic](../../../rule/character/characteristic.md) Score
-    scc: mcdm.heroes.v1/feature.ability.common/dragons-fire
+    scc: mcdm.heroes.v1/feature.ability.treasure/dragons-fire
     target: Each enemy in the area
     tier1: 5 fire damage
     tier2: 8 fire damage

@@ -15,15 +15,16 @@ metadata:
     distance: 5 x 1 line within 1
     feature_type: ability
     flavor: You open your maw and unleash hell.
+    granted_by: mcdm.heroes.v1/rule.treasure/enhancement
     item_id: dragons-fire
     item_name: Dragon's Fire
     keywords:
         - Area
         - Magic
     scc:
-        - mcdm.heroes.v1/feature.ability.common/dragons-fire
+        - mcdm.heroes.v1/feature.ability.treasure/dragons-fire
     target: Each enemy in the area
-    type: feature/ability/common
+    type: feature/ability/treasure
 name: Dragon's Fire
 target: Each enemy in the area
 type: feature
