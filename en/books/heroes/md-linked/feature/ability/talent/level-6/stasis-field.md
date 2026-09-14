@@ -6,7 +6,8 @@ distance: 4 [cube](../../../../rule/combat/cube.md) within 10
 effects:
     - effect: The area is frozen in time until the start of your next [turn](../../../../rule/combat/turn.md). Each object in the area is [restrained](../../../../condition/restrained.md) and can't fall until the effect ends. Until the effect ends, creatures in the area who are reduced to 0 [Stamina](../../../../rule/health/stamina.md) or would die stay alive, and objects in the area that are reduced to 0 [Stamina](../../../../rule/health/stamina.md) remain undestroyed.
       name: Effect
-    - roll: Power Roll + [Presence](../../../../rule/character/presence.md)
+    - effect: Make a [power roll](../../../../rule/dice/power-roll.md) that targets each enemy in the area.
+      roll: Power Roll + [Presence](../../../../rule/character/presence.md)
       tier1: P < WEAK, the target is [slowed](../../../../condition/slowed.md) until the effect ends
       tier2: P < AVERAGE, the target's [speed](../../../../rule/character/speed.md) is 0 until the effect ends
       tier3: P < STRONG, the target is [restrained](../../../../condition/restrained.md) until the effect ends

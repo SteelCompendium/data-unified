@@ -9,6 +9,7 @@ effects:
       tier3: You summon six [signature minions](scc.v1:mcdm.summoner.v1/feature.summoner.level-1/minions).
     - effect: The [minions](scc.v1:mcdm.summoner.v1/feature.summoner.level-1/minions) are summoned within distance regardless of your minion maximum and without organizing them into squads. Each newly summoned [minion](scc.v1:mcdm.summoner.v1/feature.summoner.level-1/minions) immediately moves up to their [speed](scc.v1:mcdm.heroes.v1/rule.character/speed) toward a creature or object.
       name: Effect
+    - effect: If they move adjacent to their target, become targeted by an [opportunity attack](scc.v1:mcdm.heroes.v1/rule.combat/opportunity-attack), or stop moving, they explode, dealing 2 [damage](scc.v1:mcdm.heroes.v1/rule.damage/damage) to one adjacent creature or object and pushing them 1 square. If a target is affected by two or more minions' explosions, the effects stack. These [minions](scc.v1:mcdm.summoner.v1/feature.summoner.level-1/minions) activate no effects upon death, and you gain no [essence](scc.v1:mcdm.summoner.v1/feature.summoner.level-1/essence) from their deaths.
     - effect: In addition to the [minions](scc.v1:mcdm.summoner.v1/feature.summoner.level-1/minions) summoned as a part of this ability, you can choose to command any number of your [minions](scc.v1:mcdm.summoner.v1/feature.summoner.level-1/minions) within distance, provided they haven't used a main action or maneuver during the [turn](scc.v1:mcdm.heroes.v1/rule.combat/turn).
       name: Special
 feature_source: summoner
@@ -42,6 +43,7 @@ effects:
       tier3: You summon six [signature minions](scc.v1:mcdm.summoner.v1/feature.summoner.level-1/minions).
     - effect: The [minions](scc.v1:mcdm.summoner.v1/feature.summoner.level-1/minions) are summoned within distance regardless of your minion maximum and without organizing them into squads. Each newly summoned [minion](scc.v1:mcdm.summoner.v1/feature.summoner.level-1/minions) immediately moves up to their [speed](scc.v1:mcdm.heroes.v1/rule.character/speed) toward a creature or object.
       name: Effect
+    - effect: If they move adjacent to their target, become targeted by an [opportunity attack](scc.v1:mcdm.heroes.v1/rule.combat/opportunity-attack), or stop moving, they explode, dealing 2 [damage](scc.v1:mcdm.heroes.v1/rule.damage/damage) to one adjacent creature or object and pushing them 1 square. If a target is affected by two or more minions' explosions, the effects stack. These [minions](scc.v1:mcdm.summoner.v1/feature.summoner.level-1/minions) activate no effects upon death, and you gain no [essence](scc.v1:mcdm.summoner.v1/feature.summoner.level-1/essence) from their deaths.
     - effect: In addition to the [minions](scc.v1:mcdm.summoner.v1/feature.summoner.level-1/minions) summoned as a part of this ability, you can choose to command any number of your [minions](scc.v1:mcdm.summoner.v1/feature.summoner.level-1/minions) within distance, provided they haven't used a main action or maneuver during the [turn](scc.v1:mcdm.heroes.v1/rule.combat/turn).
       name: Special
 feature_type: ability
@@ -60,6 +62,7 @@ metadata:
           tier3: You summon six [signature minions](scc.v1:mcdm.summoner.v1/feature.summoner.level-1/minions).
         - effect: The [minions](scc.v1:mcdm.summoner.v1/feature.summoner.level-1/minions) are summoned within distance regardless of your minion maximum and without organizing them into squads. Each newly summoned [minion](scc.v1:mcdm.summoner.v1/feature.summoner.level-1/minions) immediately moves up to their [speed](scc.v1:mcdm.heroes.v1/rule.character/speed) toward a creature or object.
           name: Effect
+        - effect: If they move adjacent to their target, become targeted by an [opportunity attack](scc.v1:mcdm.heroes.v1/rule.combat/opportunity-attack), or stop moving, they explode, dealing 2 [damage](scc.v1:mcdm.heroes.v1/rule.damage/damage) to one adjacent creature or object and pushing them 1 square. If a target is affected by two or more minions' explosions, the effects stack. These [minions](scc.v1:mcdm.summoner.v1/feature.summoner.level-1/minions) activate no effects upon death, and you gain no [essence](scc.v1:mcdm.summoner.v1/feature.summoner.level-1/essence) from their deaths.
         - effect: In addition to the [minions](scc.v1:mcdm.summoner.v1/feature.summoner.level-1/minions) summoned as a part of this ability, you can choose to command any number of your [minions](scc.v1:mcdm.summoner.v1/feature.summoner.level-1/minions) within distance, provided they haven't used a main action or maneuver during the [turn](scc.v1:mcdm.heroes.v1/rule.combat/turn).
           name: Special
     feature_source: summoner

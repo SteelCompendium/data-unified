@@ -8,7 +8,7 @@ distance: Self; see below
 effects:
     - effect: You [shift](scc.v1:mcdm.heroes.v1/movement/shifting) up to your [speed](scc.v1:mcdm.heroes.v1/rule.character/speed) and make one [power roll](scc.v1:mcdm.heroes.v1/rule.dice/power-roll) that targets up to three enemies you move [adjacent](scc.v1:mcdm.heroes.v1/rule.combat/adjacent) to during this [shift](scc.v1:mcdm.heroes.v1/movement/shifting).
       name: Effect
-    - roll: Power Roll + [Might](scc.v1:mcdm.heroes.v1/rule.character/might)
+      roll: Power Roll + [Might](scc.v1:mcdm.heroes.v1/rule.character/might)
       tier1: 2 damage; A < WEAK, [dazed](scc.v1:mcdm.heroes.v1/condition/dazed) (save ends)
       tier2: 4 damage; A < AVERAGE, [dazed](scc.v1:mcdm.heroes.v1/condition/dazed) (save ends)
       tier3: 6 damage; A < STRONG, [dazed](scc.v1:mcdm.heroes.v1/condition/dazed) (save ends)
@@ -39,7 +39,7 @@ distance: Self; see below
 effects:
     - effect: You [shift](scc.v1:mcdm.heroes.v1/movement/shifting) up to your [speed](scc.v1:mcdm.heroes.v1/rule.character/speed) and make one [power roll](scc.v1:mcdm.heroes.v1/rule.dice/power-roll) that targets up to three enemies you move [adjacent](scc.v1:mcdm.heroes.v1/rule.combat/adjacent) to during this [shift](scc.v1:mcdm.heroes.v1/movement/shifting).
       name: Effect
-    - roll: Power Roll + [Might](scc.v1:mcdm.heroes.v1/rule.character/might)
+      roll: Power Roll + [Might](scc.v1:mcdm.heroes.v1/rule.character/might)
       tier1: 2 damage; A < WEAK, [dazed](scc.v1:mcdm.heroes.v1/condition/dazed) (save ends)
       tier2: 4 damage; A < AVERAGE, [dazed](scc.v1:mcdm.heroes.v1/condition/dazed) (save ends)
       tier3: 6 damage; A < STRONG, [dazed](scc.v1:mcdm.heroes.v1/condition/dazed) (save ends)
@@ -56,7 +56,7 @@ metadata:
     effects:
         - effect: You [shift](scc.v1:mcdm.heroes.v1/movement/shifting) up to your [speed](scc.v1:mcdm.heroes.v1/rule.character/speed) and make one [power roll](scc.v1:mcdm.heroes.v1/rule.dice/power-roll) that targets up to three enemies you move [adjacent](scc.v1:mcdm.heroes.v1/rule.combat/adjacent) to during this [shift](scc.v1:mcdm.heroes.v1/movement/shifting).
           name: Effect
-        - roll: Power Roll + [Might](scc.v1:mcdm.heroes.v1/rule.character/might)
+          roll: Power Roll + [Might](scc.v1:mcdm.heroes.v1/rule.character/might)
           tier1: 2 damage; A < WEAK, [dazed](scc.v1:mcdm.heroes.v1/condition/dazed) (save ends)
           tier2: 4 damage; A < AVERAGE, [dazed](scc.v1:mcdm.heroes.v1/condition/dazed) (save ends)
           tier3: 6 damage; A < STRONG, [dazed](scc.v1:mcdm.heroes.v1/condition/dazed) (save ends)

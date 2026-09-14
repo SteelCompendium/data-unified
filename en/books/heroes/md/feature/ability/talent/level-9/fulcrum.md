@@ -6,7 +6,7 @@ distance: Special
 effects:
     - effect: Make a [power roll](scc.v1:mcdm.heroes.v1/rule.dice/power-roll) to determine the area of this ability. Each target is vertical [pushed](scc.v1:mcdm.heroes.v1/movement/forced-movement) 6 squares. You can target only objects of [size](scc.v1:mcdm.heroes.v1/rule.character/size) 1L or smaller.
       name: Effect
-    - roll: Power Roll + [Reason](scc.v1:mcdm.heroes.v1/rule.character/reason)
+      roll: Power Roll + [Reason](scc.v1:mcdm.heroes.v1/rule.character/reason)
       tier1: 2 [burst](scc.v1:mcdm.heroes.v1/rule.combat/burst)
       tier2: 3 [burst](scc.v1:mcdm.heroes.v1/rule.combat/burst)
       tier3: 4 [burst](scc.v1:mcdm.heroes.v1/rule.combat/burst)

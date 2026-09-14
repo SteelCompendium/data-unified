@@ -8,7 +8,7 @@ distance: '[Melee](scc.v1:mcdm.heroes.v1/rule.combat/melee) 1 or [ranged](scc.v1
 effects:
     - effect: You mark the target.
       name: Effect
-    - roll: Power Roll + [Might](scc.v1:mcdm.heroes.v1/rule.character/might)
+      roll: Power Roll + [Might](scc.v1:mcdm.heroes.v1/rule.character/might)
       tier1: 4 + M damage; R < WEAK, [weakened](scc.v1:mcdm.heroes.v1/condition/weakened) (save ends)
       tier2: 6 + M damage; R < AVERAGE, [weakened](scc.v1:mcdm.heroes.v1/condition/weakened) (save ends)
       tier3: 10 + M damage; R < STRONG, [weakened](scc.v1:mcdm.heroes.v1/condition/weakened) (save ends)
@@ -43,7 +43,7 @@ distance: '[Melee](scc.v1:mcdm.heroes.v1/rule.combat/melee) 1 or [ranged](scc.v1
 effects:
     - effect: You mark the target.
       name: Effect
-    - roll: Power Roll + [Might](scc.v1:mcdm.heroes.v1/rule.character/might)
+      roll: Power Roll + [Might](scc.v1:mcdm.heroes.v1/rule.character/might)
       tier1: 4 + M damage; R < WEAK, [weakened](scc.v1:mcdm.heroes.v1/condition/weakened) (save ends)
       tier2: 6 + M damage; R < AVERAGE, [weakened](scc.v1:mcdm.heroes.v1/condition/weakened) (save ends)
       tier3: 10 + M damage; R < STRONG, [weakened](scc.v1:mcdm.heroes.v1/condition/weakened) (save ends)
@@ -64,7 +64,7 @@ metadata:
     effects:
         - effect: You mark the target.
           name: Effect
-        - roll: Power Roll + [Might](scc.v1:mcdm.heroes.v1/rule.character/might)
+          roll: Power Roll + [Might](scc.v1:mcdm.heroes.v1/rule.character/might)
           tier1: 4 + M damage; R < WEAK, [weakened](scc.v1:mcdm.heroes.v1/condition/weakened) (save ends)
           tier2: 6 + M damage; R < AVERAGE, [weakened](scc.v1:mcdm.heroes.v1/condition/weakened) (save ends)
           tier3: 10 + M damage; R < STRONG, [weakened](scc.v1:mcdm.heroes.v1/condition/weakened) (save ends)

@@ -6,7 +6,7 @@ distance: Melee 1
 effects:
     - effect: Your companion [teleports](scc.v1:mcdm.heroes.v1/movement/teleport) up to their speed.
       name: Effect
-    - roll: Power Roll + Intuition
+      roll: Power Roll + Intuition
       tier1: 13 + I psychic damage; P < WEAK [frightened](scc.v1:mcdm.heroes.v1/condition/frightened) (save ends)
       tier2: 20 + I psychic damage; P < AVERAGE [frightened](scc.v1:mcdm.heroes.v1/condition/frightened) (save ends)
       tier3: 27 + I psychic damage; P < STRONG [frightened](scc.v1:mcdm.heroes.v1/condition/frightened) (save ends)

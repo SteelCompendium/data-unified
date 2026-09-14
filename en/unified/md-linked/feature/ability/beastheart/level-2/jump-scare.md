@@ -8,7 +8,7 @@ effects:
       name: Special
     - effect: Your companion [shifts](../../../../movement/shifting.md) up to a number of squares equal to their Intuition score. During this movement, they are invisible. They then make a power roll.
       name: Effect
-    - roll: Power Roll + Intuition
+      roll: Power Roll + Intuition
       tier1: 4 damage; P < WEAK [frightened](../../../../condition/frightened.md) (save ends)
       tier2: 6 damage; P < AVERAGE [frightened](../../../../condition/frightened.md) (save ends)
       tier3: 10 damage; P < STRONG [frightened](../../../../condition/frightened.md) (save ends)

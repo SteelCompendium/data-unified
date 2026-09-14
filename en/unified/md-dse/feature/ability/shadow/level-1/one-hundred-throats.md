@@ -8,7 +8,7 @@ distance: Self; see below
 effects:
     - effect: You [shift](scc.v1:mcdm.heroes.v1/movement/shifting) up to your [speed](scc.v1:mcdm.heroes.v1/rule.character/speed) and make one [power roll](scc.v1:mcdm.heroes.v1/rule.dice/power-roll) that targets up to three enemies who came [adjacent](scc.v1:mcdm.heroes.v1/rule.combat/adjacent) to you during the move.
       name: Effect
-    - roll: Power Roll + [Agility](scc.v1:mcdm.heroes.v1/rule.character/agility)
+      roll: Power Roll + [Agility](scc.v1:mcdm.heroes.v1/rule.character/agility)
       tier1: 3 damage
       tier2: 6 damage
       tier3: 9 damage
@@ -39,7 +39,7 @@ distance: Self; see below
 effects:
     - effect: You [shift](scc.v1:mcdm.heroes.v1/movement/shifting) up to your [speed](scc.v1:mcdm.heroes.v1/rule.character/speed) and make one [power roll](scc.v1:mcdm.heroes.v1/rule.dice/power-roll) that targets up to three enemies who came [adjacent](scc.v1:mcdm.heroes.v1/rule.combat/adjacent) to you during the move.
       name: Effect
-    - roll: Power Roll + [Agility](scc.v1:mcdm.heroes.v1/rule.character/agility)
+      roll: Power Roll + [Agility](scc.v1:mcdm.heroes.v1/rule.character/agility)
       tier1: 3 damage
       tier2: 6 damage
       tier3: 9 damage
@@ -56,7 +56,7 @@ metadata:
     effects:
         - effect: You [shift](scc.v1:mcdm.heroes.v1/movement/shifting) up to your [speed](scc.v1:mcdm.heroes.v1/rule.character/speed) and make one [power roll](scc.v1:mcdm.heroes.v1/rule.dice/power-roll) that targets up to three enemies who came [adjacent](scc.v1:mcdm.heroes.v1/rule.combat/adjacent) to you during the move.
           name: Effect
-        - roll: Power Roll + [Agility](scc.v1:mcdm.heroes.v1/rule.character/agility)
+          roll: Power Roll + [Agility](scc.v1:mcdm.heroes.v1/rule.character/agility)
           tier1: 3 damage
           tier2: 6 damage
           tier3: 9 damage

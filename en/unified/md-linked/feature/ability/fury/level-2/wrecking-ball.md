@@ -6,7 +6,8 @@ distance: Self; see below
 effects:
     - effect: You move up to your [speed](../../../../rule/character/speed.md) in a straight line. During this movement, you can move through mundane structures, including walls, which are [difficult terrain](../../../../movement/difficult-terrain.md) for you. You automatically destroy each square of structure you move through and leave behind a square of [difficult terrain](../../../../movement/difficult-terrain.md).
       name: Effect
-    - roll: Power Roll + [Might](../../../../rule/character/might.md)
+    - effect: Additionally, you make one [power roll](../../../../rule/dice/power-roll.md) that targets each enemy you move [adjacent](../../../../rule/combat/adjacent.md) to during this movement.
+      roll: Power Roll + [Might](../../../../rule/character/might.md)
       tier1: '[Push](../../../../movement/forced-movement.md) 1'
       tier2: '[Push](../../../../movement/forced-movement.md) 2'
       tier3: '[Push](../../../../movement/forced-movement.md) 3'

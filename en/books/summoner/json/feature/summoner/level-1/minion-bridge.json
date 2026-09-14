@@ -7,6 +7,9 @@
         "name": "Effect"
       },
       {
+        "effect": "You can [shift](scc.v1:mcdm.heroes.v1/movement/shifting) into squares that contain one of your minions, even if they occupy [difficult terrain](scc.v1:mcdm.heroes.v1/movement/difficult-terrain). Each time you [shift](scc.v1:mcdm.heroes.v1/movement/shifting) into a square that contains one of your minions while using this maneuver, you can [shift](scc.v1:mcdm.heroes.v1/movement/shifting) an additional square."
+      },
+      {
         "effect": "An adjacent ally can [shift](scc.v1:mcdm.heroes.v1/movement/shifting) alongside you during this movement. They must end their movement in an unoccupied square adjacent to the last minion you moved through.",
         "name": "1 Essence"
       }

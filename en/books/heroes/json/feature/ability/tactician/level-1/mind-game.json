@@ -4,9 +4,7 @@
   "effects": [
     {
       "effect": "You mark the target.",
-      "name": "Effect"
-    },
-    {
+      "name": "Effect",
       "roll": "Power Roll + [Might](scc.v1:mcdm.heroes.v1/rule.character/might)",
       "tier1": "4 + M damage; R \u003c WEAK, [weakened](scc.v1:mcdm.heroes.v1/condition/weakened) (save ends)",
       "tier2": "6 + M damage; R \u003c AVERAGE, [weakened](scc.v1:mcdm.heroes.v1/condition/weakened) (save ends)",

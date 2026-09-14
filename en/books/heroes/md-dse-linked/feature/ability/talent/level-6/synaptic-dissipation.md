@@ -8,7 +8,7 @@ distance: '[Ranged](../../../../rule/combat/ranged.md) 10'
 effects:
     - effect: You target a number of creatures with this ability determined by the outcome of your [power roll](../../../../rule/dice/power-roll.md). You and your allies are invisible to each target until the start of your next [turn](../../../../rule/combat/turn.md).
       name: Effect
-    - roll: Power Roll + [Reason](../../../../rule/character/reason.md)
+      roll: Power Roll + [Reason](../../../../rule/character/reason.md)
       tier1: Two creatures
       tier2: Three creatures
       tier3: Five creatures
@@ -44,7 +44,7 @@ distance: '[Ranged](../../../../rule/combat/ranged.md) 10'
 effects:
     - effect: You target a number of creatures with this ability determined by the outcome of your [power roll](../../../../rule/dice/power-roll.md). You and your allies are invisible to each target until the start of your next [turn](../../../../rule/combat/turn.md).
       name: Effect
-    - roll: Power Roll + [Reason](../../../../rule/character/reason.md)
+      roll: Power Roll + [Reason](../../../../rule/character/reason.md)
       tier1: Two creatures
       tier2: Three creatures
       tier3: Five creatures
@@ -65,7 +65,7 @@ metadata:
     effects:
         - effect: You target a number of creatures with this ability determined by the outcome of your [power roll](../../../../rule/dice/power-roll.md). You and your allies are invisible to each target until the start of your next [turn](../../../../rule/combat/turn.md).
           name: Effect
-        - roll: Power Roll + [Reason](../../../../rule/character/reason.md)
+          roll: Power Roll + [Reason](../../../../rule/character/reason.md)
           tier1: Two creatures
           tier2: Three creatures
           tier3: Five creatures

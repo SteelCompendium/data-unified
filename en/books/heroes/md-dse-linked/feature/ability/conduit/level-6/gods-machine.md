@@ -8,10 +8,11 @@ distance: '[Ranged](../../../../rule/combat/ranged.md) 10'
 effects:
     - effect: You conjure a [size](../../../../rule/character/size.md) 2 rolling machine that appears in an unoccupied space within [distance](../../../../rule/combat/distance.md). The machine has 50 [Stamina](../../../../rule/health/stamina.md) and immunity all to poison and psychic damage. It disappears at the end of the encounter, if its [Stamina](../../../../rule/health/stamina.md) drops to 0, or if you are [dying](../../../../rule/health/dying.md). When the machine first appears, make the following [power roll](../../../../rule/dice/power-roll.md) once, targeting each enemy [adjacent](../../../../rule/combat/adjacent.md) to it.
       name: Effect
-    - roll: Power Roll + [Intuition](../../../../rule/character/intuition.md)
+      roll: Power Roll + [Intuition](../../../../rule/character/intuition.md)
       tier1: 3 damage
       tier2: 5 damage
       tier3: 8 damage
+    - effect: Once on each subsequent [turn](../../../../rule/combat/turn.md), you can use a [free maneuver](../../../../rule/combat/free-maneuver.md) to move the machine a number of squares up to your [Intuition](../../../../rule/character/intuition.md) score then repeat the [power roll](../../../../rule/dice/power-roll.md).
 feature_type: ability
 file_basename: gods-machine
 file_dpath: feature/ability/conduit/level-6
@@ -40,10 +41,11 @@ distance: '[Ranged](../../../../rule/combat/ranged.md) 10'
 effects:
     - effect: You conjure a [size](../../../../rule/character/size.md) 2 rolling machine that appears in an unoccupied space within [distance](../../../../rule/combat/distance.md). The machine has 50 [Stamina](../../../../rule/health/stamina.md) and immunity all to poison and psychic damage. It disappears at the end of the encounter, if its [Stamina](../../../../rule/health/stamina.md) drops to 0, or if you are [dying](../../../../rule/health/dying.md). When the machine first appears, make the following [power roll](../../../../rule/dice/power-roll.md) once, targeting each enemy [adjacent](../../../../rule/combat/adjacent.md) to it.
       name: Effect
-    - roll: Power Roll + [Intuition](../../../../rule/character/intuition.md)
+      roll: Power Roll + [Intuition](../../../../rule/character/intuition.md)
       tier1: 3 damage
       tier2: 5 damage
       tier3: 8 damage
+    - effect: Once on each subsequent [turn](../../../../rule/combat/turn.md), you can use a [free maneuver](../../../../rule/combat/free-maneuver.md) to move the machine a number of squares up to your [Intuition](../../../../rule/character/intuition.md) score then repeat the [power roll](../../../../rule/dice/power-roll.md).
 feature_type: ability
 flavor: You conjure a whirring tank made of blades and metal.
 keywords:
@@ -57,10 +59,11 @@ metadata:
     effects:
         - effect: You conjure a [size](../../../../rule/character/size.md) 2 rolling machine that appears in an unoccupied space within [distance](../../../../rule/combat/distance.md). The machine has 50 [Stamina](../../../../rule/health/stamina.md) and immunity all to poison and psychic damage. It disappears at the end of the encounter, if its [Stamina](../../../../rule/health/stamina.md) drops to 0, or if you are [dying](../../../../rule/health/dying.md). When the machine first appears, make the following [power roll](../../../../rule/dice/power-roll.md) once, targeting each enemy [adjacent](../../../../rule/combat/adjacent.md) to it.
           name: Effect
-        - roll: Power Roll + [Intuition](../../../../rule/character/intuition.md)
+          roll: Power Roll + [Intuition](../../../../rule/character/intuition.md)
           tier1: 3 damage
           tier2: 5 damage
           tier3: 8 damage
+        - effect: Once on each subsequent [turn](../../../../rule/combat/turn.md), you can use a [free maneuver](../../../../rule/combat/free-maneuver.md) to move the machine a number of squares up to your [Intuition](../../../../rule/character/intuition.md) score then repeat the [power roll](../../../../rule/dice/power-roll.md).
     flavor: You conjure a whirring tank made of blades and metal.
     keywords:
         - Magic

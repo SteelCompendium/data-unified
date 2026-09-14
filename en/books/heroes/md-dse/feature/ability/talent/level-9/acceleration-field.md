@@ -10,7 +10,7 @@ effects:
       name: Effect
     - effect: Make a [power roll](scc.v1:mcdm.heroes.v1/rule.dice/power-roll) that targets you and each enemy within [distance](scc.v1:mcdm.heroes.v1/rule.combat/distance).
       name: Strained
-    - roll: Power Roll + [Presence](scc.v1:mcdm.heroes.v1/rule.character/presence)
+      roll: Power Roll + [Presence](scc.v1:mcdm.heroes.v1/rule.character/presence)
       tier1: 4 corruption damage; [slowed](scc.v1:mcdm.heroes.v1/condition/slowed) (save ends)
       tier2: 6 corruption damage; [slowed](scc.v1:mcdm.heroes.v1/condition/slowed) (save ends)
       tier3: 10 corruption damage; [slowed](scc.v1:mcdm.heroes.v1/condition/slowed) (save ends)
@@ -45,7 +45,7 @@ effects:
       name: Effect
     - effect: Make a [power roll](scc.v1:mcdm.heroes.v1/rule.dice/power-roll) that targets you and each enemy within [distance](scc.v1:mcdm.heroes.v1/rule.combat/distance).
       name: Strained
-    - roll: Power Roll + [Presence](scc.v1:mcdm.heroes.v1/rule.character/presence)
+      roll: Power Roll + [Presence](scc.v1:mcdm.heroes.v1/rule.character/presence)
       tier1: 4 corruption damage; [slowed](scc.v1:mcdm.heroes.v1/condition/slowed) (save ends)
       tier2: 6 corruption damage; [slowed](scc.v1:mcdm.heroes.v1/condition/slowed) (save ends)
       tier3: 10 corruption damage; [slowed](scc.v1:mcdm.heroes.v1/condition/slowed) (save ends)
@@ -65,7 +65,7 @@ metadata:
           name: Effect
         - effect: Make a [power roll](scc.v1:mcdm.heroes.v1/rule.dice/power-roll) that targets you and each enemy within [distance](scc.v1:mcdm.heroes.v1/rule.combat/distance).
           name: Strained
-        - roll: Power Roll + [Presence](scc.v1:mcdm.heroes.v1/rule.character/presence)
+          roll: Power Roll + [Presence](scc.v1:mcdm.heroes.v1/rule.character/presence)
           tier1: 4 corruption damage; [slowed](scc.v1:mcdm.heroes.v1/condition/slowed) (save ends)
           tier2: 6 corruption damage; [slowed](scc.v1:mcdm.heroes.v1/condition/slowed) (save ends)
           tier3: 10 corruption damage; [slowed](scc.v1:mcdm.heroes.v1/condition/slowed) (save ends)

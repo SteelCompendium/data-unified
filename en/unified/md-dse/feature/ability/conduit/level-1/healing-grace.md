@@ -7,6 +7,7 @@ effects:
       name: Effect
     - cost: Spend 1+ Piety
       effect: 'For each piety spent, choose one of the following [enhancements](scc.v1:mcdm.heroes.v1/rule.treasure/enhancement):'
+    - effect: '- You can target one additional ally within [distance](scc.v1:mcdm.heroes.v1/rule.combat/distance). - You can end one effect on a target that is ended by a [saving throw](scc.v1:mcdm.heroes.v1/rule.general/saving-throw) or that ends at the end of their [turn](scc.v1:mcdm.heroes.v1/rule.combat/turn). - A [prone target](scc.v1:mcdm.heroes.v1/condition/prone) can stand up. - A target can spend 1 additional [Recovery](scc.v1:mcdm.heroes.v1/rule.health/recoveries).'
 feature_type: ability
 file_basename: healing-grace
 file_dpath: feature/ability/conduit/level-1
@@ -31,6 +32,7 @@ effects:
       name: Effect
     - cost: Spend 1+ Piety
       effect: 'For each piety spent, choose one of the following [enhancements](scc.v1:mcdm.heroes.v1/rule.treasure/enhancement):'
+    - effect: '- You can target one additional ally within [distance](scc.v1:mcdm.heroes.v1/rule.combat/distance). - You can end one effect on a target that is ended by a [saving throw](scc.v1:mcdm.heroes.v1/rule.general/saving-throw) or that ends at the end of their [turn](scc.v1:mcdm.heroes.v1/rule.combat/turn). - A [prone target](scc.v1:mcdm.heroes.v1/condition/prone) can stand up. - A target can spend 1 additional [Recovery](scc.v1:mcdm.heroes.v1/rule.health/recoveries).'
 feature_type: ability
 flavor: Your divine energy restores the righteous.
 keywords:
@@ -45,6 +47,7 @@ metadata:
           name: Effect
         - cost: Spend 1+ Piety
           effect: 'For each piety spent, choose one of the following [enhancements](scc.v1:mcdm.heroes.v1/rule.treasure/enhancement):'
+        - effect: '- You can target one additional ally within [distance](scc.v1:mcdm.heroes.v1/rule.combat/distance). - You can end one effect on a target that is ended by a [saving throw](scc.v1:mcdm.heroes.v1/rule.general/saving-throw) or that ends at the end of their [turn](scc.v1:mcdm.heroes.v1/rule.combat/turn). - A [prone target](scc.v1:mcdm.heroes.v1/condition/prone) can stand up. - A target can spend 1 additional [Recovery](scc.v1:mcdm.heroes.v1/rule.health/recoveries).'
     flavor: Your divine energy restores the righteous.
     keywords:
         - Magic

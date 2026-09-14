@@ -10,7 +10,7 @@ effects:
       name: Effect
     - effect: This ability gains the [Strike](scc.v1:mcdm.heroes.v1/rule.combat/strike) keyword as the vision hurts the target's psyche. You make a [power roll](scc.v1:mcdm.heroes.v1/rule.dice/power-roll), then are [weakened](scc.v1:mcdm.heroes.v1/condition/weakened) (save ends).
       name: Strained
-    - roll: Power Roll + [Presence](scc.v1:mcdm.heroes.v1/rule.character/presence)
+      roll: Power Roll + [Presence](scc.v1:mcdm.heroes.v1/rule.character/presence)
       tier1: 8 + P psychic damage
       tier2: 13 + P psychic damage
       tier3: 17 + P psychic damage
@@ -45,7 +45,7 @@ effects:
       name: Effect
     - effect: This ability gains the [Strike](scc.v1:mcdm.heroes.v1/rule.combat/strike) keyword as the vision hurts the target's psyche. You make a [power roll](scc.v1:mcdm.heroes.v1/rule.dice/power-roll), then are [weakened](scc.v1:mcdm.heroes.v1/condition/weakened) (save ends).
       name: Strained
-    - roll: Power Roll + [Presence](scc.v1:mcdm.heroes.v1/rule.character/presence)
+      roll: Power Roll + [Presence](scc.v1:mcdm.heroes.v1/rule.character/presence)
       tier1: 8 + P psychic damage
       tier2: 13 + P psychic damage
       tier3: 17 + P psychic damage
@@ -65,7 +65,7 @@ metadata:
           name: Effect
         - effect: This ability gains the [Strike](scc.v1:mcdm.heroes.v1/rule.combat/strike) keyword as the vision hurts the target's psyche. You make a [power roll](scc.v1:mcdm.heroes.v1/rule.dice/power-roll), then are [weakened](scc.v1:mcdm.heroes.v1/condition/weakened) (save ends).
           name: Strained
-        - roll: Power Roll + [Presence](scc.v1:mcdm.heroes.v1/rule.character/presence)
+          roll: Power Roll + [Presence](scc.v1:mcdm.heroes.v1/rule.character/presence)
           tier1: 8 + P psychic damage
           tier2: 13 + P psychic damage
           tier3: 17 + P psychic damage

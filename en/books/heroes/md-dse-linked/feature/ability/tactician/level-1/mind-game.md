@@ -8,7 +8,7 @@ distance: '[Melee](../../../../rule/combat/melee.md) 1 or [ranged](../../../../r
 effects:
     - effect: You mark the target.
       name: Effect
-    - roll: Power Roll + [Might](../../../../rule/character/might.md)
+      roll: Power Roll + [Might](../../../../rule/character/might.md)
       tier1: 4 + M damage; R < WEAK, [weakened](../../../../condition/weakened.md) (save ends)
       tier2: 6 + M damage; R < AVERAGE, [weakened](../../../../condition/weakened.md) (save ends)
       tier3: 10 + M damage; R < STRONG, [weakened](../../../../condition/weakened.md) (save ends)
@@ -43,7 +43,7 @@ distance: '[Melee](../../../../rule/combat/melee.md) 1 or [ranged](../../../../r
 effects:
     - effect: You mark the target.
       name: Effect
-    - roll: Power Roll + [Might](../../../../rule/character/might.md)
+      roll: Power Roll + [Might](../../../../rule/character/might.md)
       tier1: 4 + M damage; R < WEAK, [weakened](../../../../condition/weakened.md) (save ends)
       tier2: 6 + M damage; R < AVERAGE, [weakened](../../../../condition/weakened.md) (save ends)
       tier3: 10 + M damage; R < STRONG, [weakened](../../../../condition/weakened.md) (save ends)
@@ -64,7 +64,7 @@ metadata:
     effects:
         - effect: You mark the target.
           name: Effect
-        - roll: Power Roll + [Might](../../../../rule/character/might.md)
+          roll: Power Roll + [Might](../../../../rule/character/might.md)
           tier1: 4 + M damage; R < WEAK, [weakened](../../../../condition/weakened.md) (save ends)
           tier2: 6 + M damage; R < AVERAGE, [weakened](../../../../condition/weakened.md) (save ends)
           tier3: 10 + M damage; R < STRONG, [weakened](../../../../condition/weakened.md) (save ends)

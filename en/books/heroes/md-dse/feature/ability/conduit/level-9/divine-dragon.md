@@ -8,10 +8,16 @@ distance: '[Ranged](scc.v1:mcdm.heroes.v1/rule.combat/ranged) 10'
 effects:
     - effect: You conjure a [size](scc.v1:mcdm.heroes.v1/rule.character/size) 4 dragon that appears in an unoccupied space within [distance](scc.v1:mcdm.heroes.v1/rule.combat/distance). The dragon has [speed](scc.v1:mcdm.heroes.v1/rule.character/speed) 6 and can [fly](scc.v1:mcdm.heroes.v1/movement/fly), [stability](scc.v1:mcdm.heroes.v1/rule.character/stability) 4, 100 [Stamina](scc.v1:mcdm.heroes.v1/rule.health/stamina), immunity all to fire damage, and uses your [characteristics](scc.v1:mcdm.heroes.v1/rule.character/characteristic). The dragon disappears at the end of the encounter, if their [Stamina](scc.v1:mcdm.heroes.v1/rule.health/stamina) drops to 0, or if you are [dying](scc.v1:mcdm.heroes.v1/rule.health/dying).
       name: Effect
-    - roll: Power Roll + [Intuition](scc.v1:mcdm.heroes.v1/rule.character/intuition)
+    - effect: On subsequent [turns](scc.v1:mcdm.heroes.v1/rule.combat/turn), you can use a main action to command the dragon to breathe magic fire in a 3 [cube](scc.v1:mcdm.heroes.v1/rule.combat/cube) within 1 square of them. Make the following [power roll](scc.v1:mcdm.heroes.v1/rule.dice/power-roll) targeting each enemy in the area.
+      roll: Power Roll + [Intuition](scc.v1:mcdm.heroes.v1/rule.character/intuition)
       tier1: 5 fire damage
       tier2: 9 fire damage
       tier3: 12 fire damage
+    - effect: Additionally, you can use a maneuver to move the dragon up to their [speed](scc.v1:mcdm.heroes.v1/rule.character/speed), or to make a [melee](scc.v1:mcdm.heroes.v1/rule.combat/melee) weapon [strike](scc.v1:mcdm.heroes.v1/rule.combat/strike) with their claw against an [adjacent](scc.v1:mcdm.heroes.v1/rule.combat/adjacent) creature or object. The dragon can also make this [strike](scc.v1:mcdm.heroes.v1/rule.combat/strike) as a [free strike](scc.v1:mcdm.heroes.v1/feature.common.main-actions/free-strike).
+      roll: Power Roll + [Intuition](scc.v1:mcdm.heroes.v1/rule.character/intuition)
+      tier1: 3 + I damage
+      tier2: 5 + I damage
+      tier3: 8 + I damage
 feature_type: ability
 file_basename: divine-dragon
 file_dpath: feature/ability/conduit/level-9
@@ -40,10 +46,16 @@ distance: '[Ranged](scc.v1:mcdm.heroes.v1/rule.combat/ranged) 10'
 effects:
     - effect: You conjure a [size](scc.v1:mcdm.heroes.v1/rule.character/size) 4 dragon that appears in an unoccupied space within [distance](scc.v1:mcdm.heroes.v1/rule.combat/distance). The dragon has [speed](scc.v1:mcdm.heroes.v1/rule.character/speed) 6 and can [fly](scc.v1:mcdm.heroes.v1/movement/fly), [stability](scc.v1:mcdm.heroes.v1/rule.character/stability) 4, 100 [Stamina](scc.v1:mcdm.heroes.v1/rule.health/stamina), immunity all to fire damage, and uses your [characteristics](scc.v1:mcdm.heroes.v1/rule.character/characteristic). The dragon disappears at the end of the encounter, if their [Stamina](scc.v1:mcdm.heroes.v1/rule.health/stamina) drops to 0, or if you are [dying](scc.v1:mcdm.heroes.v1/rule.health/dying).
       name: Effect
-    - roll: Power Roll + [Intuition](scc.v1:mcdm.heroes.v1/rule.character/intuition)
+    - effect: On subsequent [turns](scc.v1:mcdm.heroes.v1/rule.combat/turn), you can use a main action to command the dragon to breathe magic fire in a 3 [cube](scc.v1:mcdm.heroes.v1/rule.combat/cube) within 1 square of them. Make the following [power roll](scc.v1:mcdm.heroes.v1/rule.dice/power-roll) targeting each enemy in the area.
+      roll: Power Roll + [Intuition](scc.v1:mcdm.heroes.v1/rule.character/intuition)
       tier1: 5 fire damage
       tier2: 9 fire damage
       tier3: 12 fire damage
+    - effect: Additionally, you can use a maneuver to move the dragon up to their [speed](scc.v1:mcdm.heroes.v1/rule.character/speed), or to make a [melee](scc.v1:mcdm.heroes.v1/rule.combat/melee) weapon [strike](scc.v1:mcdm.heroes.v1/rule.combat/strike) with their claw against an [adjacent](scc.v1:mcdm.heroes.v1/rule.combat/adjacent) creature or object. The dragon can also make this [strike](scc.v1:mcdm.heroes.v1/rule.combat/strike) as a [free strike](scc.v1:mcdm.heroes.v1/feature.common.main-actions/free-strike).
+      roll: Power Roll + [Intuition](scc.v1:mcdm.heroes.v1/rule.character/intuition)
+      tier1: 3 + I damage
+      tier2: 5 + I damage
+      tier3: 8 + I damage
 feature_type: ability
 flavor: From nothing but divine will, you create a powerful ally.
 keywords:
@@ -57,10 +69,16 @@ metadata:
     effects:
         - effect: You conjure a [size](scc.v1:mcdm.heroes.v1/rule.character/size) 4 dragon that appears in an unoccupied space within [distance](scc.v1:mcdm.heroes.v1/rule.combat/distance). The dragon has [speed](scc.v1:mcdm.heroes.v1/rule.character/speed) 6 and can [fly](scc.v1:mcdm.heroes.v1/movement/fly), [stability](scc.v1:mcdm.heroes.v1/rule.character/stability) 4, 100 [Stamina](scc.v1:mcdm.heroes.v1/rule.health/stamina), immunity all to fire damage, and uses your [characteristics](scc.v1:mcdm.heroes.v1/rule.character/characteristic). The dragon disappears at the end of the encounter, if their [Stamina](scc.v1:mcdm.heroes.v1/rule.health/stamina) drops to 0, or if you are [dying](scc.v1:mcdm.heroes.v1/rule.health/dying).
           name: Effect
-        - roll: Power Roll + [Intuition](scc.v1:mcdm.heroes.v1/rule.character/intuition)
+        - effect: On subsequent [turns](scc.v1:mcdm.heroes.v1/rule.combat/turn), you can use a main action to command the dragon to breathe magic fire in a 3 [cube](scc.v1:mcdm.heroes.v1/rule.combat/cube) within 1 square of them. Make the following [power roll](scc.v1:mcdm.heroes.v1/rule.dice/power-roll) targeting each enemy in the area.
+          roll: Power Roll + [Intuition](scc.v1:mcdm.heroes.v1/rule.character/intuition)
           tier1: 5 fire damage
           tier2: 9 fire damage
           tier3: 12 fire damage
+        - effect: Additionally, you can use a maneuver to move the dragon up to their [speed](scc.v1:mcdm.heroes.v1/rule.character/speed), or to make a [melee](scc.v1:mcdm.heroes.v1/rule.combat/melee) weapon [strike](scc.v1:mcdm.heroes.v1/rule.combat/strike) with their claw against an [adjacent](scc.v1:mcdm.heroes.v1/rule.combat/adjacent) creature or object. The dragon can also make this [strike](scc.v1:mcdm.heroes.v1/rule.combat/strike) as a [free strike](scc.v1:mcdm.heroes.v1/feature.common.main-actions/free-strike).
+          roll: Power Roll + [Intuition](scc.v1:mcdm.heroes.v1/rule.character/intuition)
+          tier1: 3 + I damage
+          tier2: 5 + I damage
+          tier3: 8 + I damage
     flavor: From nothing but divine will, you create a powerful ally.
     keywords:
         - Magic

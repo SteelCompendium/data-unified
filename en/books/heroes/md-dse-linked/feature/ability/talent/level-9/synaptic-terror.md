@@ -8,7 +8,7 @@ distance: 3 [burst](../../../../rule/combat/burst.md)
 effects:
     - effect: You and each target ally can't obtain lower than a tier 2 outcome on [power rolls](../../../../rule/dice/power-roll.md) until the start of your next [turn](../../../../rule/combat/turn.md). Each target enemy is affected by the ability's [power roll](../../../../rule/dice/power-roll.md).
       name: Effect
-    - roll: Power Roll + [Reason](../../../../rule/character/reason.md)
+      roll: Power Roll + [Reason](../../../../rule/character/reason.md)
       tier1: R < WEAK, [frightened](../../../../condition/frightened.md) (save ends)
       tier2: R < AVERAGE, [frightened](../../../../condition/frightened.md) (save ends)
       tier3: R < STRONG, [frightened](../../../../condition/frightened.md) (save ends)
@@ -43,7 +43,7 @@ distance: 3 [burst](../../../../rule/combat/burst.md)
 effects:
     - effect: You and each target ally can't obtain lower than a tier 2 outcome on [power rolls](../../../../rule/dice/power-roll.md) until the start of your next [turn](../../../../rule/combat/turn.md). Each target enemy is affected by the ability's [power roll](../../../../rule/dice/power-roll.md).
       name: Effect
-    - roll: Power Roll + [Reason](../../../../rule/character/reason.md)
+      roll: Power Roll + [Reason](../../../../rule/character/reason.md)
       tier1: R < WEAK, [frightened](../../../../condition/frightened.md) (save ends)
       tier2: R < AVERAGE, [frightened](../../../../condition/frightened.md) (save ends)
       tier3: R < STRONG, [frightened](../../../../condition/frightened.md) (save ends)
@@ -63,7 +63,7 @@ metadata:
     effects:
         - effect: You and each target ally can't obtain lower than a tier 2 outcome on [power rolls](../../../../rule/dice/power-roll.md) until the start of your next [turn](../../../../rule/combat/turn.md). Each target enemy is affected by the ability's [power roll](../../../../rule/dice/power-roll.md).
           name: Effect
-        - roll: Power Roll + [Reason](../../../../rule/character/reason.md)
+          roll: Power Roll + [Reason](../../../../rule/character/reason.md)
           tier1: R < WEAK, [frightened](../../../../condition/frightened.md) (save ends)
           tier2: R < AVERAGE, [frightened](../../../../condition/frightened.md) (save ends)
           tier3: R < STRONG, [frightened](../../../../condition/frightened.md) (save ends)

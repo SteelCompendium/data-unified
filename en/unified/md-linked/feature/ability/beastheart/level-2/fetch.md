@@ -6,10 +6,11 @@ distance: Melee 1
 effects:
     - effect: Your companion can [teleport](../../../../movement/teleport.md) up to 5 squares before and after making the power roll. Instead of grabbing the target, your companion can pick up a target object that is smaller than they are. You can forgo dealing damage with this ability.
       name: Effect
-    - roll: Power Roll + Might
+      roll: Power Roll + Might
       tier1: 6 + M damage; M < WEAK [grabbed](../../../../condition/grabbed.md)
       tier2: 8 + M damage; M < AVERAGE [grabbed](../../../../condition/grabbed.md)
       tier3: 12 + M damage; M < STRONG [grabbed](../../../../condition/grabbed.md)
+    - effect: After making the power roll, your companion can teleport with a [grabbed](../../../../condition/grabbed.md) creature or held object, provided the creature or object can fit in the destination. You choose which squares adjacent to your companion the [grabbed](../../../../condition/grabbed.md) creature or held object is teleported to.
 flavor: Your companion blinks out of existence, returning with a visitor you were particularly hoping to meet.
 keywords:
     - Companion

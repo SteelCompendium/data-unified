@@ -8,7 +8,7 @@ distance: '[Ranged](../../../../rule/combat/ranged.md) 10'
 effects:
     - effect: Each target uses a [signature ability](../../../../rule/combat/signature-ability.md) against one or more targets of your choosing, with each ability automatically obtaining a tier 3 outcome on the [power roll](../../../../rule/dice/power-roll.md). After resolving the targets' abilities, you make a [power roll](../../../../rule/dice/power-roll.md) against each original target.
       name: Effect
-    - roll: Power Roll + [Might](../../../../rule/character/might.md)
+      roll: Power Roll + [Might](../../../../rule/character/might.md)
       tier1: R < WEAK, [dazed](../../../../condition/dazed.md) (save ends)
       tier2: R < AVERAGE, [dazed](../../../../condition/dazed.md) (save ends)
       tier3: R < STRONG, [dazed](../../../../condition/dazed.md) (save ends)
@@ -41,7 +41,7 @@ distance: '[Ranged](../../../../rule/combat/ranged.md) 10'
 effects:
     - effect: Each target uses a [signature ability](../../../../rule/combat/signature-ability.md) against one or more targets of your choosing, with each ability automatically obtaining a tier 3 outcome on the [power roll](../../../../rule/dice/power-roll.md). After resolving the targets' abilities, you make a [power roll](../../../../rule/dice/power-roll.md) against each original target.
       name: Effect
-    - roll: Power Roll + [Might](../../../../rule/character/might.md)
+      roll: Power Roll + [Might](../../../../rule/character/might.md)
       tier1: R < WEAK, [dazed](../../../../condition/dazed.md) (save ends)
       tier2: R < AVERAGE, [dazed](../../../../condition/dazed.md) (save ends)
       tier3: R < STRONG, [dazed](../../../../condition/dazed.md) (save ends)
@@ -59,7 +59,7 @@ metadata:
     effects:
         - effect: Each target uses a [signature ability](../../../../rule/combat/signature-ability.md) against one or more targets of your choosing, with each ability automatically obtaining a tier 3 outcome on the [power roll](../../../../rule/dice/power-roll.md). After resolving the targets' abilities, you make a [power roll](../../../../rule/dice/power-roll.md) against each original target.
           name: Effect
-        - roll: Power Roll + [Might](../../../../rule/character/might.md)
+          roll: Power Roll + [Might](../../../../rule/character/might.md)
           tier1: R < WEAK, [dazed](../../../../condition/dazed.md) (save ends)
           tier2: R < AVERAGE, [dazed](../../../../condition/dazed.md) (save ends)
           tier3: R < STRONG, [dazed](../../../../condition/dazed.md) (save ends)

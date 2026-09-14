@@ -6,7 +6,7 @@ distance: Self; see below
 effects:
     - effect: You move up to your [speed](scc.v1:mcdm.heroes.v1/rule.character/speed) in a straight line, and enemy squares are not [difficult terrain](scc.v1:mcdm.heroes.v1/movement/difficult-terrain) for this movement. You can end this movement in a creature's space and move them to an [adjacent](scc.v1:mcdm.heroes.v1/rule.combat/adjacent) unoccupied space. You make one [power roll](scc.v1:mcdm.heroes.v1/rule.dice/power-roll) that targets each enemy whose space you move through.
       name: Effect
-    - roll: Power Roll + [Might](scc.v1:mcdm.heroes.v1/rule.character/might)
+      roll: Power Roll + [Might](scc.v1:mcdm.heroes.v1/rule.character/might)
       tier1: 2 damage
       tier2: 3 damage
       tier3: 5 damage

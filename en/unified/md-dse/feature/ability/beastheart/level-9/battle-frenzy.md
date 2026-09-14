@@ -8,12 +8,13 @@ distance: 5 burst
 effects:
     - effect: This ability targets only creatures you choose within distance.
       name: Special
-    - roll: Power Roll + Might
+      roll: Power Roll + Might
       tier1: P < WEAK the target is battle-frenzied
       tier2: P < AVERAGE the target is battle-frenzied
       tier3: The target is battle-frenzied
     - effect: If a target resists the potency, they can choose to become battle-frenzied.
       name: Effect
+    - effect: A battle-frenzied creature must use a free triggered action to make a melee free strike against themself or a creature adjacent to them. You choose each creature's target. After making this strike, they are no longer battle frenzied.
 feature_type: ability
 file_basename: battle-frenzy
 file_dpath: feature/ability/beastheart/level-9
@@ -43,12 +44,13 @@ distance: 5 burst
 effects:
     - effect: This ability targets only creatures you choose within distance.
       name: Special
-    - roll: Power Roll + Might
+      roll: Power Roll + Might
       tier1: P < WEAK the target is battle-frenzied
       tier2: P < AVERAGE the target is battle-frenzied
       tier3: The target is battle-frenzied
     - effect: If a target resists the potency, they can choose to become battle-frenzied.
       name: Effect
+    - effect: A battle-frenzied creature must use a free triggered action to make a melee free strike against themself or a creature adjacent to them. You choose each creature's target. After making this strike, they are no longer battle frenzied.
 feature_type: ability
 flavor: Your companion shatters the floodgates that keep their rampage dammed up, and it cascades into the unprepared minds of nearby creatures.
 keywords:
@@ -63,12 +65,13 @@ metadata:
     effects:
         - effect: This ability targets only creatures you choose within distance.
           name: Special
-        - roll: Power Roll + Might
+          roll: Power Roll + Might
           tier1: P < WEAK the target is battle-frenzied
           tier2: P < AVERAGE the target is battle-frenzied
           tier3: The target is battle-frenzied
         - effect: If a target resists the potency, they can choose to become battle-frenzied.
           name: Effect
+        - effect: A battle-frenzied creature must use a free triggered action to make a melee free strike against themself or a creature adjacent to them. You choose each creature's target. After making this strike, they are no longer battle frenzied.
     flavor: Your companion shatters the floodgates that keep their rampage dammed up, and it cascades into the unprepared minds of nearby creatures.
     keywords:
         - Area

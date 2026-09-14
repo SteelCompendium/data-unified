@@ -5,6 +5,7 @@ distance: 2 [cube](scc.v1:mcdm.heroes.v1/rule.combat/cube) within 10
 effects:
     - effect: Each target takes acid, fire, or poison damage (your choice) equal to your [Agility](scc.v1:mcdm.heroes.v1/rule.character/agility) score.
       name: Effect
+    - effect: For each [combat round](scc.v1:mcdm.heroes.v1/rule.combat/combat-round) that has passed since this ability was last used in the current encounter, the area increases by 1 and you gain 1 [surge](scc.v1:mcdm.heroes.v1/rule.resource/surge) that must be used with this ability. After using the ability or at the end of the encounter, its area and [surges](scc.v1:mcdm.heroes.v1/rule.resource/surge) are reset.
     - cost: Spend 2+ Insight
       effect: For every 2 insight spent, you increase the [cube](scc.v1:mcdm.heroes.v1/rule.combat/cube)'s [size](scc.v1:mcdm.heroes.v1/rule.character/size) by 1 and gain 1 [surge](scc.v1:mcdm.heroes.v1/rule.resource/surge) that can be used only with this ability.
 feature_type: ability
@@ -30,6 +31,7 @@ distance: 2 [cube](scc.v1:mcdm.heroes.v1/rule.combat/cube) within 10
 effects:
     - effect: Each target takes acid, fire, or poison damage (your choice) equal to your [Agility](scc.v1:mcdm.heroes.v1/rule.character/agility) score.
       name: Effect
+    - effect: For each [combat round](scc.v1:mcdm.heroes.v1/rule.combat/combat-round) that has passed since this ability was last used in the current encounter, the area increases by 1 and you gain 1 [surge](scc.v1:mcdm.heroes.v1/rule.resource/surge) that must be used with this ability. After using the ability or at the end of the encounter, its area and [surges](scc.v1:mcdm.heroes.v1/rule.resource/surge) are reset.
     - cost: Spend 2+ Insight
       effect: For every 2 insight spent, you increase the [cube](scc.v1:mcdm.heroes.v1/rule.combat/cube)'s [size](scc.v1:mcdm.heroes.v1/rule.character/size) by 1 and gain 1 [surge](scc.v1:mcdm.heroes.v1/rule.resource/surge) that can be used only with this ability.
 feature_type: ability
@@ -44,6 +46,7 @@ metadata:
     effects:
         - effect: Each target takes acid, fire, or poison damage (your choice) equal to your [Agility](scc.v1:mcdm.heroes.v1/rule.character/agility) score.
           name: Effect
+        - effect: For each [combat round](scc.v1:mcdm.heroes.v1/rule.combat/combat-round) that has passed since this ability was last used in the current encounter, the area increases by 1 and you gain 1 [surge](scc.v1:mcdm.heroes.v1/rule.resource/surge) that must be used with this ability. After using the ability or at the end of the encounter, its area and [surges](scc.v1:mcdm.heroes.v1/rule.resource/surge) are reset.
         - cost: Spend 2+ Insight
           effect: For every 2 insight spent, you increase the [cube](scc.v1:mcdm.heroes.v1/rule.combat/cube)'s [size](scc.v1:mcdm.heroes.v1/rule.character/size) by 1 and gain 1 [surge](scc.v1:mcdm.heroes.v1/rule.resource/surge) that can be used only with this ability.
     flavor: The longer it cooks, the bigger the boom.

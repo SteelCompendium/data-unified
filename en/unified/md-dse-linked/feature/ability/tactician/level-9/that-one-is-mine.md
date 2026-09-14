@@ -8,7 +8,7 @@ distance: '[Melee](../../../../rule/combat/melee.md) 1 or [ranged](../../../../r
 effects:
     - effect: The target is marked by you.
       name: Effect
-    - roll: Power Roll + [Might](../../../../rule/character/might.md)
+      roll: Power Roll + [Might](../../../../rule/character/might.md)
       tier1: 8 + M damage
       tier2: 13 + M damage
       tier3: 17 + M damage
@@ -44,7 +44,7 @@ distance: '[Melee](../../../../rule/combat/melee.md) 1 or [ranged](../../../../r
 effects:
     - effect: The target is marked by you.
       name: Effect
-    - roll: Power Roll + [Might](../../../../rule/character/might.md)
+      roll: Power Roll + [Might](../../../../rule/character/might.md)
       tier1: 8 + M damage
       tier2: 13 + M damage
       tier3: 17 + M damage
@@ -65,7 +65,7 @@ metadata:
     effects:
         - effect: The target is marked by you.
           name: Effect
-        - roll: Power Roll + [Might](../../../../rule/character/might.md)
+          roll: Power Roll + [Might](../../../../rule/character/might.md)
           tier1: 8 + M damage
           tier2: 13 + M damage
           tier3: 17 + M damage

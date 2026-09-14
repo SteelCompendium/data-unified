@@ -6,7 +6,7 @@ distance: '[Melee](scc.v1:mcdm.heroes.v1/rule.combat/melee) 1'
 effects:
     - effect: The target takes half the damage. You then make a [power roll](scc.v1:mcdm.heroes.v1/rule.dice/power-roll) against the triggering creature.
       name: Effect
-    - roll: Power Roll + [Might](scc.v1:mcdm.heroes.v1/rule.character/might)
+      roll: Power Roll + [Might](scc.v1:mcdm.heroes.v1/rule.character/might)
       tier1: A < WEAK, [dazed](scc.v1:mcdm.heroes.v1/condition/dazed) (save ends)
       tier2: A < AVERAGE, [dazed](scc.v1:mcdm.heroes.v1/condition/dazed) (save ends)
       tier3: A < STRONG, [dazed](scc.v1:mcdm.heroes.v1/condition/dazed) (save ends)

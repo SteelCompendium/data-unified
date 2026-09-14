@@ -8,7 +8,7 @@ distance: Melee 1
 effects:
     - effect: Your companion [teleports](../../../../movement/teleport.md) up to their speed.
       name: Effect
-    - roll: Power Roll + Intuition
+      roll: Power Roll + Intuition
       tier1: 13 + I psychic damage; P < WEAK [frightened](../../../../condition/frightened.md) (save ends)
       tier2: 20 + I psychic damage; P < AVERAGE [frightened](../../../../condition/frightened.md) (save ends)
       tier3: 27 + I psychic damage; P < STRONG [frightened](../../../../condition/frightened.md) (save ends)
@@ -43,7 +43,7 @@ distance: Melee 1
 effects:
     - effect: Your companion [teleports](../../../../movement/teleport.md) up to their speed.
       name: Effect
-    - roll: Power Roll + Intuition
+      roll: Power Roll + Intuition
       tier1: 13 + I psychic damage; P < WEAK [frightened](../../../../condition/frightened.md) (save ends)
       tier2: 20 + I psychic damage; P < AVERAGE [frightened](../../../../condition/frightened.md) (save ends)
       tier3: 27 + I psychic damage; P < STRONG [frightened](../../../../condition/frightened.md) (save ends)
@@ -63,7 +63,7 @@ metadata:
     effects:
         - effect: Your companion [teleports](../../../../movement/teleport.md) up to their speed.
           name: Effect
-        - roll: Power Roll + Intuition
+          roll: Power Roll + Intuition
           tier1: 13 + I psychic damage; P < WEAK [frightened](../../../../condition/frightened.md) (save ends)
           tier2: 20 + I psychic damage; P < AVERAGE [frightened](../../../../condition/frightened.md) (save ends)
           tier3: 27 + I psychic damage; P < STRONG [frightened](../../../../condition/frightened.md) (save ends)

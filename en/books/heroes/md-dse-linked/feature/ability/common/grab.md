@@ -8,6 +8,8 @@ effects:
       tier3: The target is [grabbed](../../../condition/grabbed.md) by you.
     - effect: You can usually target only creatures of your [size](../../../rule/character/size.md) or smaller. If your [Might](../../../rule/character/might.md) score is 2 or higher, you can target any creature with a [size](../../../rule/character/size.md) equal to or less than your [Might](../../../rule/character/might.md) score.
       name: Effect
+    - effect: Unless otherwise indicated, a creature can grab only one creature at a time.
+    - effect: 'See [Conditions](../../../rule/combat/condition.md) in Chapter 5: [Classes](../../../chapter/classes.md) for information on the [grabbed](../../../condition/grabbed.md) [condition](../../../rule/combat/condition.md).'
 feature_type: ability
 file_basename: grab
 file_dpath: feature/ability/common
@@ -36,6 +38,8 @@ effects:
       tier3: The target is [grabbed](../../../condition/grabbed.md) by you.
     - effect: You can usually target only creatures of your [size](../../../rule/character/size.md) or smaller. If your [Might](../../../rule/character/might.md) score is 2 or higher, you can target any creature with a [size](../../../rule/character/size.md) equal to or less than your [Might](../../../rule/character/might.md) score.
       name: Effect
+    - effect: Unless otherwise indicated, a creature can grab only one creature at a time.
+    - effect: 'See [Conditions](../../../rule/combat/condition.md) in Chapter 5: [Classes](../../../chapter/classes.md) for information on the [grabbed](../../../condition/grabbed.md) [condition](../../../rule/combat/condition.md).'
 feature_type: ability
 keywords:
     - '[Melee](../../../rule/combat/melee.md)'
@@ -50,6 +54,8 @@ metadata:
           tier3: The target is [grabbed](../../../condition/grabbed.md) by you.
         - effect: You can usually target only creatures of your [size](../../../rule/character/size.md) or smaller. If your [Might](../../../rule/character/might.md) score is 2 or higher, you can target any creature with a [size](../../../rule/character/size.md) equal to or less than your [Might](../../../rule/character/might.md) score.
           name: Effect
+        - effect: Unless otherwise indicated, a creature can grab only one creature at a time.
+        - effect: 'See [Conditions](../../../rule/combat/condition.md) in Chapter 5: [Classes](../../../chapter/classes.md) for information on the [grabbed](../../../condition/grabbed.md) [condition](../../../rule/combat/condition.md).'
     keywords:
         - '[Melee](../../../rule/combat/melee.md)'
         - Weapon

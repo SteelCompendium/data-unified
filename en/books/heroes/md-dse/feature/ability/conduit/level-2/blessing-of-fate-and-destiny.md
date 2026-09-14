@@ -8,6 +8,7 @@ distance: '[Ranged](scc.v1:mcdm.heroes.v1/rule.combat/ranged) 10'
 effects:
     - effect: 'You can target yourself instead of one creature with this ability. Choose one of the following effects, which lasts until the end of the encounter or until you are [dying](scc.v1:mcdm.heroes.v1/rule.health/dying):'
       name: Effect
+    - effect: '- Whenever a target makes a [power roll](scc.v1:mcdm.heroes.v1/rule.dice/power-roll), they can roll three dice and choose which two rolls to use. - Whenever a target makes a [power roll](scc.v1:mcdm.heroes.v1/rule.dice/power-roll), they must roll three dice and use the lowest two rolls.'
 feature_type: ability
 file_basename: blessing-of-fate-and-destiny
 file_dpath: feature/ability/conduit/level-2
@@ -32,6 +33,7 @@ distance: '[Ranged](scc.v1:mcdm.heroes.v1/rule.combat/ranged) 10'
 effects:
     - effect: 'You can target yourself instead of one creature with this ability. Choose one of the following effects, which lasts until the end of the encounter or until you are [dying](scc.v1:mcdm.heroes.v1/rule.health/dying):'
       name: Effect
+    - effect: '- Whenever a target makes a [power roll](scc.v1:mcdm.heroes.v1/rule.dice/power-roll), they can roll three dice and choose which two rolls to use. - Whenever a target makes a [power roll](scc.v1:mcdm.heroes.v1/rule.dice/power-roll), they must roll three dice and use the lowest two rolls.'
 feature_type: ability
 flavor: Your enemies suffer their fate; your allies embrace their destiny!
 keywords:
@@ -45,6 +47,7 @@ metadata:
     effects:
         - effect: 'You can target yourself instead of one creature with this ability. Choose one of the following effects, which lasts until the end of the encounter or until you are [dying](scc.v1:mcdm.heroes.v1/rule.health/dying):'
           name: Effect
+        - effect: '- Whenever a target makes a [power roll](scc.v1:mcdm.heroes.v1/rule.dice/power-roll), they can roll three dice and choose which two rolls to use. - Whenever a target makes a [power roll](scc.v1:mcdm.heroes.v1/rule.dice/power-roll), they must roll three dice and use the lowest two rolls.'
     flavor: Your enemies suffer their fate; your allies embrace their destiny!
     keywords:
         - Magic

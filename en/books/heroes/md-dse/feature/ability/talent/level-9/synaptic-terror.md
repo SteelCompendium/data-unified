@@ -8,7 +8,7 @@ distance: 3 [burst](scc.v1:mcdm.heroes.v1/rule.combat/burst)
 effects:
     - effect: You and each target ally can't obtain lower than a tier 2 outcome on [power rolls](scc.v1:mcdm.heroes.v1/rule.dice/power-roll) until the start of your next [turn](scc.v1:mcdm.heroes.v1/rule.combat/turn). Each target enemy is affected by the ability's [power roll](scc.v1:mcdm.heroes.v1/rule.dice/power-roll).
       name: Effect
-    - roll: Power Roll + [Reason](scc.v1:mcdm.heroes.v1/rule.character/reason)
+      roll: Power Roll + [Reason](scc.v1:mcdm.heroes.v1/rule.character/reason)
       tier1: R < WEAK, [frightened](scc.v1:mcdm.heroes.v1/condition/frightened) (save ends)
       tier2: R < AVERAGE, [frightened](scc.v1:mcdm.heroes.v1/condition/frightened) (save ends)
       tier3: R < STRONG, [frightened](scc.v1:mcdm.heroes.v1/condition/frightened) (save ends)
@@ -43,7 +43,7 @@ distance: 3 [burst](scc.v1:mcdm.heroes.v1/rule.combat/burst)
 effects:
     - effect: You and each target ally can't obtain lower than a tier 2 outcome on [power rolls](scc.v1:mcdm.heroes.v1/rule.dice/power-roll) until the start of your next [turn](scc.v1:mcdm.heroes.v1/rule.combat/turn). Each target enemy is affected by the ability's [power roll](scc.v1:mcdm.heroes.v1/rule.dice/power-roll).
       name: Effect
-    - roll: Power Roll + [Reason](scc.v1:mcdm.heroes.v1/rule.character/reason)
+      roll: Power Roll + [Reason](scc.v1:mcdm.heroes.v1/rule.character/reason)
       tier1: R < WEAK, [frightened](scc.v1:mcdm.heroes.v1/condition/frightened) (save ends)
       tier2: R < AVERAGE, [frightened](scc.v1:mcdm.heroes.v1/condition/frightened) (save ends)
       tier3: R < STRONG, [frightened](scc.v1:mcdm.heroes.v1/condition/frightened) (save ends)
@@ -63,7 +63,7 @@ metadata:
     effects:
         - effect: You and each target ally can't obtain lower than a tier 2 outcome on [power rolls](scc.v1:mcdm.heroes.v1/rule.dice/power-roll) until the start of your next [turn](scc.v1:mcdm.heroes.v1/rule.combat/turn). Each target enemy is affected by the ability's [power roll](scc.v1:mcdm.heroes.v1/rule.dice/power-roll).
           name: Effect
-        - roll: Power Roll + [Reason](scc.v1:mcdm.heroes.v1/rule.character/reason)
+          roll: Power Roll + [Reason](scc.v1:mcdm.heroes.v1/rule.character/reason)
           tier1: R < WEAK, [frightened](scc.v1:mcdm.heroes.v1/condition/frightened) (save ends)
           tier2: R < AVERAGE, [frightened](scc.v1:mcdm.heroes.v1/condition/frightened) (save ends)
           tier3: R < STRONG, [frightened](scc.v1:mcdm.heroes.v1/condition/frightened) (save ends)

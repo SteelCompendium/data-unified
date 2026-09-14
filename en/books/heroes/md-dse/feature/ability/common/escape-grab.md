@@ -8,6 +8,7 @@ effects:
       tier3: You are no longer [grabbed](scc.v1:mcdm.heroes.v1/condition/grabbed).
     - effect: You take a [bane](scc.v1:mcdm.heroes.v1/rule.dice/bane) on this maneuver if your [size](scc.v1:mcdm.heroes.v1/rule.character/size) is smaller than the size of the creature, object, or effect that has you [grabbed](scc.v1:mcdm.heroes.v1/condition/grabbed).
       name: Effect
+    - effect: 'See [Conditions](scc.v1:mcdm.heroes.v1/rule.combat/condition) in Chapter 5: [Classes](scc.v1:mcdm.heroes.v1/chapter/classes) for information on the [grabbed](scc.v1:mcdm.heroes.v1/condition/grabbed) [condition](scc.v1:mcdm.heroes.v1/rule.combat/condition).'
 feature_type: ability
 file_basename: escape-grab
 file_dpath: feature/ability/common
@@ -34,6 +35,7 @@ effects:
       tier3: You are no longer [grabbed](scc.v1:mcdm.heroes.v1/condition/grabbed).
     - effect: You take a [bane](scc.v1:mcdm.heroes.v1/rule.dice/bane) on this maneuver if your [size](scc.v1:mcdm.heroes.v1/rule.character/size) is smaller than the size of the creature, object, or effect that has you [grabbed](scc.v1:mcdm.heroes.v1/condition/grabbed).
       name: Effect
+    - effect: 'See [Conditions](scc.v1:mcdm.heroes.v1/rule.combat/condition) in Chapter 5: [Classes](scc.v1:mcdm.heroes.v1/chapter/classes) for information on the [grabbed](scc.v1:mcdm.heroes.v1/condition/grabbed) [condition](scc.v1:mcdm.heroes.v1/rule.combat/condition).'
 feature_type: ability
 keywords: []
 metadata:
@@ -46,6 +48,7 @@ metadata:
           tier3: You are no longer [grabbed](scc.v1:mcdm.heroes.v1/condition/grabbed).
         - effect: You take a [bane](scc.v1:mcdm.heroes.v1/rule.dice/bane) on this maneuver if your [size](scc.v1:mcdm.heroes.v1/rule.character/size) is smaller than the size of the creature, object, or effect that has you [grabbed](scc.v1:mcdm.heroes.v1/condition/grabbed).
           name: Effect
+        - effect: 'See [Conditions](scc.v1:mcdm.heroes.v1/rule.combat/condition) in Chapter 5: [Classes](scc.v1:mcdm.heroes.v1/chapter/classes) for information on the [grabbed](scc.v1:mcdm.heroes.v1/condition/grabbed) [condition](scc.v1:mcdm.heroes.v1/rule.combat/condition).'
     keywords: []
     name: Escape Grab
     power_roll_characteristic: '[Might](scc.v1:mcdm.heroes.v1/rule.character/might) or [Agility](scc.v1:mcdm.heroes.v1/rule.character/agility)'

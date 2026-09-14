@@ -6,12 +6,13 @@ distance: Melee 1
 effects:
     - effect: This ability targets only creatures who are [grabbed](../../../../condition/grabbed.md) and are your companion's size or smaller.
       name: Special
-    - roll: Power Roll + Might
+      roll: Power Roll + Might
       tier1: 6 + M damage; M < WEAK the target is swallowed
       tier2: 10 + M damage; M < AVERAGE the target is swallowed
       tier3: 14 + M damage; M < STRONG the target is swallowed
     - effect: A swallowed creature shares your companion's space, is [grabbed](../../../../condition/grabbed.md) and [restrained](../../../../condition/restrained.md), and has line of effect only to your companion. Nothing has line of effect to the swallowed creature.
       name: Effect
+    - effect: Once per round at the start of your turn, the swallowed creature takes acid damage equal to 1 + your companion's Might score. If the swallowed creature escapes the grab, your companion immediately regurgitates the creature, who lands [prone](../../../../condition/prone.md) in an unoccupied square adjacent to your companion. Your companion can also regurgitate a swallowed creature as a free maneuver. Your companion can have only one creature swallowed at a time.
 flavor: What do you have in your mouth? No! Bad boy!
 keywords:
     - Companion

@@ -6,7 +6,7 @@ distance: Self; see below
 effects:
     - effect: You [shift](../../../../movement/shifting.md) up to your [speed](../../../../rule/character/speed.md) and make one [power roll](../../../../rule/dice/power-roll.md) that targets up to three enemies who came [adjacent](../../../../rule/combat/adjacent.md) to you during the move.
       name: Effect
-    - roll: Power Roll + [Agility](../../../../rule/character/agility.md)
+      roll: Power Roll + [Agility](../../../../rule/character/agility.md)
       tier1: 3 damage
       tier2: 6 damage
       tier3: 9 damage

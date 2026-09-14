@@ -5,6 +5,8 @@ distance: 4 burst
 effects:
     - effect: You can use this ability as if in the space of one of your minions within your Summoner's Range.
       name: Effect
+    - effect: Until the end of the encounter or you become [dying](scc.v1:mcdm.heroes.v1/rule.health/dying), each target has a +2 [bonus](scc.v1:mcdm.heroes.v1/rule.dice/bonuses-and-penalties) to [saving throws](scc.v1:mcdm.heroes.v1/rule.general/saving-throw).
+    - effect: Each target can immediately make each of their [saving throws](scc.v1:mcdm.heroes.v1/rule.general/saving-throw) and stand up from [prone](scc.v1:mcdm.heroes.v1/condition/prone).
 feature_source: summoner
 flavor: Your champion's appearance has an enchanting impact on you and your allies.
 keywords:

@@ -8,7 +8,7 @@ distance: '[Melee](../../../../rule/combat/melee.md) 1'
 effects:
     - effect: You and the target are removed from the encounter map until the start of your next [turn](../../../../rule/combat/turn.md). You reappear in the spaces you left or the nearest unoccupied spaces. Make a [power roll](../../../../rule/dice/power-roll.md) upon your return.
       name: Effect
-    - roll: Power Roll + [Agility](../../../../rule/character/agility.md)
+      roll: Power Roll + [Agility](../../../../rule/character/agility.md)
       tier1: 8 + A corruption damage
       tier2: 13 + A corruption damage
       tier3: 17 + A corruption damage
@@ -41,7 +41,7 @@ distance: '[Melee](../../../../rule/combat/melee.md) 1'
 effects:
     - effect: You and the target are removed from the encounter map until the start of your next [turn](../../../../rule/combat/turn.md). You reappear in the spaces you left or the nearest unoccupied spaces. Make a [power roll](../../../../rule/dice/power-roll.md) upon your return.
       name: Effect
-    - roll: Power Roll + [Agility](../../../../rule/character/agility.md)
+      roll: Power Roll + [Agility](../../../../rule/character/agility.md)
       tier1: 8 + A corruption damage
       tier2: 13 + A corruption damage
       tier3: 17 + A corruption damage
@@ -60,7 +60,7 @@ metadata:
     effects:
         - effect: You and the target are removed from the encounter map until the start of your next [turn](../../../../rule/combat/turn.md). You reappear in the spaces you left or the nearest unoccupied spaces. Make a [power roll](../../../../rule/dice/power-roll.md) upon your return.
           name: Effect
-        - roll: Power Roll + [Agility](../../../../rule/character/agility.md)
+          roll: Power Roll + [Agility](../../../../rule/character/agility.md)
           tier1: 8 + A corruption damage
           tier2: 13 + A corruption damage
           tier3: 17 + A corruption damage

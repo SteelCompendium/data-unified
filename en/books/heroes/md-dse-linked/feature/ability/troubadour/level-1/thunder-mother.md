@@ -5,7 +5,7 @@ distance: '[Ranged](../../../../rule/combat/ranged.md) 10'
 effects:
     - effect: At the end of each [combat round](../../../../rule/combat/combat-round.md) while this performance is active, you can make a [power roll](../../../../rule/dice/power-roll.md) against the target that ignores [cover](../../../../rule/combat/cover.md). You can't target the same creature twice with this effect.
       name: Effect
-    - roll: Power Roll + [Presence](../../../../rule/character/presence.md)
+      roll: Power Roll + [Presence](../../../../rule/character/presence.md)
       tier1: Lightning damage equal to your level
       tier2: Lightning damage equal to 5 + your level
       tier3: Lightning damage equal to 10 + your level
@@ -38,7 +38,7 @@ distance: '[Ranged](../../../../rule/combat/ranged.md) 10'
 effects:
     - effect: At the end of each [combat round](../../../../rule/combat/combat-round.md) while this performance is active, you can make a [power roll](../../../../rule/dice/power-roll.md) against the target that ignores [cover](../../../../rule/combat/cover.md). You can't target the same creature twice with this effect.
       name: Effect
-    - roll: Power Roll + [Presence](../../../../rule/character/presence.md)
+      roll: Power Roll + [Presence](../../../../rule/character/presence.md)
       tier1: Lightning damage equal to your level
       tier2: Lightning damage equal to 5 + your level
       tier3: Lightning damage equal to 10 + your level
@@ -56,7 +56,7 @@ metadata:
     effects:
         - effect: At the end of each [combat round](../../../../rule/combat/combat-round.md) while this performance is active, you can make a [power roll](../../../../rule/dice/power-roll.md) against the target that ignores [cover](../../../../rule/combat/cover.md). You can't target the same creature twice with this effect.
           name: Effect
-        - roll: Power Roll + [Presence](../../../../rule/character/presence.md)
+          roll: Power Roll + [Presence](../../../../rule/character/presence.md)
           tier1: Lightning damage equal to your level
           tier2: Lightning damage equal to 5 + your level
           tier3: Lightning damage equal to 10 + your level

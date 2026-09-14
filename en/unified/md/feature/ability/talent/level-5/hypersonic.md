@@ -6,7 +6,7 @@ distance: 5 x 2 line within 1
 effects:
     - effect: You [teleport](scc.v1:mcdm.heroes.v1/movement/teleport) to a square on the opposite side of the area before making the [power roll](scc.v1:mcdm.heroes.v1/rule.dice/power-roll).
       name: Effect
-    - roll: Power Roll + [Reason](scc.v1:mcdm.heroes.v1/rule.character/reason)
+      roll: Power Roll + [Reason](scc.v1:mcdm.heroes.v1/rule.character/reason)
       tier1: 12 sonic damage
       tier2: 18 sonic damage
       tier3: 24 sonic damage

@@ -6,7 +6,7 @@ distance: '[Melee](scc.v1:mcdm.heroes.v1/rule.combat/melee) 1 or [ranged](scc.v1
 effects:
     - effect: The target is marked by you.
       name: Effect
-    - roll: Power Roll + [Might](scc.v1:mcdm.heroes.v1/rule.character/might)
+      roll: Power Roll + [Might](scc.v1:mcdm.heroes.v1/rule.character/might)
       tier1: 8 + M damage
       tier2: 13 + M damage
       tier3: 17 + M damage

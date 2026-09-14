@@ -6,7 +6,7 @@ distance: '[Ranged](../../../../rule/combat/ranged.md) 10'
 effects:
     - effect: If you target an ally, they gain [temporary Stamina](../../../../rule/health/temporary-stamina.md) equal to three times your [Presence](../../../../rule/character/presence.md) score, and they can end one effect on them that is ended by a [saving throw](../../../../rule/general/saving-throw.md) or that ends at the end of their [turn](../../../../rule/combat/turn.md). If you target an enemy, you make a [power roll](../../../../rule/dice/power-roll.md).
       name: Effect
-    - roll: Power Roll + [Presence](../../../../rule/character/presence.md)
+      roll: Power Roll + [Presence](../../../../rule/character/presence.md)
       tier1: 3 + P psychic damage; I < WEAK, [frightened](../../../../condition/frightened.md) (save ends)
       tier2: 6 + P psychic damage; I < AVERAGE, [frightened](../../../../condition/frightened.md) (save ends)
       tier3: 9 + P psychic damage; I < STRONG, [frightened](../../../../condition/frightened.md) (save ends)

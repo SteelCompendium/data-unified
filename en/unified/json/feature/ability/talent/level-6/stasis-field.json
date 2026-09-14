@@ -7,6 +7,7 @@
       "name": "Effect"
     },
     {
+      "effect": "Make a [power roll](scc.v1:mcdm.heroes.v1/rule.dice/power-roll) that targets each enemy in the area.",
       "roll": "Power Roll + [Presence](scc.v1:mcdm.heroes.v1/rule.character/presence)",
       "tier1": "P \u003c WEAK, the target is [slowed](scc.v1:mcdm.heroes.v1/condition/slowed) until the effect ends",
       "tier2": "P \u003c AVERAGE, the target's [speed](scc.v1:mcdm.heroes.v1/rule.character/speed) is 0 until the effect ends",

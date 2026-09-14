@@ -6,7 +6,7 @@ distance: '[Melee](../../../../rule/combat/melee.md) 1'
 effects:
     - effect: You mark the target.
       name: Effect
-    - roll: Power Roll + [Might](../../../../rule/character/might.md)
+      roll: Power Roll + [Might](../../../../rule/character/might.md)
       tier1: 11 + M damage
       tier2: 16 + M damage
       tier3: 21 + M damage

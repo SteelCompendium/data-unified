@@ -6,7 +6,7 @@ distance: Self; see below
 effects:
     - effect: You can [shift](../../../../movement/shifting.md) up to your [speed](../../../../rule/character/speed.md), and squares occupied by enemies or objects are not [difficult terrain](../../../../movement/difficult-terrain.md) for this [shift](../../../../movement/shifting.md). You make one [power roll](../../../../rule/dice/power-roll.md) that targets each enemy you moved through during this [shift](../../../../movement/shifting.md).
       name: Effect
-    - roll: Power Roll + [Agility](../../../../rule/character/agility.md)
+      roll: Power Roll + [Agility](../../../../rule/character/agility.md)
       tier1: 6 damage; M < WEAK, [dazed](../../../../condition/dazed.md)
       tier2: 8 damage; M < AVERAGE, [dazed](../../../../condition/dazed.md)
       tier3: 12 damage; M < STRONG, [dazed](../../../../condition/dazed.md)

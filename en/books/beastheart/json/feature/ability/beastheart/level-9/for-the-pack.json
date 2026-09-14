@@ -4,9 +4,7 @@
   "effects": [
     {
       "effect": "Your companion makes a power roll, which targets each enemy in a 5 burst.",
-      "name": "Effect"
-    },
-    {
+      "name": "Effect",
       "roll": "Power Roll + Intuition",
       "tier1": "20 cold, fire, lightning, or sonic damage",
       "tier2": "25 cold, fire, lightning, or sonic damage",

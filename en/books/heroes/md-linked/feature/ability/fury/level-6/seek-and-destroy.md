@@ -6,7 +6,7 @@ distance: '[Melee](../../../../rule/combat/melee.md) 1'
 effects:
     - effect: You [shift](../../../../movement/shifting.md) up to your [speed](../../../../rule/character/speed.md).
       name: Effect
-    - roll: Power Roll + [Might](../../../../rule/character/might.md)
+      roll: Power Roll + [Might](../../../../rule/character/might.md)
       tier1: 4 + M damage; P < WEAK, [frightened](../../../../condition/frightened.md) (save ends)
       tier2: 6 + M damage; P < AVERAGE, [frightened](../../../../condition/frightened.md) (save ends)
       tier3: 10 + M damage; P < STRONG, [frightened](../../../../condition/frightened.md) (save ends)

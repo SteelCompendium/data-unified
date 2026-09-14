@@ -6,7 +6,8 @@ distance: Self; see below
 effects:
     - effect: You move up to your [speed](scc.v1:mcdm.heroes.v1/rule.character/speed) in a straight line. During this movement, you can move through mundane structures, including walls, which are [difficult terrain](scc.v1:mcdm.heroes.v1/movement/difficult-terrain) for you. You automatically destroy each square of structure you move through and leave behind a square of [difficult terrain](scc.v1:mcdm.heroes.v1/movement/difficult-terrain).
       name: Effect
-    - roll: Power Roll + [Might](scc.v1:mcdm.heroes.v1/rule.character/might)
+    - effect: Additionally, you make one [power roll](scc.v1:mcdm.heroes.v1/rule.dice/power-roll) that targets each enemy you move [adjacent](scc.v1:mcdm.heroes.v1/rule.combat/adjacent) to during this movement.
+      roll: Power Roll + [Might](scc.v1:mcdm.heroes.v1/rule.character/might)
       tier1: '[Push](scc.v1:mcdm.heroes.v1/movement/forced-movement) 1'
       tier2: '[Push](scc.v1:mcdm.heroes.v1/movement/forced-movement) 2'
       tier3: '[Push](scc.v1:mcdm.heroes.v1/movement/forced-movement) 3'

@@ -6,7 +6,7 @@ distance: Special
 effects:
     - effect: Make a [power roll](../../../../rule/dice/power-roll.md) to determine the area of this ability. Each target is vertical [pushed](../../../../movement/forced-movement.md) 6 squares. You can target only objects of [size](../../../../rule/character/size.md) 1L or smaller.
       name: Effect
-    - roll: Power Roll + [Reason](../../../../rule/character/reason.md)
+      roll: Power Roll + [Reason](../../../../rule/character/reason.md)
       tier1: 2 [burst](../../../../rule/combat/burst.md)
       tier2: 3 [burst](../../../../rule/combat/burst.md)
       tier3: 4 [burst](../../../../rule/combat/burst.md)

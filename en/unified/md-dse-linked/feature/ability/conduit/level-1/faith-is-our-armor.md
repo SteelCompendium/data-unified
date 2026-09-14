@@ -8,7 +8,7 @@ distance: '[Ranged](../../../../rule/combat/ranged.md) 10'
 effects:
     - effect: You can target yourself instead of one ally with this ability.
       name: Effect
-    - roll: Power Roll + [Intuition](../../../../rule/character/intuition.md)
+      roll: Power Roll + [Intuition](../../../../rule/character/intuition.md)
       tier1: The target gains 5 [temporary Stamina](../../../../rule/health/temporary-stamina.md).
       tier2: The target gains 10 [temporary Stamina](../../../../rule/health/temporary-stamina.md).
       tier3: The target gains 15 [temporary Stamina](../../../../rule/health/temporary-stamina.md).
@@ -39,7 +39,7 @@ distance: '[Ranged](../../../../rule/combat/ranged.md) 10'
 effects:
     - effect: You can target yourself instead of one ally with this ability.
       name: Effect
-    - roll: Power Roll + [Intuition](../../../../rule/character/intuition.md)
+      roll: Power Roll + [Intuition](../../../../rule/character/intuition.md)
       tier1: The target gains 5 [temporary Stamina](../../../../rule/health/temporary-stamina.md).
       tier2: The target gains 10 [temporary Stamina](../../../../rule/health/temporary-stamina.md).
       tier3: The target gains 15 [temporary Stamina](../../../../rule/health/temporary-stamina.md).
@@ -56,7 +56,7 @@ metadata:
     effects:
         - effect: You can target yourself instead of one ally with this ability.
           name: Effect
-        - roll: Power Roll + [Intuition](../../../../rule/character/intuition.md)
+          roll: Power Roll + [Intuition](../../../../rule/character/intuition.md)
           tier1: The target gains 5 [temporary Stamina](../../../../rule/health/temporary-stamina.md).
           tier2: The target gains 10 [temporary Stamina](../../../../rule/health/temporary-stamina.md).
           tier3: The target gains 15 [temporary Stamina](../../../../rule/health/temporary-stamina.md).

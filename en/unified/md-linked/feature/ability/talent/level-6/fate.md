@@ -8,7 +8,7 @@ effects:
       name: Effect
     - effect: This ability gains the [Strike](../../../../rule/combat/strike.md) keyword as the vision hurts the target's psyche. You make a [power roll](../../../../rule/dice/power-roll.md), then are [weakened](../../../../condition/weakened.md) (save ends).
       name: Strained
-    - roll: Power Roll + [Presence](../../../../rule/character/presence.md)
+      roll: Power Roll + [Presence](../../../../rule/character/presence.md)
       tier1: 8 + P psychic damage
       tier2: 13 + P psychic damage
       tier3: 17 + P psychic damage

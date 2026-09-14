@@ -8,7 +8,7 @@ distance: '[Ranged](../../../../rule/combat/ranged.md) 10'
 effects:
     - effect: The target is [teleport](../../../../movement/teleport.md)ed to another space within [distance](../../../../rule/combat/distance.md). Make a [power roll](../../../../rule/dice/power-roll.md) that affects each enemy [adjacent](../../../../rule/combat/adjacent.md) to the target's new space.
       name: Effect
-    - roll: Power Roll + [Reason](../../../../rule/character/reason.md)
+      roll: Power Roll + [Reason](../../../../rule/character/reason.md)
       tier1: 3 fire damage
       tier2: 5 fire damage
       tier3: 8 fire damage
@@ -41,7 +41,7 @@ distance: '[Ranged](../../../../rule/combat/ranged.md) 10'
 effects:
     - effect: The target is [teleport](../../../../movement/teleport.md)ed to another space within [distance](../../../../rule/combat/distance.md). Make a [power roll](../../../../rule/dice/power-roll.md) that affects each enemy [adjacent](../../../../rule/combat/adjacent.md) to the target's new space.
       name: Effect
-    - roll: Power Roll + [Reason](../../../../rule/character/reason.md)
+      roll: Power Roll + [Reason](../../../../rule/character/reason.md)
       tier1: 3 fire damage
       tier2: 5 fire damage
       tier3: 8 fire damage
@@ -60,7 +60,7 @@ metadata:
     effects:
         - effect: The target is [teleport](../../../../movement/teleport.md)ed to another space within [distance](../../../../rule/combat/distance.md). Make a [power roll](../../../../rule/dice/power-roll.md) that affects each enemy [adjacent](../../../../rule/combat/adjacent.md) to the target's new space.
           name: Effect
-        - roll: Power Roll + [Reason](../../../../rule/character/reason.md)
+          roll: Power Roll + [Reason](../../../../rule/character/reason.md)
           tier1: 3 fire damage
           tier2: 5 fire damage
           tier3: 8 fire damage

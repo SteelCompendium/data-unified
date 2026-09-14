@@ -4,9 +4,7 @@
   "effects": [
     {
       "effect": "This ability targets only creatures you choose within distance.",
-      "name": "Special"
-    },
-    {
+      "name": "Special",
       "roll": "Power Roll + Might",
       "tier1": "P \u003c WEAK the target is battle-frenzied",
       "tier2": "P \u003c AVERAGE the target is battle-frenzied",
@@ -15,6 +13,9 @@
     {
       "effect": "If a target resists the potency, they can choose to become battle-frenzied.",
       "name": "Effect"
+    },
+    {
+      "effect": "A battle-frenzied creature must use a free triggered action to make a melee free strike against themself or a creature adjacent to them. You choose each creature's target. After making this strike, they are no longer battle frenzied."
     }
   ],
   "feature_type": "ability",

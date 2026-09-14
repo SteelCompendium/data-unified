@@ -6,7 +6,7 @@ distance: '[Ranged](../../../../rule/combat/ranged.md) 10'
 effects:
     - effect: 'Choose the [damage type](../../../../rule/damage/damage-type.md) and the weakness for this ability from one of the following: acid, corruption, or fire. The target takes damage before this ability imposes any weakness.'
       name: Effect
-    - roll: Power Roll + [Reason](../../../../rule/character/reason.md)
+      roll: Power Roll + [Reason](../../../../rule/character/reason.md)
       tier1: 3 + R damage; R < WEAK, the target has weakness 5 (save ends)
       tier2: 6 + R damage; R < AVERAGE, the target has weakness 5 (save ends)
       tier3: 9 + R damage; R < STRONG, the target has weakness equal to 5 + your [Reason](../../../../rule/character/reason.md) score (save ends)

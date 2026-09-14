@@ -4,9 +4,7 @@
   "effects": [
     {
       "effect": "You [shift](scc.v1:mcdm.heroes.v1/movement/shifting) up to your [speed](scc.v1:mcdm.heroes.v1/rule.character/speed).",
-      "name": "Effect"
-    },
-    {
+      "name": "Effect",
       "roll": "Power Roll + [Might](scc.v1:mcdm.heroes.v1/rule.character/might)",
       "tier1": "4 + M damage; P \u003c WEAK, [frightened](scc.v1:mcdm.heroes.v1/condition/frightened) (save ends)",
       "tier2": "6 + M damage; P \u003c AVERAGE, [frightened](scc.v1:mcdm.heroes.v1/condition/frightened) (save ends)",

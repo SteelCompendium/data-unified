@@ -8,7 +8,8 @@ distance: Self; see below
 effects:
     - effect: You create three [size](../../../../rule/character/size.md) 1T orbs that orbit your body. Each orb gives you a cumulative [damage immunity](../../../../rule/damage/damage-immunity.md) 1. Each time you take damage, you lose 1 orb.
       name: Effect
-    - roll: Power Roll + [Reason](../../../../rule/character/reason.md)
+    - effect: Once on each of your [turns](../../../../rule/combat/turn.md), you can use a [free maneuver](../../../../rule/combat/free-maneuver.md) to fire an orb at a creature or object within 5 squares as a [ranged](../../../../rule/combat/ranged.md) [strike](../../../../rule/combat/strike.md), losing the orb after the [strike](../../../../rule/combat/strike.md).
+      roll: Power Roll + [Reason](../../../../rule/character/reason.md)
       tier1: 2 damage
       tier2: 3 damage
       tier3: 5 damage
@@ -43,7 +44,8 @@ distance: Self; see below
 effects:
     - effect: You create three [size](../../../../rule/character/size.md) 1T orbs that orbit your body. Each orb gives you a cumulative [damage immunity](../../../../rule/damage/damage-immunity.md) 1. Each time you take damage, you lose 1 orb.
       name: Effect
-    - roll: Power Roll + [Reason](../../../../rule/character/reason.md)
+    - effect: Once on each of your [turns](../../../../rule/combat/turn.md), you can use a [free maneuver](../../../../rule/combat/free-maneuver.md) to fire an orb at a creature or object within 5 squares as a [ranged](../../../../rule/combat/ranged.md) [strike](../../../../rule/combat/strike.md), losing the orb after the [strike](../../../../rule/combat/strike.md).
+      roll: Power Roll + [Reason](../../../../rule/character/reason.md)
       tier1: 2 damage
       tier2: 3 damage
       tier3: 5 damage
@@ -64,7 +66,8 @@ metadata:
     effects:
         - effect: You create three [size](../../../../rule/character/size.md) 1T orbs that orbit your body. Each orb gives you a cumulative [damage immunity](../../../../rule/damage/damage-immunity.md) 1. Each time you take damage, you lose 1 orb.
           name: Effect
-        - roll: Power Roll + [Reason](../../../../rule/character/reason.md)
+        - effect: Once on each of your [turns](../../../../rule/combat/turn.md), you can use a [free maneuver](../../../../rule/combat/free-maneuver.md) to fire an orb at a creature or object within 5 squares as a [ranged](../../../../rule/combat/ranged.md) [strike](../../../../rule/combat/strike.md), losing the orb after the [strike](../../../../rule/combat/strike.md).
+          roll: Power Roll + [Reason](../../../../rule/character/reason.md)
           tier1: 2 damage
           tier2: 3 damage
           tier3: 5 damage

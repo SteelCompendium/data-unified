@@ -3,12 +3,16 @@ action_type: Main action
 class: beastheart
 distance: 1 burst
 effects:
+    - effect: Relying on their instincts, your companion launches toward the nearest threat. Your companion lunges into the fray, attacking wildly with teeth, claws, or other weapons.
     - effect: Your companion moves up to a number of squares equal to their Intuition score straight toward the closest enemy they are aware of, avoiding damaging terrain and ending the movement when they are adjacent to that enemy.
       name: Effect
-    - roll: Power Roll + Might
+    - effect: 'Your companion then makes the following power roll:'
+      roll: Power Roll + Might
       tier1: 1 + M damage
       tier2: 3 + M damage
       tier3: 4 + M damage
+    - effect: This ability gains the following benefit based on your wild nature.
+    - effect: '- **Guardian:** Each enemy target is [taunted](../../../../condition/taunted.md) by your companion until the start of your next turn. - **Prowler:** Each enemy target is [weakened](../../../../condition/weakened.md) until the start of your next turn. - **Punisher:** Your companion slides each target up to a number of squares equal to their Might score. - **Spark:** This strike deals cold, fire, lightning, or sonic damage. You gain 1 surge.'
 keywords:
     - Area
     - Companion

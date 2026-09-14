@@ -4,9 +4,7 @@
   "effects": [
     {
       "effect": "This ability targets only creatures who are [grabbed](scc.v1:mcdm.heroes.v1/condition/grabbed) and are your companion's size or smaller.",
-      "name": "Special"
-    },
-    {
+      "name": "Special",
       "roll": "Power Roll + Might",
       "tier1": "6 + M damage; M \u003c WEAK the target is swallowed",
       "tier2": "10 + M damage; M \u003c AVERAGE the target is swallowed",
@@ -15,6 +13,9 @@
     {
       "effect": "A swallowed creature shares your companion's space, is [grabbed](scc.v1:mcdm.heroes.v1/condition/grabbed) and [restrained](scc.v1:mcdm.heroes.v1/condition/restrained), and has line of effect only to your companion. Nothing has line of effect to the swallowed creature.",
       "name": "Effect"
+    },
+    {
+      "effect": "Once per round at the start of your turn, the swallowed creature takes acid damage equal to 1 + your companion's Might score. If the swallowed creature escapes the grab, your companion immediately regurgitates the creature, who lands [prone](scc.v1:mcdm.heroes.v1/condition/prone) in an unoccupied square adjacent to your companion. Your companion can also regurgitate a swallowed creature as a free maneuver. Your companion can have only one creature swallowed at a time."
     }
   ],
   "feature_type": "ability",

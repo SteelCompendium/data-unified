@@ -6,7 +6,7 @@ distance: Three 3 [cubes](../../../../rule/combat/cube.md) within 1
 effects:
     - effect: A [prone target](../../../../condition/prone.md) ignores this ability.
       name: Effect
-    - roll: Power Roll + [Presence](../../../../rule/character/presence.md)
+      roll: Power Roll + [Presence](../../../../rule/character/presence.md)
       tier1: 7 sonic damage; P < WEAK[, prone](../../../../condition/prone.md)
       tier2: 10 sonic damage; P < AVERAGE[, prone](../../../../condition/prone.md)
       tier3: 13 sonic damage; P < STRONG[, prone](../../../../condition/prone.md)

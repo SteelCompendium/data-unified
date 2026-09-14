@@ -11,6 +11,8 @@ effects:
       name: Special
     - effect: Your minions act in place of you making a [free strike](scc.v1:mcdm.heroes.v1/feature.common.main-actions/free-strike) or using a [signature ability](scc.v1:mcdm.heroes.v1/rule.combat/signature-ability). If you were granted the [triggered action](scc.v1:mcdm.heroes.v1/rule.combat/triggered-action) against a specific target, your minions must strike the same target. If the [triggered action](scc.v1:mcdm.heroes.v1/rule.combat/triggered-action) granted you a [signature ability](scc.v1:mcdm.heroes.v1/rule.combat/signature-ability), you have an [edge](scc.v1:mcdm.heroes.v1/rule.dice/edge) on the [power roll](scc.v1:mcdm.heroes.v1/rule.dice/power-roll).
       name: Effect
+    - effect: '**Your Minions Deal the Damage**'
+    - effect: By normal Draw Steel rules, everyone gets access to [free strikes](scc.v1:mcdm.heroes.v1/feature.common.main-actions/free-strike). As a [summoner](scc.v1:mcdm.summoner.v1/class/summoner), you have a [free strike](scc.v1:mcdm.heroes.v1/feature.common.main-actions/free-strike) equivalent in addition to minions who have their own free strikes. Changing how you attack allows your minions to shine in battle while keeping your damage output in line with your fellow heroes. The static damage you and most of your minions deal also keeps your [turns](scc.v1:mcdm.heroes.v1/rule.combat/turn) fast and flowing.
 feature_source: summoner
 feature_type: ability
 file_basename: strike-for-me
@@ -45,6 +47,8 @@ effects:
       name: Special
     - effect: Your minions act in place of you making a [free strike](scc.v1:mcdm.heroes.v1/feature.common.main-actions/free-strike) or using a [signature ability](scc.v1:mcdm.heroes.v1/rule.combat/signature-ability). If you were granted the [triggered action](scc.v1:mcdm.heroes.v1/rule.combat/triggered-action) against a specific target, your minions must strike the same target. If the [triggered action](scc.v1:mcdm.heroes.v1/rule.combat/triggered-action) granted you a [signature ability](scc.v1:mcdm.heroes.v1/rule.combat/signature-ability), you have an [edge](scc.v1:mcdm.heroes.v1/rule.dice/edge) on the [power roll](scc.v1:mcdm.heroes.v1/rule.dice/power-roll).
       name: Effect
+    - effect: '**Your Minions Deal the Damage**'
+    - effect: By normal Draw Steel rules, everyone gets access to [free strikes](scc.v1:mcdm.heroes.v1/feature.common.main-actions/free-strike). As a [summoner](scc.v1:mcdm.summoner.v1/class/summoner), you have a [free strike](scc.v1:mcdm.heroes.v1/feature.common.main-actions/free-strike) equivalent in addition to minions who have their own free strikes. Changing how you attack allows your minions to shine in battle while keeping your damage output in line with your fellow heroes. The static damage you and most of your minions deal also keeps your [turns](scc.v1:mcdm.heroes.v1/rule.combat/turn) fast and flowing.
 feature_type: ability
 flavor: Your minions fight in your stead.
 keywords:
@@ -63,6 +67,8 @@ metadata:
           name: Special
         - effect: Your minions act in place of you making a [free strike](scc.v1:mcdm.heroes.v1/feature.common.main-actions/free-strike) or using a [signature ability](scc.v1:mcdm.heroes.v1/rule.combat/signature-ability). If you were granted the [triggered action](scc.v1:mcdm.heroes.v1/rule.combat/triggered-action) against a specific target, your minions must strike the same target. If the [triggered action](scc.v1:mcdm.heroes.v1/rule.combat/triggered-action) granted you a [signature ability](scc.v1:mcdm.heroes.v1/rule.combat/signature-ability), you have an [edge](scc.v1:mcdm.heroes.v1/rule.dice/edge) on the [power roll](scc.v1:mcdm.heroes.v1/rule.dice/power-roll).
           name: Effect
+        - effect: '**Your Minions Deal the Damage**'
+        - effect: By normal Draw Steel rules, everyone gets access to [free strikes](scc.v1:mcdm.heroes.v1/feature.common.main-actions/free-strike). As a [summoner](scc.v1:mcdm.summoner.v1/class/summoner), you have a [free strike](scc.v1:mcdm.heroes.v1/feature.common.main-actions/free-strike) equivalent in addition to minions who have their own free strikes. Changing how you attack allows your minions to shine in battle while keeping your damage output in line with your fellow heroes. The static damage you and most of your minions deal also keeps your [turns](scc.v1:mcdm.heroes.v1/rule.combat/turn) fast and flowing.
     feature_source: summoner
     flavor: Your minions fight in your stead.
     keywords:

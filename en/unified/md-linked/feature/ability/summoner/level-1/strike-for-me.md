@@ -11,6 +11,8 @@ effects:
       name: Special
     - effect: Your minions act in place of you making a [free strike](../../../common/main-actions/free-strike.md) or using a [signature ability](../../../../rule/combat/signature-ability.md). If you were granted the [triggered action](../../../../rule/combat/triggered-action.md) against a specific target, your minions must strike the same target. If the [triggered action](../../../../rule/combat/triggered-action.md) granted you a [signature ability](../../../../rule/combat/signature-ability.md), you have an [edge](../../../../rule/dice/edge.md) on the [power roll](../../../../rule/dice/power-roll.md).
       name: Effect
+    - effect: '**Your Minions Deal the Damage**'
+    - effect: By normal Draw Steel rules, everyone gets access to [free strikes](../../../common/main-actions/free-strike.md). As a [summoner](../../../../class/summoner.md), you have a [free strike](../../../common/main-actions/free-strike.md) equivalent in addition to minions who have their own free strikes. Changing how you attack allows your minions to shine in battle while keeping your damage output in line with your fellow heroes. The static damage you and most of your minions deal also keeps your [turns](../../../../rule/combat/turn.md) fast and flowing.
 feature_source: summoner
 flavor: Your minions fight in your stead.
 keywords:

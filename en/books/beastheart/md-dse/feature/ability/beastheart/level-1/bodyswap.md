@@ -5,7 +5,7 @@ distance: Melee 1
 effects:
     - effect: If you and a willing ally are standing on the ground within 10 squares of each other, you can [teleport](scc.v1:mcdm.heroes.v1/movement/teleport) to swap places. If you do, you gain an edge on this ability.
       name: Effect
-    - roll: Power Roll + Intuition
+      roll: Power Roll + Intuition
       tier1: 3 + I damage
       tier2: 5 + I damage
       tier3: 7 + I damage
@@ -39,7 +39,7 @@ distance: Melee 1
 effects:
     - effect: If you and a willing ally are standing on the ground within 10 squares of each other, you can [teleport](scc.v1:mcdm.heroes.v1/movement/teleport) to swap places. If you do, you gain an edge on this ability.
       name: Effect
-    - roll: Power Roll + Intuition
+      roll: Power Roll + Intuition
       tier1: 3 + I damage
       tier2: 5 + I damage
       tier3: 7 + I damage
@@ -58,7 +58,7 @@ metadata:
     effects:
         - effect: If you and a willing ally are standing on the ground within 10 squares of each other, you can [teleport](scc.v1:mcdm.heroes.v1/movement/teleport) to swap places. If you do, you gain an edge on this ability.
           name: Effect
-        - roll: Power Roll + Intuition
+          roll: Power Roll + Intuition
           tier1: 3 + I damage
           tier2: 5 + I damage
           tier3: 7 + I damage

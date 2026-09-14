@@ -7,6 +7,9 @@
       "name": "Effect"
     },
     {
+      "effect": "- Their [size](scc.v1:mcdm.heroes.v1/rule.character/size) and [stability](scc.v1:mcdm.heroes.v1/rule.character/stability) increase by 2, with any [size](scc.v1:mcdm.heroes.v1/rule.character/size) 1 target becoming [size](scc.v1:mcdm.heroes.v1/rule.character/size) 3. Each creature who is within the target's new space [slides](scc.v1:mcdm.heroes.v1/movement/forced-movement) to the nearest unoccupied space, ignoring [stability](scc.v1:mcdm.heroes.v1/rule.character/stability). If the target doesn't have space to grow, they grow as much as they can and become [restrained](scc.v1:mcdm.heroes.v1/condition/restrained) until the effect ends. - They have fire immunity 10. - Their [strikes](scc.v1:mcdm.heroes.v1/rule.combat/strike) deal extra fire damage equal to twice your [Reason](scc.v1:mcdm.heroes.v1/rule.character/reason) score. - When the target force moves a creature or object, the [forced movement](scc.v1:mcdm.heroes.v1/movement/forced-movement) [distance](scc.v1:mcdm.heroes.v1/rule.combat/distance) gains a +2 [bonus](scc.v1:mcdm.heroes.v1/rule.dice/bonuses-and-penalties). - They can use their highest [characteristic](scc.v1:mcdm.heroes.v1/rule.character/characteristic) instead of [Might](scc.v1:mcdm.heroes.v1/rule.character/might) for [Might](scc.v1:mcdm.heroes.v1/rule.character/might) [power rolls](scc.v1:mcdm.heroes.v1/rule.dice/power-roll)."
+    },
+    {
       "effect": "The effect lasts until the start of your next [turn](scc.v1:mcdm.heroes.v1/rule.combat/turn). Additionally, at the start of your [turn](scc.v1:mcdm.heroes.v1/rule.combat/turn), the target can spend 2 [Recoveries](scc.v1:mcdm.heroes.v1/rule.health/recoveries).",
       "name": "Persistent 2"
     }

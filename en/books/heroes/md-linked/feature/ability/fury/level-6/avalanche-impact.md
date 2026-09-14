@@ -6,7 +6,7 @@ distance: Self
 effects:
     - effect: You jump up to your maximum jump [distance](../../../../rule/combat/distance.md) and make one [power roll](../../../../rule/dice/power-roll.md) that targets each creature [adjacent](../../../../rule/combat/adjacent.md) to the space where you land.
       name: Effect
-    - roll: Power Roll + [Might](../../../../rule/character/might.md)
+      roll: Power Roll + [Might](../../../../rule/character/might.md)
       tier1: 4 damage; [push](../../../../movement/forced-movement.md) 1
       tier2: 7 damage; [push](../../../../movement/forced-movement.md) 2
       tier3: 11 damage; [push](../../../../movement/forced-movement.md) 3

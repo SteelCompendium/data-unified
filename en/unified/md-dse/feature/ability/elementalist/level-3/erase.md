@@ -8,7 +8,7 @@ distance: '[Ranged](scc.v1:mcdm.heroes.v1/rule.combat/ranged) 10'
 effects:
     - effect: The number of creatures you target with this ability is determined by your [power roll](scc.v1:mcdm.heroes.v1/rule.dice/power-roll).
       name: Special
-    - roll: Power Roll + [Reason](scc.v1:mcdm.heroes.v1/rule.character/reason)
+      roll: Power Roll + [Reason](scc.v1:mcdm.heroes.v1/rule.character/reason)
       tier1: One creature
       tier2: Two creatures
       tier3: Three creatures
@@ -43,7 +43,7 @@ distance: '[Ranged](scc.v1:mcdm.heroes.v1/rule.combat/ranged) 10'
 effects:
     - effect: The number of creatures you target with this ability is determined by your [power roll](scc.v1:mcdm.heroes.v1/rule.dice/power-roll).
       name: Special
-    - roll: Power Roll + [Reason](scc.v1:mcdm.heroes.v1/rule.character/reason)
+      roll: Power Roll + [Reason](scc.v1:mcdm.heroes.v1/rule.character/reason)
       tier1: One creature
       tier2: Two creatures
       tier3: Three creatures
@@ -64,7 +64,7 @@ metadata:
     effects:
         - effect: The number of creatures you target with this ability is determined by your [power roll](scc.v1:mcdm.heroes.v1/rule.dice/power-roll).
           name: Special
-        - roll: Power Roll + [Reason](scc.v1:mcdm.heroes.v1/rule.character/reason)
+          roll: Power Roll + [Reason](scc.v1:mcdm.heroes.v1/rule.character/reason)
           tier1: One creature
           tier2: Two creatures
           tier3: Three creatures

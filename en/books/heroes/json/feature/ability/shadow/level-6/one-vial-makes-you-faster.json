@@ -7,6 +7,7 @@
       "name": "Effect"
     },
     {
+      "effect": "A creature who drinks the potion receives benefits based on your [power roll](scc.v1:mcdm.heroes.v1/rule.dice/power-roll).",
       "roll": "Power Roll + [Agility](scc.v1:mcdm.heroes.v1/rule.character/agility)",
       "tier1": "The creature's [speed](scc.v1:mcdm.heroes.v1/rule.character/speed) is increased by 2 until the end of the encounter.",
       "tier2": "The creature can [fly](scc.v1:mcdm.heroes.v1/movement/fly) until the end of the encounter.",

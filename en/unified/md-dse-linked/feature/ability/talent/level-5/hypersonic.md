@@ -8,7 +8,7 @@ distance: 5 x 2 line within 1
 effects:
     - effect: You [teleport](../../../../movement/teleport.md) to a square on the opposite side of the area before making the [power roll](../../../../rule/dice/power-roll.md).
       name: Effect
-    - roll: Power Roll + [Reason](../../../../rule/character/reason.md)
+      roll: Power Roll + [Reason](../../../../rule/character/reason.md)
       tier1: 12 sonic damage
       tier2: 18 sonic damage
       tier3: 24 sonic damage
@@ -43,7 +43,7 @@ distance: 5 x 2 line within 1
 effects:
     - effect: You [teleport](../../../../movement/teleport.md) to a square on the opposite side of the area before making the [power roll](../../../../rule/dice/power-roll.md).
       name: Effect
-    - roll: Power Roll + [Reason](../../../../rule/character/reason.md)
+      roll: Power Roll + [Reason](../../../../rule/character/reason.md)
       tier1: 12 sonic damage
       tier2: 18 sonic damage
       tier3: 24 sonic damage
@@ -64,7 +64,7 @@ metadata:
     effects:
         - effect: You [teleport](../../../../movement/teleport.md) to a square on the opposite side of the area before making the [power roll](../../../../rule/dice/power-roll.md).
           name: Effect
-        - roll: Power Roll + [Reason](../../../../rule/character/reason.md)
+          roll: Power Roll + [Reason](../../../../rule/character/reason.md)
           tier1: 12 sonic damage
           tier2: 18 sonic damage
           tier3: 24 sonic damage

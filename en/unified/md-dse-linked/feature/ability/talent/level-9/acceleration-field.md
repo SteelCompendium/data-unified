@@ -10,7 +10,7 @@ effects:
       name: Effect
     - effect: Make a [power roll](../../../../rule/dice/power-roll.md) that targets you and each enemy within [distance](../../../../rule/combat/distance.md).
       name: Strained
-    - roll: Power Roll + [Presence](../../../../rule/character/presence.md)
+      roll: Power Roll + [Presence](../../../../rule/character/presence.md)
       tier1: 4 corruption damage; [slowed](../../../../condition/slowed.md) (save ends)
       tier2: 6 corruption damage; [slowed](../../../../condition/slowed.md) (save ends)
       tier3: 10 corruption damage; [slowed](../../../../condition/slowed.md) (save ends)
@@ -45,7 +45,7 @@ effects:
       name: Effect
     - effect: Make a [power roll](../../../../rule/dice/power-roll.md) that targets you and each enemy within [distance](../../../../rule/combat/distance.md).
       name: Strained
-    - roll: Power Roll + [Presence](../../../../rule/character/presence.md)
+      roll: Power Roll + [Presence](../../../../rule/character/presence.md)
       tier1: 4 corruption damage; [slowed](../../../../condition/slowed.md) (save ends)
       tier2: 6 corruption damage; [slowed](../../../../condition/slowed.md) (save ends)
       tier3: 10 corruption damage; [slowed](../../../../condition/slowed.md) (save ends)
@@ -65,7 +65,7 @@ metadata:
           name: Effect
         - effect: Make a [power roll](../../../../rule/dice/power-roll.md) that targets you and each enemy within [distance](../../../../rule/combat/distance.md).
           name: Strained
-        - roll: Power Roll + [Presence](../../../../rule/character/presence.md)
+          roll: Power Roll + [Presence](../../../../rule/character/presence.md)
           tier1: 4 corruption damage; [slowed](../../../../condition/slowed.md) (save ends)
           tier2: 6 corruption damage; [slowed](../../../../condition/slowed.md) (save ends)
           tier3: 10 corruption damage; [slowed](../../../../condition/slowed.md) (save ends)

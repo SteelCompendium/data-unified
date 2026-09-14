@@ -8,7 +8,7 @@ distance: Self; see below
 effects:
     - effect: You [shift](scc.v1:mcdm.heroes.v1/movement/shifting) up to twice your [speed](scc.v1:mcdm.heroes.v1/rule.character/speed), making one [power roll](scc.v1:mcdm.heroes.v1/rule.dice/power-roll) that targets each creature you come [adjacent](scc.v1:mcdm.heroes.v1/rule.combat/adjacent) to during the [shift](scc.v1:mcdm.heroes.v1/movement/shifting).
       name: Effect
-    - roll: Power Roll + [Agility](scc.v1:mcdm.heroes.v1/rule.character/agility)
+      roll: Power Roll + [Agility](scc.v1:mcdm.heroes.v1/rule.character/agility)
       tier1: An enemy takes 6 damage; an ally can [teleport](scc.v1:mcdm.heroes.v1/movement/teleport) up to 3 squares.
       tier2: An enemy takes 10 damage; an ally can [teleport](scc.v1:mcdm.heroes.v1/movement/teleport) up to 5 squares.
       tier3: An enemy takes 14 damage; an ally can [teleport](scc.v1:mcdm.heroes.v1/movement/teleport) up to 7 squares.
@@ -41,7 +41,7 @@ distance: Self; see below
 effects:
     - effect: You [shift](scc.v1:mcdm.heroes.v1/movement/shifting) up to twice your [speed](scc.v1:mcdm.heroes.v1/rule.character/speed), making one [power roll](scc.v1:mcdm.heroes.v1/rule.dice/power-roll) that targets each creature you come [adjacent](scc.v1:mcdm.heroes.v1/rule.combat/adjacent) to during the [shift](scc.v1:mcdm.heroes.v1/movement/shifting).
       name: Effect
-    - roll: Power Roll + [Agility](scc.v1:mcdm.heroes.v1/rule.character/agility)
+      roll: Power Roll + [Agility](scc.v1:mcdm.heroes.v1/rule.character/agility)
       tier1: An enemy takes 6 damage; an ally can [teleport](scc.v1:mcdm.heroes.v1/movement/teleport) up to 3 squares.
       tier2: An enemy takes 10 damage; an ally can [teleport](scc.v1:mcdm.heroes.v1/movement/teleport) up to 5 squares.
       tier3: An enemy takes 14 damage; an ally can [teleport](scc.v1:mcdm.heroes.v1/movement/teleport) up to 7 squares.
@@ -59,7 +59,7 @@ metadata:
     effects:
         - effect: You [shift](scc.v1:mcdm.heroes.v1/movement/shifting) up to twice your [speed](scc.v1:mcdm.heroes.v1/rule.character/speed), making one [power roll](scc.v1:mcdm.heroes.v1/rule.dice/power-roll) that targets each creature you come [adjacent](scc.v1:mcdm.heroes.v1/rule.combat/adjacent) to during the [shift](scc.v1:mcdm.heroes.v1/movement/shifting).
           name: Effect
-        - roll: Power Roll + [Agility](scc.v1:mcdm.heroes.v1/rule.character/agility)
+          roll: Power Roll + [Agility](scc.v1:mcdm.heroes.v1/rule.character/agility)
           tier1: An enemy takes 6 damage; an ally can [teleport](scc.v1:mcdm.heroes.v1/movement/teleport) up to 3 squares.
           tier2: An enemy takes 10 damage; an ally can [teleport](scc.v1:mcdm.heroes.v1/movement/teleport) up to 5 squares.
           tier3: An enemy takes 14 damage; an ally can [teleport](scc.v1:mcdm.heroes.v1/movement/teleport) up to 7 squares.

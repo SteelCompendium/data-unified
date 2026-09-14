@@ -6,7 +6,7 @@ distance: '[Melee](../../../../rule/combat/melee.md) 1'
 effects:
     - effect: The target takes half the damage. You then make a [power roll](../../../../rule/dice/power-roll.md) against the triggering creature.
       name: Effect
-    - roll: Power Roll + [Might](../../../../rule/character/might.md)
+      roll: Power Roll + [Might](../../../../rule/character/might.md)
       tier1: A < WEAK, [dazed](../../../../condition/dazed.md) (save ends)
       tier2: A < AVERAGE, [dazed](../../../../condition/dazed.md) (save ends)
       tier3: A < STRONG, [dazed](../../../../condition/dazed.md) (save ends)

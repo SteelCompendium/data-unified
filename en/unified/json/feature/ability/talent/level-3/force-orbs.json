@@ -7,6 +7,7 @@
       "name": "Effect"
     },
     {
+      "effect": "Once on each of your [turns](scc.v1:mcdm.heroes.v1/rule.combat/turn), you can use a [free maneuver](scc.v1:mcdm.heroes.v1/rule.combat/free-maneuver) to fire an orb at a creature or object within 5 squares as a [ranged](scc.v1:mcdm.heroes.v1/rule.combat/ranged) [strike](scc.v1:mcdm.heroes.v1/rule.combat/strike), losing the orb after the [strike](scc.v1:mcdm.heroes.v1/rule.combat/strike).",
       "roll": "Power Roll + [Reason](scc.v1:mcdm.heroes.v1/rule.character/reason)",
       "tier1": "2 damage",
       "tier2": "3 damage",

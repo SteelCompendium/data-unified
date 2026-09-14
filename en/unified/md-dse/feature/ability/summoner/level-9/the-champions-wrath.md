@@ -9,6 +9,7 @@ effects:
       tier3: 14 [damage](scc.v1:mcdm.heroes.v1/rule.damage/damage); [push](scc.v1:mcdm.heroes.v1/movement/forced-movement) 6 M < STRONG push is vertical
     - effect: You can use this ability as if in the space of one of your minions within your Summoner's Range.
       name: Effect
+    - effect: You can change the [damage type](scc.v1:mcdm.heroes.v1/rule.damage/damage-type) to be a type that your champion deals on their stat block (see [Portfolio Champion](scc.v1:mcdm.summoner.v1/feature.summoner.level-8/portfolio-champion)). For each enemy reduced to 0 [Stamina](scc.v1:mcdm.heroes.v1/rule.health/stamina) by this ability, an ally within [distance](scc.v1:mcdm.heroes.v1/rule.combat/distance) can move up to their [speed](scc.v1:mcdm.heroes.v1/rule.character/speed).
 feature_source: summoner
 feature_type: ability
 file_basename: the-champions-wrath
@@ -42,6 +43,7 @@ effects:
       tier3: 14 [damage](scc.v1:mcdm.heroes.v1/rule.damage/damage); [push](scc.v1:mcdm.heroes.v1/movement/forced-movement) 6 M < STRONG push is vertical
     - effect: You can use this ability as if in the space of one of your minions within your Summoner's Range.
       name: Effect
+    - effect: You can change the [damage type](scc.v1:mcdm.heroes.v1/rule.damage/damage-type) to be a type that your champion deals on their stat block (see [Portfolio Champion](scc.v1:mcdm.summoner.v1/feature.summoner.level-8/portfolio-champion)). For each enemy reduced to 0 [Stamina](scc.v1:mcdm.heroes.v1/rule.health/stamina) by this ability, an ally within [distance](scc.v1:mcdm.heroes.v1/rule.combat/distance) can move up to their [speed](scc.v1:mcdm.heroes.v1/rule.character/speed).
 feature_type: ability
 flavor: Your champion appears and goes into a rampage, clearing the way for your minions to march forth.
 keywords:
@@ -60,6 +62,7 @@ metadata:
           tier3: 14 [damage](scc.v1:mcdm.heroes.v1/rule.damage/damage); [push](scc.v1:mcdm.heroes.v1/movement/forced-movement) 6 M < STRONG push is vertical
         - effect: You can use this ability as if in the space of one of your minions within your Summoner's Range.
           name: Effect
+        - effect: You can change the [damage type](scc.v1:mcdm.heroes.v1/rule.damage/damage-type) to be a type that your champion deals on their stat block (see [Portfolio Champion](scc.v1:mcdm.summoner.v1/feature.summoner.level-8/portfolio-champion)). For each enemy reduced to 0 [Stamina](scc.v1:mcdm.heroes.v1/rule.health/stamina) by this ability, an ally within [distance](scc.v1:mcdm.heroes.v1/rule.combat/distance) can move up to their [speed](scc.v1:mcdm.heroes.v1/rule.character/speed).
     feature_source: summoner
     flavor: Your champion appears and goes into a rampage, clearing the way for your minions to march forth.
     keywords:
