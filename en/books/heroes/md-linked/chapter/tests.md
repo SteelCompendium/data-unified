@@ -720,7 +720,7 @@ The Director then decides to make the failure potentially more interesting, by a
 
 **Director:** *As Jorn yanks Korvo off the ground and pulls him up to the top of the wall, a guard [turns](../rule/combat/turn.md) a bullseye lantern your way, calling out, "Who goes there?"*
 
-### Assist a Test
+### Assist a Test {data-scc="mcdm.heroes.v1/rule.test/assist-a-test"}
 
 You can attempt to assist another creature with a [test](../rule/test/test.md) they make, provided you have a skill that applies to the [test](../rule/test/test.md), the other creature isn't using that same skill on the [test](../rule/test/test.md), and you can describe how your character helps to the Director's satisfaction. In other words, your attempt to help has to make sense, and you have to bring some useful expertise to the table. Helping another creature sneak by shouting encouragement at them isn't going to make them stealthier.
 
@@ -732,7 +732,7 @@ When you attempt to assist another creature, make a [test](../rule/test/test.md)
 
 For example, when an ally tries to pick a jailer's pocket, you might attempt to assist by using the [Flirt](../skill/interpersonal/flirt.md) skill to distract the jailer. The Director accepts this, and asks you to make a [Presence](../rule/character/presence.md) [test](../rule/test/test.md) using Flirt. The outcome of that [test](../rule/test/test.md) determines the [bonus](../rule/dice/bonuses-and-penalties.md) you provide to the other hero's [Agility](../rule/character/agility.md) [test](../rule/test/test.md) to pick the jailer's pocket—or whether you fumble the distraction and potentially draw attention to the attempt.
 
-### Hide and Sneak
+### Hide and Sneak {data-scc="mcdm.heroes.v1/rule.test/hide-and-sneak"}
 
 Hiding and sneaking are important tools for heroes and their foes. You might want to avoid another creature's notice to eavesdrop on conver sations, steal items, set up an ambush, or avoid a combat encounter.
 

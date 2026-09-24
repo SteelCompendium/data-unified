@@ -18,7 +18,7 @@ You have the following performance abilities, which are usable with your [Routin
 |------------------------------|--------------------------------------:|
 | **📏 5 [aura](../../../rule/combat/aura.md)**                | **🎯 Self and each ally in the area** |
 
-**Effect:** While this performance is active, each target who starts their [turn](../../../rule/combat/turn.md) in the area doesn't take a [bane](../../../rule/dice/bane.md) on [strikes](../../../rule/combat/strike.md) against creatures with [concealment](../../../rule/combat/concealment.md). Once during their [turn](../../../rule/combat/turn.md), they can search for hidden creatures as a [free maneuver](../../../rule/combat/free-maneuver.md) (see Hide and Sneak in Chapter 9: [Tests](../../../chapter/tests.md)).
+**Effect:** While this performance is active, each target who starts their [turn](../../../rule/combat/turn.md) in the area doesn't take a [bane](../../../rule/dice/bane.md) on [strikes](../../../rule/combat/strike.md) against creatures with [concealment](../../../rule/combat/concealment.md). Once during their [turn](../../../rule/combat/turn.md), they can search for hidden creatures as a [free maneuver](../../../rule/combat/free-maneuver.md) (see [Hide and Sneak](../../../rule/test/hide-and-sneak.md) in Chapter 9: [Tests](../../../chapter/tests.md)).
 
 ## "Never-Ending Hero" {data-scc="mcdm.heroes.v1/feature.ability.troubadour.level-3/never-ending-hero" data-subclass="virtuoso"}
 

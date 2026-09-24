@@ -1,0 +1,42 @@
+---
+file_basename: hide-and-sneak
+file_dpath: rule/test
+item_id: hide-and-sneak
+item_name: Hide and Sneak
+name: Hide and Sneak
+scc: mcdm.heroes.v1/rule.test/hide-and-sneak
+source: mcdm.heroes.v1
+type: rule
+---
+
+Hiding and sneaking are important tools for heroes and their foes. You might want to avoid another creature's notice to eavesdrop on conver sations, steal items, set up an ambush, or avoid a combat encounter.
+
+#### Hiding
+
+To hide from a creature, you must have [cover](scc.v1:mcdm.heroes.v1/rule.combat/cover) or [concealment](scc.v1:mcdm.heroes.v1/rule.combat/concealment) from that creature (see Chapter 10: [Combat](scc.v1:mcdm.heroes.v1/chapter/combat)), who can't observe you attempting to hide. A creature is observing you if they're aware of your specific location before you attempt to hide. This means they can pinpoint you with their senses and point a finger (or paw or tentacle) at you as if to shout, "There they are!" If you duck behind a barrel to hide from a foe, your attempt to hide has a chance of succeeding only if your foe doesn't notice you doing so. If you're being chased by a hungry dragon, you can hide only if you first move to a location where the dragon can't observe you—for instance, by turning a sharp corner into a tunnel full of giant stalagmites before the dragon does. You then make your hide attempt.
+
+When you use the [Hide](scc.v1:mcdm.heroes.v1/feature.common.maneuvers/hide) maneuver to hide during combat while you have [cover](scc.v1:mcdm.heroes.v1/rule.combat/cover) or [concealment](scc.v1:mcdm.heroes.v1/rule.combat/concealment) from a creature who isn't observing you, you are automatically hidden from them unless the Director deems otherwise. If you hide outside of combat, the Director might ask you to make a [test](scc.v1:mcdm.heroes.v1/rule.test/test) using the [Hide](scc.v1:mcdm.heroes.v1/skill.intrigue/hide) skill to determine how well hidden you are.
+
+While you are hidden from another creature, the creature can't target you with abilities that don't have the Area keyword. This benefit ends as soon as you are no longer hidden from that creature.
+
+Additionally, while you are hidden from another creature, you gain an [edge](scc.v1:mcdm.heroes.v1/rule.dice/edge) on [ability rolls](scc.v1:mcdm.heroes.v1/rule.dice/ability-roll) made against that creature. This benefit lasts until the end of the [turn](scc.v1:mcdm.heroes.v1/rule.combat/turn) in which you are no longer hidden. This means you can be hidden from another creature at the start of your [turn](scc.v1:mcdm.heroes.v1/rule.combat/turn), move out of [cover](scc.v1:mcdm.heroes.v1/rule.combat/cover) or [concealment](scc.v1:mcdm.heroes.v1/rule.combat/concealment) toward them and use an ability against them, and still gain an [edge](scc.v1:mcdm.heroes.v1/rule.dice/edge) on [ability rolls](scc.v1:mcdm.heroes.v1/rule.dice/ability-roll) made against the creature as long as you use the ability before the end of that [turn](scc.v1:mcdm.heroes.v1/rule.combat/turn).
+
+Draw Steel
+
+You are no longer hidden from a creature if you don't have [cover](scc.v1:mcdm.heroes.v1/rule.combat/cover) or [concealment](scc.v1:mcdm.heroes.v1/rule.combat/concealment) from them. If you use an ability, interact with an enemy, move without sneaking, or otherwise make noise or reveal yourself while hidden, you are no longer hidden once the activity that reveals you resolves. For instance, if you are hidden and then make a [strike](scc.v1:mcdm.heroes.v1/rule.combat/strike), you resolve the [strike](scc.v1:mcdm.heroes.v1/rule.combat/strike) first, then are no longer hidden.
+
+##### Searching for Hidden Creatures
+
+You can search for creatures who are hidden from you as long as those creatures are within 10 squares and you have [line of effect](scc.v1:mcdm.heroes.v1/rule.combat/line-of-effect) to them. To do so, you use a maneuver to make an [Intuition](scc.v1:mcdm.heroes.v1/rule.character/intuition) [test](scc.v1:mcdm.heroes.v1/rule.test/test) using the Search skill, and any hidden creatures within 10 squares of you each make an opposed [Agility](scc.v1:mcdm.heroes.v1/rule.character/agility) [test](scc.v1:mcdm.heroes.v1/rule.test/test) using the [Hide](scc.v1:mcdm.heroes.v1/skill.intrigue/hide) skill (see [Opposed Power Rolls](scc.v1:mcdm.heroes.v1/rule.dice/opposed-power-roll) earlier in this chapter). At the Director's discretion, different [characteristics](scc.v1:mcdm.heroes.v1/rule.character/characteristic) and skills can be used in this opposed [test](scc.v1:mcdm.heroes.v1/rule.test/test). For example, your foe might make a [Presence](scc.v1:mcdm.heroes.v1/rule.character/presence) [test](scc.v1:mcdm.heroes.v1/rule.test/test) using the [Handle Animals](scc.v1:mcdm.heroes.v1/skill.interpersonal/handle-animals) skill to hide among a flock of sheep without disturbing them, or you could make a [Reason](scc.v1:mcdm.heroes.v1/rule.character/reason) [test](scc.v1:mcdm.heroes.v1/rule.test/test) using the Eavesdrop skill to pick out the breathing of a creature hidden in the dark.
+
+If the total of your [test](scc.v1:mcdm.heroes.v1/rule.test/test) is higher than that of a hidden creature, they are no longer hidden from you. Otherwise, they remain hidden from you. As part of the maneuver used to search for hidden creatures, you can point out any creatures you notice to allies within 10 squares of you, making those creatures no longer hidden from those allies.
+
+If a creature is hidden from your allies but not from you, you can use a maneuver without making a [test](scc.v1:mcdm.heroes.v1/rule.test/test) to point that creature out to your allies.
+
+> **What Does It Mean to Be Observed?**
+>
+> Most of the time, if a creature has [line of effect](scc.v1:mcdm.heroes.v1/rule.combat/line-of-effect) to you, they're able to observe you—especially if you're an active threat to them, such as in a combat encounter. However, the game leaves what it means to be observed open to interpretation, because there are circumstances where a creature might have [line of effect](scc.v1:mcdm.heroes.v1/rule.combat/line-of-effect) to you but isn't observing you, giving you a chance to hide. For example, a guard in a crowded marketplace likely isn't able to observe every creature within their [line of effect](scc.v1:mcdm.heroes.v1/rule.combat/line-of-effect), so slipping away to hide in that situation is probably easier than hiding from them in an otherwise empty street. The Director has the final say on who is observing you, and who you are able to observe.
+
+#### Sneaking
+
+While you are hidden from another creature and not in combat, you can attempt to sneak—avoiding the senses of other creatures as you move around them in the open—to remain hidden. While sneaking, your [speed](scc.v1:mcdm.heroes.v1/rule.character/speed) is halved. To sneak, you make an [Agility](scc.v1:mcdm.heroes.v1/rule.character/agility) [test](scc.v1:mcdm.heroes.v1/rule.test/test) using the Sneak skill with a difficulty set by the Director. If you succeed, you remain hidden during your movement. This [test](scc.v1:mcdm.heroes.v1/rule.test/test) can use another [characteristic](scc.v1:mcdm.heroes.v1/rule.character/characteristic) at the Director's discretion, such as using [Presence](scc.v1:mcdm.heroes.v1/rule.character/presence) to blend in with a crowd on a packed city street.

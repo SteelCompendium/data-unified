@@ -1,0 +1,17 @@
+---
+name: Opening a Negotiation
+scc: mcdm.heroes.v1/rule.negotiation/opening
+type: rule
+---
+
+A negotiation begins when the heroes ask something of an [NPC](scc.v1:mcdm.heroes.v1/rule.general/npc) and the Director deems that the circumstances require a negotiation. Those circumstances always involve the heroes requiring assistance that could change the course of the adventure, and having the [NPC](scc.v1:mcdm.heroes.v1/rule.general/npc) conflicted about working with them. Unlike combat, which can be thrust upon the heroes by violent allies or unexpected circumstances, the heroes must be the ones to willingly start a negotiation. Characters must want something from an [NPC](scc.v1:mcdm.heroes.v1/rule.general/npc). Otherwise they have no reason to negotiate!
+
+The Director can decide that an [NPC](scc.v1:mcdm.heroes.v1/rule.general/npc) who has something the players want could show up at their door and ask if the heroes want to negotiate. But it's always okay for the characters to say, "Not [interest](scc.v1:mcdm.heroes.v1/rule.negotiation/interest)ed," and refuse to do so.
+
+#### Stop Combat, Start Negotiation
+
+If a hero wants to halt hostilities to negotiate with the other side, they can use a maneuver to make a hard [Presence](scc.v1:mcdm.heroes.v1/rule.character/presence) [test](scc.v1:mcdm.heroes.v1/rule.test/test) (or another applicable [test](scc.v1:mcdm.heroes.v1/rule.test/test), as the Director determines) in an attempt to stop combat and start a negotiation. The [test](scc.v1:mcdm.heroes.v1/rule.test/test) has a chance of success only if the Director believes the other side is willing and capable of negotiating. A foe who has the upper hand, who hates the heroes beyond measure, or who lacks sapience is unlikely to negotiate.
+
+#### Starting Stats
+
+An [NPC](scc.v1:mcdm.heroes.v1/rule.general/npc)'s starting negotiation stats depend on their attitude toward the heroes, as shown on the Negotiation Starting Attitudes table, and can be adjusted by the Director as they see fit. A naturally irascible [NPC](scc.v1:mcdm.heroes.v1/rule.general/npc) might have lower [patience](scc.v1:mcdm.heroes.v1/rule.negotiation/patience), while a hostile [NPC](scc.v1:mcdm.heroes.v1/rule.general/npc) with a greater-than-expected stake in the negotiation topic might have a higher-than-typical [interest](scc.v1:mcdm.heroes.v1/rule.negotiation/interest).

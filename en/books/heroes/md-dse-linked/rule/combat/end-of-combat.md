@@ -1,0 +1,36 @@
+---
+file_basename: end-of-combat
+file_dpath: rule/combat
+item_id: end-of-combat
+item_name: End of Combat
+name: End of Combat
+scc: mcdm.heroes.v1/rule.combat/end-of-combat
+source: mcdm.heroes.v1
+type: rule
+---
+
+At the end of combat, the Director determines if the heroes earn any [Victories](../resource/victories.md). Any effect or [condition](condition.md) on you that you suffered during combat (except for being [winded](../health/winded.md), unconscious, or [dying](../health/dying.md)) ends if you want it to.
+
+#### How Combat Ends
+
+The Director determines when a combat encounter is over. While some battles—especially showdowns with important villains—can be about a fight to the bitter end, many other encounters can become a tedious slog if the heroes need to fight until every last enemy's [Stamina](../health/stamina.md) is reduced to 0.
+
+To avoid a battle dragging, the Director can set [objectives](objective.md) when they build the encounter. Once the heroes achieve those [objectives](objective.md), or if it becomes clear that they can win the fight with minimal effort, the Director can end the encounter. They might do so by calling "Cut!" like a film director, or they can use some other phrase or indicator.
+
+When the Director ends combat this way, the players typically choose how the battle ends by narrating a dramatic finish. Or in rarer cases when the heroes achieve a major [objective](objective.md) that sets off a story-defining event, the Director narrates the end of the battle with a positive outcome for the players, called an event ending (see below).
+
+#### Dramatic Finish
+
+If the heroes are able to end a fight with a dramatic finish, the Director assigns each hero one or more of their remaining enemies, then asks that hero's player to describe how the hero neutralizes that threat. The hero might deliver a killing blow, knock their foe out, or let the enemy flee with their tail between their legs (literally or figuratively). If the fight has more heroes than Director-controlled enemies, the Director can assign more than one hero to an enemy, then ask the players how their characters work together to bring that enemy down. After everyone gives a description, the battle ends.
+
+#### Event Ending
+
+If the Director calls the end of combat when a specific [objective](objective.md) in an encounter is achieved, the event ending creates a big narrative finish. The Director can pick a narrative trigger for an event ending before an encounter begins, or can come up with one on the fly if that makes more sense.
+
+Event endings can cover big scenarios such as the characters destroying a dam to unleash a river upon their enemies, or completing a ritual that causes all the demons they've been battling to be sent back to the Abyssal Wasteland, accompanied by visual details. For example, if the heroes are battling a necromancer who controls a horde of zombies, the undead might all crumble to dust when the necromancer is defeated. If the heroes destroy an eldritch machine sapping the land of its natural energy, the shockwave from the device's destruction could vaporize the cultists attempting to protect it.
+
+> **Fleeing Foes**
+>
+> If you've played a fantasy RPG before, odds are you've had an encounter where you didn't chase down every last fleeing foe—and then one such foe [grabbed](../../condition/grabbed.md) another bunch of evil buddies and came back to ambush you. It takes only one experience like this to create players who promise, "No survivors. No mercy!" whenever foes break ranks. Chasing down every last foe can be fun once in a while, but it can easily [turn](turn.md) a tactical encounter into a slog.
+>
+> Luckily, this is a heroic game. Although the Director can surprise the players with dramatic reveals and twisty-turny stories, "Gotcha!" moments that make players suspicious of every fleeing bandit shouldn't be part of those stories. If a bandit is fleeing an encounter, they're running away to rethink their life. If they're going for help, the players should get some sense of that—for example, the bandit screaming at the top of their lungs for help as they run toward their leader's tent. That way, the players can process what's happening, and will understand that stopping that fleeing bandit is part of the challenge of the encounter.

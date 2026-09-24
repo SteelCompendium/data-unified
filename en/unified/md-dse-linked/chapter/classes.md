@@ -76,12 +76,6 @@ If an ability requires a [triggered action](../rule/combat/triggered-action.md) 
 
 Certain ability effects allow you to move and affect other creatures or objects during that move, such as the [shadow's](../class/shadow.md) [One Hundred Throats](../feature/ability/shadow/level-1/one-hundred-throats.md) ability. For such abilities, the move begins in the space you first leave when you start the move and ends in the last space you move into.
 
-#### Roll Against Multiple Creatures
-
-When an ability has multiple targets (whether a [strike](../rule/combat/strike.md) with more than one target or an area affect), you make one [power roll](../rule/dice/power-roll.md) and apply the total to all targets. If you have [edges](../rule/dice/edge.md) or [banes](../rule/dice/bane.md) (see Chapter 1: [The Basics](the-basics.md)) against some but not all of your targets, you might apply a different [tier outcome](../rule/dice/tier-outcome.md) to individual targets.
-
-For example, if you target three creatures with a [strike](../rule/combat/strike.md) ability and the [power roll](../rule/dice/power-roll.md) totals 11, each of the targets should be affected by the tier 1 outcome of the ability. However, if you gain an [edge](../rule/dice/edge.md) on [strikes](../rule/combat/strike.md) against one of the targets to add 2 to the [power roll](../rule/dice/power-roll.md), your total against that target is 13, and they are affected by the tier 2 outcome of the ability.
-
 #### Effect
 
 Many abilities that require [power rolls](../rule/dice/power-roll.md) also have effect entries describing additional effects or rules for how the ability is used. If an ability doesn't require a [power roll](../rule/dice/power-roll.md), it has an effect entry that describes how it works.
@@ -93,26 +87,6 @@ If an ability's effect allows you to take a main action, a maneuver, a move acti
 #### Spend Heroic Resource
 
 Some abilities have a "Spend X [Heroic Resource]" entry in the body of the ability. These grant additional effects to an ability, where X is the amount of your [Heroic Resource](../rule/resource/heroic-resource.md) you must spend to activate those effects. If an entry reads "Spend X+ [Heroic Resource]," you can spend as much of your available [Heroic Resource](../rule/resource/heroic-resource.md) as you like in multiples of X to increase the effect's impact, as described in the entry's details.
-
-#### Stacking Unique Effects
-
-The unique effects of different abilities are combined—effectively stacking on top of each other—if their durations and targets overlap. However, the effects of the same ability used multiple times don't stack. Instead, the most impactful effect—such as the highest [bonus](../rule/dice/bonuses-and-penalties.md)—from each use of the ability applies. The most recently used ability applies for determining duration.
-
-For example, the [null's](../class/null.md) [Null Field](../feature/null/level-1/null-field.md) ability reduces the [potencies](../rule/character/potency.md) of enemies within the field by 1. If two allied [nulls](../class/null.md) each have their [Null Field](../feature/null/level-1/null-field.md) ability active and an enemy cultist is targeted by both abilities, that cultist's [potencies](../rule/character/potency.md) are reduced by 1, not by 2.
-
-Different effects that impose the same [condition](../rule/combat/condition.md) (see [Conditions](../rule/combat/condition.md) below) don't stack to impose the [condition](../rule/combat/condition.md) twice. For instance, if a hero is targeted by numerous creatures whose abilities cause a target to become [weakened](../condition/weakened.md) (imposing a [bane](../rule/dice/bane.md) on the target's [power rolls](../rule/dice/power-roll.md)), the target isn't [weakened](../condition/weakened.md) twice to impose a double [bane](../rule/dice/bane.md) on those rolls. A character who is [grabbed](../condition/grabbed.md) by an enemy can't be [grabbed](../condition/grabbed.md) again by another enemy. The same holds true for game effects that aren't [conditions](../rule/combat/condition.md). For example, if a hero is targeted by multiple abilities or effects that can halve their [recovery value](../rule/health/recoveries.md), the hero's [recovery value](../rule/health/recoveries.md) is halved only once.
-
-#### Ending Effects
-
-When a creature suffers a lasting effect, whatever ability, feature, hazard, or other mechanic imposed the effect specifies how long the effect lasts. Unless otherwise noted, all effects and [conditions](../rule/combat/condition.md) that are imposed on heroes during a combat encounter end when the encounter is over if the hero wants them to, except for being [winded](../rule/health/winded.md), unconscious, or [dying](../rule/health/dying.md). After combat, effects and [conditions](../rule/combat/condition.md) imposed on other creatures end when it's convenient for the heroes, allowing characters to easily bind or slip away from unconscious foes. However, the Director is free to decide that an unconscious dragon doesn't stay that way long enough to be tied up.
-
-##### End of Encounter
-
-Some effects last until the end of the encounter. If such an effect is used outside of combat, it lasts 5 minutes.
-
-##### Creature Ends an Ability Effect
-
-A creature who imposes an effect on another creature using an ability can end that effect as a [free maneuver](../rule/combat/free-maneuver.md) unless the ability says otherwise.
 
 #### Straight Line
 

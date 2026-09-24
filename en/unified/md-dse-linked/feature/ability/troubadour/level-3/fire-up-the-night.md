@@ -3,7 +3,7 @@ action_type: '[No action](../../../../rule/combat/turn.md)'
 class: troubadour
 distance: 5 [aura](../../../../rule/combat/aura.md)
 effects:
-    - effect: 'While this performance is active, each target who starts their [turn](../../../../rule/combat/turn.md) in the area doesn''t take a [bane](../../../../rule/dice/bane.md) on [strikes](../../../../rule/combat/strike.md) against creatures with [concealment](../../../../rule/combat/concealment.md). Once during their [turn](../../../../rule/combat/turn.md), they can search for hidden creatures as a [free maneuver](../../../../rule/combat/free-maneuver.md) (see Hide and Sneak in Chapter 9: [Tests](../../../../chapter/tests.md)).'
+    - effect: 'While this performance is active, each target who starts their [turn](../../../../rule/combat/turn.md) in the area doesn''t take a [bane](../../../../rule/dice/bane.md) on [strikes](../../../../rule/combat/strike.md) against creatures with [concealment](../../../../rule/combat/concealment.md). Once during their [turn](../../../../rule/combat/turn.md), they can search for hidden creatures as a [free maneuver](../../../../rule/combat/free-maneuver.md) (see [Hide and Sneak](../../../../rule/test/hide-and-sneak.md) in Chapter 9: [Tests](../../../../chapter/tests.md)).'
       name: Effect
 feature_type: ability
 file_basename: fire-up-the-night
@@ -27,7 +27,7 @@ type: ability
 ```ds-feature
 distance: 5 [aura](../../../../rule/combat/aura.md)
 effects:
-    - effect: 'While this performance is active, each target who starts their [turn](../../../../rule/combat/turn.md) in the area doesn''t take a [bane](../../../../rule/dice/bane.md) on [strikes](../../../../rule/combat/strike.md) against creatures with [concealment](../../../../rule/combat/concealment.md). Once during their [turn](../../../../rule/combat/turn.md), they can search for hidden creatures as a [free maneuver](../../../../rule/combat/free-maneuver.md) (see Hide and Sneak in Chapter 9: [Tests](../../../../chapter/tests.md)).'
+    - effect: 'While this performance is active, each target who starts their [turn](../../../../rule/combat/turn.md) in the area doesn''t take a [bane](../../../../rule/dice/bane.md) on [strikes](../../../../rule/combat/strike.md) against creatures with [concealment](../../../../rule/combat/concealment.md). Once during their [turn](../../../../rule/combat/turn.md), they can search for hidden creatures as a [free maneuver](../../../../rule/combat/free-maneuver.md) (see [Hide and Sneak](../../../../rule/test/hide-and-sneak.md) in Chapter 9: [Tests](../../../../chapter/tests.md)).'
       name: Effect
 feature_type: ability
 flavor: Maybe you and I ♪ We can still bring the light!♪
@@ -40,7 +40,7 @@ metadata:
     class: troubadour
     distance: 5 [aura](../../../../rule/combat/aura.md)
     effects:
-        - effect: 'While this performance is active, each target who starts their [turn](../../../../rule/combat/turn.md) in the area doesn''t take a [bane](../../../../rule/dice/bane.md) on [strikes](../../../../rule/combat/strike.md) against creatures with [concealment](../../../../rule/combat/concealment.md). Once during their [turn](../../../../rule/combat/turn.md), they can search for hidden creatures as a [free maneuver](../../../../rule/combat/free-maneuver.md) (see Hide and Sneak in Chapter 9: [Tests](../../../../chapter/tests.md)).'
+        - effect: 'While this performance is active, each target who starts their [turn](../../../../rule/combat/turn.md) in the area doesn''t take a [bane](../../../../rule/dice/bane.md) on [strikes](../../../../rule/combat/strike.md) against creatures with [concealment](../../../../rule/combat/concealment.md). Once during their [turn](../../../../rule/combat/turn.md), they can search for hidden creatures as a [free maneuver](../../../../rule/combat/free-maneuver.md) (see [Hide and Sneak](../../../../rule/test/hide-and-sneak.md) in Chapter 9: [Tests](../../../../chapter/tests.md)).'
           name: Effect
     flavor: Maybe you and I ♪ We can still bring the light!♪
     keywords:

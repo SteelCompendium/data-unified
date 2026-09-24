@@ -4,4 +4,4 @@ scc: mcdm.heroes.v1/feature.common.maneuvers/search-for-hidden-creatures
 type: feature
 ---
 
-The [Search for Hidden Creatures](scc.v1:mcdm.heroes.v1/feature.common.maneuvers/search-for-hidden-creatures) maneuver allows a creature to attempt to locate creatures hidden from them (see Hide and Sneak in Chapter 9: [Tests](scc.v1:mcdm.heroes.v1/chapter/tests)).
+The [Search for Hidden Creatures](scc.v1:mcdm.heroes.v1/feature.common.maneuvers/search-for-hidden-creatures) maneuver allows a creature to attempt to locate creatures hidden from them (see [Hide and Sneak](scc.v1:mcdm.heroes.v1/rule.test/hide-and-sneak) in Chapter 9: [Tests](scc.v1:mcdm.heroes.v1/chapter/tests)).

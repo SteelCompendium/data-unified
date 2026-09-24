@@ -1,0 +1,27 @@
+---
+name: Movement
+scc: mcdm.heroes.v1/rule.combat/movement
+type: rule
+---
+
+During combat, creatures can employ multiple mechanics that allow them to move around the battlefield. The most common of those mechanics is the [Advance](scc.v1:mcdm.heroes.v1/feature.common.move-actions/advance) or [Disengage](scc.v1:mcdm.heroes.v1/feature.common.move-actions/disengage) move action (detailed under Move Actions below), but abilities granted by your class, equipment, ancestry, title, or other options might allow you other ways to move.
+
+Your hero starts with a [speed](scc.v1:mcdm.heroes.v1/rule.character/speed) granted by their ancestry—usually 5. This represents the maximum number of squares you can move when you take the [Advance](scc.v1:mcdm.heroes.v1/feature.common.move-actions/advance) move action or when another effect allows you to move. Your [speed](scc.v1:mcdm.heroes.v1/rule.character/speed) can be increased by your kit and other game options.
+
+All squares [adjacent](scc.v1:mcdm.heroes.v1/rule.combat/adjacent) to your character cost 1 movement to move into. No, there's no Pythagorean theorem on the grid. It's a game, don't overthink it.
+
+Your hero can move freely through an ally's space. You can move through an enemy's space, but that space is [difficult terrain](scc.v1:mcdm.heroes.v1/movement/difficult-terrain) (see below). You can't stop moving in any other creature's space, including to make a [strike](scc.v1:mcdm.heroes.v1/rule.combat/strike) or use a main action or maneuver while in that space and then continuing your move, unless that creature's [size](scc.v1:mcdm.heroes.v1/rule.character/size) is two or more [sizes](scc.v1:mcdm.heroes.v1/rule.character/size) greater or smaller than your own.
+
+At the Director's discretion, you can be forced into the same space as another creature whose [size](scc.v1:mcdm.heroes.v1/rule.character/size) is within 1 of yours, such as by falling down a narrow shaft with such a creature already at the bottom. When you are squeezed into the same space as another creature whose [size](scc.v1:mcdm.heroes.v1/rule.character/size) is within 1 of yours, your [ability rolls](scc.v1:mcdm.heroes.v1/rule.dice/ability-roll) and [tests](scc.v1:mcdm.heroes.v1/rule.test/test) take a [bane](scc.v1:mcdm.heroes.v1/rule.dice/bane).
+
+#### Can't Exceed Speed
+
+A single move or other effect can never allow a creature to move more squares than their [speed](scc.v1:mcdm.heroes.v1/rule.character/speed), unless the effect states otherwise. For example, a creature with [speed](scc.v1:mcdm.heroes.v1/rule.character/speed) 5 might have that [speed](scc.v1:mcdm.heroes.v1/rule.character/speed) reduced to 2 by the [slowed](scc.v1:mcdm.heroes.v1/condition/slowed) [condition](scc.v1:mcdm.heroes.v1/rule.combat/condition) (see [Conditions](scc.v1:mcdm.heroes.v1/rule.combat/condition) in Chapter 5: [Classes](scc.v1:mcdm.heroes.v1/chapter/classes)). If an ally then targets them with an effect that allows them to move up to 3 squares, the creature can move only 2 squares because that's their current [speed](scc.v1:mcdm.heroes.v1/rule.character/speed).
+
+#### Can't Cut Corners
+
+A creature can't move diagonally when doing so would involve passing through the corner of a wall or some other object that completely fills the corner between the creature's space and the space they are moving to. This rule applies only to moving past objects, not moving past other creatures.
+
+#### Movement Types
+
+Creatures in the game can use eight types of movement: walk, [burrow](scc.v1:mcdm.heroes.v1/movement/burrow), climb, swim, jump, [crawl](scc.v1:mcdm.heroes.v1/movement/crawl), [fly](scc.v1:mcdm.heroes.v1/movement/fly), and [teleport](scc.v1:mcdm.heroes.v1/movement/teleport).

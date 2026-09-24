@@ -13,7 +13,7 @@ type: feature
 
 ```ds-feature
 effects:
-    - effect: 'Using the [Hide](hide.md) maneuver, a creature attempts to hide from other creatures who aren''t observing them while they have [cover](../../../rule/combat/cover.md) or [concealment](../../../rule/combat/concealment.md). See Hide and Sneak in Chapter 9: [Tests](../../../chapter/tests.md) for full details.'
+    - effect: 'Using the [Hide](hide.md) maneuver, a creature attempts to hide from other creatures who aren''t observing them while they have [cover](../../../rule/combat/cover.md) or [concealment](../../../rule/combat/concealment.md). See [Hide and Sneak](../../../rule/test/hide-and-sneak.md) in Chapter 9: [Tests](../../../chapter/tests.md) for full details.'
 feature_type: feature
 metadata:
     name: Hide

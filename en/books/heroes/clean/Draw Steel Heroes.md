@@ -14348,7 +14348,7 @@ As a 3rd-level [talent](scc.v1:mcdm.heroes.v1/class/talent), you gain the follow
 
 #### Scan
 
-You can extend your psionic senses beyond their usual range. Once on each of your [turns](scc.v1:mcdm.heroes.v1/rule.combat/turn), you can search for hidden creatures as a [free maneuver](scc.v1:mcdm.heroes.v1/rule.combat/free-maneuver) (see Hide and Sneak in Chapter 9: [Tests](scc.v1:mcdm.heroes.v1/chapter/tests)). Additionally, once you establish [line of effect](scc.v1:mcdm.heroes.v1/rule.combat/line-of-effect) to a thinking creature within [distance](scc.v1:mcdm.heroes.v1/rule.combat/distance) of your [Mind Spike](scc.v1:mcdm.heroes.v1/feature.ability.talent.level-1/mind-spike) ability, you always have [line of effect](scc.v1:mcdm.heroes.v1/rule.combat/line-of-effect) to that creature until they move beyond that [distance](scc.v1:mcdm.heroes.v1/rule.combat/distance).
+You can extend your psionic senses beyond their usual range. Once on each of your [turns](scc.v1:mcdm.heroes.v1/rule.combat/turn), you can search for hidden creatures as a [free maneuver](scc.v1:mcdm.heroes.v1/rule.combat/free-maneuver) (see [Hide and Sneak](scc.v1:mcdm.heroes.v1/rule.test/hide-and-sneak) in Chapter 9: [Tests](scc.v1:mcdm.heroes.v1/chapter/tests)). Additionally, once you establish [line of effect](scc.v1:mcdm.heroes.v1/rule.combat/line-of-effect) to a thinking creature within [distance](scc.v1:mcdm.heroes.v1/rule.combat/distance) of your [Mind Spike](scc.v1:mcdm.heroes.v1/feature.ability.talent.level-1/mind-spike) ability, you always have [line of effect](scc.v1:mcdm.heroes.v1/rule.combat/line-of-effect) to that creature until they move beyond that [distance](scc.v1:mcdm.heroes.v1/rule.combat/distance).
 
 #### 7-Clarity Ability
 
@@ -15728,7 +15728,7 @@ You have the following performance abilities, which are usable with your [Routin
 > |------------------------------|--------------------------------------:|
 > | **📏 5 [aura](scc.v1:mcdm.heroes.v1/rule.combat/aura)**                | **🎯 Self and each ally in the area** |
 >
-> **Effect:** While this performance is active, each target who starts their [turn](scc.v1:mcdm.heroes.v1/rule.combat/turn) in the area doesn't take a [bane](scc.v1:mcdm.heroes.v1/rule.dice/bane) on [strikes](scc.v1:mcdm.heroes.v1/rule.combat/strike) against creatures with [concealment](scc.v1:mcdm.heroes.v1/rule.combat/concealment). Once during their [turn](scc.v1:mcdm.heroes.v1/rule.combat/turn), they can search for hidden creatures as a [free maneuver](scc.v1:mcdm.heroes.v1/rule.combat/free-maneuver) (see Hide and Sneak in Chapter 9: [Tests](scc.v1:mcdm.heroes.v1/chapter/tests)).
+> **Effect:** While this performance is active, each target who starts their [turn](scc.v1:mcdm.heroes.v1/rule.combat/turn) in the area doesn't take a [bane](scc.v1:mcdm.heroes.v1/rule.dice/bane) on [strikes](scc.v1:mcdm.heroes.v1/rule.combat/strike) against creatures with [concealment](scc.v1:mcdm.heroes.v1/rule.combat/concealment). Once during their [turn](scc.v1:mcdm.heroes.v1/rule.combat/turn), they can search for hidden creatures as a [free maneuver](scc.v1:mcdm.heroes.v1/rule.combat/free-maneuver) (see [Hide and Sneak](scc.v1:mcdm.heroes.v1/rule.test/hide-and-sneak) in Chapter 9: [Tests](scc.v1:mcdm.heroes.v1/chapter/tests)).
 
 > ###### "Never-Ending Hero"
 >
@@ -20093,7 +20093,7 @@ See [Conditions](scc.v1:mcdm.heroes.v1/rule.combat/condition) in Chapter 5: [Cla
 
 #### Hide
 
-Using the [Hide](scc.v1:mcdm.heroes.v1/feature.common.maneuvers/hide) maneuver, a creature attempts to hide from other creatures who aren't observing them while they have [cover](scc.v1:mcdm.heroes.v1/rule.combat/cover) or [concealment](scc.v1:mcdm.heroes.v1/rule.combat/concealment). See Hide and Sneak in Chapter 9: [Tests](scc.v1:mcdm.heroes.v1/chapter/tests) for full details.
+Using the [Hide](scc.v1:mcdm.heroes.v1/feature.common.maneuvers/hide) maneuver, a creature attempts to hide from other creatures who aren't observing them while they have [cover](scc.v1:mcdm.heroes.v1/rule.combat/cover) or [concealment](scc.v1:mcdm.heroes.v1/rule.combat/concealment). See [Hide and Sneak](scc.v1:mcdm.heroes.v1/rule.test/hide-and-sneak) in Chapter 9: [Tests](scc.v1:mcdm.heroes.v1/chapter/tests) for full details.
 
 #### Knockback
 
@@ -20121,7 +20121,7 @@ Complex or time-consuming [tests](scc.v1:mcdm.heroes.v1/rule.test/test) might re
 
 #### Search for Hidden Creatures
 
-The [Search for Hidden Creatures](scc.v1:mcdm.heroes.v1/feature.common.maneuvers/search-for-hidden-creatures) maneuver allows a creature to attempt to locate creatures hidden from them (see Hide and Sneak in Chapter 9: [Tests](scc.v1:mcdm.heroes.v1/chapter/tests)).
+The [Search for Hidden Creatures](scc.v1:mcdm.heroes.v1/feature.common.maneuvers/search-for-hidden-creatures) maneuver allows a creature to attempt to locate creatures hidden from them (see [Hide and Sneak](scc.v1:mcdm.heroes.v1/rule.test/hide-and-sneak) in Chapter 9: [Tests](scc.v1:mcdm.heroes.v1/chapter/tests)).
 
 #### Stand Up
 
@@ -20468,7 +20468,7 @@ If one or more heroes negotiating with an [NPC](scc.v1:mcdm.heroes.v1/rule.gener
 
 #### Motivations
 
-Each [NPC](scc.v1:mcdm.heroes.v1/rule.general/npc) has at least two motivations the heroes can appeal to with their arguments. Arguments that appeal to an [NPC](scc.v1:mcdm.heroes.v1/rule.general/npc)'s motivation require an easier [power roll](scc.v1:mcdm.heroes.v1/rule.dice/power-roll) to increase the [NPC](scc.v1:mcdm.heroes.v1/rule.general/npc)'s [interest](scc.v1:mcdm.heroes.v1/rule.negotiation/interest). Arguments that don't appeal to a motivation require a more difficult [power roll](scc.v1:mcdm.heroes.v1/rule.dice/power-roll). See Making Arguments below for more information.
+Each [NPC](scc.v1:mcdm.heroes.v1/rule.general/npc) has at least two motivations the heroes can appeal to with their arguments. Arguments that appeal to an [NPC](scc.v1:mcdm.heroes.v1/rule.general/npc)'s motivation require an easier [power roll](scc.v1:mcdm.heroes.v1/rule.dice/power-roll) to increase the [NPC](scc.v1:mcdm.heroes.v1/rule.general/npc)'s [interest](scc.v1:mcdm.heroes.v1/rule.negotiation/interest). Arguments that don't appeal to a motivation require a more difficult [power roll](scc.v1:mcdm.heroes.v1/rule.dice/power-roll). See [Making Arguments](scc.v1:mcdm.heroes.v1/rule.negotiation/argument) below for more information.
 
 Each motivation can be successfully appealed to only once during a negotiation. To successfully appeal to a motivation, the heroes must use the motivation in an argument without mentioning one of the [NPC](scc.v1:mcdm.heroes.v1/rule.general/npc)'s [pitfalls](scc.v1:mcdm.heroes.v1/rule.negotiation/pitfall) or being caught in a lie.
 

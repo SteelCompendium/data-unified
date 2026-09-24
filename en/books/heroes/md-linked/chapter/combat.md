@@ -128,7 +128,7 @@ Any effect that prevents you from using maneuvers also prevents you from using f
 
 The Director can limit what kinds of no-action activities you can attempt when it isn't your [turn](../rule/combat/turn.md). For instance, shouting out a warning about an unseen foe to an ally on the ally's or the foe's [turn](../rule/combat/turn.md) requires no action. But the Director might stop you from giving that ally complex tactical advice when it isn't your [turn](../rule/combat/turn.md), saying that doing so instead requires a [free maneuver](../rule/combat/free-maneuver.md) on your [turn](../rule/combat/turn.md).
 
-### Movement
+### Movement {data-scc="mcdm.heroes.v1/rule.combat/movement"}
 
 During combat, creatures can employ multiple mechanics that allow them to move around the battlefield. The most common of those mechanics is the [Advance](../feature/common/move-actions/advance.md) or [Disengage](../feature/common/move-actions/disengage.md) move action (detailed under Move Actions below), but abilities granted by your class, equipment, ancestry, title, or other options might allow you other ways to move.
 
@@ -459,7 +459,7 @@ See [Conditions](../rule/combat/condition.md) in Chapter 5: [Classes](classes.md
 
 #### Hide {data-scc="mcdm.heroes.v1/feature.common.maneuvers/hide"}
 
-Using the [Hide](../feature/common/maneuvers/hide.md) maneuver, a creature attempts to hide from other creatures who aren't observing them while they have [cover](../rule/combat/cover.md) or [concealment](../rule/combat/concealment.md). See Hide and Sneak in Chapter 9: [Tests](tests.md) for full details.
+Using the [Hide](../feature/common/maneuvers/hide.md) maneuver, a creature attempts to hide from other creatures who aren't observing them while they have [cover](../rule/combat/cover.md) or [concealment](../rule/combat/concealment.md). See [Hide and Sneak](../rule/test/hide-and-sneak.md) in Chapter 9: [Tests](tests.md) for full details.
 
 #### Knockback {data-scc="mcdm.heroes.v1/feature.common.maneuvers/knockback"}
 
@@ -488,7 +488,7 @@ Complex or time-consuming [tests](../rule/test/test.md) might require a main act
 
 #### Search for Hidden Creatures {data-scc="mcdm.heroes.v1/feature.common.maneuvers/search-for-hidden-creatures"}
 
-The [Search for Hidden Creatures](../feature/common/maneuvers/search-for-hidden-creatures.md) maneuver allows a creature to attempt to locate creatures hidden from them (see Hide and Sneak in Chapter 9: [Tests](tests.md)).
+The [Search for Hidden Creatures](../feature/common/maneuvers/search-for-hidden-creatures.md) maneuver allows a creature to attempt to locate creatures hidden from them (see [Hide and Sneak](../rule/test/hide-and-sneak.md) in Chapter 9: [Tests](tests.md)).
 
 #### Stand Up {data-scc="mcdm.heroes.v1/feature.common.maneuvers/stand-up"}
 
@@ -701,7 +701,7 @@ If a creature riding a mount is [force moved](../movement/forced-movement.md), t
 
 If your mount dies, they [fall prone](../condition/prone.md), and you fall off them and l[and prone](../condition/prone.md) in the nearest unoccupied space of your choice.
 
-### End of Combat
+### End of Combat {data-scc="mcdm.heroes.v1/rule.combat/end-of-combat"}
 
 At the end of combat, the Director determines if the heroes earn any [Victories](../rule/resource/victories.md). Any effect or [condition](../rule/combat/condition.md) on you that you suffered during combat (except for being [winded](../rule/health/winded.md), unconscious, or [dying](../rule/health/dying.md)) ends if you want it to.
 

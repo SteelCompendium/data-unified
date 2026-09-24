@@ -342,7 +342,7 @@ Whenever you make an [ability roll](../rule/dice/ability-roll.md) as a main acti
 
 You can't score a critical hit with an [ability roll](../rule/dice/ability-roll.md) made as a maneuver or any other action type, but you can score a critical hit with a main action you use off your [turn](../rule/combat/turn.md). For example, an [opportunity attack](../rule/combat/opportunity-attack.md) made as a [triggered action](../rule/combat/triggered-action.md) or a [signature ability](../rule/combat/signature-ability.md) used as a free [triggered action](../rule/combat/triggered-action.md) with the assistance of the [tactician's](../class/tactician.md) [Strike Now](../feature/ability/tactician/level-1/strike-now.md) ability can be critical hits.
 
-#### Roll Against Multiple Creatures
+#### Roll Against Multiple Creatures {data-scc="mcdm.heroes.v1/rule.dice/multiple-targets"}
 
 When an ability has multiple targets (whether a [strike](../rule/combat/strike.md) with more than one target or an area affect), you make one [power roll](../rule/dice/power-roll.md) and apply the total to all targets. If you have [edges](../rule/dice/edge.md) or [banes](../rule/dice/bane.md) (see Chapter 1: [The Basics](the-basics.md)) against some but not all of your targets, you might apply a different [tier outcome](../rule/dice/tier-outcome.md) to individual targets.
 
@@ -371,7 +371,7 @@ If an ability's effect allows you to take a main action, a maneuver, a move acti
 
 Some abilities have a "Spend X [Heroic Resource]" entry in the body of the ability. These grant additional effects to an ability, where X is the amount of your [Heroic Resource](../rule/resource/heroic-resource.md) you must spend to activate those effects. If an entry reads "Spend X+ [Heroic Resource]," you can spend as much of your available [Heroic Resource](../rule/resource/heroic-resource.md) as you like in multiples of X to increase the effect's impact, as described in the entry's details.
 
-#### Stacking Unique Effects
+#### Stacking Unique Effects {data-scc="mcdm.heroes.v1/rule.combat/stacking-effects"}
 
 The unique effects of different abilities are combined—effectively stacking on top of each other—if their durations and targets overlap. However, the effects of the same ability used multiple times don't stack. Instead, the most impactful effect—such as the highest [bonus](../rule/dice/bonuses-and-penalties.md)—from each use of the ability applies. The most recently used ability applies for determining duration.
 
@@ -379,7 +379,7 @@ For example, the [null's](../class/null.md) [Null Field](../feature/null/level-1
 
 Different effects that impose the same [condition](../rule/combat/condition.md) (see [Conditions](../rule/combat/condition.md) below) don't stack to impose the [condition](../rule/combat/condition.md) twice. For instance, if a hero is targeted by numerous creatures whose abilities cause a target to become [weakened](../condition/weakened.md) (imposing a [bane](../rule/dice/bane.md) on the target's [power rolls](../rule/dice/power-roll.md)), the target isn't [weakened](../condition/weakened.md) twice to impose a double [bane](../rule/dice/bane.md) on those rolls. A character who is [grabbed](../condition/grabbed.md) by an enemy can't be [grabbed](../condition/grabbed.md) again by another enemy. The same holds true for game effects that aren't [conditions](../rule/combat/condition.md). For example, if a hero is targeted by multiple abilities or effects that can halve their [recovery value](../rule/health/recoveries.md), the hero's [recovery value](../rule/health/recoveries.md) is halved only once.
 
-#### Ending Effects
+#### Ending Effects {data-scc="mcdm.heroes.v1/rule.combat/ending-effects"}
 
 When a creature suffers a lasting effect, whatever ability, feature, hazard, or other mechanic imposed the effect specifies how long the effect lasts. Unless otherwise noted, all effects and [conditions](../rule/combat/condition.md) that are imposed on heroes during a combat encounter end when the encounter is over if the hero wants them to, except for being [winded](../rule/health/winded.md), unconscious, or [dying](../rule/health/dying.md). After combat, effects and [conditions](../rule/combat/condition.md) imposed on other creatures end when it's convenient for the heroes, allowing characters to easily bind or slip away from unconscious foes. However, the Director is free to decide that an unconscious dragon doesn't stay that way long enough to be tied up.
 
@@ -10751,7 +10751,7 @@ As a 3rd-level [talent](../class/talent.md), you gain the following features.
 
 #### Scan {data-scc="mcdm.heroes.v1/feature.talent.level-3/scan"}
 
-You can extend your psionic senses beyond their usual range. Once on each of your [turns](../rule/combat/turn.md), you can search for hidden creatures as a [free maneuver](../rule/combat/free-maneuver.md) (see Hide and Sneak in Chapter 9: [Tests](tests.md)). Additionally, once you establish [line of effect](../rule/combat/line-of-effect.md) to a thinking creature within [distance](../rule/combat/distance.md) of your [Mind Spike](../feature/ability/talent/level-1/mind-spike.md) ability, you always have [line of effect](../rule/combat/line-of-effect.md) to that creature until they move beyond that [distance](../rule/combat/distance.md).
+You can extend your psionic senses beyond their usual range. Once on each of your [turns](../rule/combat/turn.md), you can search for hidden creatures as a [free maneuver](../rule/combat/free-maneuver.md) (see [Hide and Sneak](../rule/test/hide-and-sneak.md) in Chapter 9: [Tests](tests.md)). Additionally, once you establish [line of effect](../rule/combat/line-of-effect.md) to a thinking creature within [distance](../rule/combat/distance.md) of your [Mind Spike](../feature/ability/talent/level-1/mind-spike.md) ability, you always have [line of effect](../rule/combat/line-of-effect.md) to that creature until they move beyond that [distance](../rule/combat/distance.md).
 
 #### 7-Clarity Ability {data-scc="mcdm.heroes.v1/feature.talent.level-3/7-clarity-ability"}
 
@@ -12188,7 +12188,7 @@ You have the following performance abilities, which are usable with your [Routin
 |------------------------------|--------------------------------------:|
 | **📏 5 [aura](../rule/combat/aura.md)**                | **🎯 Self and each ally in the area** |
 
-**Effect:** While this performance is active, each target who starts their [turn](../rule/combat/turn.md) in the area doesn't take a [bane](../rule/dice/bane.md) on [strikes](../rule/combat/strike.md) against creatures with [concealment](../rule/combat/concealment.md). Once during their [turn](../rule/combat/turn.md), they can search for hidden creatures as a [free maneuver](../rule/combat/free-maneuver.md) (see Hide and Sneak in Chapter 9: [Tests](tests.md)).
+**Effect:** While this performance is active, each target who starts their [turn](../rule/combat/turn.md) in the area doesn't take a [bane](../rule/dice/bane.md) on [strikes](../rule/combat/strike.md) against creatures with [concealment](../rule/combat/concealment.md). Once during their [turn](../rule/combat/turn.md), they can search for hidden creatures as a [free maneuver](../rule/combat/free-maneuver.md) (see [Hide and Sneak](../rule/test/hide-and-sneak.md) in Chapter 9: [Tests](tests.md)).
 
 ###### "Never-Ending Hero" {data-scc="mcdm.heroes.v1/feature.ability.troubadour.level-3/never-ending-hero" data-subclass="virtuoso"}
 

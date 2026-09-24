@@ -59,7 +59,7 @@ If one or more heroes negotiating with an [NPC](../rule/general/npc.md) can comm
 
 #### Motivations {data-scc="mcdm.heroes.v1/rule.negotiation/motivation"}
 
-Each [NPC](../rule/general/npc.md) has at least two motivations the heroes can appeal to with their arguments. Arguments that appeal to an [NPC](../rule/general/npc.md)'s motivation require an easier [power roll](../rule/dice/power-roll.md) to increase the [NPC](../rule/general/npc.md)'s [interest](../rule/negotiation/interest.md). Arguments that don't appeal to a motivation require a more difficult [power roll](../rule/dice/power-roll.md). See Making Arguments below for more information.
+Each [NPC](../rule/general/npc.md) has at least two motivations the heroes can appeal to with their arguments. Arguments that appeal to an [NPC](../rule/general/npc.md)'s motivation require an easier [power roll](../rule/dice/power-roll.md) to increase the [NPC](../rule/general/npc.md)'s [interest](../rule/negotiation/interest.md). Arguments that don't appeal to a motivation require a more difficult [power roll](../rule/dice/power-roll.md). See [Making Arguments](../rule/negotiation/argument.md) below for more information.
 
 Each motivation can be successfully appealed to only once during a negotiation. To successfully appeal to a motivation, the heroes must use the motivation in an argument without mentioning one of the [NPC](../rule/general/npc.md)'s [pitfalls](../rule/negotiation/pitfall.md) or being caught in a lie.
 
@@ -215,7 +215,7 @@ Arguments that appeal to the [vengeance](../negotiation/vengeance.md) [motivatio
 >
 > Just like the heroes, [NPCs](../rule/general/npc.md) in negotiations are complex individuals who can change over time. It's possible that the heroes might have to negotiate with the same [NPC](../rule/general/npc.md) for several different favors during the course of a campaign, over which time the [NPC](../rule/general/npc.md)'s [motivations](../rule/negotiation/motivation.md) and [pitfalls](../rule/negotiation/pitfall.md) might change. If the heroes [turn](../rule/combat/turn.md) a bandit captain with the [greed](../negotiation/greed.md) and [power](../negotiation/power.md) [motivations](../rule/negotiation/motivation.md) into a temporary ally, that criminal might learn from them, changing their ways to rob only those who exploit the poor and giving those earnings to people in need. The next time the heroes negotiate with the bandit captain, they have the [benevolence](../negotiation/benevolence.md) and [protection](../negotiation/protection.md) [motivations](../rule/negotiation/motivation.md).
 
-### Opening a Negotiation
+### Opening a Negotiation {data-scc="mcdm.heroes.v1/rule.negotiation/opening"}
 
 A negotiation begins when the heroes ask something of an [NPC](../rule/general/npc.md) and the Director deems that the circumstances require a negotiation. Those circumstances always involve the heroes requiring assistance that could change the course of the adventure, and having the [NPC](../rule/general/npc.md) conflicted about working with them. Unlike combat, which can be thrust upon the heroes by violent allies or unexpected circumstances, the heroes must be the ones to willingly start a negotiation. Characters must want something from an [NPC](../rule/general/npc.md). Otherwise they have no reason to negotiate!
 
@@ -260,7 +260,7 @@ After this [test](../rule/test/test.md) is made, the heroes can't make another [
 
 While the heroes can discover an [NPC](../rule/general/npc.md)'s [motivations](../rule/negotiation/motivation.md) or [pitfalls](../rule/negotiation/pitfall.md) through [tests](../rule/test/test.md) made during negotiation, they can employ other methods of investigating [motivations](../rule/negotiation/motivation.md) or [pitfalls](../rule/negotiation/pitfall.md) before negotiation. Research or a little reconnaissance (for instance, reading the [NPC](../rule/general/npc.md)'s diary or talking to their closest friends) can reveal quite a bit about a person!
 
-### Making Arguments
+### Making Arguments {data-scc="mcdm.heroes.v1/rule.negotiation/argument"}
 
 As part of their initial request to an [NPC](../rule/general/npc.md) in a negotiation, a hero makes an argument as to why the [NPC](../rule/general/npc.md) should give the heroes what they want. The hero might offer to do something in exchange as part of their argument, such as clearing bandits from a forest, handing over a piece of treasure, or slaying a dragon for the [NPC](../rule/general/npc.md). Or instead of offering something, the hero could attempt to convince the [NPC](../rule/general/npc.md) that it's in their own best [interest](../rule/negotiation/interest.md) to help—or even that it's a moral imperative. For example, a hero could appeal to a knight's sense of duty, the potential wealth a mercenary could make, or the final wish of a queen's dearly departed grandmother as part of an argument. [NPCs](../rule/general/npc.md) who admire the heroes are more likely to respond to compliments and buttering up, while those who fear the heroes are more likely to respond to intimidation and awe.
 
@@ -347,7 +347,7 @@ If a hero has enough [Renown](../rule/resource/renown.md) for their score to inf
 
 If a hero is famous to an [NPC](../rule/general/npc.md), they gain an [edge](../rule/dice/edge.md) on [tests](../rule/test/test.md) when making arguments to which the [Flirt](../skill/interpersonal/flirt.md), Lead, or [Persuade](../skill/interpersonal/persuade.md) skill could be applied. If they are infamous to the [NPC](../rule/general/npc.md), they gain an [edge](../rule/dice/edge.md) on [tests](../rule/test/test.md) when making arguments to which the [Brag](../skill/interpersonal/brag.md), [Interrogate](../skill/interpersonal/interrogate.md), or [Intimidate](../skill/interpersonal/intimidate.md) skill could be applied. A hero gains this [edge](../rule/dice/edge.md) even if they don't have the appropriate skill.
 
-### NPC Response and Offer
+### NPC Response and Offer {data-scc="mcdm.heroes.v1/rule.negotiation/offer"}
 
 After a hero makes an argument, an [NPC](../rule/general/npc.md) responds in one of three ways:
 

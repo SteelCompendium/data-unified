@@ -76,12 +76,6 @@ If an ability requires a [triggered action](scc.v1:mcdm.heroes.v1/rule.combat/tr
 
 Certain ability effects allow you to move and affect other creatures or objects during that move, such as the [shadow's](scc.v1:mcdm.heroes.v1/class/shadow) [One Hundred Throats](scc.v1:mcdm.heroes.v1/feature.ability.shadow.level-1/one-hundred-throats) ability. For such abilities, the move begins in the space you first leave when you start the move and ends in the last space you move into.
 
-#### Roll Against Multiple Creatures
-
-When an ability has multiple targets (whether a [strike](scc.v1:mcdm.heroes.v1/rule.combat/strike) with more than one target or an area affect), you make one [power roll](scc.v1:mcdm.heroes.v1/rule.dice/power-roll) and apply the total to all targets. If you have [edges](scc.v1:mcdm.heroes.v1/rule.dice/edge) or [banes](scc.v1:mcdm.heroes.v1/rule.dice/bane) (see Chapter 1: [The Basics](scc.v1:mcdm.heroes.v1/chapter/the-basics)) against some but not all of your targets, you might apply a different [tier outcome](scc.v1:mcdm.heroes.v1/rule.dice/tier-outcome) to individual targets.
-
-For example, if you target three creatures with a [strike](scc.v1:mcdm.heroes.v1/rule.combat/strike) ability and the [power roll](scc.v1:mcdm.heroes.v1/rule.dice/power-roll) totals 11, each of the targets should be affected by the tier 1 outcome of the ability. However, if you gain an [edge](scc.v1:mcdm.heroes.v1/rule.dice/edge) on [strikes](scc.v1:mcdm.heroes.v1/rule.combat/strike) against one of the targets to add 2 to the [power roll](scc.v1:mcdm.heroes.v1/rule.dice/power-roll), your total against that target is 13, and they are affected by the tier 2 outcome of the ability.
-
 #### Effect
 
 Many abilities that require [power rolls](scc.v1:mcdm.heroes.v1/rule.dice/power-roll) also have effect entries describing additional effects or rules for how the ability is used. If an ability doesn't require a [power roll](scc.v1:mcdm.heroes.v1/rule.dice/power-roll), it has an effect entry that describes how it works.
@@ -93,26 +87,6 @@ If an ability's effect allows you to take a main action, a maneuver, a move acti
 #### Spend Heroic Resource
 
 Some abilities have a "Spend X [Heroic Resource]" entry in the body of the ability. These grant additional effects to an ability, where X is the amount of your [Heroic Resource](scc.v1:mcdm.heroes.v1/rule.resource/heroic-resource) you must spend to activate those effects. If an entry reads "Spend X+ [Heroic Resource]," you can spend as much of your available [Heroic Resource](scc.v1:mcdm.heroes.v1/rule.resource/heroic-resource) as you like in multiples of X to increase the effect's impact, as described in the entry's details.
-
-#### Stacking Unique Effects
-
-The unique effects of different abilities are combined—effectively stacking on top of each other—if their durations and targets overlap. However, the effects of the same ability used multiple times don't stack. Instead, the most impactful effect—such as the highest [bonus](scc.v1:mcdm.heroes.v1/rule.dice/bonuses-and-penalties)—from each use of the ability applies. The most recently used ability applies for determining duration.
-
-For example, the [null's](scc.v1:mcdm.heroes.v1/class/null) [Null Field](scc.v1:mcdm.heroes.v1/feature.null.level-1/null-field) ability reduces the [potencies](scc.v1:mcdm.heroes.v1/rule.character/potency) of enemies within the field by 1. If two allied [nulls](scc.v1:mcdm.heroes.v1/class/null) each have their [Null Field](scc.v1:mcdm.heroes.v1/feature.null.level-1/null-field) ability active and an enemy cultist is targeted by both abilities, that cultist's [potencies](scc.v1:mcdm.heroes.v1/rule.character/potency) are reduced by 1, not by 2.
-
-Different effects that impose the same [condition](scc.v1:mcdm.heroes.v1/rule.combat/condition) (see [Conditions](scc.v1:mcdm.heroes.v1/rule.combat/condition) below) don't stack to impose the [condition](scc.v1:mcdm.heroes.v1/rule.combat/condition) twice. For instance, if a hero is targeted by numerous creatures whose abilities cause a target to become [weakened](scc.v1:mcdm.heroes.v1/condition/weakened) (imposing a [bane](scc.v1:mcdm.heroes.v1/rule.dice/bane) on the target's [power rolls](scc.v1:mcdm.heroes.v1/rule.dice/power-roll)), the target isn't [weakened](scc.v1:mcdm.heroes.v1/condition/weakened) twice to impose a double [bane](scc.v1:mcdm.heroes.v1/rule.dice/bane) on those rolls. A character who is [grabbed](scc.v1:mcdm.heroes.v1/condition/grabbed) by an enemy can't be [grabbed](scc.v1:mcdm.heroes.v1/condition/grabbed) again by another enemy. The same holds true for game effects that aren't [conditions](scc.v1:mcdm.heroes.v1/rule.combat/condition). For example, if a hero is targeted by multiple abilities or effects that can halve their [recovery value](scc.v1:mcdm.heroes.v1/rule.health/recoveries), the hero's [recovery value](scc.v1:mcdm.heroes.v1/rule.health/recoveries) is halved only once.
-
-#### Ending Effects
-
-When a creature suffers a lasting effect, whatever ability, feature, hazard, or other mechanic imposed the effect specifies how long the effect lasts. Unless otherwise noted, all effects and [conditions](scc.v1:mcdm.heroes.v1/rule.combat/condition) that are imposed on heroes during a combat encounter end when the encounter is over if the hero wants them to, except for being [winded](scc.v1:mcdm.heroes.v1/rule.health/winded), unconscious, or [dying](scc.v1:mcdm.heroes.v1/rule.health/dying). After combat, effects and [conditions](scc.v1:mcdm.heroes.v1/rule.combat/condition) imposed on other creatures end when it's convenient for the heroes, allowing characters to easily bind or slip away from unconscious foes. However, the Director is free to decide that an unconscious dragon doesn't stay that way long enough to be tied up.
-
-##### End of Encounter
-
-Some effects last until the end of the encounter. If such an effect is used outside of combat, it lasts 5 minutes.
-
-##### Creature Ends an Ability Effect
-
-A creature who imposes an effect on another creature using an ability can end that effect as a [free maneuver](scc.v1:mcdm.heroes.v1/rule.combat/free-maneuver) unless the ability says otherwise.
 
 #### Straight Line
 
