@@ -14,7 +14,12 @@ type: trait
 
 ```ds-feature
 effects:
-    - effect: '[Revenant](../../../ancestry/revenant.md) heroes have access to the following traits.'
+    - effect: |-
+        [Revenant](../../../ancestry/revenant.md) heroes have access to the following traits.
+
+        #### Purchased Revenant Traits
+
+        You have 2 ancestry points to spend on the following traits, or 3 ancestry points if your [size](../../../rule/character/size.md) is 1S. (*Quick Build:* Bloodless, plus Undead Influence if [size](../../../rule/character/size.md) 1S.)
 feature_type: trait
 metadata:
     ancestry: revenant

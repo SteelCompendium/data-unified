@@ -82,7 +82,7 @@ Your undead body grants you immunity to cold, corruption, lightning, and poison 
 
 Additionally, when your [Stamina](../rule/health/stamina.md) reaches the negative of your [winded](../rule/health/winded.md) value, you become inert instead of [dying](../rule/health/dying.md). You fall [prone](../condition/prone.md) and can't stand. You continue to observe your surroundings, but you can't speak, take main actions, maneuvers, move actions, or [triggered actions](../rule/combat/triggered-action.md). While inert this way, if you take any fire damage, your body is destroyed and you die. Otherwise, after 12 hours, you regain [Stamina](../rule/health/stamina.md) equal to your [recovery value](../rule/health/recoveries.md).
 
-#### Purchased Revenant Traits
+### Purchased Revenant Traits
 
 You have 2 ancestry points to spend on the following traits, or 3 ancestry points if your [size](../rule/character/size.md) is 1S. (*Quick Build:* Bloodless, plus Undead Influence if [size](../rule/character/size.md) 1S.)
 
