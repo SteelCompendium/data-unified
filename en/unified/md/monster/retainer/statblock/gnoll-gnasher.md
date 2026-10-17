@@ -1,6 +1,6 @@
 ---
 agility: 2
-ev: "60"
+ev: '-'
 free_strike: 3
 intuition: 0
 keywords:
@@ -21,7 +21,7 @@ stamina: "30"
 type: statblock
 ---
 
-|  Abyssal, Gnoll   |         -         |      Level 2      |   Harrier Retainer    |        EV 60         |
+|  Abyssal, Gnoll   |         -         |      Level 2      |   Harrier Retainer    |         EV -         |
 |:-----------------:|:-----------------:|:-----------------:|:---------------------:|:--------------------:|
 |  **1M**<br>Size   |  **7**<br>Speed   | **30**<br>Stamina |  **1**<br>Stability   | **3**<br>Free Strike |
 | **-**<br>Immunity | **-**<br>Movement |         -         | **-**<br>With Captain |  **-**<br>Weakness   |

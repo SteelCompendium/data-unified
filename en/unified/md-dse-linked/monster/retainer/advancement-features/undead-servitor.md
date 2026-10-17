@@ -36,7 +36,7 @@ features:
         - Magic
         - Ranged
         - Strike
-      level: 4
+      level: 7
       name: Death to Death
       power_roll:
         formula: + highest characteristic
@@ -127,7 +127,7 @@ features:
         - Magic
         - Ranged
         - Strike
-      level: 4
+      level: 7
       name: Death to Death
       power_roll:
         formula: + highest characteristic

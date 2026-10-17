@@ -22,7 +22,7 @@ effects:
 
         | Domain     | Feature                     |
         |------------|-----------------------------|
-        | Creation   | Improved [Hands of the Maker](scc.v1:mcdm.heroes.v1/feature.ability.censor.level-1/hands-of-the-maker) |
+        | Creation   | Improved [Hands of the Maker](scc.v1:mcdm.heroes.v1/feature.ability.conduit.level-1/hands-of-the-maker) |
         | Death      | Seance                      |
         | Fate       | [Oracular Warning](scc.v1:mcdm.heroes.v1/feature.censor.level-4/oracular-warning)            |
         | Knowledge  | [Saint](scc.v1:mcdm.heroes.v1/rule.world/saint)'s Epiphany            |
@@ -32,7 +32,7 @@ effects:
         | Protection | [Impervious Touch](scc.v1:mcdm.heroes.v1/feature.censor.level-4/impervious-touch)            |
         | Storm      | Windwalk                    |
         | Sun        | [Light of Revelation](scc.v1:mcdm.heroes.v1/feature.censor.level-4/light-of-revelation)         |
-        | Trickery   | [Blessing of Secrets](scc.v1:mcdm.heroes.v1/feature.ability.censor.level-4/blessing-of-secrets)         |
+        | Trickery   | [Blessing of Secrets](scc.v1:mcdm.heroes.v1/feature.ability.conduit.level-4/blessing-of-secrets)         |
         | War        | [Improved Sanctified Weapon](scc.v1:mcdm.heroes.v1/feature.censor.level-4/improved-sanctified-weapon)  |
 
         ###### Blessing of Life

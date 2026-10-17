@@ -41,7 +41,7 @@ features:
         - Magic
         - Ranged
         - Strike
-      level: 4
+      level: 7
       name: Take Root
       power_roll:
         formula: + highest characteristic
@@ -102,8 +102,8 @@ type: featureblock
 >
 > **Effect:** While the target is cursed this way, whenever they make a strike that targets only one creature, the retainer can use a free triggered action to choose a second target for the strike within its distance.
 
-> ######## Level 7 Role Advancement Ability
->
+> **Level 7 Role Advancement Ability**
+
 > 🏹 **Take Root (Encounter)**
 >
 > | **Magic, Ranged, Strike** |     **[Main action](scc.v1:mcdm.heroes.v1/rule.combat/turn)** |

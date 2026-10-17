@@ -28,28 +28,6 @@ features:
       target: Each enemy in the area
       usage: Main action
     - cost: Encounter
-      distance: 3 cube within 15
-      effects:
-        - roll: Power Roll + highest characteristic
-          tier1: 8 damage; I < WEAK [dazed](../../../condition/dazed.md) ([save](../../../rule/general/saving-throw.md) ends
-          tier2: 12 damage; I < AVERAGE [dazed](../../../condition/dazed.md) ([save](../../../rule/general/saving-throw.md) ends)
-          tier3: 16 damage; I < STRONG [dazed](../../../condition/dazed.md) ([save](../../../rule/general/saving-throw.md) ends) and [prone](../../../condition/prone.md)
-      icon: "\U0001F533"
-      keywords:
-        - Area
-        - Ranged
-        - Weapon
-      level: 10
-      name: Pacifier Shell
-      power_roll:
-        formula: + highest characteristic
-        tiers:
-            high: 16 damage; I < STRONG [dazed](../../../condition/dazed.md) ([save](../../../rule/general/saving-throw.md) ends) and [prone](../../../condition/prone.md)
-            low: 8 damage; I < WEAK [dazed](../../../condition/dazed.md) ([save](../../../rule/general/saving-throw.md) ends
-            mid: 12 damage; I < AVERAGE [dazed](../../../condition/dazed.md) ([save](../../../rule/general/saving-throw.md) ends)
-      target: Each enemy in the area
-      usage: Main action
-    - cost: Encounter
       distance: 10 x 1 line within 1
       effects:
         - roll: Power Roll + highest characteristic
@@ -75,6 +53,28 @@ features:
           text: Until the start of the mortar's next turn, [strikes](../../../rule/combat/strike.md) made against the mortar or any ally [adjacent](../../../rule/combat/adjacent.md) to them take a bane.
       target: Each enemy in the area
       usage: Main action
+    - cost: Encounter
+      distance: 3 cube within 15
+      effects:
+        - roll: Power Roll + highest characteristic
+          tier1: 8 damage; I < WEAK [dazed](../../../condition/dazed.md) ([save](../../../rule/general/saving-throw.md) ends)
+          tier2: 12 damage; I < AVERAGE [dazed](../../../condition/dazed.md) ([save](../../../rule/general/saving-throw.md) ends)
+          tier3: 16 damage; I < STRONG [dazed](../../../condition/dazed.md) ([save](../../../rule/general/saving-throw.md) ends) and [prone](../../../condition/prone.md)
+      icon: "\U0001F533"
+      keywords:
+        - Area
+        - Ranged
+        - Weapon
+      level: 10
+      name: Pacifier Shell
+      power_roll:
+        formula: + highest characteristic
+        tiers:
+            high: 16 damage; I < STRONG [dazed](../../../condition/dazed.md) ([save](../../../rule/general/saving-throw.md) ends) and [prone](../../../condition/prone.md)
+            low: 8 damage; I < WEAK [dazed](../../../condition/dazed.md) ([save](../../../rule/general/saving-throw.md) ends)
+            mid: 12 damage; I < AVERAGE [dazed](../../../condition/dazed.md) ([save](../../../rule/general/saving-throw.md) ends)
+      target: Each enemy in the area
+      usage: Main action
 name: Dwarf Mortar Advancement Features
 scc: mcdm.monsters.v1/monster.retainer.advancement-features/dwarf-mortar
 type: featureblock
@@ -96,20 +96,6 @@ type: featureblock
 > - **12-16:** 8 fire damage
 > - **17+:** 11 fire damage
 
-> **Level 10 Retainer Advancement Ability**
-
-> 🔳 **Pacifier Shell (Encounter)**
->
-> | **Area, Ranged, Weapon** |               **[Main action](../../../rule/combat/turn.md)** |
-> |--------------------------|------------------------------:|
-> | **📏 3 cube within 15**  | **🎯 Each enemy in the area** |
->
-> **Power Roll + highest characteristic:**
->
-> - **≤11:** 8 damage; I < WEAK [dazed](../../../condition/dazed.md) ([save](../../../rule/general/saving-throw.md) ends
-> - **12-16:** 12 damage; I < AVERAGE [dazed](../../../condition/dazed.md) ([save](../../../rule/general/saving-throw.md) ends)
-> - **17+:** 16 damage; I < STRONG [dazed](../../../condition/dazed.md) ([save](../../../rule/general/saving-throw.md) ends) and [prone](../../../condition/prone.md)
-
 > **Level 7 Retainer Advancement Ability**
 
 > 🔳 **Screaming Shell (Encounter)**
@@ -125,3 +111,17 @@ type: featureblock
 > - **17+:** 13 damage; P < STRONG [frightened](../../../condition/frightened.md)
 >
 > **Effect:** Until the start of the mortar's next turn, [strikes](../../../rule/combat/strike.md) made against the mortar or any ally [adjacent](../../../rule/combat/adjacent.md) to them take a bane.
+
+> **Level 10 Retainer Advancement Ability**
+
+> 🔳 **Pacifier Shell (Encounter)**
+>
+> | **Area, Ranged, Weapon** |               **[Main action](../../../rule/combat/turn.md)** |
+> |--------------------------|------------------------------:|
+> | **📏 3 cube within 15**  | **🎯 Each enemy in the area** |
+>
+> **Power Roll + highest characteristic:**
+>
+> - **≤11:** 8 damage; I < WEAK [dazed](../../../condition/dazed.md) ([save](../../../rule/general/saving-throw.md) ends)
+> - **12-16:** 12 damage; I < AVERAGE [dazed](../../../condition/dazed.md) ([save](../../../rule/general/saving-throw.md) ends)
+> - **17+:** 16 damage; I < STRONG [dazed](../../../condition/dazed.md) ([save](../../../rule/general/saving-throw.md) ends) and [prone](../../../condition/prone.md)

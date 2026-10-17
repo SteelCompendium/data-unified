@@ -41,7 +41,7 @@ features:
         - Magic
         - Ranged
         - Strike
-      level: 4
+      level: 7
       name: Take Root
       power_roll:
         formula: + highest characteristic
@@ -134,7 +134,7 @@ features:
         - Magic
         - Ranged
         - Strike
-      level: 4
+      level: 7
       name: Take Root
       power_roll:
         formula: + highest characteristic

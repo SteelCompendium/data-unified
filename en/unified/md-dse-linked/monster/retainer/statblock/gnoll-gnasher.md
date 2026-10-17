@@ -1,6 +1,6 @@
 ---
 agility: 2
-ev: "60"
+ev: '-'
 file_basename: gnoll-gnasher
 file_dpath: monster/retainer/statblock
 free_strike: 3
@@ -28,7 +28,7 @@ type: statblock
 
 ```ds-sb
 agility: 2
-ev: "60"
+ev: '-'
 features:
     - ability_type: Signature Ability
       distance: Melee 1

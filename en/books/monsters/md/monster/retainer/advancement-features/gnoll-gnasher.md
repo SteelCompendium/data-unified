@@ -48,7 +48,7 @@ features:
           name: Effect
       icon: "\U0001F464"
       level: 10
-      name: Horrific Feas
+      name: Horrific Feast
       sections:
         - label: Trigger
           text: The gnasher reduces a creature to 0 [Stamina](scc.v1:mcdm.heroes.v1/rule.health/stamina).
@@ -89,7 +89,7 @@ type: featureblock
 
 > **Level 10 Retainer Advancement Ability**
 
-> 👤 **Horrific Feas (Encounter)**
+> 👤 **Horrific Feast (Encounter)**
 >
 > | **-**       | **[Main action](scc.v1:mcdm.heroes.v1/rule.combat/turn)** |
 > |-------------|----------------:|

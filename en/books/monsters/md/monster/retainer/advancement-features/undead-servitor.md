@@ -36,7 +36,7 @@ features:
         - Magic
         - Ranged
         - Strike
-      level: 4
+      level: 7
       name: Death to Death
       power_roll:
         formula: + highest characteristic
@@ -98,7 +98,7 @@ type: featureblock
 > - **12-16:** 11 damage; M < AVERAGE [grabbed](scc.v1:mcdm.heroes.v1/condition/grabbed)
 > - **17+:** 16 damage; M < STRONG [grabbed](scc.v1:mcdm.heroes.v1/condition/grabbed)
 
-########Level 7 Retainer Advancement Ability
+> **Level 7 Retainer Advancement Ability**
 
 > 🏹 **Death to Death (Encounter)**
 >

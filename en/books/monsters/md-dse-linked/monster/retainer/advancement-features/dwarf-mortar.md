@@ -28,28 +28,6 @@ features:
       target: Each enemy in the area
       usage: Main action
     - cost: Encounter
-      distance: 3 cube within 15
-      effects:
-        - roll: Power Roll + highest characteristic
-          tier1: 8 damage; I < WEAK [dazed](../../../condition/dazed.md) ([save](../../../rule/general/saving-throw.md) ends
-          tier2: 12 damage; I < AVERAGE [dazed](../../../condition/dazed.md) ([save](../../../rule/general/saving-throw.md) ends)
-          tier3: 16 damage; I < STRONG [dazed](../../../condition/dazed.md) ([save](../../../rule/general/saving-throw.md) ends) and [prone](../../../condition/prone.md)
-      icon: "\U0001F533"
-      keywords:
-        - Area
-        - Ranged
-        - Weapon
-      level: 10
-      name: Pacifier Shell
-      power_roll:
-        formula: + highest characteristic
-        tiers:
-            high: 16 damage; I < STRONG [dazed](../../../condition/dazed.md) ([save](../../../rule/general/saving-throw.md) ends) and [prone](../../../condition/prone.md)
-            low: 8 damage; I < WEAK [dazed](../../../condition/dazed.md) ([save](../../../rule/general/saving-throw.md) ends
-            mid: 12 damage; I < AVERAGE [dazed](../../../condition/dazed.md) ([save](../../../rule/general/saving-throw.md) ends)
-      target: Each enemy in the area
-      usage: Main action
-    - cost: Encounter
       distance: 10 x 1 line within 1
       effects:
         - roll: Power Roll + highest characteristic
@@ -73,6 +51,28 @@ features:
       sections:
         - label: Effect
           text: Until the start of the mortar's next turn, [strikes](../../../rule/combat/strike.md) made against the mortar or any ally [adjacent](../../../rule/combat/adjacent.md) to them take a bane.
+      target: Each enemy in the area
+      usage: Main action
+    - cost: Encounter
+      distance: 3 cube within 15
+      effects:
+        - roll: Power Roll + highest characteristic
+          tier1: 8 damage; I < WEAK [dazed](../../../condition/dazed.md) ([save](../../../rule/general/saving-throw.md) ends)
+          tier2: 12 damage; I < AVERAGE [dazed](../../../condition/dazed.md) ([save](../../../rule/general/saving-throw.md) ends)
+          tier3: 16 damage; I < STRONG [dazed](../../../condition/dazed.md) ([save](../../../rule/general/saving-throw.md) ends) and [prone](../../../condition/prone.md)
+      icon: "\U0001F533"
+      keywords:
+        - Area
+        - Ranged
+        - Weapon
+      level: 10
+      name: Pacifier Shell
+      power_roll:
+        formula: + highest characteristic
+        tiers:
+            high: 16 damage; I < STRONG [dazed](../../../condition/dazed.md) ([save](../../../rule/general/saving-throw.md) ends) and [prone](../../../condition/prone.md)
+            low: 8 damage; I < WEAK [dazed](../../../condition/dazed.md) ([save](../../../rule/general/saving-throw.md) ends)
+            mid: 12 damage; I < AVERAGE [dazed](../../../condition/dazed.md) ([save](../../../rule/general/saving-throw.md) ends)
       target: Each enemy in the area
       usage: Main action
 file_basename: dwarf-mortar
@@ -115,28 +115,6 @@ features:
       target: Each enemy in the area
       usage: Main action
     - cost: Encounter
-      distance: 3 cube within 15
-      effects:
-        - roll: Power Roll + highest characteristic
-          tier1: 8 damage; I < WEAK [dazed](../../../condition/dazed.md) ([save](../../../rule/general/saving-throw.md) ends
-          tier2: 12 damage; I < AVERAGE [dazed](../../../condition/dazed.md) ([save](../../../rule/general/saving-throw.md) ends)
-          tier3: 16 damage; I < STRONG [dazed](../../../condition/dazed.md) ([save](../../../rule/general/saving-throw.md) ends) and [prone](../../../condition/prone.md)
-      icon: "\U0001F533"
-      keywords:
-        - Area
-        - Ranged
-        - Weapon
-      level: 10
-      name: Pacifier Shell
-      power_roll:
-        formula: + highest characteristic
-        tiers:
-            high: 16 damage; I < STRONG [dazed](../../../condition/dazed.md) ([save](../../../rule/general/saving-throw.md) ends) and [prone](../../../condition/prone.md)
-            low: 8 damage; I < WEAK [dazed](../../../condition/dazed.md) ([save](../../../rule/general/saving-throw.md) ends
-            mid: 12 damage; I < AVERAGE [dazed](../../../condition/dazed.md) ([save](../../../rule/general/saving-throw.md) ends)
-      target: Each enemy in the area
-      usage: Main action
-    - cost: Encounter
       distance: 10 x 1 line within 1
       effects:
         - roll: Power Roll + highest characteristic
@@ -160,6 +138,28 @@ features:
       sections:
         - label: Effect
           text: Until the start of the mortar's next turn, [strikes](../../../rule/combat/strike.md) made against the mortar or any ally [adjacent](../../../rule/combat/adjacent.md) to them take a bane.
+      target: Each enemy in the area
+      usage: Main action
+    - cost: Encounter
+      distance: 3 cube within 15
+      effects:
+        - roll: Power Roll + highest characteristic
+          tier1: 8 damage; I < WEAK [dazed](../../../condition/dazed.md) ([save](../../../rule/general/saving-throw.md) ends)
+          tier2: 12 damage; I < AVERAGE [dazed](../../../condition/dazed.md) ([save](../../../rule/general/saving-throw.md) ends)
+          tier3: 16 damage; I < STRONG [dazed](../../../condition/dazed.md) ([save](../../../rule/general/saving-throw.md) ends) and [prone](../../../condition/prone.md)
+      icon: "\U0001F533"
+      keywords:
+        - Area
+        - Ranged
+        - Weapon
+      level: 10
+      name: Pacifier Shell
+      power_roll:
+        formula: + highest characteristic
+        tiers:
+            high: 16 damage; I < STRONG [dazed](../../../condition/dazed.md) ([save](../../../rule/general/saving-throw.md) ends) and [prone](../../../condition/prone.md)
+            low: 8 damage; I < WEAK [dazed](../../../condition/dazed.md) ([save](../../../rule/general/saving-throw.md) ends)
+            mid: 12 damage; I < AVERAGE [dazed](../../../condition/dazed.md) ([save](../../../rule/general/saving-throw.md) ends)
       target: Each enemy in the area
       usage: Main action
 metadata:

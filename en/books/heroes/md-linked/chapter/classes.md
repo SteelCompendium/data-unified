@@ -2794,7 +2794,7 @@ Choose one of your domains. You gain a domain feature for that domain, as shown 
 
 | Domain     | Feature                     |
 |------------|-----------------------------|
-| Creation   | Improved [Hands of the Maker](../feature/ability/censor/level-1/hands-of-the-maker.md) |
+| Creation   | Improved [Hands of the Maker](../feature/ability/conduit/level-1/hands-of-the-maker.md) |
 | Death      | Seance                      |
 | Fate       | [Oracular Warning](../feature/censor/level-4/oracular-warning.md)            |
 | Knowledge  | [Saint](../rule/world/saint.md)'s Epiphany            |
@@ -2804,7 +2804,7 @@ Choose one of your domains. You gain a domain feature for that domain, as shown 
 | Protection | [Impervious Touch](../feature/censor/level-4/impervious-touch.md)            |
 | Storm      | Windwalk                    |
 | Sun        | [Light of Revelation](../feature/censor/level-4/light-of-revelation.md)         |
-| Trickery   | [Blessing of Secrets](../feature/ability/censor/level-4/blessing-of-secrets.md)         |
+| Trickery   | [Blessing of Secrets](../feature/ability/conduit/level-4/blessing-of-secrets.md)         |
 | War        | [Improved Sanctified Weapon](../feature/censor/level-4/improved-sanctified-weapon.md)  |
 
 ###### Blessing of Life
@@ -10987,7 +10987,7 @@ You gain one interpersonal, lore, or [supernatural](../rule/general/supernatural
 
 #### Psi Boost {data-scc="mcdm.heroes.v1/feature.talent.level-6/psi-boost"}
 
-Whenever you use an ability that is a main action or a maneuver with the Psionic keyword, you can spend additional discipline to apply a [psi boost](../feature/null/level-7/psi-boost.md) to it and enhance its effects. A [psi boost](../feature/null/level-7/psi-boost.md)'s effects only last until the end of the [turn](../rule/combat/turn.md) which the ability is first used. You can apply multiple psi boosts to an ability, but only one instance of each specific boost. You can use the following psi boosts.
+Whenever you use an ability that is a main action or a maneuver with the Psionic keyword, you can spend additional clarity to apply a [psi boost](../feature/talent/level-6/psi-boost.md) to it and enhance its effects. A [psi boost](../feature/talent/level-6/psi-boost.md)'s effects only last until the end of the [turn](../rule/combat/turn.md) which the ability is first used. You can apply multiple psi boosts to an ability, but only one instance of each specific boost. You can use the following psi boosts.
 
 ##### Dynamic Power {data-scc="mcdm.heroes.v1/feature.talent.level-6/dynamic-power" data-cost="1 Clarity"}
 
@@ -11529,8 +11529,8 @@ The whole world's a stage, and everyone on it, an actor. No one knows this bette
 | 4th   | [Characteristic Increase](../feature/troubadour/level-4/characteristic-increase.md), [Melodrama](../feature/troubadour/level-4/melodrama.md), [Perk](../feature/troubadour/level-4/perk.md), [Skill](../feature/troubadour/level-4/skill.md), [Zeitgeist](../feature/troubadour/level-4/zeitgeist.md)                                                                      | Signature, 3, 5, 7        | 5                   |
 | 5th   | [Class Act Feature](../feature/troubadour/level-5/5th-level-class-act-feature.md), [9-Drama Ability](../feature/troubadour/level-5/9-drama-ability.md)                                                                                              | Signature, 3, 5, 7, 9     | 5                   |
 | 6th   | [Perk](../feature/troubadour/level-6/perk.md), [Spotlight](../feature/troubadour/level-6/spotlight.md), [Class Act Ability](../feature/troubadour/level-6/6th-level-class-act-ability.md)                                                                                              | Signature, 3, 5, 7, 9     | 5, 9                |
-| 7th   | [Characteristic Increase](../feature/troubadour/level-7/characteristic-increase.md), [A Muse's Muse](../feature/troubadour/level-7/a-muses-muse.md), [Equal Billing](../feature/troubadour/level-7/equal-billing.md), [Skill](../feature/troubadour/level-7/skill.md)                                                                    | Signature, 5, 7, 9        | 5, 9                |
-| 8th   | [Perk](../feature/troubadour/level-8/perk.md), [Class Act Feature](../feature/troubadour/level-8/8th-level-class-act-feature.md), [11-Drama Ability](../feature/troubadour/level-8/11-drama-ability.md)                                                                                       | Signature, 3, 5, 7, 9, 11 | 5, 9, 11            |
+| 7th   | [Characteristic Increase](../feature/troubadour/level-7/characteristic-increase.md), [A Muse's Muse](../feature/troubadour/level-7/a-muses-muse.md), [Equal Billing](../feature/troubadour/level-7/equal-billing.md), [Skill](../feature/troubadour/level-7/skill.md)                                                                    | Signature, 3, 5, 7, 9     | 5, 9                |
+| 8th   | [Perk](../feature/troubadour/level-8/perk.md), [Class Act Feature](../feature/troubadour/level-8/8th-level-class-act-feature.md), [11-Drama Ability](../feature/troubadour/level-8/11-drama-ability.md)                                                                                       | Signature, 3, 5, 7, 9, 11 | 5, 9                |
 | 9th   | [Roar of the Crowd](../feature/troubadour/level-9/roar-of-the-crowd.md), [Class Act Ability](../feature/troubadour/level-9/9th-level-class-act-ability.md)                                                                                            | Signature, 3, 5, 7, 9, 11 | 5, 9, 11            |
 | 10th  | [Applause](../feature/troubadour/level-10/applause.md), [Characteristic Increase](../feature/troubadour/level-10/characteristic-increase.md), [Dramaturgy](../feature/troubadour/level-10/dramaturgy.md), [Greatest of All Time](../feature/troubadour/level-10/greatest-of-all-time.md), [Perk](../feature/troubadour/level-10/perk.md), [Skill](../feature/troubadour/level-10/skill.md)                                                | Signature, 3, 5, 7, 9, 11 | 5, 9, 11            |
 
