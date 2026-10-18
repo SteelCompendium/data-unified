@@ -1,18 +1,86 @@
 ---
+agility: 2
 companion: spider
 file_basename: spider
 file_dpath: monster/companion/beastheart/statblock
+free_strike: 1 + M
+intuition: 2
 item_id: spider
 item_name: Spider
-level: "1"
+keywords:
+    - Animal
+    - Companion
+level: 1
+might: 2
+movement: Climb
 name: Spider
+organization: Companion
+presence: 1
+reason: -1
 scc: mcdm.beastheart.v1/monster.companion.beastheart.statblock/spider
+size: 1M
+skills:
+    - Sneak
 source: mcdm.beastheart.v1
-type: feature-group
+speed: 5
+stability: 1
+stamina: = yours
+type: statblock
 ---
 
-| Animal, Companion |           -           |                        Level 1                        |          -          |            -             |
-|:-----------------:|:---------------------:|:-----------------------------------------------------:|:-------------------:|:------------------------:|
-|  **1M**<br>Size   |    **5**<br>Speed     |                **= yours**<br>Stamina                 | **1**<br>Stability  | **1 + M**<br>Free Strike |
-| **—**<br>Immunity | **Climb**<br>Movement | **[Sneak](scc.v1:mcdm.heroes.v1/skill.intrigue/sneak)**<br>Skills |                     |                          |
-|  **+2**<br>Might  |   **+2**<br>Agility   |                   **-1**<br>Reason                    | **+2**<br>Intuition |    **+1**<br>Presence    |
+```ds-sb
+agility: 2
+ev: ""
+features:
+    - ability_type: Signature Ability
+      distance: Ranged 5
+      effects:
+        - effect: If the target has M < AVERAGE, they are [restrained](scc.v1:mcdm.heroes.v1/condition/restrained) until the end of their next turn.
+          name: Effect
+        - cost: Spend 1 Ferocity
+          effect: If the target has M < STRONG, they are [restrained](scc.v1:mcdm.heroes.v1/condition/restrained) (save ends).
+      feature_type: ability
+      flavor: The spider fires a ball of sticky silk.
+      keywords:
+        - Companion
+        - Ranged
+        - Weapon
+      metadata:
+        scc:
+            - mcdm.beastheart.v1/feature.ability.companion.beastheart.spider.level-1/web-shot
+      name: Web Shot
+      target: One enemy
+      type: feature
+      usage: Maneuver
+    - effects:
+        - effect: Whenever the spider makes a strike against a [restrained](scc.v1:mcdm.heroes.v1/condition/restrained) creature, the spider deals extra poison damage equal to twice their Intuition score.
+      feature_type: feature
+      metadata:
+        scc:
+            - mcdm.beastheart.v1/feature.companion.beastheart.spider.level-1/come-into-my-parlor
+      name: Come Into My Parlor
+      type: feature
+free_strike: 1 + M
+intuition: 2
+keywords:
+    - Animal
+    - Companion
+level: 1
+metadata:
+    scc: mcdm.beastheart.v1/monster.companion.beastheart.statblock/spider
+    source: mcdm.beastheart.v1
+might: 2
+movement: Climb
+name: Spider
+organization: Companion
+presence: 1
+reason: -1
+role: ""
+size: 1M
+skills:
+    - Sneak
+speed: 5
+stability: 1
+stamina: = yours
+type: statblock
+```

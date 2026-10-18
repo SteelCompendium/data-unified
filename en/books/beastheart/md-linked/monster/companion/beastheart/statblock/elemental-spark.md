@@ -1,9 +1,27 @@
 ---
+agility: 2
 companion: elemental-spark
-level: "1"
+free_strike: 1 + M
+immunities:
+    - Lightning 3
+intuition: 2
+keywords:
+    - Companion
+    - Elemental
+level: 1
+might: 2
 name: Elemental Spark
+organization: Companion
+presence: 1
+reason: -1
 scc: mcdm.beastheart.v1/monster.companion.beastheart.statblock/elemental-spark
-type: feature-group
+size: 1M
+skills:
+    - Magic
+speed: 7
+stability: 1
+stamina: = yours
+type: statblock
 ---
 
 |    Companion, Elemental     |         -         |                        Level 1                        |          -          |            -             |

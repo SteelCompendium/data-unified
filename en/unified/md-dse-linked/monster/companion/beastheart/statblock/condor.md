@@ -1,18 +1,86 @@
 ---
+agility: 1
 companion: condor
 file_basename: condor
 file_dpath: monster/companion/beastheart/statblock
+free_strike: 1 + M
+intuition: 2
 item_id: condor
 item_name: Condor
-level: "1"
+keywords:
+    - Animal
+    - Companion
+level: 1
+might: 2
+movement: Fly
 name: Condor
+organization: Companion
+presence: 1
+reason: -1
 scc: mcdm.beastheart.v1/monster.companion.beastheart.statblock/condor
+size: 1M
+skills:
+    - Alertness
 source: mcdm.beastheart.v1
-type: feature-group
+speed: 7
+stability: 0
+stamina: = yours
+type: statblock
 ---
 
-| Animal, Companion |          -          |                            Level 1                            |          -          |            -             |
-|:-----------------:|:-------------------:|:-------------------------------------------------------------:|:-------------------:|:------------------------:|
-|  **1M**<br>Size   |   **7**<br>Speed    |                    **= yours**<br>Stamina                     | **0**<br>Stability  | **1 + M**<br>Free Strike |
-| **—**<br>Immunity | **Fly**<br>Movement | **[Alertness](../../../../skill/intrigue/alertness.md)**<br>Skills |                     |                          |
-|  **+2**<br>Might  |  **+1**<br>Agility  |                       **-1**<br>Reason                        | **+2**<br>Intuition |    **+1**<br>Presence    |
+```ds-sb
+agility: 1
+ev: ""
+features:
+    - ability_type: Signature Ability
+      distance: Melee 1
+      effects:
+        - effect: The target takes damage equal to 3 + the condor's Might score. Additionally, enemies are [weakened](../../../../condition/weakened.md) while adjacent to the condor until the end of your next turn.
+          name: Effect
+        - cost: Spend 1 Ferocity
+          effect: An enemy who would be [weakened](../../../../condition/weakened.md) by this ability is [taunted](../../../../condition/taunted.md) instead.
+      feature_type: ability
+      flavor: I can't draw a bead on them with that infernal bird flapping in my face!
+      keywords:
+        - Companion
+        - Melee
+        - Weapon
+      metadata:
+        scc:
+            - mcdm.beastheart.v1/feature.ability.companion.beastheart.condor.level-1/flurry-of-wings
+      name: Flurry of Wings
+      target: One creature or object
+      type: feature
+      usage: Maneuver
+    - effects:
+        - effect: While the condor is [flying](../../../../movement/fly.md) and has a speed greater than 0, ranged strikes against them take a bane.
+      feature_type: feature
+      metadata:
+        scc:
+            - mcdm.beastheart.v1/feature.companion.beastheart.condor.level-1/moving-target
+      name: Moving Target
+      type: feature
+free_strike: 1 + M
+intuition: 2
+keywords:
+    - Animal
+    - Companion
+level: 1
+metadata:
+    scc: mcdm.beastheart.v1/monster.companion.beastheart.statblock/condor
+    source: mcdm.beastheart.v1
+might: 2
+movement: Fly
+name: Condor
+organization: Companion
+presence: 1
+reason: -1
+role: ""
+size: 1M
+skills:
+    - Alertness
+speed: 7
+stability: 0
+stamina: = yours
+type: statblock
+```

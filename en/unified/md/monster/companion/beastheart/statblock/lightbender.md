@@ -1,9 +1,25 @@
 ---
+agility: 1
 companion: lightbender
-level: "1"
+free_strike: 1 + M
+intuition: 2
+keywords:
+    - Beast
+    - Companion
+level: 1
+might: 2
 name: Lightbender
+organization: Companion
+presence: 2
+reason: -1
 scc: mcdm.beastheart.v1/monster.companion.beastheart.statblock/lightbender
-type: feature-group
+size: 1L
+skills:
+    - Hide
+speed: 7
+stability: 2
+stamina: = yours
+type: statblock
 ---
 
 | Beast, Companion  |         -         |                       Level 1                       |          -          |            -             |

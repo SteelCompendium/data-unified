@@ -1,9 +1,28 @@
 ---
+agility: 1
 companion: drake
-level: "1"
+free_strike: 1 + M
+immunities:
+    - Attuned damage type 3 (see Elementally Attuned)
+intuition: 2
+keywords:
+    - Companion
+    - Dragon
+level: 1
+might: 2
+movement: Fly
 name: Drake
+organization: Companion
+presence: 2
+reason: -1
 scc: mcdm.beastheart.v1/monster.companion.beastheart.statblock/drake
-type: feature-group
+size: 1M
+skills:
+    - Intimidate
+speed: 5
+stability: 1
+stamina: = yours
+type: statblock
 ---
 
 |                                                                  Companion, Dragon                                                                  |          -          |                             Level 1                             |          -          |            -             |

@@ -1,8 +1,78 @@
 {
-  "companion": "sporeling",
-  "content": "|     Beast, Companion     |         -         |                        Level 1                        |          -          |            -             |\n|:------------------------:|:-----------------:|:-----------------------------------------------------:|:-------------------:|:------------------------:|\n|      **1S**\u003cbr\u003eSize      |  **5**\u003cbr\u003eSpeed   |                **= yours**\u003cbr\u003eStamina                 | **0**\u003cbr\u003eStability  | **1 + M**\u003cbr\u003eFree Strike |\n| **Poison 3**\u003cbr\u003eImmunity | **—**\u003cbr\u003eMovement | **[Track](scc.v1:mcdm.heroes.v1/skill.intrigue/track)**\u003cbr\u003eSkills |                     |                          |\n|     **+2**\u003cbr\u003eMight      | **+2**\u003cbr\u003eAgility |                   **-1**\u003cbr\u003eReason                    | **+2**\u003cbr\u003eIntuition |    **+1**\u003cbr\u003ePresence    |",
-  "level": "1",
+  "agility": 2,
+  "ev": "",
+  "features": [
+    {
+      "ability_type": "Signature Ability",
+      "distance": "Melee 1",
+      "effects": [
+        {
+          "effect": "The target takes poison damage equal to 3 + the sporeling's Might score, and the sporeling is invisible to the target until the end of the sporeling's next turn or they deal damage to the target.",
+          "name": "Effect"
+        },
+        {
+          "cost": "Spend 1 Ferocity",
+          "effect": "If the target has M \u003c STRONG, they are [dazed](scc.v1:mcdm.heroes.v1/condition/dazed) until the end of their next turn."
+        }
+      ],
+      "feature_type": "ability",
+      "flavor": "The sporeling breathes a cloud of disorienting fumes.",
+      "keywords": [
+        "Companion",
+        "Melee"
+      ],
+      "metadata": {
+        "scc": [
+          "mcdm.beastheart.v1/feature.ability.companion.beastheart.sporeling.level-1/spore-puff"
+        ]
+      },
+      "name": "Spore Puff",
+      "target": "One enemy",
+      "type": "feature",
+      "usage": "Maneuver"
+    },
+    {
+      "effects": [
+        {
+          "effect": "The sporeling can end their movement in an ally's space. While occupying an ally's space, the sporeling has cover."
+        }
+      ],
+      "feature_type": "feature",
+      "metadata": {
+        "scc": [
+          "mcdm.beastheart.v1/feature.companion.beastheart.sporeling.level-1/skulker"
+        ]
+      },
+      "name": "Skulker",
+      "type": "feature"
+    }
+  ],
+  "free_strike": "1 + M",
+  "immunities": [
+    "Poison 3"
+  ],
+  "intuition": 2,
+  "keywords": [
+    "Beast",
+    "Companion"
+  ],
+  "level": 1,
+  "metadata": {
+    "scc": "mcdm.beastheart.v1/monster.companion.beastheart.statblock/sporeling",
+    "source": "mcdm.beastheart.v1"
+  },
+  "might": 2,
   "name": "Sporeling",
-  "scc": "mcdm.beastheart.v1/monster.companion.beastheart.statblock/sporeling",
-  "type": "feature-group"
+  "organization": "Companion",
+  "presence": 1,
+  "reason": -1,
+  "role": "",
+  "size": "1S",
+  "skills": [
+    "Track"
+  ],
+  "speed": 5,
+  "stability": 0,
+  "stamina": "= yours",
+  "type": "statblock"
 }

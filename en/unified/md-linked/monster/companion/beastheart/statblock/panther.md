@@ -1,9 +1,26 @@
 ---
+agility: 2
 companion: panther
-level: "1"
+free_strike: 1 + M
+intuition: 2
+keywords:
+    - Animal
+    - Companion
+level: 1
+might: 2
+movement: Climb
 name: Panther
+organization: Companion
+presence: 1
+reason: -1
 scc: mcdm.beastheart.v1/monster.companion.beastheart.statblock/panther
-type: feature-group
+size: 1M
+skills:
+    - Sneak
+speed: 7
+stability: 1
+stamina: = yours
+type: statblock
 ---
 
 | Animal, Companion |           -           |                        Level 1                        |          -          |            -             |

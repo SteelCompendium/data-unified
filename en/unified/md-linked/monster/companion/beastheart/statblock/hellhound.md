@@ -1,9 +1,27 @@
 ---
+agility: 2
 companion: hellhound
-level: "1"
+free_strike: 1 + M
+immunities:
+    - Fire 3
+intuition: 2
+keywords:
+    - Companion
+    - Infernal
+level: 1
+might: 2
 name: Hellhound
+organization: Companion
+presence: 1
+reason: -1
 scc: mcdm.beastheart.v1/monster.companion.beastheart.statblock/hellhound
-type: feature-group
+size: 1M
+skills:
+    - Intimidate
+speed: 7
+stability: 1
+stamina: = yours
+type: statblock
 ---
 
 |  Companion, Infernal   |         -         |                             Level 1                             |          -          |            -             |

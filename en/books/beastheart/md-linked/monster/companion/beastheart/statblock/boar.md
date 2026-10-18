@@ -1,9 +1,25 @@
 ---
+agility: 1
 companion: boar
-level: "1"
+free_strike: 1 + M
+intuition: 2
+keywords:
+    - Animal
+    - Companion
+level: 1
+might: 2
 name: Boar
+organization: Companion
+presence: 2
+reason: -1
 scc: mcdm.beastheart.v1/monster.companion.beastheart.statblock/boar
-type: feature-group
+size: 1M
+skills:
+    - Search
+speed: 5
+stability: 2
+stamina: = yours
+type: statblock
 ---
 
 | Animal, Companion |         -         |                         Level 1                         |          -          |            -             |

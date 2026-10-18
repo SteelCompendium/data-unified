@@ -1,9 +1,27 @@
 ---
+agility: 2
 companion: gummy-ball
-level: "1"
+free_strike: 1 + M
+immunities:
+    - Acid 3
+intuition: 2
+keywords:
+    - Companion
+    - Ooze
+level: 1
+might: 2
 name: Gummy Ball
+organization: Companion
+presence: 1
+reason: -1
 scc: mcdm.beastheart.v1/monster.companion.beastheart.statblock/gummy-ball
-type: feature-group
+size: 1L
+skills:
+    - Sneak
+speed: 5
+stability: 2
+stamina: = yours
+type: statblock
 ---
 
 |    Companion, Ooze     |         -         |                        Level 1                        |          -          |            -             |

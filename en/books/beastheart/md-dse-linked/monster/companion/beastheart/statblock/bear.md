@@ -1,18 +1,86 @@
 ---
+agility: 1
 companion: bear
 file_basename: bear
 file_dpath: monster/companion/beastheart/statblock
+free_strike: 1 + M
+intuition: 2
 item_id: bear
 item_name: Bear
-level: "1"
+keywords:
+    - Animal
+    - Companion
+level: 1
+might: 2
+movement: Climb
 name: Bear
+organization: Companion
+presence: 2
+reason: -1
 scc: mcdm.beastheart.v1/monster.companion.beastheart.statblock/bear
+size: 1L
+skills:
+    - Intimidate
 source: mcdm.beastheart.v1
-type: feature-group
+speed: 5
+stability: 2
+stamina: = yours
+type: statblock
 ---
 
-| Animal, Companion |           -           |                             Level 1                             |          -          |            -             |
-|:-----------------:|:---------------------:|:---------------------------------------------------------------:|:-------------------:|:------------------------:|
-|  **1L**<br>Size   |    **5**<br>Speed     |                     **= yours**<br>Stamina                      | **2**<br>Stability  | **1 + M**<br>Free Strike |
-| **—**<br>Immunity | **Climb**<br>Movement | **[Intimidate](../../../../skill/interpersonal/intimidate.md)**<br>Skills |                     |                          |
-|  **+2**<br>Might  |   **+1**<br>Agility   |                        **-1**<br>Reason                         | **+2**<br>Intuition |    **+2**<br>Presence    |
+```ds-sb
+agility: 1
+ev: ""
+features:
+    - ability_type: Signature Ability
+      distance: Melee 1
+      effects:
+        - effect: The target takes damage equal to 4 + the bear's Might score and is pushed up to 2 squares.
+          name: Effect
+        - cost: Spend 1 Ferocity
+          effect: The target is [force moved](../../../../movement/forced-movement.md) up to a number of additional squares equal to the bear's Might score.
+      feature_type: ability
+      flavor: The bear casually swats the pesky foe into next week.
+      keywords:
+        - Companion
+        - Melee
+        - Weapon
+      metadata:
+        scc:
+            - mcdm.beastheart.v1/feature.ability.companion.beastheart.bear.level-1/backhand
+      name: Backhand
+      target: One creature or object
+      type: feature
+      usage: Maneuver
+    - effects:
+        - effect: You gain a +1 bonus to your stability.
+      feature_type: feature
+      metadata:
+        scc:
+            - mcdm.beastheart.v1/feature.companion.beastheart.bear.level-1/strong-like-bear
+      name: Strong Like Bear
+      type: feature
+free_strike: 1 + M
+intuition: 2
+keywords:
+    - Animal
+    - Companion
+level: 1
+metadata:
+    scc: mcdm.beastheart.v1/monster.companion.beastheart.statblock/bear
+    source: mcdm.beastheart.v1
+might: 2
+movement: Climb
+name: Bear
+organization: Companion
+presence: 2
+reason: -1
+role: ""
+size: 1L
+skills:
+    - Intimidate
+speed: 5
+stability: 2
+stamina: = yours
+type: statblock
+```
